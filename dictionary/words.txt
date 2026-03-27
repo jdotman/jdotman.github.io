@@ -365,7 +365,6 @@ tub
 van
 vat
 via
-vim
 vow
 wag
 war
@@ -381,10 +380,8 @@ won
 woo
 yam
 yap
-yaw
 yes
 yet
-yew
 zip
 zoo
 blue
@@ -612,7 +609,6 @@ jump
 june
 keen
 kept
-kern
 kill
 king
 kiss
@@ -649,7 +645,6 @@ long
 loom
 loop
 lore
-lorn
 loss
 lost
 loud
@@ -681,7 +676,6 @@ mist
 moat
 mock
 mole
-molt
 monk
 moon
 mope
@@ -751,7 +745,6 @@ pour
 prey
 prod
 prop
-prow
 pulp
 pump
 pure
@@ -789,7 +782,6 @@ room
 rope
 rose
 rout
-rove
 ruin
 rule
 rump
@@ -853,7 +845,6 @@ snug
 soak
 sock
 sole
-soma
 song
 sort
 soul
@@ -910,7 +901,6 @@ told
 toll
 tomb
 tone
-tong
 toot
 torn
 tort
@@ -921,7 +911,6 @@ trap
 trek
 trim
 trip
-trod
 true
 tube
 tuck
@@ -937,7 +926,6 @@ unit
 upon
 urge
 vain
-vale
 vary
 vast
 veil
@@ -962,12 +950,10 @@ warp
 wart
 wave
 weak
-weal
 wean
 weed
 week
 welt
-wend
 west
 whim
 whip
@@ -992,7 +978,6 @@ worm
 worn
 wrap
 wren
-writ
 yell
 yoke
 zeal
@@ -1424,7 +1409,6 @@ brave
 brawl
 braze
 break
-breve
 brisk
 broad
 brood
@@ -1512,7 +1496,6 @@ coach
 comet
 comma
 comic
-copal
 cords
 couch
 count
@@ -1577,7 +1560,6 @@ droop
 drove
 drown
 dryer
-duchy
 dully
 dummy
 dunce
@@ -1687,7 +1669,6 @@ ivory
 joust
 juicy
 jumbo
-junto
 karma
 kebab
 kitty
@@ -1813,10 +1794,6 @@ rally
 rampant
 raven
 rebel
-rebus
-recut
-redox
-refit
 regal
 reign
 relic
@@ -1828,7 +1805,6 @@ resin
 retch
 retro
 reuse
-revue
 ridge
 risky
 rivet
