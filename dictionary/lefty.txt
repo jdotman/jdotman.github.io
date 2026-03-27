@@ -278,7 +278,6 @@ fast
 fasted
 faster
 fastest
-fat
 fate
 fated
 fates
