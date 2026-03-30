@@ -1,15 +1,1 @@
-The dragon roars and the earth shakes beneath your boots.
-Steel your heart, brave warrior, and face the goblin king.
-A dark shadow falls across the land as the beast wakes.
-Grip your blade and stand firm against the coming storm.
-The ancient evil stirs from sleep and your quest begins now.
-The fire beast rises from the pit and blocks your path.
-Hold your ground and let your courage guide you to victory.
-The goblin horde charges down the hill with sharp spears raised.
-One lone warrior stands against the growing tide of dark forces.
-Deep in the cave, something ancient and very hungry stirs awake.
-Your heart pounds as the iron gate crashes open before you.
-Raise your shield and brace for the creature's first heavy blow.
-The dark sorcerer laughs from his tower as his beasts march.
-Every step brings you closer to the final boss waiting ahead.
-The cave troll swings its club and you roll to safety.
+a. b. c. d. e. f. g. h. i. j. k.
