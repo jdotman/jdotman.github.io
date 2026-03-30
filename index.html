@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="screen-orientation" content="portrait">
+  <meta name="x5-orientation" content="portrait">
+  <meta name="browsermode" content="application">
   <title>Keeb Quest - Typing Battles</title>
   <meta name="description" content="Keeb Quest is a free browser-based typing game. Type words to defeat enemies, survive boss fights, and level up your speed and accuracy.">
   <meta name="keywords" content="typing game, typing practice, keyboard game, browser game, keeb quest, keebquest">
@@ -13,21 +16,33 @@
   <link rel="canonical" href="https://www.keebquest.com">
   <link rel="icon" type="image/svg+xml" href="./favicon.svg">
   <link rel="apple-touch-icon" href="./favicon.svg">
+  <link rel="manifest" href="./manifest.json">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Keeb Quest: Typing Battles">
   <meta name="twitter:description" content="A free browser-based typing game. Type words to defeat enemies, survive boss fights, and level up your speed and accuracy.">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    html, body { width: 100%; height: 100%; background: #000; overflow: hidden; }
+    html, body {
+      width: 100%; height: 100%; background: #000; overflow: hidden;
+      display: flex; flex-direction: column;
+      touch-action: manipulation;
+      -webkit-user-select: none; user-select: none;
+    }
+    #game-wrapper {
+      flex: 1; min-height: 0; overflow: hidden;
+      display: flex; justify-content: center; align-items: center;
+    }
     canvas {
       image-rendering: -moz-crisp-edges;
       image-rendering: -webkit-crisp-edges;
       image-rendering: pixelated;
     }
   </style>
-  <script type="module" crossorigin src="./assets/index-CfeLfKxX.js"></script>
+  <script type="module" crossorigin src="./assets/index-nxUTHzrN.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-Cr66cxyb.css">
   <script defer src="https://cloud.umami.is/script.js" data-website-id="628f7c6a-c065-4e5c-a4b8-8cd96b0e5619"></script>
 </head>
-<body>
+<body>
+  <div id="game-wrapper"></div>
 </body>
 </html>
