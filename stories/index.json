@@ -1,0 +1,29 @@
+[
+  {
+    "id": "a3f7c1e2-8b4d-4e9a-b5c6-d2f1a8e3b7c4",
+    "title": "The Sunken Temple",
+    "description": "A flooded ruin beneath the marshlands holds treasures and dangers in equal measure. The water is rising.",
+    "tags": ["treasure-hunt", "exploration"],
+    "estimatedMinutes": 10,
+    "dateGenerated": "2026-04-03",
+    "dayOfYear": "04-03"
+  },
+  {
+    "id": "d4e8f2a1-6c3b-4d7e-a9f5-1b2c8e4d6a3f",
+    "title": "The Whispering Keep",
+    "description": "A ruined fortress on the northern moors glows at night and the nearby village cannot sleep. You have been hired to silence the whispers before the harvest moon.",
+    "tags": ["mystery", "exploration"],
+    "estimatedMinutes": 10,
+    "dateGenerated": "2026-04-04",
+    "dayOfYear": "04-04"
+  },
+  {
+    "id": "f3a8c5e1-2d9b-4f7e-b0c4-6a1d8e3f5c2b",
+    "title": "The Queen's Cipher",
+    "description": "A forged invitation and a dangerous secret are your only weapons in the royal palace. The spymaster's eyes are everywhere, and time is running out.",
+    "tags": ["diplomacy", "mystery"],
+    "estimatedMinutes": 10,
+    "dateGenerated": "2026-04-05",
+    "dayOfYear": "04-05"
+  }
+]

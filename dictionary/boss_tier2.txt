@@ -13,3 +13,47 @@ A spectral knight drifts through the wall and levels its ghostly lance at you.
 The swamp hydra lunges from the murky water with three snapping, hungry heads.
 Dark clouds gather and the demon general descends on wings of smoke and ash.
 The cursed armor stands on its own, raises its blade, and charges right at you.
+The minotaur lowers its horns and stampedes down the narrow corridor toward you.
+A giant scorpion bursts from the sand and snaps its pincers at your ankle.
+The necromancer hurls a bolt of shadow that freezes the air as it flies past.
+You step onto the frozen lake just as something enormous moves beneath the ice.
+The gargoyle drops from the tower ledge and swoops toward you with claws spread.
+A wave of green fire rolls through the tunnel as the dragon hatching breathes.
+The warlord raises his war hammer and brings it crashing down onto your shield.
+Dark vines erupt from the forest floor and coil around your legs like snakes.
+The ghost pirate draws a rusted cutlass and fades in and out of the moonlight.
+A stone sentinel steps down from its pedestal and raises a fist of carved rock.
+The witch throws a potion that explodes into a cloud of choking violet smoke.
+The dire wolf snarls and charges with its pack streaming close behind in the dark.
+A crystal golem shatters the wall and steps through the dust with fists raised high.
+The shadow assassin appears behind you and you barely dodge the poisoned blade.
+You are standing in a great hall. Tattered banners hang from the walls above you.
+The corridor opens into a flooded chamber. Dark water reaches up to your knees.
+Ahead of you is a massive iron gate. The lock has been smashed from the inside.
+You step onto a stone bridge over a chasm. Far below, something moves in the dark.
+The walls of this room are covered in scratches, as if something clawed to get out.
+A cold wind blows through the archway ahead and carries with it the smell of decay.
+You are in an old library. Books have been torn from their shelves and scattered about.
+The stairs spiral down into the earth. Torchlight flickers from somewhere far below you.
+You enter a forge room. The furnace is cold, but the tools are laid out as if ready to use.
+The hallway ends at a heavy wooden door. Strange runes have been carved into its frame.
+You are on a narrow cliff path. The drop to your left is sheer and impossibly deep.
+The chamber is round and the ceiling is painted with faded stars and a crescent moon.
+Thick cobwebs fill the doorway ahead. Something large has been spinning them for years.
+You stand at a crossroads underground. Three tunnels lead off into pitch black silence.
+The floor here is covered in a thin layer of ash. Footprints lead toward the far door.
+You are in a guard room. Weapons hang on racks along the wall but most of them are rusted.
+The passage narrows into a crawl space. You can feel heat rising from the stones below you.
+You stand in a courtyard open to the sky. The well at the center has been sealed with chains.
+The floor of this room is covered in broken glass that crunches loudly under your every step.
+A set of iron tracks runs along the tunnel floor. An overturned mine cart blocks the way ahead.
+You enter a barracks. The beds are still made but a thick layer of dust covers every surface.
+The walls here are painted with scenes of a great hunt. The paint is faded but still visible.
+You are on a ledge inside a tall shaft. A rope ladder hangs from above but several rungs are missing.
+The room contains a single large mirror propped against the far wall. Your reflection looks wrong somehow.
+A waterfall pours through a crack in the wall and has flooded the lower half of this chamber.
+The corridor branches into three paths. Scratch marks on the floor suggest many have gone left.
+You stand in an old chapel. The altar is cracked down the middle and the candles have melted flat.
+The ceiling drips with moisture and the stone walls are streaked green with ancient slime and mold.
+A wooden drawbridge spans the gap ahead. The chains that hold it are tight but badly corroded.
+You enter a trophy room. Animal skulls and antlers line the walls from floor to ceiling.
