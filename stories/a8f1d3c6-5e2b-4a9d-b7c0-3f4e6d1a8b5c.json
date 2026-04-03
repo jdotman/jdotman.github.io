@@ -1,0 +1,182 @@
+{
+  "id": "a8f1d3c6-5e2b-4a9d-b7c0-3f4e6d1a8b5c",
+  "title": "The Gilded Vault",
+  "description": "The merchant prince keeps a stolen relic locked beneath his manor. Tonight, during the masquerade, is your only chance to take it back.",
+  "author": "AI",
+  "tags": ["treasure-hunt", "conflict"],
+  "estimatedMinutes": 10,
+  "dateGenerated": "2026-04-08",
+  "dayOfYear": "04-08",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "The merchant prince's manor blazes with light. Carriages line the drive and masked guests flow up the marble steps in silks and velvet. The masquerade is in full swing. Somewhere beneath this building, behind locks and guards, sits a holy relic that was never his to take. Tonight you take it back.",
+      "choices": [
+        { "label": "enter through the front doors", "nextNode": "front-entrance" },
+        { "label": "climb the garden wall", "nextNode": "garden-wall" },
+        { "label": "use the servant entrance", "nextNode": "servant-quarters" }
+      ]
+    },
+    "front-entrance": {
+      "passage": "The grand doors stand open, flanked by torches and two house guards in lacquered armor. A steward checks each guest's invitation against a ledger — every name, every seal. Your forged invitation is good work but not perfect. The steward's eyes are sharp. You steady your hands and step forward into the torchlight.",
+      "choices": [
+        { "label": "present your forged invitation", "nextNode": "ballroom" },
+        { "label": "retreat toward the garden", "nextNode": "garden-wall" }
+      ]
+    },
+    "garden-wall": {
+      "passage": "The garden wall is ten feet of mortared stone, draped in ivy. You find a foothold where the mortar has crumbled and pull yourself up. On the other side, a manicured garden stretches toward the manor. To the left a glass greenhouse glows faintly. Ahead, a cobbled courtyard lies open under the stars.",
+      "choices": [
+        { "label": "slip into the greenhouse", "nextNode": "greenhouse" },
+        { "label": "cross the open courtyard", "nextNode": "courtyard" }
+      ]
+    },
+    "servant-quarters": {
+      "passage": "The servants' entrance is a low door around the back of the manor, propped open with a brick. Inside, harried staff rush between the kitchens and the laundry. No one questions another unfamiliar face on a night like this. The smell of roasting meat fills the corridor. Stairs lead down to the left.",
+      "choices": [
+        { "label": "blend in with the staff", "nextNode": "kitchen" },
+        { "label": "descend to the wine cellar", "nextNode": "wine-cellar" }
+      ]
+    },
+    "ballroom": {
+      "passage": "The ballroom is a sea of masks and candlelight. A string quartet plays beneath crystal chandeliers as couples turn across the marble floor. The merchant prince himself holds court near the fireplace, his golden mask unmistakable. You spot a side door half-hidden behind a tapestry, and a balcony through the glass doors to the east.",
+      "choices": [
+        { "label": "join the dancers on the floor", "nextNode": "dance-floor" },
+        { "label": "slip through the side door", "nextNode": "study" },
+        { "label": "step out onto the balcony", "nextNode": "balcony" }
+      ]
+    },
+    "greenhouse": {
+      "passage": "The greenhouse is warm and humid, thick with orchids and damp earth. Rare plants crowd the iron-framed glass panels. At the back, behind a wall of hanging ferns, the flagstones are scratched in an arc — a concealed door has been opened many times. The courtyard is visible through the fogged glass.",
+      "choices": [
+        { "label": "find the passage behind the ferns", "nextNode": "vault-corridor" },
+        { "label": "exit into the courtyard", "nextNode": "courtyard" }
+      ]
+    },
+    "kitchen": {
+      "passage": "The kitchen is chaos — fire and shouting and the crash of copper pots. Cooks bark orders at overwhelmed serving staff who rush trays of food toward the ballroom. A wide staircase leads down to what must be the wine cellar. No one would notice you picking up a tray and walking out.",
+      "choices": [
+        { "label": "carry a tray to the ballroom", "nextNode": "ballroom" },
+        { "label": "descend to the wine cellar", "nextNode": "wine-cellar" }
+      ]
+    },
+    "dance-floor": {
+      "passage": "You take a partner and turn with the music, eyes scanning behind your mask. The merchant prince is close now — broad-shouldered, confident, laughing with a circle of admirers. His golden mask catches the candlelight. You could approach him directly. Or you could use the next turn to drift toward the study door unnoticed.",
+      "choices": [
+        { "label": "approach the merchant prince", "nextNode": "merchant-confrontation" },
+        { "label": "slip away toward the study", "nextNode": "study" }
+      ]
+    },
+    "balcony": {
+      "passage": "The night air is cool after the heat of the ballroom. The balcony overlooks the courtyard below — a fifteen-foot drop to flagstones, manageable with care. Above, the rooftop is closer than you expected, reachable by the ornamental ironwork that runs along the eaves. The sky is clear and full of stars.",
+      "choices": [
+        { "label": "climb up to the rooftop", "nextNode": "rooftop" },
+        { "label": "drop into the courtyard below", "nextNode": "courtyard" }
+      ]
+    },
+    "study": {
+      "passage": "The study is paneled in dark oak, lined with books no one has read. A heavy desk dominates the center, its drawers locked — except one, which holds a brass key on a silk cord. Behind the bookcase, a draft leaks through a crack in the wall. Something is hidden behind the shelves.",
+      "choices": [
+        { "label": "take the key from the desk", "nextNode": "vault-door" },
+        { "label": "open the hidden passage", "nextNode": "vault-corridor" }
+      ]
+    },
+    "wine-cellar": {
+      "passage": "Barrels and casks line the stone walls, their contents worth more than most houses. The air is cool and still, rich with the smell of old oak. Behind the largest cask, the wall is false — a passage leads into darkness, sloping downward. Upstairs, the muffled music of the ballroom thumps through the ceiling.",
+      "choices": [
+        { "label": "follow the passage behind casks", "nextNode": "vault-corridor" },
+        { "label": "go back up to the ballroom", "nextNode": "ballroom" }
+      ]
+    },
+    "courtyard": {
+      "passage": "The courtyard is empty — all the guests are inside. Moonlight falls on a marble fountain and neatly trimmed hedges. The study window on the second floor is dark and slightly ajar, reachable by climbing the trellis. To the south, the greenhouse glows like a lantern, its glass walls fogged with warmth.",
+      "choices": [
+        { "label": "climb through the study window", "nextNode": "study" },
+        { "label": "enter the greenhouse", "nextNode": "greenhouse" }
+      ]
+    },
+    "rooftop": {
+      "passage": "The rooftop is flat and wide, lined with chimney stacks. The sounds of the masquerade drift up from below — music, laughter, the clink of crystal. A glass skylight sits in the center of the east wing, its frame unlocked. Through it you can see a corridor below, and beyond it, an iron door.",
+      "choices": [
+        { "label": "drop through the skylight", "nextNode": "vault-interior" },
+        { "label": "cross to the east wing", "nextNode": "study" }
+      ]
+    },
+    "vault-corridor": {
+      "passage": "A narrow stone corridor runs beneath the manor's east wing. The walls are damp and the air smells of iron. At the far end, a heavy door stands reinforced with iron bands and fitted with a complex lock. Halfway down, a side passage leads to the guard room. Lamplight flickers from within it.",
+      "choices": [
+        { "label": "approach the vault door quietly", "nextNode": "vault-door" },
+        { "label": "investigate the guard room", "nextNode": "caught-red-handed" }
+      ]
+    },
+    "vault-door": {
+      "passage": "The vault door is a slab of iron-banded oak with a lock of dwarven make — six tumblers, three false pins, and a spring-loaded deadbolt. It would take a master locksmith ten minutes. You have five at best before the guard patrol returns. The key from the study would open it instantly.",
+      "choices": [
+        { "label": "pick the complex lock", "nextNode": "vault-interior" },
+        { "label": "force the door mechanism", "nextNode": "caught-red-handed" }
+      ]
+    },
+    "vault-interior": {
+      "passage": "The vault is small and cold. Stone shelves line the walls, holding gold plate, jeweled daggers, and chests of coin. In the center, on a marble pedestal under a glass dome, sits the relic — a golden chalice, ancient and plain, humming with a faint warmth that has nothing to do with the room.",
+      "choices": [
+        { "label": "lift the relic from its pedestal", "nextNode": "relic-found" },
+        { "label": "grab everything in sight", "nextNode": "caught-red-handed" }
+      ]
+    },
+    "relic-found": {
+      "passage": "The chalice is in your hands. It weighs less than it should and the gold is warm against your skin. You have what you came for. Now you need to leave. A trapdoor behind the pedestal opens onto a tunnel. The ballroom is two corridors away. Your contact waits at the garden gate.",
+      "choices": [
+        { "label": "take the hidden tunnel out", "nextNode": "clean-getaway" },
+        { "label": "walk out through the masquerade", "nextNode": "dramatic-escape" },
+        { "label": "deliver it to your contact", "nextNode": "betrayed-ending" }
+      ]
+    },
+    "merchant-confrontation": {
+      "passage": "The merchant prince removes his golden mask as you approach. His smile does not reach his eyes. 'I know why you are here,' he says quietly. 'I have been expecting you. The relic is mine by purchase, not by theft. But I am a reasonable man. Perhaps we can come to an arrangement.'",
+      "choices": [
+        { "label": "accept his offer", "nextNode": "bargain-struck" },
+        { "label": "refuse and walk away", "nextNode": "study" }
+      ]
+    },
+    "clean-getaway": {
+      "passage": "The tunnel opens at the riverbank outside the estate walls. Night air hits you clean and cold. The chalice glows faintly in your pack. Behind you the masquerade plays on, the music bright and heedless. No one knows. No one will know until morning. You vanish into the dark along the river.",
+      "choices": [],
+      "ending": {
+        "title": "The Perfect Heist",
+        "flavor": "The best thief is the one whose name no one knows."
+      }
+    },
+    "dramatic-escape": {
+      "passage": "You stride through the ballroom with the chalice hidden beneath your cloak. A guard shouts. Then another. Masks turn toward you. You break into a run, shoulder through the front doors, and leap from the marble steps into the night. They will remember your mask. They will not find your face.",
+      "choices": [],
+      "ending": {
+        "title": "Bold Exit",
+        "flavor": "Subtlety is overrated when you have a head start."
+      }
+    },
+    "caught-red-handed": {
+      "passage": "The guards are on you before you can move. Hands seize your arms and twist them behind your back. Torchlight floods the corridor and you hear the merchant prince's voice, calm and amused, from somewhere behind the soldiers. 'Put our guest in the cellar,' he says. 'We will discuss terms in the morning.'",
+      "choices": [],
+      "ending": {
+        "title": "Caught in the Act",
+        "flavor": "Every lock has a key. Every vault has a guard."
+      }
+    },
+    "bargain-struck": {
+      "passage": "You sit across from the merchant prince in his parlor, masks removed, wine poured. He names a price — not gold, but a favor owed. A task he needs done that no one else will take. You shake his hand. The chalice will be returned. But the debt is not yet paid.",
+      "choices": [],
+      "ending": {
+        "title": "The Devil's Bargain",
+        "flavor": "Some debts cost more than gold. You will learn this soon."
+      }
+    },
+    "betrayed-ending": {
+      "passage": "Your contact is waiting at the garden gate as promised. He reaches for the chalice with both hands. Then you see the guards stepping from the shadows behind him, six of them, swords drawn. He does not meet your eyes. 'I am sorry,' he whispers. 'He offered more.' The gate locks behind you.",
+      "choices": [],
+      "ending": {
+        "title": "Sold Out",
+        "flavor": "Trust is a currency. You spent yours on the wrong man."
+      }
+    }
+  }
+}
