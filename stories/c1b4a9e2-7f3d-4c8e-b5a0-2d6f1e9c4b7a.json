@@ -1,0 +1,176 @@
+{
+  "id": "c1b4a9e2-7f3d-4c8e-b5a0-2d6f1e9c4b7a",
+  "title": "Tides of Fortune",
+  "description": "Your ship has broken apart on a wild coast and the storm is not finished with you. Survival is one thing — finding a way home is another.",
+  "author": "AI",
+  "tags": ["escape", "exploration"],
+  "estimatedMinutes": 10,
+  "dateGenerated": "2026-04-06",
+  "dayOfYear": "04-06",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "The cold wakes you. You are face-down on a rock beach, salt water still draining from your lungs. The broken mast of your ship juts from the surf thirty feet away. Rain hammers the stones. Wind tears at the cliff top above. You are alive, but the storm is not finished with you yet.",
+      "choices": [
+        { "label": "search the beach wreckage", "nextNode": "wreckage" },
+        { "label": "climb toward the cliff path", "nextNode": "cliff-path" },
+        { "label": "take shelter in the trees", "nextNode": "forest-edge" }
+      ]
+    },
+    "wreckage": {
+      "passage": "Cargo and timber litter the beach for a hundred yards. A locked sea-chest sits wedged between two boulders, still intact. The ship's hull groans as swells batter it — the hold is accessible through a torn section, but the vessel lists badly. You have minutes before it breaks apart entirely.",
+      "choices": [
+        { "label": "check the ship's flooded hold", "nextNode": "ship-hold" },
+        { "label": "crack open the locked chest", "nextNode": "chest-supplies" },
+        { "label": "make for the coastal road", "nextNode": "coastal-road" }
+      ]
+    },
+    "cliff-path": {
+      "passage": "A goat path rises steeply up the cliff face, switchbacking between salt-bleached boulders. Halfway up, an iron door is set flush into the rock — old, rusted, standing slightly ajar. The hinges are oiled despite the rust on the frame. Above, through the rain, a watchtower silhouette looms against the grey sky.",
+      "choices": [
+        { "label": "slip through the iron door", "nextNode": "sea-cave" },
+        { "label": "climb on to the watchtower", "nextNode": "watchtower" }
+      ]
+    },
+    "forest-edge": {
+      "passage": "The treeline breaks the wind immediately. Twisted pines and salt-stunted oak press close together, roots tangled over black rock. A pressed-grass path winds between them, recently used. Fifty yards in, candlelight flickers through the trunks — warm and steady, sheltered from the rain. Something has been cooking. You can smell it.",
+      "choices": [
+        { "label": "follow the candlelit path ahead", "nextNode": "hermit-cottage" },
+        { "label": "gather wood and make camp", "nextNode": "forest-camp" }
+      ]
+    },
+    "ship-hold": {
+      "passage": "The hold is flooded to the knee. In the far corner, a young sailor — Dav, barely sixteen — is pinned beneath a fallen beam, his face white with cold and fear. He is alive. Getting him free will take time and effort, but the ship is settling fast into the gravel.",
+      "choices": [
+        { "label": "free him from the beam", "nextNode": "rescued-sailor" },
+        { "label": "mark his location and leave", "nextNode": "coastal-road" }
+      ]
+    },
+    "chest-supplies": {
+      "passage": "The sea-chest yields to a rock: inside are a coil of rope, a waterlogged lantern that still functions, a pouch of silver, and a brass compass. The compass needle does not point north — it trembles and locks on the cliff face to the east. Drawn there by something, or someone.",
+      "choices": [
+        { "label": "pocket everything and head north", "nextNode": "headland" },
+        { "label": "follow where the compass points", "nextNode": "sea-cave" }
+      ]
+    },
+    "sea-cave": {
+      "passage": "The cave smells of salt and old fires. Smugglers have been here recently — crates of wine and baled cloth fill one wall, and a map of the coast is nailed above a workbench. A rowboat, seaworthy, sits in a tidal pool at the cave's back. An oil lamp burns low on the bench.",
+      "choices": [
+        { "label": "launch the rowboat into the storm", "nextNode": "rowboat-escape" },
+        { "label": "search the smuggler crates", "nextNode": "smuggler-crates" },
+        { "label": "douse the lamp and hide", "nextNode": "smuggler-captive" }
+      ]
+    },
+    "watchtower": {
+      "passage": "The watchtower is abandoned, its wooden door rotted from its hinges. Inside, the upper platform is intact and offers a view across the whole coastline. To the south the wreck is visible. To the northwest, against all hope, the running lights of a ship glow through the rain. It is close.",
+      "choices": [
+        { "label": "build a signal fire here", "nextNode": "signal-fire" },
+        { "label": "descend the inland path", "nextNode": "coastal-road" }
+      ]
+    },
+    "hermit-cottage": {
+      "passage": "The cottage is small and tight against the weather, walls thick stone, chimney drawing well. An old man opens the door before you can knock — he has been watching from the window. He says nothing, only steps aside to let you in. The fire inside is warm. He sets a kettle on.",
+      "choices": [
+        { "label": "accept his offer of shelter", "nextNode": "hermit-safe" },
+        { "label": "ask about the road to town", "nextNode": "town-road-ending" }
+      ]
+    },
+    "forest-camp": {
+      "passage": "You find a hollow between two fallen pines that breaks the worst of the wind. The ground is damp but not sodden. You gather enough deadwood for a small fire and coax it alive with your flint. The flames give warmth and light, but the storm overhead is worsening. The trees creak and groan.",
+      "choices": [
+        { "label": "push toward the high ground", "nextNode": "watchtower" },
+        { "label": "stay and weather the storm", "nextNode": "storm-lost" }
+      ]
+    },
+    "headland": {
+      "passage": "The headland juts into the sea like a black fist, waves exploding against its base. Up here the wind is savage and the footing uncertain. But you can see for miles — north and south along the coast — and there, northwest, the lights of a vessel moving parallel to shore. Close enough.",
+      "choices": [
+        { "label": "wave your lantern toward the ship", "nextNode": "signal-fire" },
+        { "label": "climb down to the river mouth", "nextNode": "river-mouth" }
+      ]
+    },
+    "river-mouth": {
+      "passage": "A black-water river meets the sea here in a chaos of standing waves and churned sand. Inland, the river is calmer, its banks lined with sedge grass and wind-bent willow. A ford crosses it twenty yards up — the stones are white and shallow. Beyond, the coastal road is just visible through the trees.",
+      "choices": [
+        { "label": "ford the river to the road", "nextNode": "coastal-road" },
+        { "label": "follow the bank upstream", "nextNode": "forest-edge" }
+      ]
+    },
+    "coastal-road": {
+      "passage": "The coastal road is a rutted dirt track running north toward a cluster of lights — a fishing village, by the look of it, no more than a mile away. The rain is easing slightly. To the east you can make out the top of the watchtower against the sky. The road is empty.",
+      "choices": [
+        { "label": "seek the lit cottage ahead", "nextNode": "hermit-cottage" },
+        { "label": "climb back toward the watchtower", "nextNode": "watchtower" }
+      ]
+    },
+    "signal-fire": {
+      "passage": "You pile the old door and rotted planks from the tower floor and touch a spark to them. The wood catches reluctantly, then blazes. You feed it everything burnable and climb onto the parapet, waving your lantern over the flames. On the horizon the distant ship alters course. It is turning. Coming in.",
+      "choices": [
+        { "label": "tend the fire through the night", "nextNode": "rescued-by-ship" },
+        { "label": "abandon the fire and run", "nextNode": "storm-lost" }
+      ]
+    },
+    "rescued-sailor": {
+      "passage": "With a shout and a heave you shift the beam enough for Dav to drag himself free. His leg is badly bruised but unbroken. He grips your arm as you haul him upright. The hold groans around you — the ship is going. You get out with seconds to spare, onto the dark beach.",
+      "choices": [
+        { "label": "guide him toward the signal tower", "nextNode": "watchtower" },
+        { "label": "lead him through the forest path", "nextNode": "forest-edge" }
+      ]
+    },
+    "smuggler-crates": {
+      "passage": "The crates hold wine and woolen cloth, clearly untaxed. More useful: a hand-drawn map of the coast is tacked above the workbench, showing a path along the cliff base to the headland north and a route south to the coastal road behind the bluffs. You memorize it quickly.",
+      "choices": [
+        { "label": "follow the smuggler map south", "nextNode": "coastal-road" },
+        { "label": "take the hidden tunnel north", "nextNode": "headland" }
+      ]
+    },
+    "rescued-by-ship": {
+      "passage": "The rescue boat grounds on the shingle before dawn. Two sailors help you down from the rocks, their faces grim with the cold. Below, the wreck has broken apart entirely — nothing left to salvage. You are wrapped in oilskin and handed a flask of something warm. The ship's lanterns are bright and steady.",
+      "choices": [],
+      "ending": {
+        "title": "Rescued Before Dawn",
+        "flavor": "A fire kept burning long enough is always seen by someone."
+      }
+    },
+    "hermit-safe": {
+      "passage": "The hermit asks no questions and gives no name. He feeds you salt fish and hard bread, banks the fire high, and sets a blanket by the hearth. Outside the storm breaks in full. You sleep the sleep of the utterly exhausted. When you wake the sun is up and the sea is calm.",
+      "choices": [],
+      "ending": {
+        "title": "Harbor in the Storm",
+        "flavor": "The most reliable shelter is always the kind offered without being asked."
+      }
+    },
+    "town-road-ending": {
+      "passage": "The road brings you to a fishing village just as the storm breaks fully overhead. The harbormaster opens his door at your knock, takes one look at you, and pulls you inside. Hot soup, dry clothes, a fire. You lost the ship. You lost the cargo. But you are here, and the morning will come.",
+      "choices": [],
+      "ending": {
+        "title": "The Harbor Light",
+        "flavor": "Every road walked in darkness ends somewhere warm, if you keep walking."
+      }
+    },
+    "rowboat-escape": {
+      "passage": "The rowboat is small and the waves are enormous. You pull until your shoulders burn and your hands bleed. Three times a wave nearly capsizes you. But the storm has a seam in it somewhere to the east, and you find it before dawn. The oars drag. The water stills. You made it.",
+      "choices": [],
+      "ending": {
+        "title": "Against the Tide",
+        "flavor": "Survival is sometimes indistinguishable from stubbornness."
+      }
+    },
+    "smuggler-captive": {
+      "passage": "The lamp goes out but the dark does not protect you. Two men enter from the sea side — they know every corner of this cave. They are not violent, but they are not friendly either. You spend two cold days here before they decide what to do with you.",
+      "choices": [],
+      "ending": {
+        "title": "Guest of the Wreckers",
+        "flavor": "Not every coast that draws ships to ruin does so by accident."
+      }
+    },
+    "storm-lost": {
+      "passage": "The storm finds you in the open. The fire drowns in rain and the darkness becomes absolute. You move by feel, then stop moving. The cold is thorough and final. When morning comes and fishermen walk the shore, they find the wreck, a drowned fire, and nothing more.",
+      "choices": [],
+      "ending": {
+        "title": "Taken by the Shore",
+        "flavor": "The sea does not always give back what it takes."
+      }
+    }
+  }
+}

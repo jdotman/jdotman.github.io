@@ -25,5 +25,14 @@
     "estimatedMinutes": 10,
     "dateGenerated": "2026-04-05",
     "dayOfYear": "04-05"
+  },
+  {
+    "id": "c1b4a9e2-7f3d-4c8e-b5a0-2d6f1e9c4b7a",
+    "title": "Tides of Fortune",
+    "description": "Your ship has broken apart on a wild coast and the storm is not finished with you. Survival is one thing — finding a way home is another.",
+    "tags": ["escape", "exploration"],
+    "estimatedMinutes": 10,
+    "dateGenerated": "2026-04-06",
+    "dayOfYear": "04-06"
   }
 ]
