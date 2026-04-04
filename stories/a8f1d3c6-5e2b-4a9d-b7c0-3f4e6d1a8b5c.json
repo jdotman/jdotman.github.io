@@ -10,132 +10,132 @@
   "startNode": "intro",
   "nodes": {
     "intro": {
-      "passage": "The merchant prince's manor blazes with light. Carriages line the drive and masked guests flow up the marble steps in silks and velvet. The masquerade is in full swing. Somewhere beneath this building, behind locks and guards, sits a holy relic that was never his to take. Tonight you take it back.",
+      "passage": "The merchant prince's manor blazes with light. Carriages line the drive and masked guests flow up the marble steps in silks and velvet. The masquerade is in full swing. Somewhere beneath this building sits a holy relic that was never his to take. A garden wall borders the west side. A servants' door stands around back. Tonight you take it back.",
       "choices": [
-        { "label": "enter through the front doors", "nextNode": "front-entrance" },
-        { "label": "climb the garden wall", "nextNode": "garden-wall" },
-        { "label": "use the servant entrance", "nextNode": "servant-quarters" }
+        { "label": "enter the front doors", "nextNode": "front-entrance", "hint": "Music and warm light spill out across the marble steps." },
+        { "label": "climb the garden wall", "nextNode": "garden-wall", "hint": "Ivy rustles against the stone as you find your grip." },
+        { "label": "use the servant door", "nextNode": "servant-quarters", "hint": "The smell of roasting meat drifts from the propped-open door." }
       ]
     },
     "front-entrance": {
       "passage": "The grand doors stand open, flanked by torches and two house guards in polished armor. A steward checks each guest's invitation against a ledger - every name, every seal. Your forged invitation is good but not perfect. The steward's eyes are sharp. Beyond the drive, the garden wall is just visible in the dark.",
       "choices": [
-        { "label": "present your forged invitation", "nextNode": "ballroom" },
-        { "label": "retreat toward the garden", "nextNode": "garden-wall" }
+        { "label": "present your invitation", "nextNode": "ballroom", "hint": "You steady your hand and hold the parchment out with a calm smile." },
+        { "label": "retreat toward the garden", "nextNode": "garden-wall", "hint": "You bow politely and step back into the shadows of the drive." }
       ]
     },
     "garden-wall": {
       "passage": "The garden wall is ten feet of mortared stone, draped in ivy. You find a foothold where the mortar has crumbled and pull yourself up. On the other side, a manicured garden stretches toward the manor. To the left a glass greenhouse glows faintly. Ahead, a cobbled courtyard lies open under the stars.",
       "choices": [
-        { "label": "slip into the greenhouse", "nextNode": "greenhouse" },
-        { "label": "cross the open courtyard", "nextNode": "courtyard" }
+        { "label": "slip into the greenhouse", "nextNode": "greenhouse", "hint": "Warm air and the scent of orchids seep through the cracked door." },
+        { "label": "cross the courtyard", "nextNode": "courtyard", "hint": "Your boots are quiet on the cobblestones as moonlight guides you." }
       ]
     },
     "servant-quarters": {
       "passage": "The servants' entrance is a low door around the back of the manor, propped open with a brick. Inside, busy staff rush between the kitchens and the laundry. No one questions another strange face on a night like this. The smell of roasting meat fills the corridor. Stairs marked Wine Cellar lead down to the left.",
       "choices": [
-        { "label": "blend in with the staff", "nextNode": "kitchen" },
-        { "label": "descend to the wine cellar", "nextNode": "wine-cellar" }
+        { "label": "blend in with the staff", "nextNode": "kitchen", "hint": "You roll up your sleeves and fall into step behind a cook." },
+        { "label": "descend to the cellar", "nextNode": "wine-cellar", "hint": "The stone steps are cool and damp beneath your feet." }
       ]
     },
     "ballroom": {
       "passage": "The ballroom is a sea of masks and candlelight. A string quartet plays beneath crystal chandeliers as couples turn across the marble floor. The merchant prince himself holds court near the fireplace, his golden mask unmistakable. You spot a side door half-hidden behind a tapestry, and a balcony through the glass doors to the east.",
       "choices": [
-        { "label": "join the dancers on the floor", "nextNode": "dance-floor" },
-        { "label": "slip through the side door", "nextNode": "study" },
-        { "label": "step out onto the balcony", "nextNode": "balcony" }
+        { "label": "join the dancers", "nextNode": "dance-floor", "hint": "You take a stranger's hand and let the music carry you forward." },
+        { "label": "slip through the side door", "nextNode": "study", "hint": "The tapestry brushes your shoulder as you ease the door open." },
+        { "label": "step onto the balcony", "nextNode": "balcony", "hint": "Cool night air washes over you as you push through the glass doors." }
       ]
     },
     "greenhouse": {
       "passage": "The greenhouse is warm and humid, thick with orchids and damp earth. Rare plants crowd the iron-framed glass panels. At the back, behind a wall of hanging ferns, the flagstones are scratched in an arc - a concealed door has been opened many times. The courtyard is visible through the fogged glass.",
       "choices": [
-        { "label": "find the passage behind the ferns", "nextNode": "vault-corridor" },
-        { "label": "exit into the courtyard", "nextNode": "courtyard" }
+        { "label": "open the concealed door", "nextNode": "vault-corridor", "hint": "The ferns brush your face as you push them aside." },
+        { "label": "exit to the courtyard", "nextNode": "courtyard", "hint": "You ease the glass door shut behind you and step into moonlight." }
       ]
     },
     "kitchen": {
-      "passage": "The kitchen is chaos - fire and shouting and the crash of copper pots. Cooks bark orders at overwhelmed serving staff who rush trays of food toward the ballroom. A wide staircase leads down to what must be the wine cellar. No one would notice you picking up a tray and walking out.",
+      "passage": "The kitchen is chaos - fire and shouting and the crash of copper pots. Cooks bark orders at overwhelmed serving staff who rush trays of food toward the ballroom. A wide staircase leads down to what must be the wine cellar. No one would notice you picking up a tray and walking straight out.",
       "choices": [
-        { "label": "carry a tray to the ballroom", "nextNode": "ballroom" },
-        { "label": "descend to the wine cellar", "nextNode": "wine-cellar" }
+        { "label": "carry a tray upstairs", "nextNode": "ballroom", "hint": "Silver dishes clatter as you hoist the tray to your shoulder." },
+        { "label": "descend to the cellar", "nextNode": "wine-cellar", "hint": "The noise fades behind you with each step down the stairs." }
       ]
     },
     "dance-floor": {
       "passage": "You take a partner and turn with the music, eyes scanning behind your mask. The merchant prince is close now - broad-shouldered, confident, laughing with a circle of admirers. His golden mask catches the candlelight. You could approach him directly. Or you could use the next turn to drift toward the study door unnoticed.",
       "choices": [
-        { "label": "approach the merchant prince", "nextNode": "merchant-confrontation" },
-        { "label": "slip away toward the study", "nextNode": "study" }
+        { "label": "approach the prince", "nextNode": "merchant-confrontation", "hint": "His laughter fades as he notices you walking toward him." },
+        { "label": "drift toward the study", "nextNode": "study", "hint": "You let the music spin you closer to the half-hidden door." }
       ]
     },
     "balcony": {
       "passage": "The night air is cool after the heat of the ballroom. The balcony overlooks the courtyard below - a fifteen-foot drop to flagstones, manageable with care. Above, the rooftop is closer than you expected, reachable by the ornamental ironwork that runs along the eaves. The sky is clear and full of stars.",
       "choices": [
-        { "label": "climb up to the rooftop", "nextNode": "rooftop" },
-        { "label": "drop into the courtyard below", "nextNode": "courtyard" }
+        { "label": "climb to the rooftop", "nextNode": "rooftop", "hint": "The ironwork groans softly but holds your weight as you pull up." },
+        { "label": "drop into the courtyard", "nextNode": "courtyard", "hint": "You lower yourself over the railing and land in a crouch below." }
       ]
     },
     "study": {
       "passage": "The study is paneled in dark oak, lined with books no one has read. A heavy desk dominates the center, its drawers locked - except one, which holds a brass key on a silk cord. Behind the bookcase, a draft leaks through a crack in the wall. Something is hidden behind the shelves.",
       "choices": [
-        { "label": "take the key from the desk", "nextNode": "vault-door" },
-        { "label": "open the hidden passage", "nextNode": "vault-corridor" }
+        { "label": "take the brass key", "nextNode": "vault-door", "hint": "The silk cord is cool and smooth as you lift the key free." },
+        { "label": "search behind the bookcase", "nextNode": "vault-corridor", "hint": "The bookcase shifts with a low scrape when you push it aside." }
       ]
     },
     "wine-cellar": {
       "passage": "Barrels and casks line the stone walls, their contents worth more than most houses. The air is cool and still, rich with the smell of old oak. Behind the largest cask, the wall is false - a passage leads into darkness, sloping downward. Upstairs, the muffled music of the ballroom thumps through the ceiling.",
       "choices": [
-        { "label": "follow the passage behind casks", "nextNode": "vault-corridor" },
-        { "label": "go back up to the ballroom", "nextNode": "ballroom" }
+        { "label": "follow the hidden passage", "nextNode": "vault-corridor", "hint": "The false wall scrapes shut behind you as the darkness closes in." },
+        { "label": "go back to the ballroom", "nextNode": "ballroom", "hint": "Music and warmth rush over you as you push open the door above." }
       ]
     },
     "courtyard": {
       "passage": "The courtyard is empty - all the guests are inside. Moonlight falls on a marble fountain and neatly trimmed hedges. The study window on the second floor is dark and slightly ajar, reachable by climbing the trellis. To the south, the greenhouse glows like a lantern, its glass walls fogged with warmth.",
       "choices": [
-        { "label": "climb through the study window", "nextNode": "study" },
-        { "label": "enter the greenhouse", "nextNode": "greenhouse" }
+        { "label": "climb through the window", "nextNode": "study", "hint": "The wooden trellis creaks under your weight but holds firm." },
+        { "label": "enter the greenhouse", "nextNode": "greenhouse", "hint": "Warm, damp air hits your face as you ease the glass door open." }
       ]
     },
     "rooftop": {
-      "passage": "The rooftop is flat and wide, lined with chimney stacks. The sounds of the masquerade drift up from below - music, laughter, the clink of crystal. A glass skylight sits near the center, its frame unlocked. Through it you can see a corridor below. To the west, an open window leads into what looks like a study.",
+      "passage": "The rooftop is flat and wide, lined with chimney stacks. The sounds of the masquerade drift up from below - music, laughter, the clink of crystal. A glass skylight sits near the center, its frame unlocked. Through it you can see a corridor below. To the west, a window leads into what looks like a study.",
       "choices": [
-        { "label": "drop through the skylight", "nextNode": "vault-interior" },
-        { "label": "climb through the open window", "nextNode": "study" }
+        { "label": "drop through the skylight", "nextNode": "vault-interior", "hint": "You ease the glass panel open and lower yourself into the dark." },
+        { "label": "climb through the window", "nextNode": "study", "hint": "The window frame is narrow but you fit through with effort." }
       ]
     },
     "vault-corridor": {
       "passage": "A narrow stone corridor runs beneath the manor's east wing. The walls are damp and the air smells of iron. At the far end, a heavy door stands reinforced with iron bands and fitted with a complex lock. Halfway down, a side passage leads to the guard room. Lamplight flickers from within it.",
       "choices": [
-        { "label": "approach the vault door quietly", "nextNode": "vault-door" },
-        { "label": "investigate the guard room", "nextNode": "caught-red-handed" }
+        { "label": "approach the vault door", "nextNode": "vault-door", "hint": "Your footsteps echo softly on the wet stone floor." },
+        { "label": "investigate the guard room", "nextNode": "caught-red-handed", "hint": "Lamplight spills across the floor as you peer around the corner." }
       ]
     },
     "vault-door": {
-      "passage": "The vault door is a slab of iron-banded oak with a lock of dwarven make - six tumblers, three false pins, and a spring-loaded deadbolt. It would take a master locksmith ten minutes. You have five at best before the guard patrol returns. The key from the study would open it instantly.",
+      "passage": "The vault door is a slab of iron-banded oak with a lock of dwarven make - six tumblers, three false pins, and a spring-loaded deadbolt. It would take a master locksmith ten minutes. You have five at best before the guard patrol returns. The brass key from the study would open it instantly.",
       "choices": [
-        { "label": "pick the complex lock", "nextNode": "vault-interior" },
-        { "label": "force the door mechanism", "nextNode": "caught-red-handed" }
+        { "label": "pick the lock", "nextNode": "vault-interior", "hint": "Your tools click and scrape inside the heavy iron mechanism." },
+        { "label": "force the door", "nextNode": "caught-red-handed", "hint": "You slam your shoulder against the oak and the sound carries far." }
       ]
     },
     "vault-interior": {
       "passage": "The vault is small and cold. Stone shelves line the walls, holding gold plate, jeweled daggers, and chests of coin. In the center, on a marble pedestal under a glass dome, sits the relic - a golden chalice, ancient and plain, humming with a faint warmth that has nothing to do with the room.",
       "choices": [
-        { "label": "lift the relic from its pedestal", "nextNode": "relic-found" },
-        { "label": "grab everything in sight", "nextNode": "caught-red-handed" }
+        { "label": "take the chalice", "nextNode": "relic-found", "hint": "The glass dome lifts away without a sound. The gold is warm." },
+        { "label": "grab everything in sight", "nextNode": "caught-red-handed", "hint": "Gold clatters and rings as you sweep the shelves with both arms." }
       ]
     },
     "relic-found": {
       "passage": "The chalice is in your hands. It weighs less than it should and the gold is warm against your skin. You have what you came for. Now you need to leave. A trapdoor behind the pedestal opens onto a tunnel. The ballroom is two corridors away. Your contact waits at the garden gate.",
       "choices": [
-        { "label": "take the hidden tunnel out", "nextNode": "clean-getaway" },
-        { "label": "walk out through the masquerade", "nextNode": "dramatic-escape" },
-        { "label": "deliver it to your contact", "nextNode": "betrayed-ending" }
+        { "label": "take the tunnel out", "nextNode": "clean-getaway", "hint": "Cool underground air rushes up from the dark opening below." },
+        { "label": "walk through the masquerade", "nextNode": "dramatic-escape", "hint": "You tuck the chalice under your cloak and straighten your mask." },
+        { "label": "deliver it at the gate", "nextNode": "betrayed-ending", "hint": "Your contact's silhouette is just visible beyond the hedge line." }
       ]
     },
     "merchant-confrontation": {
       "passage": "The merchant prince removes his golden mask as you approach. His smile does not reach his eyes. 'I know why you are here,' he says quietly. 'The relic is mine by purchase, not theft. But I am a fair man. Perhaps we can deal.' Behind him, a hallway leads toward his private study.",
       "choices": [
-        { "label": "accept his offer", "nextNode": "bargain-struck" },
-        { "label": "slip toward the hallway", "nextNode": "study" }
+        { "label": "accept his offer", "nextNode": "bargain-struck", "hint": "Something in his voice tells you this deal will cost more than gold." },
+        { "label": "slip toward the hallway", "nextNode": "study", "hint": "You nod politely and let your feet carry you past him." }
       ]
     },
     "clean-getaway": {
@@ -143,7 +143,8 @@
       "choices": [],
       "ending": {
         "title": "The Perfect Heist",
-        "flavor": "The best thief is the one whose name no one knows."
+        "flavor": "The best thief is the one whose name no one knows.",
+        "action": "vanish along the river"
       }
     },
     "dramatic-escape": {
@@ -151,7 +152,8 @@
       "choices": [],
       "ending": {
         "title": "Bold Exit",
-        "flavor": "Subtlety is overrated when you have a head start."
+        "flavor": "Subtlety is overrated when you have a head start.",
+        "action": "leap into the night"
       }
     },
     "caught-red-handed": {
@@ -159,7 +161,8 @@
       "choices": [],
       "ending": {
         "title": "Caught in the Act",
-        "flavor": "Every lock has a key. Every vault has a guard."
+        "flavor": "Every lock has a key. Every vault has a guard.",
+        "action": "surrender to the guards"
       }
     },
     "bargain-struck": {
@@ -167,7 +170,8 @@
       "choices": [],
       "ending": {
         "title": "The Devil's Bargain",
-        "flavor": "Some debts cost more than gold. You will learn this soon."
+        "flavor": "Some debts cost more than gold. You will learn this soon.",
+        "action": "shake the prince's hand"
       }
     },
     "betrayed-ending": {
@@ -175,7 +179,8 @@
       "choices": [],
       "ending": {
         "title": "Sold Out",
-        "flavor": "Trust is a currency. You spent yours on the wrong man."
+        "flavor": "Trust is a currency. You spent yours on the wrong man.",
+        "action": "hand over the chalice"
       }
     }
   }

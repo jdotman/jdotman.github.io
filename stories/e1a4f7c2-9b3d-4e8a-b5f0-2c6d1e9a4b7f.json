@@ -9,151 +9,151 @@
   "startNode": "intro",
   "nodes": {
     "intro": {
-      "passage": "The Last Lantern Inn squats at the crossroads with its shutters loose and its sign swinging in the gale. You can smell smoke and wet horses through the door. Three red-cloaked soldiers stand at the rail, their animals breathing steam into the storm. Something is not right inside.",
+      "passage": "The Last Lantern Inn squats at the crossroads with its shutters loose and its sign swinging in the gale. You can smell smoke and wet horses through the door. Three red-cloaked soldiers stand at the rail, their animals breathing steam into the storm. Something is not right inside. A stable boy watches from the shadows.",
       "choices": [
-        { "label": "push open the inn door", "nextNode": "push-inside" },
-        { "label": "ask the stable boy", "nextNode": "ask-stable-boy" }
+        { "label": "push open the door", "nextNode": "push-inside", "hint": "The hinges groan against the wind as you step forward." },
+        { "label": "ask the stable boy", "nextNode": "ask-stable-boy", "hint": "He flinches when you approach but holds his ground and waits." }
       ]
     },
     "push-inside": {
       "passage": "The common room is tense and too quiet. Sergeant Vorn, a broad man with a scarred jaw, sits with two soldiers at the near table. Across the room, travelers hunch over their cups. A young woman at the bar catches your eye, then slides a folded note under your elbow and looks away.",
       "choices": [
-        { "label": "read the folded note", "nextNode": "read-note" },
-        { "label": "ignore it and watch the room", "nextNode": "ignore-note" },
-        { "label": "approach Sergeant Vorn", "nextNode": "approach-sergeant" }
+        { "label": "read the folded note", "nextNode": "read-note", "hint": "The paper is damp and the ink has bled at the edges." },
+        { "label": "ignore it and order ale", "nextNode": "ignore-note", "hint": "You pocket the note and try to look like any other traveler." },
+        { "label": "approach Sergeant Vorn", "nextNode": "approach-sergeant", "hint": "His scarred jaw tightens as you walk toward the table." }
       ]
     },
     "ask-stable-boy": {
       "passage": "The stable boy is young enough to be frightened and old enough to know it. He tells you in a rush: soldiers have a warrant for a girl, young, brown hair, been here two nights. Innkeeper Dav has been hiding her out back. The soldiers are searching the rooms above.",
       "choices": [
-        { "label": "follow the hay chute down", "nextNode": "help-the-boy" },
-        { "label": "go inside through the front", "nextNode": "push-inside" }
+        { "label": "follow the hay chute", "nextNode": "help-the-boy", "hint": "The chute is narrow and smells of old straw and damp." },
+        { "label": "go inside the front", "nextNode": "push-inside", "hint": "The front door rattles in the wind as you grab the handle." }
       ]
     },
     "read-note": {
       "passage": "The note is small and the writing cramped: I saw the Duke's men bury someone in the orchard three nights past. They know I know. I need to reach the north road. Please. The signature reads Mira. The paper is trembling. You realize it is your hand, not the note.",
       "choices": [
-        { "label": "shield Mira from the soldiers", "nextNode": "shield-mira" },
-        { "label": "show the note to Vorn", "nextNode": "inform-ending" }
+        { "label": "shield Mira from view", "nextNode": "shield-mira", "hint": "You shift your weight to block the soldiers' line of sight." },
+        { "label": "show the note to Vorn", "nextNode": "inform-ending", "hint": "Vorn's eyes narrow as you cross the room toward him." }
       ]
     },
     "ignore-note": {
       "passage": "You pocket the note without unfolding it and call for ale. The room stays tense. Sergeant Vorn's eyes move from face to face like a man doing slow arithmetic. The young woman at the bar has vanished. Vorn's gaze settles on you. He stands and adjusts his sword belt before walking over.",
       "choices": [
-        { "label": "approach him first", "nextNode": "approach-sergeant" },
-        { "label": "watch from your seat", "nextNode": "vorn-questions-you" }
+        { "label": "approach him first", "nextNode": "approach-sergeant", "hint": "Better to meet trouble on your feet than sitting down." },
+        { "label": "watch from your seat", "nextNode": "vorn-questions-you", "hint": "You wrap both hands around your mug and wait for him." }
       ]
     },
     "approach-sergeant": {
       "passage": "Vorn is not a man built for courtesy. He tells you flat: he has a warrant for a girl who stole documents from Duke Aldenmoor's estate. He asks if you saw anyone on the south road. You notice the warrant tucked in his belt. The seal is the Duke's, not the Crown's.",
       "choices": [
-        { "label": "tell him about the travelers", "nextNode": "inform-ending" },
-        { "label": "stall him with road talk", "nextNode": "stall-vorn" }
+        { "label": "tell him about travelers", "nextNode": "inform-ending", "hint": "You point toward the south road and begin talking about what you saw." },
+        { "label": "stall with road talk", "nextNode": "stall-vorn", "hint": "You lean back and start describing every rut in the road." }
       ]
     },
     "shield-mira": {
-      "passage": "You move to the bar and ask for a room, placing yourself between Mira and Vorn's line of sight. Bram, the broad-shouldered farmer at the travelers' table, sees what you are doing and gives a barely visible nod. Mira presses close behind you and whispers: the cellar. Five minutes.",
+      "passage": "You move to the bar and ask for a room, placing yourself between Mira and Vorn's line of sight. Bram, the broad farmer at the travelers' table, sees what you are doing and gives a barely visible nod. Mira presses close behind you and whispers: the cellar trapdoor. Five minutes is all she needs.",
       "choices": [
-        { "label": "create a distraction", "nextNode": "create-distraction" },
-        { "label": "guard the cellar door", "nextNode": "guard-door" }
+        { "label": "create a distraction", "nextNode": "create-distraction", "hint": "You scan the bar for something heavy enough to make noise." },
+        { "label": "guard the cellar door", "nextNode": "guard-door", "hint": "You plant yourself above the trapdoor and try to look casual." }
       ]
     },
     "vorn-questions-you": {
       "passage": "He stands at your table and looks down without asking permission to sit. He says the girl is a thief and a liar. You keep your face neutral and notice, as he leans forward, that the warrant in his belt bears Duke Aldenmoor's private seal. Not the king's. Not the Crown's at all.",
       "choices": [
-        { "label": "point out the Duke's seal", "nextNode": "point-out-seal" },
-        { "label": "stall him with vague answers", "nextNode": "stall-vorn" }
+        { "label": "point out the seal", "nextNode": "point-out-seal", "hint": "The Duke's crest on the warrant is unmistakable in the lamplight." },
+        { "label": "stall with vague answers", "nextNode": "stall-vorn", "hint": "You shrug and mumble something about the weather on the road." }
       ]
     },
     "help-the-boy": {
-      "passage": "The hay chute drops you into a dim cellar that smells of turnips and old wood. Mira is there, sitting against a barrel with a leather satchel on her lap. She is not what you expected: young, collected, watchful. She opens the satchel without being asked. Inside are six wax-sealed documents with ducal stamps.",
+      "passage": "The hay chute drops you into a dim cellar that smells of turnips and old wood. Mira is there, sitting against a barrel with a leather satchel on her lap. She is not what you expected: young, collected, watchful. She opens the satchel without being asked. Inside are six sealed documents with ducal stamps.",
       "choices": [
-        { "label": "read the documents with Mira", "nextNode": "read-documents" },
-        { "label": "take her out through the woodshed", "nextNode": "take-her-out" }
+        { "label": "read the documents", "nextNode": "read-documents", "hint": "The wax seals crack as Mira spreads the papers between you." },
+        { "label": "lead her to the woodshed", "nextNode": "take-her-out", "hint": "A draft from the woodshed door stirs the dust at your feet." }
       ]
     },
     "stall-vorn": {
       "passage": "You lean on the table and begin talking about the state of the south road: the ruts, the flooding at Greyer's Bridge, the toll house that never has change. Vorn's expression is stone. But he is listening and not looking at the bar, and that is what matters right now.",
       "choices": [
-        { "label": "check on Mira behind the bar", "nextNode": "check-behind-bar" },
-        { "label": "signal Bram to back you up", "nextNode": "stand-your-ground" }
+        { "label": "check behind the bar", "nextNode": "check-behind-bar", "hint": "You excuse yourself mid-sentence and drift toward the bar counter slowly." },
+        { "label": "signal Bram for help", "nextNode": "stand-your-ground", "hint": "You catch Bram's eye across the room and tilt your head slightly." }
       ]
     },
     "create-distraction": {
-      "passage": "You pull the nearest shelf rack and send a cascade of pewter mugs crashing to the flagstones. Vorn spins. His soldiers spin. In the half-second of chaos you shout fire and point at the chimney. Mira drops through the trapdoor behind the bar. The cellar latch clicks shut.",
+      "passage": "You pull the nearest shelf rack and send a cascade of pewter mugs crashing to the flagstones. Vorn spins. His soldiers spin. In the half-second of chaos you shout fire and point at the chimney. Mira drops through the trapdoor behind the bar. The cellar latch clicks shut. Boots pound the floor.",
       "choices": [
-        { "label": "drop through the trapdoor after her", "nextNode": "mira-in-cellar" },
-        { "label": "hold the room for her escape", "nextNode": "stand-your-ground" }
+        { "label": "drop through the trapdoor", "nextNode": "mira-in-cellar", "hint": "The latch gives way under your fingers and darkness opens below." },
+        { "label": "hold the room for Mira", "nextNode": "stand-your-ground", "hint": "You plant your feet and turn to face the confused soldiers." }
       ]
     },
     "guard-door": {
       "passage": "You lean against the bar directly above the cellar trapdoor and order another drink with deliberate calm. Bram drifts over and does the same. Dav, the innkeeper, keeps the mugs coming. Vorn strides over and tells you to move. He has the right to search every inch of this inn.",
       "choices": [
-        { "label": "stand your ground with Bram", "nextNode": "stand-your-ground" },
-        { "label": "step aside before Vorn", "nextNode": "step-aside" }
+        { "label": "stand your ground", "nextNode": "stand-your-ground", "hint": "Bram steps closer and folds his thick arms right beside you." },
+        { "label": "step aside for Vorn", "nextNode": "step-aside", "hint": "You raise your hands and move slowly to the left." }
       ]
     },
     "point-out-seal": {
       "passage": "You reach out, take the warrant from Vorn's belt before he can stop you, and hold it up in the lamplight. The room goes still. You say it loudly: this seal is Duke Aldenmoor's. Not the Crown's. This man has no lawful authority here. Vorn's jaw tightens. His soldiers look at each other.",
       "choices": [
-        { "label": "press the accusation", "nextNode": "vorn-retreats" },
-        { "label": "wait for the room to respond", "nextNode": "arrested-ending" }
+        { "label": "press the accusation", "nextNode": "vorn-retreats", "hint": "You keep your voice loud enough for every ear in the room." },
+        { "label": "let the room respond", "nextNode": "arrested-ending", "hint": "You lower the warrant and wait for the crowd to decide." }
       ]
     },
     "read-documents": {
       "passage": "The documents are orders in the Duke's hand: fourteen names listed as fled or deceased, with dates and instructions to his estate guards. But these men are known in the valley. You recognize two names from village notices posted weeks ago. They were not criminals. They were simply in the Duke's way.",
       "choices": [
-        { "label": "take Mira out through the woodshed", "nextNode": "take-her-out" },
-        { "label": "use the documents to confront Vorn", "nextNode": "point-out-seal" }
+        { "label": "lead Mira to the woodshed", "nextNode": "take-her-out", "hint": "You fold the papers carefully and reach for the cellar door." },
+        { "label": "confront Vorn with proof", "nextNode": "point-out-seal", "hint": "These documents change everything. Vorn needs to answer for this." }
       ]
     },
     "take-her-out": {
       "passage": "You lead Mira through the woodshed and out into the driving rain. The road stretches north, a pale stripe in the dark. Behind you the inn windows are lit and Vorn's voice is raised about something. You have perhaps two minutes before anyone thinks to check the woodshed. Mira grips her satchel and nods. Run.",
       "choices": [
-        { "label": "run north along the road", "nextNode": "clean-escape" },
-        { "label": "cut through the dark forest", "nextNode": "caught-both" }
+        { "label": "run north on the road", "nextNode": "clean-escape", "hint": "The mud sucks at your boots but the road is clear ahead." },
+        { "label": "cut through the forest", "nextNode": "caught-both", "hint": "The tree line is close and the darkness looks like cover." }
       ]
     },
     "mira-in-cellar": {
       "passage": "You drop through the trapdoor and pull it shut above you. The cellar is dark and smells of must. A narrow band of light shows under the woodshed door ahead. Mira is crouched beneath the chute, breathing fast. Above you, boots cross the floorboards. Vorn is heading toward the bar.",
       "choices": [
-        { "label": "drop through and follow Mira", "nextNode": "follow-mira" },
-        { "label": "hold the soldiers at the top", "nextNode": "hold-the-door" }
+        { "label": "follow Mira out", "nextNode": "follow-mira", "hint": "She is already moving toward the woodshed door in the dark." },
+        { "label": "hold the trapdoor shut", "nextNode": "hold-the-door", "hint": "You brace your back against the wood and dig in." }
       ]
     },
     "stand-your-ground": {
       "passage": "Bram steps up beside you. Dav folds his arms behind the bar. The room is small and Vorn has three soldiers, and the common room has a dozen people, and none of them look happy. Vorn's eyes move from you to Bram to the innkeeper. The mathematics are not in his favor.",
       "choices": [
-        { "label": "challenge Vorn's authority publicly", "nextNode": "point-out-seal" },
-        { "label": "hold the position by force", "nextNode": "arrested-ending" }
+        { "label": "challenge Vorn's authority", "nextNode": "point-out-seal", "hint": "You raise your voice so the whole room can hear." },
+        { "label": "hold the line by force", "nextNode": "arrested-ending", "hint": "You tighten your grip and brace for what comes next." }
       ]
     },
     "step-aside": {
       "passage": "You move away from the trapdoor. Vorn yanks it open and descends with a lamp. There is silence below, then his boots on the ladder again. He emerges red-faced. The cellar is empty. There is a woodshed door that connects to the back lane and it is standing open in the rain.",
       "choices": [
-        { "label": "watch Vorn search the empty cellar", "nextNode": "slipped-away" },
-        { "label": "tell Vorn she escaped north", "nextNode": "inform-ending" }
+        { "label": "watch Vorn's frustration", "nextNode": "slipped-away", "hint": "His red face tells you everything you need to know right now." },
+        { "label": "tell Vorn she went north", "nextNode": "inform-ending", "hint": "The words taste sour but the gold would be welcome." }
       ]
     },
     "follow-mira": {
       "passage": "Mira scrambles for the woodshed door and you follow. Outside the rain hits like a cold wall. The north road is visible through the trees, a grey line against darker grey. Behind you the inn door bursts open and Vorn's voice cuts through the storm. He has found the trapdoor.",
       "choices": [
-        { "label": "sprint for the north road", "nextNode": "clean-escape" },
-        { "label": "dive into the tree line", "nextNode": "caught-both" }
+        { "label": "sprint for the road", "nextNode": "clean-escape", "hint": "Your boots hit mud and you do not slow down." },
+        { "label": "dive into the trees", "nextNode": "caught-both", "hint": "The branches close around you like a dark wet curtain of leaves." }
       ]
     },
     "hold-the-door": {
-      "passage": "You drag a barrel over the trapdoor and sit on it. Above, Vorn hammers the wood with his boot. You can hear Mira crossing the woodshed. A door bangs open. Silence from that direction. She is out. The hammering from above intensifies and the barrel jumps beneath you.",
+      "passage": "You drag a barrel over the trapdoor and sit on it. Above, Vorn hammers the wood with his boot. You can hear Mira crossing the woodshed below. A door bangs open somewhere beyond. Silence from that direction. She is out. The hammering from above intensifies and the barrel jumps beneath you.",
       "choices": [
-        { "label": "hold it as long as possible", "nextNode": "arrested-ending" },
-        { "label": "abandon the door and follow", "nextNode": "follow-mira" }
+        { "label": "hold as long as possible", "nextNode": "arrested-ending", "hint": "Every second you buy on this barrel is a second she gains." },
+        { "label": "abandon the door and follow", "nextNode": "follow-mira", "hint": "The barrel shifts and you know your time is up." }
       ]
     },
     "check-behind-bar": {
-      "passage": "You ease away from Vorn mid-sentence and lean over the bar. The trapdoor is shut and the latch is thrown from below. Mira has already gone. You straighten and turn back to Vorn, who is still talking, and smile pleasantly. This could go two ways from here.",
+      "passage": "You ease away from Vorn mid-sentence and lean over the bar. The trapdoor is shut and the latch is thrown from below. Mira has already gone down. Dav polishes a mug and says nothing. You straighten and turn back to Vorn, who is still talking, and smile pleasantly. This could go two ways.",
       "choices": [
-        { "label": "slip out the front door", "nextNode": "slipped-away" },
-        { "label": "keep Vorn occupied longer", "nextNode": "vorn-retreats" }
+        { "label": "slip out the front", "nextNode": "slipped-away", "hint": "The front door is three steps away and Vorn is not watching." },
+        { "label": "keep Vorn occupied", "nextNode": "vorn-retreats", "hint": "You settle back in and ask him about the south road again." }
       ]
     },
     "inform-ending": {
@@ -161,7 +161,8 @@
       "choices": [],
       "ending": {
         "title": "The Easy Way",
-        "flavor": "Two gold and a dry bed. You tell yourself she probably deserved it."
+        "flavor": "Two gold and a dry bed. You tell yourself she probably deserved it.",
+        "action": "pocket the cold coins"
       }
     },
     "clean-escape": {
@@ -169,7 +170,8 @@
       "choices": [],
       "ending": {
         "title": "Safe Passage",
-        "flavor": "You went in for shelter and came out having done something worth doing."
+        "flavor": "You went in for shelter and came out having done something worth doing.",
+        "action": "walk into the rain"
       }
     },
     "vorn-retreats": {
@@ -177,7 +179,8 @@
       "choices": [],
       "ending": {
         "title": "The Room Decides",
-        "flavor": "A crowded inn is harder to bully than one soldier alone, and Vorn was never good at counting."
+        "flavor": "A crowded inn is harder to bully than one soldier alone, and Vorn was never good at counting.",
+        "action": "raise your glass"
       }
     },
     "slipped-away": {
@@ -185,7 +188,8 @@
       "choices": [],
       "ending": {
         "title": "Enough of a Good Thing",
-        "flavor": "You did not save her. You just stopped someone else from stopping her."
+        "flavor": "You did not save her. You just stopped someone else from stopping her.",
+        "action": "step into the night"
       }
     },
     "arrested-ending": {
@@ -193,7 +197,8 @@
       "choices": [],
       "ending": {
         "title": "One Night in the Stable",
-        "flavor": "You paid with a cold night and went home with something Vorn never managed to take."
+        "flavor": "You paid with a cold night and went home with something Vorn never managed to take.",
+        "action": "walk out at dawn"
       }
     },
     "caught-both": {
@@ -201,7 +206,8 @@
       "choices": [],
       "ending": {
         "title": "Wrong Turn",
-        "flavor": "Roads are for running. Forests are for the soldiers who know them better than you."
+        "flavor": "Roads are for running. Forests are for the soldiers who know them better than you.",
+        "action": "fall to your knees"
       }
     }
   }

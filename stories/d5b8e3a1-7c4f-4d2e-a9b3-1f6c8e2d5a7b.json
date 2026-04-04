@@ -12,156 +12,156 @@
     "intro": {
       "passage": "You are ranging deep in the Aldwood when two hunting horns sound from different directions. You reach a clearing where Vael hunters in green cloaks face House Dorn scouts in brown across a pulsing ward-stone. The air shimmers at the tree line. The forest has sealed itself shut. No one leaves without a reason.",
       "choices": [
-        { "label": "approach the Vael hunters", "nextNode": "vael-camp" },
-        { "label": "speak with House Dorn", "nextNode": "dorn-camp" },
-        { "label": "examine the ward-stone", "nextNode": "ward-stone" }
+        { "label": "approach the Vael hunters", "nextNode": "vael-camp", "hint": "The green cloaks watch you with wary and disciplined eyes as you approach." },
+        { "label": "speak with House Dorn", "nextNode": "dorn-camp", "hint": "The brown-clad scouts grip their spears tighter as you draw near." },
+        { "label": "examine the ward-stone", "nextNode": "ward-stone", "hint": "The stone pulses with a faint green light at its cracked center." }
       ]
     },
     "vael-camp": {
-      "passage": "Lady Serin Vael stands at the head of six disciplined hunters in green cloaks. Her jaw is tight and her hand rests on her sword hilt. She says House Dorn disturbed something ancient in the wood and triggered the ward. She wants answers and she wants them before nightfall.",
+      "passage": "Lady Serin Vael stands at the head of six disciplined hunters in green cloaks. Her jaw is tight and her hand rests on her sword hilt. She says House Dorn disturbed something ancient in the wood and triggered the ward. She wants answers and she wants them before nightfall. Her patience is thin.",
       "choices": [
-        { "label": "ask what she saw", "nextNode": "vael-story" },
-        { "label": "offer to mediate", "nextNode": "mediation-attempt" }
+        { "label": "ask what she saw", "nextNode": "vael-story", "hint": "Her scouts found something strange on the eastern ridge before the ward sealed." },
+        { "label": "offer to mediate", "nextNode": "mediation-attempt", "hint": "Perhaps a neutral voice can keep steel safely in its sheath tonight." }
       ]
     },
     "dorn-camp": {
       "passage": "Lord Breck Dorn leans on a boar spear, surrounded by eight hunters in roughspun brown. He is broad and loud and already angry. He says his men touched nothing and the forest sealed on its own. He blames Vael sorcery. He wants to hack through the ward-barrier and be done with it.",
       "choices": [
-        { "label": "ask what happened", "nextNode": "dorn-story" },
-        { "label": "offer to mediate", "nextNode": "mediation-attempt" }
+        { "label": "ask what happened", "nextNode": "dorn-story", "hint": "His bluster hides something and you want to know what it is." },
+        { "label": "offer to mediate", "nextNode": "mediation-attempt", "hint": "Someone needs to calm this down before blood is spilled on both sides." }
       ]
     },
     "ward-stone": {
       "passage": "The ward-stone rises waist-high from the forest floor, cracked with age and covered in runes that pulse a faint green. It thrums like a heartbeat beneath your palm. You know this pattern from old ranger lore. This is a containment ward. It seals the forest when something dangerous wakes. Something has woken.",
       "choices": [
-        { "label": "share this with both groups", "nextNode": "clearing-meeting" },
-        { "label": "search the deep wood", "nextNode": "deep-wood" }
+        { "label": "share this with both groups", "nextNode": "clearing-meeting", "hint": "Both houses need to hear what the ward-stone means before night falls." },
+        { "label": "search the deep wood", "nextNode": "deep-wood", "hint": "Whatever woke up is out there somewhere among the darkening trees." }
       ]
     },
     "vael-story": {
-      "passage": "Serin tells you her scouts found a cave on the eastern ridge with strange carvings on the walls. They did not enter. She heard Dorn's hunters were less careful. She watched the ward activate from across a valley and felt the shimmer close around the forest like a fist.",
+      "passage": "Serin tells you her scouts found a cave on the eastern ridge with strange carvings on the walls. They did not enter. She heard Dorn's hunters were less careful. She watched the ward activate from across a valley and felt the shimmer close around the forest like a fist. She wants justice.",
       "choices": [
-        { "label": "visit the Dorn camp", "nextNode": "dorn-camp" },
-        { "label": "investigate the cave", "nextNode": "shadow-cave" }
+        { "label": "visit the Dorn camp", "nextNode": "dorn-camp", "hint": "You want to hear the other side of the story before deciding." },
+        { "label": "investigate the cave", "nextNode": "shadow-cave", "hint": "The cave on the eastern ridge is not far from where you stand." }
       ]
     },
     "dorn-story": {
       "passage": "Breck drops his bluster for a moment. He admits his hunters found a cave and went inside looking for a bear. They found old bones and carved walls. Something moved in the dark and they ran. The ward sealed minutes later. He will not say it but his men are frightened.",
       "choices": [
-        { "label": "visit the Vael camp", "nextNode": "vael-camp" },
-        { "label": "investigate the cave", "nextNode": "shadow-cave" }
+        { "label": "visit the Vael camp", "nextNode": "vael-camp", "hint": "The green cloaks on the far side may have a different account." },
+        { "label": "investigate the cave", "nextNode": "shadow-cave", "hint": "The cave on the eastern ridge is where this all started." }
       ]
     },
     "mediation-attempt": {
-      "passage": "You gather both leaders at the ward-stone. Serin stands rigid, arms folded. Breck plants his spear in the dirt and glares. They trade accusations across the clearing while their hunters watch from opposite tree lines. A howl rises from the deep wood, low and long. Both leaders fall silent.",
+      "passage": "You gather both leaders at the ward-stone. Serin stands rigid, arms folded. Breck plants his spear in the dirt and glares. They trade accusations across the clearing while their hunters watch from opposite tree lines. A howl rises from the deep wood, low and long. Both leaders fall silent and turn toward the sound.",
       "choices": [
-        { "label": "propose an alliance", "nextNode": "alliance-pitch" },
-        { "label": "let them argue it out", "nextNode": "argument-escalation" }
+        { "label": "propose an alliance", "nextNode": "alliance-pitch", "hint": "That howl changes everything. They will need each other before this night ends." },
+        { "label": "let them argue it out", "nextNode": "argument-escalation", "hint": "Maybe they need to say their piece before they are willing to listen." }
       ]
     },
     "deep-wood": {
       "passage": "The forest grows darker as you push beyond the clearing. The canopy closes overhead like a vault. Claw marks score the bark of ancient oaks, each gash wider than your hand. You find tracks burned into the forest floor, three-toed and massive. The shadow-beast is real and it is nearby.",
       "choices": [
-        { "label": "follow the tracks", "nextNode": "beast-trail" },
-        { "label": "return to warn the camps", "nextNode": "clearing-meeting" }
+        { "label": "follow the tracks", "nextNode": "beast-trail", "hint": "The burned prints lead down a wooded ravine where the air grows cold." },
+        { "label": "return to warn the camps", "nextNode": "clearing-meeting", "hint": "Both houses need to know what stalks them in this sealed forest." }
       ]
     },
     "shadow-cave": {
       "passage": "The cave opens in the eastern ridge, shallow and dry. The walls are covered in carvings that depict a great beast of shadow bound in magical sleep. On the floor, a circle of flat stones lies broken apart, kicked by careless boots. This binding circle held the beast. Someone disturbed it.",
       "choices": [
-        { "label": "try to restore the circle", "nextNode": "restore-circle" },
-        { "label": "report back to the camps", "nextNode": "clearing-meeting" }
+        { "label": "restore the circle", "nextNode": "restore-circle", "hint": "The flat stones might fit back together if you work with care." },
+        { "label": "report back to camps", "nextNode": "clearing-meeting", "hint": "Both houses need to hear what happened in this cave on the ridge." }
       ]
     },
     "clearing-meeting": {
       "passage": "Both hunting parties gather at the ward-stone as you share what you have learned. The ward sealed the forest to contain a shadow-beast that was bound in a cave. Someone broke the binding. To escape, they must either bind the beast again or destroy it. Neither house can manage it alone.",
       "choices": [
-        { "label": "organize a joint hunt", "nextNode": "joint-hunt" },
-        { "label": "plan to restore the binding", "nextNode": "binding-plan" }
+        { "label": "organize a joint hunt", "nextNode": "joint-hunt", "hint": "Together they have enough spears and bows to bring the beast down." },
+        { "label": "plan to restore the binding", "nextNode": "binding-plan", "hint": "The stone circle in the cave might be repaired if both houses help." }
       ]
     },
     "alliance-pitch": {
       "passage": "You argue that the beast will kill them all if they waste time fighting each other. Serin considers your words, her hand leaving her sword. Breck uncrosses his arms. A scream cuts the air from the tree line. A Dorn hunter stumbles from the wood, bleeding. The beast has found them.",
       "choices": [
-        { "label": "rally a joint defense", "nextNode": "forced-truce" },
-        { "label": "hold the line yourself", "nextNode": "desperate-fight" }
+        { "label": "rally a joint defense", "nextNode": "forced-truce", "hint": "There is no more time for talk. Everyone must fight or everyone dies." },
+        { "label": "hold the line yourself", "nextNode": "desperate-fight", "hint": "You step forward with your weapon raised before either house can react." }
       ]
     },
     "argument-escalation": {
       "passage": "The argument grows hot. Breck shoves a Vael hunter who steps too close. Serin draws her sword halfway from its sheath. Steel flashes in the fading light. The shadow-beast howls from somewhere in the darkening wood, closer than before. If these two houses fight each other, the beast will finish the rest.",
       "choices": [
-        { "label": "step between them", "nextNode": "forced-truce" },
-        { "label": "let it play out", "nextNode": "chaos-ending" }
+        { "label": "step between them", "nextNode": "forced-truce", "hint": "You plant yourself in the gap before steel can meet steel." },
+        { "label": "let it play out", "nextNode": "chaos-ending", "hint": "Pride has already made this choice for them. You cannot stop it." }
       ]
     },
     "beast-trail": {
       "passage": "The tracks lead down a wooded ravine where the air grows cold and still. At the bottom you see it. The shadow-beast lies in a nest of crushed ferns, enormous and dark, its fur rippling like smoke. Glowing eyes are closed. It sleeps, but fitfully. You could strike or retreat.",
       "choices": [
-        { "label": "approach its lair", "nextNode": "beast-lair" },
-        { "label": "return with this knowledge", "nextNode": "clearing-meeting" }
+        { "label": "approach its lair", "nextNode": "beast-lair", "hint": "Each careful step closer reveals more of the creature's terrible size." },
+        { "label": "return with this knowledge", "nextNode": "clearing-meeting", "hint": "The hunters at the clearing need to know where the beast sleeps." }
       ]
     },
     "restore-circle": {
       "passage": "You kneel on the cave floor and begin fitting the flat stones back into their positions. The runes carved into each stone hum when placed correctly. The pattern is complex and you manage roughly half before the beast roars in the distance. It felt the magic stir. You need help to finish.",
       "choices": [
-        { "label": "get both houses to help", "nextNode": "binding-plan" },
-        { "label": "keep working alone", "nextNode": "cave-trap" }
+        { "label": "get both houses to help", "nextNode": "binding-plan", "hint": "You cannot finish this alone. The pattern is too complex for one person." },
+        { "label": "keep working alone", "nextNode": "cave-trap", "hint": "Your hands move faster over the stones but the roaring grows closer." }
       ]
     },
     "joint-hunt": {
       "passage": "Vael archers string their bows beside Dorn spearmen who check their grips. Old rivalries simmer in the shared silence but the common danger holds. You lead them into the deep wood along the beast's trail. Branches snap overhead and the light fades. The hunt has begun and there is no turning back.",
       "choices": [
-        { "label": "set an ambush", "nextNode": "ambush-plan" },
-        { "label": "track it to its lair", "nextNode": "beast-lair" }
+        { "label": "set an ambush", "nextNode": "ambush-plan", "hint": "The ravine ahead narrows enough to make a natural chokepoint for a trap." },
+        { "label": "track it to its lair", "nextNode": "beast-lair", "hint": "The burned tracks lead deeper into the ravine where the air turns cold." }
       ]
     },
     "binding-plan": {
       "passage": "You explain the stone circle in the cave to both leaders. Serin has a scholar among her hunters who can read the ancient runes. Breck's men have the strength to move the heavier binding stones. Each house has what the other lacks. They agree, grudgingly, to work the cave together.",
       "choices": [
-        { "label": "lead them to the cave", "nextNode": "binding-attempt" },
-        { "label": "send hunters to guard the path", "nextNode": "joint-hunt" }
+        { "label": "lead them to the cave", "nextNode": "binding-attempt", "hint": "The eastern ridge is a short march through the trees from here." },
+        { "label": "post guards on the path", "nextNode": "joint-hunt", "hint": "Someone should watch the forest trail while the rest work the circle." }
       ]
     },
     "forced-truce": {
-      "passage": "You step between the two leaders and plant your staff in the dirt. You speak plainly. People will die tonight if they keep this up. The beast is real and it is hunting. Serin sheathes her sword. Breck lowers his spear. Rumors point to a cave in the eastern ridge. The truce is thin but it holds.",
+      "passage": "You step between the two leaders and plant your staff in the dirt. You speak plainly. People will die tonight if they keep this up. The beast is real and it is hunting. Serin sheathes her sword. Breck lowers his spear. A cave in the eastern ridge may hold answers. The truce is thin but it holds.",
       "choices": [
-        { "label": "share what you know", "nextNode": "clearing-meeting" },
-        { "label": "investigate the cave together", "nextNode": "shadow-cave" }
+        { "label": "share what you know", "nextNode": "clearing-meeting", "hint": "You tell them everything you have learned about the beast so far." },
+        { "label": "investigate the cave together", "nextNode": "shadow-cave", "hint": "Both houses fall in behind you as you head toward the eastern ridge." }
       ]
     },
     "ambush-plan": {
       "passage": "Both houses set a trap along the ravine. Dorn hunters dig a pit while Vael archers take positions in the branches above. Ropes and nets stretch across the path. The beast walks into the trap with a roar. Nets tangle its limbs and arrows pepper its hide. It thrashes but holds.",
       "choices": [
-        { "label": "finish the beast now", "nextNode": "victory-hunt-ending" },
-        { "label": "drag it to the binding cave", "nextNode": "binding-ending" }
+        { "label": "finish the beast now", "nextNode": "victory-hunt-ending", "hint": "Spears and arrows rain down on the tangled creature from every side." },
+        { "label": "drag it to the cave", "nextNode": "binding-ending", "hint": "The binding circle in the cave could put it to sleep for good." }
       ]
     },
     "beast-lair": {
       "passage": "The ravine narrows to a shallow den littered with bones and torn hides. The shadow-beast is here, hunched low, its body rippling between solid flesh and dark smoke. Glowing amber eyes fix on you. The binding cave is a short distance north. You could lure it there or end things here.",
       "choices": [
-        { "label": "lure it toward the cave", "nextNode": "cave-trap" },
-        { "label": "fight it alone", "nextNode": "lone-warden-ending" }
+        { "label": "lure it toward the cave", "nextNode": "cave-trap", "hint": "You back away slowly toward the north, drawing the creature's full attention." },
+        { "label": "fight it alone", "nextNode": "lone-warden-ending", "hint": "You tighten your grip on your weapon and stand your ground here." }
       ]
     },
     "binding-attempt": {
       "passage": "Both houses work shoulder to shoulder in the cave. Serin's scholar reads the binding runes aloud while Dorn's strongest hunters heave the flat stones into position. The circle glows brighter with each piece. A roar shakes dust from the ceiling. The shadow-beast has come, drawn by the rising magic outside.",
       "choices": [
-        { "label": "complete the binding", "nextNode": "binding-ending" },
-        { "label": "abandon the cave and fight", "nextNode": "desperate-fight" }
+        { "label": "complete the binding", "nextNode": "binding-ending", "hint": "Only a few stones remain and the circle is almost whole at last." },
+        { "label": "abandon the cave and fight", "nextNode": "desperate-fight", "hint": "The roar shakes the cave walls and loose dust fills the stale air." }
       ]
     },
     "cave-trap": {
       "passage": "You draw the shadow-beast toward the cave mouth where the half-finished circle still glows. The creature lunges inside and hits the binding field. Light flashes. The beast staggers, caught between sleep and fury, its form flickering. One more stone placed correctly would seal the circle and put it down for good.",
       "choices": [
-        { "label": "place the final stone", "nextNode": "binding-ending" },
-        { "label": "strike while it is stunned", "nextNode": "victory-hunt-ending" }
+        { "label": "place the final stone", "nextNode": "binding-ending", "hint": "The last flat stone sits at the edge of the glowing circle." },
+        { "label": "strike while it staggers", "nextNode": "victory-hunt-ending", "hint": "The creature is dazed and its guard is down for the moment." }
       ]
     },
     "desperate-fight": {
       "passage": "The shadow-beast charges into the clearing. Hunters scatter in all directions. In the chaos, Vael archers and Dorn spearmen fight side by side for the first time, united by pure survival. The beast is fast and its claws pass through armor like smoke. But it bleeds. It can be stopped.",
       "choices": [
-        { "label": "coordinate both houses", "nextNode": "truce-ending" },
-        { "label": "face it on your own", "nextNode": "lone-warden-ending" }
+        { "label": "coordinate both houses", "nextNode": "truce-ending", "hint": "You shout orders across the clearing and both sides listen for once." },
+        { "label": "face it on your own", "nextNode": "lone-warden-ending", "hint": "You step forward alone and draw the beast's burning amber gaze to you." }
       ]
     },
     "binding-ending": {
@@ -169,7 +169,8 @@
       "choices": [],
       "ending": {
         "title": "The Greenwood Truce",
-        "flavor": "Some bonds are forged in the dark places where old grudges have no room."
+        "flavor": "Some bonds are forged in the dark places where old grudges have no room.",
+        "action": "seal the binding circle"
       }
     },
     "victory-hunt-ending": {
@@ -177,7 +178,8 @@
       "choices": [],
       "ending": {
         "title": "The Beast Falls",
-        "flavor": "Shared blood and shared danger make faster friends than any treaty."
+        "flavor": "Shared blood and shared danger make faster friends than any treaty.",
+        "action": "drive the last spear home"
       }
     },
     "truce-ending": {
@@ -185,7 +187,8 @@
       "choices": [],
       "ending": {
         "title": "Thin as Parchment",
-        "flavor": "A truce born in desperation is still a truce."
+        "flavor": "A truce born in desperation is still a truce.",
+        "action": "walk out of the forest"
       }
     },
     "chaos-ending": {
@@ -193,7 +196,8 @@
       "choices": [],
       "ending": {
         "title": "Blood in the Clearing",
-        "flavor": "The beast did not need claws when pride had already done the work."
+        "flavor": "The beast did not need claws when pride had already done the work.",
+        "action": "lower your head and leave"
       }
     },
     "lone-warden-ending": {
@@ -201,7 +205,8 @@
       "choices": [],
       "ending": {
         "title": "The Warden's Way",
-        "flavor": "Some problems only answer to one stubborn soul."
+        "flavor": "Some problems only answer to one stubborn soul.",
+        "action": "stagger onto the road"
       }
     }
   }

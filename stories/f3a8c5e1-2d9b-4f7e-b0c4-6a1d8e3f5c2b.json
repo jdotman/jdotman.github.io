@@ -10,180 +10,184 @@
   "startNode": "intro",
   "nodes": {
     "intro": {
-      "passage": "You arrive at the royal capital as afternoon bells toll across the marketplace plaza. The palace gates loom ahead, guarded by soldiers in silver livery. A servant entrance sits along the east wall. A forged invitation is tucked in your boot, and the Queen's cipher is sewn into your collar.",
+      "passage": "You arrive at the royal capital as afternoon bells toll across the plaza. The palace gates loom ahead, guarded by soldiers in silver armor. A servant entrance sits along the east wall, half-hidden by carts. A forged invitation is tucked in your boot, and the Queen's cipher is sewn into your collar.",
       "choices": [
-        { "label": "approach the palace gates", "nextNode": "gate-guard" },
-        { "label": "find the servant entrance", "nextNode": "servant-entrance" },
-        { "label": "visit the nearby marketplace", "nextNode": "marketplace" }
+        {"label": "approach the gates", "nextNode": "gate-guard", "hint": "The soldiers watch every face that draws near to the palace entrance."},
+        {"label": "find the servant entrance", "nextNode": "servant-entrance", "hint": "A low arch on the east wall looks like it might serve the kitchens."},
+        {"label": "visit the marketplace", "nextNode": "marketplace", "hint": "The busy market stalls across the plaza might offer a useful disguise."}
       ]
     },
     "gate-guard": {
       "passage": "Two soldiers in polished breastplates check every face against a ledger. The line moves slowly. One guard runs a hand along each visitor's belt and boots as they pass. Your forged invitation crinkles when you reach down to retrieve it. The soldier's eyes narrow and you force yourself to breathe.",
       "choices": [
-        { "label": "show your forged papers", "nextNode": "great-hall" },
-        { "label": "offer the guard a bribe", "nextNode": "kitchens" },
-        { "label": "sneak past through the crowd", "nextNode": "servant-entrance" }
+        {"label": "show your papers", "nextNode": "great-hall", "hint": "The parchment feels damp with sweat from your palm as you hold it out."},
+        {"label": "offer a bribe", "nextNode": "kitchens", "hint": "You let a single gold coin flash between your fingers where he can see."},
+        {"label": "slip past in the crowd", "nextNode": "servant-entrance", "hint": "A cluster of merchants pushes forward and you move quickly with them."}
       ]
     },
     "servant-entrance": {
       "passage": "A low arch on the palace's east flank serves the kitchens and laundry. Servants shuffle in and out carrying baskets of linen. Nobody notices an extra face. A stone staircase leads upward. The smell of baking bread drifts through the doorway. Somewhere ahead, the chamberlain's voice echoes sharp and clear.",
       "choices": [
-        { "label": "blend in with the servants", "nextNode": "kitchens" },
-        { "label": "take the stairs upward", "nextNode": "upper-corridor" },
-        { "label": "watch for the chamberlain", "nextNode": "chamberlain-encounter" }
+        {"label": "blend in with servants", "nextNode": "kitchens", "hint": "You grab a linen basket and fall into step with the nearest group."},
+        {"label": "take the stairs upward", "nextNode": "upper-corridor", "hint": "The stone steps spiral up into quiet dimness away from the busy kitchen."},
+        {"label": "watch for the chamberlain", "nextNode": "chamberlain-encounter", "hint": "That sharp commanding voice is getting closer to you by the second."}
       ]
     },
     "marketplace": {
       "passage": "The plaza market is loud and bright. Silk merchants hawk their wares beside spice sellers, and a juggler draws a crowd near the fountain. Two courtiers chat by the gate. A costume stall catches your eye - noble cloaks and servant uniforms hang side by side. Chance hides in plain sight.",
       "choices": [
-        { "label": "purchase a noble disguise", "nextNode": "great-hall" },
-        { "label": "steal a servant uniform", "nextNode": "servant-entrance" },
-        { "label": "eavesdrop on two courtiers", "nextNode": "courtier-gossip" }
+        {"label": "purchase a disguise", "nextNode": "great-hall", "hint": "The cloak smells of cedar and old wool but it fits you well enough."},
+        {"label": "steal a uniform", "nextNode": "servant-entrance", "hint": "The stall keeper turns away to help a customer and you act fast."},
+        {"label": "eavesdrop on the courtiers", "nextNode": "courtier-gossip", "hint": "You pretend to browse a bolt of cloth while leaning closer to listen."}
       ]
     },
     "great-hall": {
-      "passage": "The great hall blazes with torchlight. Courtiers in silks and furs cluster around long tables, trading gossip over wine. Minstrels play a slow tune. At the far end, King Aldred holds court on an elevated throne. Somewhere in this crowd is the Queen's lady-in-waiting. Somewhere else, the spymaster watches.",
+      "passage": "The great hall blazes with torchlight. Courtiers in silks and furs cluster around long tables, trading gossip over wine. Musicians play a slow tune from the gallery above. At the far end, King Aldred holds court on an elevated throne. Somewhere here is the Queen's lady-in-waiting. Somewhere else, the spymaster watches.",
       "choices": [
-        { "label": "seek the lady-in-waiting", "nextNode": "ladies-chamber" },
-        { "label": "approach the throne dais", "nextNode": "throne-dais" },
-        { "label": "listen to courtier gossip", "nextNode": "gossip-alcove" }
+        {"label": "seek the lady-in-waiting", "nextNode": "ladies-chamber", "hint": "You scan the crowd for the face that was described in your briefing."},
+        {"label": "approach the throne", "nextNode": "throne-dais", "hint": "The King's raised platform draws your attention to the far end of the hall."},
+        {"label": "listen to the gossip", "nextNode": "gossip-alcove", "hint": "Loose tongues at court sometimes spill secrets that are worth more than gold."}
       ]
     },
     "ladies-chamber": {
-      "passage": "You find the lady-in-waiting near the tapestry alcove, a quiet woman with quick eyes who recognizes the Queen's seal on your collar immediately. She grips your wrist. 'The Queen is alone in her solar,' she whispers. 'I can take the message myself. Or I can take you to her.'",
+      "passage": "You find the lady-in-waiting near the tapestry alcove, a quiet woman with quick eyes. She recognizes the Queen's seal on your collar at once and grips your wrist. The Queen is alone in her solar, she whispers. She can take the message herself, or she can bring you directly to the Queen.",
       "choices": [
-        { "label": "pass the message through her", "nextNode": "message-delivered" },
-        { "label": "request a private audience", "nextNode": "queens-chamber" }
+        {"label": "pass the message to her", "nextNode": "message-delivered", "hint": "Her grip is firm and her eyes are steady enough that you trust her."},
+        {"label": "request an audience", "nextNode": "queens-chamber", "hint": "Some messages are far too important to pass through a go-between's hands."}
       ]
     },
     "throne-dais": {
-      "passage": "You edge toward the raised platform where King Aldred receives petitioners. The Queen sits three steps below him, her expression unreadable, her hands folded. A lean man in grey linen stands at the King's left hand - that must be Vareth, the spymaster. His eyes find yours across the crowded hall.",
+      "passage": "You edge toward the raised platform where King Aldred receives visitors. The Queen sits three steps below him, her expression unreadable, her hands folded. A lean man in grey linen stands at the King's left hand - that must be Vareth, the spymaster. His eyes find yours across the crowded hall.",
       "choices": [
-        { "label": "wait for a quiet moment", "nextNode": "queens-chamber" },
-        { "label": "confront the spymaster directly", "nextNode": "spymaster-confrontation" }
+        {"label": "wait for a lull", "nextNode": "queens-chamber", "hint": "You pretend to watch the musicians while counting every guard in the room."},
+        {"label": "confront the spymaster", "nextNode": "spymaster-confrontation", "hint": "His cold stare feels like a challenge and you choose to meet it head on."}
       ]
     },
     "gossip-alcove": {
       "passage": "You drift toward a cluster of minor nobles whispering by the eastern fireplace. Their talk is scandal and rumor until one phrase catches your ear: a hidden passage behind the wall panels, leading to the Queen's solar. The upper corridor connects as well. You watch where the man's fingers tap the wall.",
       "choices": [
-        { "label": "search for the hidden door", "nextNode": "secret-passage" },
-        { "label": "head up to the corridor", "nextNode": "upper-corridor" }
+        {"label": "search for the passage", "nextNode": "secret-passage", "hint": "The wall panel he tapped looked slightly different in color from the rest."},
+        {"label": "head to the corridor", "nextNode": "upper-corridor", "hint": "The upper hallway might be a safer and quieter route to the solar."}
       ]
     },
     "upper-corridor": {
       "passage": "The upper corridor is narrow and dimly lit, far from the noise below. Dust motes drift in amber light from a high window. The Queen's private solar is at the far end - you can see the carved oak door with its iron lock. A voice ahead sounds like the chamberlain.",
       "choices": [
-        { "label": "try the queen's chamber door", "nextNode": "queens-chamber-door" },
-        { "label": "shadow the chamberlain", "nextNode": "chamberlain-encounter" }
+        {"label": "try the chamber door", "nextNode": "queens-chamber-door", "hint": "The oak door is close and you just need to reach it before anyone sees."},
+        {"label": "shadow the chamberlain", "nextNode": "chamberlain-encounter", "hint": "His brass key ring might be exactly what you need to open that door."}
       ]
     },
     "queens-chamber-door": {
-      "passage": "The carved oak door is locked, its iron handle cold to the touch. The corridor behind you is quiet for now, but voices drift up from the stairwell below. Someone is on their way up. You press yourself close to the wall and think fast.",
+      "passage": "The carved oak door is locked, its iron handle cold to the touch. The corridor behind you is quiet for now, but voices drift up from the stairwell below. Someone is on their way up. You press yourself close to the wall and think fast. The lock looks old and simple enough to force.",
       "choices": [
-        { "label": "pick the lock carefully", "nextNode": "queens-chamber" },
-        { "label": "knock and announce yourself", "nextNode": "spymaster-trap" }
+        {"label": "pick the lock", "nextNode": "queens-chamber", "hint": "You pull a thin wire from your sleeve and work the old iron tumblers."},
+        {"label": "knock and announce yourself", "nextNode": "spymaster-trap", "hint": "The footsteps on the stairs grow louder and closer behind you every moment."}
       ]
     },
     "chamberlain-encounter": {
-      "passage": "A tall man in black-and-gold livery turns the corner and stops dead when he sees you. This is the royal chamberlain - you recognize him from the descriptions. He holds a brass key ring in one hand and stares at you with suspicious, intelligent eyes. 'You do not belong here,' he says.",
+      "passage": "A tall man in black-and-gold robes turns the corner and stops dead when he sees you. This is the royal chamberlain - you recognize him from the descriptions. He holds a brass key ring in one hand and stares at you with suspicious, sharp eyes. You do not belong here, he says flatly.",
       "choices": [
-        { "label": "tell him the truth", "nextNode": "chamberlain-ally" },
-        { "label": "claim to be lost", "nextNode": "chamberlain-suspicious" }
+        {"label": "tell him the truth", "nextNode": "chamberlain-ally", "hint": "Something in his guarded tone suggests he already suspects why you are here."},
+        {"label": "claim to be lost", "nextNode": "chamberlain-suspicious", "hint": "The lie forms quickly on your tongue but his hard expression does not soften."}
       ]
     },
     "kitchens": {
       "passage": "The palace kitchens roar with heat and noise. Cooks shout across steaming pots and kitchen maids rush past with stacks of wooden boards. Nobody pays attention to a stranger in the chaos. A spiral staircase in the corner leads upward, and a curtained passage to the left opens toward the great hall.",
       "choices": [
-        { "label": "take the back stairs", "nextNode": "upper-corridor" },
-        { "label": "follow a servant to the hall", "nextNode": "great-hall" }
+        {"label": "take the back stairs", "nextNode": "upper-corridor", "hint": "The spiral steps are narrow and worn smooth by many years of daily use."},
+        {"label": "slip into the hall", "nextNode": "great-hall", "hint": "You push through the heavy curtain and the kitchen noise fades behind you."}
       ]
     },
     "spymaster-confrontation": {
-      "passage": "Vareth steps in front of you, alone in the side room, his grey eyes flat and cold. He speaks quietly. 'I know why you are here. I know who sent you.' He draws no weapon - he does not need to. The palace guards are one shout away. You have a single heartbeat to decide.",
+      "passage": "Vareth steps in front of you, alone in the side room, his grey eyes flat and cold. He speaks quietly. I know why you are here. I know who sent you. He draws no weapon - he does not need to. The palace guards are one shout away. You have a single heartbeat to decide.",
       "choices": [
-        { "label": "fight your way out", "nextNode": "fight-escape" },
-        { "label": "surrender to his custody", "nextNode": "imprisoned-ending" }
+        {"label": "fight your way out", "nextNode": "fight-escape", "hint": "You tense every muscle in your body before he can finish speaking aloud."},
+        {"label": "surrender to him", "nextNode": "imprisoned-ending", "hint": "His calm certainty and cold eyes drain the fight right out of you."}
       ]
     },
     "fight-escape": {
       "passage": "You throw your shoulder into Vareth and bolt for the door. The spymaster hits the wall hard and shouts for the guards. You hear boots on stone, shouts from below. You vault a railing and land in the courtyard, running hard. The outer gate stands open - but the queen still needs that message.",
       "choices": [
-        { "label": "escape through the open gate", "nextNode": "bittersweet-ending" },
-        { "label": "circle back for the queen", "nextNode": "queens-chamber" }
+        {"label": "escape through the gate", "nextNode": "bittersweet-ending", "hint": "Freedom is barely ten strides away but the undelivered message weighs on you."},
+        {"label": "circle back for the queen", "nextNode": "queens-chamber", "hint": "You duck behind a stone column and double back through the palace shadows."}
       ]
     },
     "secret-passage": {
       "passage": "Behind the third panel from the fireplace the wall swings inward on a hidden pivot. The passage inside is barely wide enough to walk through, smelling of old stone and candle smoke. Scratched arrows on the plaster point upward. You follow them in the dark until a sliver of candlelight appears ahead.",
       "choices": [
-        { "label": "push through to the solar", "nextNode": "queens-chamber" },
-        { "label": "wait and listen carefully", "nextNode": "chamberlain-encounter" }
+        {"label": "push through to the solar", "nextNode": "queens-chamber", "hint": "Warm candlelight spills through a thin crack in the stone wall just ahead."},
+        {"label": "wait and listen", "nextNode": "chamberlain-encounter", "hint": "Careful footsteps and the clink of keys echo from somewhere beyond the wall."}
       ]
     },
     "queens-chamber": {
       "passage": "You step into the Queen's solar. She sits alone at a writing desk, a single candle burning. When she sees the seal on your collar her composure does not change - but her eyes sharpen. She extends one hand for the message. The room is very still. Outside the palace carries on, ignorant.",
       "choices": [
-        { "label": "stay and witness the outcome", "nextNode": "triumphant-ending" },
-        { "label": "slip away quietly now", "nextNode": "quiet-escape-ending" }
+        {"label": "stay and witness the outcome", "nextNode": "triumphant-ending", "hint": "You stand by the door and wait in silence as she reads every word."},
+        {"label": "slip away now", "nextNode": "quiet-escape-ending", "hint": "Your work here is done and staying any longer only increases the danger."}
       ]
     },
     "courtier-gossip": {
       "passage": "The two men are deep in conversation beneath an awning. You linger beside a bolt of cloth, pretending to examine it. Their words drift over: a name, a meeting time, and a route - the servant passage from the east plaza leads past the guard post and into the palace unnoticed.",
       "choices": [
-        { "label": "follow the nobles inside", "nextNode": "great-hall" },
-        { "label": "sneak toward the east wing", "nextNode": "servant-entrance" }
+        {"label": "follow the nobles inside", "nextNode": "great-hall", "hint": "You trail them at a safe distance as they pass through the palace gate."},
+        {"label": "head toward the east wing", "nextNode": "servant-entrance", "hint": "The servant passage they mentioned sounds like the safest way inside the palace."}
       ]
     },
     "chamberlain-ally": {
-      "passage": "The chamberlain listens without interrupting. When you finish he is quiet a long moment, staring at the floor. Then he nods slowly. 'I serve the Queen in all things,' he says. 'There are two ways to reach her. I leave the choice to you.' He steps aside and waits.",
+      "passage": "The chamberlain listens without interrupting. When you finish he is quiet a long moment, staring at the floor. Then he nods slowly. I serve the Queen in all things, he says. There are two ways to reach her and he will leave the choice to you. He steps aside and waits.",
       "choices": [
-        { "label": "trust him with the message", "nextNode": "message-delivered" },
-        { "label": "ask him to escort you", "nextNode": "queens-chamber" }
+        {"label": "trust him with the message", "nextNode": "message-delivered", "hint": "His steady hands accept the folded parchment from you with obvious care."},
+        {"label": "ask him to escort you", "nextNode": "queens-chamber", "hint": "His key ring jingles softly as he turns and leads you toward the solar."}
       ]
     },
     "chamberlain-suspicious": {
-      "passage": "The chamberlain's expression hardens. He does not believe you. 'Lost,' he repeats, his voice flat. He seizes your arm and calls for the guard with two sharp words. Within moments you are being marched toward the service exit. The message in your collar feels suddenly very heavy.",
+      "passage": "The chamberlain's expression hardens. He does not believe you. Lost, he repeats, his voice flat. He seizes your arm and calls for the guard with two sharp words. Within moments you are being marched toward the service exit. The message in your collar feels suddenly very heavy and very far from the Queen.",
       "choices": [
-        { "label": "resist and break free", "nextNode": "fight-escape" },
-        { "label": "go quietly and regroup", "nextNode": "exiled-ending" }
+        {"label": "resist and break free", "nextNode": "fight-escape", "hint": "You twist hard against his grip on your arm and feel it loosen."},
+        {"label": "go quietly and regroup", "nextNode": "exiled-ending", "hint": "Fighting now would only make things worse for you and for the mission."}
       ]
     },
     "spymaster-trap": {
-      "passage": "The door swings open before you finish knocking. Vareth stands in the frame, not the Queen. He looks unsurprised. 'I had a feeling someone would try this door,' he says, his hand already raised to signal the guards at the corridor's end. The trap closes around you like a fist.",
+      "passage": "The door swings open before you finish knocking. Vareth stands in the frame, not the Queen. He looks unsurprised. I had a feeling someone would try this door, he says, his hand already raised to signal the guards at the corridor's end. The trap closes around you like a fist.",
       "choices": [
-        { "label": "surrender without resistance", "nextNode": "imprisoned-ending" },
-        { "label": "bolt down the corridor", "nextNode": "fight-escape" }
+        {"label": "surrender without a fight", "nextNode": "imprisoned-ending", "hint": "The guards are already moving toward you and there is nowhere left to run."},
+        {"label": "bolt down the corridor", "nextNode": "fight-escape", "hint": "You spin on your heel and run before his hand finishes the signal."}
       ]
     },
     "message-delivered": {
-      "passage": "The message reaches the Queen's hands through a trusted channel. By nightfall the palace is abuzz with news of a conspiracy uncovered. You are already two days' ride from the capital, your mission complete. The cipher that started this journey sits at the bottom of a river. You sleep well.",
+      "passage": "The message reaches the Queen's hands through a trusted channel. By nightfall the palace is abuzz with news of a plot uncovered. You are already two days' ride from the capital, your mission complete. The cipher that started this journey sits at the bottom of a river. You sleep well for once.",
       "choices": [],
       "ending": {
         "title": "Mission Accomplished",
-        "flavor": "The right message in the right hands can topple a king."
+        "flavor": "The right message in the right hands can topple a king.",
+        "action": "ride into the night"
       }
     },
     "imprisoned-ending": {
-      "passage": "The dungeon is deep and cold, lit by a single oil lamp that someone forgot to refill. Your message was never delivered. The conspiracy grows in the dark above you. You count the stones in the wall and wonder how long before anyone comes. No one comes. Not that day.",
+      "passage": "The dungeon is deep and cold, lit by a single oil lamp that someone forgot to refill. Your message was never delivered. The plot grows in the dark above you. You count the stones in the wall and wonder how long before anyone comes. No one comes. Not that day. Not the next.",
       "choices": [],
       "ending": {
         "title": "Forgotten in the Dark",
-        "flavor": "Some messages are swallowed by the walls meant to keep them safe."
+        "flavor": "Some messages are swallowed by the walls meant to keep them safe.",
+        "action": "count the stones again"
       }
     },
     "exiled-ending": {
-      "passage": "You are escorted to the city gates and told never to return. The capital's skyline shrinks behind you as dusk falls. The message still sewn into your collar grows heavier with every step. The Queen will not receive it. The conspiracy will run its course. You failed, and the road ahead is long.",
+      "passage": "You are escorted to the city gates and told never to return. The capital's skyline shrinks behind you as dusk falls. The message still sewn into your collar grows heavier with every step. The Queen will not receive it. The plot will run its course. You failed, and the road ahead is long.",
       "choices": [],
       "ending": {
         "title": "Exiled Without Honor",
-        "flavor": "Some doors, once closed, cannot be opened again."
+        "flavor": "Some doors, once closed, cannot be opened again.",
+        "action": "turn your back on the city"
       }
     },
     "triumphant-ending": {
-      "passage": "The Queen reads the message twice, then rises from her desk. She calls for her steward with quiet authority. By the time the evening banquet begins, three of the King's conspirators are in custody. She does not thank you aloud - that would be unsafe. But her nod says everything. The kingdom is safer tonight.",
+      "passage": "The Queen reads the message twice, then rises from her desk. She calls for her steward with quiet authority. By the time the evening banquet begins, three of the King's plotters are in custody. She does not thank you aloud - that would be unsafe. But her nod says everything. The kingdom is safer tonight.",
       "choices": [],
       "ending": {
         "title": "The Queen's Gratitude",
-        "flavor": "A single message, delivered in time, turned the tide of history."
+        "flavor": "A single message, delivered in time, turned the tide of history.",
+        "action": "bow and take your leave"
       }
     },
     "quiet-escape-ending": {
@@ -191,7 +195,8 @@
       "choices": [],
       "ending": {
         "title": "The Ghost Messenger",
-        "flavor": "The best spies leave no trace - only consequences."
+        "flavor": "The best spies leave no trace - only consequences.",
+        "action": "vanish into the crowd"
       }
     },
     "bittersweet-ending": {
@@ -199,7 +204,8 @@
       "choices": [],
       "ending": {
         "title": "The Message Lost",
-        "flavor": "To escape with your life is something - but not enough."
+        "flavor": "To escape with your life is something - but not enough.",
+        "action": "disappear into the alley"
       }
     }
   }

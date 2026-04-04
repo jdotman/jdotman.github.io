@@ -10,170 +10,170 @@
   "startNode": "intro",
   "nodes": {
     "intro": {
-      "passage": "You arrive at Harthmere's gates on the morning of the Harvest Festival. Colored banners snap in the autumn wind and the smell of roasting chestnuts drifts over the walls. A crowd presses through the archway ahead of you. Music and laughter echo from three directions beyond the gate.",
+      "passage": "You arrive at Harthmere's gates on the morning of the Harvest Festival. Colored banners snap in the autumn wind and the smell of roasting chestnuts drifts over the walls. A crowd presses through the archway ahead of you. Beyond the gate you glimpse a town square, rows of market stalls, and a tavern with its door propped open.",
       "choices": [
-        { "label": "enter the town square", "nextNode": "festival-square" },
-        { "label": "browse the market stalls", "nextNode": "market-stalls" },
-        { "label": "visit the tavern", "nextNode": "tavern-crowd" }
+        { "label": "enter the square", "nextNode": "festival-square", "hint": "The cobblestones are worn smooth by generations of festival crowds." },
+        { "label": "browse the stalls", "nextNode": "market-stalls", "hint": "A dozen smells hit you at once, sweet and savory and strange." },
+        { "label": "visit the tavern", "nextNode": "tavern-crowd", "hint": "Laughter and the clink of mugs spill through the open door." }
       ]
     },
     "festival-square": {
       "passage": "The square is alive with jugglers, fire-breathers, and a wooden stage draped in gold cloth. A town crier on a barrel shouts about the treasure hunt. A golden crown lies hidden somewhere in Harthmere, he bellows, and the finder keeps it. An archery range stands east and a silk tent glows nearby.",
       "choices": [
-        { "label": "join the treasure hunt", "nextNode": "join-the-hunt" },
-        { "label": "try the archery range", "nextNode": "archery-range" },
-        { "label": "visit the fortune teller", "nextNode": "fortune-teller" }
+        { "label": "join the hunt", "nextNode": "join-the-hunt", "hint": "The crier waves you toward a registration table at the foot of the stage." },
+        { "label": "try the archery range", "nextNode": "archery-range", "hint": "Arrows thud into straw targets with a steady, sharp rhythm." },
+        { "label": "visit the tent", "nextNode": "fortune-teller", "hint": "Warm candlelight flickers through the silk walls like trapped fireflies." }
       ]
     },
     "market-stalls": {
-      "passage": "Merchants hawk everything from honeycakes to enchanted trinkets. A hunched woman in a corner stall catches your eye. She sells old maps, yellowed and cracked. One bears the festival crown's seal stamped in red wax at the corner. She wants ten silver for it. Firm, no haggling.",
+      "passage": "Merchants hawk everything from honeycakes to enchanted trinkets under bright cloth awnings. A hunched woman in a corner stall catches your eye. She sells old maps, yellowed and cracked. One bears the festival crown's seal stamped in red wax at the corner. She wants ten silver for it. Firm, no haggling.",
       "choices": [
-        { "label": "buy the crown map", "nextNode": "old-map" },
-        { "label": "head to the square", "nextNode": "festival-square" }
+        { "label": "buy the map", "nextNode": "old-map", "hint": "You count out the coins and the woman slides the map across the table." },
+        { "label": "head to the square", "nextNode": "festival-square", "hint": "Music and cheering grow louder as you walk toward the center of town." }
       ]
     },
     "tavern-crowd": {
-      "passage": "The Broken Barrel tavern is packed shoulder to shoulder. Hunters swap rumors over ale and bread. A card game runs in the back corner with a brass token as the prize. At the bar, a grizzled woman mutters about a clue she found at the town fountain this morning.",
+      "passage": "The Broken Barrel tavern is packed shoulder to shoulder. Smoke curls beneath the low beams. Hunters swap rumors over ale and bread. A card game runs in the back corner with a brass token as the prize. At the bar, a grizzled woman mutters about a clue she found at the town fountain this morning.",
       "choices": [
-        { "label": "join the card game", "nextNode": "card-game" },
-        { "label": "ask about the fountain", "nextNode": "fountain-clue" }
+        { "label": "join the card game", "nextNode": "card-game", "hint": "You slide into an empty chair and the dealer nods at you." },
+        { "label": "ask about the fountain", "nextNode": "fountain-clue", "hint": "The woman eyes you over her mug before leaning closer." }
       ]
     },
     "join-the-hunt": {
       "passage": "You sign your name on the registration scroll. The hunt master hands you a folded riddle on parchment. It reads: Where water speaks but has no mouth, where coins rest but buy nothing, there the first mark waits. A second clue, he says, lives with the woman who reads the stars.",
       "choices": [
-        { "label": "search the fountain", "nextNode": "fountain-clue" },
-        { "label": "find the stargazer", "nextNode": "fortune-teller" }
+        { "label": "search the fountain", "nextNode": "fountain-clue", "hint": "Water that speaks and coins that buy nothing - it has to be a fountain." },
+        { "label": "find the stargazer", "nextNode": "fortune-teller", "hint": "You scan the festival crowd for someone who looks like a seer." }
       ]
     },
     "archery-range": {
-      "passage": "Straw targets line a roped field. The reigning champion, a tall woman named Kessa, looses arrow after arrow into the center ring. She notices you watching and grins. Between shots she mentions the old bell tower at the north wall. Strange lights flickered in its windows last night, she says.",
+      "passage": "Straw targets line a roped field. The reigning champion, a tall woman named Kessa, looses arrow after arrow into the center ring. She notices you watching and grins. Between shots she mentions the old bell tower at the north wall. Strange lights flickered in its windows last night, she says. A hunt registration banner flutters nearby.",
       "choices": [
-        { "label": "register for the hunt", "nextNode": "join-the-hunt" },
-        { "label": "go to the bell tower", "nextNode": "bell-tower" }
+        { "label": "register for the hunt", "nextNode": "join-the-hunt", "hint": "You walk to the banner and find a scroll waiting for your name." },
+        { "label": "go to the bell tower", "nextNode": "bell-tower", "hint": "The tower's dark silhouette rises above the rooftops to the north." }
       ]
     },
     "fortune-teller": {
       "passage": "A silk tent glows amber from candles within. The fortune teller, an old woman with silver rings on every finger, studies your palm. The crown sleeps where sound once lived, she whispers. Seek the place that rang but rings no longer. Beneath the festival stage, she adds, something else stirs.",
       "choices": [
-        { "label": "go to the bell tower", "nextNode": "bell-tower" },
-        { "label": "search beneath the stage", "nextNode": "beneath-stage" }
+        { "label": "go to the bell tower", "nextNode": "bell-tower", "hint": "A place that once rang - it must be a bell tower somewhere in town." },
+        { "label": "search beneath the stage", "nextNode": "beneath-stage", "hint": "You push aside the tent flap and head back toward the square." }
       ]
     },
     "fountain-clue": {
-      "passage": "The town fountain stands in a cobbled circle. Water splashes over carved stone fish. You kneel and peer beneath the rim. Someone has scratched a message into the stone: The crown hangs where the last bell sleeps. An arrow beneath the words points north toward the old bell tower.",
+      "passage": "The town fountain stands in a cobbled circle surrounded by old oak trees. Water splashes over carved stone fish. You kneel and peer beneath the rim. Someone has scratched a message into the stone: The crown hangs where the last bell sleeps. An arrow beneath the words points north toward the old bell tower.",
       "choices": [
-        { "label": "head to the bell tower", "nextNode": "bell-tower" },
-        { "label": "consult the fortune teller", "nextNode": "fortune-teller" }
+        { "label": "head to the bell tower", "nextNode": "bell-tower", "hint": "You stand and look north where a dark spire rises above the rooftops." },
+        { "label": "consult the fortune teller", "nextNode": "fortune-teller", "hint": "Maybe someone in town can tell you more about that bell." }
       ]
     },
     "old-map": {
-      "passage": "The map is hand-drawn in faded ink. It shows Harthmere from above with a red circle around the bell tower at the north end of town. A note in the margin reads: Beneath the silent tongue. You roll the map and tuck it into your belt.",
+      "passage": "The map is hand-drawn in faded ink. It shows Harthmere from above with a red circle around the bell tower at the north end of town. A note in the margin reads: Beneath the silent tongue. You roll the map and tuck it into your belt. The fountain nearby could hold more clues.",
       "choices": [
-        { "label": "go to the bell tower", "nextNode": "bell-tower" },
-        { "label": "verify at the fountain", "nextNode": "fountain-clue" }
+        { "label": "go to the bell tower", "nextNode": "bell-tower", "hint": "The red circle on the map pulls your eyes north." },
+        { "label": "verify at the fountain", "nextNode": "fountain-clue", "hint": "You decide to check one more source before making the trip." }
       ]
     },
     "card-game": {
       "passage": "You sit at the table and ante up. The game is Fool's Gambit and the other players are sharp. After three rounds you read a bluff and call it. The pot slides to you, including a brass token stamped with the town seal. The old man across from you nods.",
       "choices": [
-        { "label": "take the token and leave", "nextNode": "bell-tower" },
-        { "label": "ask about the token", "nextNode": "fountain-clue" }
+        { "label": "take the token", "nextNode": "bell-tower", "hint": "The brass feels warm in your palm and the seal catches the light." },
+        { "label": "ask about the token", "nextNode": "fountain-clue", "hint": "The old man leans back and studies you with sharp eyes." }
       ]
     },
     "bell-tower": {
-      "passage": "The old bell tower stands alone at the north wall, its stones dark with age. The wooden door is bolted with a heavy iron lock. Ivy climbs the east face to a cracked window near the top. The lock bears the same seal as the brass festival tokens.",
+      "passage": "The old bell tower stands alone at the north wall, its stones dark with age. Wind whistles through cracks in the masonry above. The wooden door is bolted with a heavy iron lock. Ivy climbs the east face to a cracked window near the top. The lock bears the same seal as the brass festival tokens.",
       "choices": [
-        { "label": "climb the ivy", "nextNode": "climb-outside" },
-        { "label": "try the brass token", "nextNode": "tower-door" },
-        { "label": "search for another way", "nextNode": "loose-stone" }
+        { "label": "climb the ivy", "nextNode": "climb-outside", "hint": "The vines look thick enough to hold your weight, barely." },
+        { "label": "try the token", "nextNode": "tower-door", "hint": "You fish the brass token from your pocket and examine the lock." },
+        { "label": "search for another way", "nextNode": "loose-stone", "hint": "You circle the base of the tower, running your hands along the stone." }
       ]
     },
     "climb-outside": {
-      "passage": "You grip the ivy and haul yourself upward. The vines hold but creak under your weight. Halfway up, a stone shifts and your foot slips. You catch yourself and keep climbing. The cracked window is just wide enough to squeeze through. You tumble into the dusty belfry above.",
+      "passage": "You grip the ivy and haul yourself upward. The vines hold but creak under your weight. Halfway up, a stone shifts and your foot slips. You catch yourself and keep climbing. The cracked window is just wide enough to squeeze through. You tumble onto the dusty belfry platform and cough in the stale air.",
       "choices": [
-        { "label": "examine the old bell", "nextNode": "belfry" },
-        { "label": "look down the stairwell", "nextNode": "tower-ground" }
+        { "label": "examine the bell", "nextNode": "belfry", "hint": "Dust swirls in the shaft of light falling across the bronze bell." },
+        { "label": "look down the stairwell", "nextNode": "tower-ground", "hint": "A spiral of stone steps disappears into the gloom below." }
       ]
     },
     "tower-door": {
       "passage": "You press the brass token into the lock. It clicks and the bolt slides free. The door swings inward with a groan, revealing a dim ground floor. Dust motes drift in a shaft of light from above. Stone stairs spiral upward. A trapdoor is set into the floor near the wall.",
       "choices": [
-        { "label": "climb the stairs", "nextNode": "belfry" },
-        { "label": "open the trapdoor", "nextNode": "cellar" }
+        { "label": "climb the stairs", "nextNode": "belfry", "hint": "Your footsteps echo off the narrow stone walls as you ascend." },
+        { "label": "open the trapdoor", "nextNode": "cellar", "hint": "The iron ring is cold in your hand as you pull." }
       ]
     },
     "loose-stone": {
       "passage": "You circle the tower, running your hands along the base. Thick ivy clings to the east wall above you. Near the back, one stone wobbles. You pull it free and find a rusted iron key on a chain inside the gap. It looks old enough to be original to the tower. The front door keyhole matches.",
       "choices": [
-        { "label": "unlock the door", "nextNode": "tower-ground" },
-        { "label": "pocket the key and climb", "nextNode": "climb-outside" }
+        { "label": "unlock the door", "nextNode": "tower-ground", "hint": "The key turns with a grinding click and the bolt gives way." },
+        { "label": "pocket the key and climb", "nextNode": "climb-outside", "hint": "You tuck the key away and grab a fistful of ivy." }
       ]
     },
     "tower-ground": {
       "passage": "The ground floor is bare except for a broken table and a trapdoor bolted to the floor. Stairs spiral upward into shadow. Cobwebs hang thick as curtains in the corners. Footprints in the dust show someone has been here recently. They lead both up the stairs and down through the trapdoor.",
       "choices": [
-        { "label": "go up to the belfry", "nextNode": "belfry" },
-        { "label": "open the trapdoor", "nextNode": "cellar" }
+        { "label": "go up to the belfry", "nextNode": "belfry", "hint": "The footprints on the stairs are fresh and pressed deep." },
+        { "label": "open the trapdoor", "nextNode": "cellar", "hint": "The bolt is stiff but it slides free with effort." }
       ]
     },
     "belfry": {
       "passage": "The great bronze bell hangs silent in its cradle, its clapper removed long ago. Pigeons scatter as you step onto the wooden platform. Dusty rafters cross above you. Through the arched openings you see the whole festival spread below. Inside the bell, something catches the light. A glint of gold.",
       "choices": [
-        { "label": "reach into the bell", "nextNode": "crown-alcove" },
-        { "label": "check the rafters above", "nextNode": "hidden-journal" },
-        { "label": "wait and watch", "nextNode": "rival-first" }
+        { "label": "reach into the bell", "nextNode": "crown-alcove", "hint": "Your heart pounds as you stretch your arm toward the glint." },
+        { "label": "check the rafters", "nextNode": "hidden-journal", "hint": "A loose board in the rafters above catches your eye." },
+        { "label": "wait and watch", "nextNode": "rival-first", "hint": "Something tells you to hold back and see who else comes." }
       ]
     },
     "crown-alcove": {
-      "passage": "You stretch your arm into the bell's hollow. Your fingers close around cold metal. You pull it free and the golden crown gleams in the afternoon light, set with red garnets shaped like autumn leaves. Heavy footsteps pound up the stairs behind you. Someone else has found this place.",
+      "passage": "You stretch your arm into the bell's hollow. Your fingers close around cold metal. You pull it free and the golden crown gleams in the afternoon light, set with red garnets shaped like autumn leaves. Heavy footsteps pound up the stairs behind you. Someone else has found this place. The window stands open.",
       "choices": [
-        { "label": "run for the window", "nextNode": "crown-escape" },
-        { "label": "stand your ground", "nextNode": "rival-confrontation" },
-        { "label": "offer to share the prize", "nextNode": "shared-triumph" }
+        { "label": "run for the window", "nextNode": "crown-escape", "hint": "The ivy outside the window is your fastest way down." },
+        { "label": "stand your ground", "nextNode": "rival-confrontation", "hint": "You grip the crown tight and turn to face the stairs." },
+        { "label": "offer to share", "nextNode": "shared-triumph", "hint": "Maybe there is a way out of this that does not end in a fight." }
       ]
     },
     "hidden-journal": {
       "passage": "Behind a loose rafter board you find a leather journal wrapped in oilcloth. The pages are centuries old. It is the diary of Harthmere's founder, thought lost for generations. Pressed between the final pages is a map to a sealed vault beneath the town hall holding relics far older than any crown.",
       "choices": [
-        { "label": "take the journal below", "nextNode": "deeper-discovery" },
-        { "label": "grab the crown instead", "nextNode": "crown-alcove" }
+        { "label": "take the journal below", "nextNode": "deeper-discovery", "hint": "This find could change the history of the whole town." },
+        { "label": "grab the crown instead", "nextNode": "crown-alcove", "hint": "The glint of gold inside the bell still calls to you." }
       ]
     },
     "rival-first": {
       "passage": "You hesitate a moment too long. A figure in a dark cloak bursts from the stairwell, reaches into the bell, and pulls the crown free in one swift motion. He meets your eyes with a sharp grin, tucks the crown under his arm, and leaps through the window onto the ivy.",
       "choices": [
-        { "label": "chase after him", "nextNode": "empty-handed" },
-        { "label": "search the belfry instead", "nextNode": "hidden-journal" }
+        { "label": "chase after him", "nextNode": "empty-handed", "hint": "You vault through the window and slide down the ivy after him." },
+        { "label": "search the belfry", "nextNode": "hidden-journal", "hint": "The crown is gone but maybe something else hides up here." }
       ]
     },
     "cellar": {
       "passage": "You lift the trapdoor and descend a stone staircase into a cool, dark cellar. Old barrels and crates line the walls. At the far end, a rough tunnel has been carved into the bedrock, sloping gently downward. The air smells of damp earth and something faintly metallic, like old coins.",
       "choices": [
-        { "label": "follow the tunnel", "nextNode": "tunnel-end" },
-        { "label": "search the barrels", "nextNode": "barrel-find" },
-        { "label": "go back up", "nextNode": "tower-ground" }
+        { "label": "follow the tunnel", "nextNode": "tunnel-end", "hint": "A faint draft carries the smell of fresh air from somewhere ahead." },
+        { "label": "search the barrels", "nextNode": "barrel-find", "hint": "One barrel near the back looks older and heavier than the rest." },
+        { "label": "go back up", "nextNode": "tower-ground", "hint": "You glance up the stone stairs toward the pale light above." }
       ]
     },
     "tunnel-end": {
       "passage": "The tunnel slopes upward and ends at an iron grate beneath the market square. You push it open and climb out among startled merchants and scattered cabbages. The bell tower stands visible above the rooftops to the north. Whatever this passage was built for, it has given you a shortcut across town.",
       "choices": [
-        { "label": "head to the bell tower", "nextNode": "bell-tower" },
-        { "label": "explore the market", "nextNode": "market-stalls" }
+        { "label": "head to the bell tower", "nextNode": "bell-tower", "hint": "You brush the dirt from your clothes and head north." },
+        { "label": "explore the market", "nextNode": "market-stalls", "hint": "The stalls around you are full of goods worth a closer look." }
       ]
     },
     "barrel-find": {
       "passage": "You pry the lid off a dusty barrel and find it packed with straw. Buried inside is a bronze casket sealed with the town's old crest. Inside lies a circlet of white silver set with a single moonstone, far older and finer than the golden festival crown hidden somewhere above.",
       "choices": [
-        { "label": "take the silver circlet", "nextNode": "deeper-discovery" },
-        { "label": "leave it and go up", "nextNode": "belfry" }
+        { "label": "take the circlet", "nextNode": "deeper-discovery", "hint": "The silver is cool and light in your hands, almost weightless." },
+        { "label": "leave it and go up", "nextNode": "belfry", "hint": "You set the circlet back in the straw and climb the stairs." }
       ]
     },
     "beneath-stage": {
       "passage": "You crawl under the festival stage through a gap in the skirting. The space is tight and dark, thick with dust and old bunting. Near the center, a narrow passage has been cut into the earth, sloping downward into blackness. Cool air rises from below carrying the smell of damp stone.",
       "choices": [
-        { "label": "follow the passage down", "nextNode": "cellar" },
-        { "label": "crawl back out", "nextNode": "festival-square" }
+        { "label": "follow the passage", "nextNode": "cellar", "hint": "You lower yourself into the dark and feel for the next step." },
+        { "label": "crawl back out", "nextNode": "festival-square", "hint": "Sunlight and music greet you as you squeeze back into the open." }
       ]
     },
     "crown-escape": {
@@ -181,7 +181,8 @@
       "choices": [],
       "ending": {
         "title": "The Golden Victor",
-        "flavor": "The crowd chants your name and the autumn sun crowns you twice."
+        "flavor": "The crowd chants your name and the autumn sun crowns you twice.",
+        "action": "raise the crown high"
       }
     },
     "rival-confrontation": {
@@ -189,7 +190,8 @@
       "choices": [],
       "ending": {
         "title": "Earned in Full",
-        "flavor": "Respect is harder to win than gold, and worth more."
+        "flavor": "Respect is harder to win than gold, and worth more.",
+        "action": "descend the tower steps"
       }
     },
     "shared-triumph": {
@@ -197,7 +199,8 @@
       "choices": [],
       "ending": {
         "title": "Halved and Doubled",
-        "flavor": "Two names on the winner's scroll are better than one."
+        "flavor": "Two names on the winner's scroll are better than one.",
+        "action": "shake her hand"
       }
     },
     "empty-handed": {
@@ -205,15 +208,17 @@
       "choices": [],
       "ending": {
         "title": "The One Who Waited",
-        "flavor": "The festival goes on and tomorrow there will be other prizes, though none as bright."
+        "flavor": "The festival goes on and tomorrow there will be other prizes, though none as bright.",
+        "action": "walk away from the crowd"
       }
     },
     "deeper-discovery": {
-      "passage": "You carry the ancient circlet into the sunlight. The town historian nearly faints when she sees it. This is worth more than a hundred golden crowns, she whispers. The founder's lost treasure. By evening the whole town speaks not of the hunt but of what you found beneath it.",
+      "passage": "You carry the ancient circlet into the sunlight. The town historian nearly faints when she sees it. This is worth more than a hundred golden crowns, she whispers. The founder's lost treasure. By evening the whole town speaks not of the hunt but of what you found buried beneath it.",
       "choices": [],
       "ending": {
         "title": "Beyond the Prize",
-        "flavor": "Some treasures are not hidden - they are simply forgotten."
+        "flavor": "Some treasures are not hidden - they are simply forgotten.",
+        "action": "place the circlet on display"
       }
     }
   }

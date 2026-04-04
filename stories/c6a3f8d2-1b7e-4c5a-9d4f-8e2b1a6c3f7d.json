@@ -12,122 +12,122 @@
     "intro": {
       "passage": "You arrive at Grayhollow as dusk settles. Livestock pens stand empty and claw marks scar the wooden fences. Elder Maren meets you at the well, her face drawn tight. She says three hunters went into the western fog two nights ago. Two returned but will not speak. The third has not come back.",
       "choices": [
-        { "label": "question the silent hunters", "nextNode": "silent-hunters" },
-        { "label": "examine the claw marks", "nextNode": "claw-marks" },
-        { "label": "head west immediately", "nextNode": "fog-edge" }
+        { "label": "question the hunters", "nextNode": "silent-hunters", "hint": "Their eyes have a hollow look you have seen before." },
+        { "label": "examine the claw marks", "nextNode": "claw-marks", "hint": "The gouges in the wood are deep and oddly even." },
+        { "label": "head west immediately", "nextNode": "fog-edge", "hint": "The fog clings to the treeline like a living thing." }
       ]
     },
     "silent-hunters": {
       "passage": "The two hunters sit in the elder's hall wrapped in blankets. Their eyes are wide and glassy. One, Brynn, grips a pendant so hard her knuckles are white. She whispers that the beast spoke to them. It knew their names. The other, Dareth, rocks back and forth, humming a tune you do not know.",
       "choices": [
-        { "label": "ask about the pendant", "nextNode": "pendant-clue" },
-        { "label": "listen to the humming", "nextNode": "humming-clue" }
+        { "label": "ask about the pendant", "nextNode": "pendant-clue", "hint": "The carved shape catches your eye as Brynn shifts her grip." },
+        { "label": "listen to the humming", "nextNode": "humming-clue", "hint": "The melody has a pattern, almost like a chant." }
       ]
     },
     "claw-marks": {
-      "passage": "You kneel beside the ruined fence. The marks are deep but strangely even, almost deliberate. They do not look like the wild slashes of a predator. Between the gouges you notice symbols scratched into the wood, half-hidden beneath mud. They resemble old ward-marks used to bind spirits. Someone or something carved these on purpose.",
+      "passage": "You kneel beside the ruined fence. The marks are deep but strangely even, almost deliberate. They do not look like wild slashes of a predator. Between the gouges you notice symbols scratched into the wood, half-hidden beneath mud. They resemble old ward-marks used to bind spirits. Someone carved these on purpose.",
       "choices": [
-        { "label": "copy the symbols", "nextNode": "pendant-clue" },
-        { "label": "follow tracks into the field", "nextNode": "fog-edge" }
+        { "label": "copy the symbols", "nextNode": "pendant-clue", "hint": "You scratch each shape into the dirt with a stick." },
+        { "label": "follow tracks into the field", "nextNode": "fog-edge", "hint": "Deep prints lead west toward the fog-covered treeline." }
       ]
     },
     "pendant-clue": {
       "passage": "Brynn opens her fist. The pendant is carved bone shaped like a stag with too many antler points. She found it hanging from a tree where the beast first appeared. The symbols on it match the ward-marks on the fences. This beast is not wild. Someone called it here. These marks are a leash or a cage.",
       "choices": [
-        { "label": "take the pendant", "nextNode": "fog-edge-prepared" },
-        { "label": "search for who made it", "nextNode": "herbalist-hut" }
+        { "label": "take the pendant", "nextNode": "fog-edge-prepared", "hint": "The bone is warm in your hand, almost like it is alive." },
+        { "label": "search for its maker", "nextNode": "herbalist-hut", "hint": "Someone in this village knows how to carve ward-marks." }
       ]
     },
     "humming-clue": {
-      "passage": "You sit beside Dareth and listen. The tune follows a pattern, rising and falling like a chant. You have heard field-priests sing this way at the village shrine to calm cursed beasts. Dareth stops and stares at you. He says the beast was once a man. Then he goes silent and will not say more.",
+      "passage": "You sit beside Dareth and listen. The tune follows a pattern, rising and falling like a chant. You have heard field-priests sing this way to calm cursed beasts. Dareth stops and stares at you. He says the beast was once a man. Then he goes silent and will not say more. A shrine sits at the edge of town.",
       "choices": [
-        { "label": "visit the village shrine", "nextNode": "herbalist-hut" },
-        { "label": "head into the fog now", "nextNode": "fog-edge" }
+        { "label": "visit the shrine", "nextNode": "herbalist-hut", "hint": "If the chant came from a shrine, answers might wait there." },
+        { "label": "head into the fog", "nextNode": "fog-edge", "hint": "You have heard enough. The western treeline calls to you." }
       ]
     },
     "herbalist-hut": {
-      "passage": "The village herbalist, old Callum, lives at the treeline. His door is ajar. Inside, dried roots hang from the ceiling and a journal lies open on the table. The last entry describes a binding ritual and names a man called Fenric who vanished from the village a month before the beast appeared. Callum himself is nowhere to be found.",
+      "passage": "The village herbalist, old Callum, lives at the treeline. His door is ajar. Inside, dried roots hang from the ceiling and a journal lies open on the table. The last entry describes a binding ritual and names a man called Fenric who vanished a month before the beast appeared. Callum himself is gone.",
       "choices": [
-        { "label": "read the full journal", "nextNode": "journal-reveal" },
-        { "label": "take the journal and go", "nextNode": "fog-edge-prepared" }
+        { "label": "read the journal", "nextNode": "journal-reveal", "hint": "The ink is still fresh on the final pages." },
+        { "label": "take the journal and go", "nextNode": "fog-edge-prepared", "hint": "You tuck the book under your arm and head for the fog." }
       ]
     },
     "journal-reveal": {
       "passage": "The journal tells a grim story. Fenric was a woodcutter who found an old shrine in the forest and touched something he should not have. Callum tried a binding ritual but it only half-worked. Fenric became the beast yet kept enough mind to recall the village. Callum's last note says he went to finish the ritual alone.",
       "choices": [
-        { "label": "bring the journal along", "nextNode": "fog-edge-prepared" },
-        { "label": "warn the elder first", "nextNode": "warn-elder" }
+        { "label": "bring the journal along", "nextNode": "fog-edge-prepared", "hint": "The ritual steps may prove useful in the fog ahead." },
+        { "label": "warn the elder first", "nextNode": "warn-elder", "hint": "Maren deserves to know the truth about Fenric." }
       ]
     },
     "warn-elder": {
       "passage": "Elder Maren listens with a stone face. She knew Fenric. He was kind and quiet and helped mend roofs after storms. She presses a hunting knife into your hands and tells you to end his pain if you cannot save him. Her voice cracks once. She says Callum was a fool to go alone but a brave one.",
       "choices": [
-        { "label": "enter the fog", "nextNode": "fog-edge-prepared" },
-        { "label": "ask about Fenric's habits", "nextNode": "fog-edge-prepared" }
+        { "label": "enter the fog", "nextNode": "fog-edge-prepared", "hint": "The knife is heavy in your belt as you walk west." },
+        { "label": "ask about Fenric", "nextNode": "fog-edge-prepared", "hint": "She tells you he loved the old forest trails heading west." }
       ]
     },
     "fog-edge": {
       "passage": "The western fields end where the fog begins. It hangs thick and cold between the birch trees, pressing damp against your skin. You can barely see ten paces ahead. Something large moves in the murk, snapping branches. A low growl rolls through the mist and you feel it in your chest. You are not prepared.",
       "choices": [
-        { "label": "press forward quietly", "nextNode": "deep-fog" },
-        { "label": "call out a challenge", "nextNode": "beast-ambush" }
+        { "label": "press forward quietly", "nextNode": "deep-fog", "hint": "You hold your breath and step between the pale trunks." },
+        { "label": "call out a challenge", "nextNode": "beast-ambush", "hint": "Your voice cuts the silence and the fog swallows it whole." }
       ]
     },
     "fog-edge-prepared": {
-      "passage": "You step into the fog armed with knowledge. The pendant hums faintly against your chest and the ward-symbols glow in your memory. The mist parts slightly as if recognizing the bone charm. Ahead, a trail of broken branches leads deeper into the wood. You hear breathing, heavy and ragged, somewhere to the north.",
+      "passage": "You step into the fog armed with knowledge. The pendant hums faintly against your chest and the ward-symbols glow in your memory. The mist parts slightly as if it knows the bone charm. Ahead, a trail of broken branches leads deeper into the wood. You hear breathing, heavy and ragged, somewhere to the north.",
       "choices": [
-        { "label": "follow the breathing", "nextNode": "shrine-clearing" },
-        { "label": "search for Callum first", "nextNode": "callum-found" }
+        { "label": "follow the breathing", "nextNode": "shrine-clearing", "hint": "Each step north brings the ragged sound closer." },
+        { "label": "search for Callum first", "nextNode": "callum-found", "hint": "The old herbalist may be hurt somewhere in this fog." }
       ]
     },
     "deep-fog": {
       "passage": "You creep between pale trunks. The fog swallows sound and direction alike. Then you step on something soft. A torn cloak, still warm. Blood stains the collar. Nearby, a satchel lies open with scattered herbs and a half-drawn circle of salt on the ground. Someone was here and left in a hurry or was dragged away.",
       "choices": [
-        { "label": "complete the salt circle", "nextNode": "salt-trap" },
-        { "label": "follow the drag marks", "nextNode": "shrine-clearing" }
+        { "label": "complete the salt circle", "nextNode": "salt-trap", "hint": "You pour the remaining salt with steady hands." },
+        { "label": "follow the drag marks", "nextNode": "shrine-clearing", "hint": "Deep furrows in the mud lead toward a clearing ahead." }
       ]
     },
     "beast-ambush": {
       "passage": "Your shout echoes and dies in the fog. Silence answers. Then the attack comes from behind. A massive shape barrels into you and you hit the ground hard. Hot breath washes over your face. Through the pain you see eyes that are not animal. They are terrified. The beast pins you but does not bite. It is trembling.",
       "choices": [
-        { "label": "speak calmly to it", "nextNode": "beast-speaks" },
-        { "label": "fight free and run", "nextNode": "ending-fled" }
+        { "label": "speak calmly to it", "nextNode": "beast-speaks", "hint": "You keep your voice low and steady, like soothing a child." },
+        { "label": "fight free and run", "nextNode": "ending-fled", "hint": "You twist hard and scramble backward through the mud." }
       ]
     },
     "salt-trap": {
-      "passage": "You pour the remaining salt and close the circle just as a massive shape crashes through the brush. The beast skids to a halt at the salt line and howls. It paces the edge, claws tearing the earth. Up close you see matted fur over skin too smooth, too human. Its eyes lock on yours with desperate intelligence.",
+      "passage": "You pour the remaining salt and close the circle just as a massive shape crashes through the brush. The beast skids to a halt at the salt line and howls. It paces the edge, claws tearing the earth. Up close you see matted fur over skin too smooth, too human. Its eyes lock on yours with desperate knowing.",
       "choices": [
-        { "label": "speak to those eyes", "nextNode": "beast-speaks" },
-        { "label": "strike while it is trapped", "nextNode": "ending-slain" }
+        { "label": "speak to those eyes", "nextNode": "beast-speaks", "hint": "You see a mind behind that gaze, trapped and pleading." },
+        { "label": "strike while it is trapped", "nextNode": "ending-slain", "hint": "Your hand finds the blade at your side." }
       ]
     },
     "shrine-clearing": {
-      "passage": "The trail opens into a clearing where a crumbling stone shrine stands choked with ivy. Ward-marks cover every surface, some ancient and some fresh. The beast crouches at the shrine's base, enormous and shuddering. Old Callum lies against a tree nearby, alive but pale. He clutches a ritual knife and shakes his head when he sees you.",
+      "passage": "The trail opens into a clearing where a crumbling stone shrine stands choked with ivy. Ward-marks cover every surface, some ancient and some fresh. The beast crouches at the shrine's base, enormous and shaking. Old Callum lies against a tree nearby, alive but pale. He clutches a ritual knife and shakes his head when he sees you.",
       "choices": [
-        { "label": "help Callum finish the ritual", "nextNode": "ritual-choice" },
-        { "label": "approach the beast alone", "nextNode": "beast-speaks" }
+        { "label": "help Callum with the ritual", "nextNode": "ritual-choice", "hint": "He looks too weak to finish alone but his eyes are sharp." },
+        { "label": "approach the beast alone", "nextNode": "beast-speaks", "hint": "You step past Callum and face the creature head-on." }
       ]
     },
     "callum-found": {
-      "passage": "You find Callum slumped against a fallen oak with a deep gash in his side. He is breathing but barely conscious. When he sees the pendant his eyes widen. He grabs your wrist and whispers that the shrine is close. He says you must use the pendant and the chant together or the curse will never break. He cannot walk.",
+      "passage": "You find Callum slumped against a fallen oak with a deep gash in his side. He is breathing but barely awake. When he sees the pendant his eyes widen. He grabs your wrist and whispers that the shrine is close. You must use the pendant and the chant together or the curse will never break. He cannot walk.",
       "choices": [
-        { "label": "carry him to the shrine", "nextNode": "shrine-clearing" },
-        { "label": "go to the shrine alone", "nextNode": "ritual-choice" }
+        { "label": "carry him to the shrine", "nextNode": "shrine-clearing", "hint": "He is light, almost hollow, as you lift him up." },
+        { "label": "go to the shrine alone", "nextNode": "ritual-choice", "hint": "His whispered instructions echo in your mind as you leave." }
       ]
     },
     "beast-speaks": {
-      "passage": "The beast opens its jaw and a broken voice spills out. It says your name. Then it says please. The words come slowly, ground between teeth that were not made for speech. It says it remembers the village, the rooftops it mended, the smell of bread from the baker's window. It says it cannot hold on much longer.",
+      "passage": "The beast opens its jaw and a broken voice spills out. It says your name. Then it says please. The words come slowly, ground between teeth not made for speech. It says it remembers the village, the rooftops it mended, the smell of bread from the baker's window. It says it cannot hold on much longer.",
       "choices": [
-        { "label": "promise to break the curse", "nextNode": "ritual-choice" },
-        { "label": "grant a merciful end", "nextNode": "ending-mercy" }
+        { "label": "promise to break the curse", "nextNode": "ritual-choice", "hint": "Your voice is steady even though your hands are shaking." },
+        { "label": "grant a merciful end", "nextNode": "ending-mercy", "hint": "The elder's knife feels heavier now than when she gave it." }
       ]
     },
     "ritual-choice": {
       "passage": "The shrine pulses with faint light. You hold the pendant over the central stone and the ward-marks flare to life. The beast howls and writhes as the curse fights to hold its shape. Callum's journal describes two endings to the ritual. One destroys the curse and the host. The other frees the man but releases the curse into the land.",
       "choices": [
-        { "label": "destroy the curse completely", "nextNode": "ending-sacrifice" },
-        { "label": "free the man within", "nextNode": "ending-freed" },
-        { "label": "attempt a third way", "nextNode": "ending-bound" }
+        { "label": "destroy the curse", "nextNode": "ending-sacrifice", "hint": "You speak the words of burning and the light grows fierce." },
+        { "label": "free the man within", "nextNode": "ending-freed", "hint": "You focus the pendant's power on the human shape inside." },
+        { "label": "attempt a third way", "nextNode": "ending-bound", "hint": "There must be another path. You press the pendant to stone." }
       ]
     },
     "ending-slain": {
@@ -135,15 +135,17 @@
       "choices": [],
       "ending": {
         "title": "The Hunter's Burden",
-        "flavor": "Some victories leave a wound no healer can close."
+        "flavor": "Some victories leave a wound no healer can close.",
+        "action": "sheathe the bloody blade"
       }
     },
     "ending-fled": {
-      "passage": "You tear free and sprint through the fog until your lungs burn. The beast does not follow. You burst from the treeline into moonlight and collapse in the wet grass. Behind you the fog thickens and a howl rises, long and mournful. Grayhollow still has its beast. You are alive but the third hunter is still out there somewhere.",
+      "passage": "You tear free and sprint through the fog until your lungs burn. The beast does not follow. You burst from the treeline into moonlight and collapse in the wet grass. Behind you the fog thickens and a howl rises, long and mournful. Grayhollow still has its beast. You are alive but the third hunter is still out there.",
       "choices": [],
       "ending": {
         "title": "The One Who Ran",
-        "flavor": "The fog remembers those who turn their backs."
+        "flavor": "The fog remembers those who turn their backs.",
+        "action": "keep running into the night"
       }
     },
     "ending-mercy": {
@@ -151,7 +153,8 @@
       "choices": [],
       "ending": {
         "title": "A Gentle Hand",
-        "flavor": "Kindness is not always soft but it is always brave."
+        "flavor": "Kindness is not always soft but it is always brave.",
+        "action": "carry him home"
       }
     },
     "ending-sacrifice": {
@@ -159,15 +162,17 @@
       "choices": [],
       "ending": {
         "title": "Ashes and Silence",
-        "flavor": "The land is clean but the cost was a man who only wanted to go home."
+        "flavor": "The land is clean but the cost was a man who only wanted to go home.",
+        "action": "scatter the ashes"
       }
     },
     "ending-freed": {
-      "passage": "You choose Fenric. The pendant shatters and the beast convulses as the curse tears free. Fenric collapses, human again, gasping and weeping. But the freed curse seeps into the earth like black water. The trees groan and the fog thickens beyond the clearing. You have saved one man and cursed the forest. A new hunt will begin someday.",
+      "passage": "You choose Fenric. The pendant shatters and the beast writhes as the curse tears free. Fenric collapses, human again, gasping and weeping. But the freed curse seeps into the earth like black water. The trees groan and the fog thickens beyond the clearing. You have saved one man and cursed the forest. A new hunt will begin someday.",
       "choices": [],
       "ending": {
         "title": "The Unfinished Bargain",
-        "flavor": "Every kindness casts a shadow and this one has teeth."
+        "flavor": "Every kindness casts a shadow and this one has teeth.",
+        "action": "help Fenric to his feet"
       }
     },
     "ending-bound": {
@@ -175,7 +180,8 @@
       "choices": [],
       "ending": {
         "title": "The New Warden",
-        "flavor": "Some chains are chosen and worn with open eyes."
+        "flavor": "Some chains are chosen and worn with open eyes.",
+        "action": "sit before the shrine"
       }
     }
   }
