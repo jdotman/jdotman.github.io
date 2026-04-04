@@ -1,0 +1,208 @@
+{
+  "id": "b2f6d8a3-1e4c-4b7f-a9d5-3c8e2f1a6b4d",
+  "title": "The Minstrel's Wager",
+  "description": "A traveling minstrel challenges you to a contest of wits in a rowdy tavern. The stakes are higher than they seem and every patron has an opinion.",
+  "author": "AI",
+  "tags": ["slice-of-life", "negotiation"],
+  "estimatedMinutes": 10,
+  "dateGenerated": "2026-04-19",
+  "dayOfYear": "04-19",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "You push through the heavy oak door of the Drunken Griffin and a wall of noise hits you. Firelight dances across a packed common room. A minstrel in a patchwork coat stands on a table, lute in hand, pointing directly at you. The crowd parts and every eye turns your way.",
+      "choices": [
+        { "label": "approach the minstrel", "nextNode": "minstrel-table" },
+        { "label": "sit at the bar", "nextNode": "bar-seat" },
+        { "label": "find a quiet corner", "nextNode": "corner-booth" }
+      ]
+    },
+    "minstrel-table": {
+      "passage": "The minstrel grins wide and strums a chord. She introduces herself as Lira Foxbane and declares she has wagered her enchanted lute that no stranger can best her in three challenges tonight. The crowd roars. She holds out her hand and names the prize - a pouch of fifty gold crowns.",
+      "choices": [
+        { "label": "accept the wager", "nextNode": "first-challenge" },
+        { "label": "ask about the rules", "nextNode": "learn-rules" }
+      ]
+    },
+    "bar-seat": {
+      "passage": "The barkeep, a scarred dwarf named Gritt, slides you an ale without asking. He leans close and mutters that the minstrel has cleaned out three challengers already tonight. Her tricks are clever but she cheats on the second round. He taps his nose and says nothing more.",
+      "choices": [
+        { "label": "thank Gritt and approach Lira", "nextNode": "minstrel-table" },
+        { "label": "ask Gritt for details", "nextNode": "gritt-details" }
+      ]
+    },
+    "corner-booth": {
+      "passage": "You slide into a shadowed booth and watch. An old woman across the table studies you with sharp eyes. She says her name is Maren and she once traveled with Lira years ago. The minstrel is talented but reckless. Maren knows the answer to the riddle round if you are interested.",
+      "choices": [
+        { "label": "listen to Maren", "nextNode": "maren-secret" },
+        { "label": "ignore her and watch Lira", "nextNode": "minstrel-table" }
+      ]
+    },
+    "gritt-details": {
+      "passage": "Gritt polishes a mug and speaks low. The second challenge is a shell game with carved wooden cups. Lira palms the token when she lifts the middle cup. If you watch her left hand instead of the cups you will catch it. He winks and turns to another customer.",
+      "choices": [
+        { "label": "head to Lira's table", "nextNode": "minstrel-table" },
+        { "label": "ask about the third challenge", "nextNode": "third-hint" }
+      ]
+    },
+    "third-hint": {
+      "passage": "Gritt shakes his head. Nobody has reached the third round tonight. He has heard it is a storytelling duel judged by the crowd. Win their hearts and you win the gold. He warns that Lira has a silver tongue and the patrons love her. You spot a shadowed corner booth nearby.",
+      "choices": [
+        { "label": "head to Lira's table", "nextNode": "minstrel-table" },
+        { "label": "visit the corner booth", "nextNode": "corner-booth" }
+      ]
+    },
+    "maren-secret": {
+      "passage": "Maren leans forward. The first challenge is always riddles and Lira uses the same three every time. The answer to the hardest one - the one about the river that flows uphill - is moonlight reflecting on a waterfall. Maren smiles and wishes you luck with a knowing look.",
+      "choices": [
+        { "label": "accept Lira's challenge", "nextNode": "first-challenge" },
+        { "label": "head to Lira's table", "nextNode": "minstrel-table" }
+      ]
+    },
+    "learn-rules": {
+      "passage": "Lira counts on her fingers. Three rounds - riddles, a cup game, and a tale told to the crowd. Win two of three and the gold is yours. Lose and you owe her a favor to be named later. The crowd stamps their feet. You notice an old woman watching from a corner booth.",
+      "choices": [
+        { "label": "accept the wager", "nextNode": "first-challenge" },
+        { "label": "visit the corner booth", "nextNode": "corner-booth" }
+      ]
+    },
+    "first-challenge": {
+      "passage": "Lira poses her riddle with a theatrical flourish. What river flows uphill and carries no water yet drowns the careless traveler? The tavern falls silent. A candle gutters. You feel every eye on you and the heat of the fire at your back. You have seconds to answer.",
+      "choices": [
+        { "label": "answer moonlight on a waterfall", "nextNode": "riddle-win" },
+        { "label": "guess a river of sand", "nextNode": "riddle-lose" },
+        { "label": "turn the riddle back on her", "nextNode": "riddle-counter" }
+      ]
+    },
+    "riddle-win": {
+      "passage": "Lira's smile falters for just a heartbeat before she laughs and bows. The crowd cheers and ale splashes the floorboards. One round to you, she says, plucking a mocking note on her lute. She sweeps three wooden cups onto the table and produces a silver token. Round two.",
+      "choices": [
+        { "label": "watch her left hand", "nextNode": "cups-cheat-catch" },
+        { "label": "pick the middle cup", "nextNode": "cups-lose" }
+      ]
+    },
+    "riddle-lose": {
+      "passage": "Lira shakes her head slowly and the crowd groans. A river of sand is a fine guess but wrong. The answer is moonlight on a waterfall. She takes the first round with a bow. The wooden cups appear on the table and a silver token glints between them. You cannot afford to lose again.",
+      "choices": [
+        { "label": "watch her left hand", "nextNode": "cups-cheat-catch" },
+        { "label": "pick the right cup", "nextNode": "cups-lose" }
+      ]
+    },
+    "riddle-counter": {
+      "passage": "You smile and ask Lira the same riddle back. The crowd laughs but Lira narrows her eyes. She answers moonlight on a waterfall without hesitation. Since you did not answer first the round is hers by default. She wins on a technicality and the crowd boos half-heartedly.",
+      "choices": [
+        { "label": "demand a fair second round", "nextNode": "cups-fair" },
+        { "label": "accept the loss gracefully", "nextNode": "cups-lose-setup" }
+      ]
+    },
+    "cups-cheat-catch": {
+      "passage": "Lira shuffles the cups with blinding speed but you ignore the dance of wood and watch her fingers. When she lifts the middle cup her left hand tucks the token into her sleeve. You grab her wrist and hold it up. The token falls out and the crowd erupts in delighted outrage.",
+      "choices": [
+        { "label": "demand she forfeit", "nextNode": "cups-forfeit" },
+        { "label": "offer to replay fairly", "nextNode": "cups-fair" }
+      ]
+    },
+    "cups-lose": {
+      "passage": "You tap the middle cup confidently. Lira lifts it with a flourish - empty. She reveals the token under the left cup and the crowd cheers for her. Something felt wrong about the shuffle but you cannot prove it. The score is not in your favor heading into the final round.",
+      "choices": [
+        { "label": "prepare your story", "nextNode": "story-round-down" },
+        { "label": "challenge the result", "nextNode": "cups-fair" }
+      ]
+    },
+    "cups-lose-setup": {
+      "passage": "Lira sets up the cups with practiced ease. You pick wrong and she claims the second round. Two losses now. The crowd murmurs - some think you are finished. Lira offers a pitying smile and gestures to the center of the room. The final round awaits but you need a miracle.",
+      "choices": [
+        { "label": "step up and tell your tale", "nextNode": "story-desperate" },
+        { "label": "plead for a cup rematch", "nextNode": "cups-fair" }
+      ]
+    },
+    "cups-forfeit": {
+      "passage": "Lira holds up her hands and laughs, admitting the trick with no shame. The crowd loves it. She declares the round yours and bows with a wink. Two rounds to you - you have already won the wager. But she asks if you will stay for the story round anyway, just for sport.",
+      "choices": [
+        { "label": "tell a story for glory", "nextNode": "story-round-glory" },
+        { "label": "take the gold and leave", "nextNode": "gold-ending" }
+      ]
+    },
+    "cups-fair": {
+      "passage": "Lira raises an eyebrow and resets the cups. This time you watch carefully and pick correctly. The crowd stamps and whistles. One round each now. Lira stretches her fingers and nods toward the center of the room. The final round is the one that matters - a tale for the crowd.",
+      "choices": [
+        { "label": "share a bold adventure", "nextNode": "story-adventure" },
+        { "label": "tell a tale of sorrow", "nextNode": "story-sorrow" }
+      ]
+    },
+    "story-round-down": {
+      "passage": "You step into the firelight with the crowd pressing close. You are behind and this is your last chance. Lira watches from her table with her chin on her fist. The room quiets. You take a breath and begin to speak, reaching for the most powerful story you know.",
+      "choices": [
+        { "label": "share a bold adventure", "nextNode": "story-adventure" },
+        { "label": "tell a tale of sorrow", "nextNode": "story-sorrow" }
+      ]
+    },
+    "story-desperate": {
+      "passage": "You stand in the center of the room with firelight on your face. Two rounds lost. The crowd expects you to crumble. Lira tunes her lute and waits for you to fail. But desperation sharpens your mind. You recall both a bold legend and a story your grandmother told by candlelight.",
+      "choices": [
+        { "label": "tell grandmother's story", "nextNode": "grandmother-tale" },
+        { "label": "share a bold adventure", "nextNode": "story-adventure" }
+      ]
+    },
+    "story-round-glory": {
+      "passage": "You have already won but the crowd wants more. You step into the center and the firelight catches your face. Lira perches on her table and watches with genuine curiosity. No stakes now - just the pure joy of a story well told. You smile and begin.",
+      "choices": [
+        { "label": "share a bold adventure", "nextNode": "story-adventure" },
+        { "label": "tell a tale of sorrow", "nextNode": "story-sorrow" }
+      ]
+    },
+    "story-adventure": {
+      "passage": "You spin a tale of a knight who climbed a glass mountain to challenge a dragon not with a sword but with a chess board. The crowd leans in. When the knight wins by sacrificing his queen the tavern roars. Lira sets down her lute and claps slowly, eyes shining with respect.",
+      "choices": [
+        { "label": "bow to the crowd", "nextNode": "victory-ending" },
+        { "label": "buy Lira a drink", "nextNode": "bittersweet-ending" }
+      ]
+    },
+    "story-sorrow": {
+      "passage": "You tell of a fisherman who loved a selkie and let her go back to the sea. Your voice cracks at the right moment and the room falls deathly still. When you finish a soldier in the back wipes his eyes. Lira stands and removes her hat in a salute. The crowd erupts.",
+      "choices": [
+        { "label": "bow to the crowd", "nextNode": "bittersweet-ending" },
+        { "label": "share a drink with Lira", "nextNode": "victory-ending" }
+      ]
+    },
+    "grandmother-tale": {
+      "passage": "You tell the story of a fox who tricked a king into giving away his crown by asking for one grain of wheat doubled each day. The numbers grow absurd and the crowd laughs harder with each doubling. Even Lira snorts into her drink. By the end the whole tavern is stomping.",
+      "choices": [
+        { "label": "bow to the crowd", "nextNode": "comeback-ending" },
+        { "label": "raise a toast with Lira", "nextNode": "victory-ending" }
+      ]
+    },
+    "gold-ending": {
+      "passage": "You pocket the heavy pouch and push through the crowd toward the door. Lira calls after you that you are no fun. The cold night air hits your face and the coins clink against your hip. Fifty gold crowns richer and the stars overhead seem to wink their approval.",
+      "choices": [],
+      "ending": {
+        "title": "Pockets Full of Gold",
+        "flavor": "Sometimes the smart play is knowing when to walk away."
+      }
+    },
+    "victory-ending": {
+      "passage": "Lira crosses the room and presses the gold pouch into your hand. She says you earned it and asks your name for a song she is already composing. The crowd buys you drinks until the candles burn low. When you finally leave the Drunken Griffin you are richer in coin and reputation.",
+      "choices": [],
+      "ending": {
+        "title": "The Crowd's Champion",
+        "flavor": "A good story is worth more than gold - but the gold helps too."
+      }
+    },
+    "bittersweet-ending": {
+      "passage": "Lira walks over and places the gold pouch on your table without a word. The tavern slowly empties and the fire dies to embers. You sit alone with your winnings and the echo of your own story. The fisherman let the selkie go. You wonder what you have been holding onto too tightly.",
+      "choices": [],
+      "ending": {
+        "title": "The Empty Chair",
+        "flavor": "Some victories leave you quieter than before."
+      }
+    },
+    "comeback-ending": {
+      "passage": "Lira throws her head back and laughs until tears stream down her face. She pushes the gold across the table and declares you the finest underdog she has ever lost to. The crowd lifts you onto their shoulders. Gritt slides a free ale down the bar in your honor. What a night.",
+      "choices": [],
+      "ending": {
+        "title": "Against All Odds",
+        "flavor": "The best stories are the ones nobody expected you to win."
+      }
+    }
+  }
+}

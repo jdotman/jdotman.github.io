@@ -31,9 +31,9 @@
       ]
     },
     "torchlit-entry": {
-      "passage": "You wrap cloth around a branch and strike your flint until it catches. The flame throws dancing shadows across the wet stones as you descend. The water reaches your ankles by the fourth step. By the tenth, it laps at your knees. The torchlight reveals carvings on the walls: warnings in a language you cannot read.",
+      "passage": "You wrap cloth around a branch and strike your flint until it catches. The flame throws dancing shadows across the wet stones as you descend. Water reaches your ankles by the fourth step. By the tenth, it laps at your knees. Torchlight reveals carvings on the walls, warnings in a language you cannot read.",
       "choices": [
-        {"label": "continue deeper", "nextNode": "entry-hall"},
+        {"label": "continue deeper inside", "nextNode": "entry-hall"},
         {"label": "study the wall carvings", "nextNode": "wall-carvings"}
       ]
     },
@@ -96,7 +96,7 @@
       ]
     },
     "vault-treasure": {
-      "passage": "You pry open the clasps one by one. Inside you find gold bars, strings of pearls, and a crown of dark iron set with emeralds. The treasure of a kingdom lost to the swamp centuries ago. You fill your satchel until it strains at the seams. The water is still low. You have time to leave safely.",
+      "passage": "You pry open the clasps one by one. Inside you find gold bars, strings of pearls, and a crown of dark iron set with emeralds. The treasure of a kingdom lost to the swamp long ago. You fill your satchel until it strains at the seams. The water is still low. You can leave safely.",
       "choices": [],
       "ending": {
         "title": "The Forgotten Fortune",
@@ -111,7 +111,7 @@
       ]
     },
     "secret-passage": {
-      "passage": "The wall slides inward with a grinding rumble, revealing a narrow corridor lit by phosphorescent moss. The air is warmer here and smells of sulfur. The passage slopes downward and you can hear the sound of water dripping into a vast open space ahead. The medallion grows warmer in your pocket.",
+      "passage": "The wall slides inward with a grinding rumble, revealing a narrow corridor lit by glowing moss. The air is warmer here and smells of sulfur. The passage slopes downward and you can hear the sound of water dripping into a vast open space ahead. The medallion grows warmer in your pocket.",
       "choices": [
         {"label": "follow the warm corridor", "nextNode": "guardian-chamber"},
         {"label": "turn back to the main path", "nextNode": "entry-hall"}
@@ -185,7 +185,7 @@
       }
     },
     "guardian-chamber": {
-      "passage": "The corridor opens into a vast underground cavern. Stalactites hang from the ceiling like stone teeth. In the center, coiled around a pillar of black rock, is a massive stone serpent. Its scales are carved with the same symbols as the medallion. Its eyes are closed. The medallion in your pocket is almost too hot to touch.",
+      "passage": "The corridor opens into a vast underground cavern. Stone fangs hang from the ceiling like teeth. In the center, coiled around a pillar of black rock, is a massive stone serpent. Its scales are carved with the same symbols as the medallion. Its eyes are closed. The medallion in your pocket burns hot.",
       "choices": [
         {"label": "place the medallion on the serpent", "nextNode": "serpent-awakens"},
         {"label": "back away slowly", "nextNode": "inner-sanctum"}

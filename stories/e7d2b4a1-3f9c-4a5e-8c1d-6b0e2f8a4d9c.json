@@ -18,7 +18,7 @@
       ]
     },
     "chapel-exterior": {
-      "passage": "The chapel is small and stone-built, its door barred from outside with an iron bolt. Someone has nailed garlic over the lintel and scratched wards into the frame. Through the stained glass you see only darkness. The bell tower rises above, its rope hanging motionless. The air smells of old incense and fear.",
+      "passage": "The chapel is small and stone-built, its door barred from outside with an iron bolt. Someone has nailed garlic over the doorway and scratched wards into the frame. Through the stained glass you see only darkness. The bell tower rises above, its rope hanging motionless. The air smells of old incense and fear.",
       "choices": [
         { "label": "remove the iron bolt", "nextNode": "chapel-interior" },
         { "label": "climb the bell tower", "nextNode": "bell-tower" },
@@ -42,15 +42,15 @@
       ]
     },
     "chapel-interior": {
-      "passage": "The chapel is cold and still. Pews are overturned. Candle stubs litter the floor in a deliberate circle, with symbols scratched into the stone between them. One candle has been knocked aside, breaking the pattern. The sacristy door at the back stands open. A cold draft rises through it, carrying the smell of earth.",
+      "passage": "The chapel is cold and still. Pews are overturned. Candle stubs litter the floor in a wide circle, with symbols scratched into the stone between them. One candle has been knocked aside, breaking the pattern. A torn prayer book lies near the altar. The sacristy door at the back stands open, breathing cold earth-smell.",
       "choices": [
         { "label": "study the candle pattern", "nextNode": "candle-circle" },
-        { "label": "open the sacristy door", "nextNode": "sacristy" },
+        { "label": "enter the open sacristy", "nextNode": "sacristy" },
         { "label": "read the torn prayer book", "nextNode": "prayer-book" }
       ]
     },
     "bell-tower": {
-      "passage": "The climb is treacherous. The exterior ladder is half-rotted, and the stone is slick with moss. At the top the bell hangs enormous and green with verdigris. The clapper has been removed - deliberately, cleanly cut. Yet the bell still rings at midnight. Below, through a crack in the graveyard earth, a faint light pulses.",
+      "passage": "The climb is harsh. The outer ladder is half-rotted and the stone is slick with moss. At the top the bell hangs huge and green with age. The clapper has been removed - cut clean with a saw. Yet the bell still rings at midnight. Below, through a crack in the graveyard earth, a faint light pulses.",
       "choices": [
         { "label": "search the bell mechanism", "nextNode": "bell-mechanism" },
         { "label": "follow the light below", "nextNode": "underground-voice" }
@@ -113,7 +113,7 @@
       ]
     },
     "prayer-book": {
-      "passage": "The book lies open to a ritual of unbinding - a ceremony to release a spirit from consecrated ground. The margins are annotated in shaking handwriting: 'It asked me to free it. God forgive me.' The ink is fresh. Father Aldric wrote this. He performed the ritual. Something came unbound.",
+      "passage": "The book lies open to a ritual of unbinding - a ceremony to release a spirit from consecrated ground. The margins are filled with shaking handwriting: 'It asked me to free it. God forgive me.' The ink is fresh. Father Aldric wrote this. He performed the ritual. Something came unbound.",
       "choices": [
         { "label": "take the book to the sacristy", "nextNode": "sacristy" },
         { "label": "use the ritual here", "nextNode": "confrontation" }
@@ -127,14 +127,14 @@
       ]
     },
     "mirror-chamber": {
-      "passage": "The passage opens into a vaulted chamber. In the center, the silver mirror stands upright on a stone plinth, unsupported, its surface rippling like water. Inside the glass a figure stands - Father Aldric, palms pressed against the other side, mouth moving soundlessly. He sees you. His eyes widen. He mouths one word: help.",
+      "passage": "The passage opens into a vaulted chamber. In the center, the silver mirror stands upright on a stone pedestal, unsupported, its surface rippling like water. Inside the glass a figure stands - Father Aldric, palms pressed against the other side, mouth moving without sound. He sees you. His eyes widen. He mouths one word: help.",
       "choices": [
         { "label": "speak to the figure inside", "nextNode": "confrontation" },
         { "label": "shatter the mirror on the floor", "nextNode": "priest-saved" }
       ]
     },
     "confrontation": {
-      "passage": "The spirit manifests between you and the door - a column of pale light shaped like a man but wrong in every proportion. It speaks without sound. The words arrive in your skull: cold, ancient, hungry. It wants to stay. It has waited centuries beneath this ground and it will not go back willingly.",
+      "passage": "The spirit appears between you and the door - a column of pale light shaped like a man but wrong in every way. It speaks without sound. The words arrive in your skull: cold, ancient, hungry. It wants to stay. It has waited centuries beneath this ground and it will not go back willingly.",
       "choices": [
         { "label": "complete the unbinding prayer", "nextNode": "spirit-freed" },
         { "label": "resist the spirit's pull", "nextNode": "possessed" }
@@ -144,7 +144,7 @@
       "passage": "The bell has no clapper - someone cut it free with a saw. Yet when you touch the bronze you feel vibration deep inside the metal, like a heartbeat. The bell rings from within. It is part of whatever haunts this place. You could destroy the mounting and send it crashing down.",
       "choices": [
         { "label": "destroy the bell's clapper mount", "nextNode": "bell-silenced" },
-        { "label": "climb down and investigate below", "nextNode": "chapel-interior" }
+        { "label": "climb down and search below", "nextNode": "chapel-interior" }
       ]
     },
     "spirit-freed": {
@@ -172,7 +172,7 @@
       }
     },
     "trapped-below": {
-      "passage": "The rubble shifts as you push through the narrow passage. A stone lintel drops behind you, sealing the way back. You are in a dead-end chamber, alone, in the dark. The chanting surrounds you now - inside the walls, inside the floor, inside your own chest. No one knows you are here.",
+      "passage": "The rubble shifts as you push through the narrow passage. A stone slab drops behind you, sealing the way back. You are in a dead-end chamber, alone, in the dark. The chanting surrounds you now - inside the walls, inside the floor, inside your own chest. No one knows you are here.",
       "choices": [],
       "ending": {
         "title": "Buried with the Dead",

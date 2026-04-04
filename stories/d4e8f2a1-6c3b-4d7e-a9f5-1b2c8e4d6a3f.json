@@ -18,7 +18,7 @@
       ]
     },
     "observe-keep": {
-      "passage": "You crouch behind a standing stone and watch. The green light brightens and dims like breathing. At the top of the tallest tower, a figure appears briefly in the window, a woman in pale robes. She looks directly at you, raises one hand, then vanishes. The whispers grow louder.",
+      "passage": "You crouch behind a standing stone and watch. The green light brightens and dims like breathing. A figure appears briefly in the tallest tower window, a woman in pale robes who raises one hand then vanishes. Below, the main gate gapes open and crumbling walls circle the keep. The whispers grow louder.",
       "choices": [
         {"label": "approach the main gate", "nextNode": "main-gate"},
         {"label": "circle the outer walls", "nextNode": "circle-walls"}
@@ -40,7 +40,7 @@
       ]
     },
     "courtyard-search": {
-      "passage": "You find a dried-up well near the eastern wall. Beside it lies a leather pack left by some previous investigator. Inside: a bundle of sage, a tinderbox, and a journal. The last entry reads, The spirit is bound to something in the cellar. Do not speak to her. She lies.",
+      "passage": "You find a dried-up well near the eastern wall. Beside it lies a leather pack left by a previous visitor. Inside: sage, a tinderbox, and a journal. The last entry reads, The spirit is bound to the cellar. Do not speak to her. She lies. The great hall and chapel stand across the courtyard.",
       "choices": [
         {"label": "enter the great hall", "nextNode": "great-hall"},
         {"label": "investigate the chapel", "nextNode": "chapel"},
@@ -55,7 +55,7 @@
       ]
     },
     "kitchen-wing": {
-      "passage": "The kitchen is a ruin of collapsed beams and shattered pottery. A massive stone hearth dominates the far wall, cold and dark. Beside it, a narrow servants' stair leads down into shadow. The floor is littered with animal bones and the remains of old cook fires. Someone has been living here recently.",
+      "passage": "The kitchen is a ruin of collapsed beams and shattered pottery. A massive stone hearth dominates the far wall, cold and dark. Beside it, a narrow servants' stair leads down into shadow. Old cook fires smolder on the floor. A doorway on the far side opens toward the great hall.",
       "choices": [
         {"label": "descend the servants' stair", "nextNode": "cellar"},
         {"label": "examine the cook fires", "nextNode": "cook-fire-clue"},
@@ -63,7 +63,7 @@
       ]
     },
     "cook-fire-clue": {
-      "passage": "The ashes are only days old. Beside them you find a carved wooden amulet on a broken cord. The symbol is a crescent moon enclosing an eye. You recognize it as a ward against possession, standard equipment for ghost hunters. Whoever wore this left in a hurry. Or did not leave at all.",
+      "passage": "The ashes are only days old. Beside them you find a carved wooden amulet on a broken cord. The symbol is a crescent moon enclosing an eye, a ward against possession. Whoever wore this left in a hurry. Or did not leave at all. The servants' stair waits below and the great hall lies beyond.",
       "choices": [
         {"label": "take the amulet and go down", "nextNode": "cellar"},
         {"label": "head to the great hall", "nextNode": "great-hall"}
@@ -84,14 +84,14 @@
       ]
     },
     "lantern-fragment": {
-      "passage": "Behind the tiles you find a hollow containing a glass lantern shard wrapped in linen. It glows faintly green when you touch it, warm and humming. The inscription on the linen reads: The Veil Lantern, broken in three. Reunite the pieces where the lady sleeps and the veil will mend. The whispers will cease.",
+      "passage": "Behind the tiles you find a glass lantern shard wrapped in linen. It glows faintly green when you touch it, warm and humming. The inscription reads: The Veil Lantern, broken in three. Reunite the pieces where the lady sleeps and the veil will mend. The altar stands behind you and the great hall lies beyond the chapel.",
       "choices": [
         {"label": "enter the great hall", "nextNode": "great-hall"},
         {"label": "search behind the altar", "nextNode": "altar-passage"}
       ]
     },
     "altar-passage": {
-      "passage": "You push the altar aside with effort. Beneath it, a trapdoor opens onto a stone staircase descending into green-tinged darkness. The air rising from below is warm and smells of dried lavender, not the damp rot you expected. The whispers are clearer here, almost forming words you can understand.",
+      "passage": "You push the altar aside with effort. Beneath it, a trapdoor opens onto a stone staircase descending into green-tinged darkness. The air rising from below is warm and smells of dried lavender. The whispers are clearer here, almost forming words. Behind you, the chapel door leads back toward the great hall.",
       "choices": [
         {"label": "descend the staircase", "nextNode": "lady-crypt"},
         {"label": "go to the great hall instead", "nextNode": "great-hall"}
@@ -106,7 +106,7 @@
       ]
     },
     "chandelier": {
-      "passage": "The crystal chandelier hangs motionless ten feet above you, casting green light in all directions. Each crystal prism holds a tiny flame that burns without heat. You notice one socket is empty, shaped to hold something the size of a lantern shard. The scorch marks below form binding runes you half recognize.",
+      "passage": "The crystal chandelier hangs motionless ten feet above you, casting green light in all directions. Each prism holds a tiny flame that burns without heat. One socket is empty, shaped to hold something the size of a lantern shard. The scorch marks below form binding runes. Doorways lead north upstairs and east downstairs.",
       "choices": [
         {"label": "take the north door upstairs", "nextNode": "upper-corridor"},
         {"label": "take the east door downstairs", "nextNode": "cellar-stairs"}
@@ -127,7 +127,7 @@
       ]
     },
     "tower-book": {
-      "passage": "The book is Lady Ashward's diary. The final entries describe a ritual to thin the veil between life and death so she could speak with her dead children. The ritual worked too well. The veil tore. She broke her lantern to seal the rift but the binding is failing. She writes: I will hold it as long as I can.",
+      "passage": "The book is Lady Ashward's diary. She describes a ritual to thin the veil so she could speak with her dead children. It worked too well. The veil tore. She broke her lantern to seal the rift but the binding is failing. The stair descends to the cellar. Beyond the courtyard, the chapel crypt waits.",
       "choices": [
         {"label": "descend to the cellar", "nextNode": "cellar-stairs"},
         {"label": "go to the chapel crypt", "nextNode": "altar-passage"}
@@ -178,7 +178,7 @@
       ]
     },
     "assemble-here": {
-      "passage": "You press the three shards together. They fuse with a flash of green light, forming a small but perfect lantern. The flame inside ignites on its own. The tear in the veil shudders and begins to close. Then a voice speaks behind you: Thank you. You turn and see Lady Ashward, translucent and weeping with relief.",
+      "passage": "You press the three shards together. They fuse with a flash of green light, forming a small but perfect lantern. The flame inside ignites on its own. The tear in the veil shudders and begins to close. Then a voice speaks behind you: Thank you. You turn and see Lady Ashward, ghostly and weeping with relief.",
       "choices": [
         {"label": "give her the lantern", "nextNode": "give-lantern"},
         {"label": "keep the lantern yourself", "nextNode": "keep-lantern"}
@@ -201,10 +201,10 @@
       }
     },
     "lady-crypt": {
-      "passage": "A narrow passage opens into a small stone chamber lit by green phosphorescence. A marble sarcophagus rests at the center, carved with the image of Lady Ashward holding her lantern. Fresh wildflowers are scattered across the lid, the same kind you saw in the chapel. Someone still tends her grave.",
+      "passage": "A narrow passage opens into a small stone chamber lit by a faint green glow. A marble tomb rests at the center, carved with the image of Lady Ashward holding her lantern. Fresh wildflowers are scattered across the lid. The air feels heavy, as if someone unseen is watching and waiting.",
       "choices": [
-        {"label": "place the shards on the sarcophagus", "nextNode": "crypt-restore"},
-        {"label": "open the sarcophagus", "nextNode": "open-sarcophagus"},
+        {"label": "place the shards on the tomb", "nextNode": "crypt-restore"},
+        {"label": "open the marble tomb", "nextNode": "open-sarcophagus"},
         {"label": "speak to the air", "nextNode": "speak-to-spirit"}
       ]
     },
@@ -216,9 +216,9 @@
       ]
     },
     "speak-to-spirit": {
-      "passage": "You clear your throat and speak into the silence. Lady Ashward, I have come to help. The air shimmers and she appears before the sarcophagus, translucent and weary. She looks at you with eyes that have watched centuries pass. Place the light where it belongs, she says. I am so tired of holding the dark back alone.",
+      "passage": "You clear your throat and speak into the silence. Lady Ashward, I have come to help. The air shimmers and she appears before the marble tomb, ghostly and weary. She looks at you with eyes that have watched centuries pass. Place the light where it belongs, she says. I am so tired of holding the dark back alone.",
       "choices": [
-        {"label": "place the shards on the sarcophagus", "nextNode": "crypt-restore"},
+        {"label": "place the shards on the tomb", "nextNode": "crypt-restore"},
         {"label": "ask what happened here", "nextNode": "spirit-story"}
       ]
     },
@@ -229,7 +229,7 @@
       ]
     },
     "crypt-restore": {
-      "passage": "You lay the lantern shards on the sarcophagus where her hands wait. The pieces slide together as if drawn by magnetism. Green light floods the chamber, warm and bright. The whispers transform into a single clear tone, like a bell struck once. The tear in the veil seals. Lady Ashward smiles and closes her eyes for the last time.",
+      "passage": "You lay the lantern shards on the marble tomb where her hands wait. The pieces slide together as if drawn by magnetism. Green light floods the chamber, warm and bright. The whispers transform into a single clear tone, like a bell struck once. The tear in the veil seals. Lady Ashward smiles and closes her eyes for the last time.",
       "choices": [],
       "ending": {
         "title": "The Lantern Restored",

@@ -18,7 +18,7 @@
       ]
     },
     "front-entrance": {
-      "passage": "The grand doors stand open, flanked by torches and two house guards in lacquered armor. A steward checks each guest's invitation against a ledger - every name, every seal. Your forged invitation is good work but not perfect. The steward's eyes are sharp. You steady your hands and step forward into the torchlight.",
+      "passage": "The grand doors stand open, flanked by torches and two house guards in polished armor. A steward checks each guest's invitation against a ledger - every name, every seal. Your forged invitation is good but not perfect. The steward's eyes are sharp. Beyond the drive, the garden wall is just visible in the dark.",
       "choices": [
         { "label": "present your forged invitation", "nextNode": "ballroom" },
         { "label": "retreat toward the garden", "nextNode": "garden-wall" }
@@ -32,7 +32,7 @@
       ]
     },
     "servant-quarters": {
-      "passage": "The servants' entrance is a low door around the back of the manor, propped open with a brick. Inside, harried staff rush between the kitchens and the laundry. No one questions another unfamiliar face on a night like this. The smell of roasting meat fills the corridor. Stairs lead down to the left.",
+      "passage": "The servants' entrance is a low door around the back of the manor, propped open with a brick. Inside, busy staff rush between the kitchens and the laundry. No one questions another strange face on a night like this. The smell of roasting meat fills the corridor. Stairs marked Wine Cellar lead down to the left.",
       "choices": [
         { "label": "blend in with the staff", "nextNode": "kitchen" },
         { "label": "descend to the wine cellar", "nextNode": "wine-cellar" }
@@ -96,10 +96,10 @@
       ]
     },
     "rooftop": {
-      "passage": "The rooftop is flat and wide, lined with chimney stacks. The sounds of the masquerade drift up from below - music, laughter, the clink of crystal. A glass skylight sits in the center of the east wing, its frame unlocked. Through it you can see a corridor below, and beyond it, an iron door.",
+      "passage": "The rooftop is flat and wide, lined with chimney stacks. The sounds of the masquerade drift up from below - music, laughter, the clink of crystal. A glass skylight sits near the center, its frame unlocked. Through it you can see a corridor below. To the west, an open window leads into what looks like a study.",
       "choices": [
         { "label": "drop through the skylight", "nextNode": "vault-interior" },
-        { "label": "cross to the east wing", "nextNode": "study" }
+        { "label": "climb through the open window", "nextNode": "study" }
       ]
     },
     "vault-corridor": {
@@ -132,10 +132,10 @@
       ]
     },
     "merchant-confrontation": {
-      "passage": "The merchant prince removes his golden mask as you approach. His smile does not reach his eyes. 'I know why you are here,' he says quietly. 'I have been expecting you. The relic is mine by purchase, not by theft. But I am a reasonable man. Perhaps we can come to an arrangement.'",
+      "passage": "The merchant prince removes his golden mask as you approach. His smile does not reach his eyes. 'I know why you are here,' he says quietly. 'The relic is mine by purchase, not theft. But I am a fair man. Perhaps we can deal.' Behind him, a hallway leads toward his private study.",
       "choices": [
         { "label": "accept his offer", "nextNode": "bargain-struck" },
-        { "label": "refuse and walk away", "nextNode": "study" }
+        { "label": "slip toward the hallway", "nextNode": "study" }
       ]
     },
     "clean-getaway": {

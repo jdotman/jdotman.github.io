@@ -46,14 +46,14 @@
       ]
     },
     "selene-whispers": {
-      "passage": "Her name is Selene. She has mapped the temple by sound over three days of captivity. Below the main hall lies a crypt. Behind the farthest coffin, she says, a tunnel leads to the forest - used by the priests to bring bodies in without being seen from the road. It is your way out.",
+      "passage": "Her name is Selene. She has mapped the temple by sound over three days here. Below the main hall lies a crypt. Behind the farthest coffin, she says, a tunnel leads to the forest. The priests use it to bring bodies in unseen. Past the cells, a corridor leads there too.",
       "choices": [
         { "label": "follow her through the crypt", "nextNode": "crypt" },
-        { "label": "go through the main corridor", "nextNode": "corridor" }
+        { "label": "take the corridor instead", "nextNode": "corridor" }
       ]
     },
     "corridor": {
-      "passage": "The corridor is narrow and black as pitch. Damp stone walls press close on either side. The chanting above has grown more urgent. Ahead, faint torchlight bleeds under a doorway to what looks like a guard post. Another passage continues east toward a larger hall. The air carries the sweet reek of incense.",
+      "passage": "The corridor is narrow and black as pitch. Damp stone walls press close on either side. The chanting above has grown more urgent. Ahead, torchlight bleeds under a doorway to what looks like a guard post. Another passage heads east toward a larger hall. A stairway descends south toward a crypt.",
       "choices": [
         { "label": "check the guard post", "nextNode": "guard-post" },
         { "label": "head east to the hall", "nextNode": "antechamber" },
@@ -68,7 +68,7 @@
       ]
     },
     "crypt": {
-      "passage": "Large stone coffins line the walls, sealed with iron clasps. No inscriptions, no adornments - these were not people who died with dignity. The air is cold and perfectly still. Against the far wall, one coffin has been pushed slightly aside over the years, revealing a dark gap in the stone behind it.",
+      "passage": "Large stone coffins line the walls, sealed with iron clasps. No names, no markings - these were not people who died with dignity. The air is cold and perfectly still. Against the far wall, one coffin has been pushed slightly aside over the years, revealing a dark gap in the stone behind it.",
       "choices": [
         { "label": "squeeze through the hidden gap", "nextNode": "dark-passage" },
         { "label": "hide inside an open coffin", "nextNode": "coffin-risk" },
@@ -76,7 +76,7 @@
       ]
     },
     "antechamber": {
-      "passage": "This is a preparation room. Hooks line the walls where ceremonial robes hang in long rotting strips. A lectern in the corner holds a book, its pages marked with diagrams. The chanting beyond the eastern door has risen to a rhythmic fever. Two doors lead further into the temple - north and east.",
+      "passage": "This is a preparation room. Hooks line the walls where robes hang in long rotting strips. A tall stand in the corner holds a book, its pages marked with diagrams. The chanting beyond the eastern door has risen to a rhythmic fever. Two doors lead further into the temple - north and east.",
       "choices": [
         { "label": "go north to the library", "nextNode": "library" },
         { "label": "push open the eastern door", "nextNode": "altar-hall" }
@@ -104,24 +104,24 @@
       ]
     },
     "altar-hall": {
-      "passage": "The main chamber is vast and silent except for the chanting. Black marble pillars line the walls. At the far end, a dark red altar rises on a dais, its surface stained almost black. Robed figures stand in a ring with their backs to you. They have not yet seen you enter.",
+      "passage": "The main chamber is vast and silent except for the chanting. Black marble pillars line the walls. At the far end, a dark red altar rises on a raised stone platform, stained almost black. Robed figures stand in a ring with their backs to you. They have not yet seen you enter.",
       "choices": [
         { "label": "move toward the altar", "nextNode": "altar-dais" },
         { "label": "slip behind the far pillar", "nextNode": "phylactery-room" }
       ]
     },
     "altar-dais": {
-      "passage": "You edge forward, stepping over fallen stones, keeping to the shadows of the pillars. The chanting reaches a fever pitch. Then the nearest figure turns - and the others follow. Their eyes are pale and unseeing, as if looking through you. From behind, hands seize your arms. You have walked into the centre of the ring.",
+      "passage": "You edge forward, keeping to the shadows of the pillars. The doorway behind you feels far away now. The chanting reaches a fever pitch. The nearest figure turns - and the others follow. Their eyes are pale and unseeing. From behind, hands seize your arms. You have walked into the centre of the ring.",
       "choices": [
         { "label": "dive back through the doorway", "nextNode": "corridor" },
         { "label": "stand your ground and fight", "nextNode": "sacrifice" }
       ]
     },
     "workshop": {
-      "passage": "Two long workbenches run the length of the room, covered in glass vessels, coiled tubing, and powders of many colours. Shelves line the walls - dried herbs, sealed jars, bundled roots. At the far end, a crystal ball on a black iron stand pulses with a dim, cold inner light that does not flicker.",
+      "passage": "Two long workbenches run the length of the room, covered in glass vessels, coiled tubing, and powders of many colours. Shelves line the walls - dried herbs, sealed jars, bundled roots. A draft slips through a crack in the far wall. Nearby, a crystal ball on a black iron stand pulses with dim cold light.",
       "choices": [
         { "label": "shatter the crystal ball", "nextNode": "crystal-shattered" },
-        { "label": "search for a hidden door", "nextNode": "phylactery-room" }
+        { "label": "check the cracked wall", "nextNode": "phylactery-room" }
       ]
     },
     "phylactery-room": {
@@ -139,10 +139,10 @@
       ]
     },
     "forest-edge": {
-      "passage": "You drag yourself out of the tunnel at the base of an enormous dead tree with black bark. The eerie forest stretches in all directions, branches tangled overhead and no stars visible through them. Behind you, the fortress looms against the sky. Then a sound - footsteps crunching through dead leaves, moving toward the tree.",
+      "passage": "You drag yourself out of the tunnel at the base of a huge dead tree with black bark. The dark forest stretches in all directions, branches tangled overhead. Behind you, the fortress looms against the sky. Then a sound - footsteps crunching through dead leaves, moving toward the tree. A familiar voice calls out softly.",
       "choices": [
         { "label": "run into the dark forest", "nextNode": "forest-escape" },
-        { "label": "wait for the other prisoner", "nextNode": "selene-together" }
+        { "label": "call back to the voice", "nextNode": "selene-together" }
       ]
     },
     "priestess-confronts": {
@@ -161,7 +161,7 @@
       }
     },
     "selene-together": {
-      "passage": "The footsteps belong to Selene. She found the staircase. You run together through the black trees, her hand gripping your wrist. The forest is vast and strange but it ends. By first light you reach open farmland and the smell of woodsmoke from a village hearth. You never learned her surname. It does not matter.",
+      "passage": "The footsteps belong to Selene. She found the tunnel too. You run together through the black trees, her hand gripping your wrist. The forest is vast and strange but it ends. By first light you reach open farmland and the smell of woodsmoke from a village hearth. You never learned her surname. It does not matter.",
       "choices": [],
       "ending": {
         "title": "Two Into the Darkness",

@@ -1,0 +1,189 @@
+{
+  "id": "f9a2c4e8-7b1d-4f3a-b8e6-5d0c9a2f7e1b",
+  "title": "The Pale Garden",
+  "description": "A vast fungal cavern pulses with bioluminescent light beneath the Greymoor Hills. The herbalist who entered three days ago has not returned, and the glow is spreading to the surface.",
+  "author": "AI",
+  "tags": ["exploration", "horror"],
+  "estimatedMinutes": 10,
+  "dateGenerated": "2026-04-20",
+  "dayOfYear": "04-20",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "You stand at the mouth of a sinkhole in the Greymoor Hills. A pale blue glow rises from below. Knotted ropes dangle into the dark, left by the missing herbalist Maren. The air tastes of damp stone and something sweet you cannot name. Villagers watch from a distance, unwilling to follow.",
+      "choices": [
+        { "label": "climb down the ropes", "nextNode": "fungal-landing" },
+        { "label": "light a torch first", "nextNode": "torch-descent" }
+      ]
+    },
+    "fungal-landing": {
+      "passage": "You descend into a cavern carpeted with pale mushrooms that shed a cold blue light. The ceiling drips with moisture and every surface is furred with white growth. Maren's satchel lies open near a stone column, its contents scattered. Tunnels branch in three directions, each glowing a different hue.",
+      "choices": [
+        { "label": "search the satchel", "nextNode": "satchel-clue" },
+        { "label": "follow the green tunnel", "nextNode": "green-passage" },
+        { "label": "take the violet tunnel", "nextNode": "violet-passage" }
+      ]
+    },
+    "torch-descent": {
+      "passage": "Your torch throws warm light against the pale walls as you climb down. The fungi near the flame recoil, curling inward like burned fingers. You reach the cavern floor and see the mushrooms have pulled back in a wide circle around you. Something about the firelight keeps them at bay.",
+      "choices": [
+        { "label": "press deeper with the torch", "nextNode": "torch-corridor" },
+        { "label": "examine the retreating fungi", "nextNode": "satchel-clue" }
+      ]
+    },
+    "satchel-clue": {
+      "passage": "Maren's journal lies open to a hasty sketch of the cavern. She has drawn a central chamber labeled 'the heart' with arrows pointing inward. Her last entry reads: 'The pale ones do not eat - they connect. Fire is the only word it fears.' A vial of lamp oil rolls free.",
+      "choices": [
+        { "label": "take the oil vial", "nextNode": "green-passage" },
+        { "label": "head toward the heart", "nextNode": "deep-junction" }
+      ]
+    },
+    "torch-corridor": {
+      "passage": "You walk a narrow corridor where the torchlight forces the fungal growth to peel back from the walls. Behind you, it closes again like a healing wound. The air grows warmer and a low hum vibrates in your teeth. Ahead, the corridor forks around a stone pillar wrapped in pale tendrils.",
+      "choices": [
+        { "label": "burn the tendrils", "nextNode": "burned-pillar" },
+        { "label": "squeeze past carefully", "nextNode": "deep-junction" }
+      ]
+    },
+    "green-passage": {
+      "passage": "The green-lit tunnel narrows and the ceiling lowers until you are crouching. Luminous caps the size of dinner plates line both walls. A faint clicking echoes ahead, rhythmic and insistent. You round a bend and find a figure sitting cross-legged on the stone floor, surrounded by a ring of tall white stalks.",
+      "choices": [
+        { "label": "call out to the figure", "nextNode": "maren-found" },
+        { "label": "approach in silence", "nextNode": "spore-trap" }
+      ]
+    },
+    "violet-passage": {
+      "passage": "The violet tunnel slopes downward and the glow intensifies with each step. The mushrooms here are enormous, their caps arching overhead like parasols. A sweet fragrance fills the air so thickly you can taste it on your tongue. Your thoughts begin to drift and your feet feel pleasantly heavy.",
+      "choices": [
+        { "label": "hold your breath and run", "nextNode": "deep-junction" },
+        { "label": "rest against a mushroom cap", "nextNode": "spore-sleep" }
+      ]
+    },
+    "maren-found": {
+      "passage": "The figure turns. It is Maren, but her eyes are glazed and pale threads cling to her arms and neck. She speaks in a calm, distant voice: 'The garden welcomed me. It knows everything the soil knows. Stay and listen.' The white stalks around her lean toward you, swaying without wind.",
+      "choices": [
+        { "label": "grab Maren and pull her free", "nextNode": "struggle-maren" },
+        { "label": "listen to the garden", "nextNode": "communion" }
+      ]
+    },
+    "spore-trap": {
+      "passage": "You creep forward but your foot presses a soft cap hidden beneath the gravel. A burst of silver spores erupts into the air. Your vision swims and your limbs grow heavy. The figure ahead does not move. The stalks around it bend toward you now, reaching like pale fingers through the haze.",
+      "choices": [
+        { "label": "stagger back to safety", "nextNode": "deep-junction" },
+        { "label": "crawl toward the figure", "nextNode": "communion" }
+      ]
+    },
+    "spore-sleep": {
+      "passage": "You lean back against the soft cap and warmth floods through you. The violet light pulses in time with your heartbeat. Images fill your mind - the cavern as seen from a thousand eyes, the slow patient hunger of roots threading through stone. When you try to stand, your legs will not answer.",
+      "choices": [],
+      "ending": {
+        "title": "Rooted in Place",
+        "flavor": "The garden grows a little larger, and the glow on the hillside brightens by one more light."
+      }
+    },
+    "deep-junction": {
+      "passage": "Three tunnels converge into a wide chamber where the fungal growth climbs the walls in spiraling patterns. The hum is louder here, resonating from somewhere below. A natural staircase of stone descends into deeper blue light. On the wall, someone has scratched an arrow pointing down beside the word 'HEART' in charcoal.",
+      "choices": [
+        { "label": "descend the stone stairs", "nextNode": "heart-chamber" },
+        { "label": "search for another way around", "nextNode": "side-grotto" }
+      ]
+    },
+    "burned-pillar": {
+      "passage": "You press the torch against the tendrils and they blacken and shrivel with a hiss. The hum changes pitch, becoming sharp and agitated. The fungi on the walls pulse rapidly and a wave of spores rolls down the corridor behind you. The pillar cracks and reveals a hollow interior with a carved stone box inside.",
+      "choices": [
+        { "label": "open the stone box", "nextNode": "ancient-seed" },
+        { "label": "keep moving forward", "nextNode": "deep-junction" }
+      ]
+    },
+    "ancient-seed": {
+      "passage": "Inside the box rests a blackened seed the size of your fist, warm to the touch. Carved runes circle the lid. This seed is old - older than the fungal garden, older than the hills above. The fungi have pulled back from it, leaving bare stone. The garden fears it.",
+      "choices": [
+        { "label": "pocket the seed", "nextNode": "heart-chamber" },
+        { "label": "leave it and press on", "nextNode": "deep-junction" }
+      ]
+    },
+    "struggle-maren": {
+      "passage": "You grab Maren's arm and pull. The pale threads snap like wet cobwebs but new ones reach from the ground. Maren gasps and her eyes clear. 'It does not let go easily,' she whispers. 'Kill the heart below and the garden sleeps.' She presses her flint striker into your hand.",
+      "choices": [
+        { "label": "carry Maren toward the exit", "nextNode": "retreat-with-maren" },
+        { "label": "head for the heart alone", "nextNode": "heart-chamber" }
+      ]
+    },
+    "communion": {
+      "passage": "You sit among the pale stalks and close your eyes. The garden speaks not in words but in sensations - the slow pull of water through stone, the quiet patience of centuries. It means no harm. It simply grows, and all it touches becomes part of its dreaming. Your thoughts slow, settling like silt.",
+      "choices": [],
+      "ending": {
+        "title": "Part of the Dream",
+        "flavor": "You join the long slow conversation beneath the hills, and in time, you forget there was ever anything else."
+      }
+    },
+    "retreat-with-maren": {
+      "passage": "You haul Maren through the green tunnel. The fungi pulse angrily and spores thicken the air. Maren coughs and stumbles but keeps moving. The pale threads on her skin loosen as you climb. By the time you reach the ropes, most have fallen away. She grips the rope and looks back once into the blue glow below.",
+      "choices": [
+        { "label": "climb out together", "nextNode": "surface-retreat" },
+        { "label": "send Maren up alone", "nextNode": "heart-chamber" }
+      ]
+    },
+    "surface-retreat": {
+      "passage": "You emerge into grey daylight and the villagers rush forward. Maren collapses on the grass, breathing hard. The pale threads on her skin crumble in the sunlight. Below, the glow still pulses. The garden is alive and growing. You have saved one life but the sinkhole remains open, and the light is a little brighter than yesterday.",
+      "choices": [],
+      "ending": {
+        "title": "A Life Saved",
+        "flavor": "The garden still dreams beneath the hills, but tonight at least, there is one fewer dreamer in its keeping."
+      }
+    },
+    "side-grotto": {
+      "passage": "You follow a narrow crack in the wall and emerge into a grotto where water drips into a clear pool. The fungi here are different - golden, with black spots on their caps. A skeleton sits propped against the far wall, one bony hand clutching a rusted sword. This is not the first person the garden has claimed.",
+      "choices": [
+        { "label": "take the sword", "nextNode": "heart-chamber" },
+        { "label": "drink from the pool", "nextNode": "golden-vision" }
+      ]
+    },
+    "golden-vision": {
+      "passage": "The water is cold and tastes of iron and honey. Your vision sharpens. You can see the fungal threads now - millions of them, running through the stone like veins in a body. They all lead downward, converging on a single bright point. The heart. You know exactly where it is and every path that leads to it.",
+      "choices": [
+        { "label": "follow the threads down", "nextNode": "heart-chamber" },
+        { "label": "retreat to the junction", "nextNode": "deep-junction" }
+      ]
+    },
+    "heart-chamber": {
+      "passage": "You descend into a domed chamber lit by a single massive fungal body on the far wall. It pulses with blue-white light in a slow rhythm. Pale roots spread from it in every direction, threading into stone. The hum fills your skull. Dry moss clings to the roots like tinder. The heart waits.",
+      "choices": [
+        { "label": "set it ablaze", "nextNode": "fire-ending" },
+        { "label": "touch the heart", "nextNode": "merge-ending" },
+        { "label": "study it from a distance", "nextNode": "observe-heart" }
+      ]
+    },
+    "observe-heart": {
+      "passage": "You kneel and watch the heart pulse. The rhythm matches your own heartbeat. As minutes pass, you notice the roots carry water and minerals upward. The garden is not a predator. It is a vast slow organism doing what all living things do: survive. But it grows too fast. The dry moss would catch fire in an instant.",
+      "choices": [
+        { "label": "burn it anyway", "nextNode": "fire-ending" },
+        { "label": "try to slow its growth", "nextNode": "prune-ending" }
+      ]
+    },
+    "fire-ending": {
+      "passage": "You strike flint to steel and touch the spark to the heart. It catches at once. Blue flame races along every root and tendril. The hum becomes a shriek that shakes dust from the ceiling. You run as fire consumes the garden behind you. At the surface, smoke pours from the sinkhole. The glow is gone.",
+      "choices": [],
+      "ending": {
+        "title": "The Garden Burns",
+        "flavor": "The hills are dark tonight, and the sweet smell on the wind is only ash."
+      }
+    },
+    "merge-ending": {
+      "passage": "You press your palm against the heart. Light floods through you. You feel the garden entire - every root, every cap, every slow thought. It offers you a place in its network, a mind joined to the deep patience of stone and water. You could guide it, shape it, keep it from spreading too far.",
+      "choices": [],
+      "ending": {
+        "title": "The New Gardener",
+        "flavor": "The glow beneath the hills steadies, and for the first time in centuries, the garden has a purpose beyond its own growth."
+      }
+    },
+    "prune-ending": {
+      "passage": "You draw a knife and sever the thickest roots reaching toward the surface. The heart shudders but does not die. The hum softens. You carve a ring into the stone floor that the roots cannot easily cross. It will hold for a season, maybe two. Enough time to warn the villages and find a warden.",
+      "choices": [],
+      "ending": {
+        "title": "A Careful Balance",
+        "flavor": "Not every problem needs a blade or a flame - sometimes all it needs is a steady hand and a line drawn in the right place."
+      }
+    }
+  }
+}

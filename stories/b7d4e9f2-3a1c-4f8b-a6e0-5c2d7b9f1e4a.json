@@ -10,7 +10,7 @@
   "startNode": "intro",
   "nodes": {
     "intro": {
-      "passage": "You are halfway through Greymount Pass when the blizzard strikes without warning. Snow drives sideways and the trail disappears beneath your boots. The wind cuts through your cloak like iron. Above, a rocky ridge climbs into the storm. Below, a valley drops into shadow. Somewhere nearby, cliffs might hide a cave.",
+      "passage": "You are halfway through Greymount Pass when the blizzard strikes without warning. Snow drives sideways and the trail vanishes beneath your boots. The wind cuts through your cloak like iron. Above, a rocky ridge climbs into the storm. Below, a valley drops into shadow. Nearby, cliffs might hide a cave.",
       "choices": [
         { "label": "climb toward the ridge", "nextNode": "ridge-climb" },
         { "label": "descend into the valley", "nextNode": "valley-descent" },
@@ -18,85 +18,91 @@
       ]
     },
     "ridge-climb": {
-      "passage": "The ridge is narrow and the wind tries to throw you from it with every step. Ice coats the stone beneath your feet. Through the swirling snow you make out two shapes ahead. To the left, dark walls of a ruined structure. To the right, the ridge slopes down toward a line of black pines.",
+      "passage": "The ridge is narrow and the wind tries to throw you from it with every step. Ice coats the stone beneath your feet. Through the swirling snow you make out two shapes ahead. To the left, dark walls of a ruined hut. To the right, the ridge slopes down toward a line of black pines.",
       "choices": [
         { "label": "investigate the ruin", "nextNode": "stone-shelter" },
         { "label": "head toward the pines", "nextNode": "dark-forest" }
       ]
     },
     "stone-shelter": {
-      "passage": "The ruin is a shepherd's hut with three walls still standing and half a roof. It blocks the worst of the wind. Inside you find a dead fire pit, dry kindling, and a frozen corpse sitting against the far wall. A leather satchel rests in its lap. The face is peaceful, as though sleep simply took it.",
+      "passage": "The ruin is a shepherd's hut with three walls still standing and half a roof. It blocks the worst of the wind. Inside you find a dead fire pit, dry kindling, and a frozen corpse sitting against the far wall. A leather satchel rests in its lap.",
       "choices": [
         { "label": "open the satchel", "nextNode": "marked-trail" },
         { "label": "light a fire and rest", "nextNode": "shelter-fire" }
       ]
     },
     "marked-trail": {
-      "passage": "The satchel holds a hand-drawn map, a brass compass, and strips of dried meat. The map marks a village called Frosthollow on the northern slope, reachable by a trail from this ridge. A note in shaky script reads: do not take the valley, the river ice is thin this year. You pocket the map and step outside.",
+      "passage": "The satchel holds a hand-drawn map, a brass compass, and dried meat. The map marks a village called Frosthollow on the northern slope. A note in shaky script reads: do not take the valley, the river ice is thin. You pocket the map. Outside, cold wind tugs at the hut's broken walls.",
       "choices": [
-        { "label": "follow the map north", "nextNode": "snowfield" }
+        { "label": "follow the map north", "nextNode": "snowfield" },
+        { "label": "light a fire first", "nextNode": "shelter-fire" }
       ]
     },
     "shelter-fire": {
       "passage": "You coax the kindling into flame. The fire pushes back the cold and throws dancing shadows across the stone. Hours pass. The storm weakens near midnight and through a gap in the clouds you see stars. The dead traveler watches with empty eyes. You could move now while the wind is low.",
       "choices": [
-        { "label": "set out under the stars", "nextNode": "night-march" }
+        { "label": "set out under the stars", "nextNode": "night-march" },
+        { "label": "search the corpse's satchel", "nextNode": "marked-trail" }
       ]
     },
     "night-march": {
-      "passage": "Stars provide just enough light to pick your way along the ridge. The air is brutal without the storm to trap any warmth. Your breath freezes before your face and your fingers are going numb inside your gloves. After an hour the ridge opens onto a wide snowfield. The wind returns, harder than before.",
+      "passage": "Stars give just enough light to pick your way along the ridge. The air is brutal without the storm to trap any warmth. Your breath freezes before your face and your fingers go numb inside your gloves. After an hour the ridge opens onto a wide snowfield. The wind returns, harder than before.",
       "choices": [
         { "label": "push across the snowfield", "nextNode": "snowfield" },
-        { "label": "dig into the snow for warmth", "nextNode": "frozen-death" }
+        { "label": "burrow into the snow", "nextNode": "frozen-death" }
       ]
     },
     "valley-descent": {
-      "passage": "You half-slide, half-climb down the frozen slope. Loose scree shifts beneath the snow and your footing is treacherous. At the bottom a frozen river cuts across the valley floor. The ice gleams dull white in the fading light. Upstream, a dark shape spans the water. It could be a bridge.",
+      "passage": "You half-slide, half-climb down the frozen slope. Loose rocks shift beneath the snow and your footing is poor. At the bottom a frozen river cuts across the valley floor. The ice gleams dull white in the fading light. Upstream, a dark shape spans the water. It could be a bridge.",
       "choices": [
         { "label": "cross the frozen river", "nextNode": "frozen-river" },
         { "label": "head upstream toward the bridge", "nextNode": "riverbank" }
       ]
     },
     "frozen-river": {
-      "passage": "You step onto the ice. It groans beneath your weight but holds. Halfway across, a deep crack splits the air. A dark line races across the surface toward you. The far bank is thirty paces away. Behind you the ice is already separating into gray slabs. There is no time to think.",
+      "passage": "You step onto the ice. It groans beneath your weight but holds. Halfway across, a deep crack splits the air. A dark line races across the surface toward you. The far bank is thirty paces away. Behind you the ice is splitting into gray slabs. There is no time to think.",
       "choices": [
         { "label": "sprint for the far bank", "nextNode": "far-bank" },
         { "label": "turn back to shore", "nextNode": "ice-death" }
       ]
     },
     "far-bank": {
-      "passage": "You throw yourself forward as the ice splits behind you. Your boots hit solid ground and you tumble into deep snow on the far bank. The river groans and shifts but you are across. Through the storm you see the dark shapes of buildings ahead. A village, though no smoke rises from any chimney.",
+      "passage": "You throw yourself forward as the ice splits behind you. Your boots hit solid ground and you tumble into deep snow on the far bank. The river groans and shifts but you are across. Through the storm you see dark shapes of buildings ahead. No smoke rises from any chimney.",
       "choices": [
-        { "label": "enter the village", "nextNode": "abandoned-village" }
+        { "label": "enter the village", "nextNode": "abandoned-village" },
+        { "label": "follow the riverbank north", "nextNode": "hidden-path" }
       ]
     },
     "abandoned-village": {
-      "passage": "The village is empty. Doors hang open and snow has drifted into every building. In the largest house you find a cold hearth, broken furniture, and a cellar stocked with sealed jars of preserved food. Whatever drove these people away, they left in haste. The walls are solid and the roof still holds.",
+      "passage": "The village is empty. Doors hang open and snow has drifted into every building. In the largest house you find a cold hearth, broken furniture, and a cellar stocked with sealed jars of food. Whatever drove these people away, they left in haste. The walls are solid and the roof still holds.",
       "choices": [
         { "label": "barricade the door and stay", "nextNode": "cabin-ending" },
         { "label": "search for a path onward", "nextNode": "hidden-path" }
       ]
     },
     "hidden-path": {
-      "passage": "Behind the last house you find boot prints leading north into the trees. Someone passed through recently. You follow the tracks up a winding trail through snow-laden pines. The prints are steady and purposeful. After a mile the trees thin and you emerge onto an open snowfield high on the mountain's shoulder.",
+      "passage": "Behind the last house you find boot prints leading north into the trees. Someone passed through here not long ago. You follow the tracks up a winding trail through snow-laden pines. The prints are steady. After a mile the trees thin and you step onto an open snowfield high on the mountain's shoulder.",
       "choices": [
-        { "label": "cross the snowfield", "nextNode": "snowfield" }
+        { "label": "cross the snowfield", "nextNode": "snowfield" },
+        { "label": "return to the village", "nextNode": "abandoned-village" }
       ]
     },
     "riverbank": {
-      "passage": "You follow the frozen river upstream, keeping to the rocky bank. The going is slow but the ground is solid beneath your feet. After half a mile the dark shape resolves into a wooden bridge, old but intact. Snow sits heavy on its rails. Beyond it a path leads up into the trees.",
+      "passage": "You follow the frozen river upstream, keeping to the rocky bank. The going is slow but the ground is solid beneath your feet. After half a mile the dark shape turns out to be a wooden bridge, old but intact. Snow sits heavy on its rails. Beyond it a path leads up into the trees.",
       "choices": [
-        { "label": "cross the bridge", "nextNode": "bridge-crossing" }
+        { "label": "cross the bridge", "nextNode": "bridge-crossing" },
+        { "label": "keep following the river", "nextNode": "hidden-path" }
       ]
     },
     "bridge-crossing": {
-      "passage": "The old bridge creaks but holds your weight. On the far side the path climbs through dense pines. You smell wood smoke before you see the cabin. It sits in a clearing, built from heavy logs, with a thin stream of smoke rising from the chimney. Firelight flickers behind a shuttered window.",
+      "passage": "The old bridge creaks but holds your weight. On the far side the path climbs through dense pines. You smell wood smoke before you see the cabin. It sits in a clearing, built from heavy logs, with a thin stream of smoke from the chimney. Firelight flickers behind a shuttered window.",
       "choices": [
-        { "label": "knock on the door", "nextNode": "woodsman-cabin" }
+        { "label": "knock on the door", "nextNode": "woodsman-cabin" },
+        { "label": "circle around the cabin", "nextNode": "dark-forest" }
       ]
     },
     "woodsman-cabin": {
-      "passage": "A broad-shouldered woman opens the door with an axe in hand. She studies you for a moment, then steps aside. Inside is warm and spare. A fire crackles in the stone hearth. She offers broth without a word. In the morning, she says, there are two ways forward. Over the mountain or through the winter here.",
+      "passage": "A broad woman opens the door with an axe in hand. She studies you for a moment, then steps aside. Inside is warm and spare. A fire crackles in the stone hearth. She offers broth without a word. In the morning, she says, there are two ways forward. Over the mountain or through the winter here.",
       "choices": [
         { "label": "take the mountain path", "nextNode": "mountain-slope" },
         { "label": "stay and wait out winter", "nextNode": "cabin-ending" }
@@ -117,21 +123,24 @@
       ]
     },
     "wolf-standoff": {
-      "passage": "The wolves spring to their feet. The largest bares its teeth and lunges. You swing your pack at its head and scramble for the crack. Teeth catch your cloak and tear it away. You squeeze through the gap and tumble into cold moonlight on the far side of the mountain.",
+      "passage": "The wolves spring to their feet. The largest bares its teeth and lunges. You swing your pack at its head and scramble for the crack. Teeth catch your cloak and tear it away. You squeeze through the gap and tumble into cold moonlight on a steep slope beyond the mountain.",
       "choices": [
-        { "label": "follow the slope down", "nextNode": "mountain-slope" }
+        { "label": "follow the slope down", "nextNode": "mountain-slope" },
+        { "label": "search for another cave", "nextNode": "cave-camp" }
       ]
     },
     "cave-camp": {
-      "passage": "You build a small fire near the entrance using dried moss and flint from your pack. The warmth slowly returns feeling to your fingers. Outside the storm howls on. You hear movement deeper in the cave, claws scraping stone, but the fire keeps whatever it is at a distance. Sleep comes in fits.",
+      "passage": "You build a small fire near the entrance using dried moss and flint from your pack. The warmth slowly returns feeling to your fingers. Outside the storm howls on. You hear movement deeper in the cave, claws scraping stone, but the fire keeps whatever lurks there at a distance. Sleep comes in fits.",
       "choices": [
-        { "label": "wait for dawn", "nextNode": "cave-dawn" }
+        { "label": "wait for dawn", "nextNode": "cave-dawn" },
+        { "label": "explore deeper with a torch", "nextNode": "wolf-den" }
       ]
     },
     "cave-dawn": {
-      "passage": "You keep the fire burning through the night. Twice, yellow eyes appear at the edge of the light and twice they retreat. Dawn comes gray and quiet. The storm has passed. You step outside to a world buried in white. The valley is still. A column of smoke rises from beyond a wooded slope to the north.",
+      "passage": "You keep the fire burning through the night. Twice, yellow eyes appear at the edge of the light and twice they retreat. Dawn comes gray and quiet. The storm has passed. You step outside to a world buried in white. A column of smoke rises from beyond a wooded slope to the north.",
       "choices": [
-        { "label": "head toward the smoke", "nextNode": "mountain-slope" }
+        { "label": "head toward the smoke", "nextNode": "mountain-slope" },
+        { "label": "descend into the valley", "nextNode": "valley-descent" }
       ]
     },
     "mountain-slope": {
@@ -152,26 +161,28 @@
       "passage": "Three figures huddle around a struggling fire. A woman in heavy furs looks up as you approach. Another fool caught in the pass, she says. Sit. We have broth. They are trappers heading south who know these woods well. They offer to guide you to the valley road come first light.",
       "choices": [
         { "label": "share the fire tonight", "nextNode": "trapper-camp" },
-        { "label": "ask for directions and press on", "nextNode": "snowfield" }
+        { "label": "ask directions and press on", "nextNode": "snowfield" }
       ]
     },
     "trapper-camp": {
-      "passage": "You share broth and stories through the night. The woman, Maren, tells you of a village called Frosthollow beyond the snowfield. Her companions argue about the fastest route while wind shakes the branches above. When dawn breaks pink through the trees, Maren stands and kicks snow over the coals. Time to move.",
+      "passage": "You share broth and stories through the night. The woman, Maren, tells you of a village called Frosthollow beyond the snowfield. Her friends argue about the fastest route while wind shakes the branches above. When dawn breaks pink through the trees, Maren stands and kicks snow over the coals. Time to move.",
       "choices": [
         { "label": "travel with the trappers", "nextNode": "trapper-dawn" },
         { "label": "go alone toward Frosthollow", "nextNode": "snowfield" }
       ]
     },
     "snowfield": {
-      "passage": "The snowfield stretches before you, flat and white and featureless. The wind has died and the morning sun turns everything blinding. Each step sinks knee-deep. After what feels like hours the ground begins to slope downward. Through the glare you see rooftops below and the thin gray line of chimney smoke.",
+      "passage": "The snowfield stretches before you, flat and white and bare. The wind has died and the morning sun turns everything blinding. Each step sinks knee-deep. After what feels like hours the ground slopes downward. Through the glare you see rooftops below and the thin gray line of chimney smoke.",
       "choices": [
-        { "label": "make for the village", "nextNode": "mountain-descent" }
+        { "label": "make for the village", "nextNode": "mountain-descent" },
+        { "label": "rest before the descent", "nextNode": "frozen-death" }
       ]
     },
     "mountain-descent": {
-      "passage": "The path down is steep but clear. Snow crunches under your boots in the morning stillness. The rooftops grow larger with every step. You can hear the distant sound of an axe splitting wood and smell bread baking somewhere. A wooden sign half-buried in snow reads Frosthollow. The village gate stands open.",
+      "passage": "The path down is steep but clear. Snow crunches under your boots in the morning stillness. The rooftops grow larger with every step. You can hear the distant sound of an axe splitting wood and smell bread baking. A wooden sign half-buried in snow reads Frosthollow. The village gate stands open.",
       "choices": [
-        { "label": "enter the village", "nextNode": "frosthollow-inn" }
+        { "label": "enter the village", "nextNode": "frosthollow-inn" },
+        { "label": "circle the village walls", "nextNode": "hidden-path" }
       ]
     },
     "frosthollow-inn": {
@@ -183,7 +194,7 @@
       }
     },
     "trapper-dawn": {
-      "passage": "Maren and her companions lead you down trails you never would have found alone. They move through the snow like it is flat ground. By midday you reach a crossroads with a weathered signpost. The trappers wave farewell and vanish back into the trees. The road south stretches clear and safe before you.",
+      "passage": "Maren and her friends lead you down trails you never would have found alone. They move through the snow like it is flat ground. By midday you reach a crossroads with a weathered signpost. The trappers wave farewell and vanish back into the trees. The road south stretches clear and safe before you.",
       "choices": [],
       "ending": {
         "title": "Safe Passage",
@@ -191,7 +202,7 @@
       }
     },
     "cabin-ending": {
-      "passage": "You seal the doors and feed the hearth with broken furniture. The food will last weeks if you are careful. The storm returns that night and does not relent for three days. You sit alone listening to the wind. When spring finally comes you walk out into a changed world, thinner and quieter.",
+      "passage": "You seal the doors and feed the hearth with broken furniture. The food will last weeks if you are careful. The storm returns that night and does not stop for three days. You sit alone listening to the wind. When spring finally comes you walk out into a changed world, thinner and quieter.",
       "choices": [],
       "ending": {
         "title": "The Long Winter",

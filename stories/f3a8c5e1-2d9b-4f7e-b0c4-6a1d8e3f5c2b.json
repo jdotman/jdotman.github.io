@@ -10,7 +10,7 @@
   "startNode": "intro",
   "nodes": {
     "intro": {
-      "passage": "You arrive at the royal capital as afternoon bells toll across the plaza. The palace gates loom ahead, guarded by soldiers in silver livery. A forged invitation is tucked in your boot, and the Queen's cipher is sewn into your collar. Every second in this city is dangerous.",
+      "passage": "You arrive at the royal capital as afternoon bells toll across the marketplace plaza. The palace gates loom ahead, guarded by soldiers in silver livery. A servant entrance sits along the east wall. A forged invitation is tucked in your boot, and the Queen's cipher is sewn into your collar.",
       "choices": [
         { "label": "approach the palace gates", "nextNode": "gate-guard" },
         { "label": "find the servant entrance", "nextNode": "servant-entrance" },
@@ -26,7 +26,7 @@
       ]
     },
     "servant-entrance": {
-      "passage": "A low arch on the palace's east flank serves the kitchens and laundry. Servants shuffle in and out carrying baskets of linen and barrels of salt fish. Nobody notices an extra face. The smell of baking bread drifts through the doorway, warm and disarming, a contrast to the cold tension in your chest.",
+      "passage": "A low arch on the palace's east flank serves the kitchens and laundry. Servants shuffle in and out carrying baskets of linen. Nobody notices an extra face. A stone staircase leads upward. The smell of baking bread drifts through the doorway. Somewhere ahead, the chamberlain's voice echoes sharp and clear.",
       "choices": [
         { "label": "blend in with the servants", "nextNode": "kitchens" },
         { "label": "take the stairs upward", "nextNode": "upper-corridor" },
@@ -34,7 +34,7 @@
       ]
     },
     "marketplace": {
-      "passage": "The plaza market is loud and vibrant. Silk merchants hawk their wares beside spice sellers, and a juggler draws a crowd near the fountain. A costume stall catches your eye - a rack of noble cloaks and velvet hats that could pass muster at a palace fête. Opportunity hides in plain sight.",
+      "passage": "The plaza market is loud and bright. Silk merchants hawk their wares beside spice sellers, and a juggler draws a crowd near the fountain. Two courtiers chat by the gate. A costume stall catches your eye - noble cloaks and servant uniforms hang side by side. Chance hides in plain sight.",
       "choices": [
         { "label": "purchase a noble disguise", "nextNode": "great-hall" },
         { "label": "steal a servant uniform", "nextNode": "servant-entrance" },
@@ -42,7 +42,7 @@
       ]
     },
     "great-hall": {
-      "passage": "The great hall blazes with torchlight. Courtiers in silks and furs cluster around long tables, their laughter competing with the minstrels' tune. At the far end, King Aldred holds court on an elevated throne. Somewhere in this crowd is the Queen's lady-in-waiting. Somewhere else, the spymaster watches from the shadows.",
+      "passage": "The great hall blazes with torchlight. Courtiers in silks and furs cluster around long tables, trading gossip over wine. Minstrels play a slow tune. At the far end, King Aldred holds court on an elevated throne. Somewhere in this crowd is the Queen's lady-in-waiting. Somewhere else, the spymaster watches.",
       "choices": [
         { "label": "seek the lady-in-waiting", "nextNode": "ladies-chamber" },
         { "label": "approach the throne dais", "nextNode": "throne-dais" },
@@ -64,14 +64,14 @@
       ]
     },
     "gossip-alcove": {
-      "passage": "You drift toward a cluster of minor nobles whispering by the eastern fireplace. Their talk is scandal and rumor until one phrase catches your ear: a hidden passage behind the wainscoting, leading to the Queen's solar. A gentleman taps the wall twice as he describes it. You watch where his fingers land.",
+      "passage": "You drift toward a cluster of minor nobles whispering by the eastern fireplace. Their talk is scandal and rumor until one phrase catches your ear: a hidden passage behind the wall panels, leading to the Queen's solar. The upper corridor connects as well. You watch where the man's fingers tap the wall.",
       "choices": [
         { "label": "search for the hidden door", "nextNode": "secret-passage" },
         { "label": "head up to the corridor", "nextNode": "upper-corridor" }
       ]
     },
     "upper-corridor": {
-      "passage": "The upper corridor is narrow and dimly lit, far from the pageantry below. Dust motes drift in amber light from a high window. The Queen's private solar is at the far end - you can see the carved oak door with its iron lock. Footsteps echo somewhere around the corner ahead.",
+      "passage": "The upper corridor is narrow and dimly lit, far from the noise below. Dust motes drift in amber light from a high window. The Queen's private solar is at the far end - you can see the carved oak door with its iron lock. A voice ahead sounds like the chamberlain.",
       "choices": [
         { "label": "try the queen's chamber door", "nextNode": "queens-chamber-door" },
         { "label": "shadow the chamberlain", "nextNode": "chamberlain-encounter" }
@@ -92,21 +92,21 @@
       ]
     },
     "kitchens": {
-      "passage": "The palace kitchens roar with heat and noise. Cooks shout across steaming cauldrons and scullery maids rush past with stacks of wooden boards. Nobody pays attention to a stranger in the chaos. A spiral staircase in the corner leads upward, and a curtained passage to the left opens toward the great hall.",
+      "passage": "The palace kitchens roar with heat and noise. Cooks shout across steaming pots and kitchen maids rush past with stacks of wooden boards. Nobody pays attention to a stranger in the chaos. A spiral staircase in the corner leads upward, and a curtained passage to the left opens toward the great hall.",
       "choices": [
         { "label": "take the back stairs", "nextNode": "upper-corridor" },
         { "label": "follow a servant to the hall", "nextNode": "great-hall" }
       ]
     },
     "spymaster-confrontation": {
-      "passage": "Vareth steps in front of you, alone in the anteroom, his grey eyes flat and cold. He speaks quietly. 'I know why you are here. I know who sent you.' He draws no weapon - he does not need to. The palace guards are one shout away. You have a single heartbeat to decide.",
+      "passage": "Vareth steps in front of you, alone in the side room, his grey eyes flat and cold. He speaks quietly. 'I know why you are here. I know who sent you.' He draws no weapon - he does not need to. The palace guards are one shout away. You have a single heartbeat to decide.",
       "choices": [
         { "label": "fight your way out", "nextNode": "fight-escape" },
         { "label": "surrender to his custody", "nextNode": "imprisoned-ending" }
       ]
     },
     "fight-escape": {
-      "passage": "You throw your shoulder into Vareth and bolt for the door. The spymaster hits the wall hard and shouts for the guards. You hear boots on stone, shouts from below. You vault a balustrade and land in the courtyard, running hard. The outer gate stands open thirty paces ahead.",
+      "passage": "You throw your shoulder into Vareth and bolt for the door. The spymaster hits the wall hard and shouts for the guards. You hear boots on stone, shouts from below. You vault a railing and land in the courtyard, running hard. The outer gate stands open - but the queen still needs that message.",
       "choices": [
         { "label": "escape through the open gate", "nextNode": "bittersweet-ending" },
         { "label": "circle back for the queen", "nextNode": "queens-chamber" }

@@ -1,0 +1,226 @@
+{
+  "id": "b9c4e1f7-3a8d-4b2e-a5f6-7d0c9e1a4b3f",
+  "title": "The Broken Oath",
+  "description": "Two rival mercenary captains both claim your sworn service in a border town too small for their feud. Night is falling and steel is being drawn.",
+  "author": "AI",
+  "tags": ["conflict", "negotiation"],
+  "estimatedMinutes": 10,
+  "dateGenerated": "2026-04-21",
+  "dayOfYear": "04-21",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "You stand in the muddy square of Ashford, a border town that reeks of horses and old grudges. Two armed companies face each other across the well. Captain Varn, scarred and silver-haired, points at you. Captain Mera, lean and sharp-eyed, does the same. Both claim you signed their contract. You signed neither.",
+      "choices": [
+        { "label": "speak to Captain Varn", "nextNode": "speak-to-varn" },
+        { "label": "approach Captain Mera", "nextNode": "speak-to-mera" },
+        { "label": "slip away quietly", "nextNode": "back-alley" }
+      ]
+    },
+    "speak-to-varn": {
+      "passage": "Varn grips your arm and pulls you aside. His voice is gravel and cold ale. He says someone forged your mark on his roster and he does not care whether it is true. He needs a scout for tonight's raid on the bridge and you are the only one who knows the ridge paths.",
+      "choices": [
+        { "label": "accept the scouting job", "nextNode": "varn-camp" },
+        { "label": "demand proof of contract", "nextNode": "duel-ring" }
+      ]
+    },
+    "speak-to-mera": {
+      "passage": "Mera meets you in the shadow of the granary. She speaks quickly. She admits she forged your name on Varn's roster to cause confusion in his ranks. Now she needs you to finish the job - steal his battle orders from the command tent. She will pay triple a scout's wage.",
+      "choices": [
+        { "label": "agree to the theft", "nextNode": "mera-camp" },
+        { "label": "question her proof", "nextNode": "evidence-tent" }
+      ]
+    },
+    "back-alley": {
+      "passage": "You weave through hanging laundry and stacked barrels until the shouting fades behind you. The town wall looms ahead with its rusted iron gate barred for the night. A town guard leans against the gatehouse door, half asleep. Past him, a low section of wall looks climbable if you are quick.",
+      "choices": [
+        { "label": "bribe the gate guard", "nextNode": "gate-guard" },
+        { "label": "climb the low wall", "nextNode": "wall-climb" },
+        { "label": "find the magistrate", "nextNode": "magistrate" }
+      ]
+    },
+    "varn-camp": {
+      "passage": "Varn's camp sits on the north edge of town behind a ring of sharpened stakes. His soldiers clean weapons by firelight. A map on the command table shows the stone bridge two miles east. Varn wants you on the ridge before moonrise to count Mera's sentries. His soldiers begin packing gear.",
+      "choices": [
+        { "label": "march with the column", "nextNode": "night-march" },
+        { "label": "search the supply tent", "nextNode": "supply-tent" }
+      ]
+    },
+    "duel-ring": {
+      "passage": "Varn laughs and draws a circle in the mud with his boot. In a mercenary camp, you challenge a contract with steel, not words. His soldiers form a ring. Varn draws a short sword and tosses you one from the weapon rack. The crowd goes quiet. First blood takes the argument.",
+      "choices": [
+        { "label": "fight to first blood", "nextNode": "duel-won" },
+        { "label": "yield and bargain", "nextNode": "tavern-meeting" }
+      ]
+    },
+    "mera-camp": {
+      "passage": "Mera's people camp in the old tannery south of the square. They are fewer than Varn's but better armed. She gives you a hooded cloak and a sketch of Varn's tent layout. The command tent is third from the left, marked by a wolf banner at the flap.",
+      "choices": [
+        { "label": "sneak into the command tent", "nextNode": "caught-stealing" },
+        { "label": "warn Varn instead", "nextNode": "tavern-meeting" }
+      ]
+    },
+    "evidence-tent": {
+      "passage": "You press Mera for details and she shows you the forged contract. The ink is fresh and the seal is crooked. A second document underneath catches your eye. It bears the real seal of the Merchant Guild and names a third party who hired both companies to fight each other over nothing.",
+      "choices": [
+        { "label": "take the documents", "nextNode": "forgery-discovered" },
+        { "label": "confront Mera directly", "nextNode": "mera-confronted" }
+      ]
+    },
+    "gate-guard": {
+      "passage": "You press a silver coin into the guard's palm. He squints, bites the edge, and unlatches the small door set into the gate. Beyond the wall the road stretches into dark farmland. Behind you, torches move through the streets as both companies search for recruits and deserters.",
+      "choices": [
+        { "label": "follow the south road", "nextNode": "forest-escape" },
+        { "label": "turn back to help", "nextNode": "magistrate" }
+      ]
+    },
+    "wall-climb": {
+      "passage": "You haul yourself up the rough stones and swing a leg over the top. The drop on the far side is longer than expected. You land hard in a ditch and something in your ankle pops. Pain shoots up your leg. You can hobble but cannot run. A torch-lit patrol rounds the corner.",
+      "choices": [
+        { "label": "limp into the darkness", "nextNode": "forest-escape" },
+        { "label": "surrender to the patrol", "nextNode": "prison-cell" }
+      ]
+    },
+    "magistrate": {
+      "passage": "The town magistrate is barricaded in the courthouse with two nervous clerks. She has no patience for mercenary disputes. Both companies operate without a town charter, she says, and she has sent a rider to the baron. Help arrives in two days. A stack of seized documents sits on her desk.",
+      "choices": [
+        { "label": "offer to stall both captains", "nextNode": "tavern-meeting" },
+        { "label": "examine the documents", "nextNode": "forgery-discovered" }
+      ]
+    },
+    "night-march": {
+      "passage": "Varn's column moves through dark fields in silence. The grass is wet and every step squelches. Ahead, the stone bridge is a pale line across the river. Moonlight catches the glint of armor on the far bank - Mera's sentries. Varn signals a halt and looks to you for the approach.",
+      "choices": [
+        { "label": "climb to the ridge", "nextNode": "ridge-ambush" },
+        { "label": "follow the riverbank", "nextNode": "bridge-parley" },
+        { "label": "refuse and turn back", "nextNode": "desertion-path" }
+      ]
+    },
+    "supply-tent": {
+      "passage": "While the camp prepares to march, you duck into the supply tent. Between crates of rations and bundled arrows you find a satchel of documents bearing Varn's seal. Most are troop movements, but one letter stands out - it is addressed to a merchant broker and mentions a third contract.",
+      "choices": [
+        { "label": "read the merchant letter", "nextNode": "forgery-discovered" },
+        { "label": "rejoin the march column", "nextNode": "night-march" }
+      ]
+    },
+    "ridge-ambush": {
+      "passage": "The ridge overlooks the bridge in pale moonlight. Mera has posted six sentries on the far bank and two archers on the bridge itself. If Varn attacks now he will take heavy losses. You could signal with the agreed torch pattern or find another way before blood is spilled.",
+      "choices": [
+        { "label": "signal the attack", "nextNode": "bridge-battle" },
+        { "label": "descend and parley", "nextNode": "bridge-parley" }
+      ]
+    },
+    "desertion-path": {
+      "passage": "You tell Varn you want no part of a night raid. His jaw tightens and he waves two soldiers forward. In a mercenary company, refusing orders after taking a contract means branding. The penalty is swift. You have seconds before they grab you. A line of dark trees stands beyond the field.",
+      "choices": [
+        { "label": "run for the trees", "nextNode": "forest-escape" },
+        { "label": "stand your ground", "nextNode": "tavern-meeting" }
+      ]
+    },
+    "duel-won": {
+      "passage": "You catch Varn's forearm with a quick cut and blood wells through his sleeve. The crowd murmurs. Varn stares at the wound, then at you, and slowly sheathes his blade. He says you have earned the right to speak. He will hear your terms at the tavern if Mera comes too.",
+      "choices": [
+        { "label": "fetch Captain Mera", "nextNode": "tavern-meeting" },
+        { "label": "leave town instead", "nextNode": "forest-escape" }
+      ]
+    },
+    "caught-stealing": {
+      "passage": "You lift the tent flap and a lantern blazes in your face. Varn is sitting in a camp chair with his sword across his knees, waiting. He knew someone would come. His soldiers bind your wrists and shove you to your knees. Varn says spies hang at dawn in his company.",
+      "choices": [
+        { "label": "reveal Mera's plan", "nextNode": "tavern-meeting" },
+        { "label": "keep your silence", "nextNode": "prison-cell" }
+      ]
+    },
+    "forgery-discovered": {
+      "passage": "The documents tell the full story. A merchant named Aldric Thorne hired both companies through separate brokers and pointed them at each other. While they fight over the bridge, Thorne's wagons cross the unguarded northern ford with untaxed cargo. The whole conflict is a distraction.",
+      "choices": [
+        { "label": "bring proof to both captains", "nextNode": "tavern-meeting" },
+        { "label": "ride to the northern ford", "nextNode": "northern-ford" }
+      ]
+    },
+    "mera-confronted": {
+      "passage": "You accuse Mera of dragging you into a manufactured war. Her hand drifts to her dagger but she does not draw. She admits the Merchant Guild contract troubles her too. Someone profits from this fight and it is not her company. She agrees to meet Varn at the tavern.",
+      "choices": [
+        { "label": "arrange the meeting", "nextNode": "tavern-meeting" },
+        { "label": "search for more proof", "nextNode": "forgery-discovered" }
+      ]
+    },
+    "northern-ford": {
+      "passage": "You ride hard through dark fields and reach the northern ford as wagon wheels creak through shallow water. Thorne's caravan is crossing - six wagons heavy with untaxed iron and salt. His hired guards see you and draw swords. You are alone against eight armed men with nothing but proof and nerve.",
+      "choices": [
+        { "label": "bluff with the document", "nextNode": "ford-bluff" },
+        { "label": "ride back for help", "nextNode": "tavern-meeting" }
+      ]
+    },
+    "ford-bluff": {
+      "passage": "You hold up the sealed Merchant Guild document and declare the baron's riders are an hour behind you. Thorne's guards hesitate. The merchant himself steps from a wagon - a thin man with nervous hands. He offers you gold to look away. More gold than both captains combined.",
+      "choices": [
+        { "label": "take the gold", "nextNode": "bribe-ending" },
+        { "label": "refuse and hold the ford", "nextNode": "peace-ending" }
+      ]
+    },
+    "bridge-parley": {
+      "passage": "You descend toward the bridge with hands raised and call out to Mera's sentries. It takes an hour of tense words on the cold stones but you convince both sides to wait for dawn. When the sun rises you stand between two armed companies. A merchant named Thorne set them against each other.",
+      "choices": [
+        { "label": "name the merchant Thorne", "nextNode": "peace-ending" },
+        { "label": "propose a joint contract", "nextNode": "peace-ending" }
+      ]
+    },
+    "tavern-meeting": {
+      "passage": "The Ashford tavern is thick with smoke and silence. Varn sits at one end of a scarred oak table. Mera sits at the other. Their soldiers line the walls like wolves watching a kill. You stand between them with whatever truth you have gathered. Both captains wait for you to speak.",
+      "choices": [
+        { "label": "reveal the merchant's plot", "nextNode": "peace-ending" },
+        { "label": "play them against each other", "nextNode": "betrayal-ending" },
+        { "label": "challenge both to combat", "nextNode": "bridge-parley" }
+      ]
+    },
+    "peace-ending": {
+      "passage": "The truth lands like a hammer. Both captains read the documents and the room shifts from hostility to cold fury - not at each other but at the merchant who played them. By morning Varn and Mera ride together toward the northern ford. You walk free with the thanks of both companies.",
+      "choices": [],
+      "ending": {
+        "title": "The Honest Broker",
+        "flavor": "The hardest contract to honor is the one you write yourself."
+      }
+    },
+    "bridge-battle": {
+      "passage": "You light the torch and wave it twice. Varn's soldiers pour down the ridge in a thunder of boots and steel. The battle is brief and ugly. Mera's sentries fall back across the bridge. By dawn Varn holds both banks and rewards you with a pouch of silver. The dead stare at the sky.",
+      "choices": [],
+      "ending": {
+        "title": "Blood and Silver",
+        "flavor": "Victory paid for with other people's lives spends the same as any coin."
+      }
+    },
+    "betrayal-ending": {
+      "passage": "You feed each captain a different lie, promising secret advantage. For an hour it works. Then Mera compares notes with Varn's lieutenant and your web unravels in an instant. Both companies turn on you at once. The tavern door closes and no one in Ashford speaks your name again.",
+      "choices": [],
+      "ending": {
+        "title": "The Double-Dealer",
+        "flavor": "Every lie needs a longer lie to hold it up, and you ran out of words."
+      }
+    },
+    "prison-cell": {
+      "passage": "Stone walls and iron bars. Your gamble failed and Ashford's stockade is your reward. Through the high window you hear the distant clash of steel at the bridge. The battle happens without you. Days pass before anyone remembers to bring water. You had your chances. You let them pass.",
+      "choices": [],
+      "ending": {
+        "title": "Chains of Silence",
+        "flavor": "Loyalty to the wrong person is still loyalty - cold comfort in a cell."
+      }
+    },
+    "forest-escape": {
+      "passage": "You push into the darkness beyond Ashford with nothing but the clothes on your back. The night swallows you whole. No torchlight follows. By dawn you are miles away, alone under a pale sky. Whatever happens at the bridge will happen without you. The road has no name here.",
+      "choices": [],
+      "ending": {
+        "title": "Into the Wild",
+        "flavor": "The forest does not care whose name is on the contract."
+      }
+    },
+    "bribe-ending": {
+      "passage": "You pocket the gold and ride south without looking back. Thorne's wagons cross the ford. The two companies fight at the bridge for nothing. Ashford suffers. Weeks later in a distant city you spend the last coin and wonder if the town recovered. You do not go back to find out.",
+      "choices": [],
+      "ending": {
+        "title": "Thirty Pieces",
+        "flavor": "Gold spends fast when it weighs this much on the conscience."
+      }
+    }
+  }
+}
