@@ -34,7 +34,7 @@
       ]
     },
     "marketplace": {
-      "passage": "The plaza market is loud and vibrant. Silk merchants hawk their wares beside spice sellers, and a juggler draws a crowd near the fountain. A costume stall catches your eye — a rack of noble cloaks and velvet hats that could pass muster at a palace fête. Opportunity hides in plain sight.",
+      "passage": "The plaza market is loud and vibrant. Silk merchants hawk their wares beside spice sellers, and a juggler draws a crowd near the fountain. A costume stall catches your eye - a rack of noble cloaks and velvet hats that could pass muster at a palace fête. Opportunity hides in plain sight.",
       "choices": [
         { "label": "purchase a noble disguise", "nextNode": "great-hall" },
         { "label": "steal a servant uniform", "nextNode": "servant-entrance" },
@@ -57,7 +57,7 @@
       ]
     },
     "throne-dais": {
-      "passage": "You edge toward the raised platform where King Aldred receives petitioners. The Queen sits three steps below him, her expression unreadable, her hands folded. A lean man in grey linen stands at the King's left hand — that must be Vareth, the spymaster. His eyes find yours across the crowded hall.",
+      "passage": "You edge toward the raised platform where King Aldred receives petitioners. The Queen sits three steps below him, her expression unreadable, her hands folded. A lean man in grey linen stands at the King's left hand - that must be Vareth, the spymaster. His eyes find yours across the crowded hall.",
       "choices": [
         { "label": "wait for a quiet moment", "nextNode": "queens-chamber" },
         { "label": "confront the spymaster directly", "nextNode": "spymaster-confrontation" }
@@ -71,7 +71,7 @@
       ]
     },
     "upper-corridor": {
-      "passage": "The upper corridor is narrow and dimly lit, far from the pageantry below. Dust motes drift in amber light from a high window. The Queen's private solar is at the far end — you can see the carved oak door with its iron lock. Footsteps echo somewhere around the corner ahead.",
+      "passage": "The upper corridor is narrow and dimly lit, far from the pageantry below. Dust motes drift in amber light from a high window. The Queen's private solar is at the far end - you can see the carved oak door with its iron lock. Footsteps echo somewhere around the corner ahead.",
       "choices": [
         { "label": "try the queen's chamber door", "nextNode": "queens-chamber-door" },
         { "label": "shadow the chamberlain", "nextNode": "chamberlain-encounter" }
@@ -85,7 +85,7 @@
       ]
     },
     "chamberlain-encounter": {
-      "passage": "A tall man in black-and-gold livery turns the corner and stops dead when he sees you. This is the royal chamberlain — you recognize him from the descriptions. He holds a brass key ring in one hand and stares at you with suspicious, intelligent eyes. 'You do not belong here,' he says.",
+      "passage": "A tall man in black-and-gold livery turns the corner and stops dead when he sees you. This is the royal chamberlain - you recognize him from the descriptions. He holds a brass key ring in one hand and stares at you with suspicious, intelligent eyes. 'You do not belong here,' he says.",
       "choices": [
         { "label": "tell him the truth", "nextNode": "chamberlain-ally" },
         { "label": "claim to be lost", "nextNode": "chamberlain-suspicious" }
@@ -99,7 +99,7 @@
       ]
     },
     "spymaster-confrontation": {
-      "passage": "Vareth steps in front of you, alone in the anteroom, his grey eyes flat and cold. He speaks quietly. 'I know why you are here. I know who sent you.' He draws no weapon — he does not need to. The palace guards are one shout away. You have a single heartbeat to decide.",
+      "passage": "Vareth steps in front of you, alone in the anteroom, his grey eyes flat and cold. He speaks quietly. 'I know why you are here. I know who sent you.' He draws no weapon - he does not need to. The palace guards are one shout away. You have a single heartbeat to decide.",
       "choices": [
         { "label": "fight your way out", "nextNode": "fight-escape" },
         { "label": "surrender to his custody", "nextNode": "imprisoned-ending" }
@@ -120,14 +120,14 @@
       ]
     },
     "queens-chamber": {
-      "passage": "You step into the Queen's solar. She sits alone at a writing desk, a single candle burning. When she sees the seal on your collar her composure does not change — but her eyes sharpen. She extends one hand for the message. The room is very still. Outside the palace carries on, ignorant.",
+      "passage": "You step into the Queen's solar. She sits alone at a writing desk, a single candle burning. When she sees the seal on your collar her composure does not change - but her eyes sharpen. She extends one hand for the message. The room is very still. Outside the palace carries on, ignorant.",
       "choices": [
         { "label": "stay and witness the outcome", "nextNode": "triumphant-ending" },
         { "label": "slip away quietly now", "nextNode": "quiet-escape-ending" }
       ]
     },
     "courtier-gossip": {
-      "passage": "The two men are deep in conversation beneath an awning. You linger beside a bolt of cloth, pretending to examine it. Their words drift over: a name, a meeting time, and a route — the servant passage from the east plaza leads past the guard post and into the palace unnoticed.",
+      "passage": "The two men are deep in conversation beneath an awning. You linger beside a bolt of cloth, pretending to examine it. Their words drift over: a name, a meeting time, and a route - the servant passage from the east plaza leads past the guard post and into the palace unnoticed.",
       "choices": [
         { "label": "follow the nobles inside", "nextNode": "great-hall" },
         { "label": "sneak toward the east wing", "nextNode": "servant-entrance" }
@@ -179,7 +179,7 @@
       }
     },
     "triumphant-ending": {
-      "passage": "The Queen reads the message twice, then rises from her desk. She calls for her steward with quiet authority. By the time the evening banquet begins, three of the King's conspirators are in custody. She does not thank you aloud — that would be unsafe. But her nod says everything. The kingdom is safer tonight.",
+      "passage": "The Queen reads the message twice, then rises from her desk. She calls for her steward with quiet authority. By the time the evening banquet begins, three of the King's conspirators are in custody. She does not thank you aloud - that would be unsafe. But her nod says everything. The kingdom is safer tonight.",
       "choices": [],
       "ending": {
         "title": "The Queen's Gratitude",
@@ -191,15 +191,15 @@
       "choices": [],
       "ending": {
         "title": "The Ghost Messenger",
-        "flavor": "The best spies leave no trace — only consequences."
+        "flavor": "The best spies leave no trace - only consequences."
       }
     },
     "bittersweet-ending": {
-      "passage": "You escape the palace but the message is lost — torn from your collar in the struggle with Vareth. The Queen will not be warned in time. You limp through the lower city as bells begin to toll, not for supper. For an arrest. You wonder whose name they call.",
+      "passage": "You escape the palace but the message is lost - torn from your collar in the struggle with Vareth. The Queen will not be warned in time. You limp through the lower city as bells begin to toll, not for supper. For an arrest. You wonder whose name they call.",
       "choices": [],
       "ending": {
         "title": "The Message Lost",
-        "flavor": "To escape with your life is something — but not enough."
+        "flavor": "To escape with your life is something - but not enough."
       }
     }
   }

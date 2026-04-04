@@ -1,7 +1,7 @@
 {
   "id": "c1b4a9e2-7f3d-4c8e-b5a0-2d6f1e9c4b7a",
   "title": "Tides of Fortune",
-  "description": "Your ship has broken apart on a wild coast and the storm is not finished with you. Survival is one thing — finding a way home is another.",
+  "description": "Your ship has broken apart on a wild coast and the storm is not finished with you. Survival is one thing - finding a way home is another.",
   "author": "AI",
   "tags": ["escape", "exploration"],
   "estimatedMinutes": 10,
@@ -18,7 +18,7 @@
       ]
     },
     "wreckage": {
-      "passage": "Cargo and timber litter the beach for a hundred yards. A locked sea-chest sits wedged between two boulders, still intact. The ship's hull groans as swells batter it — the hold is accessible through a torn section, but the vessel lists badly. You have minutes before it breaks apart entirely.",
+      "passage": "Cargo and timber litter the beach for a hundred yards. A locked sea-chest sits wedged between two boulders, still intact. The ship's hull groans as swells batter it - the hold is accessible through a torn section, but the vessel lists badly. You have minutes before it breaks apart entirely.",
       "choices": [
         { "label": "check the ship's flooded hold", "nextNode": "ship-hold" },
         { "label": "crack open the locked chest", "nextNode": "chest-supplies" },
@@ -26,35 +26,35 @@
       ]
     },
     "cliff-path": {
-      "passage": "A goat path rises steeply up the cliff face, switchbacking between salt-bleached boulders. Halfway up, an iron door is set flush into the rock — old, rusted, standing slightly ajar. The hinges are oiled despite the rust on the frame. Above, through the rain, a watchtower silhouette looms against the grey sky.",
+      "passage": "A goat path rises steeply up the cliff face, switchbacking between salt-bleached boulders. Halfway up, an iron door is set flush into the rock - old, rusted, standing slightly ajar. The hinges are oiled despite the rust on the frame. Above, through the rain, a watchtower silhouette looms against the grey sky.",
       "choices": [
         { "label": "slip through the iron door", "nextNode": "sea-cave" },
         { "label": "climb on to the watchtower", "nextNode": "watchtower" }
       ]
     },
     "forest-edge": {
-      "passage": "The treeline breaks the wind immediately. Twisted pines and salt-stunted oak press close together, roots tangled over black rock. A pressed-grass path winds between them, recently used. Fifty yards in, candlelight flickers through the trunks — warm and steady, sheltered from the rain. Something has been cooking. You can smell it.",
+      "passage": "The treeline breaks the wind immediately. Twisted pines and salt-stunted oak press close together, roots tangled over black rock. A pressed-grass path winds between them, recently used. Fifty yards in, candlelight flickers through the trunks - warm and steady, sheltered from the rain. Something has been cooking. You can smell it.",
       "choices": [
         { "label": "follow the candlelit path ahead", "nextNode": "hermit-cottage" },
         { "label": "gather wood and make camp", "nextNode": "forest-camp" }
       ]
     },
     "ship-hold": {
-      "passage": "The hold is flooded to the knee. In the far corner, a young sailor — Dav, barely sixteen — is pinned beneath a fallen beam, his face white with cold and fear. He is alive. Getting him free will take time and effort, but the ship is settling fast into the gravel.",
+      "passage": "The hold is flooded to the knee. In the far corner, a young sailor - Dav, barely sixteen - is pinned beneath a fallen beam, his face white with cold and fear. He is alive. Getting him free will take time and effort, but the ship is settling fast into the gravel.",
       "choices": [
         { "label": "free him from the beam", "nextNode": "rescued-sailor" },
         { "label": "mark his location and leave", "nextNode": "coastal-road" }
       ]
     },
     "chest-supplies": {
-      "passage": "The sea-chest yields to a rock: inside are a coil of rope, a waterlogged lantern that still functions, a pouch of silver, and a brass compass. The compass needle does not point north — it trembles and locks on the cliff face to the east. Drawn there by something, or someone.",
+      "passage": "The sea-chest yields to a rock: inside are a coil of rope, a waterlogged lantern that still functions, a pouch of silver, and a brass compass. The compass needle does not point north - it trembles and locks on the cliff face to the east. Drawn there by something, or someone.",
       "choices": [
         { "label": "pocket everything and head north", "nextNode": "headland" },
         { "label": "follow where the compass points", "nextNode": "sea-cave" }
       ]
     },
     "sea-cave": {
-      "passage": "The cave smells of salt and old fires. Smugglers have been here recently — crates of wine and baled cloth fill one wall, and a map of the coast is nailed above a workbench. A rowboat, seaworthy, sits in a tidal pool at the cave's back. An oil lamp burns low on the bench.",
+      "passage": "The cave smells of salt and old fires. Smugglers have been here recently - crates of wine and baled cloth fill one wall, and a map of the coast is nailed above a workbench. A rowboat, seaworthy, sits in a tidal pool at the cave's back. An oil lamp burns low on the bench.",
       "choices": [
         { "label": "launch the rowboat into the storm", "nextNode": "rowboat-escape" },
         { "label": "search the smuggler crates", "nextNode": "smuggler-crates" },
@@ -69,7 +69,7 @@
       ]
     },
     "hermit-cottage": {
-      "passage": "The cottage is small and tight against the weather, walls thick stone, chimney drawing well. An old man opens the door before you can knock — he has been watching from the window. He says nothing, only steps aside to let you in. The fire inside is warm. He sets a kettle on.",
+      "passage": "The cottage is small and tight against the weather, walls thick stone, chimney drawing well. An old man opens the door before you can knock - he has been watching from the window. He says nothing, only steps aside to let you in. The fire inside is warm. He sets a kettle on.",
       "choices": [
         { "label": "accept his offer of shelter", "nextNode": "hermit-safe" },
         { "label": "ask about the road to town", "nextNode": "town-road-ending" }
@@ -83,21 +83,21 @@
       ]
     },
     "headland": {
-      "passage": "The headland juts into the sea like a black fist, waves exploding against its base. Up here the wind is savage and the footing uncertain. But you can see for miles — north and south along the coast — and there, northwest, the lights of a vessel moving parallel to shore. Close enough.",
+      "passage": "The headland juts into the sea like a black fist, waves exploding against its base. Up here the wind is savage and the footing uncertain. But you can see for miles - north and south along the coast - and there, northwest, the lights of a vessel moving parallel to shore. Close enough.",
       "choices": [
         { "label": "wave your lantern toward the ship", "nextNode": "signal-fire" },
         { "label": "climb down to the river mouth", "nextNode": "river-mouth" }
       ]
     },
     "river-mouth": {
-      "passage": "A black-water river meets the sea here in a chaos of standing waves and churned sand. Inland, the river is calmer, its banks lined with sedge grass and wind-bent willow. A ford crosses it twenty yards up — the stones are white and shallow. Beyond, the coastal road is just visible through the trees.",
+      "passage": "A black-water river meets the sea here in a chaos of standing waves and churned sand. Inland, the river is calmer, its banks lined with sedge grass and wind-bent willow. A ford crosses it twenty yards up - the stones are white and shallow. Beyond, the coastal road is just visible through the trees.",
       "choices": [
         { "label": "ford the river to the road", "nextNode": "coastal-road" },
         { "label": "follow the bank upstream", "nextNode": "forest-edge" }
       ]
     },
     "coastal-road": {
-      "passage": "The coastal road is a rutted dirt track running north toward a cluster of lights — a fishing village, by the look of it, no more than a mile away. The rain is easing slightly. To the east you can make out the top of the watchtower against the sky. The road is empty.",
+      "passage": "The coastal road is a rutted dirt track running north toward a cluster of lights - a fishing village, by the look of it, no more than a mile away. The rain is easing slightly. To the east you can make out the top of the watchtower against the sky. The road is empty.",
       "choices": [
         { "label": "seek the lit cottage ahead", "nextNode": "hermit-cottage" },
         { "label": "climb back toward the watchtower", "nextNode": "watchtower" }
@@ -111,7 +111,7 @@
       ]
     },
     "rescued-sailor": {
-      "passage": "With a shout and a heave you shift the beam enough for Dav to drag himself free. His leg is badly bruised but unbroken. He grips your arm as you haul him upright. The hold groans around you — the ship is going. You get out with seconds to spare, onto the dark beach.",
+      "passage": "With a shout and a heave you shift the beam enough for Dav to drag himself free. His leg is badly bruised but unbroken. He grips your arm as you haul him upright. The hold groans around you - the ship is going. You get out with seconds to spare, onto the dark beach.",
       "choices": [
         { "label": "guide him toward the signal tower", "nextNode": "watchtower" },
         { "label": "lead him through the forest path", "nextNode": "forest-edge" }
@@ -125,7 +125,7 @@
       ]
     },
     "rescued-by-ship": {
-      "passage": "The rescue boat grounds on the shingle before dawn. Two sailors help you down from the rocks, their faces grim with the cold. Below, the wreck has broken apart entirely — nothing left to salvage. You are wrapped in oilskin and handed a flask of something warm. The ship's lanterns are bright and steady.",
+      "passage": "The rescue boat grounds on the shingle before dawn. Two sailors help you down from the rocks, their faces grim with the cold. Below, the wreck has broken apart entirely - nothing left to salvage. You are wrapped in oilskin and handed a flask of something warm. The ship's lanterns are bright and steady.",
       "choices": [],
       "ending": {
         "title": "Rescued Before Dawn",
@@ -157,7 +157,7 @@
       }
     },
     "smuggler-captive": {
-      "passage": "The lamp goes out but the dark does not protect you. Two men enter from the sea side — they know every corner of this cave. They are not violent, but they are not friendly either. You spend two cold days here before they decide what to do with you.",
+      "passage": "The lamp goes out but the dark does not protect you. Two men enter from the sea side - they know every corner of this cave. They are not violent, but they are not friendly either. You spend two cold days here before they decide what to do with you.",
       "choices": [],
       "ending": {
         "title": "Guest of the Wreckers",

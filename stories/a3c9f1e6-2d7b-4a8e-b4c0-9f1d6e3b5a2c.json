@@ -1,0 +1,174 @@
+{
+  "id": "a3c9f1e6-2d7b-4a8e-b4c0-9f1d6e3b5a2c",
+  "title": "The Barrow of Mordavain",
+  "description": "The lich Mordavain has slept in his sealed barrow for four centuries and no treasure hunter who has entered has ever returned. You are carrying better information than the others. That may or may not be enough.",
+  "author": "AI",
+  "tags": ["horror", "treasure-hunt"],
+  "estimatedMinutes": 10,
+  "dateGenerated": "2026-04-11",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "You are standing at the entrance to the Barrow of Mordavain, where the earth has been shaped around a sealed stone door. The air is cold here even in summer and the silence is wrong: too complete, too deliberate. Someone has been here recently. The mud at the threshold is freshly disturbed.",
+      "choices": [
+        { "label": "push open the sealed door", "nextNode": "entry-hall" },
+        { "label": "search for another way in", "nextNode": "shaft-entry" }
+      ]
+    },
+    "shaft-entry": {
+      "passage": "A ventilation shaft cuts into the barrow mound at the north side, wide enough to pass and choked with roots. Broken handholds have been carved into the stone, not recently but not ancient either. Someone prepared this. A cold draft rises from below, smelling of dust and something sweet and wrong.",
+      "choices": [
+        { "label": "lower yourself into the shaft", "nextNode": "bone-gallery" },
+        { "label": "return to the sealed door", "nextNode": "entry-hall" }
+      ]
+    },
+    "entry-hall": {
+      "passage": "The stone door grinds open on counterweights and you step into a hall carved from living rock. Six alcoves line the walls, each holding a sarcophagus sealed with bronze bands. At the far end, a stone altar squats beneath a carving of a robed figure with too many fingers.",
+      "choices": [
+        { "label": "search the shadowed alcoves", "nextNode": "the-alcoves" },
+        { "label": "approach the stone altar", "nextNode": "the-altar" },
+        { "label": "head deeper into the dark", "nextNode": "bone-gallery" }
+      ]
+    },
+    "the-alcoves": {
+      "passage": "The sarcophagi are sealed and intact. At the base of the third one you find a leather pack left by the last person to enter this place. Inside: a coil of good rope, a full lantern, and a folded note that reads only: DO NOT WAKE HIM. The handwriting is shaking.",
+      "choices": [
+        { "label": "take the supplies and go deeper", "nextNode": "bone-gallery" },
+        { "label": "check the altar instead", "nextNode": "the-altar" }
+      ]
+    },
+    "the-altar": {
+      "passage": "The altar is carved from a single black stone. Six unlit candles stand in holders shaped like grasping hands. At the center, a small iron key rests in a shallow depression, as if placed there deliberately. The carving above watches with its too-many fingers and you feel, absurdly, that it is judging your intent.",
+      "choices": [
+        { "label": "light the black candles", "nextNode": "candle-lit" },
+        { "label": "take the iron key", "nextNode": "bone-gallery" }
+      ]
+    },
+    "candle-lit": {
+      "passage": "The candles light themselves. One moment dark, the next burning with cold blue flame. The temperature drops sharply. A translucent figure condenses in the corner, ragged and silent. You understand without being told: this is what remains of the last person to enter the barrow. It gestures toward a passage hidden in the far wall.",
+      "choices": [
+        { "label": "follow the ghost's direction", "nextNode": "inner-sanctum" },
+        { "label": "press on through the gallery", "nextNode": "bone-gallery" }
+      ]
+    },
+    "bone-gallery": {
+      "passage": "The gallery is long and narrow, its vaulted ceiling hung with calcified roots that have worked through the stone. A carpet of bones covers the floor, not arranged in any burial pattern but scattered, as if they walked here and then stopped. Passages branch left and right. Ahead stands an iron door.",
+      "choices": [
+        { "label": "take the left passage", "nextNode": "left-passage" },
+        { "label": "try the right passage", "nextNode": "right-passage" },
+        { "label": "open the iron door ahead", "nextNode": "inner-sanctum" }
+      ]
+    },
+    "left-passage": {
+      "passage": "The left passage curves and narrows until you turn sideways to fit. It opens into a small chamber carved from bedrock, not part of the original barrow. At its center, a crystal the size of a fist pulses with slow violet light. The light feels wrong. Something of Mordavain is contained inside it.",
+      "choices": [
+        { "label": "enter the crystal chamber", "nextNode": "crystal-room" },
+        { "label": "turn back to the gallery", "nextNode": "bone-gallery" }
+      ]
+    },
+    "crystal-room": {
+      "passage": "The crystal hangs above a black stone plinth with no visible support. The violet pulse quickens as you approach, as if aware. Whatever Mordavain stored here, it is still active. The warmth you expect from something so luminous is absent. It radiates cold and a low, subsonic pressure against your chest.",
+      "choices": [
+        { "label": "smash the pulsing crystal", "nextNode": "lich-destroyed" },
+        { "label": "carefully pocket the crystal", "nextNode": "inner-sanctum" }
+      ]
+    },
+    "right-passage": {
+      "passage": "The right passage is wider and more finished, its walls cut smooth. Thirty feet in, the ceiling has collapsed, filling the floor with rubble. You can see faint light beyond the blockage and feel moving air. There is a space on the other side. The gap is low enough to require crawling.",
+      "choices": [
+        { "label": "push through the collapse", "nextNode": "collapsed-section" },
+        { "label": "turn back to the gallery", "nextNode": "bone-gallery" }
+      ]
+    },
+    "collapsed-section": {
+      "passage": "You crawl through the gap with rubble pressing your back. On the other side, you drop into a chamber at the barrow's rear. A single shaft of pale light falls from a crack in the ceiling. A door ahead stands open. The smell of cold decay beyond it is enough to stop your breath.",
+      "choices": [
+        { "label": "squeeze through to the sanctum", "nextNode": "inner-sanctum" },
+        { "label": "retreat and leave the crypt", "nextNode": "empty-escape" }
+      ]
+    },
+    "inner-sanctum": {
+      "passage": "The sanctum is domed, its ceiling painted with constellations in silver pigment that still gleams after centuries. At the far end on a carved throne sits a figure wrapped in decayed finery: Mordavain the Lich, motionless, his skull-face bowed over a closed leather grimoire. A hoard of coins and artifacts covers the floor before him.",
+      "choices": [
+        { "label": "approach the sleeping figure", "nextNode": "mordavain-dormant" },
+        { "label": "grab from the hoard and run", "nextNode": "great-escape" }
+      ]
+    },
+    "mordavain-dormant": {
+      "passage": "He is not asleep in any natural sense. His robed form does not breathe. The empty eye sockets are aimed at the grimoire in his lap with an attention that has not faded in centuries. Bone-white candles burn without wax along the walls. He is dormant. He is not gone.",
+      "choices": [
+        { "label": "steal the grimoire quietly", "nextNode": "steal-quietly" },
+        { "label": "speak to the sleeping lich", "nextNode": "awaken-him" }
+      ]
+    },
+    "steal-quietly": {
+      "passage": "You reach for the grimoire slowly. Your fingers close around the spine. Mordavain does not move. The book is cold and heavier than it should be. You take a step back. The coins in the hoard do not shift. Another step. The bone-white candles gutter slightly, as if something exhaled.",
+      "choices": [
+        { "label": "take it and run for the door", "nextNode": "great-escape" },
+        { "label": "linger for more treasure", "nextNode": "lich-rises" }
+      ]
+    },
+    "awaken-him": {
+      "passage": "You speak his name. The effect is immediate: the empty eye sockets fill with violet light, cold and slow at first, then burning. The robed form straightens in the throne. The grimoire opens in his lap without a hand touching it. A voice like stones grinding says: you have one moment to explain yourself.",
+      "choices": [
+        { "label": "offer to trade for safe passage", "nextNode": "bargain-with-him" },
+        { "label": "draw your weapon and attack", "nextNode": "lich-rises" }
+      ]
+    },
+    "bargain-with-him": {
+      "passage": "Mordavain is ancient and beyond simple anger. He tells you he has had visitors before and each of them wanted the same thing. He can feel the shape of your desire. He offers a counter: he will let you leave alive, with one item of your choosing, if you bring him something in return.",
+      "choices": [
+        { "label": "accept his terms and leave", "nextNode": "bargain-struck" },
+        { "label": "refuse his counter-offer", "nextNode": "servant-ending" }
+      ]
+    },
+    "lich-destroyed": {
+      "passage": "The crystal shatters with a sound that fills the barrow, then silence. Deep below, you hear a long diminishing wail like wind through a closing door. The barrow shudders once and settles. When you climb out into ordinary sunlight, the cold is gone. Something has ended that has been wrong for a very long time.",
+      "choices": [],
+      "ending": {
+        "title": "The Long Unmaking",
+        "flavor": "Some victories do not feel like victories until the air warms again."
+      }
+    },
+    "great-escape": {
+      "passage": "You are twenty feet from the barrow entrance when you hear the slow grinding of the stone throne rotating. You do not look back. You run. The grimoire in your pack is heavier than any book should be, but it is yours, and you clear the mound at a sprint and do not stop.",
+      "choices": [],
+      "ending": {
+        "title": "Out Before Dawn",
+        "flavor": "The best tomb raiders are not brave. They are fast."
+      }
+    },
+    "bargain-struck": {
+      "passage": "You leave with a gold amulet of your choosing and the distinct sense that you have agreed to something without fully knowing what. Mordavain was precise about the terms and vague about his request in return. Outside, the sun is normal. You wonder how long you have before he calls it in.",
+      "choices": [],
+      "ending": {
+        "title": "A Deal Below",
+        "flavor": "He got what he wanted. You got out. For now, that will have to be enough."
+      }
+    },
+    "empty-escape": {
+      "passage": "You climb back out into clean air with nothing you did not bring. The barrow stands sealed and silent behind you. You went in for a legend and came out with your life, which is not nothing. Several people before you cannot say the same. You walk east without looking back.",
+      "choices": [],
+      "ending": {
+        "title": "Wiser Than Yesterday",
+        "flavor": "Coming back empty-handed is only failure if you forget what you carried out."
+      }
+    },
+    "lich-rises": {
+      "passage": "The violet light in his eye sockets becomes a steady blaze. The bones on the gallery floor rattle and begin to stand. Mordavain has not spoken in centuries and his first words fill every stone of the barrow. They are not words you can understand. They are not meant for the living.",
+      "choices": [],
+      "ending": {
+        "title": "The Waking Hour",
+        "flavor": "You had one job. You did the other one."
+      }
+    },
+    "servant-ending": {
+      "passage": "You refuse. The violet gaze holds you in place as cleanly as a pin holds a moth. Mordavain says: then you will stay. He does not raise his voice. He does not need to. The barrow door seals itself with a sound like a final sentence, and the bone-white candles burn on.",
+      "choices": [],
+      "ending": {
+        "title": "Indefinite Employment",
+        "flavor": "He is very patient. He has been waiting four hundred years. He can wait for you too."
+      }
+    }
+  }
+}

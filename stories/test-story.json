@@ -1,0 +1,35 @@
+{
+  "id": "test-story",
+  "title": "Test Story",
+  "description": "A minimal test story with one passage and two endings.",
+  "author": "dev",
+  "tags": ["test"],
+  "estimatedMinutes": 1,
+  "dateGenerated": "2026-04-03",
+  "startNode": "start",
+  "nodes": {
+    "start": {
+      "passage": "fox.",
+      "choices": [
+        { "label": "path one", "nextNode": "ending-one" },
+        { "label": "path two", "nextNode": "ending-two" }
+      ]
+    },
+    "ending-one": {
+      "passage": "ran.",
+      "choices": [],
+      "ending": {
+        "title": "The Fox Escaped",
+        "flavor": "The fox disappeared into the forest and was never seen again."
+      }
+    },
+    "ending-two": {
+      "passage": "Stayed.",
+      "choices": [],
+      "ending": {
+        "title": "The Fox Remained",
+        "flavor": "The fox curled up beside the lazy dog and fell asleep."
+      }
+    }
+  }
+}

@@ -29,7 +29,7 @@
   {
     "id": "c1b4a9e2-7f3d-4c8e-b5a0-2d6f1e9c4b7a",
     "title": "Tides of Fortune",
-    "description": "Your ship has broken apart on a wild coast and the storm is not finished with you. Survival is one thing — finding a way home is another.",
+    "description": "Your ship has broken apart on a wild coast and the storm is not finished with you. Survival is one thing - finding a way home is another.",
     "tags": ["escape", "exploration"],
     "estimatedMinutes": 10,
     "dateGenerated": "2026-04-06",
@@ -52,5 +52,49 @@
     "estimatedMinutes": 10,
     "dateGenerated": "2026-04-08",
     "dayOfYear": "04-08"
+  },
+  {
+    "id": "f2c8a1e4-6b3d-4f9e-a7c2-1d5e8b4f0c9a",
+    "title": "The Thornwick Exchange",
+    "description": "A locked box arrives on your doorstep the same morning you owe a guild debt by nightfall. In Thornwick Market, every buyer has their price - but not every seller knows theirs.",
+    "tags": ["slice-of-life", "negotiation"],
+    "estimatedMinutes": 10,
+    "dateGenerated": "2026-04-09",
+    "dayOfYear": "04-09"
+  },
+  {
+    "id": "e1a4f7c2-9b3d-4e8a-b5f0-2c6d1e9a4b7f",
+    "title": "The Last Lantern",
+    "description": "A storm drives you through the door of a roadside inn already heavy with tension. Sergeant Vorn and his soldiers are hunting someone, and that someone just pressed a note into your hand.",
+    "tags": ["conflict", "escape"],
+    "estimatedMinutes": 10,
+    "dateGenerated": "2026-04-10",
+    "dayOfYear": "04-10"
+  },
+  {
+    "id": "a3c9f1e6-2d7b-4a8e-b4c0-9f1d6e3b5a2c",
+    "title": "The Barrow of Mordavain",
+    "description": "The lich Mordavain has slept in his sealed barrow for four centuries and no treasure hunter who has entered has ever returned. You are carrying better information than the others. That may or may not be enough.",
+    "tags": ["horror", "treasure-hunt"],
+    "estimatedMinutes": 10,
+    "dateGenerated": "2026-04-11",
+    "dayOfYear": "04-11"
+  },
+  {
+    "id": "b5e2a7f4-1c9d-4b8e-a3f6-8d2e5c1b4a9f",
+    "title": "Beneath Bloodstone",
+    "description": "A cell beneath a dark temple. The chanting above grows louder and midnight is close. You have one chance to escape before the ritual begins.",
+    "tags": ["horror", "escape"],
+    "estimatedMinutes": 10,
+    "dateGenerated": "2026-04-12",
+    "dayOfYear": "04-12"
+  },
+  {
+    "id": "test-story",
+    "title": "Test Story",
+    "description": "A minimal test story with one passage and two endings.",
+    "tags": ["test"],
+    "estimatedMinutes": 1,
+    "dateGenerated": "2026-04-03"
   }
 ]
