@@ -39,7 +39,7 @@
     "id": "e7d2b4a1-3f9c-4a5e-8c1d-6b0e2f8a4d9c",
     "title": "The Hollow Bell",
     "description": "The old chapel bell rings at midnight though no one pulls the rope. The village priest has vanished and the townsfolk will not go near the graveyard after dark.",
-    "tags": ["mystery", "horror"],
+    "tags": ["mystery", "eerie"],
     "estimatedMinutes": 10,
     "dateGenerated": "2026-04-07",
     "dayOfYear": "04-07"
@@ -75,7 +75,7 @@
     "id": "a3c9f1e6-2d7b-4a8e-b4c0-9f1d6e3b5a2c",
     "title": "The Barrow of Mordavain",
     "description": "The lich Mordavain has slept in his sealed barrow for four centuries and no treasure hunter who has entered has ever returned. You are carrying better information than the others. That may or may not be enough.",
-    "tags": ["horror", "treasure-hunt"],
+    "tags": ["eerie", "treasure-hunt"],
     "estimatedMinutes": 10,
     "dateGenerated": "2026-04-11",
     "dayOfYear": "04-11"
@@ -84,7 +84,7 @@
     "id": "b5e2a7f4-1c9d-4b8e-a3f6-8d2e5c1b4a9f",
     "title": "Beneath Bloodstone",
     "description": "A cell beneath a dark temple. The chanting above grows louder and midnight is close. You have one chance to escape before the ritual begins.",
-    "tags": ["horror", "escape"],
+    "tags": ["eerie", "escape"],
     "estimatedMinutes": 10,
     "dateGenerated": "2026-04-12",
     "dayOfYear": "04-12"
@@ -156,7 +156,7 @@
     "id": "f9a2c4e8-7b1d-4f3a-b8e6-5d0c9a2f7e1b",
     "title": "The Pale Garden",
     "description": "A vast fungal cavern pulses with bioluminescent light beneath the Greymoor Hills. The herbalist who entered three days ago has not returned, and the glow is spreading to the surface.",
-    "tags": ["exploration", "horror"],
+    "tags": ["exploration", "eerie"],
     "estimatedMinutes": 10,
     "dateGenerated": "2026-04-20",
     "dayOfYear": "04-20"
