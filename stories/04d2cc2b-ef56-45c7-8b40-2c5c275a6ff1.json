@@ -54,7 +54,7 @@
       ]
     },
     "abbot-chamber": {
-      "passage": "The abbot sits at his desk with his head in his hands. He does not look up when you enter. A letter lies open before him, stamped with the raiders' wolf seal. They want the Ember Heart - a relic kept in the crypt that powers the ward-seal. The abbot admits he considered giving it to them. He went to the crypt to retrieve it and accidentally cracked the seal.",
+      "passage": "The abbot sits at his desk with his head in his hands. He does not look up when you enter. A letter lies open before him, stamped with the raiders' wolf seal. They want the Ember Heart - a relic kept in the crypt that powers the ward-seal. The abbot says he wants to give them what they ask for. He tells you he tried to pull the relic from the crypt and cracked the seal in the process.",
       "choices": [
         { "label": "go to the crypt", "nextNode": "crypt-entrance", "hint": "The stairway down is narrow and the torchlight does not reach the bottom." },
         { "label": "offer the relic", "nextNode": "parley", "hint": "You raise your hand and her eyes lock onto yours across the distance." },
@@ -106,7 +106,7 @@
       ]
     },
     "study-crack": {
-      "passage": "The crack in the ward-seal was not made by accident. You can see tool marks where someone drove a chisel into the stone. The abbot did not stumble here. He tried to break the seal on purpose, then lost his nerve halfway through. The damage is real but not total. A strong will could force the crack shut, though it would cost something. Magic always does.",
+      "passage": "The crack in the ward-seal is no accident. You can see tool marks where someone drove a chisel into the stone with purpose and stopped halfway through. The marks are fresh. The damage is real but not total. A strong will could force the crack shut, though it would cost something. Magic always does.",
       "choices": [
         { "label": "repair the seal", "nextNode": "repair-seal", "hint": "You kneel on the cold stone and press your hands to the cracked line." },
         { "label": "take the relic", "nextNode": "take-relic", "hint": "The crystal is warm in your palm, almost alive." }

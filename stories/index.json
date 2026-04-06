@@ -261,6 +261,42 @@
     "dayOfYear": "05-01"
   },
   {
+    "id": "b3d7e2a4-8f1c-4b9e-a5d6-2c0f9e3b7a1d",
+    "title": "The Warden's Maze",
+    "description": "An enchanted hedge maze guards a tower where your companion is held. Dawn resets the paths and seals the way forever.",
+    "tags": ["stealth", "survival"],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-02",
+    "dayOfYear": "05-02"
+  },
+  {
+    "id": "b7e3a1d4-9f52-4c8b-a6e1-3d7f08b2c5a9",
+    "title": "The Drowned Beacon",
+    "description": "A lighthouse on the edge of the world has gone dark, and ships are breaking on the rocks. You climb the cliff to relight the flame, but something already lives in the tower.",
+    "tags": ["mystery", "survival"],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-03",
+    "dayOfYear": "05-03"
+  },
+  {
+    "id": "7f3a1c2e-84b9-4d05-a6f7-29e1b0c83d54",
+    "title": "The Court of Whispers",
+    "description": "A foreign diplomat arrives dead at the royal court and every noble in the hall had reason to want him gone. You are the only one who saw what really happened.",
+    "tags": ["intrigue", "diplomacy"],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-04",
+    "dayOfYear": "05-04"
+  },
+  {
+    "id": "c4b8e2f1-7a3d-4b5c-9e6f-1a2d8b3c5e7f",
+    "title": "The Ironcrag Forge",
+    "description": "A legendary smith keeps her mountain forge sealed against strangers. Tonight she is taking visitors, but the price she names is not gold.",
+    "tags": ["crafting", "trickery"],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-05",
+    "dayOfYear": "05-05"
+  },
+  {
     "id": "test-story",
     "title": "Test Story",
     "description": "A minimal test story with one passage and two endings.",

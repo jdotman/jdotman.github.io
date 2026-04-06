@@ -10,7 +10,7 @@
   "startNode": "intro",
   "nodes": {
     "intro": {
-      "passage": "You arrive in Thornwell at dusk. The village hunches in the shadow of a chapel on the hill, its bell tower black against the fading sky. No one is outside. Shutters are bolted. The innkeeper stands in her doorway, arms crossed, and nods toward the hill. 'It starts at midnight,' she says.",
+      "passage": "Thornwell appears at dusk, a village crouching in the shadow of a chapel on the hill. The bell tower stands black against the fading sky. No one is outside. Shutters are bolted. The innkeeper waits in her doorway, arms crossed, and nods toward the hill. 'It starts at midnight,' she says.",
       "choices": [
         { "label": "visit the chapel", "nextNode": "chapel-exterior", "hint": "The hill path is steep and the shadows are growing long." },
         { "label": "speak with the innkeeper", "nextNode": "tavern", "hint": "She looks like she knows more than she is saying." },
@@ -38,14 +38,14 @@
       "choices": [
         { "label": "dig the grave", "nextNode": "fresh-grave", "hint": "The shovel feels like it has been used very recently." },
         { "label": "listen at the earth", "nextNode": "underground-voice", "hint": "You press your ear close. The sound is almost words." },
-        { "label": "enter the side door", "nextNode": "chapel-interior", "hint": "A low door on the chapel wall stands slightly open." }
+        { "label": "slip through the side door", "nextNode": "chapel-interior", "hint": "A low door on the chapel wall stands slightly open." }
       ]
     },
     "chapel-interior": {
-      "passage": "The chapel is cold and still. Pews are overturned. Candle stubs litter the floor in a wide circle, with symbols scratched into the stone between them. One candle has been knocked aside, breaking the pattern. A torn prayer book lies near the altar. The sacristy door at the back stands open, breathing cold earth-smell.",
+      "passage": "The chapel is chill and still. Pews are overturned. Candle stubs litter the floor in a wide circle, with symbols scratched between them. One candle has been knocked aside, breaking the pattern. A torn prayer book lies near the altar. The back room door at the rear stands open, breathing damp earth-smell.",
       "choices": [
         { "label": "study the candle pattern", "nextNode": "candle-circle", "hint": "The symbols between the candles look old and scratched with great care." },
-        { "label": "enter the sacristy", "nextNode": "sacristy", "hint": "Cold air drifts through the open door like a breath." },
+        { "label": "enter the back room", "nextNode": "sacristy", "hint": "Cold air drifts through the open door like a breath." },
         { "label": "read the prayer book", "nextNode": "prayer-book", "hint": "The pages are torn but the handwriting is still readable." }
       ]
     },
@@ -71,7 +71,7 @@
       ]
     },
     "midnight-vigil": {
-      "passage": "You wait by the fire as the hours crawl past. At precisely midnight the bell rings - a deep note that shakes dust from the rafters. Twelve strikes. Then silence. Through the window, a pale blue light drifts among the gravestones on the hill. Maren grips the bar edge and will not look.",
+      "passage": "The hours crawl past beside the fire. At precisely midnight the bell rings - a deep note that shakes dust from the rafters. Twelve strikes. Then stillness. Through the window, a pale blue glow drifts among the gravestones on the hill. Maren grips the bar edge and refuses to look.",
       "choices": [
         { "label": "rush to the graveyard", "nextNode": "graveyard-midnight", "hint": "The blue light is already fading between the old gravestones on the hill." },
         { "label": "head for the chapel", "nextNode": "chapel-interior", "hint": "The chapel windows glow faintly in the distance, though no one is inside." }
@@ -80,8 +80,8 @@
     "graveyard-midnight": {
       "passage": "The graveyard is transformed. A cold blue light hovers over the unmarked grave, pulsing like a heartbeat. The chapel windows glow faintly from within though no one is inside. You hear the chanting clearly now - a man's voice, repeating the same phrase in a language you almost recognize. The ground is warm underfoot.",
       "choices": [
-        { "label": "follow the light", "nextNode": "underground-voice", "hint": "The pulse draws you forward like a hand on your chest." },
-        { "label": "dig the grave", "nextNode": "fresh-grave", "hint": "The shovel from the fence is still where you saw it." }
+        { "label": "follow the glow", "nextNode": "underground-voice", "hint": "The pulse draws you forward like a hand on your chest." },
+        { "label": "unearth the coffin", "nextNode": "fresh-grave", "hint": "The shovel from the fence is still where you saw it." }
       ]
     },
     "fresh-grave": {
@@ -102,14 +102,14 @@
       "passage": "The pattern is a binding circle - you recognize it from old texts. Someone who knew the rites drew this carefully, precisely. And then someone broke it. One candle is knocked aside, wax scattered across the floor. Whatever was bound here is no longer contained. The break was made from inside the circle.",
       "choices": [
         { "label": "repair the circle", "nextNode": "confrontation", "hint": "You gather the scattered wax and carefully straighten the fallen candle." },
-        { "label": "follow the wax trail", "nextNode": "sacristy", "hint": "A thin line of spilled wax leads toward the back door." }
+        { "label": "trace the wax trail", "nextNode": "sacristy", "hint": "A thin line of spilled wax leads toward the back door." }
       ]
     },
     "sacristy": {
-      "passage": "The sacristy is narrow and dusty - vestments hang from hooks, communion wine stands corked on a shelf. A trapdoor in the floor stands open. Stone stairs descend into darkness below. Cold air rises, carrying the smell of turned earth and something older. The chanting is louder here. It comes from the crypt.",
+      "passage": "The back room is narrow and dusty - robes hang from hooks, communion wine stands corked on a shelf. A trapdoor in the floor stands open. Stone stairs descend into the depths. Cold air rises, carrying the smell of turned earth and something older. The chanting is louder here. It comes from the crypt.",
       "choices": [
         { "label": "descend the stairs", "nextNode": "crypt", "hint": "The stone steps are worn smooth by centuries of feet." },
-        { "label": "follow the chanting deeper", "nextNode": "mirror-chamber", "hint": "The voice grows clearer with every step you take into the dark." }
+        { "label": "pursue the chanting", "nextNode": "mirror-chamber", "hint": "The voice grows clearer with every step you take into the dark." }
       ]
     },
     "prayer-book": {
@@ -120,24 +120,24 @@
       ]
     },
     "crypt": {
-      "passage": "The stairs wind down into cold stone. The crypt is older than the chapel above - the walls are rough-hewn, the arches low. Alcoves hold ancient bones wrapped in rotting cloth. The chanting echoes off the walls, directionless. The passage ahead splits: one branch is clear, the other choked with fallen stone and dust.",
+      "passage": "The stairs wind down into bare rock. The crypt is older than the chapel above - the walls are rough-hewn, the arches low. Alcoves hold ancient bones wrapped in rotting cloth. The chanting echoes off the walls, directionless. The passage ahead splits: one branch is clear, the other choked with fallen rubble and dust.",
       "choices": [
-        { "label": "press deeper into the dark", "nextNode": "mirror-chamber", "hint": "The clear passage slopes downward into the dark. The air grows colder." },
+        { "label": "press deeper", "nextNode": "mirror-chamber", "hint": "The clear passage slopes downward into the dark. The air grows colder." },
         { "label": "turn back through the rubble", "nextNode": "trapped-below", "hint": "The narrow gap between fallen stones looks just wide enough." }
       ]
     },
     "mirror-chamber": {
-      "passage": "The passage opens into a vaulted chamber. In the center, the silver mirror stands upright on a stone pedestal, unsupported, its surface rippling like water. Inside the glass a figure stands - Father Aldric, palms pressed against the other side, mouth moving without sound. He sees you. His eyes widen. He mouths one word: help.",
+      "passage": "The passage opens into a vaulted chamber. In the center, the silver mirror stands upright on a rock pedestal, unsupported, its surface rippling like water. Inside the glass a figure stands - Father Aldric, palms pressed against the other side, mouth moving without sound. He sees you. His eyes widen. He mouths one word: help.",
       "choices": [
         { "label": "speak to the figure", "nextNode": "confrontation", "hint": "Aldric's mouth moves but no sound passes through the glass." },
         { "label": "shatter the mirror", "nextNode": "priest-saved", "hint": "Your fist tightens at your side. The glass ripples at your approach." }
       ]
     },
     "confrontation": {
-      "passage": "The spirit appears between you and the door - a column of pale light shaped like a man but wrong in every way. It speaks without sound. The words arrive in your skull: cold, ancient, hungry. It wants to stay. It has waited centuries beneath this ground and it will not go back willingly.",
+      "passage": "The spirit appears between you and the door - a column of pale light shaped like a man but wrong in every way. It speaks without sound. The words arrive in your skull: bitter, ancient, hungry. It wants to stay. It has waited centuries beneath this ground and it will not go back willingly.",
       "choices": [
         { "label": "complete the prayer", "nextNode": "spirit-freed", "hint": "The words from the book rise in your mind unbidden." },
-        { "label": "resist the spirit's pull", "nextNode": "possessed", "hint": "Cold fingers press against the inside of your skull. You feel it pushing." }
+        { "label": "resist the spirit", "nextNode": "possessed", "hint": "Cold fingers press against the inside of your skull. You feel it pushing." }
       ]
     },
     "bell-mechanism": {
@@ -148,7 +148,7 @@
       ]
     },
     "spirit-freed": {
-      "passage": "You speak the binding prayer from the book. The spirit shrieks without sound, folding in on itself like burning paper. The pale light contracts, dims, and sinks into the stone floor. The crypt falls silent. The air warms. Above, the bell tower stands quiet for the first time in three days.",
+      "passage": "You speak the binding prayer from the book. The spirit shrieks without sound, folding in on itself like burning paper. The pale glow contracts, dims, and sinks into the granite floor. The crypt falls silent. The air warms. Above, the bell tower stands quiet for the first time in three days.",
       "choices": [],
       "ending": {
         "title": "Laid to Rest",
@@ -166,7 +166,7 @@
       }
     },
     "bell-silenced": {
-      "passage": "You kick the rusted bracket until it gives. The bell tips, hangs for one impossible second, and then falls. It crashes through the tower floor, through the chapel ceiling, and buries itself in the stone below with a sound like the end of the world. The ringing stops. But deep underground something stirs.",
+      "passage": "You kick the rusted bracket until it gives. The bell tips, hangs for one impossible second, and then falls. It crashes through the tower floor, through the chapel ceiling, and buries itself in the rubble below with a sound like the end of the world. The ringing stops. But deep underground something stirs.",
       "choices": [],
       "ending": {
         "title": "The Silent Tower",
@@ -184,7 +184,7 @@
       }
     },
     "possessed": {
-      "passage": "You try to resist but the spirit is old and strong. It pours into you like cold water filling a cup. Your hands are no longer your own. Your mouth opens and the chanting begins - your voice now, speaking its name. You climb the stairs into the night. The bell rings.",
+      "passage": "Resistance lasts only a moment - the spirit is old and strong. It pours into you like icy water filling a cup. Your hands are no longer your own. Your mouth opens and the chanting begins - your voice now, speaking its name. You climb the stairs into the night. The bell rings.",
       "choices": [],
       "ending": {
         "title": "The New Bell-Ringer",
