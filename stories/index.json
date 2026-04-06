@@ -234,6 +234,15 @@
     "dayOfYear": "04-28"
   },
   {
+    "id": "e2b4f8a1-9c3d-4e7b-a5f6-1d0c8e2b4a9f",
+    "title": "The Tinker's Gambit",
+    "description": "Someone in the merchant caravan is selling forged goods. Dawn brings the city inspectors. You have one night to find the forger before the whole caravan pays the price.",
+    "tags": ["trickery", "crafting"],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-29",
+    "dayOfYear": "04-29"
+  },
+  {
     "id": "test-story",
     "title": "Test Story",
     "description": "A minimal test story with one passage and two endings.",
