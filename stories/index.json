@@ -216,6 +216,24 @@
     "dayOfYear": "04-26"
   },
   {
+    "id": "8b795bac-1300-4a58-a8d4-f455aacf2cd6",
+    "title": "The Velvet Ledger",
+    "description": "A stolen map leads you into the underground market beneath the city of Ashwick. Every dealer has a price and every shadow hides a knife.",
+    "tags": ["stealth", "negotiation"],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-27",
+    "dayOfYear": "04-27"
+  },
+  {
+    "id": "7a3e9c1f-5b2d-4f8a-b6e0-8d4c2a1f7e3b",
+    "title": "The River of Knives",
+    "description": "A dying captain, a stolen crown, and three strangers on a river barge drifting toward trouble. Trust is a luxury you cannot afford.",
+    "tags": ["voyage", "intrigue"],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-28",
+    "dayOfYear": "04-28"
+  },
+  {
     "id": "test-story",
     "title": "Test Story",
     "description": "A minimal test story with one passage and two endings.",
