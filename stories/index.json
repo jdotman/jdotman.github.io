@@ -207,6 +207,15 @@
     "dayOfYear": "04-25"
   },
   {
+    "id": "53ea2e58-1950-4aa2-8359-2d5af7eb900e",
+    "title": "The Ashenmoor Pit",
+    "description": "A rigged arena tournament and a debt you did not choose. Three fights stand between you and freedom, but the pit master has plans of his own.",
+    "tags": ["competition", "survival"],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-26",
+    "dayOfYear": "04-26"
+  },
+  {
     "id": "test-story",
     "title": "Test Story",
     "description": "A minimal test story with one passage and two endings.",
