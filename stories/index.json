@@ -243,6 +243,24 @@
     "dayOfYear": "04-29"
   },
   {
+    "id": "04d2cc2b-ef56-45c7-8b40-2c5c275a6ff1",
+    "title": "The Ember Vigil",
+    "description": "Raiders surround the mountain abbey and the sacred flame is dying. You must choose what to save - the people, the relic, or the fire itself.",
+    "tags": ["siege", "sacrifice"],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-30",
+    "dayOfYear": "04-30"
+  },
+  {
+    "id": "91618216-cab5-4896-9382-04910a40cbb6",
+    "title": "The Glass Oasis",
+    "description": "A desert oasis has turned to glass overnight and the caravans cannot pass. Something ancient stirs beneath the sand and only a fool would go looking for it.",
+    "tags": ["exploration", "eerie"],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-01",
+    "dayOfYear": "05-01"
+  },
+  {
     "id": "test-story",
     "title": "Test Story",
     "description": "A minimal test story with one passage and two endings.",

@@ -1,0 +1,205 @@
+{
+  "id": "04d2cc2b-ef56-45c7-8b40-2c5c275a6ff1",
+  "title": "The Ember Vigil",
+  "description": "Raiders surround the mountain abbey and the sacred flame is dying. You must choose what to save - the people, the relic, or the fire itself.",
+  "author": "AI",
+  "tags": ["siege", "sacrifice"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-30",
+  "dayOfYear": "04-30",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "You stand on the walls of Ashveil Abbey as dusk bleeds across the sky. Below, a warband of iron-helmed raiders rings the base of the mountain. Their torches dot the tree line like fallen stars. Behind you, the abbey's sacred flame sputters in its stone bowl. Brother Aldric grabs your arm. His face is pale. The flame has never been this low.",
+      "choices": [
+        { "label": "check the flame", "nextNode": "flame-chamber", "hint": "The heat on your face fades as you step closer to the bowl." },
+        { "label": "speak with Aldric", "nextNode": "aldric-talk", "hint": "His grip on your arm tightens as you turn toward him." },
+        { "label": "scout the raiders", "nextNode": "wall-scout", "hint": "You press against the cold stone and peer over the edge." }
+      ]
+    },
+    "flame-chamber": {
+      "passage": "The flame chamber sits at the heart of the abbey. A low fire burns in a wide stone bowl carved with ancient runes. The monks say the flame has burned without fuel for six hundred years. Now it barely reaches your knee. Sister Maren kneels beside it, feeding it scraps of parchment. She looks up with red-rimmed eyes. The runes on the bowl are cracking.",
+      "choices": [
+        { "label": "examine the runes", "nextNode": "cracked-runes", "hint": "You trace the carved lines with your fingertip and feel warmth pulse beneath." },
+        { "label": "ask Maren what happened", "nextNode": "maren-story", "hint": "She sets down the parchment and folds her hands in her lap." }
+      ]
+    },
+    "aldric-talk": {
+      "passage": "Brother Aldric pulls you into the covered walkway. His voice is hoarse. The raiders arrived at noon, he says, but the flame started dying at dawn. He believes someone inside the abbey broke the ward-seal in the crypt below. Without it, the flame starves. The raiders may not even need to breach the walls. If the flame dies, the abbey's stone wards fail and the gates will open on their own.",
+      "choices": [
+        { "label": "go to the crypt", "nextNode": "crypt-entrance", "hint": "The stairway down is narrow and the torchlight does not reach the bottom." },
+        { "label": "check the flame", "nextNode": "flame-chamber", "hint": "The heat on your face fades as you step closer to the bowl." },
+        { "label": "confront the abbot", "nextNode": "abbot-chamber", "hint": "The abbot's door is shut but a thin line of light leaks beneath it." }
+      ]
+    },
+    "wall-scout": {
+      "passage": "You lean over the parapet. The raiders number perhaps forty. They wear mismatched armor and carry axes and short bows. No siege engines. They are waiting, not attacking. A tall woman in a wolf-fur cloak stands apart from the rest. She stares up at the abbey as if counting windows. A white flag hangs from her spear. She wants to talk.",
+      "choices": [
+        { "label": "signal the woman", "nextNode": "parley", "hint": "You raise your hand and her eyes lock onto yours across the distance." },
+        { "label": "report to the abbot", "nextNode": "abbot-chamber", "hint": "The abbot's door is shut but a thin line of light leaks beneath it." }
+      ]
+    },
+    "cracked-runes": {
+      "passage": "The runes are old beyond reckoning. Most still hold their shape, but three near the rim have split clean through. The cracks glow faintly, not with fire but with something cold and blue. Sister Maren says the runes are fed by the ward-seal in the crypt. If the seal is broken, the runes crack and the flame follows. She has never seen them this bad.",
+      "choices": [
+        { "label": "go to the crypt", "nextNode": "crypt-entrance", "hint": "The stairway down is narrow and the torchlight does not reach the bottom." },
+        { "label": "try to mend the runes", "nextNode": "mend-attempt", "hint": "You press both hands flat against the stone and push your will into it." }
+      ]
+    },
+    "maren-story": {
+      "passage": "Sister Maren speaks quietly. The abbot locked himself in his chamber this morning and has not come out. Before that, she heard him arguing with someone in the crypt. She does not know who. The flame began to fade an hour later. She has kept it alive with parchment and prayer, but it is not enough. Something is wrong below the abbey.",
+      "choices": [
+        { "label": "go to the crypt", "nextNode": "crypt-entrance", "hint": "The stairway down is narrow and the torchlight does not reach the bottom." },
+        { "label": "confront the abbot", "nextNode": "abbot-chamber", "hint": "The abbot's door is shut but a thin line of light leaks beneath it." }
+      ]
+    },
+    "abbot-chamber": {
+      "passage": "The abbot sits at his desk with his head in his hands. He does not look up when you enter. A letter lies open before him, stamped with the raiders' wolf seal. They want the Ember Heart - a relic kept in the crypt that powers the ward-seal. The abbot admits he considered giving it to them. He went to the crypt to retrieve it and accidentally cracked the seal.",
+      "choices": [
+        { "label": "go to the crypt", "nextNode": "crypt-entrance", "hint": "The stairway down is narrow and the torchlight does not reach the bottom." },
+        { "label": "offer the relic", "nextNode": "parley", "hint": "You raise your hand and her eyes lock onto yours across the distance." },
+        { "label": "rally the monks", "nextNode": "rally-monks", "hint": "Your voice echoes off the stone walls of the refectory." }
+      ]
+    },
+    "parley": {
+      "passage": "The raider captain meets you at the lower gate. Her name is Hild. Her voice is calm but her eyes are sharp. She does not want blood, she says. She wants the Ember Heart. Her people are dying of a blight in the northern valleys and the relic can cleanse corrupted land. She will leave the abbey standing if you hand it over. Without it, your wards will fail by midnight anyway.",
+      "choices": [
+        { "label": "give the relic", "nextNode": "give-relic", "hint": "The weight of the stone leaves your hands and something inside you goes quiet." },
+        { "label": "refuse her terms", "nextNode": "refuse-hild", "hint": "Her jaw tightens and she takes a slow step backward." },
+        { "label": "propose a bargain", "nextNode": "bargain", "hint": "You hold up one finger and her eyebrow rises." }
+      ]
+    },
+    "crypt-entrance": {
+      "passage": "The crypt stairs spiral down into cool dark air that smells of damp stone and old incense. At the bottom, a circular chamber holds a stone altar. On the altar sits the Ember Heart - a fist-sized crystal that glows with deep orange light. A jagged crack runs through the ward-seal carved into the floor around it. The glow pulses weakly, like a dying heartbeat.",
+      "choices": [
+        { "label": "repair the seal", "nextNode": "repair-seal", "hint": "You kneel on the cold stone and press your hands to the cracked line." },
+        { "label": "take the relic", "nextNode": "take-relic", "hint": "The crystal is warm in your palm, almost alive." },
+        { "label": "study the crack", "nextNode": "study-crack", "hint": "You crouch low and trace the fracture with your eyes." }
+      ]
+    },
+    "mend-attempt": {
+      "passage": "You press your hands against the cracked runes and concentrate. Heat surges through your palms. For a moment the cracks glow bright and the flame leaps higher. Then the stone splits further and pain shoots up your arms. Sister Maren pulls you back. The runes cannot be fixed from here. The source is below, in the crypt. The ward-seal itself must be restored.",
+      "choices": [
+        { "label": "go to the crypt", "nextNode": "crypt-entrance", "hint": "The stairway down is narrow and the torchlight does not reach the bottom." }
+      ]
+    },
+    "rally-monks": {
+      "passage": "You gather the brothers and sisters in the refectory. Eighteen faces stare back at you. They are scribes and healers, not fighters. But Brother Aldric knows the walls and Sister Maren knows the wards. If you can fix the seal and hold until dawn, a patrol from the valley garrison will see the raiders. You need a plan. The crypt holds the answer, but the walls need watchers too.",
+      "choices": [
+        { "label": "go to the crypt", "nextNode": "crypt-entrance", "hint": "The stairway down is narrow and the torchlight does not reach the bottom." },
+        { "label": "set the defenses", "nextNode": "defend-walls", "hint": "Aldric nods and begins assigning positions along the parapet." }
+      ]
+    },
+    "repair-seal": {
+      "passage": "You kneel and press your hands to the cracked ward-seal. The stone resists. The crack is deep and the magic that held it has nearly drained away. You push harder. Heat floods through you and into the floor. The crack begins to close - slowly, painfully. But the seal demands a price. You feel your strength pouring out like water from a broken jug. The flame above roars back to life.",
+      "choices": [
+        { "label": "keep pushing", "nextNode": "full-sacrifice", "hint": "Your vision blurs but the warmth in the stone feels right." },
+        { "label": "pull back", "nextNode": "partial-fix", "hint": "You gasp and your hands leave the stone trembling." }
+      ]
+    },
+    "take-relic": {
+      "passage": "You lift the Ember Heart from the altar. It pulses warm against your chest. The moment it leaves the stone, the ward-seal goes dark and a low groan runs through the abbey walls. Dust falls from the ceiling. Above you, the sacred flame will be dying. The crystal holds centuries of power. In the right hands it could do great things. In the wrong hands it could do terrible ones.",
+      "choices": [
+        { "label": "bring it to Hild", "nextNode": "give-relic", "hint": "The weight of the stone leaves your hands and something inside you goes quiet." },
+        { "label": "hide the relic", "nextNode": "hide-relic", "hint": "You wrap the crystal in your cloak and slip toward the back passage." },
+        { "label": "return it to the altar", "nextNode": "return-relic", "hint": "The altar seems to hum as you bring the crystal close again." }
+      ]
+    },
+    "study-crack": {
+      "passage": "The crack in the ward-seal was not made by accident. You can see tool marks where someone drove a chisel into the stone. The abbot did not stumble here. He tried to break the seal on purpose, then lost his nerve halfway through. The damage is real but not total. A strong will could force the crack shut, though it would cost something. Magic always does.",
+      "choices": [
+        { "label": "repair the seal", "nextNode": "repair-seal", "hint": "You kneel on the cold stone and press your hands to the cracked line." },
+        { "label": "take the relic", "nextNode": "take-relic", "hint": "The crystal is warm in your palm, almost alive." }
+      ]
+    },
+    "give-relic": {
+      "passage": "You meet Hild at the gate and place the Ember Heart in her scarred hands. She holds it to the moonlight and her hard face softens for the first time. She keeps her word. The raiders pull back into the trees and vanish down the mountain. Behind you, the sacred flame dies to nothing. The abbey's wards crumble. The monks stand in the courtyard, watching six centuries of protection fade into smoke.",
+      "choices": [],
+      "ending": {
+        "title": "The Greater Need",
+        "flavor": "Sometimes mercy means letting go of what you were sworn to protect.",
+        "action": "release the flame"
+      }
+    },
+    "refuse-hild": {
+      "passage": "You tell Hild the relic stays. Her calm breaks like ice on a river. She turns and raises her axe and the raiders roar. Arrows fly over the walls. You sprint back through the gate as it slams shut behind you. The siege begins in full. The wards flicker and hold for now, but every impact on the gate shakes dust from the ceiling. Dawn is hours away.",
+      "choices": [
+        { "label": "defend the gate", "nextNode": "defend-walls", "hint": "Aldric nods and begins assigning positions along the parapet." },
+        { "label": "fix the seal first", "nextNode": "crypt-entrance", "hint": "The stairway down is narrow and the torchlight does not reach the bottom." }
+      ]
+    },
+    "bargain": {
+      "passage": "You tell Hild you will share the relic's power but not give it up. She narrows her eyes. You propose a ritual - bring her blighted soil to the abbey, let the Ember Heart cleanse it through the ward-seal, and her people can return each season for more. She is quiet for a long time. The wind picks up and her wolf cloak snaps in the cold. She asks what you want in return.",
+      "choices": [
+        { "label": "ask for peace", "nextNode": "bargain-peace", "hint": "The word hangs in the air between you like breath in winter." },
+        { "label": "ask for labor", "nextNode": "bargain-labor", "hint": "She tilts her head and the ghost of a smile crosses her face." }
+      ]
+    },
+    "defend-walls": {
+      "passage": "You take your place on the parapet beside Brother Aldric. The monks hurl stones and boiling water as raiders scale the walls with rope and ladder. An arrow grazes your shoulder. The ward-light in the stones flickers with each blow to the gate. You can feel the flame dying above you. Without the seal repaired, the walls will not hold past midnight. You need to choose.",
+      "choices": [
+        { "label": "hold the wall", "nextNode": "last-stand", "hint": "You grip the stone and set your feet as another ladder hits the wall." },
+        { "label": "run to the crypt", "nextNode": "crypt-entrance", "hint": "The stairway down is narrow and the torchlight does not reach the bottom." }
+      ]
+    },
+    "full-sacrifice": {
+      "passage": "You pour everything into the seal. Your vision goes white. The crack slams shut with a sound like a thunderclap and the ward-seal blazes with golden light. The flame above erupts back to full strength and the abbey's stone walls hum with restored power. Outside, the raiders stagger as the wards push them back down the mountain. You collapse on the cold crypt floor. Your body feels hollow but the abbey is safe.",
+      "choices": [],
+      "ending": {
+        "title": "The Price of Fire",
+        "flavor": "The flame burns on, fed by a sacrifice it will never name.",
+        "action": "close your eyes"
+      }
+    },
+    "partial-fix": {
+      "passage": "You pull your hands back before the seal takes everything. The crack is half-closed. The wards glow dimly - enough to slow the raiders but not stop them. Brother Aldric finds you on the crypt floor, shaking and pale. He helps you up. The flame still burns, but low. You have bought time, not victory. Dawn is four hours away. It will have to be enough.",
+      "choices": [
+        { "label": "defend the walls", "nextNode": "defend-walls", "hint": "Aldric nods and begins assigning positions along the parapet." },
+        { "label": "parley with Hild", "nextNode": "parley", "hint": "You raise your hand and her eyes lock onto yours across the distance." }
+      ]
+    },
+    "hide-relic": {
+      "passage": "You slip through the back passage and into the root cellar beneath the kitchen. The Ember Heart glows through your cloak. You bury it under a sack of grain and cover it with straw. Without the relic or the seal, the wards fail completely. The gates swing open and the raiders pour in. But they search for hours and find nothing. By dawn the garrison arrives and drives them out. The abbey stands, but the flame is gone forever.",
+      "choices": [],
+      "ending": {
+        "title": "The Hidden Flame",
+        "flavor": "Some things survive by being forgotten.",
+        "action": "bury the light"
+      }
+    },
+    "return-relic": {
+      "passage": "You press the Ember Heart back onto the altar. The ward-seal flickers to life around it, dim but steady. The crack still runs through the floor but the crystal bridges the gap. The flame above steadies. It is not the roaring blaze of old, but it holds. The wards will last through the night. You climb the stairs to the sound of arrows on stone and know the real fight is still ahead.",
+      "choices": [
+        { "label": "defend the walls", "nextNode": "defend-walls", "hint": "Aldric nods and begins assigning positions along the parapet." },
+        { "label": "signal Hild", "nextNode": "parley", "hint": "You raise your hand and her eyes lock onto yours across the distance." }
+      ]
+    },
+    "bargain-peace": {
+      "passage": "Hild stares at you for a long moment. Then she drives her spear into the ground and leaves it there. She calls her raiders back and they lower their weapons one by one. She will return at the next new moon with soil from the blighted valley. You will be ready. The monks watch from the walls as forty warriors file down the mountain path. Brother Aldric puts his hand on your shoulder and says nothing.",
+      "choices": [],
+      "ending": {
+        "title": "The Ember Accord",
+        "flavor": "The strongest walls are the ones you choose not to build.",
+        "action": "plant the spear"
+      }
+    },
+    "bargain-labor": {
+      "passage": "You ask Hild for hands to rebuild the abbey's crumbling outer wall. She laughs - a real laugh, sharp and sudden. She agrees. The raiders make camp below the walls and by morning they are hauling stone alongside the monks. The work is slow and suspicious at first, but by the third day you hear laughter from both sides. The flame burns steady. The wards hold. Something new is being built alongside the old.",
+      "choices": [],
+      "ending": {
+        "title": "Stone and Fire",
+        "flavor": "Two peoples, one wall, and a flame that burns brighter for the company.",
+        "action": "lay the first stone"
+      }
+    },
+    "last-stand": {
+      "passage": "You hold the wall through the longest night of your life. Stones crack. Arrows fly. Two monks fall and you carry them to the infirmary between waves. The ward-light gutters and dims but never quite dies. At the first grey line of dawn, a horn sounds from the valley below. The garrison. The raiders break and scatter into the forest. You lean against the parapet, bleeding and exhausted, and watch the sun rise over Ashveil Abbey.",
+      "choices": [],
+      "ending": {
+        "title": "Dawn Over Ashveil",
+        "flavor": "The walls held because the people behind them refused to break.",
+        "action": "watch the sunrise"
+      }
+    }
+  }
+}
