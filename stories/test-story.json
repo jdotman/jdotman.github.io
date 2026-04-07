@@ -9,14 +9,14 @@
   "startNode": "start",
   "nodes": {
     "start": {
-      "passage": "A red fox stands at a fork in the forest trail. To the left the trees grow thick and wild. To the right a familiar path leads back toward the village. The fox looks at you once, then turns toward the dark trees.",
+      "passage": "A. Red. Fox.",
       "choices": [
         { "label": "follow the fox", "nextNode": "ending-one", "hint": "Branches scratch your arms as you push into the undergrowth." },
         { "label": "take the village path", "nextNode": "ending-two", "hint": "The packed earth feels solid and safe under your boots." }
       ]
     },
     "ending-one": {
-      "passage": "The fox darts between the trunks and you lose sight of it within seconds. But the trail it left is clear - broken ferns and paw prints in the soft earth. You follow them deeper until the canopy closes overhead and the forest swallows every sound.",
+      "passage": "Jumps. Over. Dog.",
       "choices": [],
       "ending": {
         "title": "The Fox Escaped",
@@ -25,7 +25,7 @@
       }
     },
     "ending-two": {
-      "passage": "You turn back toward the village. Smoke rises from the chimneys and the smell of bread drifts through the evening air. The fox watches you go from the tree line. When you glance back a second time it is gone.",
+      "passage": "Nevermind. Go Home.",
       "choices": [],
       "ending": {
         "title": "The Fox Remained",

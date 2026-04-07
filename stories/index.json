@@ -306,6 +306,15 @@
     "dayOfYear": "05-06"
   },
   {
+    "id": "e8f4c2a7-3b1d-4e9f-a5c8-6d2f1b9e4a7c",
+    "title": "The Hawthorn Bargain",
+    "description": "A fey market opens once a year beneath the hawthorn arch and every wonder inside has a hidden price. Tonight is your only chance to walk back out.",
+    "tags": ["trickery", "diplomacy"],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-07",
+    "dayOfYear": "05-07"
+  },
+  {
     "id": "test-story",
     "title": "Test Story",
     "description": "A minimal test story with one passage and two endings.",

@@ -1,0 +1,167 @@
+{
+  "id": "e8f4c2a7-3b1d-4e9f-a5c8-6d2f1b9e4a7c",
+  "title": "The Hawthorn Bargain",
+  "description": "A fey market opens once a year beneath the hawthorn arch and every wonder inside has a hidden price. Tonight is your only chance to walk back out.",
+  "author": "AI",
+  "tags": ["trickery", "diplomacy"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-05-07",
+  "dayOfYear": "05-07",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "The hawthorn arch stands open only on Hunger Moon eve, and you are stepping through it now. Lanterns of bone hang from the boughs above. Past the threshold sprawls a market unlike any mortal fair: silver stalls glittering left, an antlered lord brooding on a moss throne ahead, and a candlelit auction murmuring to your right. Each pulls at you.",
+      "choices": [
+        { "label": "visit the silver stalls", "nextNode": "silver-stalls", "hint": "Coin clinks somewhere ahead, sharp and far too pure for mortal silver." },
+        { "label": "approach the antlered lord", "nextNode": "moss-throne", "hint": "His gaze finds you the moment you turn his way." },
+        { "label": "drift to the auction", "nextNode": "candle-court", "hint": "A bidder's voice rises behind you, naming a price in years." }
+      ]
+    },
+    "silver-stalls": {
+      "passage": "At the silver stalls, fey merchants weigh memories on tiny scales. One offers a brooch shaped like a wren, another holds a flute carved from a swan's wingbone. The merchant nearest you smiles too wide and gestures at her wares. Behind her, a narrow side path slips away into the trees, unguarded for now.",
+      "choices": [
+        { "label": "bargain for the wren", "nextNode": "apothecary", "hint": "Her smile widens as she names a price you do not quite hear." },
+        { "label": "slip down the side path", "nextNode": "mossy-path", "hint": "The merchant's eyes do not follow as you step away from her stall." }
+      ]
+    },
+    "moss-throne": {
+      "passage": "On a throne of bound moss sits a fey lord crowned with stag antlers. Courtiers fall silent as you approach. His pale eyes weigh you the way a wolf weighs a deer. A goblet of dark wine rests in his hand, untouched. He inclines his head a finger's width, an invitation that is not quite a welcome.",
+      "choices": [
+        { "label": "kneel before the lord", "nextNode": "antler-blessing", "hint": "The moss is damp and chill against your knee as you bow your head." },
+        { "label": "propose a riddle game", "nextNode": "riddle-test", "hint": "His mouth curves at one corner, neither smile nor scowl, but something hungrier." }
+      ]
+    },
+    "candle-court": {
+      "passage": "Tall white candles ring a small clearing where buyers and sellers murmur in low voices. A blindfolded auctioneer raises a slender bone gavel. The current lot is a stoppered jar that holds a single firefly, but the bidders are not naming gold; they are naming names. Beyond the candle ring, deeper into the wood, lanterns flicker.",
+      "choices": [
+        { "label": "bid with your own name", "nextNode": "apothecary", "hint": "The auctioneer's hidden head turns toward you the instant the word leaves your lips." },
+        { "label": "observe from the candle ring", "nextNode": "mossy-path", "hint": "You notice the lantern path now, a thread of glow pulling away from the crowd." }
+      ]
+    },
+    "antler-blessing": {
+      "passage": "The antlered lord places a single cool finger on your brow. A hum runs through your bones, neither warm nor harmful, but old. When his hand falls away you feel marked. He gestures, and a great white stag pads forward from the courtiers. Its eyes are full of stars. Mount, his look says, or do not.",
+      "choices": [
+        { "label": "ride the white stag", "nextNode": "harp-pavilion", "hint": "The stag kneels for you, patient and still, as if it has waited years." },
+        { "label": "bow and back away", "nextNode": "mossy-path", "hint": "The lord's expression does not change, but the courtiers stir behind him." }
+      ]
+    },
+    "riddle-test": {
+      "passage": "The fey lord leans forward, antlers casting long shadows on the moss. His first riddle drops from his lips like a pebble into still water: what walks the road that no foot has ever trod? Courtiers lean in. The wrong answer here will not earn you laughter. It will earn you a price you cannot pay.",
+      "choices": [
+        { "label": "answer with honest words", "nextNode": "apothecary", "hint": "Your throat tightens as the truth forms before you can polish it." },
+        { "label": "spin a clever falsehood", "nextNode": "banishment-ending", "hint": "A small flicker of pride rises before you remember whose game this is." }
+      ]
+    },
+    "apothecary": {
+      "passage": "A round tent of green silk hides an apothecary's table laden with bottles that gleam from within. The keeper, a hare-eyed woman with patient hands, offers you a small cup. The liquid inside swirls like trapped lightning. Drink this, she says softly, and the path forward will reveal itself. Refuse, and you walk it blind.",
+      "choices": [
+        { "label": "drink the offered cup", "nextNode": "lantern-bridge", "hint": "The liquid is colder than ice and tastes of rain on summer leaves." },
+        { "label": "hand the cup back", "nextNode": "lantern-bridge", "hint": "Her smile does not waver, though something flickers in her wide hare eyes." }
+      ]
+    },
+    "mossy-path": {
+      "passage": "A narrow path winds between hawthorns, lit by lanterns that move on their own. Each lantern hovers a little lower than the last, drawing you off the level ground and into a low place where the air smells of crushed leaves. Ahead the path forks: one way to a hollow tree, the other curving back toward firelight.",
+      "choices": [
+        { "label": "follow the hollow tree fork", "nextNode": "hollow-tree", "hint": "The lanterns drift after you as if curious where you mean to go." },
+        { "label": "head toward the firelight", "nextNode": "harp-pavilion", "hint": "The smell of crushed leaves fades and a faint music starts to thread the air." }
+      ]
+    },
+    "hollow-tree": {
+      "passage": "An ancient oak yawns open at the path's end, hollowed by centuries into a chamber wide enough for three. Roots curl across the floor like sleeping snakes. From inside drifts a sound that is half breath, half song, and the bark is warm to the touch. Something inside the tree knows you have arrived.",
+      "choices": [
+        { "label": "climb inside the hollow", "nextNode": "roots-ending", "hint": "The warmth pulls you in, gentle as a mother's hand on your shoulder." },
+        { "label": "press an ear to the bark", "nextNode": "harp-pavilion", "hint": "The half-song slows as you listen, almost like it is testing you back." }
+      ]
+    },
+    "lantern-bridge": {
+      "passage": "A bridge of woven willow stretches over a stream that runs uphill. Floating lanterns line both rails, their flames burning blue. Halfway across, a barefoot child sits dangling her toes in the water. She does not look up, but her thin voice rises clear above the brook: cross careful, mortal. The harper waits beyond and he is hungry.",
+      "choices": [
+        { "label": "ask the child a question", "nextNode": "harp-pavilion", "hint": "Her toes stop swirling the brook as she finally lifts her chin to look up." },
+        { "label": "pass the child in silence", "nextNode": "harp-pavilion", "hint": "The blue flames lean toward you as you walk, then snap upright again." }
+      ]
+    },
+    "harp-pavilion": {
+      "passage": "At the heart of the grove rises a pavilion of bone-pale wood. On a low dais waits a silver harp strung with hair finer than spider silk. No harper sits beside it. The strings hum in a wind you cannot feel. A small placard in fey script reads: PLAY ME, OR TAKE ME, OR LEAVE ME WHOLE. The grove holds its breath.",
+      "choices": [
+        { "label": "play the silver harp", "nextNode": "bard-ending", "hint": "Your fingers find the strings and a chord rises sweeter than you can bear." },
+        { "label": "snatch the harp and run", "nextNode": "chase-scene", "hint": "The strings shriek a warning the moment your hand closes around the frame." },
+        { "label": "leave it whole and walk on", "nextNode": "grove-edge", "hint": "The pavilion creaks behind you as if disappointed it cannot hold you longer." }
+      ]
+    },
+    "chase-scene": {
+      "passage": "Branches whip past your face as you flee. The harp shrieks against your chest with every stride, calling its owners. Behind you horns sound, then hounds, then something faster than either. Two ways open before you: a stream cuts the path ahead, and to your left a tangle of old roots could hide a small body in the gloom.",
+      "choices": [
+        { "label": "leap across the stream", "nextNode": "grove-edge", "hint": "Your boots strike the far bank just as the first hound bursts from the brush." },
+        { "label": "dive into the root tangle", "nextNode": "hidden-hollow", "hint": "Earth and damp wood close above you and the horns wail past overhead." }
+      ]
+    },
+    "hidden-hollow": {
+      "passage": "Inside the root tangle the noise of the chase fades to nothing. A pale shade kneels beside you, woman-shaped and almost kind. She presses one finger to her lips. Keep the harp and stay with me, she breathes, and you will be safe forever. Refuse and you must run again, with the hounds still close and the night still long.",
+      "choices": [
+        { "label": "accept her quiet bargain", "nextNode": "shade-ending", "hint": "Her cool hand closes around yours and the world above goes very still." },
+        { "label": "refuse and crawl back out", "nextNode": "grove-edge", "hint": "Her face does not change, but you feel her watching you all the way out." }
+      ]
+    },
+    "grove-edge": {
+      "passage": "The hawthorn arch rises before you again, but it looks smaller now, as if reluctant to let you back through. Beyond it, the mortal road shines under a thin moon. Wind moves the bone lanterns above your head and they chime like a warning. One step forward and you are out. One look back and you may not be.",
+      "choices": [
+        { "label": "step into the mortal road", "nextNode": "dawn-ending", "hint": "The chimes rise to a single clear note as your foot crosses the line." },
+        { "label": "glance back one last time", "nextNode": "lost-ending", "hint": "The grove behind you blurs, sweeter and stranger than any dream you can name." }
+      ]
+    },
+    "banishment-ending": {
+      "passage": "The fey lord's smile sharpens. Wrong, mortal, he murmurs, and the courtiers laugh like wind through brittle reeds. He flicks two fingers and the moss beneath you ripples. The whole grove tilts. You are flung skyward, tumbling through bone lanterns and starlight, and when the world rights itself you stand alone on the empty road, the arch gone forever.",
+      "choices": [],
+      "ending": {
+        "title": "Banished by Antler",
+        "flavor": "The grove will never open for you again, no matter how many moons you wait.",
+        "action": "speak the false answer"
+      }
+    },
+    "bard-ending": {
+      "passage": "Your fingers find the strings and the music that pours out is not yours. It is older than the grove, older than the road, older than your name. The fey courtiers gather and weep. The antlered lord bows his crowned head. When the song ends, the harp is yours, and the road home is paved with quiet welcome.",
+      "choices": [],
+      "ending": {
+        "title": "The Borrowed Song",
+        "flavor": "You will play that song one more time before you die, and only one.",
+        "action": "let the music carry you"
+      }
+    },
+    "roots-ending": {
+      "passage": "The warmth of the hollow tree welcomes you in. Bark folds gently around your shoulders. Roots wind up your legs without pain, only a slow and patient claiming. Your last clear thought is that the grove is not a cruel place, only a hungry one. Then you are part of it, listening forever to the half-song under the bark.",
+      "choices": [],
+      "ending": {
+        "title": "Inside the Oak",
+        "flavor": "The grove gains a new voice, and the world loses an old one.",
+        "action": "give yourself to the bark"
+      }
+    },
+    "shade-ending": {
+      "passage": "You take the shade's cool hand. The roots above weave shut and the chase forgets you. Years pass like hours in the dim hollow. You learn her quiet name and she learns yours. When at last someone digs into the tangle on a future Hunger Moon, they find only two pale shapes curled together, smiling at the lantern glow.",
+      "choices": [],
+      "ending": {
+        "title": "The Quiet Bargain",
+        "flavor": "Safety has many names, and this one is older than fear.",
+        "action": "take the shade's hand"
+      }
+    },
+    "dawn-ending": {
+      "passage": "You step over the threshold and the bone chimes ring once, sweet as a farewell. The hawthorn arch sighs shut behind you and is gone. Only a circle of pressed grass remains where the grove stood, and a single white feather at your feet. You are a little older, a little stranger, but the road home is yours.",
+      "choices": [],
+      "ending": {
+        "title": "Home by Moonlight",
+        "flavor": "Most who step under the hawthorn never step back out.",
+        "action": "cross the mortal threshold"
+      }
+    },
+    "lost-ending": {
+      "passage": "You glance back, just for a heartbeat. The grove blooms before you, brighter than any dawn, sweeter than any song. One step is all it takes to drift back inside. By morning the road is empty, and the village down the hill speaks of a traveler who never arrived. You will not remember the village either.",
+      "choices": [],
+      "ending": {
+        "title": "Lost to the Grove",
+        "flavor": "The hawthorn keeps what it claims, and it claims gently.",
+        "action": "look back one last time"
+      }
+    }
+  }
+}
