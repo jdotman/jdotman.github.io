@@ -297,6 +297,15 @@
     "dayOfYear": "05-05"
   },
   {
+    "id": "c3a8e7f2-5b1d-4f9e-a6c0-2d8b3e7f1c4a",
+    "title": "The Silver Oar",
+    "description": "The Reedwater festival race begins at dawn and the prize is the legendary Silver Oar. Your boat is cracked, your rival is fast, and the river hides its own secrets.",
+    "tags": ["competition", "voyage"],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-06",
+    "dayOfYear": "05-06"
+  },
+  {
     "id": "test-story",
     "title": "Test Story",
     "description": "A minimal test story with one passage and two endings.",

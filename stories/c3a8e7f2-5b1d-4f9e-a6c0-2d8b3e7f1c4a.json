@@ -1,0 +1,186 @@
+{
+  "id": "c3a8e7f2-5b1d-4f9e-a6c0-2d8b3e7f1c4a",
+  "title": "The Silver Oar",
+  "description": "The Reedwater festival race begins at dawn and the prize is the legendary Silver Oar. Your boat is cracked, your rival is fast, and the river hides its own secrets.",
+  "author": "AI",
+  "tags": ["competition", "voyage"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-05-06",
+  "dayOfYear": "05-06",
+  "startNode": "dock-start",
+  "nodes": {
+    "dock-start": {
+      "passage": "Dawn light spreads across the Reedwater dock. Banners snap in the wind and racers ready their boats below. Your slim cedar shell waits at slip seven, but one oarlock looks split. Maren, your old rival, ties off two slips down. The crowd buzzes around the betting tables and a charm seller calls from the bridge.",
+      "choices": [
+        { "label": "inspect the oarlock", "nextNode": "boat-check", "hint": "Your fingers find a clean split running deep into the wood." },
+        { "label": "greet Maren", "nextNode": "meet-maren", "hint": "She looks up with a half-smile that does not reach her eyes." },
+        { "label": "wander the crowd", "nextNode": "crowd", "hint": "The smell of frying fish and damp rope fills the morning air." }
+      ]
+    },
+    "boat-check": {
+      "passage": "You lean over the gunwale and run your hand along the oarlock. The split runs deep, and the brass pin wobbles in its socket. One hard pull and the whole rig will fail. The race master is busy at the starting line. A coil of waxed cord sits in your gear bag, but using it costs time.",
+      "choices": [
+        { "label": "lash it with cord", "nextNode": "race-start", "hint": "The waxed cord bites into your fingers as you wind it tight." },
+        { "label": "fetch the race master", "nextNode": "race-start", "hint": "He looks up from his ledger with a long, weary frown." },
+        { "label": "ignore the damage", "nextNode": "race-start", "hint": "A sour weight settles in your gut as you push off." }
+      ]
+    },
+    "meet-maren": {
+      "passage": "Maren straightens as you approach. She wears the same red sash she wore the year she beat you by half a length. 'Heard your boat needs work,' she says. Her eyes flick toward your slip. 'Word travels fast on this dock. The current past Heron Rock has shifted since spring. Be careful out there, friend.'",
+      "choices": [
+        { "label": "ask about the current", "nextNode": "race-start", "hint": "She traces a quick line in the air showing you the bend." },
+        { "label": "challenge her openly", "nextNode": "race-start", "hint": "Her grin sharpens, and the crowd around you goes still." },
+        { "label": "thank her and leave", "nextNode": "race-start", "hint": "She nods once and turns back to her own gear." }
+      ]
+    },
+    "crowd": {
+      "passage": "The crowd thickens near the betting tables. A gambler in a green cloak waves coins and shouts odds. Beyond him, an old woman sells bone charms strung on red thread. She catches your eye and lifts one slowly. Behind her, the river glints under the morning sun. Something dark slides beneath the water near the dock pylons.",
+      "choices": [
+        { "label": "buy a bone charm", "nextNode": "race-start", "hint": "The bone is warm against your palm and hums faintly." },
+        { "label": "place a wager", "nextNode": "race-start", "hint": "The gambler grins and writes your name with a flourish." },
+        { "label": "study the river", "nextNode": "race-start", "hint": "The shape moves slow and long beneath the green surface." }
+      ]
+    },
+    "race-start": {
+      "passage": "The horn cracks the morning open. Oars bite the river and racers surge forward in a churn of foam. Maren pulls ahead at once, her red sash bright against the green current. A boat crowds your stern, threatening to clip your blades. Three paths open ahead: the fast outer line, the middle pack, or the inside bank near the willows.",
+      "choices": [
+        { "label": "row hard outside", "nextNode": "fast-lead", "hint": "Your blades dig deep and your shoulders catch fire at once." },
+        { "label": "pace the middle pack", "nextNode": "middle-pace", "hint": "You settle into the rhythm of the boats around you." },
+        { "label": "hug the inside bank", "nextNode": "inside-line", "hint": "Willow branches whisper just above your head as you slip past." }
+      ]
+    },
+    "fast-lead": {
+      "passage": "You pull clear of the pack and the river opens before you. Heron Rock looms downstream, a black tooth jutting from the foam. Past it, the rapids already roar across the open air. To your right, a long sandbar gleams in the sun, calm and tempting. Your arms burn and your lungs ache from the sprint.",
+      "choices": [
+        { "label": "drive into the rapids", "nextNode": "rapids-approach", "hint": "The roar grows louder with every stroke you pull through." },
+        { "label": "ease toward the sandbar", "nextNode": "sandbar-rest", "hint": "Your shoulders unknot the moment you stop pushing so hard." }
+      ]
+    },
+    "middle-pace": {
+      "passage": "The middle pack churns around you in a tight knot of oars and shouts. A boat from Greenmere snags your blade and curses fly. Ahead, the river splits around Heron Rock. The leaders peel off toward the rapid chute on the left while two boats slip right toward the quiet inner channel. You have one breath to choose.",
+      "choices": [
+        { "label": "follow the leaders left", "nextNode": "rapids-approach", "hint": "The chute swallows the lead boats one by one as you turn." },
+        { "label": "take the inner channel", "nextNode": "sandbar-rest", "hint": "Calm reeds brush your hull as the noise falls away." }
+      ]
+    },
+    "inside-line": {
+      "passage": "The willows bend so close their leaves brush your shoulders. The current near the bank is slow and strange, eddies pulling at your blades. A heron lifts off in startled flight. Ahead, the bank curves sharply and you must commit. Through the gap you can hear the rapids ahead, but the sandbar is closer and offers a moment of rest.",
+      "choices": [
+        { "label": "cut across to the rapids", "nextNode": "rapids-approach", "hint": "Your bow swings wide as you angle into the main current." },
+        { "label": "rest at the sandbar", "nextNode": "sandbar-rest", "hint": "The sand crunches softly under your hull as you drift in." }
+      ]
+    },
+    "rapids-approach": {
+      "passage": "The river drops away beneath you and white water explodes between black boulders. Spray soaks your face. Two paths open: a narrow chute on the left where the leaders are vanishing one by one, and a slower portage trail along the right bank. A massive standing wave rises in the center, beautiful and deadly to anyone bold enough.",
+      "choices": [
+        { "label": "dive through the chute", "nextNode": "through-rapids", "hint": "Cold spray fills your mouth as the chute pulls you down." },
+        { "label": "portage along the bank", "nextNode": "portage-route", "hint": "Your shoulders ache from dragging the cedar shell up the trail." },
+        { "label": "ride the standing wave", "nextNode": "ending-drowned", "hint": "The wave rises higher than you guessed, white and roaring." }
+      ]
+    },
+    "sandbar-rest": {
+      "passage": "Your hull slides onto warm sand and the boat goes still. For a moment, the noise of the race fades. You drink from your flask and listen to the river breathe. Then you see it: a long shape under the surface, twenty paces out, sliding slow against the current. It does not move like any fish you know.",
+      "choices": [
+        { "label": "wade toward the shape", "nextNode": "river-spirit", "hint": "The river feels colder than you expected and tugs at your boots." },
+        { "label": "shove off downstream", "nextNode": "downstream-calm", "hint": "Your hands shake as you push the boat back into the flow." }
+      ]
+    },
+    "river-spirit": {
+      "passage": "The shape rises to meet you as you wade out: a woman made of green light and river weed, eyes like wet pebbles. 'A racer stops for me,' she says, and her voice ripples like a stream over rocks. 'I am the old keeper of this water. My silver pin lies lost on the riverbed. Will you trade your race for it?'",
+      "choices": [
+        { "label": "accept the pact", "nextNode": "ending-river-pact", "hint": "Her hand closes around yours and the river goes still." },
+        { "label": "refuse and flee", "nextNode": "downstream-calm", "hint": "You hear her voice fading as the current grabs your boat." }
+      ]
+    },
+    "through-rapids": {
+      "passage": "Foam fills your eyes as the chute hurls you forward and your boat slams hard against the bottom. Then you are through, gasping, ahead of all but Maren. Her boat spins sideways in an eddy, oars flailing. She is in trouble. The silver bridge waits a thousand strokes downstream. The choice ahead will mark you for the rest of your days.",
+      "choices": [
+        { "label": "stop and help her", "nextNode": "ending-shared-glory", "hint": "She grabs your offered oar with both hands and a sob." },
+        { "label": "skirt the eddy", "nextNode": "final-stretch", "hint": "Her cry of frustration fades behind you in the spray." },
+        { "label": "ram her boat under", "nextNode": "ending-hollow-prize", "hint": "Wood splinters and her shout cuts off in the cold flood." }
+      ]
+    },
+    "portage-route": {
+      "passage": "The portage trail is steep and slick with moss. You drag your cedar shell over roots and gravel, lungs burning. Two other racers labor beside you, cursing the lost time. By the time the trail dumps you back into the river, the lead boats are far ahead. The silver bridge is still distant, but your boat is whole.",
+      "choices": [
+        { "label": "push hard for the bridge", "nextNode": "final-stretch", "hint": "Your cedar bow lifts as you find your old race rhythm again." },
+        { "label": "glide to a clean finish", "nextNode": "ending-quiet-return", "hint": "The applause from the crowd reaches you over the wind." }
+      ]
+    },
+    "downstream-calm": {
+      "passage": "The river widens into a slow green lake before the final bend. Reeds nod along both banks and dragonflies skim the surface. You can see the silver bridge now, a faint arch in the distance. The other racers are scattered behind and ahead. Somewhere along the bend, Maren's red sash flashes and then vanishes behind a cluster of boats.",
+      "choices": [
+        { "label": "sprint for the bridge", "nextNode": "final-stretch", "hint": "Your blades dig and the silver arch grows clearer with every stroke." },
+        { "label": "look for Maren", "nextNode": "maren-trouble", "hint": "Her boat is drifting strangely, oars trailing in the green flow." }
+      ]
+    },
+    "maren-trouble": {
+      "passage": "You pull alongside Maren's boat. She is slumped over her oars, one arm clutched tight to her chest. Blood seeps through her sleeve where a rapid threw her against a rock. 'I cannot row,' she whispers. The bridge is close. You can still take the prize alone, or you can lose it pulling her boat to safety.",
+      "choices": [
+        { "label": "haul her boat alongside", "nextNode": "ending-shared-glory", "hint": "Her good arm grips your gunwale and her eyes shine with thanks." },
+        { "label": "slip past her", "nextNode": "final-stretch", "hint": "Her whisper of disbelief follows you across the empty current." }
+      ]
+    },
+    "final-stretch": {
+      "passage": "The silver bridge fills your view, banners snapping along its rails. The crowd noise rolls down the river like thunder. Your shoulders are fire and your hands are blood. One boat shows behind you and gains by the stroke. Forty paces. Twenty. The crowd roars your name, or someone's name, and the line is just ahead.",
+      "choices": [
+        { "label": "punch through the line", "nextNode": "ending-silver-victory", "hint": "Your last stroke is pure will and the bow flies forward." },
+        { "label": "let yourself coast in", "nextNode": "ending-quiet-return", "hint": "Your arms drop and the river carries you the last few feet." }
+      ]
+    },
+    "ending-silver-victory": {
+      "passage": "Your bow crosses the line and the crowd erupts. The race master raises the Silver Oar and the sun catches it like a struck bell. Maren clasps your hand at the dock, breathless and grinning. The Reedwater belongs to you today, and your name will be carved into the bridge stones at sunset.",
+      "choices": [],
+      "ending": {
+        "title": "The Silver Oar",
+        "flavor": "The river will remember your name.",
+        "action": "lift the silver oar"
+      }
+    },
+    "ending-shared-glory": {
+      "passage": "The line passes beneath you both, oars matched and bows level. The crowd hesitates, then roars louder. The race master looks at his rules, then at the two of you, then at the cheering crowd. He breaks the Silver Oar in half across his knee and presses one piece into each of your hands.",
+      "choices": [],
+      "ending": {
+        "title": "Half a Crown",
+        "flavor": "Some victories are worth more split in two.",
+        "action": "raise the broken oar"
+      }
+    },
+    "ending-river-pact": {
+      "passage": "The river closes over your head and a strange peace fills you. The keeper takes your hand and the silver pin lies waiting on the bed. You set it back where it belongs. When you rise to the surface, the race is long over. The keeper presses a small smooth stone into your palm, warm as a heart.",
+      "choices": [],
+      "ending": {
+        "title": "The Keeper's Gift",
+        "flavor": "Some races are worth losing for the right reason.",
+        "action": "open your hand"
+      }
+    },
+    "ending-hollow-prize": {
+      "passage": "Your bow crosses the line first and the cheer of the crowd feels distant. Maren is dragged from the river an hour later, alive but quiet. She does not look at you. The Silver Oar feels heavier than it should as the race master places it in your trembling hands. The festival fades around you.",
+      "choices": [],
+      "ending": {
+        "title": "A Bitter Win",
+        "flavor": "The prize you cheated for can never feel clean.",
+        "action": "accept the silver oar"
+      }
+    },
+    "ending-drowned": {
+      "passage": "The standing wave catches your bow and flips you sideways. The river takes your boat and your breath in the same moment. When the rescue ropes drag you to the bank, the silver bridge is far above and you are coughing river out of your lungs. The race ends without you, and the festival rolls on.",
+      "choices": [],
+      "ending": {
+        "title": "Lost to the River",
+        "flavor": "The river keeps the bold and forgets the rest.",
+        "action": "spit out the river"
+      }
+    },
+    "ending-quiet-return": {
+      "passage": "Under the silver bridge you glide, well after the leaders, but the crowd still claps and shouts your name. No prize waits for you today. Maren finds you at the dock and offers her flask with a tired smile. There will be other races. The river has shown you its full length and given you back your breath.",
+      "choices": [],
+      "ending": {
+        "title": "The Long Stroke Home",
+        "flavor": "Not every race needs a winner to feel won.",
+        "action": "raise your tired arms"
+      }
+    }
+  }
+}
