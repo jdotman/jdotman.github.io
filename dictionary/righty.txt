@@ -87,7 +87,6 @@ junk
 kill
 kiln
 kilo
-kink
 lily
 limo
 limp
@@ -331,7 +330,6 @@ hyponym
 jollily
 jumpily
 killjoy
-kinkily
 limpily
 limpkin
 lollopy

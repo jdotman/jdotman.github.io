@@ -1,0 +1,174 @@
+{
+  "id": "a4f2c8e1-9d3b-4f7e-b6c5-1e0a8d3f2b9c",
+  "title": "The Skyclaw Eyrie",
+  "description": "A great roc has stolen the Crown of Maelden and carried it to its nest atop a wind-blasted spire. You have until midday to climb up and back down.",
+  "author": "AI",
+  "tags": ["treasure-hunt", "escape"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-05-08",
+  "dayOfYear": "05-08",
+  "startNode": "spire_base",
+  "nodes": {
+    "spire_base": {
+      "passage": "Dawn breaks over Skyclaw Spire, a needle of red rock piercing the morning mist. The sunlit south face climbs in friendly cracks, the shadow chimney splits the north side, and frayed ribbons mark a windward ledge. The Crown of Maelden waits in the great roc's nest at the top. The bird hunts at midday.",
+      "choices": [
+        { "label": "climb the sunlit face", "nextNode": "sunlit_face", "hint": "Warm sandstone scrapes your fingers as you reach for the first hold." },
+        { "label": "take the shadow chimney", "nextNode": "shadow_chimney", "hint": "The crack swallows the morning sun and the air turns cold and damp." },
+        { "label": "circle to the ribbons", "nextNode": "ribbon_ledge", "hint": "Old prayers flutter against your face as you edge along the windward wall." }
+      ]
+    },
+    "sunlit_face": {
+      "passage": "The south wall glows orange in the early sun. Handholds run up the sandstone in long, friendly cracks that a child could climb. A red hawk circles overhead and lets out a sharp cry that bounces off the rocks. It does not like company on this mountain. The ledge narrows above.",
+      "choices": [
+        { "label": "press for the ledge", "nextNode": "mid_ledge", "hint": "The cracks bite your knuckles as you push higher into the heat." },
+        { "label": "hide from the hawk", "nextNode": "hawk_circle", "hint": "You drop into a slim crevice and watch the bird wheel above." }
+      ]
+    },
+    "shadow_chimney": {
+      "passage": "A narrow crack splits the north face like a closed wound. Water drips from black moss and the air smells of wet rust. Old pitons jut from the walls, their frayed ropes snapped at the same height. Loose stones rattle in the holds. Whatever the climbers feared, none of them made it back down.",
+      "choices": [
+        { "label": "wedge upward fast", "nextNode": "chimney_top", "hint": "Your shoulders scrape raw as you push deeper into the crack." },
+        { "label": "pry the loose stones", "nextNode": "loose_drop_ending", "hint": "The piton wobbles in your grip and a fine dust drifts down." }
+      ]
+    },
+    "chimney_top": {
+      "passage": "The crack widens into a small alcove halfway up. A rusted helmet lies in the dust beside a broken belt. Whoever rested here last did not get up. Above, the chimney opens onto a wider ledge of pale rock. The wind has picked up and carries a strange, low call from somewhere overhead.",
+      "choices": [
+        { "label": "search the helmet", "nextNode": "mid_ledge", "hint": "The leather strap crumbles as you turn the helmet over in your hand." },
+        { "label": "haul up to the ledge", "nextNode": "dead_climber", "hint": "Your boots find narrow notches as you push past the alcove rim." }
+      ]
+    },
+    "ribbon_ledge": {
+      "passage": "Prayer ribbons in red and white whip from a wide perch on the windward wall. The cliff drops away to nothing below your boots. A carved bird is hammered into the cliffside beside an offering bowl filled with worn coins. Pilgrims used to climb here. None do anymore. Something has driven them all away.",
+      "choices": [
+        { "label": "follow the ribbons up", "nextNode": "upper_traverse", "hint": "Old fabric brushes your cheek as you reach for the next handhold." },
+        { "label": "lift the offering bowl", "nextNode": "high_alcove", "hint": "The coins shift under your fingers and one slips into a hidden gap." }
+      ]
+    },
+    "hawk_circle": {
+      "passage": "Crammed into the crevice, you watch the red hawk dive past your hiding spot. It hunts something on the south face below. Your chance to slip higher is now. Above the crevice, two paths offer themselves: a hairline crack curling east, and a flat ledge covered in pale feathers. Both look quiet.",
+      "choices": [
+        { "label": "slip into the crack", "nextNode": "mid_ledge", "hint": "The crack is just wide enough for your shoulders to fit through." },
+        { "label": "cross the feathered ledge", "nextNode": "dead_climber", "hint": "Soft feathers cushion your steps but the wind carries your scent up." }
+      ]
+    },
+    "mid_ledge": {
+      "passage": "A wide shelf circles the spire here, scattered with white feathers and the bones of small animals. Wind rakes across it from every side. Halfway across, a weather-bleached scroll case is wedged between two slabs. Above, the cliff steepens into the final climb. The roc has fed here, and recently.",
+      "choices": [
+        { "label": "examine the scroll case", "nextNode": "high_alcove", "hint": "The wax seal cracks under your thumb with a faint dry pop." },
+        { "label": "push for the high cliff", "nextNode": "upper_traverse", "hint": "Each handhold above the shelf feels colder and farther between." }
+      ]
+    },
+    "dead_climber": {
+      "passage": "Wedged into a hollow under the next overhang lies the body of a climber. Bones picked clean, robes still bright. A coil of strong rope sits beside him, untouched. A small carved roc dangles from a leather cord around his neck. His outstretched hand points up the cliff toward the eyrie.",
+      "choices": [
+        { "label": "coil the climber's rope", "nextNode": "upper_traverse", "hint": "The leather of the rope creaks as you loop it across your shoulder." },
+        { "label": "pocket the carved charm", "nextNode": "high_alcove", "hint": "The wooden roc feels warmer than it should against your palm." }
+      ]
+    },
+    "high_alcove": {
+      "passage": "A shallow alcove cuts into the cliff face just below the eyrie. A bleached scroll lies pinned by a small flat slab. The ink has faded but the warning is clear: the great roc accepts gifts, but only from those who climb empty-handed. A worn coin sits beside the message.",
+      "choices": [
+        { "label": "leave a gift here", "nextNode": "silent_pilgrim_ending", "hint": "Your offering settles onto the slab and the wind seems to soften." },
+        { "label": "ignore the warning and climb", "nextNode": "upper_traverse", "hint": "You step over the warning, eyes already on the next handhold." }
+      ]
+    },
+    "upper_traverse": {
+      "passage": "The final stretch is a hand-traverse along a thin lip of crumbling shale. Wind tears at your cloak. The eyrie's stick rim curves above you, woven from bones, branches, and the ribs of unlucky travelers. A gap in the back of the nest looks just wide enough to crawl through. The sun is climbing fast.",
+      "choices": [
+        { "label": "swing over the rim", "nextNode": "eyrie_rim", "hint": "Your fingertips find the rim and pull you up over the edge." },
+        { "label": "crawl through the back", "nextNode": "nest_interior", "hint": "Loose twigs prick your knees as you wriggle deeper into the gap." }
+      ]
+    },
+    "eyrie_rim": {
+      "passage": "Atop the spire, the nest sprawls wider than a village square. Bleached bones, gold trinkets, and tattered banners line its sides. In the middle, on a flat altar of weathered wood, sits the Crown of Maelden, gleaming with old jewels. Beside it lies a single mottled egg, warm and faintly trembling.",
+      "choices": [
+        { "label": "snatch the crown", "nextNode": "roc_arrival", "hint": "Gold cools your fingertips even as you lift the heavy circle." },
+        { "label": "kneel by the egg", "nextNode": "egg_clutch", "hint": "The shell jumps under your palm with a quick, sharp tap." },
+        { "label": "back away from the crown", "nextNode": "silent_pilgrim_ending", "hint": "Your heart slows and the wind feels less hungry against your face." }
+      ]
+    },
+    "nest_interior": {
+      "passage": "You crawl into the hollow heart of the nest. Bones and twigs crunch under your knees. The crown rests on a weathered altar in a beam of midday sun, but coins and old gold spill across the floor like a dragon's hoard. The whole place stinks of feathers and meat.",
+      "choices": [
+        { "label": "raise the crown", "nextNode": "roc_arrival", "hint": "The metal is heavier than it looks and cool against your palm." },
+        { "label": "grab a single coin", "nextNode": "empty_handed_ending", "hint": "You curl your fist around the coin and feel its old weight." }
+      ]
+    },
+    "egg_clutch": {
+      "passage": "You crouch by the warm egg. The shell shudders under your hand. A jagged crack opens and a small wet beak pushes through, peeping softly. The hatchling looks up at you and stops crying. In the gold-flecked air, the wind carries a distant beating sound. The mother roc is returning.",
+      "choices": [
+        { "label": "help the chick hatch", "nextNode": "chick_bond", "hint": "Tiny claws grip your finger as you ease the shell apart." },
+        { "label": "flee the nest now", "nextNode": "empty_handed_ending", "hint": "Your boots barely touch the rim before you are sliding down hard." }
+      ]
+    },
+    "chick_bond": {
+      "passage": "The chick struggles free and presses itself against your chest. Its eyes are bright black beads. Outside, the beating of huge wings grows louder, then a shadow falls across the nest. The mother roc lands on the rim, talons gripping bone. Her gaze locks on you, and on the chick in your arms.",
+      "choices": [
+        { "label": "hold the chick out gently", "nextNode": "rider_ending", "hint": "The hatchling chirps once, soft and trusting, in your open palm." },
+        { "label": "shield the chick and run", "nextNode": "caught_ending", "hint": "Your legs uncoil and you bolt for the back of the nest." }
+      ]
+    },
+    "roc_arrival": {
+      "passage": "The crown comes free with a soft click. Above, the sun is blotted out as a vast winged shape banks toward the spire. The mother roc has come home. Her shriek splits the air. Her shadow swallows the ledge. A narrow crack on the windward side could swallow you, if you reach it.",
+      "choices": [
+        { "label": "dive for the crack", "nextNode": "crowned_ending", "hint": "The crown bites into your ribs as you plunge headfirst over the edge." },
+        { "label": "throw the crown wide", "nextNode": "empty_handed_ending", "hint": "Gold spins through bright air and the great bird turns to follow." }
+      ]
+    },
+    "loose_drop_ending": {
+      "passage": "You pry at the loose stones and the whole wall gives way at once. The chimney drops you into open air with a gasp. Wind whistles past and the spire shrinks above you. A single red ribbon spirals down beside your face as if seeing you off. The mountain keeps its secrets after all.",
+      "choices": [],
+      "ending": {
+        "title": "The Mountain's Toll",
+        "flavor": "The spire keeps every climber it has ever swallowed.",
+        "action": "let the wall crumble"
+      }
+    },
+    "silent_pilgrim_ending": {
+      "passage": "Stepping back from the gleam of gold, you bow your head. The wind softens around you, almost gentle. Climbing down feels easier somehow, as if the cliff itself is letting you go. The village will not have its crown, but you walk away with your life and a quiet heart.",
+      "choices": [],
+      "ending": {
+        "title": "The Empty-Handed Pilgrim",
+        "flavor": "Some treasures are heavier than they look from below.",
+        "action": "bow to the crown"
+      }
+    },
+    "empty_handed_ending": {
+      "passage": "Down the cliff you scramble, faster than you have ever moved. Behind you, the great roc circles its ruined nest, screaming for its lost gold. Your pockets hold nothing but a single coin and the memory of feathers and bone. The valley opens below. You will live to climb another day.",
+      "choices": [],
+      "ending": {
+        "title": "A Single Coin",
+        "flavor": "One copper buys a long life and a longer story.",
+        "action": "scramble for the ground"
+      }
+    },
+    "crowned_ending": {
+      "passage": "Tucking the crown against your ribs, you plunge into the chimney with the roc's claws an inch behind. The crack swallows you, the bird cannot follow. Down and down you slide, scraped and bleeding, until your boots hit the valley floor. Above, the mother roc circles forever, hunting a thief already gone.",
+      "choices": [],
+      "ending": {
+        "title": "The Crown of Maelden",
+        "flavor": "The kingdom remembers your name when the gold is returned.",
+        "action": "dive into the crack"
+      }
+    },
+    "rider_ending": {
+      "passage": "Slowly, you hold the chick out toward the towering mother. Her shriek dies in her throat. She lowers her huge head and nudges the hatchling, then nudges you. When she spreads her wings and offers her back, you climb on. The two of you ride out into the wide blue together.",
+      "choices": [],
+      "ending": {
+        "title": "Rider of the Skyclaw",
+        "flavor": "Some bonds are forged in the moment a heart chooses trust.",
+        "action": "step onto her back"
+      }
+    },
+    "caught_ending": {
+      "passage": "Shielding the chick, you bolt for the rim. The mother is faster. One huge talon clamps around your shoulders and lifts you skyward. The chick squeaks in your arms. Below, the spire shrinks, and ahead, the eyrie of legend rises higher than any cliff you have ever known. There is no climbing down from here.",
+      "choices": [],
+      "ending": {
+        "title": "The Captive of the Eyrie",
+        "flavor": "High above the clouds, a strange new life begins.",
+        "action": "shield the chick"
+      }
+    }
+  }
+}

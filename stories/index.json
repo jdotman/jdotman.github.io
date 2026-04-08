@@ -315,6 +315,15 @@
     "dayOfYear": "05-07"
   },
   {
+    "id": "a4f2c8e1-9d3b-4f7e-b6c5-1e0a8d3f2b9c",
+    "title": "The Skyclaw Eyrie",
+    "description": "A great roc has stolen the Crown of Maelden and carried it to its nest atop a wind-blasted spire. You have until midday to climb up and back down.",
+    "tags": ["treasure-hunt", "escape"],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-08",
+    "dayOfYear": "05-08"
+  },
+  {
     "id": "test-story",
     "title": "Test Story",
     "description": "A minimal test story with one passage and two endings.",
