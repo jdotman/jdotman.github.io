@@ -324,6 +324,15 @@
     "dayOfYear": "05-08"
   },
   {
+    "id": "5d8a3f1c-7e2b-4a9d-b6c4-1f8e2d5a7c3b",
+    "title": "The Quiet Springs",
+    "description": "A mountain bathhouse where pilgrims and nobles soak in uneasy peace. Tonight, a brass cup of pale tea is meant for a woman in a green robe.",
+    "tags": ["slice-of-life", "mystery"],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-09",
+    "dayOfYear": "05-09"
+  },
+  {
     "id": "test-story",
     "title": "Test Story",
     "description": "A minimal test story with one passage and two endings.",
