@@ -1,0 +1,194 @@
+{
+  "id": "f8c3d1a6-4b29-4e7d-a3f5-9e1c2b8d6f4a",
+  "title": "The Sleeping Court",
+  "description": "An entire court sleeps mid-feast in a cursed castle, and no one has woken for forty years. You are here for the Ember Ring on the king's hand.",
+  "author": "AI",
+  "tags": ["stealth", "eerie"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-05-13",
+  "dayOfYear": "05-13",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "The castle gates hang open. No guards, no torches, no sound at all. Moonlight falls across the courtyard where armored figures stand frozen mid-stride, their eyes shut. Ahead, tall doors lead to the great hall. A rusted side gate hangs in the east wall, and past it a cracked window glows with kitchen fire. The curse of Ashenmere is real. The Ember Ring waits inside.",
+      "choices": [
+        { "label": "enter the great hall", "nextNode": "feast-hall", "hint": "The tall doors are already ajar and warm air leaks through the gap." },
+        { "label": "try the side gate", "nextNode": "courtyard", "hint": "Rust flakes from the hinges as you ease the gate open." },
+        { "label": "find the window", "nextNode": "kitchen", "hint": "A low window on the east wall is cracked just enough to climb through." }
+      ]
+    },
+    "feast-hall": {
+      "passage": "Hundreds of nobles sit at long tables, heads bowed over plates of food that never spoils. Candle flames hover in place, frozen between flickers. A woman near the head table clutches a wine cup so tight her knuckles are white. The far end opens into a gallery, but reaching it means threading a maze of chairs and outstretched arms. One wrong bump changes everything.",
+      "choices": [
+        { "label": "step over the sleepers", "nextNode": "gallery", "hint": "Your boot brushes a sleeve but the figure does not stir." },
+        { "label": "grab the silver goblet", "nextNode": "goblet-loss", "hint": "The metal is warm and heavier than it looks." },
+        { "label": "crawl under the tables", "nextNode": "under-tables", "hint": "The tablecloth drapes low enough to hide your path." }
+      ]
+    },
+    "courtyard": {
+      "passage": "Weeds split the flagstones. A knight stands near the well, one hand on the bucket rope, face caught in alarm. Beyond him a passage leads to the servants' quarters. A stair climbs to a balcony above the great hall, and an archway on the far side opens into the gallery. The knight's blade is half-drawn. Whatever struck this place, it struck fast.",
+      "choices": [
+        { "label": "take the stair", "nextNode": "balcony", "hint": "The steps groan under your weight but hold firm enough." },
+        { "label": "duck into the passage", "nextNode": "kitchen", "hint": "A faint smell of bread drifts from somewhere ahead." },
+        { "label": "cross to the gallery", "nextNode": "gallery", "hint": "The courtyard is wide and open and every footstep feels exposed." }
+      ]
+    },
+    "kitchen": {
+      "passage": "Flour hangs in the air, freshly thrown. A cook leans over a pot of stew, ladle raised, mouth open as if tasting. Rats perch motionless on the shelves. Past the hearth a narrow door leads deeper into the castle. The stew steams. The cook's face is twisted in a smile that does not reach her eyes.",
+      "choices": [
+        { "label": "go through the door", "nextNode": "servants-corridor", "hint": "The passage beyond is tight and smells of damp earth." },
+        { "label": "taste the stew", "nextNode": "cursed-taste", "hint": "The broth smells rich and your stomach aches from the road." },
+        { "label": "head back outside", "nextNode": "courtyard", "hint": "Fresh air pulls at you through the window you climbed." }
+      ]
+    },
+    "goblet-loss": {
+      "passage": "The goblet scrapes against the table as you lift it. A sound like a struck bell rings through the hall. Every sleeping figure shifts at once, a rustle of silk and armor. The woman at the head table opens one eye. Milky white and blind, it tracks you perfectly. Chairs creak as bodies begin to stir.",
+      "choices": [
+        { "label": "drop the goblet", "nextNode": "gallery", "hint": "It clatters to the floor and the stirring slowly fades to stillness." },
+        { "label": "shove past the crowd", "nextNode": "sleeper-ending", "hint": "Hands grab at your cloak as you push through the waking bodies." }
+      ]
+    },
+    "under-tables": {
+      "passage": "The tablecloth brushes your back as you crawl beneath the long table. Boots and hems surround you, perfectly calm. A sleeping child peers at you from under a chair, thumb in mouth, eyes shut. Past the final bench the gallery entrance waits, a tall archway framed by twin suits of armor with empty visors. The child's lips move without sound.",
+      "choices": [
+        { "label": "inch toward the archway", "nextNode": "gallery", "hint": "Your elbows ache by the time you reach open floor." },
+        { "label": "wake the child", "nextNode": "gallery", "hint": "Green eyes open and a tiny finger points toward the gallery, then closes." }
+      ]
+    },
+    "cursed-taste": {
+      "passage": "Warmth floods your chest the moment the broth touches your lips. Your fingers go heavy. The ladle slips from your grip and your knees begin to buckle. The cook's frozen smile seems wider now. Sleep presses against the back of your eyes like a wool blanket, and the floor rises gently to meet you. The stew is not meant for the living.",
+      "choices": [],
+      "ending": {
+        "title": "The Long Rest",
+        "flavor": "The curse does not care who you are or why you came.",
+        "action": "close your eyes"
+      }
+    },
+    "sleeper-ending": {
+      "passage": "Dozens of hands catch your arms, your legs, your cloak. The sleepers do not open their eyes. They pull you down gently, almost tenderly, as if welcoming an old friend. The feast hall swallows you in a press of bodies and calm. Your mouth opens to scream but no sound comes. The hush is absolute and final.",
+      "choices": [],
+      "ending": {
+        "title": "Welcome to the Feast",
+        "flavor": "There is always room for one more at the table.",
+        "action": "join the sleepers"
+      }
+    },
+    "balcony": {
+      "passage": "The balcony runs along the upper wall of the great hall. Below, the frozen feast stretches out like a painting. Stairs at the far end descend toward the gallery. Near the railing, a figure in robes sits in a high-backed chair. Unlike every other body in this castle, this one is breathing. Amber eyes catch the moonlight. A carved door behind the figure leads onward.",
+      "choices": [
+        { "label": "approach the figure", "nextNode": "sorcerer-encounter", "hint": "Each step closer reveals silver rings, thin hands, and a patient smile." },
+        { "label": "sneak past to the stairs", "nextNode": "gallery", "hint": "You press flat against the wall and slide toward the far stair." },
+        { "label": "climb down to the hall", "nextNode": "feast-hall", "hint": "The drop is farther than it looks but a tapestry might slow the fall." }
+      ]
+    },
+    "servants-corridor": {
+      "passage": "The passage bends twice before opening into a hallway lined with doors. Each room holds a sleeping servant caught mid-task: folding linens, polishing boots, carrying trays. A staircase at the far end climbs toward the upper floors. In the nearest room a maid clutches a note bearing a wax seal you do not recognize.",
+      "choices": [
+        { "label": "ascend the staircase", "nextNode": "gallery", "hint": "The treads creak under you but the sleepers do not stir." },
+        { "label": "read the note", "nextNode": "hidden-passage", "hint": "The wax seal crumbles as you unfold the brittle paper." }
+      ]
+    },
+    "sorcerer-encounter": {
+      "passage": "Amber eyes watch you from the chair. The sorcerer does not stand. He speaks in a voice like dry parchment, asking why you walk where all others sleep. His fingers drum the armrest in a rhythm that matches the pulse in the floor. The Ember Ring, he says, is not a treasure. It is a lock. He waits for your answer.",
+      "choices": [
+        { "label": "demand the truth", "nextNode": "sorcerer-truth", "hint": "His smile falters when you step into arm's reach." },
+        { "label": "attack him", "nextNode": "sorcerer-fight", "hint": "Your hand finds a weapon before the thought fully forms." },
+        { "label": "leave him alone", "nextNode": "gallery", "hint": "His quiet laughter follows you down the stairs and into the hall." }
+      ]
+    },
+    "sorcerer-truth": {
+      "passage": "The sorcerer speaks slowly, choosing each word. He says the king found a rift beneath the castle forty years ago, a wound that pours out creatures from elsewhere. The spell is not a curse. It is a wall. The king chose sleep for his court rather than let the rift spread. The Ember Ring powers the seal. Without it, the rift opens.",
+      "choices": [
+        { "label": "offer to help", "nextNode": "lower-halls", "hint": "The sorcerer nods once and opens a door you did not see before." },
+        { "label": "refuse and leave", "nextNode": "gallery", "hint": "His face falls but he does not try to stop you." }
+      ]
+    },
+    "sorcerer-fight": {
+      "passage": "The sorcerer raises one hand. Your legs lock and your arms drop to your sides. He does not look angry, only tired. He says he is sorry but he cannot let you reach the throne. Numbness climbs your spine. He tells you to sleep and promises it will not hurt. He keeps that promise.",
+      "choices": [],
+      "ending": {
+        "title": "The Sorcerer's Mercy",
+        "flavor": "He means well, in the end.",
+        "action": "surrender to the spell"
+      }
+    },
+    "gallery": {
+      "passage": "A gallery stretches between walls of painted portraits, each face seeming to track you as you pass. The farthest shows the current king wearing a ring that burns red even in paint. Carved doors stand ajar at the end. A tapestry billows near the far wall though no breeze stirs. Something beyond the doors smells of iron.",
+      "choices": [
+        { "label": "push through the doors", "nextNode": "throne-room", "hint": "The carved wood is heavy and scrapes against the marble floor." },
+        { "label": "check behind the tapestry", "nextNode": "hidden-passage", "hint": "The fabric ripples near the floor though there is no breeze." }
+      ]
+    },
+    "hidden-passage": {
+      "passage": "A narrow passage leads downward in a tight spiral. The walls are rough-cut and far older than the castle above. Scratch marks line the walls at waist height, dozens of them, as if someone keeps count. The passage splits: one branch slopes toward a faint gleam below, the other rises toward the floor above. Something has been scratching back.",
+      "choices": [
+        { "label": "follow the gleam", "nextNode": "lower-halls", "hint": "The air grows warmer and hums with a sound like a plucked string." },
+        { "label": "rise to the throne room", "nextNode": "throne-room", "hint": "Loose pebbles shift beneath your feet as you climb." }
+      ]
+    },
+    "lower-halls": {
+      "passage": "The passage opens into a vaulted chamber beneath the foundations. A crack in the floor pulses with amber glow and the air hums like a taut wire. Chains run from bolts in the walls down into the fissure, pulled tight by something below. A ritual circle is etched near the edge, symbols still bright. The shaft behind you leads back up.",
+      "choices": [
+        { "label": "strengthen the seal", "nextNode": "guardian-ending", "hint": "The symbols flare when you kneel beside the circle." },
+        { "label": "return to the throne room", "nextNode": "throne-room", "hint": "A shaft of pale moonlight marks the way up." }
+      ]
+    },
+    "guardian-ending": {
+      "passage": "The circle responds to your touch. Warmth floods through the symbols and the chains pull tight, drawing whatever lurks below deeper into the fissure. The amber hum steadies to a low drone. Above, a collective sigh ripples through the castle as hundreds of sleepers settle deeper. The seal holds. The Ember Ring stays on the king's hand. You walk out into the dawn, empty-handed but certain.",
+      "choices": [],
+      "ending": {
+        "title": "The Keeper's Silence",
+        "flavor": "Some treasures are better left where they lie.",
+        "action": "walk into the dawn"
+      }
+    },
+    "throne-room": {
+      "passage": "Carved doors swing inward without a sound. The throne room stretches wide beneath a ceiling painted with faded stars. The king sits at the far end, chin resting on his chest, the Ember Ring burning faintly on his right hand. A war hound the size of a pony lies at the base of the throne. Even in sleep, its lip curls back over long teeth.",
+      "choices": [
+        { "label": "walk to the throne", "nextNode": "kings-side", "hint": "Each step on the marble floor echoes louder than the last." },
+        { "label": "call out to the king", "nextNode": "speak-king", "hint": "Your voice cracks the hush like a thrown stone." },
+        { "label": "search beneath the throne", "nextNode": "lower-halls", "hint": "A faint gleam leaks from between the flagstones below the seat." }
+      ]
+    },
+    "kings-side": {
+      "passage": "The king's face is weathered and kind even in sleep. His breath comes slow, one exhale every ten heartbeats. The Ember Ring sits loose on his finger, its red glow pulsing in time with the hum below the floor. Taking it looks simple. A gentle pull. But the hound's ear flicks behind you and the king's brow tightens as if he senses you near.",
+      "choices": [
+        { "label": "slide the ring free", "nextNode": "ring-taken", "hint": "The metal resists for a moment, then gives with a faint click." },
+        { "label": "address the king", "nextNode": "speak-king", "hint": "Your voice comes out as barely more than a whisper." },
+        { "label": "back away", "nextNode": "guardian-ending", "hint": "Something in the king's face tells you this is not yours to take." }
+      ]
+    },
+    "speak-king": {
+      "passage": "Your voice fills the throne room. The king's eyes open slowly, pale blue, heavy with decades of enchanted rest. He looks at you and understanding crosses his face. He whispers that the ring must stay. The rift below is wide enough to swallow the kingdom if the seal breaks. He asks whether you come to save or to steal.",
+      "choices": [
+        { "label": "vow to protect the seal", "nextNode": "guardian-ending", "hint": "The king's eyes soften and he nods once before closing them." },
+        { "label": "seize the ring", "nextNode": "ring-taken", "hint": "His eyes widen as your hand closes around the band." }
+      ]
+    },
+    "ring-taken": {
+      "passage": "The ring slides off with a faint click. Red fire floods the room and then dies. Silence. For three heartbeats, nothing happens. Then the hound's eyes snap open, golden and fixed on you. A tremor runs through the floor. Chains groan below. Every sleeper in the castle draws a sharp breath at once. Something ancient begins to stir beneath the foundations.",
+      "choices": [
+        { "label": "run for the gates", "nextNode": "escape-ending", "hint": "Your legs burn as you sprint through the waking castle." },
+        { "label": "put the ring back", "nextNode": "ring-returned", "hint": "Your fingers tremble as you force the band toward his hand." }
+      ]
+    },
+    "escape-ending": {
+      "passage": "The castle erupts behind you as you crash through the gates. Screams rise from the feast hall and the hound howls somewhere in the rubble. The ground shakes as the rift splits wider beneath the foundation. Ashenmere crumbles. You clutch the Ember Ring and run without stopping. Its warmth fades in your palm. Whatever it holds shut is open now. The road ahead is dim.",
+      "choices": [],
+      "ending": {
+        "title": "The Broken Seal",
+        "flavor": "Freedom always costs someone.",
+        "action": "flee into the night"
+      }
+    },
+    "ring-returned": {
+      "passage": "The trembling stops the instant the ring clicks back into place. The hound settles. The sleepers exhale and sink deeper into their enchanted rest. The red shimmer steadies to its soft rhythm. You stand in the throne room, empty-handed, understanding at last what this place is. Not a prison. A shield. The king's lips move and form two words: thank you.",
+      "choices": [],
+      "ending": {
+        "title": "The True Treasure",
+        "flavor": "Mercy is the only wealth that grows when given away.",
+        "action": "bow to the king"
+      }
+    }
+  }
+}

@@ -46,7 +46,7 @@ You are standing in a great hall where the ceiling is painted to look like the n
 The passage opens into a room that was once a prison. The cells are open and the chains hang slack but the walls are covered in tally marks.
 You enter an armory where the weapons are arranged by era. The oldest blades are stone, then bronze, then iron, and the newest rack stands empty.
 The tunnel leads to a natural hot spring deep underground. Steam fills the cavern and the water glows a faint and unsettling shade of blue.
-You are at the top of a bell tower. The bell has cracked and hangs at an angle. The city visible below is dark and completely silent.
+You are at the top of a bell tower where the cracked bell hangs at an angle. The city visible below is dark and completely silent.
 The chamber is dominated by a massive loom strung with threads of gold and silver. A half-finished tapestry shows a battle that has not happened yet.
 You stand in a courtyard where a tree of white stone grows from a crack in the floor. Its branches bear fruit made of crystal that chimes in the wind.
 The corridor ends at a balcony overlooking an underground river that flows through a canyon of black rock. A boat is tied to the railing below you.

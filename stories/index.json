@@ -360,6 +360,15 @@
     "dayOfYear": "05-12"
   },
   {
+    "id": "f8c3d1a6-4b29-4e7d-a3f5-9e1c2b8d6f4a",
+    "title": "The Sleeping Court",
+    "description": "An entire court sleeps mid-feast in a cursed castle, and no one has woken for forty years. You are here for the Ember Ring on the king's hand.",
+    "tags": ["stealth", "eerie"],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-13",
+    "dayOfYear": "05-13"
+  },
+  {
     "id": "test-story",
     "title": "Test Story",
     "description": "A minimal test story with one passage and two endings.",
