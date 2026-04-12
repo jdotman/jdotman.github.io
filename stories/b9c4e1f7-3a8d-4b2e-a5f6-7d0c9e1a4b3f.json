@@ -4,7 +4,7 @@
   "description": "Two rival mercenary captains both claim your sworn service in a border town too small for their feud. Night is falling and steel is being drawn.",
   "author": "AI",
   "tags": ["conflict", "negotiation"],
-  "estimatedMinutes": 10,
+  "estimatedMinutes": 12,
   "dateGenerated": "2026-04-21",
   "dayOfYear": "04-21",
   "startNode": "intro",

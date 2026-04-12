@@ -4,7 +4,7 @@
   "description": "A goblin horde surrounds the border fort of Redwall and the garrison is half strength. You must hold the walls until dawn or the entire valley falls.",
   "author": "AI",
   "tags": ["conflict", "diplomacy"],
-  "estimatedMinutes": 10,
+  "estimatedMinutes": 12,
   "dateGenerated": "2026-04-25",
   "dayOfYear": "04-25",
   "startNode": "intro",

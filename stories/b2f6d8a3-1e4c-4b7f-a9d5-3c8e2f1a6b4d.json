@@ -4,7 +4,7 @@
   "description": "A traveling minstrel challenges you to a contest of wits in a rowdy tavern. The stakes are higher than they seem and every patron has an opinion.",
   "author": "AI",
   "tags": ["slice-of-life", "negotiation"],
-  "estimatedMinutes": 10,
+  "estimatedMinutes": 12,
   "dateGenerated": "2026-04-19",
   "dayOfYear": "04-19",
   "startNode": "intro",

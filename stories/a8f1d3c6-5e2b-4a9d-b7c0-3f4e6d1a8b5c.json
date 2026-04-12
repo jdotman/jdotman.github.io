@@ -4,7 +4,7 @@
   "description": "The merchant prince keeps a stolen relic locked beneath his manor. Tonight, during the masquerade, is your only chance to take it back.",
   "author": "AI",
   "tags": ["treasure-hunt", "conflict"],
-  "estimatedMinutes": 10,
+  "estimatedMinutes": 12,
   "dateGenerated": "2026-04-08",
   "dayOfYear": "04-08",
   "startNode": "intro",

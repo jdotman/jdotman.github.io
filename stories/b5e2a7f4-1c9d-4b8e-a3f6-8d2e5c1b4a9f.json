@@ -4,7 +4,7 @@
   "description": "A cell beneath a dark temple. The chanting above grows louder and midnight is close. You have one chance to escape before the ritual begins.",
   "author": "AI",
   "tags": ["eerie", "escape"],
-  "estimatedMinutes": 10,
+  "estimatedMinutes": 12,
   "dateGenerated": "2026-04-12",
   "dayOfYear": "04-12",
   "startNode": "intro",

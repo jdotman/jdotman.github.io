@@ -4,7 +4,7 @@
   "description": "You wake in a dungeon cell with no memory of your crime. The guards are gone, the torches are dying, and somewhere below the floor something is digging upward.",
   "author": "AI",
   "tags": ["escape", "mystery"],
-  "estimatedMinutes": 10,
+  "estimatedMinutes": 12,
   "dateGenerated": "2026-04-23",
   "dayOfYear": "04-23",
   "startNode": "intro",

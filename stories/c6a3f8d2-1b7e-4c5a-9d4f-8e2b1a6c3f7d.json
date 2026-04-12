@@ -4,7 +4,7 @@
   "description": "A beast stalks the farmsteads around Grayhollow village. The hunters who went after it came back changed. Now it is your turn to enter the fog.",
   "author": "AI",
   "tags": ["conflict", "mystery"],
-  "estimatedMinutes": 10,
+  "estimatedMinutes": 12,
   "dateGenerated": "2026-04-22",
   "dayOfYear": "04-22",
   "startNode": "intro",

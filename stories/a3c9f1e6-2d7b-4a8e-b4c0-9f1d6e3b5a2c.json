@@ -4,7 +4,7 @@
   "description": "The lich Mordavain has slept in his sealed barrow for four centuries and no treasure hunter who has entered has ever returned. You are carrying better information than the others. That may or may not be enough.",
   "author": "AI",
   "tags": ["eerie", "treasure-hunt"],
-  "estimatedMinutes": 10,
+  "estimatedMinutes": 12,
   "dateGenerated": "2026-04-11",
   "startNode": "intro",
   "nodes": {

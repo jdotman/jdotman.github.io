@@ -4,7 +4,7 @@
   "description": "A wyvern has claimed the mountain pass and the kingdom's trade road lies silent. You carry a diplomat's seal and orders to negotiate, not fight.",
   "author": "AI",
   "tags": ["diplomacy", "negotiation"],
-  "estimatedMinutes": 10,
+  "estimatedMinutes": 12,
   "dateGenerated": "2026-04-15",
   "dayOfYear": "04-15",
   "startNode": "intro",

@@ -4,7 +4,7 @@
   "description": "A sorcerer's tower only appears during thunderstorms. Your crew has one night to climb it, steal the Heartstone, and escape before the lightning stops.",
   "author": "AI",
   "tags": ["treasure-hunt", "escape"],
-  "estimatedMinutes": 10,
+  "estimatedMinutes": 12,
   "dateGenerated": "2026-04-18",
   "dayOfYear": "04-18",
   "startNode": "intro",

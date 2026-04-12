@@ -4,7 +4,7 @@
   "description": "Your ship has broken apart on a wild coast and the storm is not finished with you. Survival is one thing - finding a way home is another.",
   "author": "AI",
   "tags": ["escape", "exploration"],
-  "estimatedMinutes": 10,
+  "estimatedMinutes": 12,
   "dateGenerated": "2026-04-06",
   "dayOfYear": "04-06",
   "startNode": "intro",

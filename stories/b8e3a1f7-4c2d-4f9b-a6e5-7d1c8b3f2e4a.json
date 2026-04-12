@@ -1,0 +1,184 @@
+{
+  "id": "b8e3a1f7-4c2d-4f9b-a6e5-7d1c8b3f2e4a",
+  "title": "The Anvil Trial",
+  "description": "The Forge Fair has come to Dunmere and the master smiths are watching. You are the youngest apprentice to enter the Anvil Trial in twenty years.",
+  "author": "AI",
+  "tags": ["crafting", "competition"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-05-16",
+  "dayOfYear": "05-16",
+  "endingCount": 6,
+  "storyNumber": 44,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Smoke and the ring of hammers fill the air at Dunmere Forge Fair. Twelve stations stand in a half-circle around the judging platform, each fitted with an anvil, a bellows, and a quench bucket. The trial master raises a brass horn. One blade. One chance. Only one apprentice earns the master's mark today.",
+      "choices": [
+        { "label": "inspect your station", "nextNode": "inspect-station", "hint": "The tools look old but the anvil has a fresh face." },
+        { "label": "browse the ore yard", "nextNode": "ore-yard", "hint": "Iron bars stand in racks sorted by weight and color." },
+        { "label": "talk to the old smith", "nextNode": "old-smith", "hint": "He watches from a bench with scarred hands resting on his knees." }
+      ]
+    },
+    "inspect-station": {
+      "passage": "Your station is third from the left. The anvil rings true when you tap it, but one of the tongs has a hairline crack near the jaw. A cracked tong can slip mid-swing and ruin a piece. Kael, the tall apprentice at the next station, glances over and smirks. His tools gleam like they were chosen first.",
+      "choices": [
+        { "label": "swap the tongs", "nextNode": "trial-begins", "hint": "You find a solid pair on the spare rack behind the stations." },
+        { "label": "keep working", "nextNode": "trial-begins", "hint": "The crack is small. You decide to trust your grip." }
+      ]
+    },
+    "ore-yard": {
+      "passage": "Bars of iron and copper fill the racks behind the stations. Most apprentices grab the nearest piece, but a dull blue bar catches your eye near the bottom shelf. The metal has a faint shimmer that standard iron never shows. An older apprentice named Sera reaches for it at the same moment you do.",
+      "choices": [
+        { "label": "take the blue bar", "nextNode": "trial-begins", "hint": "Sera steps back with a nod. The metal is heavier than it looks." },
+        { "label": "grab standard iron", "nextNode": "trial-begins", "hint": "Safe and familiar. You know exactly how iron behaves in the fire." }
+      ]
+    },
+    "old-smith": {
+      "passage": "A weathered man sits on a bench at the edge of the grounds. His hands are mapped with burn scars and his leather apron is worn to nothing at the knees. He watches each apprentice with the same steady gaze. When your eyes meet, he lifts a calloused finger and beckons. Something about his expression says he has done this before.",
+      "choices": [
+        { "label": "sit beside him", "nextNode": "trial-begins", "hint": "He speaks quietly, his voice rough as grinding stone on steel." },
+        { "label": "wave and turn back", "nextNode": "trial-begins", "hint": "His gaze follows you all the way to your station." }
+      ]
+    },
+    "trial-begins": {
+      "passage": "The brass horn sounds. Twelve apprentices take their places and the crowd presses forward against the rope line. Heat rises from the forge pits in waves. The trial master calls the rules: one blade, any style, judged on edge, balance, and finish. Sundown. No second chances. Kael is already pumping his bellows before the echo fades.",
+      "choices": [
+        { "label": "stoke the fire high", "nextNode": "first-heat", "hint": "Coals glow white as you work the bellows with both arms." },
+        { "label": "study your metal", "nextNode": "stranger-tip", "hint": "The bar is cool in your hands. You turn it, looking for grain." }
+      ]
+    },
+    "stranger-tip": {
+      "passage": "A woman leans over the rope at your station. Soot marks her cheeks and her apron carries the smell of quenching oil. She is no spectator. Her eyes fix on the metal in your hands and she speaks low enough that the crowd covers her words. Let the steel remember the fire, she says. Do not rush it.",
+      "choices": [
+        { "label": "heed her advice", "nextNode": "first-heat", "hint": "You nod. She disappears into the crowd without another word." },
+        { "label": "ignore the stranger", "nextNode": "first-heat", "hint": "You turn back to your forge. The fire is already low." }
+      ]
+    },
+    "first-heat": {
+      "passage": "Flames curl around the metal as you feed the coals. The bar starts black, shifts to cherry red, then brightens toward orange. Sweat runs down your arms. At the station beside you, Kael's hammer is already ringing - he pulled his piece early. Across the grounds, two apprentices argue over a shared trough.",
+      "choices": [
+        { "label": "pull at orange heat", "nextNode": "shaping", "hint": "The metal sings as you lift it from the coals to the anvil." },
+        { "label": "wait for white heat", "nextNode": "bellows-break", "hint": "You pump harder and the bellows groan under the growing strain." },
+        { "label": "match Kael's pace", "nextNode": "shaping", "hint": "If he can shape at cherry, so can you. Pride stiffens your jaw." }
+      ]
+    },
+    "bellows-break": {
+      "passage": "The leather bellows splits with a dry crack. Air hisses out through the torn seam and your fire starts to die. The metal in the coals is almost ready but losing heat fast. Three stations away, a young smith works with a spare pair she clearly brought herself. Nobody else seems to notice your trouble.",
+      "choices": [
+        { "label": "patch the bellows", "nextNode": "shaping", "hint": "You strip a leather tie from your apron and bind the seam tight." },
+        { "label": "ask the young smith", "nextNode": "shaping", "hint": "She looks up, hesitates, then slides her spare pair across the ground." }
+      ]
+    },
+    "shaping": {
+      "passage": "Metal meets anvil. Each strike sends a bright spark arcing into the smoky air. The blade takes form under your hammer - flat, then tapered, then edged. The rhythm comes naturally once you stop thinking and start listening. Somewhere behind you a piece clatters to the floor. One more apprentice out. The crowd murmurs.",
+      "choices": [
+        { "label": "refine the edge", "nextNode": "fine-work", "hint": "You angle the hammer for thin, precise strikes along the blade's lip." },
+        { "label": "finish quickly", "nextNode": "rough-finish", "hint": "Time is burning. You shape the tang and move to quenching." },
+        { "label": "check rival's progress", "nextNode": "fine-work", "hint": "Kael's blade gleams on his anvil. It looks almost done already." }
+      ]
+    },
+    "fine-work": {
+      "passage": "The blade narrows to a clean taper under careful strikes. You sight down the edge and the line runs true. Good. But when you flip the piece, a faint ripple catches the firelight - a fold in the steel you miss during the first passes. Fixing it means reheating. Ignoring it means the judges might see it.",
+      "choices": [
+        { "label": "reheat and fix", "nextNode": "sabotage", "hint": "You thrust the blade back into the coals. Time ticks away." },
+        { "label": "move to quenching", "nextNode": "final-quench", "hint": "The fold is small. You decide to take your chances with the judges." }
+      ]
+    },
+    "rough-finish": {
+      "passage": "The blade is crude but solid. The edge is uneven and the tang could use more shaping, but sundown is coming and three more apprentices have already walked to the quench trough. You wipe your forehead. Kael catches your eye across the grounds and taps his finished blade against the anvil. Twice. Slowly.",
+      "choices": [
+        { "label": "force the quench", "nextNode": "ending-shattered", "hint": "No time to think. You grab the blade and plunge it in." },
+        { "label": "try one more pass", "nextNode": "final-quench", "hint": "You lift the hammer again. One clean stroke could save the edge." }
+      ]
+    },
+    "sabotage": {
+      "passage": "Back at the coals, something catches your eye. Fresh file marks run along the base of your blade - marks that are not yours. The tang is scraped thin in a spot you never touch. It will snap under any real stress. Kael's station sits closest to yours and his file rests in plain view, still warm.",
+      "choices": [
+        { "label": "confront Kael", "nextNode": "confront-rival", "hint": "You grip the filed blade and step toward his station." },
+        { "label": "tell the judges", "nextNode": "report-judges", "hint": "The trial master stands on the platform, watching the final hour." }
+      ]
+    },
+    "confront-rival": {
+      "passage": "Kael turns when you hold up the filed blade. His eyes drop to the marks, then back to your face. He does not flinch. That is not my work, he says. Check the file. The handle is wrapped in red cord - Kael's tools are all bound in black leather. Someone wants both of you to fail.",
+      "choices": [
+        { "label": "hunt the saboteur", "nextNode": "ending-partnership", "hint": "You turn to face Kael. His expression shifts from surprise to understanding." },
+        { "label": "accuse him anyway", "nextNode": "ending-accused", "hint": "You call for the judges. Kael's jaw tightens but he stands firm." }
+      ]
+    },
+    "report-judges": {
+      "passage": "The trial master descends from the platform and examines your blade under a jeweler's lens. She traces the file marks with a fingernail and frowns. This is deliberate, she says. The crowd goes quiet. She calls for every file at every station to be laid out for inspection. A hush falls over the entire forge ground.",
+      "choices": [
+        { "label": "wait for the ruling", "nextNode": "ending-respect", "hint": "You step back and let the trial master do her quiet, careful work." },
+        { "label": "name Kael outright", "nextNode": "ending-accused", "hint": "You point across the ground toward his station before you can stop yourself." }
+      ]
+    },
+    "final-quench": {
+      "passage": "The quench trough sits at the end of the row, the liquid murky with scale and soot from a dozen failed attempts. You hold the blade level and lower it slowly. Steam boils upward and for a long breath you cannot see the steel at all. The hiss fades. You lift the blade free. It holds.",
+      "choices": [
+        { "label": "present your blade", "nextNode": "present-work", "hint": "You wrap the tang and carry the blade to the judging table." },
+        { "label": "grind the edge sharp", "nextNode": "present-work", "hint": "A whetstone brings the final bite to the cutting edge." }
+      ]
+    },
+    "present-work": {
+      "passage": "The trial master calls time. You lay your blade on the judging table alongside four others - the rest have already failed or withdrawn. Kael's piece gleams at the far end, flawless and thin. The head judge runs a thumb along your edge and nods. She picks up Kael's blade next. A murmur ripples through the crowd.",
+      "choices": [
+        { "label": "stand for the verdict", "nextNode": "ending-champion", "hint": "You fold your arms. The work speaks for itself now." },
+        { "label": "yield to Kael", "nextNode": "ending-humble", "hint": "His blade is better. You know it. Honesty costs nothing." }
+      ]
+    },
+    "ending-champion": {
+      "passage": "The head judge holds your blade up to the fading sunlight. The edge catches a gleam and the crowd goes quiet. She announces your name. Master's mark. The brand is pressed into a leather cord and tied around your wrist while the forge fires burn low. Kael extends his hand. You take it.",
+      "choices": [],
+      "ending": {
+        "title": "The Master's Mark",
+        "flavor": "The forge remembers every honest strike.",
+        "action": "accept the brand"
+      }
+    },
+    "ending-humble": {
+      "passage": "You step back from the table. Kael's blade wins and the crowd cheers. The trial master finds you afterward, alone by the cooling embers. She says your blade shows something most apprentices take years to learn - restraint. She offers you a place in her own workshop, not as a champion, but as a student worth teaching.",
+      "choices": [],
+      "ending": {
+        "title": "Worth Teaching",
+        "flavor": "Sometimes the best blade is the one you chose not to swing.",
+        "action": "bow to the master"
+      }
+    },
+    "ending-partnership": {
+      "passage": "Together you trace the red-corded file to a third apprentice at station nine. She freezes when you hold up the evidence. The judges disqualify her on the spot. The trial master studies both your blades and declares a shared mark - the first in Dunmere's history. Kael grins. You find yourself grinning back.",
+      "choices": [],
+      "ending": {
+        "title": "Shared Steel",
+        "flavor": "The best alloys are never made alone.",
+        "action": "clasp hands with Kael"
+      }
+    },
+    "ending-accused": {
+      "passage": "The judges examine Kael's tools, then yours, then the filed blade. The red-corded file belongs to station nine - not Kael's. Your accusation crumbles. The trial master strips your entry for disrupting the trial. Kael says nothing as you walk past his station toward the gate. The crowd parts in silence. Your forge fire dies untended.",
+      "choices": [],
+      "ending": {
+        "title": "False Strike",
+        "flavor": "A blade aimed at the wrong target cuts only the hand that swings it.",
+        "action": "leave the grounds"
+      }
+    },
+    "ending-shattered": {
+      "passage": "The blade hits the trough and a sharp crack splits the air. Two halves of your work float in the murk, the quench too fast, the steel too hot. Around you, hammers stop. Kael looks over but says nothing. You set the broken pieces on the anvil and walk toward the gate without a word.",
+      "choices": [],
+      "ending": {
+        "title": "Broken Edge",
+        "flavor": "Some lessons cost more than others.",
+        "action": "set down the pieces"
+      }
+    },
+    "ending-respect": {
+      "passage": "The trial master reviews your claim. She finds the file marks, traces them to station nine, and pulls the apprentice from the trial. Your blade, reheated and reworked, places third. Not a master's mark, but the trial master grips your shoulder as the crowd scatters. You did right, she says. That matters more than steel.",
+      "choices": [],
+      "ending": {
+        "title": "The Honest Forge",
+        "flavor": "A blade is only as true as the hand that shapes it.",
+        "action": "accept her words"
+      }
+    }
+  }
+}

@@ -4,7 +4,7 @@
   "description": "A vast fungal cavern pulses with pale light beneath the Greymoor Hills. The herbalist who entered three days ago has not returned, and the glow is spreading to the surface.",
   "author": "AI",
   "tags": ["exploration", "eerie"],
-  "estimatedMinutes": 10,
+  "estimatedMinutes": 12,
   "dateGenerated": "2026-04-20",
   "dayOfYear": "04-20",
   "startNode": "intro",

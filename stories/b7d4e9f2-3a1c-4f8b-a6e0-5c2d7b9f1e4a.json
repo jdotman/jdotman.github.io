@@ -4,7 +4,7 @@
   "description": "A blizzard traps you on Greymount Pass with night falling fast. Every choice could mean warmth or a cold grave.",
   "author": "AI",
   "tags": ["conflict", "exploration"],
-  "estimatedMinutes": 10,
+  "estimatedMinutes": 12,
   "dateGenerated": "2026-04-13",
   "dayOfYear": "04-13",
   "startNode": "intro",

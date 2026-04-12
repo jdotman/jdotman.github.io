@@ -1,0 +1,229 @@
+{
+  "id": "d7f4a2c8-3e19-4b6d-a8f5-1c9e7b3d2a6f",
+  "title": "The Black Anchor",
+  "description": "Two merchant guilds arm for war over a sunken ship in Saltmere harbor. A black-hulled vessel sits at anchor, unnamed, and the harbormaster has vanished.",
+  "author": "AI",
+  "tags": ["intrigue", "conflict"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-05-15",
+  "dayOfYear": "05-15",
+  "endingCount": 5,
+  "storyNumber": 43,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Salt air bites your face as the ferry bumps against Saltmere dock. The harbor is split in two - Ironmark workers on the north pier stare down Coralhand fishers on the south wharf. Nobody moves cargo. Nobody speaks. A black-hulled ship sits at anchor in the bay, uncrewed and unnamed. The harbormaster's chair stands empty.",
+      "choices": [
+        { "label": "approach the north pier", "nextNode": "ironmark-pier", "hint": "Ironmark banners snap overhead as your boots hit the planks." },
+        { "label": "head to the south wharf", "nextNode": "coralhand-wharf", "hint": "The smell of brine and drying nets grows stronger with each step." },
+        { "label": "row to the black ship", "nextNode": "black-ship", "hint": "You untie a dinghy and pull hard against the harbor current." }
+      ]
+    },
+    "ironmark-pier": {
+      "passage": "Ironmark banners snap above stacked crates. A broad dockhand named Brenn leans against a winch, arms folded, watching the south wharf with narrowed eyes. Behind him, a warehouse door hangs ajar. The air here smells of iron filings and tar. Brenn's knuckles are raw, as if he has been hitting something - or someone - recently.",
+      "choices": [
+        { "label": "talk to Brenn", "nextNode": "brenn-talk", "hint": "He sizes you up with a long look before he speaks." },
+        { "label": "slip into the warehouse", "nextNode": "warehouse", "hint": "The door swings open without a sound. Nobody notices you enter." }
+      ]
+    },
+    "coralhand-wharf": {
+      "passage": "Fishing nets drape from wooden frames and a row of small boats rocks at their moorings. An old woman sits on an overturned hull, mending rope with fingers that move faster than her age allows. She looks up as you approach. Three Coralhand guards stand nearby, hands on cudgels. Brine and kelp thicken the air.",
+      "choices": [
+        { "label": "speak to the woman", "nextNode": "maren-talk", "hint": "She sets her rope aside and gestures for you to sit." },
+        { "label": "check the boats", "nextNode": "fishing-boats", "hint": "One of the smaller boats catches your eye near the end of the row." }
+      ]
+    },
+    "black-ship": {
+      "passage": "The rowboat knocks against a hull scarred by fire. Scorch marks streak upward from the waterline, as if something burned its way out from inside. A rope ladder dangles from the rail above. No voice answers your call. The vessel rocks in a rhythm that does not match the tide.",
+      "choices": [
+        { "label": "climb the ladder", "nextNode": "upper-deck", "hint": "The rope creaks under your weight as the hull sways beneath you." },
+        { "label": "circle the hull", "nextNode": "hull-marks", "hint": "You push off and drift along the waterline, eyes on the planks." }
+      ]
+    },
+    "brenn-talk": {
+      "passage": "Brenn spits over the railing and pulls a torn scrap of sailcloth from his belt. The fabric is dyed Coralhand blue. He says the Coralhand sank their trade ship and the proof is in the warehouse behind him. His voice carries. Ironmark workers drift toward the tavern at the dock's end, muttering about payback.",
+      "choices": [
+        { "label": "search the warehouse", "nextNode": "warehouse", "hint": "Brenn waves you through without looking away from the south wharf." },
+        { "label": "trail the workers", "nextNode": "tavern", "hint": "The crowd pushes through the tavern door with fists already clenched." }
+      ]
+    },
+    "warehouse": {
+      "passage": "Crates line every wall, stacked to the rafters. One lies open near the back - empty, but the straw packing reeks of sulfur. A sharp, burning smell that does not belong on a trade dock. Boot prints cross the floor toward a gap in the foundation. Through the loading door, the tavern sign swings in the wind.",
+      "choices": [
+        { "label": "trace the prints", "nextNode": "sulfur-trail", "hint": "The prints are deep, as if whoever made them carried something heavy." },
+        { "label": "cross to the tavern", "nextNode": "tavern", "hint": "Raised voices spill from the tavern door as you cross the dock." }
+      ]
+    },
+    "maren-talk": {
+      "passage": "Maren sets her rope aside and speaks low. She says neither guild sank the ship - someone wants Ironmark and Coralhand at each other's throats. The harbormaster found proof and fled. She taps the dock with one finger: the harbor office is still unlocked. If you need allies, she adds, try the tavern.",
+      "choices": [
+        { "label": "try the harbor office", "nextNode": "harbor-office", "hint": "The office door creaks when you push it. Dust motes spin in the air." },
+        { "label": "look for allies", "nextNode": "tavern", "hint": "Maren watches you go with something close to hope in her eyes." }
+      ]
+    },
+    "fishing-boats": {
+      "passage": "A small boat rocks at its mooring, rope burns scored deep into the cleats. Someone used it hard last night. Beneath the rowing bench, a coin catches the fading sun - stamped with a crest you do not recognize. Not Ironmark. Not Coralhand. Beyond the boats, the harbormaster's office stands with its door ajar.",
+      "choices": [
+        { "label": "study the coin", "nextNode": "night-trail", "hint": "The metal is warm from sitting in the sun all day." },
+        { "label": "walk to the office", "nextNode": "harbor-office", "hint": "The open door feels like an invitation no one else has noticed." }
+      ]
+    },
+    "upper-deck": {
+      "passage": "Charts litter the deck, pinned under broken glass. The captain's quarters stand open, log book spread on the table, the last entry half-written. A locked iron hatch leads below deck. Scratch marks ring the hatch as if something clawed to get out. The only sound is the creak of the mast above.",
+      "choices": [
+        { "label": "read the log", "nextNode": "captains-log", "hint": "The handwriting grows shaky toward the bottom of the page." },
+        { "label": "force the hatch", "nextNode": "below-deck", "hint": "The lock is rusted. A hard kick should do it." }
+      ]
+    },
+    "hull-marks": {
+      "passage": "Up close, the scorch marks tell a grim story. Burns run from inside the cargo hold outward, splitting planks like dry kindling. Whatever causes this is no lantern fire. Barnacles are scraped clean near the waterline in long parallel grooves. Something large has pulled itself from the hold and into the bay. The dock glimmers nearby.",
+      "choices": [
+        { "label": "scramble aboard", "nextNode": "upper-deck", "hint": "Your hands find the rail and you haul yourself over the side." },
+        { "label": "row to the dock", "nextNode": "tavern", "hint": "The oars feel heavier on the way back. Your mind races." }
+      ]
+    },
+    "tavern": {
+      "passage": "The Gull and Anchor sits on neutral ground between guild territories. Both sides drink here at separate tables, and the air crackles with held-back anger. The barkeep nods toward the back door and mutters about trouble in the alley. Through the front window, you spot Ironmark workers hauling crates into their warehouse at a run.",
+      "choices": [
+        { "label": "slip into the alley", "nextNode": "back-alley", "hint": "The back door scrapes the frame as you ease it open." },
+        { "label": "visit the warehouse", "nextNode": "warehouse", "hint": "Whatever they are moving, they are doing it fast and quiet." }
+      ]
+    },
+    "back-alley": {
+      "passage": "Stale air and fish guts fill the alley behind the tavern. A trapdoor sits beneath a pile of netting, its iron ring worn smooth by use. Raised voices echo from the docks - Ironmark and Coralhand are gathering, and someone is shouting. Night is falling. Whatever happens next starts in the next few minutes.",
+      "choices": [
+        { "label": "open the trapdoor", "nextNode": "tunnel-mouth", "hint": "The netting falls aside and the iron ring turns with a groan." },
+        { "label": "join the confrontation", "nextNode": "confront-guilds", "hint": "You round the corner and walk straight into a wall of angry faces." }
+      ]
+    },
+    "sulfur-trail": {
+      "passage": "Boot prints lead through the gap and down a set of rough-hewn steps. Sulfur thickens in the air with every stride. Torch brackets line the walls, recently lit. These are old smuggler tunnels running beneath the harbor, and someone has been using them. Voices echo from somewhere ahead, muffled and urgent.",
+      "choices": [
+        { "label": "follow the voices", "nextNode": "tunnel-mouth", "hint": "Each step takes you deeper. The air grows warm and bitter." },
+        { "label": "go back and warn", "nextNode": "back-alley", "hint": "You turn and climb the steps two at a time." }
+      ]
+    },
+    "night-trail": {
+      "passage": "Worn into the coin is a crest you recognize - House Duskmoore, a mainland family with no trade business in Saltmere. You pocket it and study the rope burns on the cleats. They point across the bay toward the black ship. Someone travels between shore and vessel under cover of night. The harbor office may hold answers.",
+      "choices": [
+        { "label": "visit the office", "nextNode": "harbor-office", "hint": "The coin sits heavy in your pocket as you cross the wharf." },
+        { "label": "cut through the alley", "nextNode": "back-alley", "hint": "A narrow lane between two fish shacks leads behind the tavern." }
+      ]
+    },
+    "captains-log": {
+      "passage": "Ink trails off the page where the pen rests, abandoned mid-word. The log names this vessel the Blackthorn, hired by House Duskmoore to deliver alchemical fire to Saltmere. The final entry reads: 'The hold is breached. It is loose. We abandon ship.' A chart beneath the book marks a tunnel entrance under the north pier.",
+      "choices": [
+        { "label": "find the tunnel", "nextNode": "tunnel-mouth", "hint": "The chart shows the entrance is hidden beneath a trapdoor on shore." },
+        { "label": "search the harbor office", "nextNode": "harbor-office", "hint": "House Duskmoore. The harbormaster must have known about this." }
+      ]
+    },
+    "below-deck": {
+      "passage": "Hinges scream as the hatch swings open. The cargo hold is gutted - crates smashed, contents gone. Claw marks score the timbers in long grooves. Glass jars lie shattered, trailing green residue that burns your nostrils. A ragged hole in the hull opens to a channel beneath the pier. Beyond it, the harbormaster's office looms at the dock's edge.",
+      "choices": [
+        { "label": "crawl through the hole", "nextNode": "tunnel-mouth", "hint": "Frigid water laps at your knees as you squeeze through the breach." },
+        { "label": "swim to the office", "nextNode": "harbor-office", "hint": "The channel is narrow but the office pilings are within reach." }
+      ]
+    },
+    "harbor-office": {
+      "passage": "Ledgers cover the desk in messy stacks. A half-eaten meal sits beside an open inkwell, the bread still soft. One ledger lies apart from the rest, its spine cracked to a page marked with a dried flower. A coded note is pinned beneath it. The handwriting is shaky and rushed, as if written in fear.",
+      "choices": [
+        { "label": "flip through the ledger", "nextNode": "read-ledger", "hint": "The marked page falls open the moment you lift the cover." },
+        { "label": "decode the note", "nextNode": "coded-note", "hint": "The cipher is short. The dried flower might be a key." }
+      ]
+    },
+    "read-ledger": {
+      "passage": "Three shipments of alchemical fire fill the marked page, all routed through smuggler tunnels and ordered by a House Duskmoore agent. A circle rings the final entry with one word in the margin: tonight. A rough map shows a tunnel entrance beneath the Ironmark warehouse. This ledger is proof enough to stop the guilds from fighting.",
+      "choices": [
+        { "label": "enter the tunnel", "nextNode": "tunnel-mouth", "hint": "The map is crude but clear. You memorize the route and move." },
+        { "label": "confront the guilds", "nextNode": "confront-guilds", "hint": "You tuck the ledger under your arm and head for the docks." }
+      ]
+    },
+    "coded-note": {
+      "passage": "Matching the cipher to the thistle pressed into the page - the Duskmoore sigil - takes only minutes. The decoded message reads: Burn both warehouses at midnight. Blame the other guild. When they fight, take the harbor. The name at the bottom: Lord Ashvane. Midnight is less than an hour away. The tunnels are his route.",
+      "choices": [
+        { "label": "use the tunnel route", "nextNode": "tunnel-mouth", "hint": "If Ashvane is using the tunnels, that is where you will find him." },
+        { "label": "warn the guild leaders", "nextNode": "confront-guilds", "hint": "You fold the note carefully and run for the docks." }
+      ]
+    },
+    "confront-guilds": {
+      "passage": "Both guild leaders stand face to face across the tavern floor. Brenn has his hand on a blade. Maren grips her cane like a weapon. Words fly. You step between them and every eye lands on you. The truth sits on your tongue - if you have enough to back it up.",
+      "choices": [
+        { "label": "speak the truth", "nextNode": "justice", "hint": "Your voice cuts the noise. The room holds its breath." },
+        { "label": "demand they stand down", "nextNode": "standoff", "hint": "Brenn's jaw tightens. Maren's knuckles go white on her cane." }
+      ]
+    },
+    "standoff": {
+      "passage": "Steel clears leather as Brenn draws his blade. Maren shouts for her guards. Tables overturn. Glass shatters. Ironmark and Coralhand fighters pour through the doors from both sides. The barkeep grabs your arm and drags you toward the back room. Smoke curls through the front window - someone has set a torch to the warehouses outside.",
+      "choices": [
+        { "label": "go with the barkeep", "nextNode": "back-room", "hint": "He shoves you through a narrow door and bolts it behind you." },
+        { "label": "push outside", "nextNode": "flames", "hint": "Heat rolls over you as you throw the front door open." }
+      ]
+    },
+    "back-room": {
+      "passage": "Cramped and dim, the back room holds only a scarred oak table and a guttering candle. Brenn and Maren stand on opposite sides, refusing to look at each other. A hatch in the floor leads to the cellars below - and beyond them, the harbor tunnels. Through the thin walls, steel clears sheaths. One wrong word and the common room erupts.",
+      "choices": [
+        { "label": "name the enemy", "nextNode": "truce", "hint": "You take a breath and say the name: Lord Ashvane." },
+        { "label": "drop through the hatch", "nextNode": "tunnel-mouth", "hint": "The hatch opens to a ladder that vanishes into the gloom below." }
+      ]
+    },
+    "tunnel-mouth": {
+      "passage": "A rough-cut tunnel opens beneath the pier, braced with old timber. The sulfur reek is overpowering here. Torchlight flickers from deeper inside and voices carry through the rock - at least three people, maybe more. A stack of sealed clay pots sits against the wall. One is cracked and leaking green liquid.",
+      "choices": [
+        { "label": "press deeper inside", "nextNode": "saboteur-lair", "hint": "You keep low and move toward the voices, one step at a time." },
+        { "label": "seal the entrance", "nextNode": "sealed", "hint": "The cracked pot gives you an idea. A terrible, final idea." }
+      ]
+    },
+    "saboteur-lair": {
+      "passage": "The tunnel opens into a low chamber lit by lanterns. Three figures in hooded cloaks surround a table covered with maps of Saltmere. Barrels of alchemical fire line the far wall. The leader pulls back his hood - a sharp-faced man with a Duskmoore ring on his finger. Lord Ashvane. He sees you and smiles.",
+      "choices": [
+        { "label": "charge Ashvane", "nextNode": "victory", "hint": "His smile fades the moment you lunge across the table." },
+        { "label": "grab the maps", "nextNode": "confront-guilds", "hint": "You snatch the plans and sprint before anyone can draw a blade." }
+      ]
+    },
+    "justice": {
+      "passage": "You speak plainly. The black ship, the tunnels, the Duskmoore crest - each detail lands like a stone in still water. Brenn's grip loosens on his blade. Maren nods slowly. The truth is ugly, but it is shared. Shared truth is where trust begins. By morning, riders carry word to the crown.",
+      "choices": [],
+      "ending": {
+        "title": "The Common Enemy",
+        "flavor": "Trust starts where the truth is ugly but shared.",
+        "action": "speak the truth"
+      }
+    },
+    "flames": {
+      "passage": "Fire takes the north pier first. Then the south. Both guilds fight in the streets while Ashvane's agents slip away with the harbor's trade contracts. By dawn, Saltmere is ash and smoke. The black ship weighs anchor and vanishes into the morning fog. No one remembers your name. No one remembers anything but the burning.",
+      "choices": [],
+      "ending": {
+        "title": "Ashes and Silence",
+        "flavor": "The harbor burns and Ashvane wins without lifting his own blade.",
+        "action": "push through the smoke"
+      }
+    },
+    "truce": {
+      "passage": "You slam both hands on the table. Brenn and Maren flinch. You name Lord Ashvane, the alchemical fire, the plan to burn both guilds and take the harbor. Silence falls. Maren extends her hand across the table. Brenn stares at it for a long breath, then grips it. The fighting outside stops. Barely.",
+      "choices": [],
+      "ending": {
+        "title": "The Held Breath",
+        "flavor": "Peace is not forgiveness, but it is a start.",
+        "action": "name the enemy"
+      }
+    },
+    "sealed": {
+      "passage": "Heavy clay pots line the entrance. You stack them across the gap and kick a torch into the pile. Green fire roars upward, sealing the tunnel in a wall of flame. Screams echo from inside. Ashvane's plot dies underground, but so does any proof of who sent him. Saltmere sleeps uneasy tonight.",
+      "choices": [],
+      "ending": {
+        "title": "Buried Proof",
+        "flavor": "The threat is gone but nobody will ever know who sent it.",
+        "action": "light the fuse"
+      }
+    },
+    "victory": {
+      "passage": "You charge before Ashvane can draw his blade. The table topples. Maps scatter. His guards lunge but you are faster, kicking a lantern into the barrels. Ashvane scrambles back as green fire erupts behind him. The tunnel fills with acrid fumes. You drag him out by the collar as the chamber collapses.",
+      "choices": [],
+      "ending": {
+        "title": "Under the Pier",
+        "flavor": "Lord Ashvane's plans burn with his barrels.",
+        "action": "drag him out"
+      }
+    }
+  }
+}

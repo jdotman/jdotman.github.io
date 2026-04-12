@@ -4,7 +4,7 @@
   "description": "Two feuding noble houses are trapped in a sealed forest with a shadow-beast on the prowl. You are the only neutral voice in the wood.",
   "author": "AI",
   "tags": ["diplomacy", "conflict"],
-  "estimatedMinutes": 10,
+  "estimatedMinutes": 12,
   "dateGenerated": "2026-04-17",
   "dayOfYear": "04-17",
   "startNode": "intro",

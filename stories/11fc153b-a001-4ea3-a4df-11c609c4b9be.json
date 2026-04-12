@@ -4,7 +4,7 @@
   "description": "A golden crown lies hidden somewhere in the town of Harthmere during the annual Harvest Festival. Every treasure hunter in the region has come to find it first.",
   "author": "AI",
   "tags": ["treasure-hunt", "slice-of-life"],
-  "estimatedMinutes": 10,
+  "estimatedMinutes": 12,
   "dateGenerated": "2026-04-24",
   "dayOfYear": "04-24",
   "startNode": "intro",

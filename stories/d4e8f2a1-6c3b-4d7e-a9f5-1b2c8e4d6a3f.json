@@ -4,7 +4,7 @@
   "description": "A ruined fortress on the northern moors glows at night and the nearby village cannot sleep. You have been hired to silence the whispers before the harvest moon.",
   "author": "AI",
   "tags": ["mystery", "exploration"],
-  "estimatedMinutes": 10,
+  "estimatedMinutes": 12,
   "dateGenerated": "2026-04-04",
   "dayOfYear": "04-04",
   "startNode": "intro",

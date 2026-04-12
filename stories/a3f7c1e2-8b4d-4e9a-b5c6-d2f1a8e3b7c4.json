@@ -4,7 +4,7 @@
   "description": "A flooded ruin beneath the marshlands holds treasures and dangers in equal measure. The water is rising.",
   "author": "AI",
   "tags": ["treasure-hunt", "exploration"],
-  "estimatedMinutes": 10,
+  "estimatedMinutes": 12,
   "dateGenerated": "2026-04-03",
   "startNode": "intro",
   "nodes": {

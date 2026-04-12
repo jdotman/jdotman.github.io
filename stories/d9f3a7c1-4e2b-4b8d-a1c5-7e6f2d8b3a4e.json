@@ -4,7 +4,7 @@
   "description": "An ancient dwarven mine has been sealed for centuries. The merchant guild offers a fortune to whoever maps its depths, but the door was sealed for a reason.",
   "author": "AI",
   "tags": ["exploration", "negotiation"],
-  "estimatedMinutes": 10,
+  "estimatedMinutes": 12,
   "dateGenerated": "2026-04-14",
   "dayOfYear": "04-14",
   "startNode": "intro",

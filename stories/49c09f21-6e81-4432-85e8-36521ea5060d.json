@@ -1,0 +1,204 @@
+{
+  "id": "49c09f21-6e81-4432-85e8-36521ea5060d",
+  "title": "The Healer's Choice",
+  "description": "Two wounded soldiers from warring kingdoms bleed on your doorstep. Your border village sits between the armies and dawn will bring a patrol.",
+  "author": "AI",
+  "tags": ["diplomacy", "slice-of-life"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-05-18",
+  "dayOfYear": "05-18",
+  "endingCount": 5,
+  "storyNumber": 46,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Rain hammers the shutters of your cottage on the Millford border. You are grinding fever bark when the door crashes open. Two soldiers spill inside, one in northern blue and one in southern red, both bleeding, both reaching for blades they can barely hold. The fire crackles between them. Neither will look away first.",
+      "choices": [
+        { "label": "treat the northerner", "nextNode": "treat-aldric", "hint": "His wound is deeper. Blood pools on your floor beneath him." },
+        { "label": "help the southerner", "nextNode": "treat-sera", "hint": "She is pale and swaying. Her grip on the knife is slipping." },
+        { "label": "demand a truce", "nextNode": "demand-truce", "hint": "Your voice cuts through the rain like a blade of its own." }
+      ]
+    },
+    "treat-aldric": {
+      "passage": "The northerner - Aldric, he manages through clenched teeth - has a deep gash along his ribs. You press linen to the wound and work fast. Across the room the southern soldier watches from the floor, her back against the wall, knife still in her fist. Her breathing is shallow. She is deciding something.",
+      "choices": [
+        { "label": "speak to the soldier", "nextNode": "sera-speaks", "hint": "Her eyes track your hands but she does not raise the blade." },
+        { "label": "search his pack", "nextNode": "aldric-pack", "hint": "A leather satchel sits half-open beside his coat. Something glints inside." }
+      ]
+    },
+    "treat-sera": {
+      "passage": "The southern soldier lets you cut away her sleeve. Her name is Sera and the wound is a clean sword cut, already crusting. Aldric watches from the far wall, one hand pressed to his ribs, the other gripping a short blade. He is losing color. A strange mark burns on the inside of Sera's wrist beneath the bandage.",
+      "choices": [
+        { "label": "talk to Aldric", "nextNode": "aldric-speaks", "hint": "He flinches when you look his way but does not raise the blade." },
+        { "label": "examine the mark", "nextNode": "sera-brand", "hint": "The skin around the brand is raw and recent, maybe days old." }
+      ]
+    },
+    "demand-truce": {
+      "passage": "No one bleeds out in your house and no one draws steel under your roof. Those are the rules. You step between them with your hands raised. Aldric lowers his blade first. Sera follows a breath later. Rain fills the quiet. Both soldiers are hurt badly enough that neither can argue with the only healer for miles.",
+      "choices": [
+        { "label": "search them both", "nextNode": "search-them", "hint": "They surrender their weapons one by one onto the table." },
+        { "label": "begin healing", "nextNode": "heal-together", "hint": "You kneel between them and open your medicine chest." }
+      ]
+    },
+    "sera-speaks": {
+      "passage": "Sera's voice is hoarse. She tells you she walked away from her company two days ago. The brand on her wrist is a deserter's mark - she says her sergeant put it there the night she fled. The war is wrong, she insists. Not the fighting. The reason. Her captain claims the northerners poisoned the river. It is a lie.",
+      "choices": [
+        { "label": "press for details", "nextNode": "shared-truth", "hint": "Something in her voice tells you this is bigger than one deserter." },
+        { "label": "finish the stitches", "nextNode": "dawn-watch", "hint": "You focus on the needle. The truth can wait until morning." }
+      ]
+    },
+    "aldric-pack": {
+      "passage": "Inside the satchel you find a water skin, a handful of copper coins, and a folded letter sealed with green wax. The seal bears a wolf and oak - the crest of General Brannock, commander of the northern border forces. Aldric sees you holding it and goes still. That letter is not meant for you, he says quietly.",
+      "choices": [
+        { "label": "read the letter", "nextNode": "peace-letter", "hint": "You break the seal. The wax crumbles like old bread." },
+        { "label": "return the letter", "nextNode": "aldric-explains", "hint": "You hold it out and his shoulders drop with relief." }
+      ]
+    },
+    "aldric-speaks": {
+      "passage": "Aldric's voice is low and careful. He is not a regular soldier, he says. He carries a letter from General Brannock to the southern commander - a peace offer drafted in secret. He says a patrol ambushed him at the river and nearly took the letter. He asks if you can get him to the southern camp alive.",
+      "choices": [
+        { "label": "ask about the letter", "nextNode": "peace-letter", "hint": "He reaches into his coat and pulls out a folded page." },
+        { "label": "finish his wound", "nextNode": "dawn-watch", "hint": "First things first. The letter means nothing if he bleeds out." }
+      ]
+    },
+    "sera-brand": {
+      "passage": "The mark is a hot iron brand in the shape of a broken sword. Deserter. Sera pulls her wrist away and meets your gaze. She says she earned the brand three days ago for refusing an order. Her captain wants the company to burn a northern farmstead. She will not do it. The war they describe and the war she sees are different things.",
+      "choices": [
+        { "label": "ask what she means", "nextNode": "shared-truth", "hint": "Her jaw tightens but she keeps talking." },
+        { "label": "bandage the brand", "nextNode": "dawn-watch", "hint": "You wrap clean linen around the burn without a word." }
+      ]
+    },
+    "search-them": {
+      "passage": "Three knives, a short sword, and a sealed letter land on the table. The letter carries a green wax seal - wolf and oak, the crest of General Brannock. Sera stares at it. Aldric stares at you. Neither of them expected the other to see that letter. The candle gutters and the shadows shift on the wall behind them.",
+      "choices": [
+        { "label": "open the letter", "nextNode": "peace-letter", "hint": "The wax cracks and the parchment unfolds in your hands." },
+        { "label": "ask about the seal", "nextNode": "aldric-explains", "hint": "Aldric looks at the letter like it might bite him." }
+      ]
+    },
+    "heal-together": {
+      "passage": "You stitch Aldric's ribs first, then clean the cut on Sera's arm. Working between two enemies at arm's length takes steady hands. Halfway through, Aldric speaks. He asks Sera where her company is camped. She tells him they burned a farmstead three leagues north. He goes quiet. That is his village.",
+      "choices": [
+        { "label": "let them talk", "nextNode": "shared-truth", "hint": "The hearth pops. Neither soldier reaches for a weapon." },
+        { "label": "change the subject", "nextNode": "dawn-watch", "hint": "You ask about the roads and the weather. Anything else." }
+      ]
+    },
+    "shared-truth": {
+      "passage": "The truth comes out in pieces. Sera says her commanders claim the northerners poisoned the river. Aldric says his generals blame the southerners for burning the grain stores. Both lies. Both fed to them by the same border lord who profits from the fighting. They look at each other across your floor and for the first time neither one is holding a weapon.",
+      "choices": [
+        { "label": "unite them", "nextNode": "alliance", "hint": "You see the moment the anger shifts from each other to something larger." },
+        { "label": "stay out of it", "nextNode": "dawn-watch", "hint": "This is soldier business, not yours. You clean your tools." },
+        { "label": "warn them both", "nextNode": "tension", "hint": "Knowing the truth and surviving it are two very different things." }
+      ]
+    },
+    "peace-letter": {
+      "passage": "The letter is written in a general's hand, plain and blunt. It offers a ceasefire along the river, a prisoner exchange, and a meeting between commanders at the bridge. No conditions, no tricks. Aldric says Brannock is tired. Sera reads over your shoulder and her face changes. Her own general would want to see this.",
+      "choices": [
+        { "label": "show them both", "nextNode": "alliance", "hint": "You flatten the letter on the table where the firelight catches it." },
+        { "label": "hide the letter", "nextNode": "dawn-watch", "hint": "You fold it and tuck it beneath the medicine jars." },
+        { "label": "question the terms", "nextNode": "shared-truth", "hint": "Peace letters do not appear without a reason behind them." }
+      ]
+    },
+    "aldric-explains": {
+      "passage": "Aldric tells you everything. Brannock sent him alone with a peace offer for the southern general, but a patrol caught him at the river crossing. The letter is the only copy. If it does not arrive, the spring offensive begins in three days and both sides lose hundreds. Sera listens from the corner. Silent.",
+      "choices": [
+        { "label": "read the offer", "nextNode": "peace-letter", "hint": "He holds the letter out with bloodstained fingers." },
+        { "label": "ask Sera's thoughts", "nextNode": "shared-truth", "hint": "You turn to the southern soldier. Her expression is hard to read." }
+      ]
+    },
+    "tension": {
+      "passage": "Aldric stands too fast and his stitches pull. He says the border lord must answer for the lies. Sera agrees but her voice is sharp - she wants proof first, not a charge into armed camps waving accusations. The room feels smaller. One wrong word and the truce you built will crack like thin ice on a winter pond.",
+      "choices": [
+        { "label": "calm them down", "nextNode": "alliance", "hint": "You place a hand on the table between them. Steady." },
+        { "label": "step back", "nextNode": "blood-on-floor", "hint": "Your hand finds the door frame behind you." }
+      ]
+    },
+    "alliance": {
+      "passage": "Something shifts between them. Aldric offers his hand and Sera takes it. They will go to the southern camp together - one northern soldier and one southern deserter walking into a place that might kill them both. It is not a plan built on trust. It is built on the fact that nothing else works. Dawn is close now.",
+      "choices": [
+        { "label": "travel with them", "nextNode": "road-ending", "hint": "You reach for your cloak on the hook beside the door." },
+        { "label": "wish them well", "nextNode": "farewell-ending", "hint": "You press bread and clean bandages into their hands." }
+      ]
+    },
+    "dawn-watch": {
+      "passage": "Hours pass. The rain slows to a drizzle and you keep the hearth burning. You check stitches twice. Aldric sleeps first, then Sera. Neither fully trusts the other but exhaustion wins. A gray line appears under the shutters. Morning. Then you hear it - boots on the road, at least six pairs, marching in step toward the village.",
+      "choices": [
+        { "label": "wake them", "nextNode": "patrol-arrives", "hint": "You shake Aldric's shoulder and Sera is already sitting up." },
+        { "label": "slip out the back", "nextNode": "garden-escape", "hint": "The garden door is unlocked and the fog is still thick." }
+      ]
+    },
+    "patrol-arrives": {
+      "passage": "Southern soldiers in red cloaks file into the village square. A captain with a scarred jaw walks door to door. He is looking for a northern spy. Aldric goes pale. Sera grips the table edge - she knows this captain and his reputation. You have minutes before the knock comes. The back door leads to the herb garden and the woods beyond.",
+      "choices": [
+        { "label": "hide in the cellar", "nextNode": "cellar-hide", "hint": "The trapdoor is beneath the rug. It has not been opened in years." },
+        { "label": "face the captain", "nextNode": "captain-question", "hint": "You straighten your apron and walk toward the front door." },
+        { "label": "run for the garden", "nextNode": "garden-escape", "hint": "The back gate is unlocked and the mist is still thick." }
+      ]
+    },
+    "cellar-hide": {
+      "passage": "The cellar smells of roots and damp earth. Aldric and Sera crouch between barrels of salted fish and last autumn's turnips. You lower the trapdoor and pull the rug flat. The knock comes hard and fast. Captain Dorran's voice fills the cottage like smoke. He asks about travelers, strangers, anyone bleeding. Your hands are still stained with their blood.",
+      "choices": [
+        { "label": "bluff the captain", "nextNode": "vigil-ending", "hint": "You show him the pig's blood on the cutting board." },
+        { "label": "give up Aldric", "nextNode": "betrayal-ending", "hint": "Sera's face flashes through your mind and you push it away." }
+      ]
+    },
+    "captain-question": {
+      "passage": "Captain Dorran fills your doorway. His eyes sweep the room - the bloody linen, the extra bedrolls, the hearth still burning hot for a healer who lives alone. He asks you plainly if you are hiding a northern soldier. His hand rests on his sword. Two of his men stand behind him with crossbows. The truth and the lie both carry a price.",
+      "choices": [
+        { "label": "lie to him", "nextNode": "vigil-ending", "hint": "You meet his gaze and your voice does not waver." },
+        { "label": "turn Aldric in", "nextNode": "betrayal-ending", "hint": "The word catches in your throat but you say it anyway." }
+      ]
+    },
+    "garden-escape": {
+      "passage": "Fog clings to the garden path. You lead them through the herb rows and out the back gate into the birch wood. Aldric moves slowly with one arm pressed to his ribs. Sera watches the tree line behind you. The village bell tolls once - the patrol has reached the square. You have a lead of maybe two hundred paces and it is shrinking.",
+      "choices": [
+        { "label": "go with them", "nextNode": "road-ending", "hint": "The path forks ahead and you take the one you know." },
+        { "label": "point the way", "nextNode": "farewell-ending", "hint": "You trace the river trail on Sera's palm with your finger." }
+      ]
+    },
+    "road-ending": {
+      "passage": "You walk with them through the birch wood and down the river trail toward the southern camp. The mist hides your footprints. Aldric presses the letter against his chest. Sera carries the truth. You carry a medicine bag and a choice you cannot take back. Millford shrinks behind you. Ahead the road bends and the future opens wide.",
+      "choices": [],
+      "ending": {
+        "title": "The Third Witness",
+        "flavor": "Some healers mend bones. Some mend borders.",
+        "action": "follow the river south"
+      }
+    },
+    "farewell-ending": {
+      "passage": "They disappear around the bend together. You watch until the road is empty and birdsong fills the gap they leave behind. The walk back to your cottage takes longer than it should. Inside, the hearth is low. You add a log and set water to boil. The floor still needs cleaning. Tomorrow someone else will need a healer.",
+      "choices": [],
+      "ending": {
+        "title": "The Empty Cottage",
+        "flavor": "The kettle sings for one and the road stays empty until it does not.",
+        "action": "close the garden gate"
+      }
+    },
+    "vigil-ending": {
+      "passage": "Dorran leaves at noon with nothing but suspicion. You wait until his patrol fades down the south road before giving the all-clear. Aldric and Sera emerge, stiff and pale but breathing. They leave at dusk through the back gate, side by side. You watch from the window and the road swallows them whole. The war may end or it may not.",
+      "choices": [],
+      "ending": {
+        "title": "The Long Watch",
+        "flavor": "You clean the cellar and grind more fever bark. Tomorrow will need a healer too.",
+        "action": "bolt the back door"
+      }
+    },
+    "blood-on-floor": {
+      "passage": "Aldric lunges and Sera catches his arm. They go down together in a crash of chairs and broken crockery. You grab for them but a blade swings wide and opens a cut across your hand. By the time you pull them apart, Aldric is not breathing. Sera stares at the blood on her fingers. The letter lies torn on the floor.",
+      "choices": [],
+      "ending": {
+        "title": "Broken Ink",
+        "flavor": "The peace letter soaks through with blood and the words dissolve into nothing.",
+        "action": "kneel beside the body"
+      }
+    },
+    "betrayal-ending": {
+      "passage": "Dorran's men drag Aldric into the square. Sera watches from the corner of the room, her face blank as carved wood. The letter is taken as evidence. Dorran thanks you and leaves a silver coin on the table. The cottage feels hollow after they go. You pick up the coin. It is cold and it weighs more than silver should.",
+      "choices": [],
+      "ending": {
+        "title": "The Silver Coin",
+        "flavor": "Some debts are paid in metal. Some are paid in sleep you will never get back.",
+        "action": "pocket the coin"
+      }
+    }
+  }
+}

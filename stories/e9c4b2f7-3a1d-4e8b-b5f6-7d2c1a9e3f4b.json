@@ -1,0 +1,219 @@
+{
+  "id": "e9c4b2f7-3a1d-4e8b-b5f6-7d2c1a9e3f4b",
+  "title": "The Wyrm's Garden",
+  "description": "A dragon died in the Thornveil valley and its hoard lies beneath the bones. The forest has grown over everything, and it is hungry.",
+  "author": "AI",
+  "tags": ["treasure-hunt", "survival"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-05-19",
+  "dayOfYear": "05-19",
+  "endingCount": 6,
+  "storyNumber": 47,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "The valley opens before you, choked with thorn and ivy. Bleached bones jut from the undergrowth - ribs the size of barn doors, a spine like a broken road. A dragon died here and its hoard still lies below. The forest has grown hungry. A ridge path climbs north. A stream trickles east. The thicket waits.",
+      "choices": [
+        { "label": "enter the thicket", "nextNode": "thicket", "hint": "Thorns catch your sleeves as you push through the first wall of green." },
+        { "label": "circle the ridge", "nextNode": "valley-rim", "hint": "The ridge path is steep but the view might be worth the climb." },
+        { "label": "follow the stream", "nextNode": "stream-bed", "hint": "Cool water runs over smooth stones and the sound covers your footsteps." }
+      ]
+    },
+    "thicket": {
+      "passage": "Thorns scrape your arms as you press deeper. The canopy closes overhead and the air turns warm, humid, like the inside of a mouth. Claw marks score the trunk of an oak - old gouges, deep as a finger. Ahead, the undergrowth thins around a clearing of pale bone. Something rustles to your left.",
+      "choices": [
+        { "label": "trace the bone trail", "nextNode": "bone-clearing", "hint": "The bones grow larger the deeper you go into the clearing." },
+        { "label": "investigate the rustling", "nextNode": "vine-creature", "hint": "You part the leaves slowly, one hand on your belt knife." }
+      ]
+    },
+    "bone-clearing": {
+      "passage": "Ribs arc overhead like the beams of a ruined hall. Coins glint between the great bones - copper and silver half-swallowed by moss. The skull lies ahead, jaw open wide enough to walk through. Vines pulse along the frame in a slow rhythm, contracting and relaxing. They are feeding. This is not a ruin. It is a nest.",
+      "choices": [
+        { "label": "step into the skull", "nextNode": "skull-chamber", "hint": "The jaw does not move, but you step through it quickly all the same." },
+        { "label": "search the rib cage", "nextNode": "vine-bleed", "hint": "Between the ribs, the moss is thinner and something gleams below." }
+      ]
+    },
+    "vine-creature": {
+      "passage": "A shape stands behind the leaves. Not an animal - a knot of vines wrapped around something that was once a person. It turns toward you with no eyes, just a tangle of green reaching outward. A rusted sword hangs from its belt, still sheathed. Your hand finds your knife. The thing takes a step closer.",
+      "choices": [
+        { "label": "draw your knife", "nextNode": "fight-vine", "hint": "The blade feels small against whatever this thing has become." },
+        { "label": "back away slowly", "nextNode": "valley-rim", "hint": "You keep your eyes forward and your steps measured and even." },
+        { "label": "grab the sword", "nextNode": "claim-sword", "hint": "If the thing wanted the weapon, it would have drawn it by now." }
+      ]
+    },
+    "fight-vine": {
+      "passage": "Your knife bites into the vine-mass and it recoils with a wet tearing sound. Sap sprays across your hand, thick and warm. The creature staggers back but does not fall. More tendrils reach from the undergrowth to patch the wound. You cannot kill it faster than it heals. But you have bought yourself a gap through the brush.",
+      "choices": [
+        { "label": "sprint to the clearing", "nextNode": "bone-clearing", "hint": "You hear the vines closing behind you as you break into the open." },
+        { "label": "slip past the creature", "nextNode": "skull-chamber", "hint": "The gap in the brush leads straight to the dragon's open jaw." }
+      ]
+    },
+    "claim-sword": {
+      "passage": "You lunge for the scabbard and the blade slides free with a grinding rasp. Steel, not iron. Still sharp beneath the rust. The creature slumps when the weight leaves its belt, shrinking like a puppet cut from its strings. It does not follow. Through the trees ahead, the dragon's skull looms jaw-wide against the green. A shape on the ground catches your eye.",
+      "choices": [
+        { "label": "head for the skull", "nextNode": "skull-chamber", "hint": "The blade gives you confidence you did not have a moment ago." },
+        { "label": "check the body", "nextNode": "bone-clearing", "hint": "Something about the way the shape collapsed tugs at your curiosity." }
+      ]
+    },
+    "valley-rim": {
+      "passage": "The ridge gives a wide view of the valley below. Bones stretch across the forest floor like the frame of a wrecked ship, pale against the green. A thin line of smoke rises from the far side - an old camp, maybe. Closer, a rock ledge juts over the clearing where the skull rests. Two ways down.",
+      "choices": [
+        { "label": "descend the slope", "nextNode": "overlook", "hint": "Loose gravel shifts under your boots as you pick your way down." },
+        { "label": "track the smoke", "nextNode": "old-camp", "hint": "Whoever built that fire in dragon country is either brave or desperate." }
+      ]
+    },
+    "overlook": {
+      "passage": "The ledge hangs over the bone clearing like a balcony. From here you can see the skull, jaw wide, and the strange pulse of the vines wrapping every rib. A rope hangs from a peg hammered into the rock - old, but not frayed. Someone climbed down here before. The knots look solid.",
+      "choices": [
+        { "label": "climb down the rope", "nextNode": "skull-chamber", "hint": "The rope holds firm and the vines below do not reach this high." },
+        { "label": "scan the clearing", "nextNode": "bone-clearing", "hint": "From this angle you spot a gap between the ribs you missed before." }
+      ]
+    },
+    "old-camp": {
+      "passage": "Ashes sit in a ring of flat stones, cold but recent. A bedroll lies beside a leather pack with rope and flint visible inside. No one is here. A journal peeks from the pack's open flap, its pages warped with damp. Scratched into the ground nearby, an arrow points toward the skull with three words beneath it: DO NOT ENTER.",
+      "choices": [
+        { "label": "read the journal", "nextNode": "skull-chamber", "hint": "The handwriting is shaky but the message is clear enough." },
+        { "label": "take the supplies", "nextNode": "bone-clearing", "hint": "A coil of rope, a flint striker, and a half-full waterskin." }
+      ]
+    },
+    "stream-bed": {
+      "passage": "A stream cuts along the valley floor, running clear over smooth pebbles. The banks are lined with ferns that grow taller than your head, blocking sight in every direction. Ahead, the current slows where the stream widens into a broad, still pool with a greenish tint. A faint hum rises from the surface.",
+      "choices": [
+        { "label": "wade into the pool", "nextNode": "pool", "hint": "The water is warmer than it should be this far from the sun." },
+        { "label": "scramble up the bank", "nextNode": "bone-clearing", "hint": "Pushing through the ferns, you stumble onto a field of pale bone." }
+      ]
+    },
+    "pool": {
+      "passage": "The pool is warm and clear down to its mossy bed. Coins shimmer on the bottom - hundreds of them, nestled among polished pebbles. The humming grows louder the closer you lean. Your reflection wavers, and for a moment you see someone else looking back. Not you. Someone calm. Someone resting.",
+      "choices": [
+        { "label": "dive under", "nextNode": "underwater-tunnel", "hint": "The coins part like leaves as your hands brush the pool floor." },
+        { "label": "drink the water", "nextNode": "enchanted-glade", "hint": "It tastes sweet, like honey and rain, and the humming fills your skull." }
+      ]
+    },
+    "underwater-tunnel": {
+      "passage": "Beneath the coins, your fingers find a gap in the bedrock. The current pulls you gently downward through a passage barely wide enough for your shoulders. Pale roots trail from the ceiling like fingers. The tunnel bends, then opens into an air pocket lit by a faint golden glow from below. Warmth rises through the floor.",
+      "choices": [
+        { "label": "squeeze toward the glow", "nextNode": "hoard-chamber", "hint": "The warmth grows and the passage gives way to something hollow." },
+        { "label": "surface for air", "nextNode": "skull-chamber", "hint": "Your lungs burn and you kick upward into open space." }
+      ]
+    },
+    "enchanted-glade": {
+      "passage": "The world softens at the edges. Colors blur. The hum becomes a voice, low and kind, and it speaks your name the way a friend would. Trees bend around you in a ring, heavy with white blossoms that should not bloom this time of year. A path leads deeper, where the petals fall thick as snowfall. Everything here feels safe.",
+      "choices": [
+        { "label": "walk the path", "nextNode": "quiet-shore", "hint": "Each step feels lighter than the last and you forget why you came." },
+        { "label": "close your ears", "nextNode": "skull-chamber", "hint": "The voice fades like smoke and the colors sharpen back to green." }
+      ]
+    },
+    "vine-bleed": {
+      "passage": "Between the ribs, you find a thick vine pulsing with dark sap. Your blade opens it and the vine recoils, pulling away. Other tendrils shudder and withdraw, clearing a gap in the moss. Below the gap, a narrow tunnel angles into the earth, smelling of rust and old metal. The sap on your blade hisses and the steel begins to pit.",
+      "choices": [
+        { "label": "crawl down the tunnel", "nextNode": "hoard-chamber", "hint": "The earth is slick but solid, and the vines avoid the opening." },
+        { "label": "pursue the sap trail", "nextNode": "heart-cave", "hint": "The bleeding vine drags itself away, leaving a wet streak on the ground." }
+      ]
+    },
+    "skull-chamber": {
+      "passage": "Inside the dragon's skull, the air tastes of iron. A faint glow rises through cracks in the jawbone floor - the hoard below. Roots have broken through the palate and formed a rough ladder downward. Carved into the bone near the opening, a word stands out against the yellowed surface. LEAVE. The carving is fresh.",
+      "choices": [
+        { "label": "slide down the roots", "nextNode": "hoard-chamber", "hint": "The roots hold your weight, but they flex under each step." },
+        { "label": "turn back", "nextNode": "exit-path", "hint": "Whoever carved that word did not finish the second line." }
+      ]
+    },
+    "exit-path": {
+      "passage": "Open air hits your face as you step out of the skull's jaw. The forest hums behind you, alive and waiting. The ridge trail is clear. You could be back on the road by nightfall with nothing to show for the trip but your life. The carving on the bone says LEAVE. Maybe that is enough warning for anyone.",
+      "choices": [
+        { "label": "leave the valley", "nextNode": "empty-hands", "hint": "Your boots find the trail and you do not look back." },
+        { "label": "go back inside", "nextNode": "hoard-chamber", "hint": "The glow from below still pulls at you. One more look." }
+      ]
+    },
+    "hoard-chamber": {
+      "passage": "Gold. More than you have seen in your life. Coins, chalices, rings, loose gems - all tangled in a web of pale roots that pulse like veins. At the center, a crown of black iron sits on a pedestal of fused coins, untouched by the roots. Beyond the crown, a narrow crack in the far wall breathes warm air into the chamber.",
+      "choices": [
+        { "label": "seize the gold", "nextNode": "coin-trap", "hint": "Your fingers close around a fistful of coins and the roots twitch." },
+        { "label": "lift the crown", "nextNode": "crown-run", "hint": "The iron crown lifts easily from its pedestal. That alone should warn you." },
+        { "label": "explore the crack", "nextNode": "deep-vault", "hint": "The opening is just wide enough to slide through sideways." }
+      ]
+    },
+    "crown-run": {
+      "passage": "The moment the crown leaves the pedestal, every root in the chamber lunges. Vines whip from the walls and ceiling, reaching for the iron band in your hands. The tunnel you entered through is still open. Above, through the cracked jawbone, you can see a sliver of sky. The roots are fast. You need to be faster.",
+      "choices": [
+        { "label": "dash for the exit", "nextNode": "vine-chase", "hint": "You tuck the crown under your arm and run for everything you have." },
+        { "label": "drop the crown", "nextNode": "exit-path", "hint": "The iron rings against the floor and every vine turns toward the sound." }
+      ]
+    },
+    "vine-chase": {
+      "passage": "Roots lash at your legs as you scramble up through the shattered jawbone. A vine catches your ankle and you twist free, leaving a boot behind. Ahead, the thicket parts - sunlight breaks through the canopy in a long golden stripe. Behind you the entire skeleton shudders, vines pulling the bones inward like a fist closing. The gap is shrinking.",
+      "choices": [
+        { "label": "leap through the gap", "nextNode": "hollow-crown", "hint": "Branches whip your face and then nothing holds you anymore." },
+        { "label": "cut the vines", "nextNode": "the-burning", "hint": "Your blade sparks against a root and the sap catches flame." }
+      ]
+    },
+    "deep-vault": {
+      "passage": "The crack opens into a chamber carved by ancient hands. This is older than the dragon. Runes line the walls, their edges soft with age. At the center, a mass of roots converges on a single point - a pulsing knot the size of a barrel, threaded with veins of amber and green. The heart. The whole garden grows from this.",
+      "choices": [
+        { "label": "approach the heart", "nextNode": "heart-cave", "hint": "The pulsing slows as you step closer, and the roots part like a curtain." },
+        { "label": "destroy the roots", "nextNode": "the-burning", "hint": "You drive your blade into the nearest root and it screams." }
+      ]
+    },
+    "heart-cave": {
+      "passage": "The heart fills the room with a low throb you feel in your chest. Amber sap weeps from its surface and pools on the floor. Up close, you can see shapes trapped in the amber knot - teeth, a jawbone, scales. The dragon is not gone. Its memory lives here, feeding the garden with the last of its magic.",
+      "choices": [
+        { "label": "lay your hand on it", "nextNode": "dragon-heir", "hint": "The surface is warm and the pulse quickens under your palm." },
+        { "label": "strike the heart", "nextNode": "the-burning", "hint": "Sap hisses on your blade and the amber glow flickers and dims." }
+      ]
+    },
+    "coin-trap": {
+      "passage": "The roots snap tight the instant your hand closes on the gold. They coil around your wrists, your arms, your ribs. You pull but there is no breaking free. Coins spill through your fingers as the tendrils draw you downward into the moss. The forest has what it needs. Warmth, weight, and time to grow.",
+      "choices": [],
+      "ending": {
+        "title": "The Green Hold",
+        "flavor": "The forest keeps what it catches.",
+        "action": "close your eyes"
+      }
+    },
+    "empty-hands": {
+      "passage": "The trail is easy now that you are leaving. Birds call in the canopy. The bones shrink behind you, swallowed by distance and green. By the time you reach the road, the valley is just another fold in the hills. You carry no gold, no crown, no proof. But your heart is still beating and the sky is wide open.",
+      "choices": [],
+      "ending": {
+        "title": "Empty Hands",
+        "flavor": "Sometimes the bravest thing is knowing when to walk away.",
+        "action": "walk the road home"
+      }
+    },
+    "hollow-crown": {
+      "passage": "You hit the ground rolling and come up running. The forest crashes behind you - roots tearing, branches snapping - but you are faster. The crown sits heavy under your arm, iron warm against your ribs. By the time you reach the ridge, the noise fades to nothing. The garden is still. You know without looking that it is closed forever.",
+      "choices": [],
+      "ending": {
+        "title": "The Hollow Crown",
+        "flavor": "Some treasures cost more than they are worth. This one costs a forest.",
+        "action": "claim the crown"
+      }
+    },
+    "dragon-heir": {
+      "passage": "Warmth floods up through your palm the instant it meets the heart. The garden speaks - not in words but in roots, in seasons, in the slow turning of the earth. It shows you what it is: a memory keeper, a last ember. It offers a choice without language. Stay. Tend. Keep the flame. Your feet take root. It does not hurt.",
+      "choices": [],
+      "ending": {
+        "title": "The Dragon's Heir",
+        "flavor": "The garden grows on, and so do you.",
+        "action": "let the roots take"
+      }
+    },
+    "the-burning": {
+      "passage": "The sap catches fire the instant it meets steel. Flames leap from root to root faster than you can move. The whole garden ignites - bones, vines, gold, all of it - and you scramble for the surface through a tunnel of orange heat. Behind you, centuries of treasure melt into the earth. The dragon's last memory burns to ash.",
+      "choices": [],
+      "ending": {
+        "title": "The Burning",
+        "flavor": "What the dragon kept, the fire takes.",
+        "action": "walk through the flames"
+      }
+    },
+    "quiet-shore": {
+      "passage": "The blossoms close around you like a blanket. You sit beside a stream you do not recognize and listen to the current. It sounds like laughter. You cannot remember the name of the valley or why you came. A bird lands on your knee. It does not matter. Nothing matters here. You are home.",
+      "choices": [],
+      "ending": {
+        "title": "The Quiet Shore",
+        "flavor": "Some traps do not feel like traps at all.",
+        "action": "rest beside the stream"
+      }
+    }
+  }
+}

@@ -4,7 +4,7 @@
   "description": "A locked box arrives on your doorstep the same morning you owe a guild debt by nightfall. In Thornwick Market, every buyer has their price - but not every seller knows theirs.",
   "author": "AI",
   "tags": ["slice-of-life", "negotiation"],
-  "estimatedMinutes": 10,
+  "estimatedMinutes": 12,
   "dateGenerated": "2026-04-09",
   "startNode": "intro",
   "nodes": {

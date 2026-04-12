@@ -4,7 +4,7 @@
   "description": "A storm drives you through the door of a roadside inn already heavy with tension. Sergeant Vorn and his soldiers are hunting someone, and that someone just pressed a note into your hand.",
   "author": "AI",
   "tags": ["conflict", "escape"],
-  "estimatedMinutes": 10,
+  "estimatedMinutes": 12,
   "dateGenerated": "2026-04-10",
   "startNode": "intro",
   "nodes": {

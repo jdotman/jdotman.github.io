@@ -4,7 +4,7 @@
   "description": "The old chapel bell rings at midnight though no one pulls the rope. The village priest has vanished and the townsfolk will not go near the graveyard after dark.",
   "author": "AI",
   "tags": ["mystery", "eerie"],
-  "estimatedMinutes": 10,
+  "estimatedMinutes": 12,
   "dateGenerated": "2026-04-07",
   "dayOfYear": "04-07",
   "startNode": "intro",
