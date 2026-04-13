@@ -752,5 +752,19 @@
     "dateGenerated": "2026-04-03",
     "endingCount": 2,
     "storyNumber": -1
+  },
+  {
+    "id": "bb079bb1-24d5-420f-a67c-dd885ebd3f02",
+    "title": "The Spire Heist",
+    "description": "A stolen relic hums inside the Moonspire and you are the only thief foolish enough to go after it. Three ways in, one way out - if you are lucky.",
+    "tags": [
+      "treasure-hunt",
+      "stealth"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-26",
+    "dayOfYear": "05-26",
+    "endingCount": 5,
+    "storyNumber": 54
   }
 ]

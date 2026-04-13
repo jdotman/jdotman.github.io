@@ -1,0 +1,208 @@
+{
+  "id": "bb079bb1-24d5-420f-a67c-dd885ebd3f02",
+  "title": "The Spire Heist",
+  "description": "A stolen relic hums inside the Moonspire and you are the only thief foolish enough to go after it. Three ways in, one way out - if you are lucky.",
+  "author": "AI",
+  "tags": ["treasure-hunt", "stealth"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-05-26",
+  "dayOfYear": "05-26",
+  "endingCount": 5,
+  "storyNumber": 54,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "The Moonspire juts from the cliff like a black tooth against the stars. Inside, a stolen relic hums with borrowed power - you can feel it from here, a faint pull behind your ribs. Guards pace the base. A rusted drain grate sits near the foundation. Cracks split the outer wall halfway up. The front gate stands lit by torches.",
+      "choices": [
+        { "label": "crawl through the drain", "nextNode": "drain-tunnel", "hint": "The iron is rough and warm under your palms as you squeeze inside." },
+        { "label": "scale the cracked wall", "nextNode": "crumbled-wall", "hint": "Mortar crumbles under your fingers and the wind picks up above." },
+        { "label": "approach the front gate", "nextNode": "front-gate", "hint": "You straighten your cloak and walk toward the guards like you belong." }
+      ]
+    },
+    "drain-tunnel": {
+      "passage": "Rainwater trickles through the grate as you pry it loose and slide into the narrow tunnel beneath the tower foundation. The air reeks of moss and copper. Your knees scrape wet brick. Ahead, the passage forks where a rusted valve juts from the ceiling. One branch slopes upward, the other drops into murky depths.",
+      "choices": [
+        { "label": "take the upper branch", "nextNode": "cellar", "hint": "The slope is gentle and the brick under your hands grows drier." },
+        { "label": "descend into the depths", "nextNode": "cistern", "hint": "The dripping grows louder as the tunnel tilts and the air cools." }
+      ]
+    },
+    "crumbled-wall": {
+      "passage": "Loose mortar crumbles under your fingers as you haul yourself up the outer face of the tower in the moonlight. Wind tugs at your cloak. Two floors up, a window glows amber with its shutters hanging crooked on bent hinges. Higher still, a ledge wraps toward a balcony draped in dead ivy, barely wide enough for feet.",
+      "choices": [
+        { "label": "climb through the window", "nextNode": "study", "hint": "The shutters groan as you ease them open and warm air rushes out." },
+        { "label": "edge toward the balcony", "nextNode": "balcony", "hint": "Each step sends pebbles skittering off the ledge into empty air below." }
+      ]
+    },
+    "front-gate": {
+      "passage": "Two guards flank the arched entrance, halberds crossed in a lazy X. One picks her teeth. The other stares across the plaza with the hollow gaze of a man counting minutes until shift change. Behind them a supply cart loaded with flour sacks sits inside the raised portcullis, its driver gone. Copper warms in your pocket.",
+      "choices": [
+        { "label": "hide in the cart", "nextNode": "servants-hall", "hint": "Flour dust fills your nose as you burrow between the heavy sacks." },
+        { "label": "distract the guards", "nextNode": "gatehouse-bluff", "hint": "You roll the coin across your knuckles and let it catch the torchlight." }
+      ]
+    },
+    "cellar": {
+      "passage": "The branch levels out and opens into a cellar lined with casks and dusty shelves that smell of old wine. Cobwebs hang thick between the rafters. A staircase in the far corner leads upward, its treads worn smooth. Behind the tallest cask, a section of wall sits crooked in its frame, mortar missing from the joints. The fit looks recent.",
+      "choices": [
+        { "label": "ascend the staircase", "nextNode": "great-hall", "hint": "The wood groans under your weight but holds as you climb toward lamplight." },
+        { "label": "push the loose wall", "nextNode": "hidden-stair", "hint": "The slab scrapes against the floor and reveals a gap just wide enough." }
+      ]
+    },
+    "cistern": {
+      "passage": "The tunnel drops into a vaulted chamber where a pool of black, still water stretches wall to wall, its surface broken only by the tops of half-drowned columns. Something moves below. A walkway of slick brick hugs the left wall toward a low archway. Across the pool, a green glow pulses behind a grate set into rock.",
+      "choices": [
+        { "label": "follow the walkway", "nextNode": "hidden-stair", "hint": "The brick is slippery beneath your boots and the archway smells of wet earth." },
+        { "label": "wade across the pool", "nextNode": "great-hall", "hint": "The water is icy against your legs and something bumps your knee underwater." }
+      ]
+    },
+    "study": {
+      "passage": "Amber lamplight fills a narrow room crammed with scrolls and star charts pinned to every wall. A desk sits beneath the window, buried under loose pages covered in a cipher you almost recognize, the ink still fresh. One drawer hangs open. A brass key rests inside. The hallway door stands ajar and muffled voices drift from below.",
+      "choices": [
+        { "label": "grab the brass key", "nextNode": "great-hall", "hint": "The key is heavier than it looks and the metal feels oddly warm." },
+        { "label": "read the cipher pages", "nextNode": "vault-clue", "hint": "The symbols swim before your eyes and then suddenly they lock into place." }
+      ]
+    },
+    "balcony": {
+      "passage": "Dead vines crunch beneath your boots as you pull yourself onto the balcony. The latch is broken. Glass doors lead inside where a cluttered workroom holds jars of bright powder on every shelf. Above, a rope bridge connects this tower to a second, taller spire where pale banners snap in the wind. The bridge sways.",
+      "choices": [
+        { "label": "enter the workroom", "nextNode": "workshop", "hint": "The door scrapes against the tile floor and a jar of red powder wobbles." },
+        { "label": "cross the rope bridge", "nextNode": "great-hall", "hint": "Each plank groans and the wind tries to shove you sideways into nothing." }
+      ]
+    },
+    "servants-hall": {
+      "passage": "The cart rolls to a stop in a hallway that smells of bread and tallow, its wheels squeaking on the flagstones as the echo fades. You slip out from under the flour sacks. Nobody looks. Kitchen staff chatter behind a closed door to the east, pots clanging between laughter. A spiral staircase at the corridor's end winds upward past dim sconces.",
+      "choices": [
+        { "label": "sneak past the kitchen", "nextNode": "great-hall", "hint": "You keep your steps measured and press your back against the far wall." },
+        { "label": "use the spiral staircase", "nextNode": "kitchen", "hint": "The steps narrow as you climb and the chatter below fades to nothing." }
+      ]
+    },
+    "gatehouse-bluff": {
+      "passage": "You toss the copper coin so it rings off the cobbles behind the guards. Both heads turn. One grunts and walks toward the sound, halberd low. The other lingers, squinting. Five strides to the portcullis. She shifts her weight and turns just enough to leave a gap between her shoulder and the arch, but her eyes keep sweeping.",
+      "choices": [
+        { "label": "sprint through the gap", "nextNode": "armory", "hint": "Your shoulder clips the archway as you barrel past and into the corridor." },
+        { "label": "wait for them both", "nextNode": "kitchen", "hint": "The second guard turns back sooner than you expect and looks right at you." }
+      ]
+    },
+    "great-hall": {
+      "passage": "Tapestries line the walls of a vaulted hall where embers glow orange in a massive hearth and long tables stretch end to end, cleared for the night but stained with spilled wine. The place reeks of roast meat. A staircase climbs the north wall. Beside the hearth, a battle tapestry ripples despite the still air, its bottom edge lifted from the floor.",
+      "choices": [
+        { "label": "inspect the tapestry", "nextNode": "workshop", "hint": "You lift the heavy fabric and find a narrow doorway carved into the wall." },
+        { "label": "head up the staircase", "nextNode": "upper-gallery", "hint": "The steps are wide and the railing is carved with figures of leaping hares." }
+      ]
+    },
+    "hidden-stair": {
+      "passage": "A narrow stair spirals upward through the guts of the tower, its walls so close your shoulders brush both sides. No torches here. You feel your way along grooved brick, each step narrower than the last. The air smells of rust and something faintly sweet. The stair branches at a landing lit by a thin crack in the outer wall.",
+      "choices": [
+        { "label": "squeeze through the crack", "nextNode": "workshop", "hint": "You turn sideways and the opening leads to a room full of shelves and glass." },
+        { "label": "peer up the stair", "nextNode": "upper-gallery", "hint": "The stairs widen above and a faint breeze carries the scent of old paint." }
+      ]
+    },
+    "workshop": {
+      "passage": "Colored powder and bundled herbs line the shelves of a circular room that reeks of sulfur and burned sage, its brass telescope aimed at a slot in the ceiling. A flask bubbles on the sill. On the workbench, a leather journal lies open to careful diagrams of a vault below this tower, marked with words in a cipher and numbered locks.",
+      "choices": [
+        { "label": "search the journal", "nextNode": "vault-clue", "hint": "The pages are brittle and the ink smells fresh despite the dust everywhere." },
+        { "label": "check the upper door", "nextNode": "upper-gallery", "hint": "A draft slips through the gap beneath the door and cools your face." }
+      ]
+    },
+    "kitchen": {
+      "passage": "Steam curls from a pot simmering over banked coals. The kitchen is empty now, but plates of half-eaten bread sit on the counter and a chair lies tipped on its side. Whoever works here is gone. Two exits wait - a heavy door to the north with a brass knob, and a servants' stair against the east wall.",
+      "choices": [
+        { "label": "try the north door", "nextNode": "great-hall", "hint": "The door opens into a hall much larger than the kitchen, warm and smoky." },
+        { "label": "creep up the stair", "nextNode": "upper-gallery", "hint": "The servants' stair is narrow and winds upward through walls that hum with draft." }
+      ]
+    },
+    "armory": {
+      "passage": "Racks of dulled blades and battered shields line the walls of a long, low room that smells of oil and iron filings. A grinding wheel sits in the corner, pedal worn to bare wood. Dust covers everything. North, a corridor leads toward the great hall and voices carry from somewhere above. East, a spiral ramp climbs toward the upper floors.",
+      "choices": [
+        { "label": "go north to the hall", "nextNode": "great-hall", "hint": "The corridor opens up and the warmth of a hearth washes over you." },
+        { "label": "walk the eastern ramp", "nextNode": "upper-gallery", "hint": "The ramp spirals twice before leveling off at a wide landing above the hall." }
+      ]
+    },
+    "upper-gallery": {
+      "passage": "A long gallery stretches the width of the tower, its walls hung with portraits whose painted eyes seem to track your movement. The frames are crooked. Moonlight pours through a tall window, casting silver shapes across marble. A reinforced door stands to the left, triple-locked and bound in iron bands. A rope bridge sways outside to the right, open to the wind.",
+      "choices": [
+        { "label": "open the reinforced door", "nextNode": "vault-door", "hint": "The lock mechanism is complex but the first two pins give with effort." },
+        { "label": "trace the bridge outside", "nextNode": "tower-bridge", "hint": "The rope creaks and the planks tilt as you step onto the bridge." }
+      ]
+    },
+    "vault-clue": {
+      "passage": "The journal's diagrams click into focus when you flatten the page. The vault sits below the tower, accessible by two routes - a tunnel through the cistern or a locked door on the gallery level. Three runes are sketched beside the door, labeled in the same cipher. You trace them onto your palm with charcoal from the workbench. The combination.",
+      "choices": [
+        { "label": "memorize the rune sequence", "nextNode": "vault-door", "hint": "The shapes burn themselves into your memory as you whisper each one aloud." },
+        { "label": "sketch a map downstream", "nextNode": "vault-tunnel", "hint": "The route winds through the lower levels and you mark each turn carefully." }
+      ]
+    },
+    "tower-bridge": {
+      "passage": "Wind rips at your clothes the moment you step onto the rope bridge strung between the two spires of the Moonspire complex. Planks sway. Ropes groan. Below, the courtyard shrinks to a patchwork of dim squares. Halfway across, you spot a trapdoor in the planks beneath your feet and a tunnel opening cut into the cliff face ahead.",
+      "choices": [
+        { "label": "run for the far spire", "nextNode": "ending-fall", "hint": "The bridge lurches sideways as you pick up speed and a plank snaps underfoot." },
+        { "label": "steady yourself at the trapdoor", "nextNode": "vault-tunnel", "hint": "The trapdoor opens with a tug and iron rungs descend into the cliff below." }
+      ]
+    },
+    "vault-door": {
+      "passage": "The triple-locked door fills a stone archway at the end of the gallery, each lock bearing a rune that must be aligned before the bolt turns. Two runes click into place. The third resists. A wrong combination triggers a brass bell mounted above the frame - clearly meant to bring guards at a run. Your fingers hover over the final dial.",
+      "choices": [
+        { "label": "turn the final dial", "nextNode": "vault-chamber", "hint": "The rune slides into place with a satisfying click and the door swings open." },
+        { "label": "force the lock open", "nextNode": "ending-alarm", "hint": "Metal shrieks against metal and the bell above the door begins to ring." }
+      ]
+    },
+    "vault-tunnel": {
+      "passage": "Iron rungs lead down a shaft carved into the cliff, depositing you in a tunnel that runs level toward the tower's foundation. The walls glisten with moisture. The floor is smooth from flowing water that pools at your boots. A heavy grate blocks the way, bolted from this side. Beyond it, warm air drifts and something hums with steady power.",
+      "choices": [
+        { "label": "pry the grate open", "nextNode": "vault-chamber", "hint": "The bolts screech as you work them loose and the grate swings inward heavily." },
+        { "label": "feel along the wall", "nextNode": "ending-trapped", "hint": "Your hand finds a groove in the rock and something clicks beneath your palm." }
+      ]
+    },
+    "vault-chamber": {
+      "passage": "The vault opens before you - a circular room lit from within by the relic itself, floating above a pedestal of carved obsidian. The glow is blue. Steady, like a heartbeat. Shelves of lesser treasures line the walls but the relic draws every thought. It looks like a crystal lantern the size of your fist, and it knows you are here. It hums louder.",
+      "choices": [
+        { "label": "seize the relic", "nextNode": "ending-relic", "hint": "Your fingers close around the crystal and a shock of warmth floods your arm." },
+        { "label": "shatter the pedestal", "nextNode": "ending-sacrifice", "hint": "You raise your boot above the obsidian base and the relic flares blinding white." }
+      ]
+    },
+    "ending-fall": {
+      "passage": "The bridge snaps before you reach the second spire. Rope and planks scatter into the void and the wind swallows your shout. You catch a beam of scaffolding with one hand and for a single breath you hang there, staring at the courtyard far below while the tower watches. Your grip slips. The night rushes up.",
+      "choices": [],
+      "ending": {
+        "title": "The Long Fall",
+        "flavor": "Some heights are not meant to be crossed on rope and prayer.",
+        "action": "let go of the beam"
+      }
+    },
+    "ending-alarm": {
+      "passage": "The bell rings before you can stop it, a sharp bronze note that echoes through the entire tower. Boots on stairs. You grab what you can from the nearest shelf - a handful of silver coins and a scroll case - and sprint for the window. The drop is ugly but you make it, rolling across the courtyard with nothing that matters. The relic stays.",
+      "choices": [],
+      "ending": {
+        "title": "Empty Hands",
+        "flavor": "Silver buys supper, but it does not buy back what the tower keeps.",
+        "action": "drop into the courtyard"
+      }
+    },
+    "ending-trapped": {
+      "passage": "Your hand finds a hidden switch in the wall. The click is followed by a grinding sound as a slab of rock slides shut behind you, sealing the tunnel. Ahead, the grate locks tight with a second bolt you cannot reach. The hum of the relic pulses beyond the grate, so close you can feel its warmth. You sit. The air thins slowly.",
+      "choices": [],
+      "ending": {
+        "title": "Sealed In",
+        "flavor": "The relic hums a lullaby through the grate and you are its only audience.",
+        "action": "close your eyes and wait"
+      }
+    },
+    "ending-relic": {
+      "passage": "The crystal is warm in your hand, thrumming with a pulse that matches your own heartbeat. The tower seems to sigh as you tuck the relic into your coat and retrace your steps through the tunnel. The guards never see you. By the time the mage finds the empty pedestal, you are three hills away, the relic humming against your chest.",
+      "choices": [],
+      "ending": {
+        "title": "The Crystal Lantern",
+        "flavor": "Some things stolen are only being returned to where they belong.",
+        "action": "vanish into the hills"
+      }
+    },
+    "ending-sacrifice": {
+      "passage": "You bring your boot down on the pedestal. The obsidian cracks. The relic flares white, then blue, then nothing. A wave of heat sweeps through the vault and the shelves rattle as every ward in the tower breaks at once, locks springing open and torches guttering to ash. The power is gone. No one can steal what no longer exists.",
+      "choices": [],
+      "ending": {
+        "title": "Ashes and Freedom",
+        "flavor": "The tower stands hollow, its purpose shattered on the floor of its own vault.",
+        "action": "walk out the front gate"
+      }
+    }
+  }
+}
