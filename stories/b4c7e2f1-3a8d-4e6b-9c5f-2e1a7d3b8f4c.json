@@ -1,0 +1,166 @@
+{
+  "id": "b4c7e2f1-3a8d-4e6b-9c5f-2e1a7d3b8f4c",
+  "title": "The Marked Deck",
+  "description": "A stranger in purple velvet is cleaning out the Brass Kettle at cards on feast-eve. Young Leoc has just staked his father's field, and the crowd cheers each wrong turn.",
+  "author": "AI",
+  "tags": ["slice-of-life", "trickery"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-05-28",
+  "dayOfYear": "05-28",
+  "endingCount": 5,
+  "storyNumber": 56,
+  "startNode": "brass-kettle",
+  "nodes": {
+    "brass-kettle": {
+      "passage": "The Brass Kettle roars on feast-eve. Ale sloshes, fiddles saw, and every table is packed. One table is not. A tall stranger in purple velvet shuffles cards beside a pile of silver that should not belong to him. Young Leoc the farmhand sits across, pale and grinning, a crumpled deed on the table. The crowd cheers each bet.",
+      "choices": [
+        { "label": "watch from the corner", "nextNode": "corner-view", "hint": "The angle from this bench shows both his hands and the pot clearly." },
+        { "label": "lean on the bar", "nextNode": "bar-lean", "hint": "The innkeeper knows every face in this room and most of their sins." },
+        { "label": "climb the back stairs", "nextNode": "back-stairs", "hint": "No one watches the upper hall on a night this loud." }
+      ]
+    },
+    "corner-view": {
+      "passage": "The corner bench is sticky with spilled mead. From here, the whole table reads like a page. The stranger's sleeves run too long and his cuffs are creased in odd places, and his eyes flick to a thin man by the hearth after every single deal. The pot swells. Leoc shoves another coin in.",
+      "choices": [
+        { "label": "study his sleeves", "nextNode": "marked-truth", "hint": "The cuff seams ripple each time his wrist passes the pot." },
+        { "label": "track his eye-signals", "nextNode": "accomplice-spot", "hint": "The thin man by the hearth nods back every single time." }
+      ]
+    },
+    "bar-lean": {
+      "passage": "Mistress Ren keeps the bar polished even on feast-eve. Her mouth is a thin line as she watches the table, and her rag slows every time the stranger deals a hand. She leans in. 'Came in at dusk in that purple cloak, bought a round for the room, and has not paid his own tab yet.' A clean spare deck sits under her towel.",
+      "choices": [
+        { "label": "warn Leoc directly", "nextNode": "farmhand-plea", "hint": "The boy's ears are red with ale but he might still hear you." },
+        { "label": "borrow the clean deck", "nextNode": "clean-deck", "hint": "Her towel barely hides it; she nods once when you reach." }
+      ]
+    },
+    "back-stairs": {
+      "passage": "The back stairs creak under your boots and smell of rosemary and old smoke. The upper hall runs dark except for a single oil lamp. Two doors stand along the wall - the loft room where the stranger stores his saddlebag, and a smaller chamber where low voices murmur behind the panel. A coin lies on the floor. Someone left fast.",
+      "choices": [
+        { "label": "search the loft room", "nextNode": "marked-truth", "hint": "The saddlebag bulges with something that should not fit a card case." },
+        { "label": "listen at the chamber", "nextNode": "accomplice-spot", "hint": "Two voices arguing about shares; you catch the word 'farm.'" }
+      ]
+    },
+    "marked-truth": {
+      "passage": "You find what you came for. A deck with thumbnail nicks on every face card, sanded ridges only sharp eyes can read, and a second pouch holds a vial of wax for patching the marks after a game. Downstairs, Leoc is cheering at a hand he will never win. The stranger's thin accomplice is still at the hearth.",
+      "choices": [
+        { "label": "swap in a fair deck", "nextNode": "card-table", "hint": "Your pocket feels heavier with his cards pressed against your ribs." },
+        { "label": "shout the truth now", "nextNode": "crowd-reaction", "hint": "Your voice is louder than you meant when the word 'cheat' lands." }
+      ]
+    },
+    "accomplice-spot": {
+      "passage": "Two men work the table, not one. The thin one by the hearth taps his mug in a steady rhythm - one tap for face cards, two for aces - and the stranger deals every hand to match him perfectly. A lesser hand would miss it. You did not. The accomplice is smaller, slower, and not watching the door.",
+      "choices": [
+        { "label": "expose the partner", "nextNode": "crowd-reaction", "hint": "One shout toward the hearth will turn every head in the room." },
+        { "label": "draw the partner away", "nextNode": "clean-deck", "hint": "A knocked-over candle would pull him clean out of his chair." }
+      ]
+    },
+    "farmhand-plea": {
+      "passage": "Leoc's cheeks burn red with ale and false luck. 'One more hand,' he slurs. 'I can win it all back.' The deed on the table is his father's barley field signed in shaking ink, and his uncle watches from an alcove with empty eyes and an even emptier purse. Someone must stop this, and the stranger will not.",
+      "choices": [
+        { "label": "beg him to fold", "nextNode": "leoc-leaves", "hint": "Your hand on his shoulder is heavier than you meant it to be." },
+        { "label": "take his seat instead", "nextNode": "card-table", "hint": "Sliding onto his bench is easier than you feared; no one protests." }
+      ]
+    },
+    "clean-deck": {
+      "passage": "The fair deck sits in your sleeve, warm from Mistress Ren's towel. Fifty-two honest cards, all edges crisp, no thumb-marks anywhere. The stranger has not seen you. He is laughing with Leoc. The table's own deck lies face-down waiting for his next shuffle, and there is a heartbeat, maybe two, before he takes it up again.",
+      "choices": [
+        { "label": "palm it into the pile", "nextNode": "card-table", "hint": "Your fingers do the move you have practiced since boyhood." },
+        { "label": "pass it to the innkeeper", "nextNode": "crowd-reaction", "hint": "Mistress Ren's eyes meet yours across the bar; she understands at once." }
+      ]
+    },
+    "card-table": {
+      "passage": "The bench creaks under you. The stranger's violet eyes flick up to measure you, find you dull, and slide lazily back to his pile without a second thought. 'Fresh blood,' he drawls. 'What will it be, friend?' His fingers cut the deck without looking. The pot glitters between you - more silver than you have ever held.",
+      "choices": [
+        { "label": "play a patient hand", "nextNode": "dealer-eyes", "hint": "You meet his gaze and let him read nothing from your face." },
+        { "label": "match his sleight", "nextNode": "complicit-ending", "hint": "Your own cuffs are stitched for tricks you learned long ago." }
+      ]
+    },
+    "dealer-eyes": {
+      "passage": "The first three hands pass slow. You fold, call, fold. The stranger wins small pots and lets you win a few. He is measuring your weight. Across the table, Leoc has gone quiet and watchful, finally sober enough to understand what almost happened to his field. The thin man at the hearth has stopped tapping.",
+      "choices": [
+        { "label": "slow the pot down", "nextNode": "opening-hand", "hint": "Every small bet teaches him to believe you are timid." },
+        { "label": "push him with a raise", "nextNode": "opening-hand", "hint": "A steep raise early forces him to show a tell or fold." }
+      ]
+    },
+    "opening-hand": {
+      "passage": "The deal turns. Your cards are fair - a low pair, nothing to brag about. The stranger smiles into his hand as if he already sees yours. The pot grows. A silver chain, a ring, then the stranger pushes a folded parchment forward, a title to a house in the merchant quarter. The room has gone quiet around the table.",
+      "choices": [
+        { "label": "meet his bet", "nextNode": "final-hand", "hint": "A single gold crown from your purse lands in the center." },
+        { "label": "raise above the title", "nextNode": "final-hand", "hint": "Everything you own in this world slides forward with one small push." }
+      ]
+    },
+    "final-hand": {
+      "passage": "The last card turns. Your fair hand shows a pair stronger than any pair should be, because the stranger's hidden ace never came. He stares at the deck as if the paper has betrayed him. His fingers twitch toward his cuff. Leoc leans forward. The pot waits. The crowd has stopped breathing.",
+      "choices": [
+        { "label": "reveal honest cards", "nextNode": "outplay-ending", "hint": "You flip each card slowly, letting the room see the truth." },
+        { "label": "bluff with nothing", "nextNode": "complicit-ending", "hint": "Your grin is steady but your palmed ace is waiting in the sleeve." }
+      ]
+    },
+    "crowd-reaction": {
+      "passage": "The room turns as one. Mugs lower. The fiddle dies mid-note. Every eye in the Brass Kettle settles on the stranger in purple velvet, whose charming smile slips a hair too slow. Leoc has stood up with his deed in white-knuckled hands. The thin man at the hearth is already reaching for the door.",
+      "choices": [
+        { "label": "call for the sheriff", "nextNode": "sheriff-arrives", "hint": "Your shout is answered by boots at the front door within seconds." },
+        { "label": "block his escape", "nextNode": "brawl-ending", "hint": "Your shoulder against the stranger's chest is all the warning he gets." }
+      ]
+    },
+    "sheriff-arrives": {
+      "passage": "Sheriff Braga fills the doorway, still chewing a supper bone, axe slung lazily at her belt. She takes in the scene with one slow look - pot, deck, cringing stranger, sobered farmhand - and her eyebrows climb. 'Evidence,' she says. 'Or someone hangs.' The marked deck weighs like a brick in your pocket. Mistress Ren waits for you to speak.",
+      "choices": [
+        { "label": "present the marked deck", "nextNode": "expose-ending", "hint": "Your hand trembles a little as you lay the cards on oak." },
+        { "label": "point at the accomplice", "nextNode": "expose-ending", "hint": "The thin man freezes with one foot already across the threshold." }
+      ]
+    },
+    "leoc-leaves": {
+      "passage": "Leoc blinks as if waking. He looks at the deed, then at you, then at the uncle slumped in the alcove, and a long slow breath leaves him like a man waking from a bad dream. He folds the parchment into his coat. 'Drink of water for the road,' he mutters, not meeting any eye. Outside, frost sharpens the air.",
+      "choices": [
+        { "label": "walk him to the door", "nextNode": "silent-ending", "hint": "His boots are uneven, as if he has forgotten how to stand sober." },
+        { "label": "stay at the window", "nextNode": "silent-ending", "hint": "The night outside promises a long walk home through empty fields." }
+      ]
+    },
+    "silent-ending": {
+      "passage": "Leoc is gone into the night and his father's field is still his family's to plant. You never learn where the stranger goes, only that the stranger and his partner are not at the table when you turn back. Mistress Ren pours you a mug of warm cider. It is not a victory, but it is not a loss either. The Kettle roars on.",
+      "choices": [],
+      "ending": {
+        "title": "The Quiet Mercy",
+        "flavor": "A saved field is not nothing, even when the cheat walks free.",
+        "action": "see Leoc safely home"
+      }
+    },
+    "outplay-ending": {
+      "passage": "Your cards hit the oak. A pair of queens, honest to the last pip. The stranger's hands shake and the pot slides across the table to you. You push Leoc's deed back into his stunned hands and tell him to plant his own field next spring. The Brass Kettle erupts. Somewhere in the cheering, the stranger slips out into the night.",
+      "choices": [],
+      "ending": {
+        "title": "A Clean Pair",
+        "flavor": "Honest cards sting worse than marked ones, when they land at the right hour.",
+        "action": "lay your cards flat"
+      }
+    },
+    "complicit-ending": {
+      "passage": "Your hand shakes the hidden ace free from your sleeve at the worst possible moment. It flutters to the floor. The stranger's eyes light up with cruel relief - he is not the only cheat at this table tonight. Sheriff Braga hauls you both into the cold street. Leoc watches from the window, the deed still gone.",
+      "choices": [],
+      "ending": {
+        "title": "Two Cheats, One Rope",
+        "flavor": "The second cheat at the table always falls first.",
+        "action": "drop the hidden ace"
+      }
+    },
+    "expose-ending": {
+      "passage": "Sheriff Braga reads the marked deck at arm's length and her jaw hardens. The stranger tries a smile, then a bribe, then a dash for the door that his own partner blocks by accident. Both men are bound before the fiddler can start up again. Leoc gets his deed back, and you get a free mug. The Kettle remembers your face.",
+      "choices": [],
+      "ending": {
+        "title": "The Crown's Deck",
+        "flavor": "Justice wears an apron and keeps its axe loose.",
+        "action": "hand over the proof"
+      }
+    },
+    "brawl-ending": {
+      "passage": "The room explodes. Your shoulder hits his chest, the stranger flips the table, silver coins rain everywhere, and the thin man swings a stool at your head. Fists fly, mugs break, the fiddler shouts for peace. When it ends you are face-down in spilled ale and the stranger is long gone with the pot. Leoc's deed is gone with him.",
+      "choices": [],
+      "ending": {
+        "title": "A Broken Stool",
+        "flavor": "Some nights end with your face in the floorboards.",
+        "action": "tackle him at the bar"
+      }
+    }
+  }
+}

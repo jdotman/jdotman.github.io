@@ -766,5 +766,47 @@
     "dayOfYear": "05-26",
     "endingCount": 5,
     "storyNumber": 54
+  },
+  {
+    "id": "8d3f6a21-9b4c-4e72-a85f-16d2b4e8c9a3",
+    "title": "The Forgefire Trial",
+    "description": "Five apprentice smiths compete for the honor of forging the king's blade. Someone has fouled your coals, and dawn will bring the final strike.",
+    "tags": [
+      "competition",
+      "crafting"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-27",
+    "dayOfYear": "05-27",
+    "endingCount": 6,
+    "storyNumber": 55
+  },
+  {
+    "id": "b4c7e2f1-3a8d-4e6b-9c5f-2e1a7d3b8f4c",
+    "title": "The Marked Deck",
+    "description": "A stranger in purple velvet is cleaning out the Brass Kettle at cards on feast-eve. Young Leoc has just staked his father's field, and the crowd cheers each wrong turn.",
+    "tags": [
+      "slice-of-life",
+      "trickery"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-28",
+    "dayOfYear": "05-28",
+    "endingCount": 5,
+    "storyNumber": 56
+  },
+  {
+    "id": "e5f1b3c2-7a9d-4e8c-b6f4-3c2a9d5e1f7b",
+    "title": "The Singing Stones",
+    "description": "At St. Cauldric's, the walls have begun to sing at midnight. A pilgrim's child has vanished into the catacombs below, and the abbot says the mountain is owed a life.",
+    "tags": [
+      "mystery",
+      "sacrifice"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-29",
+    "dayOfYear": "05-29",
+    "endingCount": 5,
+    "storyNumber": 57
   }
 ]
