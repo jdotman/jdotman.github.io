@@ -1,9 +1,12 @@
 {
   "id": "91618216-cab5-4896-9382-04910a40cbb6",
-  "title": "The Glass Oasis",
+  "title": "Glass Oasis",
   "description": "A desert oasis has turned to glass overnight and the caravans cannot pass. Something ancient stirs beneath the sand and only a fool would go looking for it.",
   "author": "AI",
-  "tags": ["exploration", "eerie"],
+  "tags": [
+    "exploration",
+    "eerie"
+  ],
   "estimatedMinutes": 12,
   "dateGenerated": "2026-05-01",
   "dayOfYear": "05-01",
@@ -12,144 +15,316 @@
     "intro": {
       "passage": "You stand at the edge of a vast depression where green water and date palms should be. Instead, the entire oasis has turned to smooth, dark glass. Your boots ring on the surface like a bell. The caravan master behind you will not come closer. To the north, a crack splits the glass floor. To the east, a stone well rises from the surface, still intact.",
       "choices": [
-        { "label": "approach the crack", "nextNode": "glass-crack", "hint": "The glass hums beneath your feet as you step closer." },
-        { "label": "examine the well", "nextNode": "stone-well", "hint": "The well stones are warm to the touch despite the desert night." },
-        { "label": "circle the rim", "nextNode": "oasis-rim", "hint": "Your shadow stretches long across the glassy surface." }
+        {
+          "label": "approach the crack",
+          "nextNode": "glass-crack",
+          "hint": "The glass hums beneath your feet as you step closer."
+        },
+        {
+          "label": "examine the well",
+          "nextNode": "stone-well",
+          "hint": "The well stones are warm to the touch despite the desert night."
+        },
+        {
+          "label": "circle the rim",
+          "nextNode": "oasis-rim",
+          "hint": "Your shadow stretches long across the glassy surface."
+        }
       ]
     },
     "glass-crack": {
       "passage": "The crack runs deep into the glass, wide enough to fit your arm. A faint blue glow pulses from below, steady as a heartbeat. The edges are razor sharp and warm. You kneel and press your ear to the surface. A low hum rises through the glass, not mechanical but alive. Something down there is breathing. Beside the crack, a set of old iron pitons have been driven into the glass.",
       "choices": [
-        { "label": "climb into the crack", "nextNode": "beneath-glass", "hint": "The pitons hold your weight, but just barely." },
-        { "label": "follow the crack north", "nextNode": "buried-arch", "hint": "The crack widens ahead and the glow grows stronger." }
+        {
+          "label": "climb into the crack",
+          "nextNode": "beneath-glass",
+          "hint": "The pitons hold your weight, but just barely."
+        },
+        {
+          "label": "follow the crack north",
+          "nextNode": "buried-arch",
+          "hint": "The crack widens ahead and the glow grows stronger."
+        }
       ]
     },
     "stone-well": {
       "passage": "The well is ancient, older than the oasis by centuries. Runes spiral down its inner wall, carved in a language you half recognize from temple texts. The water inside is not water. It is a column of pale light rising from deep below. A clay jar sits on the well's rim, sealed with wax. Nearby, a rope ladder hangs over the edge, swaying in no wind.",
       "choices": [
-        { "label": "open the jar", "nextNode": "clay-jar", "hint": "The wax cracks under your thumb and a sweet scent rises." },
-        { "label": "descend the ladder", "nextNode": "well-descent", "hint": "The rope is old but the knots are sound." }
+        {
+          "label": "open the jar",
+          "nextNode": "clay-jar",
+          "hint": "The wax cracks under your thumb and a sweet scent rises."
+        },
+        {
+          "label": "descend the ladder",
+          "nextNode": "well-descent",
+          "hint": "The rope is old but the knots are sound."
+        }
       ]
     },
     "oasis-rim": {
       "passage": "You walk the rim where sand meets glass. The transition is sharp, as if someone drew a line and everything inside it changed in an instant. Halfway around, you find a dead campfire and a leather journal half buried in the sand. The last entry is dated three weeks ago. Beyond the camp, a trail of footprints leads down onto the glass toward a dark shape in the center of the oasis.",
       "choices": [
-        { "label": "read the journal", "nextNode": "journal", "hint": "The handwriting is steady at first, then begins to shake." },
-        { "label": "follow the footprints", "nextNode": "dark-shape", "hint": "The prints press deep, as if whoever made them was running." }
+        {
+          "label": "read the journal",
+          "nextNode": "journal",
+          "hint": "The handwriting is steady at first, then begins to shake."
+        },
+        {
+          "label": "follow the footprints",
+          "nextNode": "dark-shape",
+          "hint": "The prints press deep, as if whoever made them was running."
+        }
       ]
     },
     "beneath-glass": {
       "passage": "You squeeze through the crack and drop into a hollow space beneath the glass ceiling. The blue glow comes from veins of crystal threading the walls like roots. The air is warm and damp, nothing like the desert above. A narrow tunnel slopes downward to the south. To the west, a chamber opens where the crystals cluster thick, pulsing in rhythm. Water drips somewhere close.",
       "choices": [
-        { "label": "enter the chamber", "nextNode": "crystal-heart", "hint": "The pulse quickens as you step through the threshold." },
-        { "label": "take the tunnel", "nextNode": "deep-tunnel", "hint": "The slope is gentle but the darkness ahead is total." }
+        {
+          "label": "enter the chamber",
+          "nextNode": "crystal-heart",
+          "hint": "The pulse quickens as you step through the threshold."
+        },
+        {
+          "label": "take the tunnel",
+          "nextNode": "deep-tunnel",
+          "hint": "The slope is gentle but the darkness ahead is total."
+        }
       ]
     },
     "buried-arch": {
       "passage": "The crack leads to a stone archway half swallowed by the glass floor. The keystone is carved with a face, mouth open wide, and the blue light streams from between its teeth. Beyond the arch, stairs descend into the earth. The air rising from below smells of wet stone and old copper. A bronze bell hangs from a bracket on the arch, green with age.",
       "choices": [
-        { "label": "ring the bell", "nextNode": "bell-ring", "hint": "Your fingers close around the cold metal clapper." },
-        { "label": "descend the stairs", "nextNode": "deep-tunnel", "hint": "Each step takes you further from the sky." }
+        {
+          "label": "ring the bell",
+          "nextNode": "bell-ring",
+          "hint": "Your fingers close around the cold metal clapper."
+        },
+        {
+          "label": "descend the stairs",
+          "nextNode": "deep-tunnel",
+          "hint": "Each step takes you further from the sky."
+        }
       ]
     },
     "clay-jar": {
       "passage": "Inside the jar you find a rolled parchment and a small crystal no bigger than your thumb. The parchment is a map of tunnels beneath the oasis, drawn by a careful hand. One chamber is circled three times and labeled in old script you can just barely read: the Sleeper's Cradle. The crystal glows faintly when you hold it near the well's light column.",
       "choices": [
-        { "label": "descend the ladder", "nextNode": "well-descent", "hint": "The crystal lights your way like a tiny lantern." },
-        { "label": "study the map", "nextNode": "dark-shape", "hint": "The circled chamber sits directly beneath the oasis center." }
+        {
+          "label": "descend the ladder",
+          "nextNode": "well-descent",
+          "hint": "The crystal lights your way like a tiny lantern."
+        },
+        {
+          "label": "study the map",
+          "nextNode": "dark-shape",
+          "hint": "The circled chamber sits directly beneath the oasis center."
+        }
       ]
     },
     "well-descent": {
       "passage": "The ladder sways as you climb down into the well. The light column parts around you like warm fog. Twenty feet down, the well wall opens into a carved passage heading south. The runes here are larger and deeper, glowing the same pale blue as the light above. The passage floor is damp and your boots leave prints in a thin layer of silt. Something scraped the wall recently.",
       "choices": [
-        { "label": "follow the passage", "nextNode": "deep-tunnel", "hint": "The scrape marks run along the left wall at shoulder height." },
-        { "label": "touch the runes", "nextNode": "rune-vision", "hint": "The stone vibrates under your fingertips like a plucked string." }
+        {
+          "label": "follow the passage",
+          "nextNode": "deep-tunnel",
+          "hint": "The scrape marks run along the left wall at shoulder height."
+        },
+        {
+          "label": "touch the runes",
+          "nextNode": "rune-vision",
+          "hint": "The stone vibrates under your fingertips like a plucked string."
+        }
       ]
     },
     "journal": {
       "passage": "The journal belongs to a scholar named Sera. She writes of finding the oasis already glass when she arrived. Her notes describe tunnels below, a sleeping creature of immense age, and crystals that respond to sound. The final entry reads: I rang the bell. The Sleeper opened one eye. I do not think it was angry. I think it was sad. Then the pages go blank.",
       "choices": [
-        { "label": "follow the footprints", "nextNode": "dark-shape", "hint": "Sera's trail leads straight to the center of the glass." },
-        { "label": "return to the crack", "nextNode": "glass-crack", "hint": "You tuck the journal into your pack and head back." }
+        {
+          "label": "follow the footprints",
+          "nextNode": "dark-shape",
+          "hint": "Sera's trail leads straight to the center of the glass."
+        },
+        {
+          "label": "return to the crack",
+          "nextNode": "glass-crack",
+          "hint": "You tuck the journal into your pack and head back."
+        }
       ]
     },
     "dark-shape": {
       "passage": "The shape in the center of the oasis is a stone pillar rising ten feet from the glass. It is carved on every side with sleeping faces, eyes closed, mouths slightly open. At its base, the glass is thinner and you can see blue light churning below like a slow whirlpool. A bronze door is set into the pillar at ground level. Beside it, fresh bootprints end at the threshold.",
       "choices": [
-        { "label": "open the door", "nextNode": "pillar-interior", "hint": "The handle turns with a soft click and the door swings inward." },
-        { "label": "study the carvings", "nextNode": "rune-vision", "hint": "The faces seem to shift when you are not looking directly at them." }
+        {
+          "label": "open the door",
+          "nextNode": "pillar-interior",
+          "hint": "The handle turns with a soft click and the door swings inward."
+        },
+        {
+          "label": "study the carvings",
+          "nextNode": "rune-vision",
+          "hint": "The faces seem to shift when you are not looking directly at them."
+        }
       ]
     },
     "rune-vision": {
       "passage": "The moment you focus on the ancient marks, your vision blurs and the world falls away. You see the oasis as it was a thousand years ago, green and alive, with a vast serpent coiled beneath the water. The serpent is not a beast. It is a guardian, placed here to watch over something buried deeper still. It turned the water to glass to seal the way. It is tired. It wants to sleep forever.",
       "choices": [
-        { "label": "seek the guardian", "nextNode": "crystal-heart", "hint": "You know now where the serpent rests." },
-        { "label": "find another way", "nextNode": "pillar-interior", "hint": "There must be a path that does not disturb the guardian." }
+        {
+          "label": "seek the guardian",
+          "nextNode": "crystal-heart",
+          "hint": "You know now where the serpent rests."
+        },
+        {
+          "label": "find another way",
+          "nextNode": "pillar-interior",
+          "hint": "There must be a path that does not disturb the guardian."
+        }
       ]
     },
     "deep-tunnel": {
       "passage": "The tunnel opens into a crossroads where three paths meet beneath a dome of fused sand. A mosaic on the ceiling shows a serpent curled around a glowing seed. The east path is lined with dead crystal, dark and cracked. The south path glows bright and warm. The west path is flooded with ankle-deep water that glows faintly green. A woman's pack lies abandoned at the junction.",
       "choices": [
-        { "label": "take the south path", "nextNode": "crystal-heart", "hint": "Warmth washes over your face like standing near a forge." },
-        { "label": "wade west", "nextNode": "flooded-hall", "hint": "The water is warm and tingles against your skin." },
-        { "label": "search the pack", "nextNode": "sera-camp", "hint": "The buckles are undone as if opened in haste." }
+        {
+          "label": "take the south path",
+          "nextNode": "crystal-heart",
+          "hint": "Warmth washes over your face like standing near a forge."
+        },
+        {
+          "label": "wade west",
+          "nextNode": "flooded-hall",
+          "hint": "The water is warm and tingles against your skin."
+        },
+        {
+          "label": "search the pack",
+          "nextNode": "sera-camp",
+          "hint": "The buckles are undone as if opened in haste."
+        }
       ]
     },
     "bell-ring": {
       "passage": "The bell's tone is deep and carries through the glass like thunder through water. The entire oasis vibrates. Cracks spread from the arch in a web pattern and blue light floods upward through each one. Below your feet, something massive shifts. The humming grows louder and you feel it in your chest now, a slow pulse like a giant heart waking from a long dream.",
       "choices": [
-        { "label": "descend quickly", "nextNode": "crystal-heart", "hint": "The stairs shake under your boots as you rush downward." },
-        { "label": "retreat to the rim", "nextNode": "ending-flee", "hint": "Every instinct tells you to run." }
+        {
+          "label": "descend quickly",
+          "nextNode": "crystal-heart",
+          "hint": "The stairs shake under your boots as you rush downward."
+        },
+        {
+          "label": "retreat to the rim",
+          "nextNode": "ending-flee",
+          "hint": "Every instinct tells you to run."
+        }
       ]
     },
     "pillar-interior": {
       "passage": "Inside the pillar, a spiral stair descends into blue light. The walls are smooth and covered in the same sleeping faces as the outside. Halfway down, you find a woman sitting on the steps with her back against the wall. She is alive but her eyes are closed and she hums softly in time with the pulse below. A lantern and a journal lie at her feet. This must be Sera.",
       "choices": [
-        { "label": "wake Sera", "nextNode": "sera-awake", "hint": "You shake her shoulder and her eyes snap open." },
-        { "label": "continue down", "nextNode": "sleeper-cradle", "hint": "The light below is brighter than anything you have seen underground." }
+        {
+          "label": "wake Sera",
+          "nextNode": "sera-awake",
+          "hint": "You shake her shoulder and her eyes snap open."
+        },
+        {
+          "label": "continue down",
+          "nextNode": "sleeper-cradle",
+          "hint": "The light below is brighter than anything you have seen underground."
+        }
       ]
     },
     "flooded-hall": {
       "passage": "The flooded passage opens into a low hall where the water rises to your knees. Stone shelves line the walls, holding glass bottles filled with seeds, each one glowing a different color. This was a garden vault, a place to preserve life against some future disaster. At the far end, a stone door stands open and bright light spills through it. The water flows from that direction.",
       "choices": [
-        { "label": "take a bottle", "nextNode": "ending-seeds", "hint": "The glass is warm and the seed inside pulses like a tiny heart." },
-        { "label": "go through the door", "nextNode": "sleeper-cradle", "hint": "The light beyond the door makes your eyes water." }
+        {
+          "label": "take a bottle",
+          "nextNode": "ending-seeds",
+          "hint": "The glass is warm and the seed inside pulses like a tiny heart."
+        },
+        {
+          "label": "go through the door",
+          "nextNode": "sleeper-cradle",
+          "hint": "The light beyond the door makes your eyes water."
+        }
       ]
     },
     "sera-camp": {
       "passage": "The pack holds water skins, dried fruit, and a bundle of notes bound with string. The notes are sketches of the crystal patterns, the serpent mosaic, and a diagram showing how the guardian draws life from a seed buried at the center of the oasis. Without the seed, the serpent would sleep forever and the glass would crack. With it, the oasis could live again.",
       "choices": [
-        { "label": "take the south path", "nextNode": "crystal-heart", "hint": "You fold the notes into your belt and head toward the glow." },
-        { "label": "wade west", "nextNode": "flooded-hall", "hint": "The diagram showed the seed vault to the west." }
+        {
+          "label": "take the south path",
+          "nextNode": "crystal-heart",
+          "hint": "You fold the notes into your belt and head toward the glow."
+        },
+        {
+          "label": "wade west",
+          "nextNode": "flooded-hall",
+          "hint": "The diagram showed the seed vault to the west."
+        }
       ]
     },
     "crystal-heart": {
       "passage": "The tunnel ends in a vast cavern where a serpent made of living crystal lies coiled around a pedestal. It is beautiful and terrible, scales shifting between blue and white with each slow breath. One enormous eye is half open, watching you without fear or anger. On the pedestal sits a seed the size of your fist, pulsing gold. The serpent's coils tighten slightly around it.",
       "choices": [
-        { "label": "speak to the serpent", "nextNode": "serpent-talk", "hint": "You open your mouth and the serpent's eye focuses on you." },
-        { "label": "reach for the seed", "nextNode": "ending-shatter", "hint": "Your hand trembles as you extend it toward the golden light." }
+        {
+          "label": "speak to the serpent",
+          "nextNode": "serpent-talk",
+          "hint": "You open your mouth and the serpent's eye focuses on you."
+        },
+        {
+          "label": "reach for the seed",
+          "nextNode": "ending-shatter",
+          "hint": "Your hand trembles as you extend it toward the golden light."
+        }
       ]
     },
     "sera-awake": {
       "passage": "Sera gasps and grabs your arm. Her grip is strong. She says she has been dreaming with the serpent for days now, seeing its memories. The oasis died because the seed is failing. Without a new seed, the guardian will turn to dead crystal and the glass will crack into a sinkhole. She says there are seed bottles in the western vault. The serpent let her see them in the dream.",
       "choices": [
-        { "label": "find the seeds", "nextNode": "flooded-hall", "hint": "Sera points you back up the stairs and westward." },
-        { "label": "go to the serpent", "nextNode": "sleeper-cradle", "hint": "Sera stands and follows you down the remaining steps." }
+        {
+          "label": "find the seeds",
+          "nextNode": "flooded-hall",
+          "hint": "Sera points you back up the stairs and westward."
+        },
+        {
+          "label": "go to the serpent",
+          "nextNode": "sleeper-cradle",
+          "hint": "Sera stands and follows you down the remaining steps."
+        }
       ]
     },
     "sleeper-cradle": {
       "passage": "You enter the cradle from below and see the crystal serpent from the other side. Its coils fill most of the cavern and its head rests near the pedestal. The golden seed flickers like a candle in the wind. Cracks run through the serpent's lower coils, dark and lifeless. It is dying. The eye that watches you is patient but dim. This creature has guarded the oasis for a thousand years.",
       "choices": [
-        { "label": "speak to the serpent", "nextNode": "serpent-talk", "hint": "The great eye blinks slowly as you approach." },
-        { "label": "touch the dead coils", "nextNode": "ending-absorb", "hint": "The dark crystal is cold and rough under your palm." }
+        {
+          "label": "speak to the serpent",
+          "nextNode": "serpent-talk",
+          "hint": "The great eye blinks slowly as you approach."
+        },
+        {
+          "label": "touch the dead coils",
+          "nextNode": "ending-absorb",
+          "hint": "The dark crystal is cold and rough under your palm."
+        }
       ]
     },
     "serpent-talk": {
       "passage": "The serpent does not speak in words. Images flood your mind. You see the oasis green and full of life. You see travelers drinking, children playing, caravans resting in the shade. Then you see the seed dimming year by year and the serpent turning itself to glass to hold the last of the power together. It shows you the seed vault and a question forms in your mind: will you plant a new seed or let the desert take this place?",
       "choices": [
-        { "label": "promise to plant", "nextNode": "ending-renew", "hint": "You nod and the serpent's eye brightens for the first time." },
-        { "label": "let the oasis rest", "nextNode": "ending-rest", "hint": "Some things are meant to end." },
-        { "label": "take the old seed", "nextNode": "ending-shatter", "hint": "The gold light calls to you and you cannot resist." }
+        {
+          "label": "promise to plant",
+          "nextNode": "ending-renew",
+          "hint": "You nod and the serpent's eye brightens for the first time."
+        },
+        {
+          "label": "let the oasis rest",
+          "nextNode": "ending-rest",
+          "hint": "Some things are meant to end."
+        },
+        {
+          "label": "take the old seed",
+          "nextNode": "ending-shatter",
+          "hint": "The gold light calls to you and you cannot resist."
+        }
       ]
     },
     "ending-flee": {

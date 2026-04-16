@@ -1,9 +1,12 @@
 {
   "id": "c8f2a4e7-3b1d-4e9c-a6f0-5d8b1c7e2a4f",
-  "title": "The Wyvern's Terms",
+  "title": "Wyvern's Terms",
   "description": "A wyvern has claimed the mountain pass and the kingdom's trade road lies silent. You carry a diplomat's seal and orders to negotiate, not fight.",
   "author": "AI",
-  "tags": ["diplomacy", "negotiation"],
+  "tags": [
+    "diplomacy",
+    "negotiation"
+  ],
   "estimatedMinutes": 12,
   "dateGenerated": "2026-04-15",
   "dayOfYear": "04-15",
@@ -12,174 +15,386 @@
     "intro": {
       "passage": "You stand at the foot of Ashridge Peak where the wyvern Skorrath has claimed the mountain pass. The kingdom's trade road lies silent, choked with fear and scattered bones. You carry a diplomat's seal, a waterskin, and orders to reopen the route by any means short of war.",
       "choices": [
-        { "label": "scale the ridge path", "nextNode": "ridge-path", "hint": "The trail is steep and the shale is loose under your boots." },
-        { "label": "seek the hermit", "nextNode": "hermit-hut", "hint": "Smoke rises from a hut tucked in the shadow of a boulder." },
-        { "label": "enter the bone pass", "nextNode": "bone-pass", "hint": "The scattered bones crunch softly as you step onto the road." }
+        {
+          "label": "scale the ridge path",
+          "nextNode": "ridge-path",
+          "hint": "The trail is steep and the shale is loose under your boots."
+        },
+        {
+          "label": "seek the hermit",
+          "nextNode": "hermit-hut",
+          "hint": "Smoke rises from a hut tucked in the shadow of a boulder."
+        },
+        {
+          "label": "enter the bone pass",
+          "nextNode": "bone-pass",
+          "hint": "The scattered bones crunch softly as you step onto the road."
+        }
       ]
     },
     "ridge-path": {
       "passage": "The trail switchbacks up the mountainside through loose shale and wind-bent scrub. Halfway up you find a narrow ledge overlooking the pass below. Scorch marks blacken the stone and the air tastes of sulfur. A cave mouth opens to your left, breathing warm air that carries a faint animal musk.",
       "choices": [
-        { "label": "enter the cave", "nextNode": "side-cave", "hint": "The warm air from the cave mouth smells of straw and scale." },
-        { "label": "continue to the summit", "nextNode": "summit-overlook", "hint": "The wind picks up as you climb higher along the ridge." }
+        {
+          "label": "enter the cave",
+          "nextNode": "side-cave",
+          "hint": "The warm air from the cave mouth smells of straw and scale."
+        },
+        {
+          "label": "continue to the summit",
+          "nextNode": "summit-overlook",
+          "hint": "The wind picks up as you climb higher along the ridge."
+        }
       ]
     },
     "hermit-hut": {
       "passage": "A crooked hut sits in the shadow of a great boulder, its chimney trailing wisps of smoke. Inside, an old woman stirs a clay pot that smells of iron and sage. She studies your diplomat's seal and nods. She knew the wyvern before it claimed this pass, and offers a charm to help.",
       "choices": [
-        { "label": "accept her charm", "nextNode": "charm-accepted", "hint": "She holds out a flat stone covered in spiraling runes." },
-        { "label": "ask about the wyvern", "nextNode": "skorrath-history", "hint": "Her eyes carry old knowledge and something close to grief." }
+        {
+          "label": "accept her charm",
+          "nextNode": "charm-accepted",
+          "hint": "She holds out a flat stone covered in spiraling runes."
+        },
+        {
+          "label": "ask about the wyvern",
+          "nextNode": "skorrath-history",
+          "hint": "Her eyes carry old knowledge and something close to grief."
+        }
       ]
     },
     "bone-pass": {
       "passage": "The trade road narrows between cliff walls scarred by claws ten feet above your head. Ox bones and shattered wagon wheels crunch beneath your boots. A low rumble echoes from deeper in the pass and shadows shift on the ledges above. Something very large knows you are here.",
       "choices": [
-        { "label": "call out to Skorrath", "nextNode": "parley-ground", "hint": "Your voice echoes off the cliff walls and the rumbling stops." },
-        { "label": "search the wreckage", "nextNode": "scattered-cargo", "hint": "A leather journal lies open among the scattered merchant goods." },
-        { "label": "climb the ridge instead", "nextNode": "ridge-path", "hint": "A narrow trail cuts up from the road to the ridge above." }
+        {
+          "label": "call out to Skorrath",
+          "nextNode": "parley-ground",
+          "hint": "Your voice echoes off the cliff walls and the rumbling stops."
+        },
+        {
+          "label": "search the wreckage",
+          "nextNode": "scattered-cargo",
+          "hint": "A leather journal lies open among the scattered merchant goods."
+        },
+        {
+          "label": "climb the ridge instead",
+          "nextNode": "ridge-path",
+          "hint": "A narrow trail cuts up from the road to the ridge above."
+        }
       ]
     },
     "side-cave": {
       "passage": "The cave opens into a vaulted chamber lit by thin cracks in the ceiling. Old straw and shed scales the size of dinner plates cover the floor. In the far corner sits a clutch of three pale eggs, warm to the touch and faintly pulsing. A scraping sound echoes outside.",
       "choices": [
-        { "label": "guard the eggs", "nextNode": "egg-guardian", "hint": "You plant your feet between the clutch and the cave mouth." },
-        { "label": "take an egg", "nextNode": "egg-thief-ending", "hint": "The smallest egg is warm and fits neatly in your cloak." },
-        { "label": "slip out quietly", "nextNode": "summit-overlook", "hint": "You back toward the entrance before whatever made that sound returns." }
+        {
+          "label": "guard the eggs",
+          "nextNode": "egg-guardian",
+          "hint": "You plant your feet between the clutch and the cave mouth."
+        },
+        {
+          "label": "take an egg",
+          "nextNode": "egg-thief-ending",
+          "hint": "The smallest egg is warm and fits neatly in your cloak."
+        },
+        {
+          "label": "slip out quietly",
+          "nextNode": "summit-overlook",
+          "hint": "You back toward the entrance before whatever made that sound returns."
+        }
       ]
     },
     "summit-overlook": {
       "passage": "From the summit you see everything. Skorrath's roost crowns the opposite peak, a nest of timber and rusted armor. The pass below is a chokepoint. A crude signal mirror left by a previous scout glints among the rocks. The wyvern circles above the far ridge, wings spread wide.",
       "choices": [
-        { "label": "flash the mirror", "nextNode": "parley-ground", "hint": "You angle the glass to catch the sun and aim toward the wyvern." },
-        { "label": "descend to the roost", "nextNode": "roost-approach", "hint": "The far slope is steep but the footing looks solid enough." }
+        {
+          "label": "flash the mirror",
+          "nextNode": "parley-ground",
+          "hint": "You angle the glass to catch the sun and aim toward the wyvern."
+        },
+        {
+          "label": "descend to the roost",
+          "nextNode": "roost-approach",
+          "hint": "The far slope is steep but the footing looks solid enough."
+        }
       ]
     },
     "charm-accepted": {
       "passage": "The hermit places a flat river stone in your palm. Spiraling runes cover its surface and it hums faintly against your skin. She warns it will let you speak with Skorrath but offers no protection from fire or fang. She tucks a bundle of dried silverleaf into your pack as well.",
       "choices": [
-        { "label": "head for the pass", "nextNode": "charmed-pass", "hint": "The stone hums against your chest as you walk toward the road." },
-        { "label": "climb the ridge first", "nextNode": "ridge-path", "hint": "The high ground might give you a better view of the terrain." }
+        {
+          "label": "head for the pass",
+          "nextNode": "charmed-pass",
+          "hint": "The stone hums against your chest as you walk toward the road."
+        },
+        {
+          "label": "climb the ridge first",
+          "nextNode": "ridge-path",
+          "hint": "The high ground might give you a better view of the terrain."
+        }
       ]
     },
     "skorrath-history": {
       "passage": "The hermit tells you Skorrath was driven from the eastern mountains by dragon hunters ten years ago. The wyvern is not cruel but guards this pass because it is the last territory left to it. Her voice carries old grief. She offers a charm that may help your cause.",
       "choices": [
-        { "label": "accept the charm", "nextNode": "charm-accepted", "hint": "She reaches into a clay jar and pulls out a flat stone." },
-        { "label": "go without it", "nextNode": "bone-pass", "hint": "You thank her and turn back toward the trade road alone." }
+        {
+          "label": "accept the charm",
+          "nextNode": "charm-accepted",
+          "hint": "She reaches into a clay jar and pulls out a flat stone."
+        },
+        {
+          "label": "go without it",
+          "nextNode": "bone-pass",
+          "hint": "You thank her and turn back toward the trade road alone."
+        }
       ]
     },
     "parley-ground": {
       "passage": "Skorrath lands before you with a thunderous crack of leathery wings. Dust and pebbles fly in all directions. The wyvern is enormous, scarred along its flanks, and ancient. One amber eye fixes on you. The beast does not attack. It lowers its head and waits, nostrils working your scent.",
       "choices": [
-        { "label": "present your seal", "nextNode": "seal-presented", "hint": "You hold the metal disk high so the wyvern can see the crest." },
-        { "label": "offer a tribute", "nextNode": "tribute-offer", "hint": "You speak slowly and clearly about what the kingdom can provide." },
-        { "label": "stand in silence", "nextNode": "silent-stand", "hint": "You hold still and let the wyvern take your measure first." }
+        {
+          "label": "present your seal",
+          "nextNode": "seal-presented",
+          "hint": "You hold the metal disk high so the wyvern can see the crest."
+        },
+        {
+          "label": "offer a tribute",
+          "nextNode": "tribute-offer",
+          "hint": "You speak slowly and clearly about what the kingdom can provide."
+        },
+        {
+          "label": "stand in silence",
+          "nextNode": "silent-stand",
+          "hint": "You hold still and let the wyvern take your measure first."
+        }
       ]
     },
     "scattered-cargo": {
       "passage": "Merchant goods lie scattered across the road. Bolts of dyed silk, cracked spice jars, a locked iron strongbox half buried in dust. A leather-bound journal lies open nearby, its pages turning in the wind. The last entry is dated three weeks ago. Two things here could change the negotiation.",
       "choices": [
-        { "label": "read the journal", "nextNode": "journal-evidence", "hint": "The wind flips the pages back to a passage circled in red ink." },
-        { "label": "open the strongbox", "nextNode": "strongbox-letter", "hint": "The lock is crude iron and already cracked along one edge." },
-        { "label": "continue into the pass", "nextNode": "parley-ground", "hint": "You leave the wreckage behind and press deeper into the pass." }
+        {
+          "label": "read the journal",
+          "nextNode": "journal-evidence",
+          "hint": "The wind flips the pages back to a passage circled in red ink."
+        },
+        {
+          "label": "open the strongbox",
+          "nextNode": "strongbox-letter",
+          "hint": "The lock is crude iron and already cracked along one edge."
+        },
+        {
+          "label": "continue into the pass",
+          "nextNode": "parley-ground",
+          "hint": "You leave the wreckage behind and press deeper into the pass."
+        }
       ]
     },
     "egg-guardian": {
       "passage": "You plant yourself between the eggs and the cave mouth as a shadow fills the entrance. Skorrath's massive head appears, nostrils trailing smoke. The wyvern sees you near its young and a terrible rumble builds in its chest. Then it notices your open hands. The rumble fades to silence.",
       "choices": [
-        { "label": "speak to it gently", "nextNode": "nest-trust", "hint": "You keep your voice low and your hands where the wyvern can see them." },
-        { "label": "back away slowly", "nextNode": "summit-overlook", "hint": "You take one careful step at a time toward the cave mouth." }
+        {
+          "label": "speak to it gently",
+          "nextNode": "nest-trust",
+          "hint": "You keep your voice low and your hands where the wyvern can see them."
+        },
+        {
+          "label": "back away slowly",
+          "nextNode": "summit-overlook",
+          "hint": "You take one careful step at a time toward the cave mouth."
+        }
       ]
     },
     "roost-approach": {
       "passage": "You pick your way down the far slope to Skorrath's roost. Up close the nest is enormous, built from whole tree trunks, wagon wheels, and plates of rusted armor. The wyvern is away. Among the debris you spot a small carved wooden figure placed with obvious care atop a flat stone.",
       "choices": [
-        { "label": "examine the figure", "nextNode": "maren-figure", "hint": "The carving is old oak, worn smooth by years of gentle handling." },
-        { "label": "wait for Skorrath", "nextNode": "parley-ground", "hint": "You settle into a gap in the nest wall and keep watch." }
+        {
+          "label": "examine the figure",
+          "nextNode": "maren-figure",
+          "hint": "The carving is old oak, worn smooth by years of gentle handling."
+        },
+        {
+          "label": "wait for Skorrath",
+          "nextNode": "parley-ground",
+          "hint": "You settle into a gap in the nest wall and keep watch."
+        }
       ]
     },
     "charmed-pass": {
       "passage": "The charm hums against your chest as you enter the bone-strewn pass. When Skorrath appears the wyvern pauses mid-stride, nostrils flaring at the silverleaf scent. The runes on your stone glow faint blue. A deep vibration forms words inside your mind. You carry the mark of Maren, it says.",
       "choices": [
-        { "label": "ask who Maren is", "nextNode": "maren-memory", "hint": "The name stirs something in the wyvern's amber gaze." },
-        { "label": "propose a treaty now", "nextNode": "pact-negotiation", "hint": "You push forward while the charm still holds the wyvern's attention." }
+        {
+          "label": "ask who Maren is",
+          "nextNode": "maren-memory",
+          "hint": "The name stirs something in the wyvern's amber gaze."
+        },
+        {
+          "label": "propose a treaty now",
+          "nextNode": "pact-negotiation",
+          "hint": "You push forward while the charm still holds the wyvern's attention."
+        }
       ]
     },
     "seal-presented": {
       "passage": "You hold up the diplomat's seal. Skorrath sniffs the metal and snorts a puff of acrid smoke. The wyvern understands kingdoms well enough but a seal is just a piece of metal. It scrapes one massive claw across the stone, drawing a line between you and it. Prove your intent.",
       "choices": [
-        { "label": "offer a tribute", "nextNode": "tribute-offer", "hint": "You lower the seal and speak of what the kingdom can give." },
-        { "label": "hold your ground", "nextNode": "silent-stand", "hint": "You plant your feet and meet the amber eye without flinching." }
+        {
+          "label": "offer a tribute",
+          "nextNode": "tribute-offer",
+          "hint": "You lower the seal and speak of what the kingdom can give."
+        },
+        {
+          "label": "hold your ground",
+          "nextNode": "silent-stand",
+          "hint": "You plant your feet and meet the amber eye without flinching."
+        }
       ]
     },
     "tribute-offer": {
       "passage": "You describe the kingdom's offer. Fifty head of cattle delivered each season to the base of the pass in exchange for safe passage along the road. Skorrath listens with one eye half closed. The wyvern is tired of hunting scattered mountain goats. But its pride runs deep. It scratches a counter-offer.",
       "choices": [
-        { "label": "accept the terms", "nextNode": "trade-ending", "hint": "The counter-offer is fair and you sense this is the best you will get." },
-        { "label": "push for more", "nextNode": "overreach-ending", "hint": "You think the kingdom deserves better terms than these." }
+        {
+          "label": "accept the terms",
+          "nextNode": "trade-ending",
+          "hint": "The counter-offer is fair and you sense this is the best you will get."
+        },
+        {
+          "label": "push for more",
+          "nextNode": "overreach-ending",
+          "hint": "You think the kingdom deserves better terms than these."
+        }
       ]
     },
     "silent-stand": {
       "passage": "Minutes pass in the howling wind. Skorrath studies you with ancient patience and you do not flinch. The wyvern lowers its scarred head until one amber eye is level with your own. You see yourself reflected in that golden depth, small but unwavering. Skorrath exhales a long warm breath across your face.",
       "choices": [
-        { "label": "bow with respect", "nextNode": "respect-earned", "hint": "You lower your head slowly without breaking the wyvern's gaze." },
-        { "label": "propose an alliance", "nextNode": "respect-earned", "hint": "The moment feels right to speak of what you came here for." }
+        {
+          "label": "bow with respect",
+          "nextNode": "respect-earned",
+          "hint": "You lower your head slowly without breaking the wyvern's gaze."
+        },
+        {
+          "label": "propose an alliance",
+          "nextNode": "respect-earned",
+          "hint": "The moment feels right to speak of what you came here for."
+        }
       ]
     },
     "journal-evidence": {
       "passage": "The journal tells a clear story. Every caravan attack was provoked by guards who loosed arrows first. Skorrath never struck an unarmed traveler or a wagon that kept its distance. The wyvern defends its home but does not hunt people. This changes the shape of the negotiation entirely.",
       "choices": [
-        { "label": "bring proof to Skorrath", "nextNode": "parley-ground", "hint": "The journal is light in your pack but heavy with meaning." },
-        { "label": "check the strongbox too", "nextNode": "strongbox-letter", "hint": "If the journal held this much truth the box may hold more." }
+        {
+          "label": "bring proof to Skorrath",
+          "nextNode": "parley-ground",
+          "hint": "The journal is light in your pack but heavy with meaning."
+        },
+        {
+          "label": "check the strongbox too",
+          "nextNode": "strongbox-letter",
+          "hint": "If the journal held this much truth the box may hold more."
+        }
       ]
     },
     "strongbox-letter": {
       "passage": "The lock yields to a sharp stone. Inside you find gold coins and a sealed letter between two merchant lords. The letter proposes hiring dragon hunters to kill Skorrath and splitting the salvaged trade profits. The wyvern is not the real threat here. Human greed is.",
       "choices": [
-        { "label": "expose the conspiracy", "nextNode": "conspiracy-ending", "hint": "This letter would change everything if the right people saw it." },
-        { "label": "pocket the letter", "nextNode": "parley-ground", "hint": "You fold the paper carefully and tuck it inside your coat." }
+        {
+          "label": "expose the conspiracy",
+          "nextNode": "conspiracy-ending",
+          "hint": "This letter would change everything if the right people saw it."
+        },
+        {
+          "label": "pocket the letter",
+          "nextNode": "parley-ground",
+          "hint": "You fold the paper carefully and tuck it inside your coat."
+        }
       ]
     },
     "nest-trust": {
       "passage": "Skorrath withdraws just enough for you to breathe. The terrible rumble in its chest softens to something almost like a question. Your steady hands and honest face have earned a fragile moment of trust. The wyvern looks from you to the eggs and back. It is waiting for you to speak.",
       "choices": [
-        { "label": "explain your mission", "nextNode": "guardian-ending", "hint": "You speak of the kingdom's need and the road that must reopen." },
-        { "label": "promise to protect them", "nextNode": "guardian-ending", "hint": "You gesture toward the eggs and place a hand over your heart." }
+        {
+          "label": "explain your mission",
+          "nextNode": "guardian-ending",
+          "hint": "You speak of the kingdom's need and the road that must reopen."
+        },
+        {
+          "label": "promise to protect them",
+          "nextNode": "guardian-ending",
+          "hint": "You gesture toward the eggs and place a hand over your heart."
+        }
       ]
     },
     "maren-figure": {
       "passage": "The figure is old oak worn smooth by years of handling. It depicts a woman holding a walking staff. At the base, carved in tiny letters, you read one name: Maren. This was placed with care, not hoarded like treasure. Skorrath values something beyond gold here. Someone it remembers.",
       "choices": [
-        { "label": "replace it gently", "nextNode": "parley-ground", "hint": "You set the figure back on its stone exactly as you found it." },
-        { "label": "bring it to the hermit", "nextNode": "hermit-return", "hint": "The name Maren and the hermit's grief feel like the same story." }
+        {
+          "label": "replace it gently",
+          "nextNode": "parley-ground",
+          "hint": "You set the figure back on its stone exactly as you found it."
+        },
+        {
+          "label": "bring it to the hermit",
+          "nextNode": "hermit-return",
+          "hint": "The name Maren and the hermit's grief feel like the same story."
+        }
       ]
     },
     "maren-memory": {
       "passage": "Skorrath's mind-voice grows quiet and tender. Maren was the hermit when she was young and walked the high passes without fear. She found the wyvern wounded and near death after the dragon hunters struck. She healed it over many weeks. They were companions once. Your charm proves you come in peace.",
       "choices": [
-        { "label": "propose a treaty", "nextNode": "pact-negotiation", "hint": "The bond of trust Maren built may open the way to terms." },
-        { "label": "ask what Skorrath needs", "nextNode": "pact-negotiation", "hint": "You sense the wyvern wants more than just safety for itself." }
+        {
+          "label": "propose a treaty",
+          "nextNode": "pact-negotiation",
+          "hint": "The bond of trust Maren built may open the way to terms."
+        },
+        {
+          "label": "ask what Skorrath needs",
+          "nextNode": "pact-negotiation",
+          "hint": "You sense the wyvern wants more than just safety for itself."
+        }
       ]
     },
     "pact-negotiation": {
       "passage": "You and Skorrath negotiate through the charm's bond, images and feelings flowing between your minds. The wyvern wants safety for its young, freedom to hunt the high peaks, and silverleaf each autumn. You offer the kingdom's guarantee. Each concession is weighed with care. The terms take shape between you.",
       "choices": [
-        { "label": "seal the pact", "nextNode": "wyvern-terms", "hint": "The terms are fair and the wyvern's amber eye holds steady." },
-        { "label": "request one more condition", "nextNode": "overreach-ending", "hint": "You wonder if you can squeeze one last point into the deal." }
+        {
+          "label": "seal the pact",
+          "nextNode": "wyvern-terms",
+          "hint": "The terms are fair and the wyvern's amber eye holds steady."
+        },
+        {
+          "label": "request one more condition",
+          "nextNode": "overreach-ending",
+          "hint": "You wonder if you can squeeze one last point into the deal."
+        }
       ]
     },
     "respect-earned": {
       "passage": "Skorrath pulls back and dips its massive head. The gesture is unmistakable, a greeting between equals. You have earned something rare through patience alone. The wyvern settles onto its haunches and the tension leaves the air. Whatever you propose next, this creature will hear it with an open mind.",
       "choices": [
-        { "label": "propose guardianship", "nextNode": "guardian-ending", "hint": "You speak of shared duty and the safety of the nesting grounds." },
-        { "label": "discuss trade terms", "nextNode": "trade-ending", "hint": "You outline the kingdom's offer of cattle and safe passage." }
+        {
+          "label": "propose guardianship",
+          "nextNode": "guardian-ending",
+          "hint": "You speak of shared duty and the safety of the nesting grounds."
+        },
+        {
+          "label": "discuss trade terms",
+          "nextNode": "trade-ending",
+          "hint": "You outline the kingdom's offer of cattle and safe passage."
+        }
       ]
     },
     "hermit-return": {
       "passage": "You carry the carved figure back down to the hermit's hut. The old woman takes it in both hands and her eyes fill with tears. She carved it forty years ago, she says. She gathers her walking staff and cloak. Together you climb toward the pass. She has words for an old friend.",
       "choices": [
-        { "label": "follow her up the trail", "nextNode": "wyvern-terms", "hint": "The old woman moves faster than you expected up the mountain path." },
-        { "label": "let her go alone", "nextNode": "parley-ground", "hint": "Some reunions are not meant for strangers to witness." }
+        {
+          "label": "follow her up the trail",
+          "nextNode": "wyvern-terms",
+          "hint": "The old woman moves faster than you expected up the mountain path."
+        },
+        {
+          "label": "let her go alone",
+          "nextNode": "parley-ground",
+          "hint": "Some reunions are not meant for strangers to witness."
+        }
       ]
     },
     "egg-thief-ending": {

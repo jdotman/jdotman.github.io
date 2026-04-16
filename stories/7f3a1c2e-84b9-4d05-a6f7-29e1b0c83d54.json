@@ -1,1 +1,475 @@
-{"id":"7f3a1c2e-84b9-4d05-a6f7-29e1b0c83d54","title":"The Court of Whispers","description":"A foreign diplomat arrives dead at the royal court and every noble in the hall had reason to want him gone. You are the only one who saw what really happened.","author":"AI","tags":["intrigue","diplomacy"],"estimatedMinutes":12,"dateGenerated":"2026-05-04","dayOfYear":"05-04","startNode":"intro","nodes":{"intro":{"passage":"The great hall of Valdris Keep falls hush as the diplomat Renar Solenne collapses mid-toast, his goblet shattering on marble. Lords and ladies freeze. The Queen's eyes find yours across the crowd - you were standing nearest. Four corridors lead away from the hall. Renar's satchel lies open by his feet, papers spilling out.","choices":[{"label":"grab the satchel","nextNode":"satchel","hint":"The papers are already damp from spilled wine."},{"label":"watch the nobles","nextNode":"watch_crowd","hint":"Every face in the room tells a different story."},{"label":"follow the servant","nextNode":"servant_chase","hint":"The servant in grey slips behind the tapestry before anyone else notices."}]},"satchel":{"passage":"The satchel holds coded letters and a folded map marked with ink still wet. One seal belongs to Lord Brenn, whose estate borders the eastern pass. A torn note reads: tonight, the rose corridor. You hear boots approaching fast from the west wing. Someone wants this satchel back.","choices":[{"label":"go to the rose corridor","nextNode":"rose_corridor","hint":"The name echoes in your mind as you fold the map."},{"label":"confront Lord Brenn","nextNode":"brenn_confrontation","hint":"The seal is unmistakable - you have seen it on his carriage."},{"label":"hide the papers","nextNode":"hide_papers","hint":"Better to keep this knowledge close, not shared."}]},"watch_crowd":{"passage":"Two nobles leave the hall within moments of each other - Lady Veyne slips toward the east wing, and the court treasurer Aldric moves the opposite way. A guardsman looks to Captain Holt instead of the Queen. Renar's cup still rolls gently on the floor, leaving a faint reddish trail. Not all wine is red.","choices":[{"label":"tail Lady Veyne","nextNode":"veyne_east","hint":"Her steps are quick and practiced, like someone who knows the route."},{"label":"follow the treasurer","nextNode":"aldric_office","hint":"A treasurer with somewhere urgent to be is worth watching."},{"label":"report to Captain Holt","nextNode":"captain_holt","hint":"The captain's expression is difficult to read."}]},"servant_chase":{"passage":"The tapestry hides a narrow passage, barely wide enough for one person. The servant - a young man with a burned scar on his wrist - runs ahead. He stops at a locked door and presses a stone in the wall. The door swings open. He turns and sees you. His face is fear, not guilt.","choices":[{"label":"block his escape","nextNode":"servant_trapped","hint":"You spread your arms across the passage."},{"label":"ask his name","nextNode":"servant_talk","hint":"You keep your voice low, careful not to startle him further."}]},"rose_corridor":{"passage":"The rose corridor is named for the carved blooms that line each arch. Tonight it smells of lamp oil and dried herbs. A woman waits at the far end - robed in travel clothes, not court dress. She holds a second satchel matching Renar's. When she sees you, she does not run. She extends the satchel toward you.","choices":[{"label":"take the satchel","nextNode":"woman_exchange","hint":"Your fingers close around the worn leather strap."},{"label":"demand her name","nextNode":"woman_named","hint":"She tilts her head as if deciding how much truth you deserve."},{"label":"refuse and step back","nextNode":"woman_standoff","hint":"Something about the offer feels too clean, too rehearsed."}]},"brenn_confrontation":{"passage":"Lord Brenn's face goes pale when he sees the papers. His guards close in, but he waves them off. He tells you the letters were forged to frame him, and Renar discovered the truth this evening. He was trying to warn the Queen. His voice shakes in a way that is hard to fake.","choices":[{"label":"believe Lord Brenn","nextNode":"brenn_ally","hint":"The tremor in his voice reaches something you cannot ignore."},{"label":"demand proof","nextNode":"brenn_proof","hint":"Words are easy. You want something solid."}]},"hide_papers":{"passage":"You tuck the papers beneath your coat just as a guardsman strides into the hall. He scans the room, eyes pausing on Renar's body. He asks if anyone touched the satchel. Three nobles point in your direction. The guardsman's hand moves to his sword hilt.","choices":[{"label":"hand over the papers","nextNode":"surrendered","hint":"You pull the folded letters free with a steady hand."},{"label":"run for the east gate","nextNode":"east_gate_run","hint":"The corridor is still open. For now."}]},"veyne_east":{"passage":"Lady Veyne leads you - without knowing it - to a hidden archive off the library. She opens a chest and removes a glass vial sealed with wax. She holds it to the lamp. Inside, a dark liquid clings to the glass. She sets the vial on the table and walks to the window, staring out.","choices":[{"label":"take the vial","nextNode":"vial_taken","hint":"The wax seal is already cracked, barely holding."},{"label":"confront Lady Veyne","nextNode":"veyne_confronted","hint":"You step into the lamp's glow so she can see your face clearly."}]},"aldric_office":{"passage":"Aldric's office is already being searched when you arrive. He sits in his chair, hands bound, while two men in plain cloaks rifle through his ledgers. One turns and tells you to leave. The other moves to block the door. Aldric mouths a single word at you: run.","choices":[{"label":"fight the cloaked men","nextNode":"office_brawl","hint":"The smaller one has a knife at his hip, not yet drawn."},{"label":"run and alert the guards","nextNode":"guards_alerted","hint":"Speed matters more than answers right now."}]},"captain_holt":{"passage":"Captain Holt pulls you into a side room before you can speak. He tells you Renar was a Crown Witness, brought in secret to testify against someone inside the court. He does not say who. He asks what you saw. His jaw is tight. The door behind him is barred from the inside.","choices":[{"label":"tell Holt everything","nextNode":"holt_ally","hint":"If you cannot trust the captain, you cannot trust anyone."},{"label":"ask who gave Renar the poison","nextNode":"holt_tested","hint":"You watch his hands. They stay very still."}]},"servant_trapped":{"passage":"The servant - Denn, he finally says - tells you he carried a letter for Renar from outside the city. He did not know what it held. He shows you a coin pressed into his palm as payment, stamped with a mint mark from the eastern provinces. He is frightened and telling the truth.","choices":[{"label":"take Denn to Captain Holt","nextNode":"holt_ally","hint":"If the captain is honest, Denn is safer with him."},{"label":"send Denn away safely","nextNode":"denn_free","hint":"Whatever is coming, the boy should not be part of it."}]},"servant_talk":{"passage":"Denn tells you he delivered a sealed letter to Renar's room three hours ago. The man who paid him wore no house colors and spoke with a northern accent. Denn describes a ring - a wolf biting its own tail. You know that emblem. It belongs to the Valdris treasury seal.","choices":[{"label":"take Denn to Captain Holt","nextNode":"holt_ally","hint":"If the captain is honest, Denn is safer with him."},{"label":"investigate the treasury","nextNode":"aldric_office","hint":"The treasurer's ring. The treasurer's office. The connection is clear."}]},"woman_exchange":{"passage":"Inside the second satchel: a full confession signed by a court official, a list of payments, and a letter addressed to the Queen herself. The woman says she is Renar's partner - a Crown Witness as well. She says the official who ordered the poison is still in the hall. She names Aldric.","choices":[{"label":"bring the confession to the Queen","nextNode":"queen_confrontation","hint":"The letter is addressed to her. It should reach her hands."},{"label":"find Aldric first","nextNode":"aldric_cornered","hint":"A man who has killed once will not wait to be accused."}]},"woman_named":{"passage":"She says her name is Sevi, and she was Renar's contact inside the court. She tells you Aldric ordered the poisoning when Renar refused to stay silent. She has proof, but she will not hand it over until she knows you are not working for Aldric. She is watching you very closely.","choices":[{"label":"prove your allegiance","nextNode":"woman_exchange","hint":"You tell her what you saw, every detail, holding nothing back."},{"label":"offer to face Aldric together","nextNode":"aldric_cornered","hint":"Words alone will not satisfy her. Action will."}]},"woman_standoff":{"passage":"Sevi lowers the satchel slowly. She says the same instinct kept Renar alive for six years. She respects it. She tells you what she knows: Aldric controls the treasury seal and used it to pay for the poison. She asks only that you bring that truth to the Queen before dawn.","choices":[{"label":"accept her terms","nextNode":"queen_confrontation","hint":"Dawn is hours away. The court is still in chaos."},{"label":"ask her to come with you","nextNode":"aldric_cornered","hint":"The Queen will want more than your word. She will want a witness."}]},"brenn_ally":{"passage":"Brenn leads you to his private chamber and unlocks a drawer. Inside is a full accounting of payments made through the treasury - signed by Aldric, cross-referenced with dates that align with Renar's arrival. Brenn says he has been building this case for weeks. He needs you to carry it to the Queen.","choices":[{"label":"take the evidence to the Queen","nextNode":"queen_confrontation","hint":"The papers feel like something solid and real in your hands."},{"label":"confront Aldric directly","nextNode":"aldric_cornered","hint":"Evidence is stronger when the accused cannot deny it to the Queen's face."}]},"brenn_proof":{"passage":"Brenn opens a hidden compartment behind a map of the eastern pass. Inside is a journal of payments - dates, amounts, and a name repeated on every page: Aldric. He tells you the last payment was made two days ago. He does not know who was paid. The poison, perhaps.","choices":[{"label":"take the evidence to the Queen","nextNode":"queen_confrontation","hint":"You tuck the journal carefully under your arm."},{"label":"confront Aldric directly","nextNode":"aldric_cornered","hint":"Better to face him before he has time to destroy anything else."}]},"holt_ally":{"passage":"Captain Holt listens without interrupting. When you finish, he nods once and opens the barred door, revealing two guardsmen already waiting. He tells you Aldric has tried to leave through the kitchen passage and is being held. The Queen is asking for a full account. Holt looks at you. You have it.","choices":[{"label":"go to the Queen","nextNode":"queen_confrontation","hint":"The hall is quieter now. The crowd has thinned to witnesses."}]},"holt_tested":{"passage":"Holt's hands stay still. His eyes do not. He tells you the investigation is already under way and asks you to leave it to the Guard. He is not lying, exactly. But he is not telling you everything. The door behind him is still barred. He is deciding how much to trust you.","choices":[{"label":"push for the full truth","nextNode":"holt_ally","hint":"You meet his gaze and do not look away."},{"label":"leave and find evidence alone","nextNode":"rose_corridor","hint":"You will come back with something that forces the answer."}]},"surrendered":{"passage":"The guardsman takes the papers, glances at them, and signals to his partner. You are held in a side room for two hours while the court sorts itself out. By the time anyone listens to your account, Aldric has vanished. The Queen is told you interfered with evidence. The truth is never fully spoken.","choices":[],"ending":{"title":"Lost in the Noise","flavor":"Justice was close enough to touch, and slipped away in the paperwork.","action":"leave the side room"}},"east_gate_run":{"passage":"You make the east gate ahead of the guards, papers tucked tight against your ribs. But outside the wall, a rider is already waiting - not for you. He sees the satchel and draws a blade. You have the evidence and no allies, on an empty road before dawn.","choices":[],"ending":{"title":"Alone on the Road","flavor":"The truth rides with you into the dark, and no one knows where you are going.","action":"ride into the dark"}},"veyne_confronted":{"passage":"Lady Veyne turns slowly. She says the vial is what was used on Renar, and she recovered it from the floor of the great hall before any guard could find it. She is not the killer. She is a physician. She tells you exactly what the poison is, where it is made, and who in this court can afford it.","choices":[{"label":"ask who ordered the poison","nextNode":"veyne_names_aldric","hint":"She has come this far. She may as well finish the story."}]},"veyne_names_aldric":{"passage":"Veyne says the poison is a treasury compound, restricted to court physicians and controlled through Aldric's office. She has seen the requisition forms. She tried to warn Renar three days ago. He thanked her and said he already knew. She thinks he let himself be seen on purpose, to force the evidence into the open.","choices":[{"label":"take the vial to the Queen","nextNode":"queen_confrontation","hint":"The vial and the physician's account together are difficult to dismiss."},{"label":"confront Aldric directly","nextNode":"aldric_cornered","hint":"Renar may have wanted this moment. You intend to finish it."}]},"vial_taken":{"passage":"The wax crumbles. A sharp smell - something like pine and copper - rises from the mouth of the vial. Veyne spins around. She tells you not to inhale from it. She says it is the compound used on Renar. She recovered it herself. She is not the poisoner. She was trying to preserve the evidence.","choices":[{"label":"listen to Lady Veyne","nextNode":"veyne_names_aldric","hint":"She looks more frightened of the vial than of you."}]},"office_brawl":{"passage":"The smaller cloaked man draws his knife but you are already moving. The struggle is brief and loud. Guards pour in from the corridor. The cloaked men are taken. Aldric, still bound, tells you they were sent to destroy the ledger that records payments to a contact outside the city. The ledger is still intact.","choices":[{"label":"take the ledger to the Queen","nextNode":"queen_confrontation","hint":"The ledger is thick with dates and figures. It does not lie."}]},"guards_alerted":{"passage":"The guards reach Aldric's office in time to catch one cloaked man. The other escapes through a window. Aldric is freed but the ledger is gone - the escaped man took it. Aldric claims innocence but his hands are shaking. Without the ledger, the evidence against him is thinner than you need.","choices":[{"label":"find another path to the truth","nextNode":"rose_corridor","hint":"Renar had a partner. Someone else in this keep knows the full story."},{"label":"report to Captain Holt","nextNode":"holt_ally","hint":"Whatever you have, the captain needs to hear it now."}]},"denn_free":{"passage":"Denn slips away through the servants' passage, coin still in his fist. You are left alone with the knowledge of the wolf-ring and the treasury seal. No witness, no evidence, only a description and a name you cannot yet prove. The court is waiting for an answer. You have only half of one.","choices":[{"label":"go to the rose corridor","nextNode":"rose_corridor","hint":"If there is a partner in this keep, that note pointed to where."},{"label":"report to Captain Holt","nextNode":"holt_ally","hint":"Half an answer in honest hands is better than none."}]},"aldric_cornered":{"passage":"Aldric is at the stables, horse already saddled. He sees you and goes very still. His hand moves toward his coat, not a weapon - a letter. He holds it up. He says it names the true source of the order: someone above him, someone who used his seal without permission. His voice cracks on the last word.","choices":[{"label":"take the letter and go to the Queen","nextNode":"queen_aldric_confession","hint":"Whatever the letter holds, the Queen must read it first."},{"label":"hold Aldric and call the guards","nextNode":"aldric_arrested","hint":"He came prepared to flee. That tells you something about his conscience."}]},"queen_confrontation":{"passage":"The Queen stands at the head of the emptied hall. She takes what you bring and reads in silence. Around her, nobles strain to hear. When she looks up, her expression has settled into something cold and final. She calls for Aldric by name. The room waits. So do you.","choices":[{"label":"name Aldric aloud","nextNode":"aldric_exposed","hint":"The words leave your mouth steady and clear."},{"label":"let the Queen decide","nextNode":"queen_decides","hint":"You step back. This moment belongs to her now."}]},"aldric_exposed":{"passage":"Aldric is brought forward. He looks at the evidence in the Queen's hands and says nothing for a long moment. Then he bows his head. The Queen passes judgment before dawn breaks over the hall windows. She turns to you and says: the court is grateful. You find you believe her.","choices":[],"ending":{"title":"The Truth Spoken Aloud","flavor":"The hall rings with stillness after the verdict - the best kind, the kind that means something was settled.","action":"bow to the Queen"}},"queen_decides":{"passage":"The Queen calls the court to order herself. She names Aldric. She presents the evidence. She speaks for twelve minutes without pause. The hall is motionless. When it ends, Aldric is in custody, and three other names are called as accomplices. You did not know there were three. Renar knew more than he revealed.","choices":[],"ending":{"title":"More Than You Knew","flavor":"Justice lands wider than you aimed, and the court will not forget the night the truth came out.","action":"step back from the dais"}},"queen_aldric_confession":{"passage":"The Queen reads Aldric's letter twice. She looks up at you, then at Aldric. The letter names a count from the eastern provinces who has been feeding orders through the treasury for two years. Aldric acted under threat, not greed. The Queen says this does not excuse what he did. But it changes what happens next.","choices":[],"ending":{"title":"Deeper Than One Man","flavor":"The real thread runs further than Aldric's desk, and the Queen pulls on it long after you leave the hall.","action":"hand over the letter"}},"aldric_arrested":{"passage":"Guards hold Aldric while you take the letter. He shouts that you have the wrong name, that there is someone above him. No one listens. He is taken to the lower cells. A week later, the real source of the orders is never found. Aldric is convicted on the evidence you had. You wonder about the letter.","choices":[],"ending":{"title":"The Convenient Answer","flavor":"The court is satisfied, and you are not sure that satisfaction is the same as justice.","action":"watch the guards take him"}}}}
+{
+  "id": "7f3a1c2e-84b9-4d05-a6f7-29e1b0c83d54",
+  "title": "Court of Whispers",
+  "description": "A foreign diplomat arrives dead at the royal court and every noble in the hall had reason to want him gone. You are the only one who saw what really happened.",
+  "author": "AI",
+  "tags": [
+    "intrigue",
+    "diplomacy"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-05-04",
+  "dayOfYear": "05-04",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "The great hall of Valdris Keep falls hush as the diplomat Renar Solenne collapses mid-toast, his goblet shattering on marble. Lords and ladies freeze. The Queen's eyes find yours across the crowd - you were standing nearest. Four corridors lead away from the hall. Renar's satchel lies open by his feet, papers spilling out.",
+      "choices": [
+        {
+          "label": "grab the satchel",
+          "nextNode": "satchel",
+          "hint": "The papers are already damp from spilled wine."
+        },
+        {
+          "label": "watch the nobles",
+          "nextNode": "watch_crowd",
+          "hint": "Every face in the room tells a different story."
+        },
+        {
+          "label": "follow the servant",
+          "nextNode": "servant_chase",
+          "hint": "The servant in grey slips behind the tapestry before anyone else notices."
+        }
+      ]
+    },
+    "satchel": {
+      "passage": "The satchel holds coded letters and a folded map marked with ink still wet. One seal belongs to Lord Brenn, whose estate borders the eastern pass. A torn note reads: tonight, the rose corridor. You hear boots approaching fast from the west wing. Someone wants this satchel back.",
+      "choices": [
+        {
+          "label": "go to the rose corridor",
+          "nextNode": "rose_corridor",
+          "hint": "The name echoes in your mind as you fold the map."
+        },
+        {
+          "label": "confront Lord Brenn",
+          "nextNode": "brenn_confrontation",
+          "hint": "The seal is unmistakable - you have seen it on his carriage."
+        },
+        {
+          "label": "hide the papers",
+          "nextNode": "hide_papers",
+          "hint": "Better to keep this knowledge close, not shared."
+        }
+      ]
+    },
+    "watch_crowd": {
+      "passage": "Two nobles leave the hall within moments of each other - Lady Veyne slips toward the east wing, and the court treasurer Aldric moves the opposite way. A guardsman looks to Captain Holt instead of the Queen. Renar's cup still rolls gently on the floor, leaving a faint reddish trail. Not all wine is red.",
+      "choices": [
+        {
+          "label": "tail Lady Veyne",
+          "nextNode": "veyne_east",
+          "hint": "Her steps are quick and practiced, like someone who knows the route."
+        },
+        {
+          "label": "follow the treasurer",
+          "nextNode": "aldric_office",
+          "hint": "A treasurer with somewhere urgent to be is worth watching."
+        },
+        {
+          "label": "report to Captain Holt",
+          "nextNode": "captain_holt",
+          "hint": "The captain's expression is difficult to read."
+        }
+      ]
+    },
+    "servant_chase": {
+      "passage": "The tapestry hides a narrow passage, barely wide enough for one person. The servant - a young man with a burned scar on his wrist - runs ahead. He stops at a locked door and presses a stone in the wall. The door swings open. He turns and sees you. His face is fear, not guilt.",
+      "choices": [
+        {
+          "label": "block his escape",
+          "nextNode": "servant_trapped",
+          "hint": "You spread your arms across the passage."
+        },
+        {
+          "label": "ask his name",
+          "nextNode": "servant_talk",
+          "hint": "You keep your voice low, careful not to startle him further."
+        }
+      ]
+    },
+    "rose_corridor": {
+      "passage": "The rose corridor is named for the carved blooms that line each arch. Tonight it smells of lamp oil and dried herbs. A woman waits at the far end - robed in travel clothes, not court dress. She holds a second satchel matching Renar's. When she sees you, she does not run. She extends the satchel toward you.",
+      "choices": [
+        {
+          "label": "take the satchel",
+          "nextNode": "woman_exchange",
+          "hint": "Your fingers close around the worn leather strap."
+        },
+        {
+          "label": "demand her name",
+          "nextNode": "woman_named",
+          "hint": "She tilts her head as if deciding how much truth you deserve."
+        },
+        {
+          "label": "refuse and step back",
+          "nextNode": "woman_standoff",
+          "hint": "Something about the offer feels too clean, too rehearsed."
+        }
+      ]
+    },
+    "brenn_confrontation": {
+      "passage": "Lord Brenn's face goes pale when he sees the papers. His guards close in, but he waves them off. He tells you the letters were forged to frame him, and Renar discovered the truth this evening. He was trying to warn the Queen. His voice shakes in a way that is hard to fake.",
+      "choices": [
+        {
+          "label": "believe Lord Brenn",
+          "nextNode": "brenn_ally",
+          "hint": "The tremor in his voice reaches something you cannot ignore."
+        },
+        {
+          "label": "demand proof",
+          "nextNode": "brenn_proof",
+          "hint": "Words are easy. You want something solid."
+        }
+      ]
+    },
+    "hide_papers": {
+      "passage": "You tuck the papers beneath your coat just as a guardsman strides into the hall. He scans the room, eyes pausing on Renar's body. He asks if anyone touched the satchel. Three nobles point in your direction. The guardsman's hand moves to his sword hilt.",
+      "choices": [
+        {
+          "label": "hand over the papers",
+          "nextNode": "surrendered",
+          "hint": "You pull the folded letters free with a steady hand."
+        },
+        {
+          "label": "run for the east gate",
+          "nextNode": "east_gate_run",
+          "hint": "The corridor is still open. For now."
+        }
+      ]
+    },
+    "veyne_east": {
+      "passage": "Lady Veyne leads you - without knowing it - to a hidden archive off the library. She opens a chest and removes a glass vial sealed with wax. She holds it to the lamp. Inside, a dark liquid clings to the glass. She sets the vial on the table and walks to the window, staring out.",
+      "choices": [
+        {
+          "label": "take the vial",
+          "nextNode": "vial_taken",
+          "hint": "The wax seal is already cracked, barely holding."
+        },
+        {
+          "label": "confront Lady Veyne",
+          "nextNode": "veyne_confronted",
+          "hint": "You step into the lamp's glow so she can see your face clearly."
+        }
+      ]
+    },
+    "aldric_office": {
+      "passage": "Aldric's office is already being searched when you arrive. He sits in his chair, hands bound, while two men in plain cloaks rifle through his ledgers. One turns and tells you to leave. The other moves to block the door. Aldric mouths a single word at you: run.",
+      "choices": [
+        {
+          "label": "fight the cloaked men",
+          "nextNode": "office_brawl",
+          "hint": "The smaller one has a knife at his hip, not yet drawn."
+        },
+        {
+          "label": "run and alert the guards",
+          "nextNode": "guards_alerted",
+          "hint": "Speed matters more than answers right now."
+        }
+      ]
+    },
+    "captain_holt": {
+      "passage": "Captain Holt pulls you into a side room before you can speak. He tells you Renar was a Crown Witness, brought in secret to testify against someone inside the court. He does not say who. He asks what you saw. His jaw is tight. The door behind him is barred from the inside.",
+      "choices": [
+        {
+          "label": "tell Holt everything",
+          "nextNode": "holt_ally",
+          "hint": "If you cannot trust the captain, you cannot trust anyone."
+        },
+        {
+          "label": "ask who gave Renar the poison",
+          "nextNode": "holt_tested",
+          "hint": "You watch his hands. They stay very still."
+        }
+      ]
+    },
+    "servant_trapped": {
+      "passage": "The servant - Denn, he finally says - tells you he carried a letter for Renar from outside the city. He did not know what it held. He shows you a coin pressed into his palm as payment, stamped with a mint mark from the eastern provinces. He is frightened and telling the truth.",
+      "choices": [
+        {
+          "label": "take Denn to Captain Holt",
+          "nextNode": "holt_ally",
+          "hint": "If the captain is honest, Denn is safer with him."
+        },
+        {
+          "label": "send Denn away safely",
+          "nextNode": "denn_free",
+          "hint": "Whatever is coming, the boy should not be part of it."
+        }
+      ]
+    },
+    "servant_talk": {
+      "passage": "Denn tells you he delivered a sealed letter to Renar's room three hours ago. The man who paid him wore no house colors and spoke with a northern accent. Denn describes a ring - a wolf biting its own tail. You know that emblem. It belongs to the Valdris treasury seal.",
+      "choices": [
+        {
+          "label": "take Denn to Captain Holt",
+          "nextNode": "holt_ally",
+          "hint": "If the captain is honest, Denn is safer with him."
+        },
+        {
+          "label": "investigate the treasury",
+          "nextNode": "aldric_office",
+          "hint": "The treasurer's ring. The treasurer's office. The connection is clear."
+        }
+      ]
+    },
+    "woman_exchange": {
+      "passage": "Inside the second satchel: a full confession signed by a court official, a list of payments, and a letter addressed to the Queen herself. The woman says she is Renar's partner - a Crown Witness as well. She says the official who ordered the poison is still in the hall. She names Aldric.",
+      "choices": [
+        {
+          "label": "bring the confession to the Queen",
+          "nextNode": "queen_confrontation",
+          "hint": "The letter is addressed to her. It should reach her hands."
+        },
+        {
+          "label": "find Aldric first",
+          "nextNode": "aldric_cornered",
+          "hint": "A man who has killed once will not wait to be accused."
+        }
+      ]
+    },
+    "woman_named": {
+      "passage": "She says her name is Sevi, and she was Renar's contact inside the court. She tells you Aldric ordered the poisoning when Renar refused to stay silent. She has proof, but she will not hand it over until she knows you are not working for Aldric. She is watching you very closely.",
+      "choices": [
+        {
+          "label": "prove your allegiance",
+          "nextNode": "woman_exchange",
+          "hint": "You tell her what you saw, every detail, holding nothing back."
+        },
+        {
+          "label": "offer to face Aldric together",
+          "nextNode": "aldric_cornered",
+          "hint": "Words alone will not satisfy her. Action will."
+        }
+      ]
+    },
+    "woman_standoff": {
+      "passage": "Sevi lowers the satchel slowly. She says the same instinct kept Renar alive for six years. She respects it. She tells you what she knows: Aldric controls the treasury seal and used it to pay for the poison. She asks only that you bring that truth to the Queen before dawn.",
+      "choices": [
+        {
+          "label": "accept her terms",
+          "nextNode": "queen_confrontation",
+          "hint": "Dawn is hours away. The court is still in chaos."
+        },
+        {
+          "label": "ask her to come with you",
+          "nextNode": "aldric_cornered",
+          "hint": "The Queen will want more than your word. She will want a witness."
+        }
+      ]
+    },
+    "brenn_ally": {
+      "passage": "Brenn leads you to his private chamber and unlocks a drawer. Inside is a full accounting of payments made through the treasury - signed by Aldric, cross-referenced with dates that align with Renar's arrival. Brenn says he has been building this case for weeks. He needs you to carry it to the Queen.",
+      "choices": [
+        {
+          "label": "take the evidence to the Queen",
+          "nextNode": "queen_confrontation",
+          "hint": "The papers feel like something solid and real in your hands."
+        },
+        {
+          "label": "confront Aldric directly",
+          "nextNode": "aldric_cornered",
+          "hint": "Evidence is stronger when the accused cannot deny it to the Queen's face."
+        }
+      ]
+    },
+    "brenn_proof": {
+      "passage": "Brenn opens a hidden compartment behind a map of the eastern pass. Inside is a journal of payments - dates, amounts, and a name repeated on every page: Aldric. He tells you the last payment was made two days ago. He does not know who was paid. The poison, perhaps.",
+      "choices": [
+        {
+          "label": "take the evidence to the Queen",
+          "nextNode": "queen_confrontation",
+          "hint": "You tuck the journal carefully under your arm."
+        },
+        {
+          "label": "confront Aldric directly",
+          "nextNode": "aldric_cornered",
+          "hint": "Better to face him before he has time to destroy anything else."
+        }
+      ]
+    },
+    "holt_ally": {
+      "passage": "Captain Holt listens without interrupting. When you finish, he nods once and opens the barred door, revealing two guardsmen already waiting. He tells you Aldric has tried to leave through the kitchen passage and is being held. The Queen is asking for a full account. Holt looks at you. You have it.",
+      "choices": [
+        {
+          "label": "go to the Queen",
+          "nextNode": "queen_confrontation",
+          "hint": "The hall is quieter now. The crowd has thinned to witnesses."
+        }
+      ]
+    },
+    "holt_tested": {
+      "passage": "Holt's hands stay still. His eyes do not. He tells you the investigation is already under way and asks you to leave it to the Guard. He is not lying, exactly. But he is not telling you everything. The door behind him is still barred. He is deciding how much to trust you.",
+      "choices": [
+        {
+          "label": "push for the full truth",
+          "nextNode": "holt_ally",
+          "hint": "You meet his gaze and do not look away."
+        },
+        {
+          "label": "leave and find evidence alone",
+          "nextNode": "rose_corridor",
+          "hint": "You will come back with something that forces the answer."
+        }
+      ]
+    },
+    "surrendered": {
+      "passage": "The guardsman takes the papers, glances at them, and signals to his partner. You are held in a side room for two hours while the court sorts itself out. By the time anyone listens to your account, Aldric has vanished. The Queen is told you interfered with evidence. The truth is never fully spoken.",
+      "choices": [],
+      "ending": {
+        "title": "Lost in the Noise",
+        "flavor": "Justice was close enough to touch, and slipped away in the paperwork.",
+        "action": "leave the side room"
+      }
+    },
+    "east_gate_run": {
+      "passage": "You make the east gate ahead of the guards, papers tucked tight against your ribs. But outside the wall, a rider is already waiting - not for you. He sees the satchel and draws a blade. You have the evidence and no allies, on an empty road before dawn.",
+      "choices": [],
+      "ending": {
+        "title": "Alone on the Road",
+        "flavor": "The truth rides with you into the dark, and no one knows where you are going.",
+        "action": "ride into the dark"
+      }
+    },
+    "veyne_confronted": {
+      "passage": "Lady Veyne turns slowly. She says the vial is what was used on Renar, and she recovered it from the floor of the great hall before any guard could find it. She is not the killer. She is a physician. She tells you exactly what the poison is, where it is made, and who in this court can afford it.",
+      "choices": [
+        {
+          "label": "ask who ordered the poison",
+          "nextNode": "veyne_names_aldric",
+          "hint": "She has come this far. She may as well finish the story."
+        }
+      ]
+    },
+    "veyne_names_aldric": {
+      "passage": "Veyne says the poison is a treasury compound, restricted to court physicians and controlled through Aldric's office. She has seen the requisition forms. She tried to warn Renar three days ago. He thanked her and said he already knew. She thinks he let himself be seen on purpose, to force the evidence into the open.",
+      "choices": [
+        {
+          "label": "take the vial to the Queen",
+          "nextNode": "queen_confrontation",
+          "hint": "The vial and the physician's account together are difficult to dismiss."
+        },
+        {
+          "label": "confront Aldric directly",
+          "nextNode": "aldric_cornered",
+          "hint": "Renar may have wanted this moment. You intend to finish it."
+        }
+      ]
+    },
+    "vial_taken": {
+      "passage": "The wax crumbles. A sharp smell - something like pine and copper - rises from the mouth of the vial. Veyne spins around. She tells you not to inhale from it. She says it is the compound used on Renar. She recovered it herself. She is not the poisoner. She was trying to preserve the evidence.",
+      "choices": [
+        {
+          "label": "listen to Lady Veyne",
+          "nextNode": "veyne_names_aldric",
+          "hint": "She looks more frightened of the vial than of you."
+        }
+      ]
+    },
+    "office_brawl": {
+      "passage": "The smaller cloaked man draws his knife but you are already moving. The struggle is brief and loud. Guards pour in from the corridor. The cloaked men are taken. Aldric, still bound, tells you they were sent to destroy the ledger that records payments to a contact outside the city. The ledger is still intact.",
+      "choices": [
+        {
+          "label": "take the ledger to the Queen",
+          "nextNode": "queen_confrontation",
+          "hint": "The ledger is thick with dates and figures. It does not lie."
+        }
+      ]
+    },
+    "guards_alerted": {
+      "passage": "The guards reach Aldric's office in time to catch one cloaked man. The other escapes through a window. Aldric is freed but the ledger is gone - the escaped man took it. Aldric claims innocence but his hands are shaking. Without the ledger, the evidence against him is thinner than you need.",
+      "choices": [
+        {
+          "label": "find another path to the truth",
+          "nextNode": "rose_corridor",
+          "hint": "Renar had a partner. Someone else in this keep knows the full story."
+        },
+        {
+          "label": "report to Captain Holt",
+          "nextNode": "holt_ally",
+          "hint": "Whatever you have, the captain needs to hear it now."
+        }
+      ]
+    },
+    "denn_free": {
+      "passage": "Denn slips away through the servants' passage, coin still in his fist. You are left alone with the knowledge of the wolf-ring and the treasury seal. No witness, no evidence, only a description and a name you cannot yet prove. The court is waiting for an answer. You have only half of one.",
+      "choices": [
+        {
+          "label": "go to the rose corridor",
+          "nextNode": "rose_corridor",
+          "hint": "If there is a partner in this keep, that note pointed to where."
+        },
+        {
+          "label": "report to Captain Holt",
+          "nextNode": "holt_ally",
+          "hint": "Half an answer in honest hands is better than none."
+        }
+      ]
+    },
+    "aldric_cornered": {
+      "passage": "Aldric is at the stables, horse already saddled. He sees you and goes very still. His hand moves toward his coat, not a weapon - a letter. He holds it up. He says it names the true source of the order: someone above him, someone who used his seal without permission. His voice cracks on the last word.",
+      "choices": [
+        {
+          "label": "take the letter and go to the Queen",
+          "nextNode": "queen_aldric_confession",
+          "hint": "Whatever the letter holds, the Queen must read it first."
+        },
+        {
+          "label": "hold Aldric and call the guards",
+          "nextNode": "aldric_arrested",
+          "hint": "He came prepared to flee. That tells you something about his conscience."
+        }
+      ]
+    },
+    "queen_confrontation": {
+      "passage": "The Queen stands at the head of the emptied hall. She takes what you bring and reads in silence. Around her, nobles strain to hear. When she looks up, her expression has settled into something cold and final. She calls for Aldric by name. The room waits. So do you.",
+      "choices": [
+        {
+          "label": "name Aldric aloud",
+          "nextNode": "aldric_exposed",
+          "hint": "The words leave your mouth steady and clear."
+        },
+        {
+          "label": "let the Queen decide",
+          "nextNode": "queen_decides",
+          "hint": "You step back. This moment belongs to her now."
+        }
+      ]
+    },
+    "aldric_exposed": {
+      "passage": "Aldric is brought forward. He looks at the evidence in the Queen's hands and says nothing for a long moment. Then he bows his head. The Queen passes judgment before dawn breaks over the hall windows. She turns to you and says: the court is grateful. You find you believe her.",
+      "choices": [],
+      "ending": {
+        "title": "The Truth Spoken Aloud",
+        "flavor": "The hall rings with stillness after the verdict - the best kind, the kind that means something was settled.",
+        "action": "bow to the Queen"
+      }
+    },
+    "queen_decides": {
+      "passage": "The Queen calls the court to order herself. She names Aldric. She presents the evidence. She speaks for twelve minutes without pause. The hall is motionless. When it ends, Aldric is in custody, and three other names are called as accomplices. You did not know there were three. Renar knew more than he revealed.",
+      "choices": [],
+      "ending": {
+        "title": "More Than You Knew",
+        "flavor": "Justice lands wider than you aimed, and the court will not forget the night the truth came out.",
+        "action": "step back from the dais"
+      }
+    },
+    "queen_aldric_confession": {
+      "passage": "The Queen reads Aldric's letter twice. She looks up at you, then at Aldric. The letter names a count from the eastern provinces who has been feeding orders through the treasury for two years. Aldric acted under threat, not greed. The Queen says this does not excuse what he did. But it changes what happens next.",
+      "choices": [],
+      "ending": {
+        "title": "Deeper Than One Man",
+        "flavor": "The real thread runs further than Aldric's desk, and the Queen pulls on it long after you leave the hall.",
+        "action": "hand over the letter"
+      }
+    },
+    "aldric_arrested": {
+      "passage": "Guards hold Aldric while you take the letter. He shouts that you have the wrong name, that there is someone above him. No one listens. He is taken to the lower cells. A week later, the real source of the orders is never found. Aldric is convicted on the evidence you had. You wonder about the letter.",
+      "choices": [],
+      "ending": {
+        "title": "The Convenient Answer",
+        "flavor": "The court is satisfied, and you are not sure that satisfaction is the same as justice.",
+        "action": "watch the guards take him"
+      }
+    }
+  }
+}

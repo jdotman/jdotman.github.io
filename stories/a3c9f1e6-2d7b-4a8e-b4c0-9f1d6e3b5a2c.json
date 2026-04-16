@@ -1,9 +1,12 @@
 {
   "id": "a3c9f1e6-2d7b-4a8e-b4c0-9f1d6e3b5a2c",
-  "title": "The Barrow of Mordavain",
+  "title": "Barrow of Mordavain",
   "description": "The lich Mordavain has slept in his sealed barrow for four centuries and no treasure hunter who has entered has ever returned. You are carrying better information than the others. That may or may not be enough.",
   "author": "AI",
-  "tags": ["eerie", "treasure-hunt"],
+  "tags": [
+    "eerie",
+    "treasure-hunt"
+  ],
   "estimatedMinutes": 12,
   "dateGenerated": "2026-04-11",
   "startNode": "intro",
@@ -11,115 +14,251 @@
     "intro": {
       "passage": "You are standing at the entrance to the Barrow of Mordavain, where the earth has been shaped around a sealed stone door. The air is cold here even in summer and the silence is wrong: too complete, too deliberate. Someone has been here recently. The mud at the threshold is freshly disturbed.",
       "choices": [
-        { "label": "push open the door", "nextNode": "entry-hall", "hint": "The stone grinds under your palms, cold and heavier than expected." },
-        { "label": "search for another way", "nextNode": "shaft-entry", "hint": "You circle the mound, scanning for gaps in the earth." }
+        {
+          "label": "push open the door",
+          "nextNode": "entry-hall",
+          "hint": "The stone grinds under your palms, cold and heavier than expected."
+        },
+        {
+          "label": "search for another way",
+          "nextNode": "shaft-entry",
+          "hint": "You circle the mound, scanning for gaps in the earth."
+        }
       ]
     },
     "shaft-entry": {
       "passage": "A ventilation shaft cuts into the barrow mound at the north side, wide enough to pass and choked with roots. Broken handholds have been carved into the stone, not recently but not ancient either. Someone prepared this. A cold draft rises from below, smelling of dust and something sweet and wrong.",
       "choices": [
-        { "label": "lower yourself down", "nextNode": "bone-gallery", "hint": "The carved handholds are slick but they hold your weight." },
-        { "label": "return to the door", "nextNode": "entry-hall", "hint": "You pull yourself free of the roots and circle back." }
+        {
+          "label": "lower yourself down",
+          "nextNode": "bone-gallery",
+          "hint": "The carved handholds are slick but they hold your weight."
+        },
+        {
+          "label": "return to the door",
+          "nextNode": "entry-hall",
+          "hint": "You pull yourself free of the roots and circle back."
+        }
       ]
     },
     "entry-hall": {
       "passage": "The stone door grinds open on counterweights and you step into a hall carved from living rock. Six alcoves line the walls, each holding a stone coffin sealed with bronze bands. At the far end, a stone altar squats beneath a carving of a robed figure with too many fingers. A dark passage leads deeper beyond.",
       "choices": [
-        { "label": "search the alcoves", "nextNode": "the-alcoves", "hint": "The bronze bands on the nearest coffin are green with age." },
-        { "label": "approach the altar", "nextNode": "the-altar", "hint": "The carved fingers seem to curl as you draw closer." },
-        { "label": "head into the passage", "nextNode": "bone-gallery", "hint": "Cold air drifts from the dark opening ahead and chills your skin." }
+        {
+          "label": "search the alcoves",
+          "nextNode": "the-alcoves",
+          "hint": "The bronze bands on the nearest coffin are green with age."
+        },
+        {
+          "label": "approach the altar",
+          "nextNode": "the-altar",
+          "hint": "The carved fingers seem to curl as you draw closer."
+        },
+        {
+          "label": "head into the passage",
+          "nextNode": "bone-gallery",
+          "hint": "Cold air drifts from the dark opening ahead and chills your skin."
+        }
       ]
     },
     "the-alcoves": {
       "passage": "The stone coffins are sealed and intact. At the base of the third one you find a leather pack left by the last person to enter this place. Inside: a coil of good rope, a full lantern, and a folded note that reads only: DO NOT WAKE HIM. The handwriting is shaking.",
       "choices": [
-        { "label": "take the supplies and proceed", "nextNode": "bone-gallery", "hint": "The lantern lights on the first try. The rope is still strong." },
-        { "label": "check the altar instead", "nextNode": "the-altar", "hint": "The black stone at the far end of the hall draws your eye." }
+        {
+          "label": "take the supplies and proceed",
+          "nextNode": "bone-gallery",
+          "hint": "The lantern lights on the first try. The rope is still strong."
+        },
+        {
+          "label": "check the altar instead",
+          "nextNode": "the-altar",
+          "hint": "The black stone at the far end of the hall draws your eye."
+        }
       ]
     },
     "the-altar": {
       "passage": "The altar is carved from a single black stone. Six unlit candles stand in holders shaped like grasping hands. At the center, a small iron key rests in a shallow depression, as if placed there on purpose. The carving above watches with its too-many fingers and you feel, absurdly, that it is judging your intent.",
       "choices": [
-        { "label": "light the candles", "nextNode": "candle-lit", "hint": "Your match hisses and the first wick catches a blue flame." },
-        { "label": "take the iron key", "nextNode": "bone-gallery", "hint": "The key is colder than the stone it rested on." }
+        {
+          "label": "light the candles",
+          "nextNode": "candle-lit",
+          "hint": "Your match hisses and the first wick catches a blue flame."
+        },
+        {
+          "label": "take the iron key",
+          "nextNode": "bone-gallery",
+          "hint": "The key is colder than the stone it rested on."
+        }
       ]
     },
     "candle-lit": {
       "passage": "The candles light themselves. One moment dark, the next burning with cold blue flame. The temperature drops sharply. A ghostly figure forms in the corner, ragged and silent. You understand without being told: this is what remains of the last visitor to the barrow. It gestures toward a passage hidden in the far wall.",
       "choices": [
-        { "label": "follow the ghost", "nextNode": "inner-sanctum", "hint": "The figure drifts ahead and you feel compelled to follow." },
-        { "label": "press on through the gallery", "nextNode": "bone-gallery", "hint": "You turn away from the ghost and head for the main corridor." }
+        {
+          "label": "follow the ghost",
+          "nextNode": "inner-sanctum",
+          "hint": "The figure drifts ahead and you feel compelled to follow."
+        },
+        {
+          "label": "press on through the gallery",
+          "nextNode": "bone-gallery",
+          "hint": "You turn away from the ghost and head for the main corridor."
+        }
       ]
     },
     "bone-gallery": {
       "passage": "The gallery is long and narrow, its vaulted ceiling hung with calcified roots that have worked through the stone. A carpet of bones covers the floor, not arranged in any burial pattern but scattered, as if they walked here and then stopped. Passages branch left and right. Ahead stands an iron door.",
       "choices": [
-        { "label": "take the left passage", "nextNode": "left-passage", "hint": "The left tunnel curves out of sight and the air feels colder." },
-        { "label": "try the right passage", "nextNode": "right-passage", "hint": "The right corridor looks wider and more carefully cut than the left." },
-        { "label": "open the iron door", "nextNode": "inner-sanctum", "hint": "The iron is rusted but the heavy hinges still move when pushed." }
+        {
+          "label": "take the left passage",
+          "nextNode": "left-passage",
+          "hint": "The left tunnel curves out of sight and the air feels colder."
+        },
+        {
+          "label": "try the right passage",
+          "nextNode": "right-passage",
+          "hint": "The right corridor looks wider and more carefully cut than the left."
+        },
+        {
+          "label": "open the iron door",
+          "nextNode": "inner-sanctum",
+          "hint": "The iron is rusted but the heavy hinges still move when pushed."
+        }
       ]
     },
     "left-passage": {
       "passage": "The left passage curves and narrows until you turn sideways to fit. It opens into a small chamber carved from bedrock, not part of the original barrow. At its center, a crystal the size of a fist pulses with slow violet light. The light feels wrong. Something of Mordavain is held inside it.",
       "choices": [
-        { "label": "enter the chamber", "nextNode": "crystal-room", "hint": "The violet glow paints the walls in slow, steady pulses." },
-        { "label": "turn back to the gallery", "nextNode": "bone-gallery", "hint": "Something about the violet light warns you away from this place." }
+        {
+          "label": "enter the chamber",
+          "nextNode": "crystal-room",
+          "hint": "The violet glow paints the walls in slow, steady pulses."
+        },
+        {
+          "label": "turn back to the gallery",
+          "nextNode": "bone-gallery",
+          "hint": "Something about the violet light warns you away from this place."
+        }
       ]
     },
     "crystal-room": {
       "passage": "The crystal hangs above a black stone plinth with no visible support. The violet pulse quickens as you approach, as if aware. Whatever Mordavain stored here, it is still active. The warmth you expect from something so bright is absent. It radiates cold and a low, deep pressure against your chest.",
       "choices": [
-        { "label": "smash the crystal", "nextNode": "lich-destroyed", "hint": "Your hand tightens around the heaviest thing you carry. One good swing." },
-        { "label": "pocket the crystal carefully", "nextNode": "inner-sanctum", "hint": "You wrap it in cloth and feel the cold seep through." }
+        {
+          "label": "smash the crystal",
+          "nextNode": "lich-destroyed",
+          "hint": "Your hand tightens around the heaviest thing you carry. One good swing."
+        },
+        {
+          "label": "pocket the crystal carefully",
+          "nextNode": "inner-sanctum",
+          "hint": "You wrap it in cloth and feel the cold seep through."
+        }
       ]
     },
     "right-passage": {
       "passage": "The right passage is wider and more finished, its walls cut smooth. Thirty feet in, the ceiling has collapsed, filling the floor with rubble. You can see faint light beyond the blockage and feel moving air. There is a space on the other side. The gap is low enough to require crawling.",
       "choices": [
-        { "label": "crawl through the rubble", "nextNode": "collapsed-section", "hint": "Sharp stone scrapes your back as you squeeze into the gap." },
-        { "label": "turn back to the gallery", "nextNode": "bone-gallery", "hint": "The collapse looks unstable. You decide not to risk it." }
+        {
+          "label": "crawl through the rubble",
+          "nextNode": "collapsed-section",
+          "hint": "Sharp stone scrapes your back as you squeeze into the gap."
+        },
+        {
+          "label": "turn back to the gallery",
+          "nextNode": "bone-gallery",
+          "hint": "The collapse looks unstable. You decide not to risk it."
+        }
       ]
     },
     "collapsed-section": {
       "passage": "You crawl through the gap with rubble pressing your back. On the other side, you drop into a chamber at the barrow's rear. A single shaft of pale light falls from a crack in the ceiling. A door ahead stands open. The smell of cold decay beyond it is enough to stop your breath.",
       "choices": [
-        { "label": "enter the sanctum", "nextNode": "inner-sanctum", "hint": "The open door frames nothing but darkness and that terrible smell." },
-        { "label": "retreat and leave", "nextNode": "empty-escape", "hint": "Every instinct tells you to climb back the way you came." }
+        {
+          "label": "enter the sanctum",
+          "nextNode": "inner-sanctum",
+          "hint": "The open door frames nothing but darkness and that terrible smell."
+        },
+        {
+          "label": "retreat and leave",
+          "nextNode": "empty-escape",
+          "hint": "Every instinct tells you to climb back the way you came."
+        }
       ]
     },
     "inner-sanctum": {
       "passage": "The sanctum is domed, its ceiling painted with constellations in silver pigment that still gleams after centuries. At the far end on a carved throne sits a figure wrapped in decayed finery: Mordavain the Lich, motionless, his skull-face bowed over a closed leather grimoire. A hoard of coins and relics covers the floor before him.",
       "choices": [
-        { "label": "approach the throne", "nextNode": "mordavain-dormant", "hint": "Your footsteps scatter coins that ring against the stone floor." },
-        { "label": "grab treasure and run", "nextNode": "great-escape", "hint": "Gold glints at your feet. You do not need to go closer." }
+        {
+          "label": "approach the throne",
+          "nextNode": "mordavain-dormant",
+          "hint": "Your footsteps scatter coins that ring against the stone floor."
+        },
+        {
+          "label": "grab treasure and run",
+          "nextNode": "great-escape",
+          "hint": "Gold glints at your feet. You do not need to go closer."
+        }
       ]
     },
     "mordavain-dormant": {
       "passage": "He is not asleep in any natural sense. His robed form does not breathe. The empty eye sockets are aimed at the grimoire in his lap with an attention that has not faded in centuries. Bone-white candles burn without wax along the walls. He is dormant. He is not gone.",
       "choices": [
-        { "label": "steal the grimoire", "nextNode": "steal-quietly", "hint": "Your fingers hover over the leather spine. It is colder than ice." },
-        { "label": "speak to the lich", "nextNode": "awaken-him", "hint": "His name rises in your throat before you can stop it." }
+        {
+          "label": "steal the grimoire",
+          "nextNode": "steal-quietly",
+          "hint": "Your fingers hover over the leather spine. It is colder than ice."
+        },
+        {
+          "label": "speak to the lich",
+          "nextNode": "awaken-him",
+          "hint": "His name rises in your throat before you can stop it."
+        }
       ]
     },
     "steal-quietly": {
       "passage": "You reach for the grimoire slowly. Your fingers close around the spine. Mordavain does not move. The book is cold and heavier than it should be. You take a step back. The coins in the hoard do not shift. Another step. The bone-white candles gutter slightly, as if something exhaled.",
       "choices": [
-        { "label": "run for the door", "nextNode": "great-escape", "hint": "You clutch the grimoire to your chest and turn for the door." },
-        { "label": "linger for more treasure", "nextNode": "lich-rises", "hint": "The gold on the floor catches the candlelight. So much of it." }
+        {
+          "label": "run for the door",
+          "nextNode": "great-escape",
+          "hint": "You clutch the grimoire to your chest and turn for the door."
+        },
+        {
+          "label": "linger for more treasure",
+          "nextNode": "lich-rises",
+          "hint": "The gold on the floor catches the candlelight. So much of it."
+        }
       ]
     },
     "awaken-him": {
       "passage": "You speak his name. The effect is immediate: the empty eye sockets fill with violet light, cold and slow at first, then burning. The robed form straightens in the throne. The grimoire opens in his lap without a hand touching it. A voice like stones grinding says: you have one moment to explain yourself.",
       "choices": [
-        { "label": "offer a trade", "nextNode": "bargain-with-him", "hint": "You raise your empty hands and choose your words carefully." },
-        { "label": "draw your weapon", "nextNode": "lich-rises", "hint": "Steel rings as you pull the blade free. It feels very small." }
+        {
+          "label": "offer a trade",
+          "nextNode": "bargain-with-him",
+          "hint": "You raise your empty hands and choose your words carefully."
+        },
+        {
+          "label": "draw your weapon",
+          "nextNode": "lich-rises",
+          "hint": "Steel rings as you pull the blade free. It feels very small."
+        }
       ]
     },
     "bargain-with-him": {
       "passage": "Mordavain is ancient and beyond simple anger. He tells you he has had visitors before and each of them wanted the same thing. He can feel the shape of your desire. He offers a counter: he will let you leave alive, with one item of your choosing, if you bring him something in return.",
       "choices": [
-        { "label": "accept his terms", "nextNode": "bargain-struck", "hint": "You nod slowly, though you do not yet know the price." },
-        { "label": "refuse the offer", "nextNode": "servant-ending", "hint": "Something in his tone tells you this deal has no good end." }
+        {
+          "label": "accept his terms",
+          "nextNode": "bargain-struck",
+          "hint": "You nod slowly, though you do not yet know the price."
+        },
+        {
+          "label": "refuse the offer",
+          "nextNode": "servant-ending",
+          "hint": "Something in his tone tells you this deal has no good end."
+        }
       ]
     },
     "lich-destroyed": {

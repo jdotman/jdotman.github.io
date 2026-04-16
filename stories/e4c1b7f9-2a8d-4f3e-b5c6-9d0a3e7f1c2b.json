@@ -1,9 +1,12 @@
 {
   "id": "e4c1b7f9-2a8d-4f3e-b5c6-9d0a3e7f1c2b",
-  "title": "The Storm Tower",
+  "title": "Storm Tower",
   "description": "A sorcerer's tower only appears during thunderstorms. Your crew has one night to climb it, steal the Heartstone, and escape before the lightning stops.",
   "author": "AI",
-  "tags": ["treasure-hunt", "escape"],
+  "tags": [
+    "treasure-hunt",
+    "escape"
+  ],
   "estimatedMinutes": 12,
   "dateGenerated": "2026-04-18",
   "dayOfYear": "04-18",
@@ -12,163 +15,351 @@
     "intro": {
       "passage": "Thunder splits the sky and the Storm Tower appears on the hilltop, stone by stone, conjured from lightning. Your crew crouches in the wet grass below. You spot a ground-floor door, rough outer walls to climb, and a cellar grate at the base. The tower only stands while the storm lasts.",
       "choices": [
-        { "label": "enter the ground door", "nextNode": "ground-door", "hint": "The iron handle is cold and slick with rain." },
-        { "label": "climb the outer wall", "nextNode": "outer-wall", "hint": "The rough stone offers plenty of handholds despite the rain." },
-        { "label": "find the cellar grate", "nextNode": "cellar-grate", "hint": "You slide down the muddy slope toward the base of the tower." }
+        {
+          "label": "enter the ground door",
+          "nextNode": "ground-door",
+          "hint": "The iron handle is cold and slick with rain."
+        },
+        {
+          "label": "climb the outer wall",
+          "nextNode": "outer-wall",
+          "hint": "The rough stone offers plenty of handholds despite the rain."
+        },
+        {
+          "label": "find the cellar grate",
+          "nextNode": "cellar-grate",
+          "hint": "You slide down the muddy slope toward the base of the tower."
+        }
       ]
     },
     "ground-door": {
       "passage": "The iron door swings open at your touch. No lock, no resistance. That worries you. A long corridor stretches ahead, lit by candles that float in midair. The floor tiles alternate black and white in a precise pattern. Kael kneels and studies them. The black ones are pressure plates.",
       "choices": [
-        { "label": "walk on the white tiles", "nextNode": "safe-tiles", "hint": "You map the pattern carefully before taking the first step." },
-        { "label": "test a black tile first", "nextNode": "tile-trap", "hint": "Better to know what happens before you commit to a path." }
+        {
+          "label": "walk on the white tiles",
+          "nextNode": "safe-tiles",
+          "hint": "You map the pattern carefully before taking the first step."
+        },
+        {
+          "label": "test a black tile first",
+          "nextNode": "tile-trap",
+          "hint": "Better to know what happens before you commit to a path."
+        }
       ]
     },
     "outer-wall": {
       "passage": "Rain hammers you as you scale the tower's rough stone face. Lightning turns night to day in sharp flashes. Thirty feet up you find a dark window with no glass. Fifty feet higher you see another, faintly lit from within. The stone is slick but the mortar gaps give good holds.",
       "choices": [
-        { "label": "enter the dark window", "nextNode": "library", "hint": "You swing your legs over the sill into cool darkness." },
-        { "label": "keep climbing higher", "nextNode": "upper-window", "hint": "The faint glow above draws you upward through the rain." }
+        {
+          "label": "enter the dark window",
+          "nextNode": "library",
+          "hint": "You swing your legs over the sill into cool darkness."
+        },
+        {
+          "label": "keep climbing higher",
+          "nextNode": "upper-window",
+          "hint": "The faint glow above draws you upward through the rain."
+        }
       ]
     },
     "cellar-grate": {
       "passage": "A rusted iron grate sits half-hidden in the hillside below the tower's foundation. Kael works the bolts free with practiced hands while rain runs down your backs. The grate lifts to reveal a narrow tunnel that slopes downward into darkness. The air rising from below smells of sulfur and dried herbs.",
       "choices": [
-        { "label": "crawl into the tunnel", "nextNode": "alchemy-lab", "hint": "The sulfur smell grows stronger as you squeeze through the opening." },
-        { "label": "send Kael ahead", "nextNode": "stairwell", "hint": "Kael nods and vanishes into the dark without hesitation." }
+        {
+          "label": "crawl into the tunnel",
+          "nextNode": "alchemy-lab",
+          "hint": "The sulfur smell grows stronger as you squeeze through the opening."
+        },
+        {
+          "label": "send Kael ahead",
+          "nextNode": "stairwell",
+          "hint": "Kael nods and vanishes into the dark without hesitation."
+        }
       ]
     },
     "tile-trap": {
       "passage": "You test a black tile with your boot. It sinks with a click. Darts whistle from slots in the walls. You throw yourself flat as they pass overhead. One grazes your sleeve. Kael pulls you to your feet. Beyond the trapped section, a cluttered workshop opens up. Stairs rise in the back corner.",
       "choices": [
-        { "label": "search the workshop", "nextNode": "workshop", "hint": "Bronze parts and tools cover every surface in the room." },
-        { "label": "head straight for the stairs", "nextNode": "stairwell", "hint": "You have already wasted time on the trapped corridor." }
+        {
+          "label": "search the workshop",
+          "nextNode": "workshop",
+          "hint": "Bronze parts and tools cover every surface in the room."
+        },
+        {
+          "label": "head straight for the stairs",
+          "nextNode": "stairwell",
+          "hint": "You have already wasted time on the trapped corridor."
+        }
       ]
     },
     "safe-tiles": {
       "passage": "You step only on the white tiles, hopping across the pattern like a careful dance. Kael follows your lead. The corridor ends and opens into a cluttered workshop. Unfinished constructs stand along the walls like sleeping soldiers. A stone staircase rises at the far end. The tower hums with storm energy.",
       "choices": [
-        { "label": "search the workshop", "nextNode": "workshop", "hint": "The constructs are eerily lifelike up close." },
-        { "label": "head for the stairs", "nextNode": "stairwell", "hint": "The hum grows louder as you move toward the staircase." }
+        {
+          "label": "search the workshop",
+          "nextNode": "workshop",
+          "hint": "The constructs are eerily lifelike up close."
+        },
+        {
+          "label": "head for the stairs",
+          "nextNode": "stairwell",
+          "hint": "The hum grows louder as you move toward the staircase."
+        }
       ]
     },
     "library": {
       "passage": "You pull yourself through the dark window into a circular room lined with bookshelves. Scrolls and leather volumes fill every surface. A construct of bronze and glass stands motionless in the corner, its eyes dark. A spiral staircase in the center leads both up and down through the tower's core.",
       "choices": [
-        { "label": "search the shelves", "nextNode": "library-search", "hint": "Dust rises as you pull a heavy volume from the shelf." },
-        { "label": "take the stairs up", "nextNode": "stairwell", "hint": "The spiral staircase groans faintly under your weight." }
+        {
+          "label": "search the shelves",
+          "nextNode": "library-search",
+          "hint": "Dust rises as you pull a heavy volume from the shelf."
+        },
+        {
+          "label": "take the stairs up",
+          "nextNode": "stairwell",
+          "hint": "The spiral staircase groans faintly under your weight."
+        }
       ]
     },
     "upper-window": {
       "passage": "You haul yourself through a window three stories up into a small bedroom. Simple furnishings, a narrow bed, a writing desk. A leather journal sits on the nightstand, its pages marked with a ribbon. The stairs continue upward through an open hatch. Thunder shakes the walls and rain drives sideways through the glass.",
       "choices": [
-        { "label": "read the journal", "nextNode": "sorcerer-journal", "hint": "The ribbon marks a page near the middle of the journal." },
-        { "label": "press on up the stairs", "nextNode": "upper-hall", "hint": "Wind howls through the open hatch above your head." }
+        {
+          "label": "read the journal",
+          "nextNode": "sorcerer-journal",
+          "hint": "The ribbon marks a page near the middle of the journal."
+        },
+        {
+          "label": "press on up the stairs",
+          "nextNode": "upper-hall",
+          "hint": "Wind howls through the open hatch above your head."
+        }
       ]
     },
     "alchemy-lab": {
       "passage": "The tunnel opens into a low-ceilinged lab. Shelves line every wall, packed with jars of colored powder and bubbling flasks. A stone cauldron simmers in the center. You spot a workbench with tools and rows of labeled vials. Stairs lead up to a workshop above. A central stairwell rises beyond.",
       "choices": [
-        { "label": "explore the workshop above", "nextNode": "workshop", "hint": "You hear a faint clicking sound from the floor above." },
-        { "label": "head for the central stairs", "nextNode": "stairwell", "hint": "The stairwell echoes with the rumble of thunder from above." }
+        {
+          "label": "explore the workshop above",
+          "nextNode": "workshop",
+          "hint": "You hear a faint clicking sound from the floor above."
+        },
+        {
+          "label": "head for the central stairs",
+          "nextNode": "stairwell",
+          "hint": "The stairwell echoes with the rumble of thunder from above."
+        }
       ]
     },
     "workshop": {
       "passage": "Half-built constructs stand in rows along the walls, bronze limbs and glass eyes waiting to be assembled. One is nearly complete, a soldier-shaped thing that lacks only a spark of power. Plans on the workbench show dozens more. A stairway rises in the corner. The sorcerer is building an army.",
       "choices": [
-        { "label": "sabotage the constructs", "nextNode": "sabotage", "hint": "A few cuts to the right wires could disable the whole batch." },
-        { "label": "take the stairs up", "nextNode": "stairwell", "hint": "You leave the silent army behind and climb upward." }
+        {
+          "label": "sabotage the constructs",
+          "nextNode": "sabotage",
+          "hint": "A few cuts to the right wires could disable the whole batch."
+        },
+        {
+          "label": "take the stairs up",
+          "nextNode": "stairwell",
+          "hint": "You leave the silent army behind and climb upward."
+        }
       ]
     },
     "stairwell": {
       "passage": "A spiral staircase winds up through the tower's hollow core. Thunder booms and the stone trembles beneath your feet. Lightning strobes through narrow windows, lighting the steps in sharp white flashes. You pass an upper hall and glimpse a heavy door marked Guardian Room. The Heartstone waits above. The storm will not last forever.",
       "choices": [
-        { "label": "climb to the upper hall", "nextNode": "upper-hall", "hint": "The upper hall opens wide ahead, lit by flashes of lightning." },
-        { "label": "check the guardian room", "nextNode": "guardian-room", "hint": "Something hums behind the heavy door with a low vibration." }
+        {
+          "label": "climb to the upper hall",
+          "nextNode": "upper-hall",
+          "hint": "The upper hall opens wide ahead, lit by flashes of lightning."
+        },
+        {
+          "label": "check the guardian room",
+          "nextNode": "guardian-room",
+          "hint": "Something hums behind the heavy door with a low vibration."
+        }
       ]
     },
     "library-search": {
       "passage": "A weathered book on storm magic describes the Heartstone. It rests in the crown chamber at the tower's peak, held by a ward keyed to the sorcerer's will. The book mentions a bypass. Any substance that dissolves magical bonds can break the ward. The crown chamber has a direct stairway from the upper hall.",
       "choices": [
-        { "label": "head for the crown chamber", "nextNode": "crown-approach", "hint": "You tuck the book's advice into the back of your mind." },
-        { "label": "explore the upper hall", "nextNode": "upper-hall", "hint": "The upper hall might hold something useful for breaking wards." }
+        {
+          "label": "head for the crown chamber",
+          "nextNode": "crown-approach",
+          "hint": "You tuck the book's advice into the back of your mind."
+        },
+        {
+          "label": "explore the upper hall",
+          "nextNode": "upper-hall",
+          "hint": "The upper hall might hold something useful for breaking wards."
+        }
       ]
     },
     "sorcerer-journal": {
       "passage": "The journal is written in a cramped hand. The sorcerer calls himself Aldren. He writes of the Heartstone not as a weapon but as a burden. The storms are not attacks on the farmlands. They are a release valve. Without them, the ley-line beneath the hill would burst. Papers in a side room may hold proof.",
       "choices": [
-        { "label": "search for more proof", "nextNode": "discovery-room", "hint": "If Aldren is telling the truth this changes everything." },
-        { "label": "continue up the tower", "nextNode": "upper-hall", "hint": "The journal's claims can wait until after you have the stone." }
+        {
+          "label": "search for more proof",
+          "nextNode": "discovery-room",
+          "hint": "If Aldren is telling the truth this changes everything."
+        },
+        {
+          "label": "continue up the tower",
+          "nextNode": "upper-hall",
+          "hint": "The journal's claims can wait until after you have the stone."
+        }
       ]
     },
     "upper-hall": {
       "passage": "The upper hall is a wide circular chamber with tall windows that rattle with each thunderclap. Rain streams across the glass. A heavy door leads to the guardian room where something hums with power. A narrower stairway spirals upward to the crown chamber and the Heartstone. Time presses. The storm is weakening.",
       "choices": [
-        { "label": "go for the crown chamber", "nextNode": "crown-approach", "hint": "The stairway narrows as it spirals toward the tower's peak." },
-        { "label": "check the guardian room", "nextNode": "guardian-room", "hint": "The hum behind the door grows louder as you approach." }
+        {
+          "label": "go for the crown chamber",
+          "nextNode": "crown-approach",
+          "hint": "The stairway narrows as it spirals toward the tower's peak."
+        },
+        {
+          "label": "check the guardian room",
+          "nextNode": "guardian-room",
+          "hint": "The hum behind the door grows louder as you approach."
+        }
       ]
     },
     "guardian-room": {
       "passage": "The door opens on a square chamber occupied by a bronze construct twice your height. Glass eyes glow a steady amber. It stands motionless in the center of the room, arms at its sides, but you can hear gears turning inside its chest. A side passage leads to the crown stairs beyond.",
       "choices": [
-        { "label": "fight the guardian", "nextNode": "fight-guardian", "hint": "You draw your blade and watch for an opening in its stance." },
-        { "label": "sneak past it", "nextNode": "sneak-past", "hint": "Its amber eyes stare straight ahead without blinking." }
+        {
+          "label": "fight the guardian",
+          "nextNode": "fight-guardian",
+          "hint": "You draw your blade and watch for an opening in its stance."
+        },
+        {
+          "label": "sneak past it",
+          "nextNode": "sneak-past",
+          "hint": "Its amber eyes stare straight ahead without blinking."
+        }
       ]
     },
     "crown-approach": {
       "passage": "The narrow stairway ends at a single door of white stone. Beyond it you can feel the Heartstone's pulse, deep and rhythmic like a second heartbeat layered over your own. The door is warm to the touch. Lightning flashes through a window above and for a moment the whole stairwell glows blue.",
       "choices": [
-        { "label": "open the door carefully", "nextNode": "ward-challenge", "hint": "The warmth of the stone door seeps into your palms." },
-        { "label": "listen for danger first", "nextNode": "storm-warning", "hint": "You press your ear to the warm stone and hold your breath." }
+        {
+          "label": "open the door carefully",
+          "nextNode": "ward-challenge",
+          "hint": "The warmth of the stone door seeps into your palms."
+        },
+        {
+          "label": "listen for danger first",
+          "nextNode": "storm-warning",
+          "hint": "You press your ear to the warm stone and hold your breath."
+        }
       ]
     },
     "fight-guardian": {
       "passage": "The construct lunges the moment you step forward. Bronze fists swing in heavy arcs. You dodge the first strike and slam your blade into the joint of its arm. Gears screech. Kael throws a flask of solvent at its chest and the metal hisses and warps. The stairs behind you offer retreat.",
       "choices": [
-        { "label": "press on to the crown", "nextNode": "crown-approach", "hint": "The damaged construct stumbles as you rush past it." },
-        { "label": "retreat down the stairs", "nextNode": "storm-escape-ending", "hint": "The construct is too strong and the storm is fading fast." }
+        {
+          "label": "press on to the crown",
+          "nextNode": "crown-approach",
+          "hint": "The damaged construct stumbles as you rush past it."
+        },
+        {
+          "label": "retreat down the stairs",
+          "nextNode": "storm-escape-ending",
+          "hint": "The construct is too strong and the storm is fading fast."
+        }
       ]
     },
     "sneak-past": {
       "passage": "You flatten against the wall and edge around the chamber while the construct stares ahead with its amber eyes. Each step is agony. A side passage leads to the crown stairs. A loose stone shifts under your foot. The construct's head rotates toward the sound. Its eyes brighten. You have a heartbeat to choose.",
       "choices": [
-        { "label": "dash for the passage", "nextNode": "crown-approach", "hint": "Your boots slap the stone as you break into a sprint." },
-        { "label": "freeze and hold still", "nextNode": "alarm-triggered", "hint": "You stop breathing and pray the amber glow fades." }
+        {
+          "label": "dash for the passage",
+          "nextNode": "crown-approach",
+          "hint": "Your boots slap the stone as you break into a sprint."
+        },
+        {
+          "label": "freeze and hold still",
+          "nextNode": "alarm-triggered",
+          "hint": "You stop breathing and pray the amber glow fades."
+        }
       ]
     },
     "ward-challenge": {
       "passage": "You push the door open. The crown chamber is small and round, open to the storm through a ring of arched windows. On a stone pedestal in the center, the Heartstone blazes with trapped lightning. A shimmering ward surrounds it. You reach through the field and your fingers close on warm crystal.",
       "choices": [
-        { "label": "pull it free cleanly", "nextNode": "clean-heist-ending", "hint": "The ward hums and resists but your grip holds steady." },
-        { "label": "grab it and run", "nextNode": "narrow-escape-ending", "hint": "No time for caution. The storm could end any moment." }
+        {
+          "label": "pull it free cleanly",
+          "nextNode": "clean-heist-ending",
+          "hint": "The ward hums and resists but your grip holds steady."
+        },
+        {
+          "label": "grab it and run",
+          "nextNode": "narrow-escape-ending",
+          "hint": "No time for caution. The storm could end any moment."
+        }
       ]
     },
     "storm-warning": {
       "passage": "You press your ear to the door. The stone vibrates with the Heartstone's power. But beneath that hum you hear the storm weakening. The thunder rolls farther apart. The rain thins. The tower shudders. When the storm dies, the tower goes with it. You have minutes at best, not hours.",
       "choices": [
-        { "label": "rush inside now", "nextNode": "narrow-escape-ending", "hint": "There is no more time to plan. You throw the door open." },
-        { "label": "abandon the heist", "nextNode": "storm-escape-ending", "hint": "The tower groans and you feel the floor shift beneath you." }
+        {
+          "label": "rush inside now",
+          "nextNode": "narrow-escape-ending",
+          "hint": "There is no more time to plan. You throw the door open."
+        },
+        {
+          "label": "abandon the heist",
+          "nextNode": "storm-escape-ending",
+          "hint": "The tower groans and you feel the floor shift beneath you."
+        }
       ]
     },
     "alarm-triggered": {
       "passage": "The construct roars to life. Bronze arms swing and its eyes flare red. An alarm bell rings somewhere above. The tower knows you are here. Kael grabs your arm and pulls you toward a side passage. The construct's footsteps shake the floor behind you. The crown chamber is ahead but so is danger.",
       "choices": [
-        { "label": "sprint for the stone", "nextNode": "narrow-escape-ending", "hint": "Heavy bronze footsteps pound the floor right behind you." },
-        { "label": "escape while you can", "nextNode": "trapped-ending", "hint": "The alarm bell rings louder and the walls begin to fade." }
+        {
+          "label": "sprint for the stone",
+          "nextNode": "narrow-escape-ending",
+          "hint": "Heavy bronze footsteps pound the floor right behind you."
+        },
+        {
+          "label": "escape while you can",
+          "nextNode": "trapped-ending",
+          "hint": "The alarm bell rings louder and the walls begin to fade."
+        }
       ]
     },
     "sabotage": {
       "passage": "You take Kael's knife to the workbench plans and cut the power linkages on the nearest constructs. Bronze limbs go slack. While cutting, you notice a hidden compartment in the bench. Inside is a second set of plans, personal notes, and a sealed letter addressed to the farmer's guild. The sorcerer expected you.",
       "choices": [
-        { "label": "read the letter", "nextNode": "discovery-room", "hint": "The wax seal on the letter cracks easily under your thumb." },
-        { "label": "head upstairs now", "nextNode": "stairwell", "hint": "The letter can wait. The Heartstone is what matters." }
+        {
+          "label": "read the letter",
+          "nextNode": "discovery-room",
+          "hint": "The wax seal on the letter cracks easily under your thumb."
+        },
+        {
+          "label": "head upstairs now",
+          "nextNode": "stairwell",
+          "hint": "The letter can wait. The Heartstone is what matters."
+        }
       ]
     },
     "discovery-room": {
       "passage": "The letter explains everything. Aldren the sorcerer built the tower to contain the ley-line's pressure. The storms are controlled releases that prevent disaster. If the Heartstone is removed, the ley-line will burst within a week and the blast will flatten every farm for twenty leagues. He begs whoever reads this to understand.",
       "choices": [
-        { "label": "leave the stone in place", "nextNode": "truth-ending", "hint": "The weight of the decision settles heavy on your shoulders." },
-        { "label": "take it anyway", "nextNode": "crown-approach", "hint": "Gold is gold. The farms are not your problem." }
+        {
+          "label": "leave the stone in place",
+          "nextNode": "truth-ending",
+          "hint": "The weight of the decision settles heavy on your shoulders."
+        },
+        {
+          "label": "take it anyway",
+          "nextNode": "crown-approach",
+          "hint": "Gold is gold. The farms are not your problem."
+        }
       ]
     },
     "clean-heist-ending": {

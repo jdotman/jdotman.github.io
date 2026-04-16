@@ -1,9 +1,12 @@
 {
   "id": "f60b55e3-1bcc-4cc7-b003-e5f916108f75",
-  "title": "The Siege of Redwall",
+  "title": "Siege of Redwall",
   "description": "A goblin horde surrounds the border fort of Redwall and the garrison is half strength. You must hold the walls until dawn or the entire valley falls.",
   "author": "AI",
-  "tags": ["conflict", "diplomacy"],
+  "tags": [
+    "conflict",
+    "diplomacy"
+  ],
   "estimatedMinutes": 12,
   "dateGenerated": "2026-04-25",
   "dayOfYear": "04-25",
@@ -12,159 +15,351 @@
     "intro": {
       "passage": "You stand on the battlements of Fort Redwall as dust rises on the southern horizon. Hundreds of goblin torches flicker in the failing light. The garrison captain lies wounded and the soldiers look to you. The gate is strong but the east wall has a crack. The armory below holds weapons and supplies.",
       "choices": [
-        { "label": "inspect the east wall", "nextNode": "east-wall", "hint": "The crack is visible even from here, a dark line through red stone." },
-        { "label": "rally the garrison", "nextNode": "rally-troops", "hint": "The soldiers need direction and a plan before fear takes hold." },
-        { "label": "check the armory", "nextNode": "armory", "hint": "Steel and oil could make all the difference before the night is done." }
+        {
+          "label": "inspect the east wall",
+          "nextNode": "east-wall",
+          "hint": "The crack is visible even from here, a dark line through red stone."
+        },
+        {
+          "label": "rally the garrison",
+          "nextNode": "rally-troops",
+          "hint": "The soldiers need direction and a plan before fear takes hold."
+        },
+        {
+          "label": "check the armory",
+          "nextNode": "armory",
+          "hint": "Steel and oil could make all the difference before the night is done."
+        }
       ]
     },
     "east-wall": {
       "passage": "The crack runs from foundation to parapet like a black vein through the red stone. A mason named Hilde is already there, pressing her palm against the fracture. She says she can brace it with timber if someone fetches lumber from the courtyard storehouse. The goblins are close now. You hear their drums.",
       "choices": [
-        { "label": "fetch the lumber", "nextNode": "fetch-lumber", "hint": "You turn and sprint toward the storehouse across the courtyard." },
-        { "label": "send a soldier for lumber", "nextNode": "delegate-lumber", "hint": "A young soldier nearby snaps to attention when you point." },
-        { "label": "abandon the east wall", "nextNode": "abandon-east", "hint": "Maybe the garrison is too thin to hold every wall tonight." }
+        {
+          "label": "fetch the lumber",
+          "nextNode": "fetch-lumber",
+          "hint": "You turn and sprint toward the storehouse across the courtyard."
+        },
+        {
+          "label": "send a soldier for lumber",
+          "nextNode": "delegate-lumber",
+          "hint": "A young soldier nearby snaps to attention when you point."
+        },
+        {
+          "label": "abandon the east wall",
+          "nextNode": "abandon-east",
+          "hint": "Maybe the garrison is too thin to hold every wall tonight."
+        }
       ]
     },
     "rally-troops": {
       "passage": "You descend into the courtyard where forty soldiers stand in uneasy silence. Their armor is dented and their faces are pale but they hold their weapons steady. A veteran sergeant named Kael steps forward and asks whether you plan to hold every wall or fall back to the keep. The answer matters.",
       "choices": [
-        { "label": "hold every wall", "nextNode": "hold-all-walls", "hint": "You raise your voice so every soldier in the yard can hear." },
-        { "label": "fall back to the keep", "nextNode": "retreat-keep", "hint": "The keep is old dwarf-built stone - it could outlast anything." },
-        { "label": "ask Kael for advice", "nextNode": "kael-advice", "hint": "The sergeant has survived more sieges than anyone else in the fort." }
+        {
+          "label": "hold every wall",
+          "nextNode": "hold-all-walls",
+          "hint": "You raise your voice so every soldier in the yard can hear."
+        },
+        {
+          "label": "fall back to the keep",
+          "nextNode": "retreat-keep",
+          "hint": "The keep is old dwarf-built stone - it could outlast anything."
+        },
+        {
+          "label": "ask Kael for advice",
+          "nextNode": "kael-advice",
+          "hint": "The sergeant has survived more sieges than anyone else in the fort."
+        }
       ]
     },
     "armory": {
       "passage": "The armory is stacked with crossbows, bolts, and oil casks but you notice a crate marked with a faded arcane sigil pushed into the far corner. Dust covers it thick. The quartermaster says it arrived months ago from the capital and no one has opened it. The goblins will reach the walls within the hour.",
       "choices": [
-        { "label": "open the crate", "nextNode": "arcane-crate", "hint": "The sigil pulses faintly when your hand brushes the lid." },
-        { "label": "distribute crossbows and oil", "nextNode": "distribute-weapons", "hint": "Conventional arms for a conventional defense - it may be enough." },
-        { "label": "carry everything topside", "nextNode": "hold-all-walls", "hint": "Every bolt and barrel could matter before the night is done." }
+        {
+          "label": "open the crate",
+          "nextNode": "arcane-crate",
+          "hint": "The sigil pulses faintly when your hand brushes the lid."
+        },
+        {
+          "label": "distribute crossbows and oil",
+          "nextNode": "distribute-weapons",
+          "hint": "Conventional arms for a conventional defense - it may be enough."
+        },
+        {
+          "label": "carry everything topside",
+          "nextNode": "hold-all-walls",
+          "hint": "Every bolt and barrel could matter before the night is done."
+        }
       ]
     },
     "fetch-lumber": {
       "passage": "You sprint across the courtyard as goblin arrows arc over the walls and clatter on flagstones. The storehouse door is jammed. You throw your shoulder into it twice before it gives. Inside you find beams and rope for the brace. You drag them back to Hilde as horns blow from the gate.",
       "choices": [
-        { "label": "help brace the wall", "nextNode": "brace-wall", "hint": "Hilde already has her hammer ready and points where to hold." },
-        { "label": "rush to the gate", "nextNode": "gate-assault", "hint": "The horns mean the main assault on the gate has started." }
+        {
+          "label": "help brace the wall",
+          "nextNode": "brace-wall",
+          "hint": "Hilde already has her hammer ready and points where to hold."
+        },
+        {
+          "label": "rush to the gate",
+          "nextNode": "gate-assault",
+          "hint": "The horns mean the main assault on the gate has started."
+        }
       ]
     },
     "delegate-lumber": {
       "passage": "You send a young soldier named Petra running for lumber and stay to watch the goblin advance. Their siege ladders are crude but plentiful. A goblin shaman in a bone mask stands behind the front ranks chanting something that makes the torchlight flicker green. Hilde clutches her hammer and waits.",
       "choices": [
-        { "label": "target the shaman", "nextNode": "target-shaman", "hint": "You spot a crossbow propped against the wall within reach." },
-        { "label": "prepare boiling oil", "nextNode": "boiling-oil", "hint": "The oil casks on the battlement are already warm from the sun." }
+        {
+          "label": "target the shaman",
+          "nextNode": "target-shaman",
+          "hint": "You spot a crossbow propped against the wall within reach."
+        },
+        {
+          "label": "prepare boiling oil",
+          "nextNode": "boiling-oil",
+          "hint": "The oil casks on the battlement are already warm from the sun."
+        }
       ]
     },
     "abandon-east": {
       "passage": "You pull the defenders from the east wall and redirect them to the gate. Hilde protests but follows orders. Within minutes the goblins notice the empty rampart. They swarm through the crack like water through a broken dam. The courtyard fills with screaming green bodies and everything falls apart fast.",
       "choices": [
-        { "label": "fight to the keep", "nextNode": "desperate-retreat", "hint": "The iron door of the keep is your only chance now." },
-        { "label": "rally at the well", "nextNode": "last-stand-courtyard", "hint": "A ring of steel around the well might hold them back." }
+        {
+          "label": "fight to the keep",
+          "nextNode": "desperate-retreat",
+          "hint": "The iron door of the keep is your only chance now."
+        },
+        {
+          "label": "rally at the well",
+          "nextNode": "last-stand-courtyard",
+          "hint": "A ring of steel around the well might hold them back."
+        }
       ]
     },
     "hold-all-walls": {
       "passage": "You spread the garrison thin across every battlement. Crossbow bolts rain down on the goblin vanguard and oil fires bloom along the base of the walls. The defense holds for the first wave but your soldiers are stretched. Kael reports the east wall is buckling. The postern gate could let you hit their flank.",
       "choices": [
-        { "label": "reinforce the east wall", "nextNode": "brace-wall", "hint": "If the east wall falls the whole line crumbles with it." },
-        { "label": "launch a sortie", "nextNode": "sortie", "hint": "A surprise strike through the postern could break their momentum." }
+        {
+          "label": "reinforce the east wall",
+          "nextNode": "brace-wall",
+          "hint": "If the east wall falls the whole line crumbles with it."
+        },
+        {
+          "label": "launch a sortie",
+          "nextNode": "sortie",
+          "hint": "A surprise strike through the postern could break their momentum."
+        }
       ]
     },
     "retreat-keep": {
       "passage": "You order the garrison to abandon the outer walls and barricade inside the stone keep. The soldiers drag supplies through the iron door as goblins pour over the ramparts. The keep is strong but you are trapped. A drain tunnel in the cellar leads past the goblin lines. Dawn is eight hours away.",
       "choices": [
-        { "label": "barricade and wait", "nextNode": "barricade-wait", "hint": "You stack every piece of furniture against the iron door." },
-        { "label": "send a runner for help", "nextNode": "send-runner", "hint": "The drain tunnel is narrow but it leads beyond the goblin camp." }
+        {
+          "label": "barricade and wait",
+          "nextNode": "barricade-wait",
+          "hint": "You stack every piece of furniture against the iron door."
+        },
+        {
+          "label": "send a runner for help",
+          "nextNode": "send-runner",
+          "hint": "The drain tunnel is narrow but it leads beyond the goblin camp."
+        }
       ]
     },
     "kael-advice": {
       "passage": "Kael strokes his grey beard and speaks plain. Hold the gate and east wall only, he says, and let the rest go. Put archers on the keep roof for crossfire. He has seen three sieges and lost two. The one he won used this approach. His eyes are steady and calm.",
       "choices": [
-        { "label": "follow Kael's plan", "nextNode": "kael-plan", "hint": "You nod and Kael begins barking orders to the nearest soldiers." },
-        { "label": "hold every wall instead", "nextNode": "hold-all-walls", "hint": "You have more faith in numbers than in giving ground." }
+        {
+          "label": "follow Kael's plan",
+          "nextNode": "kael-plan",
+          "hint": "You nod and Kael begins barking orders to the nearest soldiers."
+        },
+        {
+          "label": "hold every wall instead",
+          "nextNode": "hold-all-walls",
+          "hint": "You have more faith in numbers than in giving ground."
+        }
       ]
     },
     "arcane-crate": {
       "passage": "You pry the lid open and find six crystal spheres nested in straw. Each one hums with a cold blue light. A note inside reads: ward stones - throw against any surface to create a barrier of force lasting one hour. Six barriers. You could seal the weakest points of the fort entirely.",
       "choices": [
-        { "label": "place them on the walls", "nextNode": "ward-stones-walls", "hint": "Six weak points, six stones - the math is almost too clean." },
-        { "label": "save them for later", "nextNode": "kael-plan", "hint": "You tuck the crate under your arm and head for the courtyard." }
+        {
+          "label": "place them on the walls",
+          "nextNode": "ward-stones-walls",
+          "hint": "Six weak points, six stones - the math is almost too clean."
+        },
+        {
+          "label": "save them for later",
+          "nextNode": "kael-plan",
+          "hint": "You tuck the crate under your arm and head for the courtyard."
+        }
       ]
     },
     "distribute-weapons": {
       "passage": "You hand crossbows to every soldier who can hold one and stack oil casks along the battlements. The preparations are solid and conventional. When the goblins hit the walls the bolts and fire take a heavy toll. But conventional may not be enough tonight. The horde is larger than anything this fort was built to stop.",
       "choices": [
-        { "label": "rally the troops", "nextNode": "rally-troops", "hint": "Arms alone will not hold the walls - the soldiers need a plan." },
-        { "label": "inspect the east wall", "nextNode": "east-wall", "hint": "A shout from the east battlement draws your attention toward the crack." }
+        {
+          "label": "rally the troops",
+          "nextNode": "rally-troops",
+          "hint": "Arms alone will not hold the walls - the soldiers need a plan."
+        },
+        {
+          "label": "inspect the east wall",
+          "nextNode": "east-wall",
+          "hint": "A shout from the east battlement draws your attention toward the crack."
+        }
       ]
     },
     "brace-wall": {
       "passage": "You and Hilde work fast, hammering timber braces into the crack while arrows whistle overhead. The wall groans but holds. Hilde grins through the dust and says it will last the night if nothing heavier than a ram hits it. A horn sounds from the gate. The main assault is beginning.",
       "choices": [
-        { "label": "rush to the gate", "nextNode": "gate-assault", "hint": "The ground shakes with the rhythm of a battering ram." },
-        { "label": "stay and defend the east", "nextNode": "defend-east-wall", "hint": "Ladder hooks scrape against the stone just below the parapet." }
+        {
+          "label": "rush to the gate",
+          "nextNode": "gate-assault",
+          "hint": "The ground shakes with the rhythm of a battering ram."
+        },
+        {
+          "label": "stay and defend the east",
+          "nextNode": "defend-east-wall",
+          "hint": "Ladder hooks scrape against the stone just below the parapet."
+        }
       ]
     },
     "gate-assault": {
       "passage": "The main gate shudders under a crude battering ram carried by a dozen goblins. Boiling oil pours from the murder holes and the ram crew scatters shrieking. But more replace them fast. Kael appears at your side grim-faced. The postern gate on the north side could let you flank them.",
       "choices": [
-        { "label": "launch a sortie", "nextNode": "sortie", "hint": "A strike from the postern could scatter them before the gate breaks." },
-        { "label": "brace the gate inside", "nextNode": "brace-gate", "hint": "You grab a beam and wedge it against the shuddering bar." }
+        {
+          "label": "launch a sortie",
+          "nextNode": "sortie",
+          "hint": "A strike from the postern could scatter them before the gate breaks."
+        },
+        {
+          "label": "brace the gate inside",
+          "nextNode": "brace-gate",
+          "hint": "You grab a beam and wedge it against the shuddering bar."
+        }
       ]
     },
     "target-shaman": {
       "passage": "You grab a crossbow and take aim at the bone-masked shaman through a gap in the wall. The bolt flies true and strikes the shaman square in the shoulder. The green light dies and the goblin front rank falters. A ragged cheer rises from the defenders. The shaman is dragged away but the horde keeps coming.",
       "choices": [
-        { "label": "keep shooting", "nextNode": "defend-east-wall", "hint": "You reload and search for the next target in the torchlight." },
-        { "label": "rush to the gate", "nextNode": "gate-assault", "hint": "A deep boom echoes from the main gate across the courtyard." }
+        {
+          "label": "keep shooting",
+          "nextNode": "defend-east-wall",
+          "hint": "You reload and search for the next target in the torchlight."
+        },
+        {
+          "label": "rush to the gate",
+          "nextNode": "gate-assault",
+          "hint": "A deep boom echoes from the main gate across the courtyard."
+        }
       ]
     },
     "boiling-oil": {
       "passage": "You order the oil heated and tipped over the east battlement just as the first ladder hooks bite the stone. The goblins below scream and fall back. The stench is terrible but the wall is clear for now. Hilde finishes her brace and gives you a thumbs up. Petra returns with extra lumber.",
       "choices": [
-        { "label": "move to the gate", "nextNode": "gate-assault", "hint": "The east wall is holding but the gate sounds like it is not." },
-        { "label": "fortify the east", "nextNode": "defend-east-wall", "hint": "Petra drops the lumber and Hilde is already reaching for it." }
+        {
+          "label": "move to the gate",
+          "nextNode": "gate-assault",
+          "hint": "The east wall is holding but the gate sounds like it is not."
+        },
+        {
+          "label": "fortify the east",
+          "nextNode": "defend-east-wall",
+          "hint": "Petra drops the lumber and Hilde is already reaching for it."
+        }
       ]
     },
     "kael-plan": {
       "passage": "You follow Kael's strategy. Archers take the keep roof while the remaining soldiers split between the gate and the east wall. The crossfire is devastating. Goblins fall in rows as they cross the killing ground. The horde pushes forward but every wave breaks smaller than the last. Dawn light touches the horizon.",
       "choices": [
-        { "label": "hold until dawn", "nextNode": "dawn-victory", "hint": "The first rays of sun hit the battlements and the goblins waver." },
-        { "label": "push them back now", "nextNode": "sortie", "hint": "One hard strike could end this before the sun is fully up." }
+        {
+          "label": "hold until dawn",
+          "nextNode": "dawn-victory",
+          "hint": "The first rays of sun hit the battlements and the goblins waver."
+        },
+        {
+          "label": "push them back now",
+          "nextNode": "sortie",
+          "hint": "One hard strike could end this before the sun is fully up."
+        }
       ]
     },
     "ward-stones-walls": {
       "passage": "You place the ward stones at the six weakest points along the battlements. Each one bursts into a blue barrier the goblins cannot pass. Their ladders bounce off and their ram strikes empty air. The horde screams. For one hour the fort is safe. The postern gate stands clear for a strike.",
       "choices": [
-        { "label": "prepare for the fade", "nextNode": "wards-fade", "hint": "One hour is not forever - you need to be ready when it ends." },
-        { "label": "launch a sortie", "nextNode": "sortie", "hint": "The postern gate opens onto an unguarded stretch of ground." }
+        {
+          "label": "prepare for the fade",
+          "nextNode": "wards-fade",
+          "hint": "One hour is not forever - you need to be ready when it ends."
+        },
+        {
+          "label": "launch a sortie",
+          "nextNode": "sortie",
+          "hint": "The postern gate opens onto an unguarded stretch of ground."
+        }
       ]
     },
     "sortie": {
       "passage": "You lead twelve soldiers through the postern gate and hit the goblin flank in the dark. The surprise is total. Goblins scatter from the ram and you cut the ropes holding it together. But the horde closes around you fast. Steel rings in the torchlight and you fight back toward the gate.",
       "choices": [
-        { "label": "fight back to the gate", "nextNode": "sortie-return", "hint": "The postern gate is fifty yards away through a wall of green bodies." },
-        { "label": "press into the horde", "nextNode": "sortie-deep", "hint": "Somewhere in the chaos a goblin warchief is bellowing orders." }
+        {
+          "label": "fight back to the gate",
+          "nextNode": "sortie-return",
+          "hint": "The postern gate is fifty yards away through a wall of green bodies."
+        },
+        {
+          "label": "press into the horde",
+          "nextNode": "sortie-deep",
+          "hint": "Somewhere in the chaos a goblin warchief is bellowing orders."
+        }
       ]
     },
     "defend-east-wall": {
       "passage": "You hold the east wall through wave after wave. Hilde fights beside you with her mason's hammer, cracking goblin helmets with deadly aim. The braced crack holds firm. The attacks grow weaker as the night wears on. A pale line appears on the eastern horizon. The postern gate stands clear if you want to strike.",
       "choices": [
-        { "label": "hold until dawn", "nextNode": "dawn-victory", "hint": "The goblins are thinning and the sky grows lighter by the minute." },
-        { "label": "launch a sortie", "nextNode": "sortie", "hint": "One last push could scatter them before the sun finishes the job." }
+        {
+          "label": "hold until dawn",
+          "nextNode": "dawn-victory",
+          "hint": "The goblins are thinning and the sky grows lighter by the minute."
+        },
+        {
+          "label": "launch a sortie",
+          "nextNode": "sortie",
+          "hint": "One last push could scatter them before the sun finishes the job."
+        }
       ]
     },
     "brace-gate": {
       "passage": "You stack every barrel and beam against the gate. The ram strikes again and the bar cracks but the bracing holds. Splinters fly and dust chokes the air. The ram shatters against your wall of wood. The goblins howl outside. A faint glow hints at dawn. The postern gate remains clear.",
       "choices": [
-        { "label": "hold until dawn", "nextNode": "dawn-victory", "hint": "The howling outside grows ragged and desperate as the sky lightens." },
-        { "label": "launch a sortie", "nextNode": "sortie", "hint": "The postern gate could let you finish what the barricade started." }
+        {
+          "label": "hold until dawn",
+          "nextNode": "dawn-victory",
+          "hint": "The howling outside grows ragged and desperate as the sky lightens."
+        },
+        {
+          "label": "launch a sortie",
+          "nextNode": "sortie",
+          "hint": "The postern gate could let you finish what the barricade started."
+        }
       ]
     },
     "desperate-retreat": {
       "passage": "You fight through the swarming courtyard toward the keep. Three soldiers fall covering the retreat. You slam the iron door shut and drop the bar as goblin blades hammer the other side. The keep holds but the cost was high. Eight soldiers remain. A drain tunnel below could reach the baron's lands.",
       "choices": [
-        { "label": "barricade and wait", "nextNode": "barricade-wait", "hint": "You press your back against the door and catch your breath." },
-        { "label": "send a runner for help", "nextNode": "send-runner", "hint": "The drain tunnel is the only way past the goblin lines now." }
+        {
+          "label": "barricade and wait",
+          "nextNode": "barricade-wait",
+          "hint": "You press your back against the door and catch your breath."
+        },
+        {
+          "label": "send a runner for help",
+          "nextNode": "send-runner",
+          "hint": "The drain tunnel is the only way past the goblin lines now."
+        }
       ]
     },
     "last-stand-courtyard": {

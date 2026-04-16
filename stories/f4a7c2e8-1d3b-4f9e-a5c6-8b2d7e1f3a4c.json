@@ -1,9 +1,12 @@
 {
   "id": "f4a7c2e8-1d3b-4f9e-a5c6-8b2d7e1f3a4c",
-  "title": "The Bone Carnival",
+  "title": "Bone Carnival",
   "description": "A traveling carnival has pitched its tents outside Fenwick village. Your sister went inside three nights ago and has not come out.",
   "author": "AI",
-  "tags": ["mystery", "trickery"],
+  "tags": [
+    "mystery",
+    "trickery"
+  ],
   "estimatedMinutes": 12,
   "dateGenerated": "2026-05-17",
   "dayOfYear": "05-17",
@@ -14,150 +17,326 @@
     "intro": {
       "passage": "Colored lanterns sway above the carnival entrance, casting shapes that move wrong. The Bone Carnival sits outside Fenwick, three nights and counting. Your sister Maren is somewhere inside. No word, no sign. A painted banner reads ALL WHO ENTER LEAVE CHANGED. The ticket booth sits to the left. A gap in the fence beckons to the right.",
       "choices": [
-        { "label": "approach the booth", "nextNode": "ticket-booth", "hint": "The booth attendant's smile is too wide, but you step forward anyway." },
-        { "label": "slip through the fence", "nextNode": "sneak-past", "hint": "The gap is narrow and the wood scrapes your shoulder as you squeeze through." },
-        { "label": "climb the hill", "nextNode": "watch-from-hill", "hint": "Higher ground might show you what lies beyond the entrance tents." }
+        {
+          "label": "approach the booth",
+          "nextNode": "ticket-booth",
+          "hint": "The booth attendant's smile is too wide, but you step forward anyway."
+        },
+        {
+          "label": "slip through the fence",
+          "nextNode": "sneak-past",
+          "hint": "The gap is narrow and the wood scrapes your shoulder as you squeeze through."
+        },
+        {
+          "label": "climb the hill",
+          "nextNode": "watch-from-hill",
+          "hint": "Higher ground might show you what lies beyond the entrance tents."
+        }
       ]
     },
     "watch-from-hill": {
       "passage": "From the hilltop, the carnival spreads below like a web. Tents radiate from a tall black pavilion at the center, connected by ropes strung with bones that clatter in the breeze. Performers move between the tents in patterns too regular to be natural. Near the eastern fence, a section of canvas hangs loose. The ticket booth glows orange below you.",
       "choices": [
-        { "label": "head to the booth", "nextNode": "ticket-booth", "hint": "You walk down the slope, keeping the pavilion in sight the whole way." },
-        { "label": "circle to the fence", "nextNode": "circle-around", "hint": "The loose canvas flaps gently, like something is breathing behind it." }
+        {
+          "label": "head to the booth",
+          "nextNode": "ticket-booth",
+          "hint": "You walk down the slope, keeping the pavilion in sight the whole way."
+        },
+        {
+          "label": "circle to the fence",
+          "nextNode": "circle-around",
+          "hint": "The loose canvas flaps gently, like something is breathing behind it."
+        }
       ]
     },
     "ticket-booth": {
       "passage": "A woman with chalk-white face paint leans from the booth window. Her fingers are long, jointed in too many places. She holds out a bone token shaped like a grinning face. 'One token, one passage,' she says. 'The fortune tent is straight ahead. The acrobats perform to the east.' Her grip lingers when you take the token.",
       "choices": [
-        { "label": "enter the fortune tent", "nextNode": "fortune-tent", "hint": "Incense spills from the tent flap like something trying to escape." },
-        { "label": "follow the music east", "nextNode": "acrobat-stage", "hint": "A drumbeat pulses through the ground beneath your boots." }
+        {
+          "label": "enter the fortune tent",
+          "nextNode": "fortune-tent",
+          "hint": "Incense spills from the tent flap like something trying to escape."
+        },
+        {
+          "label": "follow the music east",
+          "nextNode": "acrobat-stage",
+          "hint": "A drumbeat pulses through the ground beneath your boots."
+        }
       ]
     },
     "sneak-past": {
       "passage": "The fence gap leads to a muddy lane between tent backs. Ropes creak overhead and somewhere a cage rattles. Two paths branch from here. To the north, animal sounds drift from behind a heavy curtain. Westward, a propped-open flap reveals stacked crates and costume racks. A performer's mask lies facedown in the mud, cracked clean in half.",
       "choices": [
-        { "label": "check the cages", "nextNode": "beast-cage", "hint": "The rattling grows louder as you push through the curtain." },
-        { "label": "search backstage", "nextNode": "backstage", "hint": "Costumes brush your arms as you step between the racks." }
+        {
+          "label": "check the cages",
+          "nextNode": "beast-cage",
+          "hint": "The rattling grows louder as you push through the curtain."
+        },
+        {
+          "label": "search backstage",
+          "nextNode": "backstage",
+          "hint": "Costumes brush your arms as you step between the racks."
+        }
       ]
     },
     "circle-around": {
       "passage": "The eastern fence opens onto a service path littered with wheel ruts and spilled feed. Ahead, canvas walls muffle growls and the scrape of claws on iron. A painted arrow on the ground points left toward BACKSTAGE - PERFORMERS ONLY. The carnival hum feels different back here. Tighter. The music sounds forced, like a smile held too long.",
       "choices": [
-        { "label": "follow the growls", "nextNode": "beast-cage", "hint": "Iron bars catch the lantern glow as you round the corner." },
-        { "label": "take the backstage path", "nextNode": "backstage", "hint": "The painted arrow has been scratched over, but the path is clear." }
+        {
+          "label": "follow the growls",
+          "nextNode": "beast-cage",
+          "hint": "Iron bars catch the lantern glow as you round the corner."
+        },
+        {
+          "label": "take the backstage path",
+          "nextNode": "backstage",
+          "hint": "The painted arrow has been scratched over, but the path is clear."
+        }
       ]
     },
     "fortune-tent": {
       "passage": "Smoke curls inside a tent draped in purple silk. An old woman sits behind a table of carved bones, each marked with a name. She turns one over. It reads MAREN. 'Your sister sat where you sit,' she says. 'She asked about the ringmaster.' The woman taps a cracked mirror on the wall. Outside, a puppet stage creaks to life.",
       "choices": [
-        { "label": "look in the mirror", "nextNode": "mirror-hall", "hint": "The glass ripples when your breath touches its surface." },
-        { "label": "watch the puppet show", "nextNode": "puppet-show", "hint": "The strings jerk but you cannot see who is pulling them." }
+        {
+          "label": "look in the mirror",
+          "nextNode": "mirror-hall",
+          "hint": "The glass ripples when your breath touches its surface."
+        },
+        {
+          "label": "watch the puppet show",
+          "nextNode": "puppet-show",
+          "hint": "The strings jerk but you cannot see who is pulling them."
+        }
       ]
     },
     "acrobat-stage": {
       "passage": "A ring of torches frames a wooden stage where three acrobats twist through the air without nets or wires. The crowd gasps but you notice something else. The performers cast no shadows. Behind the stage, a curtain flutters and you glimpse racks of hanging costumes. A masked vendor at the edge of the crowd sells painted trinkets from a tray.",
       "choices": [
-        { "label": "go behind the curtain", "nextNode": "backstage", "hint": "The costumes sway as if someone just brushed past them." },
-        { "label": "talk to the vendor", "nextNode": "mask-vendor", "hint": "The vendor tilts their head like a bird studying a worm." }
+        {
+          "label": "go behind the curtain",
+          "nextNode": "backstage",
+          "hint": "The costumes sway as if someone just brushed past them."
+        },
+        {
+          "label": "talk to the vendor",
+          "nextNode": "mask-vendor",
+          "hint": "The vendor tilts their head like a bird studying a worm."
+        }
       ]
     },
     "beast-cage": {
       "passage": "Iron cages line a corridor of canvas. Most hold ordinary animals - a fox, two hawks, a scarred boar. The last cage is larger, covered by a tarp. Something inside breathes in slow, wet draws. A brass plate on the bars reads DO NOT FEED. Nearby, a trapdoor sits flush with the packed earth. The vendor's stall glows around the corner.",
       "choices": [
-        { "label": "open the trapdoor", "nextNode": "trapdoor", "hint": "The hinges groan softly as the earth-smell rises to meet you." },
-        { "label": "visit the vendor", "nextNode": "mask-vendor", "hint": "Painted faces watch you from the stall as you approach." }
+        {
+          "label": "open the trapdoor",
+          "nextNode": "trapdoor",
+          "hint": "The hinges groan softly as the earth-smell rises to meet you."
+        },
+        {
+          "label": "visit the vendor",
+          "nextNode": "mask-vendor",
+          "hint": "Painted faces watch you from the stall as you approach."
+        }
       ]
     },
     "mirror-hall": {
       "passage": "Cracked mirrors fill a narrow tent, each one reflecting you slightly wrong. In one, your eyes are black. In another, you smile though your face is still. The deepest mirror shows a staircase descending into earth. Maren's ribbon - the blue one she always wears - hangs from a nail beside the last frame. The floorboards beneath your feet feel hollow.",
       "choices": [
-        { "label": "pry the floor open", "nextNode": "trapdoor", "hint": "Splinters bite your palms as the boards lift with a crack." },
-        { "label": "find the ringmaster", "nextNode": "ringmaster-tent", "hint": "If Maren asked about him, that is where the answers are." }
+        {
+          "label": "pry the floor open",
+          "nextNode": "trapdoor",
+          "hint": "Splinters bite your palms as the boards lift with a crack."
+        },
+        {
+          "label": "find the ringmaster",
+          "nextNode": "ringmaster-tent",
+          "hint": "If Maren asked about him, that is where the answers are."
+        }
       ]
     },
     "puppet-show": {
       "passage": "Wooden puppets jerk on a tiny stage, telling a story you almost recognize. A girl walks into a carnival and does not come out. The audience laughs. You do not. The puppeteer hides behind black cloth, but the strings run upward into empty air. A vendor nearby sells masks that seem to watch the show. Beyond the vendor, a mirrored tent catches the torchlight.",
       "choices": [
-        { "label": "approach the vendor", "nextNode": "mask-vendor", "hint": "The masks turn toward you as you step closer to the stall." },
-        { "label": "enter the mirrored tent", "nextNode": "mirror-hall", "hint": "Your reflection waits for you before you reach the entrance." }
+        {
+          "label": "approach the vendor",
+          "nextNode": "mask-vendor",
+          "hint": "The masks turn toward you as you step closer to the stall."
+        },
+        {
+          "label": "enter the mirrored tent",
+          "nextNode": "mirror-hall",
+          "hint": "Your reflection waits for you before you reach the entrance."
+        }
       ]
     },
     "backstage": {
       "passage": "Costume racks crowd a space behind the main stage. Greasepaint jars line a crooked shelf and wigs hang from hooks like severed heads. A trunk marked RINGMASTER sits open, empty except for a brass key. The canvas wall to the north bears a painted arrow pointing toward a storage area. Footsteps creak above you. Someone is pacing the rafters.",
       "choices": [
-        { "label": "check the storage", "nextNode": "storage-room", "hint": "The arrow leads down a narrow gap between stacked crates." },
-        { "label": "take the key", "nextNode": "ringmaster-tent", "hint": "The key is warm, as if someone held it moments ago." }
+        {
+          "label": "check the storage",
+          "nextNode": "storage-room",
+          "hint": "The arrow leads down a narrow gap between stacked crates."
+        },
+        {
+          "label": "take the key",
+          "nextNode": "ringmaster-tent",
+          "hint": "The key is warm, as if someone held it moments ago."
+        }
       ]
     },
     "mask-vendor": {
       "passage": "The vendor stands behind a tray of wooden masks, each carved into a different expression. Joy, grief, rage, terror. When you look away and back, the expressions have changed. 'Pick one,' the vendor says through a mask of their own. 'Everyone wears a face here.' The ringmaster's pavilion looms beyond the stall. A hatch in the ground sits half-hidden by canvas.",
       "choices": [
-        { "label": "go to the pavilion", "nextNode": "ringmaster-tent", "hint": "The vendor watches you leave and does not try to stop you." },
-        { "label": "pull the hatch open", "nextNode": "trapdoor", "hint": "Damp air rises from below, smelling of earth and old straw." }
+        {
+          "label": "go to the pavilion",
+          "nextNode": "ringmaster-tent",
+          "hint": "The vendor watches you leave and does not try to stop you."
+        },
+        {
+          "label": "pull the hatch open",
+          "nextNode": "trapdoor",
+          "hint": "Damp air rises from below, smelling of earth and old straw."
+        }
       ]
     },
     "storage-room": {
       "passage": "Crates fill a cramped room lit by a single oil lamp. Most hold props - rubber snakes, trick swords, bottles of colored smoke. One crate is nailed shut with iron bands and something shifts inside when you brush past it. Scratched into the lid are the words SHE IS BELOW. A rusted hatch sits in the floor, barely visible under loose hay.",
       "choices": [
-        { "label": "open the hatch", "nextNode": "trapdoor", "hint": "The hay scatters as you grip the handle and pull." },
-        { "label": "find the ringmaster", "nextNode": "ringmaster-tent", "hint": "If she is below, then someone put her there on purpose." }
+        {
+          "label": "open the hatch",
+          "nextNode": "trapdoor",
+          "hint": "The hay scatters as you grip the handle and pull."
+        },
+        {
+          "label": "find the ringmaster",
+          "nextNode": "ringmaster-tent",
+          "hint": "If she is below, then someone put her there on purpose."
+        }
       ]
     },
     "trapdoor": {
       "passage": "A wooden ladder drops into a tunnel carved from packed clay. Lanterns hang every few yards, guttering low. The air tastes like copper. Ahead, the passage splits. Left curves toward a faint voice. Right slopes downward where a cool breeze pushes against your face and brings the smell of open air. Scratchmarks line both walls, all pointing left.",
       "choices": [
-        { "label": "follow the voice", "nextNode": "sister-cage", "hint": "The voice grows clearer with each step. It is singing." },
-        { "label": "head toward the breeze", "nextNode": "escape-tunnel", "hint": "Fresh air means a way out, but the marks warn otherwise." }
+        {
+          "label": "follow the voice",
+          "nextNode": "sister-cage",
+          "hint": "The voice grows clearer with each step. It is singing."
+        },
+        {
+          "label": "head toward the breeze",
+          "nextNode": "escape-tunnel",
+          "hint": "Fresh air means a way out, but the marks warn otherwise."
+        }
       ]
     },
     "ringmaster-tent": {
       "passage": "The black pavilion swallows sound. Inside, a tall man in a bone-white suit sits behind a desk of polished antler. His smile reveals too many teeth. 'You want something,' he says. 'Everyone does.' A brass bell sits at the edge of the desk. Behind him, a curtained doorway leads deeper into the tent. He drums his fingers and waits.",
       "choices": [
-        { "label": "name your price", "nextNode": "the-bargain", "hint": "His eyes brighten when you say your sister's name aloud." },
-        { "label": "push past him", "nextNode": "confront", "hint": "He does not move. The curtain parts before you reach it." }
+        {
+          "label": "name your price",
+          "nextNode": "the-bargain",
+          "hint": "His eyes brighten when you say your sister's name aloud."
+        },
+        {
+          "label": "push past him",
+          "nextNode": "confront",
+          "hint": "He does not move. The curtain parts before you reach it."
+        }
       ]
     },
     "sister-cage": {
       "passage": "Maren sits in a cage of woven bone, humming a tune you recognize from home. She looks up. Her eyes are glassy but she is breathing. The cage has no lock, just a riddle carved into the latch. Beyond, the tunnel bends toward raised voices. Behind you, a draft carries the smell of open fields.",
       "choices": [
-        { "label": "solve the riddle", "nextNode": "confront", "hint": "The latch clicks open and Maren blinks as if waking from a dream." },
-        { "label": "follow the draft", "nextNode": "escape-tunnel", "hint": "Maren reaches through the bars and grips your wrist. 'Go,' she whispers." },
-        { "label": "shout for help", "nextNode": "call-for-help", "hint": "Your voice echoes through the tunnel and something answers back." }
+        {
+          "label": "solve the riddle",
+          "nextNode": "confront",
+          "hint": "The latch clicks open and Maren blinks as if waking from a dream."
+        },
+        {
+          "label": "follow the draft",
+          "nextNode": "escape-tunnel",
+          "hint": "Maren reaches through the bars and grips your wrist. 'Go,' she whispers."
+        },
+        {
+          "label": "shout for help",
+          "nextNode": "call-for-help",
+          "hint": "Your voice echoes through the tunnel and something answers back."
+        }
       ]
     },
     "the-bargain": {
       "passage": "The ringmaster leans forward, steepling his long fingers. 'I keep this carnival alive with willing souls,' he says. 'Your sister chose to stay. The magic needs a voice.' He slides a contract across the desk, written in red ink that glistens wet. 'Sign, and she walks free tonight. Or I can arrange a less tidy exit for both of you.'",
       "choices": [
-        { "label": "sign the contract", "nextNode": "bargain-ending", "hint": "The pen feels alive in your hand. The ink is warm." },
-        { "label": "knock the desk over", "nextNode": "burning-tent", "hint": "The oil lamp topples and flame catches the contract instantly." }
+        {
+          "label": "sign the contract",
+          "nextNode": "bargain-ending",
+          "hint": "The pen feels alive in your hand. The ink is warm."
+        },
+        {
+          "label": "knock the desk over",
+          "nextNode": "burning-tent",
+          "hint": "The oil lamp topples and flame catches the contract instantly."
+        }
       ]
     },
     "confront": {
       "passage": "Behind the curtain, the ringmaster's true workshop sprawls. Glass jars hold flickering shapes - trapped spirits, you realize, each one wearing the face of someone who wanders in. Maren stands beside you now, weak but steady. The ringmaster blocks the only exit, arms wide, grinning. 'Nobody leaves without my blessing,' he says. The bone walls of the tent shudder around you.",
       "choices": [
-        { "label": "shatter the jars", "nextNode": "free-ending", "hint": "Glass explodes and the trapped spirits rush outward like a gale." },
-        { "label": "charge at him", "nextNode": "fire-ending", "hint": "He raises one hand and the tent groans with shifting weight." }
+        {
+          "label": "shatter the jars",
+          "nextNode": "free-ending",
+          "hint": "Glass explodes and the trapped spirits rush outward like a gale."
+        },
+        {
+          "label": "charge at him",
+          "nextNode": "fire-ending",
+          "hint": "He raises one hand and the tent groans with shifting weight."
+        }
       ]
     },
     "escape-tunnel": {
       "passage": "The tunnel narrows and the ceiling drops until you are crawling. Then moonlight spills through a gap in the hillside ahead. But something moves in the crawl space behind you. A mask slides across the floor, pushed by an unseen hand, its painted smile inches from your boot. The moonlit gap is close. The mask glows faintly. It whispers your name.",
       "choices": [
-        { "label": "crawl toward the gap", "nextNode": "free-ending", "hint": "Grass and wind brush your face as you drag yourself forward." },
-        { "label": "pick up the mask", "nextNode": "mask-ending", "hint": "The wood feels warm against your palm, almost like skin." }
+        {
+          "label": "crawl toward the gap",
+          "nextNode": "free-ending",
+          "hint": "Grass and wind brush your face as you drag yourself forward."
+        },
+        {
+          "label": "pick up the mask",
+          "nextNode": "mask-ending",
+          "hint": "The wood feels warm against your palm, almost like skin."
+        }
       ]
     },
     "call-for-help": {
       "passage": "Your shout rolls through the tunnel and comes back wrong. The echoes carry your voice, then another voice layered beneath it. Footsteps pound from both directions. The ringmaster's silhouette appears at the far bend, lantern raised. Behind you, a burst of flame erupts from a vent in the wall. Heat washes over your back. There is no time to think.",
       "choices": [
-        { "label": "face the ringmaster", "nextNode": "ringmaster-ending", "hint": "His lantern throws your silhouette against the ceiling, huge and bent." },
-        { "label": "run through the fire", "nextNode": "burning-tent", "hint": "Smoke fills your lungs but you can feel the open air beyond." }
+        {
+          "label": "face the ringmaster",
+          "nextNode": "ringmaster-ending",
+          "hint": "His lantern throws your silhouette against the ceiling, huge and bent."
+        },
+        {
+          "label": "run through the fire",
+          "nextNode": "burning-tent",
+          "hint": "Smoke fills your lungs but you can feel the open air beyond."
+        }
       ]
     },
     "burning-tent": {
       "passage": "Fire races through the tent fabric like it has been waiting for permission. Ropes snap overhead. Performers scatter into the fields, their masks melting. The ringmaster screams from somewhere in the blaze, his voice cracking into something inhuman. Maren is beside you, coughing. The eastern fence is buckling from the heat but the gap in the wood is still open.",
       "choices": [
-        { "label": "run for the fence", "nextNode": "free-ending", "hint": "Maren grabs your hand and you sprint together toward the gap." },
-        { "label": "search for survivors", "nextNode": "fire-ending", "hint": "A tent collapses nearby and the sparks spiral upward like stars." }
+        {
+          "label": "run for the fence",
+          "nextNode": "free-ending",
+          "hint": "Maren grabs your hand and you sprint together toward the gap."
+        },
+        {
+          "label": "search for survivors",
+          "nextNode": "fire-ending",
+          "hint": "A tent collapses nearby and the sparks spiral upward like stars."
+        }
       ]
     },
     "free-ending": {

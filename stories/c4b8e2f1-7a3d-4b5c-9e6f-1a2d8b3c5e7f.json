@@ -1,9 +1,12 @@
 {
   "id": "c4b8e2f1-7a3d-4b5c-9e6f-1a2d8b3c5e7f",
-  "title": "The Ironcrag Forge",
+  "title": "Ironcrag Forge",
   "description": "A legendary smith keeps her mountain forge sealed against strangers. Tonight she is taking visitors, but the price she names is not gold.",
   "author": "AI",
-  "tags": ["crafting", "trickery"],
+  "tags": [
+    "crafting",
+    "trickery"
+  ],
   "estimatedMinutes": 12,
   "dateGenerated": "2026-05-05",
   "dayOfYear": "05-05",
@@ -12,122 +15,266 @@
     "intro": {
       "passage": "Ironcrag Forge squats against the cliff face, half-buried in snow. A bell hangs by a frayed rope beside the iron door. A wooden ladder leans against the wall, climbing toward the smoking chimney. A path of black slag winds around the back. No sign of the legendary smith who lives within.",
       "choices": [
-        { "label": "ring the bell", "nextNode": "stone-steps", "hint": "The bronze note rings flat against the cliff face and the wind grabs it." },
-        { "label": "climb the ladder", "nextNode": "rooftop-ladder", "hint": "Your boots find the rungs before your mind fully agrees with the plan." },
-        { "label": "follow the path", "nextNode": "cooling-yard", "hint": "Black slag crunches under your heel like broken pottery in a midden." }
+        {
+          "label": "ring the bell",
+          "nextNode": "stone-steps",
+          "hint": "The bronze note rings flat against the cliff face and the wind grabs it."
+        },
+        {
+          "label": "climb the ladder",
+          "nextNode": "rooftop-ladder",
+          "hint": "Your boots find the rungs before your mind fully agrees with the plan."
+        },
+        {
+          "label": "follow the path",
+          "nextNode": "cooling-yard",
+          "hint": "Black slag crunches under your heel like broken pottery in a midden."
+        }
       ]
     },
     "stone-steps": {
       "passage": "The bell's last echo dies and the iron door swings wide. A bent woman in a leather apron stares you down. Her eyes are the color of hot iron. 'Brenna forges for none but the worthy,' she says. 'Enter if you dare. Or peer through the shutters at what awaits the unworthy.'",
       "choices": [
-        { "label": "enter the hall", "nextNode": "forge-hall", "hint": "Heat rolls out to meet you before you have crossed the threshold." },
-        { "label": "peer through the shutters", "nextNode": "old-ledger", "hint": "The wood is warm and there are scratches along the inside of the slats." }
+        {
+          "label": "enter the hall",
+          "nextNode": "forge-hall",
+          "hint": "Heat rolls out to meet you before you have crossed the threshold."
+        },
+        {
+          "label": "peer through the shutters",
+          "nextNode": "old-ledger",
+          "hint": "The wood is warm and there are scratches along the inside of the slats."
+        }
       ]
     },
     "cooling-yard": {
       "passage": "Slag and ash crunch underfoot as you round the forge. A stone trough holds black water with a broken hammer at the bottom. The back door stands ajar, firelight spilling from within. Lower down, an iron grate vents steam from the underforge. Someone is humming in the dark below.",
       "choices": [
-        { "label": "open the back door", "nextNode": "forge-hall", "hint": "The hinges are oiled, you notice, as if someone uses them often." },
-        { "label": "crawl through the grate", "nextNode": "bellows-room", "hint": "Steam beads on your face the moment you duck beneath the iron lip." }
+        {
+          "label": "open the back door",
+          "nextNode": "forge-hall",
+          "hint": "The hinges are oiled, you notice, as if someone uses them often."
+        },
+        {
+          "label": "crawl through the grate",
+          "nextNode": "bellows-room",
+          "hint": "Steam beads on your face the moment you duck beneath the iron lip."
+        }
       ]
     },
     "rooftop-ladder": {
       "passage": "Rungs crack underhand as you climb. At the top, the chimney belches sulfur smoke and the roof tiles are warm against your boots. A skylight hatch slopes open. Through the gap, you see the forge floor glowing red below. A narrow gutter leads down the slate toward a side door.",
       "choices": [
-        { "label": "drop down the chimney", "nextNode": "hearth-pit", "hint": "The rising heat braces against your soles like a cushion of hot air." },
-        { "label": "slide off the roof", "nextNode": "forge-hall", "hint": "Slate scrapes your palms but the gutter holds your weight surprisingly well." }
+        {
+          "label": "drop down the chimney",
+          "nextNode": "hearth-pit",
+          "hint": "The rising heat braces against your soles like a cushion of hot air."
+        },
+        {
+          "label": "slide off the roof",
+          "nextNode": "forge-hall",
+          "hint": "Slate scrapes your palms but the gutter holds your weight surprisingly well."
+        }
       ]
     },
     "forge-hall": {
       "passage": "The hall is vast and red with forge glow. Tools hang on every wall and an anvil the size of a wagon stands at the center. Brenna the Smith waits beside it, arms folded. A heavy book rests on a reading stand by the wall. The hearth roars like a living thing at the back.",
       "choices": [
-        { "label": "greet the smith", "nextNode": "brenna-greeting", "hint": "Her eyes lift to yours and something in her gaze narrows to a blade." },
-        { "label": "inspect the old book", "nextNode": "old-ledger", "hint": "The binding is warm to the touch, warmer than the room around it." },
-        { "label": "study the fire", "nextNode": "hearth-pit", "hint": "A wave of heat presses against your cheeks and the air smells of iron." }
+        {
+          "label": "greet the smith",
+          "nextNode": "brenna-greeting",
+          "hint": "Her eyes lift to yours and something in her gaze narrows to a blade."
+        },
+        {
+          "label": "inspect the old book",
+          "nextNode": "old-ledger",
+          "hint": "The binding is warm to the touch, warmer than the room around it."
+        },
+        {
+          "label": "study the fire",
+          "nextNode": "hearth-pit",
+          "hint": "A wave of heat presses against your cheeks and the air smells of iron."
+        }
       ]
     },
     "brenna-greeting": {
       "passage": "Brenna's grip is dry and warm. She tells you the forging has a price that gold cannot cover. She will take your service for a day, or she will send you below to her ledger keeper. Her eyes narrow. 'Choose now. The iron does not wait for soft hearts.'",
       "choices": [
-        { "label": "accept her terms", "nextNode": "anvil-test", "hint": "Her hand closes around yours and you cannot tell if she is smiling." },
-        { "label": "bargain for coin", "nextNode": "crooked-stairs", "hint": "Her mouth turns in a way that does not quite reach her eyes." }
+        {
+          "label": "accept her terms",
+          "nextNode": "anvil-test",
+          "hint": "Her hand closes around yours and you cannot tell if she is smiling."
+        },
+        {
+          "label": "bargain for coin",
+          "nextNode": "crooked-stairs",
+          "hint": "Her mouth turns in a way that does not quite reach her eyes."
+        }
       ]
     },
     "old-ledger": {
       "passage": "The book is bound in hide that feels too warm. Names fill the pages in rusted ink, thousands of them, each beside a blade's mark. A page near the back is blank. Behind the reading stand, a narrow set of stairs curls down into the floor. Smoke drifts up from below, carrying whispers.",
       "choices": [
-        { "label": "descend the stairs", "nextNode": "crooked-stairs", "hint": "The steps give beneath you with a groan and the whispers grow clearer." },
-        { "label": "close the book", "nextNode": "hearth-pit", "hint": "The pages snap shut but the whispers seem to linger a moment longer." }
+        {
+          "label": "descend the stairs",
+          "nextNode": "crooked-stairs",
+          "hint": "The steps give beneath you with a groan and the whispers grow clearer."
+        },
+        {
+          "label": "close the book",
+          "nextNode": "hearth-pit",
+          "hint": "The pages snap shut but the whispers seem to linger a moment longer."
+        }
       ]
     },
     "hearth-pit": {
       "passage": "Heat rolls off the hearth in waves. Coals glow white under iron grates and the air smells of molten metal. A crucible bubbles on a hook above the flame. Beside it, a bronze bowl holds old smith-coins left as offerings. The fire hisses when you breathe, as if it knows you are there.",
       "choices": [
-        { "label": "stoke the coals", "nextNode": "crucible-trial", "hint": "A sheet of sparks leaps for your face and you flinch just in time." },
-        { "label": "toss in a coin", "nextNode": "brenna-greeting", "hint": "The copper vanishes into the flame without a sound, as if swallowed whole." }
+        {
+          "label": "stoke the coals",
+          "nextNode": "crucible-trial",
+          "hint": "A sheet of sparks leaps for your face and you flinch just in time."
+        },
+        {
+          "label": "toss in a coin",
+          "nextNode": "brenna-greeting",
+          "hint": "The copper vanishes into the flame without a sound, as if swallowed whole."
+        }
       ]
     },
     "anvil-test": {
       "passage": "Brenna hands you a hammer almost too heavy to lift. A glowing ingot sits on the anvil. 'Shape it into a leaf,' she says. 'Or any living thing you know.' Her gaze never leaves your hands. The hammer pulls at your wrist like a living weight. Sweat stings your eyes before the first swing.",
       "choices": [
-        { "label": "swing the hammer", "nextNode": "tool-rack", "hint": "The weight carries you forward and the ingot rings like a struck bell." },
-        { "label": "eye the ingot", "nextNode": "bellows-room", "hint": "A thin seam runs through the glowing iron and catches your attention." }
+        {
+          "label": "swing the hammer",
+          "nextNode": "tool-rack",
+          "hint": "The weight carries you forward and the ingot rings like a struck bell."
+        },
+        {
+          "label": "eye the ingot",
+          "nextNode": "bellows-room",
+          "hint": "A thin seam runs through the glowing iron and catches your attention."
+        }
       ]
     },
     "crucible-trial": {
       "passage": "The crucible glows like a captive sun. Brenna appears at your shoulder with a pair of long tongs. 'Molten iron will not lie,' she says. 'If the pour is clean, the blade sings. If not, it screams.' A clay mold waits on the stone slab. Below it, bellows wheeze in a rhythm older than you are.",
       "choices": [
-        { "label": "pour the metal", "nextNode": "bellows-room", "hint": "Gold and red light spills across the slab and paints your hands copper." },
-        { "label": "grip the crucible", "nextNode": "final-forge", "hint": "The tongs tremble as you tighten your hold and the heat crawls up the handle." }
+        {
+          "label": "pour the metal",
+          "nextNode": "bellows-room",
+          "hint": "Gold and red light spills across the slab and paints your hands copper."
+        },
+        {
+          "label": "grip the crucible",
+          "nextNode": "final-forge",
+          "hint": "The tongs tremble as you tighten your hold and the heat crawls up the handle."
+        }
       ]
     },
     "crooked-stairs": {
       "passage": "The stairs creak downward into a low vault. A single candle gutters on a rough desk. An open guest book lies beside a quill dipped in red ink. Past the desk, a plain door has no handle, only a faint seam in the rock. The air smells of iron and something older.",
       "choices": [
-        { "label": "sign the guest book", "nextNode": "name-register", "hint": "The quill feels heavier than it should, as if it knows your hand." },
-        { "label": "press the seam", "nextNode": "secret-door", "hint": "The rock is cool beneath your palm and gives inward with a soft hiss." }
+        {
+          "label": "sign the guest book",
+          "nextNode": "name-register",
+          "hint": "The quill feels heavier than it should, as if it knows your hand."
+        },
+        {
+          "label": "press the seam",
+          "nextNode": "secret-door",
+          "hint": "The rock is cool beneath your palm and gives inward with a soft hiss."
+        }
       ]
     },
     "name-register": {
       "passage": "The quill trembles in its ink pot, waiting. Other names are scrawled above the empty line, some in shaky hand, some in childish print. At the bottom, in fresh rust-red, someone has written the name of a merchant you saw hanged two winters ago. The candle gutters as you lean in.",
       "choices": [
-        { "label": "write your true name", "nextNode": "ending-lost-name", "hint": "The letters flow from the nib before you decide what they should be." },
-        { "label": "leave the page blank", "nextNode": "ending-escape", "hint": "Your hand lifts away and the quill drips a single red bead onto the wood." }
+        {
+          "label": "write your true name",
+          "nextNode": "ending-lost-name",
+          "hint": "The letters flow from the nib before you decide what they should be."
+        },
+        {
+          "label": "leave the page blank",
+          "nextNode": "ending-escape",
+          "hint": "Your hand lifts away and the quill drips a single red bead onto the wood."
+        }
       ]
     },
     "secret-door": {
       "passage": "The seam parts with a grinding breath of stale air. Beyond, a narrow passage glows faintly from crystals in the walls. A low hum rises, like a choir just out of hearing. At the far end, something metal gleams on a black pedestal. Footsteps approach from the vault behind you.",
       "choices": [
-        { "label": "sprint to the pedestal", "nextNode": "blade-vault", "hint": "The crystals pulse brighter as you cross the passage, as if feeding on haste." },
-        { "label": "retreat up the stairs", "nextNode": "ending-escape", "hint": "The humming fades behind you but something has noticed you were there." }
+        {
+          "label": "sprint to the pedestal",
+          "nextNode": "blade-vault",
+          "hint": "The crystals pulse brighter as you cross the passage, as if feeding on haste."
+        },
+        {
+          "label": "retreat up the stairs",
+          "nextNode": "ending-escape",
+          "hint": "The humming fades behind you but something has noticed you were there."
+        }
       ]
     },
     "blade-vault": {
       "passage": "The pedestal holds a blade like no other you have seen. Its edge drinks the faint crystal light. Another sword rests on a lower shelf, plainer but still finely made. Behind the pedestal, rune marks etched into the wall pulse slowly. The humming grows louder. Your hand is already moving forward.",
       "choices": [
-        { "label": "grab the legendary sword", "nextNode": "ending-thief", "hint": "The hilt is heavier than any blade you have ever lifted, and it hums softly." },
-        { "label": "take the plain blade", "nextNode": "ending-escape", "hint": "The steel feels honest in your hand and that alone is worth something." }
+        {
+          "label": "grab the legendary sword",
+          "nextNode": "ending-thief",
+          "hint": "The hilt is heavier than any blade you have ever lifted, and it hums softly."
+        },
+        {
+          "label": "take the plain blade",
+          "nextNode": "ending-escape",
+          "hint": "The steel feels honest in your hand and that alone is worth something."
+        }
       ]
     },
     "tool-rack": {
       "passage": "Brenna nods at your first strike and points to a wall of tools. Silver tongs and a plain iron hammer hang side by side. She says the choice matters more than the swing. A furnace at the end of the hall roars hotter, waiting for its master. You smell sulfur and burned leather.",
       "choices": [
-        { "label": "claim the silver tongs", "nextNode": "final-forge", "hint": "The silver is unmarked, unused, waiting for a hand that knows what to do." },
-        { "label": "lift the iron hammer", "nextNode": "bellows-room", "hint": "The handle is wrapped in leather darkened by a thousand sweaty palms before yours." }
+        {
+          "label": "claim the silver tongs",
+          "nextNode": "final-forge",
+          "hint": "The silver is unmarked, unused, waiting for a hand that knows what to do."
+        },
+        {
+          "label": "lift the iron hammer",
+          "nextNode": "bellows-room",
+          "hint": "The handle is wrapped in leather darkened by a thousand sweaty palms before yours."
+        }
       ]
     },
     "bellows-room": {
       "passage": "The bellows chamber is a cramped loft above the hearth. Two great leather sacks hang from the rafters, connected to ropes that vanish into the forge below. A back window lets in a knife of cold mountain air. Soot coats everything. Something scratches at the inside of the furthest bellows, slow and patient.",
       "choices": [
-        { "label": "pump the ropes", "nextNode": "final-forge", "hint": "The sacks fill and empty with a rhythm that matches your own breathing." },
-        { "label": "slip out the window", "nextNode": "ending-escape", "hint": "Mountain wind hits your face like a promise of freedom you cannot refuse." }
+        {
+          "label": "pump the ropes",
+          "nextNode": "final-forge",
+          "hint": "The sacks fill and empty with a rhythm that matches your own breathing."
+        },
+        {
+          "label": "slip out the window",
+          "nextNode": "ending-escape",
+          "hint": "Mountain wind hits your face like a promise of freedom you cannot refuse."
+        }
       ]
     },
     "final-forge": {
       "passage": "The blade lies red-hot on the anvil, ready for its final bite. Two vessels wait beside it, an iron bucket of black oil and a clay jar of dark blood. Brenna watches without a word. The metal sings as it waits. Your next move decides what kind of sword walks out of this forge.",
       "choices": [
-        { "label": "quench in the oil", "nextNode": "ending-masterblade", "hint": "The oil surface is black and still and waits for your decision without judgment." },
-        { "label": "plunge in the blood", "nextNode": "ending-cursed-blade", "hint": "A coppery scent rises from the clay jar and you feel it reach for you." }
+        {
+          "label": "quench in the oil",
+          "nextNode": "ending-masterblade",
+          "hint": "The oil surface is black and still and waits for your decision without judgment."
+        },
+        {
+          "label": "plunge in the blood",
+          "nextNode": "ending-cursed-blade",
+          "hint": "A coppery scent rises from the clay jar and you feel it reach for you."
+        }
       ]
     },
     "ending-masterblade": {

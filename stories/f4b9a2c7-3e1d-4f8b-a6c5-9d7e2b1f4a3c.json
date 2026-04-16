@@ -1,9 +1,12 @@
 {
   "id": "f4b9a2c7-3e1d-4f8b-a6c5-9d7e2b1f4a3c",
-  "title": "The Auction of Whispers",
+  "title": "Auction of Whispers",
   "description": "A hidden auction beneath the city sells secrets in exchange for blood. You came to buy one name and leave with your throat intact.",
   "author": "AI",
-  "tags": ["intrigue", "negotiation"],
+  "tags": [
+    "intrigue",
+    "negotiation"
+  ],
   "estimatedMinutes": 12,
   "dateGenerated": "2026-05-23",
   "dayOfYear": "05-23",
@@ -14,157 +17,341 @@
     "alley-mouth": {
       "passage": "Rain slicks the cobbles of Crowbone Alley. The lantern above the unmarked door is wrapped in red silk, the sign for tonight. Two hooded figures already wait in line. A torch gutters in a grate at your feet, and the drainpipe groans as someone above adjusts a rope on the slates. One name. That is all you came for.",
       "choices": [
-        { "label": "bribe the doorman", "nextNode": "bribe-door", "hint": "Silver coins shift in the cuff of your sleeve, ready to vanish." },
-        { "label": "climb the drainpipe", "nextNode": "roof-climb", "hint": "Wet iron will test your grip and your nerve before this is over." },
-        { "label": "slip into the grate", "nextNode": "sewer-crawl", "hint": "The reek hits your nose before your boots touch the dirty water." }
+        {
+          "label": "bribe the doorman",
+          "nextNode": "bribe-door",
+          "hint": "Silver coins shift in the cuff of your sleeve, ready to vanish."
+        },
+        {
+          "label": "climb the drainpipe",
+          "nextNode": "roof-climb",
+          "hint": "Wet iron will test your grip and your nerve before this is over."
+        },
+        {
+          "label": "slip into the grate",
+          "nextNode": "sewer-crawl",
+          "hint": "The reek hits your nose before your boots touch the dirty water."
+        }
       ]
     },
     "bribe-door": {
       "passage": "The doorman is a giant in a velvet coat, half listening, half not. He weighs the silver in his palm and nods toward a small door behind a hanging tapestry. \"No name, no questions,\" he rumbles. \"Keep your hands where the masks can see them, friend.\" Three gold teeth gleam in his grin.",
       "choices": [
-        { "label": "follow the doorman in", "nextNode": "bid-floor", "hint": "His back blocks your view of whatever waits beyond the tapestry." },
-        { "label": "tip him for a hint", "nextNode": "doorman-warning", "hint": "A second coin appears between your fingers as if by trick." }
+        {
+          "label": "follow the doorman in",
+          "nextNode": "bid-floor",
+          "hint": "His back blocks your view of whatever waits beyond the tapestry."
+        },
+        {
+          "label": "tip him for a hint",
+          "nextNode": "doorman-warning",
+          "hint": "A second coin appears between your fingers as if by trick."
+        }
       ]
     },
     "doorman-warning": {
       "passage": "The doorman lowers his voice and leans close. \"Three lots tonight,\" he says. \"A name, a sealed box, and a curtained alcove for those with bigger ears than coin. The Riverside crowd has its eye on the box. Stay clear of the man in the gold mask. He is not here to bid.\" His eyes return to the line.",
       "choices": [
-        { "label": "thank him and enter", "nextNode": "bid-floor", "hint": "The tapestry parts under your hand and warm air rolls out." },
-        { "label": "press for the mask's name", "nextNode": "bid-floor", "hint": "He shakes his head once, slow, and the conversation ends." }
+        {
+          "label": "thank him and enter",
+          "nextNode": "bid-floor",
+          "hint": "The tapestry parts under your hand and warm air rolls out."
+        },
+        {
+          "label": "press for the mask's name",
+          "nextNode": "bid-floor",
+          "hint": "He shakes his head once, slow, and the conversation ends."
+        }
       ]
     },
     "roof-climb": {
       "passage": "The drainpipe screams against its brackets but holds. From the slates you see the courtyard filling with cloaked guests. A balcony juts beneath stained windows. Inside, candles flicker across masked faces, and somewhere a woman is laughing too brightly. The slates are slick. One slip and the alley meets you.",
       "choices": [
-        { "label": "drop onto the balcony", "nextNode": "bid-floor", "hint": "Your boots hit slate and a window rattles in its frame." },
-        { "label": "scout the rooftop first", "nextNode": "balcony-perch", "hint": "Higher slates give a wider view, if your nerve holds." }
+        {
+          "label": "drop onto the balcony",
+          "nextNode": "bid-floor",
+          "hint": "Your boots hit slate and a window rattles in its frame."
+        },
+        {
+          "label": "scout the rooftop first",
+          "nextNode": "balcony-perch",
+          "hint": "Higher slates give a wider view, if your nerve holds."
+        }
       ]
     },
     "balcony-perch": {
       "passage": "From the highest tile you map the building. A coach waits in the side yard with its lamps doused. Two guards in plain coats stand by the rear entrance, swords casually slung. A skylight glows above the main floor and a bidding paddle rises and falls in the lit room below. Whoever they are bidding on does not know they are being sold.",
       "choices": [
-        { "label": "land on the balcony below", "nextNode": "bid-floor", "hint": "The window groans on its hinge but does not crack open." },
-        { "label": "shimmy through the skylight", "nextNode": "bid-floor", "hint": "Glass squeals under your weight as you ease yourself down." }
+        {
+          "label": "land on the balcony below",
+          "nextNode": "bid-floor",
+          "hint": "The window groans on its hinge but does not crack open."
+        },
+        {
+          "label": "shimmy through the skylight",
+          "nextNode": "bid-floor",
+          "hint": "Glass squeals under your weight as you ease yourself down."
+        }
       ]
     },
     "sewer-crawl": {
       "passage": "The grate lifts with a wet groan and you lower yourself into the dark. Filth swirls around your boots. Above, the alley sounds fade to a hum. A faint glow comes from a side passage where the tunnel widens. Iron rungs climb the wall opposite. Something splashes ahead. It might be a rat. It might not be.",
       "choices": [
-        { "label": "wade toward the glow", "nextNode": "cistern-pool", "hint": "Each step pushes a small wave of muck ahead of you." },
-        { "label": "scale the iron rungs", "nextNode": "bid-floor", "hint": "Iron bites cold against your palms as you pull yourself up." }
+        {
+          "label": "wade toward the glow",
+          "nextNode": "cistern-pool",
+          "hint": "Each step pushes a small wave of muck ahead of you."
+        },
+        {
+          "label": "scale the iron rungs",
+          "nextNode": "bid-floor",
+          "hint": "Iron bites cold against your palms as you pull yourself up."
+        }
       ]
     },
     "cistern-pool": {
       "passage": "The cistern is a vast brick chamber half full of rain. Pillars hold up a low ceiling and a torch burns near the far wall. An iron ladder climbs the pillar nearest you. Voices drift through a vent above, two men arguing over a 'curtain seat' price. One sounds angry. The other sounds amused.",
       "choices": [
-        { "label": "trace the vent above", "nextNode": "bid-floor", "hint": "Stone chips bite your fingertips as you pull yourself toward the voices." },
-        { "label": "use the iron ladder", "nextNode": "bid-floor", "hint": "Rust flakes off the rungs and dusts your shoulders as you climb." }
+        {
+          "label": "trace the vent above",
+          "nextNode": "bid-floor",
+          "hint": "Stone chips bite your fingertips as you pull yourself toward the voices."
+        },
+        {
+          "label": "use the iron ladder",
+          "nextNode": "bid-floor",
+          "hint": "Rust flakes off the rungs and dusts your shoulders as you climb."
+        }
       ]
     },
     "bid-floor": {
       "passage": "Warm light pours over the auction floor. Masked guests stand in clusters of three and four, sipping from glass cups. At the front of the room, three velvet stands wait beneath dim lamps. The first holds a folded paper sealed with red wax. The second cradles a black box no larger than a fist. The third is curtained off.",
       "choices": [
-        { "label": "approach the sealed paper", "nextNode": "names-lot", "hint": "Your fingertips itch with the weight of what is folded inside." },
-        { "label": "examine the black box", "nextNode": "velvet-box", "hint": "The wood feels warm even from a step away, almost feverish." },
-        { "label": "study the curtained alcove", "nextNode": "curtained-alcove", "hint": "Voices behind the curtain drop to a hush as you draw near." }
+        {
+          "label": "approach the sealed paper",
+          "nextNode": "names-lot",
+          "hint": "Your fingertips itch with the weight of what is folded inside."
+        },
+        {
+          "label": "examine the black box",
+          "nextNode": "velvet-box",
+          "hint": "The wood feels warm even from a step away, almost feverish."
+        },
+        {
+          "label": "study the curtained alcove",
+          "nextNode": "curtained-alcove",
+          "hint": "Voices behind the curtain drop to a hush as you draw near."
+        }
       ]
     },
     "names-lot": {
       "passage": "A thin clerk in a moth-eaten robe lifts the folded paper between two fingers. \"One name,\" she says. \"The mother of the Duke of Marrowfen, true and recorded. Bidding opens at twenty crowns.\" The crowd shifts. Across the floor, a man in a gold mask raises his paddle without waiting. He has not even looked at the paper.",
       "choices": [
-        { "label": "lift your paddle now", "nextNode": "bidding-war", "hint": "The wooden handle is heavier than you thought it would be." },
-        { "label": "signal the clerk discreetly", "nextNode": "bidding-war", "hint": "She catches your eye and returns you the smallest possible nod." }
+        {
+          "label": "lift your paddle now",
+          "nextNode": "bidding-war",
+          "hint": "The wooden handle is heavier than you thought it would be."
+        },
+        {
+          "label": "signal the clerk discreetly",
+          "nextNode": "bidding-war",
+          "hint": "She catches your eye and returns you the smallest possible nod."
+        }
       ]
     },
     "bidding-war": {
       "passage": "Numbers fly like darts. Twenty. Forty. Sixty. The gold-masked man raises his paddle without flinching, matching every offer you make. Sweat beads on the clerk's forehead, and her voice begins to crack on the higher numbers. You are nearly out of coin. One more bid will empty your pouch. Or you could let him win and trail him out.",
       "choices": [
-        { "label": "raise the final bid", "nextNode": "won-bid", "hint": "Your last coins clatter onto the table beside the clerk's purse." },
-        { "label": "lower your paddle", "nextNode": "outbid", "hint": "The gold mask turns toward you and you swear he smiles." }
+        {
+          "label": "raise the final bid",
+          "nextNode": "won-bid",
+          "hint": "Your last coins clatter onto the table beside the clerk's purse."
+        },
+        {
+          "label": "lower your paddle",
+          "nextNode": "outbid",
+          "hint": "The gold mask turns toward you and you swear he smiles."
+        }
       ]
     },
     "won-bid": {
       "passage": "The gold-masked man hesitates, then sets his paddle down with the slow grace of a man who has changed his mind. The clerk seals the paper into a clay tube and slides it to you. \"Yours,\" she says, almost a whisper. The crowd drifts back to its drinks. The tube is warm in your hand.",
       "choices": [
-        { "label": "break the seal now", "nextNode": "name-revealed", "hint": "Wax cracks under your thumbnail with a soft, dry snap." },
-        { "label": "carry the tube outside", "nextNode": "name-revealed", "hint": "The crowd parts around you as if you carry something contagious." }
+        {
+          "label": "break the seal now",
+          "nextNode": "name-revealed",
+          "hint": "Wax cracks under your thumbnail with a soft, dry snap."
+        },
+        {
+          "label": "carry the tube outside",
+          "nextNode": "name-revealed",
+          "hint": "The crowd parts around you as if you carry something contagious."
+        }
       ]
     },
     "name-revealed": {
       "passage": "The paper unfolds in your fingers. Black ink. Clean letters. The name is your own mother's, and the Duke of Marrowfen is your half-brother. You stare until the letters blur. Behind you, the gold-masked man steps closer, no longer hiding. \"Now you know,\" he says, \"why I let you win.\"",
       "choices": [
-        { "label": "turn and face him", "nextNode": "ending-name-truth", "hint": "You feel his breath on the back of your neck, calm and patient." },
-        { "label": "ask him what he wants", "nextNode": "ending-name-truth", "hint": "Words leave your mouth before fear has time to lock them in." }
+        {
+          "label": "turn and face him",
+          "nextNode": "ending-name-truth",
+          "hint": "You feel his breath on the back of your neck, calm and patient."
+        },
+        {
+          "label": "ask him what he wants",
+          "nextNode": "ending-name-truth",
+          "hint": "Words leave your mouth before fear has time to lock them in."
+        }
       ]
     },
     "outbid": {
       "passage": "Your paddle drops and the gold-masked man takes the prize without sparing you a glance. He hands the clerk a heavy purse and slides the clay tube into his sleeve. The crowd drifts away in twos and threes. He turns toward a side door at the back of the room and walks slowly, certain no one is watching.",
       "choices": [
-        { "label": "shadow him through the door", "nextNode": "follow-rival", "hint": "His shoulders never tighten. He still has not noticed you." },
-        { "label": "snatch the tube", "nextNode": "follow-rival", "hint": "Your hand drifts toward his side, soft as a falling leaf." }
+        {
+          "label": "shadow him through the door",
+          "nextNode": "follow-rival",
+          "hint": "His shoulders never tighten. He still has not noticed you."
+        },
+        {
+          "label": "snatch the tube",
+          "nextNode": "follow-rival",
+          "hint": "Your hand drifts toward his side, soft as a falling leaf."
+        }
       ]
     },
     "follow-rival": {
       "passage": "The side door opens onto a narrow corridor lit by oil lamps that flicker against the wet stone walls. The gold-masked man walks ahead without urgency. He stops at an iron-bound door and knocks twice. Your knife is warm against your hip. The door cracks open. A voice says, \"He waits inside.\" The mask turns. \"And so does an old friend.\"",
       "choices": [
-        { "label": "draw your knife", "nextNode": "ending-rival-confront", "hint": "Your fingers find the hilt without your eyes leaving his mask." },
-        { "label": "step into the room", "nextNode": "ending-rival-confront", "hint": "The threshold feels colder than it has any right to be." }
+        {
+          "label": "draw your knife",
+          "nextNode": "ending-rival-confront",
+          "hint": "Your fingers find the hilt without your eyes leaving his mask."
+        },
+        {
+          "label": "step into the room",
+          "nextNode": "ending-rival-confront",
+          "hint": "The threshold feels colder than it has any right to be."
+        }
       ]
     },
     "velvet-box": {
       "passage": "The black box rests on a stand of dark wood. A clerk in iron rings stands a careful step back, as if it might decide to bite the next hand that reaches for it. \"Sealed by Brother Halric of the Pale Order,\" she announces. \"Contents unknown.\" Several guests laugh and edge away. The box is humming. You can hear it from across the room.",
       "choices": [
-        { "label": "edge toward the stand", "nextNode": "inspect-box", "hint": "Your shoes feel heavy as you cross the small distance." },
-        { "label": "buy a peek", "nextNode": "inspect-box", "hint": "A coin slides across her palm and disappears in a blink." }
+        {
+          "label": "edge toward the stand",
+          "nextNode": "inspect-box",
+          "hint": "Your shoes feel heavy as you cross the small distance."
+        },
+        {
+          "label": "buy a peek",
+          "nextNode": "inspect-box",
+          "hint": "A coin slides across her palm and disappears in a blink."
+        }
       ]
     },
     "inspect-box": {
       "passage": "The box is older than it looked. Carved runes spiral across the lid in a script you cannot read, and a faint warmth pulses from the wood like a slow heartbeat. The clerk watches you, one hand on a small bell that will summon the iron guards if you do anything rash. The seal is already half-broken. You knew it would be.",
       "choices": [
-        { "label": "pry the lid open", "nextNode": "open-box", "hint": "Your nail catches the wax and lifts it without a sound." },
-        { "label": "back away slowly", "nextNode": "step-back", "hint": "Your boots find the floor without your eyes leaving the box." }
+        {
+          "label": "pry the lid open",
+          "nextNode": "open-box",
+          "hint": "Your nail catches the wax and lifts it without a sound."
+        },
+        {
+          "label": "back away slowly",
+          "nextNode": "step-back",
+          "hint": "Your boots find the floor without your eyes leaving the box."
+        }
       ]
     },
     "open-box": {
       "passage": "The lid lifts. Something inside exhales a pale mist that curls around your wrist. Inside, a small mirror rests on a bed of ash, no bigger than your palm and faintly warm. The clerk's bell rings once. Then twice. Iron-coated guards are already moving. The mirror shows a face that is yours and not yours.",
       "choices": [
-        { "label": "look into the mirror", "nextNode": "ending-box-cursed", "hint": "A pull starts at the back of your eyes and grows." },
-        { "label": "smash the mirror", "nextNode": "ending-box-cursed", "hint": "Your fist closes on the small frame and the glass cracks." }
+        {
+          "label": "look into the mirror",
+          "nextNode": "ending-box-cursed",
+          "hint": "A pull starts at the back of your eyes and grows."
+        },
+        {
+          "label": "smash the mirror",
+          "nextNode": "ending-box-cursed",
+          "hint": "Your fist closes on the small frame and the glass cracks."
+        }
       ]
     },
     "step-back": {
       "passage": "You back away from the stand and the clerk's hand eases off her bell, though her eyes never leave you. The box keeps humming behind your shoulder. A grey-haired merchant in a fox mask leans close as you pass. \"Wise,\" she murmurs. \"That box has a price the next bidder will pay in years, not coin. Come. I have a quieter offer.\"",
       "choices": [
-        { "label": "accept her invitation", "nextNode": "ending-box-wisdom", "hint": "Her hand on your sleeve is warm and somehow steadying." },
-        { "label": "wait for her explanation", "nextNode": "ending-box-wisdom", "hint": "She lifts a finger to her lips and tips her head." }
+        {
+          "label": "accept her invitation",
+          "nextNode": "ending-box-wisdom",
+          "hint": "Her hand on your sleeve is warm and somehow steadying."
+        },
+        {
+          "label": "wait for her explanation",
+          "nextNode": "ending-box-wisdom",
+          "hint": "She lifts a finger to her lips and tips her head."
+        }
       ]
     },
     "curtained-alcove": {
       "passage": "Heavy red drapes hang across the alcove. A small placard reads A SEAT, ONE HOUR, ASK AT THE CURTAIN. A guard stands beside it, arms folded. Inside, voices murmur in three languages. A woman behind you whispers, \"Whatever is sold in there is worse than what is sold out here.\" You believe her.",
       "choices": [
-        { "label": "request a seat", "nextNode": "eavesdrop", "hint": "The guard nods you toward a velvet stool just behind the curtain." },
-        { "label": "linger and listen first", "nextNode": "eavesdrop", "hint": "You ease close enough that the murmurs sharpen into half-words." }
+        {
+          "label": "request a seat",
+          "nextNode": "eavesdrop",
+          "hint": "The guard nods you toward a velvet stool just behind the curtain."
+        },
+        {
+          "label": "linger and listen first",
+          "nextNode": "eavesdrop",
+          "hint": "You ease close enough that the murmurs sharpen into half-words."
+        }
       ]
     },
     "eavesdrop": {
       "passage": "You sit on the stool with the curtain a hand's width from your nose. Three voices argue in low tones over a list of names taken from the king's privy office, sold by the half-dozen. The buyer asks if any belong to children. The seller laughs. A calmer third voice says, \"Pay him and be done.\"",
       "choices": [
-        { "label": "lean closer for the names", "nextNode": "caught-by-guards", "hint": "The curtain brushes your cheek and the murmurs sharpen to a whisper." },
-        { "label": "speak up politely", "nextNode": "talk-with-host", "hint": "You clear your throat just loud enough to be heard, no louder." }
+        {
+          "label": "lean closer for the names",
+          "nextNode": "caught-by-guards",
+          "hint": "The curtain brushes your cheek and the murmurs sharpen to a whisper."
+        },
+        {
+          "label": "speak up politely",
+          "nextNode": "talk-with-host",
+          "hint": "You clear your throat just loud enough to be heard, no louder."
+        }
       ]
     },
     "talk-with-host": {
       "passage": "The voices stop. The curtain parts and a slim woman in a silver mask studies you for a long moment. \"Bold,\" she says. \"Or foolish, unless you bring something to trade.\" She sits across from you and folds her hands. The list lies between them like a hand of cards.",
       "choices": [
-        { "label": "offer your services", "nextNode": "ending-recruited", "hint": "Words come easier than you expect, almost as if practiced." },
-        { "label": "name your terms", "nextNode": "ending-recruited", "hint": "Her brow lifts behind the silver mask, considering your nerve." }
+        {
+          "label": "offer your services",
+          "nextNode": "ending-recruited",
+          "hint": "Words come easier than you expect, almost as if practiced."
+        },
+        {
+          "label": "name your terms",
+          "nextNode": "ending-recruited",
+          "hint": "Her brow lifts behind the silver mask, considering your nerve."
+        }
       ]
     },
     "caught-by-guards": {
       "passage": "The curtain rips aside, a hand closes on your collar, and the next breath is taken on your knees. Two guards pin your arms. The silver-masked woman does not look up from the cards spread between her hands. \"River door,\" she tells them, bored. The guards walk you forward. That door is not a door anyone walks back through.",
       "choices": [
-        { "label": "fight the grip on you", "nextNode": "ending-alcove-fall", "hint": "Your shoulder slams against a guard's chest with everything you have." },
-        { "label": "promise to pay them off", "nextNode": "ending-alcove-fall", "hint": "The words tumble out faster than your fear can shape them." }
+        {
+          "label": "fight the grip on you",
+          "nextNode": "ending-alcove-fall",
+          "hint": "Your shoulder slams against a guard's chest with everything you have."
+        },
+        {
+          "label": "promise to pay them off",
+          "nextNode": "ending-alcove-fall",
+          "hint": "The words tumble out faster than your fear can shape them."
+        }
       ]
     },
     "ending-name-truth": {

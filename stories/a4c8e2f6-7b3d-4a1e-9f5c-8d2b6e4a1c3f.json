@@ -1,9 +1,12 @@
 {
   "id": "a4c8e2f6-7b3d-4a1e-9f5c-8d2b6e4a1c3f",
-  "title": "The Ash Covenant",
+  "title": "Ash Covenant",
   "description": "The volcano on Cinderpeak Isle has woken and a monastery clings to the slope. The monks cannot leave without their sacred flame - and neither can you.",
   "author": "AI",
-  "tags": ["survival", "sacrifice"],
+  "tags": [
+    "survival",
+    "sacrifice"
+  ],
   "estimatedMinutes": 12,
   "dateGenerated": "2026-05-14",
   "dayOfYear": "05-14",
@@ -14,163 +17,351 @@
     "intro": {
       "passage": "Smoke curls from the peak of Cinderpeak Isle as your rowboat scrapes the black sand shore. The mountain rumbles. Halfway up the slope, a monastery sits wrapped in haze, its bell tower ringing three sharp notes - not a call to prayer, but a warning. Three paths lead upward from the beach.",
       "choices": [
-        { "label": "follow the harbor path", "nextNode": "harbor-path", "hint": "Broken stairs lead along the shoreline toward a sheltered cove." },
-        { "label": "hike the goat trail", "nextNode": "goat-trail", "hint": "The narrow dirt track switchbacks through dead brush and loose rock." },
-        { "label": "scale the cliff face", "nextNode": "cliff-face", "hint": "Iron rungs driven into the rock offer handholds, though rust has eaten deep." }
+        {
+          "label": "follow the harbor path",
+          "nextNode": "harbor-path",
+          "hint": "Broken stairs lead along the shoreline toward a sheltered cove."
+        },
+        {
+          "label": "hike the goat trail",
+          "nextNode": "goat-trail",
+          "hint": "The narrow dirt track switchbacks through dead brush and loose rock."
+        },
+        {
+          "label": "scale the cliff face",
+          "nextNode": "cliff-face",
+          "hint": "Iron rungs driven into the rock offer handholds, though rust has eaten deep."
+        }
       ]
     },
     "harbor-path": {
       "passage": "The path hugs the shoreline where black rock meets grey surf. Waves crash against a crumbling jetty. A fishing hut sits above the tide line, its chimney trailing thin smoke. Beyond it, a sea cave yawns at the base of the cliff, its mouth wide enough to walk through. The ground shakes beneath your boots.",
       "choices": [
-        { "label": "check the fishing hut", "nextNode": "fishing-hut", "hint": "Firelight flickers through the gaps in the driftwood walls ahead of you." },
-        { "label": "wade into the sea cave", "nextNode": "sea-cave", "hint": "Warm surf laps at your ankles as you step inside the mouth." }
+        {
+          "label": "check the fishing hut",
+          "nextNode": "fishing-hut",
+          "hint": "Firelight flickers through the gaps in the driftwood walls ahead of you."
+        },
+        {
+          "label": "wade into the sea cave",
+          "nextNode": "sea-cave",
+          "hint": "Warm surf laps at your ankles as you step inside the mouth."
+        }
       ]
     },
     "goat-trail": {
       "passage": "Loose scree slides under each step as the trail bends around a jutting boulder and splits. Below, the monastery gate stands half-open in a cracked curtain wall and monks move in the courtyard beyond. Above, a steeper path climbs toward a rocky ledge where a carved shrine of a mountain saint overlooks the burning slope. A tremor shakes the ground.",
       "choices": [
-        { "label": "head for the gate", "nextNode": "monastery-gate", "hint": "Ash crunches underfoot as you cross the last stretch of open ground." },
-        { "label": "climb to the shrine", "nextNode": "mountain-shrine", "hint": "The carved saint watches you pass with its one remaining eye." }
+        {
+          "label": "head for the gate",
+          "nextNode": "monastery-gate",
+          "hint": "Ash crunches underfoot as you cross the last stretch of open ground."
+        },
+        {
+          "label": "climb to the shrine",
+          "nextNode": "mountain-shrine",
+          "hint": "The carved saint watches you pass with its one remaining eye."
+        }
       ]
     },
     "cliff-face": {
       "passage": "Iron rungs mark a vertical climb up the basalt cliff. Sulfur burns your throat. Halfway up, the rungs split - one line angles left toward a crack in the rock trailing steam, the other continues to a flat ledge with a view of the whole island. A tremor loosens pebbles above. You press flat and wait.",
       "choices": [
-        { "label": "squeeze through the vent", "nextNode": "vent-crack", "hint": "Hot air pushes against your face like an open oven." },
-        { "label": "reach the overlook", "nextNode": "overlook", "hint": "The wind picks up as you clear the last rung and pull yourself onto flat ground." }
+        {
+          "label": "squeeze through the vent",
+          "nextNode": "vent-crack",
+          "hint": "Hot air pushes against your face like an open oven."
+        },
+        {
+          "label": "reach the overlook",
+          "nextNode": "overlook",
+          "hint": "The wind picks up as you clear the last rung and pull yourself onto flat ground."
+        }
       ]
     },
     "fishing-hut": {
       "passage": "A thin monk crouches by a driftwood fire inside the hut. He wears a singed robe and his hands tremble. The brothers are trapped in the monastery, he says, and the vents beneath the cellar have opened. He points to the trail above and then to the cave. Both lead inside. Hurry.",
       "choices": [
-        { "label": "take the trail up", "nextNode": "monastery-gate", "hint": "The monk presses a rusty key into your palm before you go." },
-        { "label": "go through the cave", "nextNode": "sea-cave", "hint": "He shakes his head slowly but does not try to stop you." }
+        {
+          "label": "take the trail up",
+          "nextNode": "monastery-gate",
+          "hint": "The monk presses a rusty key into your palm before you go."
+        },
+        {
+          "label": "go through the cave",
+          "nextNode": "sea-cave",
+          "hint": "He shakes his head slowly but does not try to stop you."
+        }
       ]
     },
     "sea-cave": {
       "passage": "Warm seawater rises past your knees inside the cave. The ceiling drips. Ahead, the tunnel forks - one branch climbs upward through stacked crates and broken shelving into what looks like a cellar, the other drops deeper where the current turns milky and the pull grows fierce. The mountain groans and the tide jumps an inch.",
       "choices": [
-        { "label": "clamber into the cellar", "nextNode": "cellar", "hint": "You grab a wet shelf and haul yourself up out of the rising tide." },
-        { "label": "chase the current", "nextNode": "drowned-end", "hint": "The pull is strong and the passage narrows faster than you expect." }
+        {
+          "label": "clamber into the cellar",
+          "nextNode": "cellar",
+          "hint": "You grab a wet shelf and haul yourself up out of the rising tide."
+        },
+        {
+          "label": "chase the current",
+          "nextNode": "drowned-end",
+          "hint": "The pull is strong and the passage narrows faster than you expect."
+        }
       ]
     },
     "mountain-shrine": {
       "passage": "Flat stones circle a dead fire pit on the ledge. Offerings lie scattered - bread, coins, a wooden sword. Below, the monastery courtyard is visible through a gap in the ridge, its walls cracked and leaning. Further up, the rock turns grey and warm and the air ripples near the crater rim. Cinders drift like orange snow.",
       "choices": [
-        { "label": "drop to the courtyard", "nextNode": "courtyard", "hint": "A narrow stairway cut into the rock leads down between the walls." },
-        { "label": "press toward the crater", "nextNode": "crater-approach", "hint": "Heat presses against your skin the moment you step onto the grey rock." }
+        {
+          "label": "drop to the courtyard",
+          "nextNode": "courtyard",
+          "hint": "A narrow stairway cut into the rock leads down between the walls."
+        },
+        {
+          "label": "press toward the crater",
+          "nextNode": "crater-approach",
+          "hint": "Heat presses against your skin the moment you step onto the grey rock."
+        }
       ]
     },
     "monastery-gate": {
       "passage": "One hinge holds the crooked gate in its frame. Beyond it, a courtyard stretches toward the main building - a squat chapel with a cracked bell tower rising from its north wall. Monks carry buckets from a well in a frantic chain. The abbot stands apart, watching the peak. Lava has spilled over the eastern ridge.",
       "choices": [
-        { "label": "cross to the courtyard", "nextNode": "courtyard", "hint": "Monks step aside to let you pass, eyes wide and grateful." },
-        { "label": "approach the bell tower", "nextNode": "bell-tower", "hint": "The tower leans just enough to notice as you approach the iron door." }
+        {
+          "label": "cross to the courtyard",
+          "nextNode": "courtyard",
+          "hint": "Monks step aside to let you pass, eyes wide and grateful."
+        },
+        {
+          "label": "approach the bell tower",
+          "nextNode": "bell-tower",
+          "hint": "The tower leans just enough to notice as you approach the iron door."
+        }
       ]
     },
     "vent-crack": {
       "passage": "The crack swallows you whole. Steam hisses from fissures in the floor and the air tastes of iron. The passage widens into a rough tunnel sloping in two directions - one branch opens into a wider shaft with a dim orange glow, the other climbs toward open sky and the smell of molten rock.",
       "choices": [
-        { "label": "crawl into the tunnels", "nextNode": "steam-tunnels", "hint": "Condensation drips from the low ceiling onto your neck and shoulders." },
-        { "label": "ascend toward the crater", "nextNode": "crater-approach", "hint": "The rock under your hands grows warmer with each upward pull." }
+        {
+          "label": "crawl into the tunnels",
+          "nextNode": "steam-tunnels",
+          "hint": "Condensation drips from the low ceiling onto your neck and shoulders."
+        },
+        {
+          "label": "ascend toward the crater",
+          "nextNode": "crater-approach",
+          "hint": "The rock under your hands grows warmer with each upward pull."
+        }
       ]
     },
     "overlook": {
       "passage": "From the ledge you see the entire island laid bare. The monastery sits in a shallow bowl between two ridges, its courtyard full of moving figures. Lava creeps down the eastern slope in a bright orange thread. The gate is below you - a short scramble down. The crater rim glows above through the haze.",
       "choices": [
-        { "label": "scramble to the gate", "nextNode": "monastery-gate", "hint": "Loose ground gives way and you slide the last few yards on your heels." },
-        { "label": "push for the crater", "nextNode": "crater-approach", "hint": "Each breath tastes of copper and sulfur as you climb higher." }
+        {
+          "label": "scramble to the gate",
+          "nextNode": "monastery-gate",
+          "hint": "Loose ground gives way and you slide the last few yards on your heels."
+        },
+        {
+          "label": "push for the crater",
+          "nextNode": "crater-approach",
+          "hint": "Each breath tastes of copper and sulfur as you climb higher."
+        }
       ]
     },
     "courtyard": {
       "passage": "Monks gather near the well with soot on their faces, passing buckets in a frantic chain while the chapel door stands open and a golden flame glows on the altar inside. Beside the well, a rope descends into darkness. An older monk grips your arm. The Covenant Flame, he says. Three hundred years. It must not go out.",
       "choices": [
-        { "label": "enter the chapel", "nextNode": "chapel", "hint": "A golden glow pulls you through the open doorway and into the nave." },
-        { "label": "descend the well shaft", "nextNode": "well-shaft", "hint": "The rope holds your weight, though the fibers feel thin and old." }
+        {
+          "label": "enter the chapel",
+          "nextNode": "chapel",
+          "hint": "A golden glow pulls you through the open doorway and into the nave."
+        },
+        {
+          "label": "descend the well shaft",
+          "nextNode": "well-shaft",
+          "hint": "The rope holds your weight, though the fibers feel thin and old."
+        }
       ]
     },
     "bell-tower": {
       "passage": "The tower stairs spiral upward through crumbling mortar. A crack runs from floor to ceiling along the north wall. At a landing halfway up, a doorway opens into the chapel's upper gallery. Above, the final stairs lead to the bell platform and open sky. The whole structure shifts under a tremor. Dust rains from the joints.",
       "choices": [
-        { "label": "continue to the top", "nextNode": "tower-top", "hint": "Wind catches you hard as you emerge above the roofline." },
-        { "label": "step into the gallery", "nextNode": "chapel", "hint": "The gallery rail gives you a view of the altar far below." }
+        {
+          "label": "continue to the top",
+          "nextNode": "tower-top",
+          "hint": "Wind catches you hard as you emerge above the roofline."
+        },
+        {
+          "label": "step into the gallery",
+          "nextNode": "chapel",
+          "hint": "The gallery rail gives you a view of the altar far below."
+        }
       ]
     },
     "crater-approach": {
       "passage": "Bare cracked earth stretches ahead. Veins of orange glow pulse through the rock like a slow heartbeat. The crater rim rises in a jagged line against a sky choked with ash. To the left, a wide field of cooled lava stretches toward a basin. Something glints on its far side. The heat is savage.",
       "choices": [
-        { "label": "cross the lava field", "nextNode": "lava-field", "hint": "The crust holds your weight, but it groans with each step." },
-        { "label": "slide to the basin", "nextNode": "caldera-floor", "hint": "A natural ramp of broken basalt leads down into the bowl." }
+        {
+          "label": "cross the lava field",
+          "nextNode": "lava-field",
+          "hint": "The crust holds your weight, but it groans with each step."
+        },
+        {
+          "label": "slide to the basin",
+          "nextNode": "caldera-floor",
+          "hint": "A natural ramp of broken basalt leads down into the bowl."
+        }
       ]
     },
     "steam-tunnels": {
       "passage": "Pipes of natural rock channel steam through a web of tunnels beneath the monastery. The walls are slick and warm to the touch. One passage opens upward through a hatch into what must be the cellar. Another runs deeper toward an orange glow and the roar of something shifting underground. Condensation drips in a steady rhythm.",
       "choices": [
-        { "label": "pull through the hatch", "nextNode": "cellar", "hint": "The iron hatch swings open with a screech of rust and old hinges." },
-        { "label": "trace the glow", "nextNode": "lava-field", "hint": "The roar grows louder and the air thickens to a shimmer ahead." }
+        {
+          "label": "pull through the hatch",
+          "nextNode": "cellar",
+          "hint": "The iron hatch swings open with a screech of rust and old hinges."
+        },
+        {
+          "label": "trace the glow",
+          "nextNode": "lava-field",
+          "hint": "The roar grows louder and the air thickens to a shimmer ahead."
+        }
       ]
     },
     "cellar": {
       "passage": "Barrels and crates line the cellar walls. A locked iron door stands at the far end, marked with the monastery seal - a flame inside a circle. Through the door you hear chanting. The floor vibrates and a crack runs along the east wall where hot air seeps through. This room will not hold much longer.",
       "choices": [
-        { "label": "break through the door", "nextNode": "reliquary", "hint": "The old lock snaps under the third kick and the door swings wide." },
-        { "label": "search the crates", "nextNode": "collapse-end", "hint": "You pull the nearest crate aside and the wall behind it buckles." }
+        {
+          "label": "break through the door",
+          "nextNode": "reliquary",
+          "hint": "The old lock snaps under the third kick and the door swings wide."
+        },
+        {
+          "label": "search the crates",
+          "nextNode": "collapse-end",
+          "hint": "You pull the nearest crate aside and the wall behind it buckles."
+        }
       ]
     },
     "chapel": {
       "passage": "Golden firelight fills the chapel from somewhere deeper inside. Rows of empty pews face a stone arch leading to the inner sanctum where the Covenant Flame burns. Behind the altar niche, a painted icon of a mountain saint hangs crooked on the wall. A draft pushes from behind it. Ash sifts through a crack in the ceiling.",
       "choices": [
-        { "label": "step into the sanctum", "nextNode": "reliquary", "hint": "The arch frames a warm golden glow that brightens as you pass through." },
-        { "label": "move the icon", "nextNode": "back-passage", "hint": "The frame scrapes across rock to reveal a narrow crawlway behind." }
+        {
+          "label": "step into the sanctum",
+          "nextNode": "reliquary",
+          "hint": "The arch frames a warm golden glow that brightens as you pass through."
+        },
+        {
+          "label": "move the icon",
+          "nextNode": "back-passage",
+          "hint": "The frame scrapes across rock to reveal a narrow crawlway behind."
+        }
       ]
     },
     "well-shaft": {
       "passage": "A knotted rope drops into a dry shaft beside the well. Handholds are carved at intervals in the walls. At the bottom, the shaft opens into a junction - one passage leads to the cellar through a low doorway, the other drops further into a web of tunnels where steam curls along the floor. Grit rains from above.",
       "choices": [
-        { "label": "duck into the cellar", "nextNode": "cellar", "hint": "A thin line of pale glow marks the gap beneath the cellar door." },
-        { "label": "lower yourself further", "nextNode": "steam-tunnels", "hint": "The temperature climbs sharply as you drop below the foundation line." }
+        {
+          "label": "duck into the cellar",
+          "nextNode": "cellar",
+          "hint": "A thin line of pale glow marks the gap beneath the cellar door."
+        },
+        {
+          "label": "lower yourself further",
+          "nextNode": "steam-tunnels",
+          "hint": "The temperature climbs sharply as you drop below the foundation line."
+        }
       ]
     },
     "tower-top": {
       "passage": "Wind tears at your hair on the open platform. The great bronze bell hangs from a timber frame, its rope frayed but whole. Below, the monastery courtyard looks small and frantic. A ship sits at anchor beyond the reef - too far to shout, close enough to see a signal. The chapel roof is almost within jumping distance.",
       "choices": [
-        { "label": "ring the bell", "nextNode": "rescue-end", "hint": "You wrap the rope around your fist and pull with everything you have." },
-        { "label": "leap to the roof", "nextNode": "back-passage", "hint": "Three running steps and you throw yourself across the open gap." }
+        {
+          "label": "ring the bell",
+          "nextNode": "rescue-end",
+          "hint": "You wrap the rope around your fist and pull with everything you have."
+        },
+        {
+          "label": "leap to the roof",
+          "nextNode": "back-passage",
+          "hint": "Three running steps and you throw yourself across the open gap."
+        }
       ]
     },
     "lava-field": {
       "passage": "Cooled lava stretches in twisted ropes and slabs. The crust is fragile - each step might break through to the molten flow beneath. To the left, the caldera drops into a wide basin. To the right, a narrow ledge runs along the rim toward a platform where old signal wood sits stacked under a tarp.",
       "choices": [
-        { "label": "pick across the basin", "nextNode": "caldera-floor", "hint": "The crust bends under you like thin ice on a winter pond." },
-        { "label": "edge along the rim", "nextNode": "signal-ledge", "hint": "Ash swirls around your ankles as the ledge narrows to a blade." }
+        {
+          "label": "pick across the basin",
+          "nextNode": "caldera-floor",
+          "hint": "The crust bends under you like thin ice on a winter pond."
+        },
+        {
+          "label": "edge along the rim",
+          "nextNode": "signal-ledge",
+          "hint": "Ash swirls around your ankles as the ledge narrows to a blade."
+        }
       ]
     },
     "signal-ledge": {
       "passage": "A broad rock platform juts from the crater rim. Stacked driftwood and an oil barrel sit under a scorched tarp - an old signal pyre built for emergencies. The ship beyond the reef would see this fire. Below, a rough trail drops to the caldera floor. The barrel still sloshes when you nudge it with your boot.",
       "choices": [
-        { "label": "light the pyre", "nextNode": "pyre-end", "hint": "You crack the barrel open and oil runs across the dry wood." },
-        { "label": "drop to the caldera", "nextNode": "caldera-floor", "hint": "The trail is steep and the footing is loose, but it holds." }
+        {
+          "label": "light the pyre",
+          "nextNode": "pyre-end",
+          "hint": "You crack the barrel open and oil runs across the dry wood."
+        },
+        {
+          "label": "drop to the caldera",
+          "nextNode": "caldera-floor",
+          "hint": "The trail is steep and the footing is loose, but it holds."
+        }
       ]
     },
     "caldera-floor": {
       "passage": "Grey ash blankets the basin like fresh snow. Heat rises from vents in the floor. Against the far wall, carved steps lead into a tunnel - an old entrance to the monastery from below, worn smooth by centuries of feet. A rough trail switchbacks up to a ledge on the rim. Fissures glow orange between the stones.",
       "choices": [
-        { "label": "walk the carved steps", "nextNode": "reliquary", "hint": "Ancient symbols line the tunnel walls, worn smooth by centuries of hands." },
-        { "label": "scramble up the rim", "nextNode": "signal-ledge", "hint": "You spot something stacked on a platform above - wood and canvas." }
+        {
+          "label": "walk the carved steps",
+          "nextNode": "reliquary",
+          "hint": "Ancient symbols line the tunnel walls, worn smooth by centuries of hands."
+        },
+        {
+          "label": "scramble up the rim",
+          "nextNode": "signal-ledge",
+          "hint": "You spot something stacked on a platform above - wood and canvas."
+        }
       ]
     },
     "back-passage": {
       "passage": "The crawlway spills you onto a rocky ledge behind the monastery. Below, a sandy cove curves toward the open strait and the mainland beyond. To your left, a trail drops to the shore. To your right, a stair carved into the cliff climbs toward the crater rim. Behind you, the mountain thunders.",
       "choices": [
-        { "label": "run for the shore", "nextNode": "shore-end", "hint": "Salt air fills your lungs and the rumble fades behind you." },
-        { "label": "push toward the rim", "nextNode": "signal-ledge", "hint": "Curiosity pulls you higher despite every instinct screaming to run." }
+        {
+          "label": "run for the shore",
+          "nextNode": "shore-end",
+          "hint": "Salt air fills your lungs and the rumble fades behind you."
+        },
+        {
+          "label": "push toward the rim",
+          "nextNode": "signal-ledge",
+          "hint": "Curiosity pulls you higher despite every instinct screaming to run."
+        }
       ]
     },
     "reliquary": {
       "passage": "Carved from the mountain itself, the sanctum is round and warm. At its center, the Covenant Flame burns in a brass bowl on a pillar. The fire gives no smoke. Three hundred years of prayer live in this glow. The walls crack as the volcano shifts beneath you. Carry the flame or seal the door forever.",
       "choices": [
-        { "label": "carry the flame", "nextNode": "flame-bearer", "hint": "The brass bowl scorches your palms but the flame holds steady." },
-        { "label": "seal the chamber", "nextNode": "shore-end", "hint": "You pull the iron lever and the heavy door grinds shut behind you." }
+        {
+          "label": "carry the flame",
+          "nextNode": "flame-bearer",
+          "hint": "The brass bowl scorches your palms but the flame holds steady."
+        },
+        {
+          "label": "seal the chamber",
+          "nextNode": "shore-end",
+          "hint": "You pull the iron lever and the heavy door grinds shut behind you."
+        }
       ]
     },
     "drowned-end": {
