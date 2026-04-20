@@ -1,0 +1,216 @@
+{
+  "id": "7ff89c1c-1019-4720-833c-aad91a6818c8",
+  "title": "Dryland Hull",
+  "description": "A landslide above Carren's Mill has uncovered a ship in the hills, miles from any coast. You climb aboard to find its cargo still sealed and its timbers warm to the touch.",
+  "author": "AI",
+  "tags": ["exploration"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-20",
+  "dayOfYear": "06-04",
+  "endingCount": 6,
+  "storyNumber": 63,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "A ship sits in the dry valley above Carren's Mill, exposed by last week's landslide. Its hull is black oak, timbers too straight and smooth for any vessel you have seen in harbor records. Villagers refuse to climb aboard. Warm air rises from the deck planks. A rope ladder hangs from the stern rail, swaying in a wind that touches nothing else.",
+      "choices": [
+        { "label": "climb the rope ladder", "nextNode": "upper-deck", "hint": "The rungs creak under your weight but hold firm enough to trust." },
+        { "label": "circle the hull", "nextNode": "hull-breach", "hint": "Dry grass crunches around the keel where no grass should grow." }
+      ]
+    },
+    "upper-deck": {
+      "passage": "The deck is warm. It stretches fore and aft under a sky that seems too close, as though the mast holds a sail the wind remembers even when you cannot see it. Tar seals every plank joint, fresh and sharp. A brass-handled door leads to the captain's cabin at the stern. Midships, an iron hatch gapes over a cargo hold below.",
+      "choices": [
+        { "label": "open the cabin door", "nextNode": "captains-cabin", "hint": "The brass handle turns with the ease of a thing built to last." },
+        { "label": "descend into the hold", "nextNode": "cargo-hatch", "hint": "A rusted ladder drops into the belly of the ship below." }
+      ]
+    },
+    "hull-breach": {
+      "passage": "Halfway around the hull, you find a gap where three planks have buckled inward, leaving a hole wide enough to crawl through. The wood at the edges is splintered but dry, and the break looks ancient. Dim blue marks trace patterns along the inner ribs, too regular to be natural. Something hums inside. Ahead, the carved prow of a figurehead juts from the bow.",
+      "choices": [
+        { "label": "crawl through the breach", "nextNode": "lower-hold", "hint": "Splinters catch your sleeves as you squeeze between the broken planks." },
+        { "label": "inspect the figurehead", "nextNode": "figurehead", "hint": "The carved face at the bow seems to track your every step." }
+      ]
+    },
+    "captains-cabin": {
+      "passage": "Charts cover the walls, pinned with bone nails. The ink has not faded. A heavy desk dominates the center of the room, its surface bare except for a leather-bound logbook and a brass compass whose needle spins without stopping. Beneath the desk, a chest sits bolted to the floor, its lock shaped like a coiled serpent swallowing its tail.",
+      "choices": [
+        { "label": "read the logbook", "nextNode": "logbook", "hint": "The pages crackle as you lift the cover, releasing the smell of salt." },
+        { "label": "force the chest", "nextNode": "locked-chest", "hint": "The serpent lock resists your first pull, then clicks once and holds." }
+      ]
+    },
+    "cargo-hatch": {
+      "passage": "Iron rungs lead down into the upper hold, where crates and barrels stand in rows so even they might have been placed an hour ago. The air is thick, sweet, wrong. You taste honey and copper on your tongue. One barrel near the far wall sweats a pale liquid that pools on the planks and steams faintly. Nothing in the hold has rotted.",
+      "choices": [
+        { "label": "pry open a crate", "nextNode": "upper-hold", "hint": "The lid gives with a groan that echoes off the hull walls." },
+        { "label": "examine the sweating barrel", "nextNode": "barrel-room", "hint": "The pale liquid is warm to the touch and smells of summer rain." }
+      ]
+    },
+    "figurehead": {
+      "passage": "At the bow, a carved figure rises from the hull - half woman, half wave, her face turned skyward with an expression that shifts between grief and fury depending on where you stand. One hand reaches forward. The other clutches a sphere of black glass set into the wood. Her eyes are wet. Below, a split in the bow planks opens inward.",
+      "choices": [
+        { "label": "touch the glass sphere", "nextNode": "carved-eyes", "hint": "The sphere pulses warm under your palm like a slow heartbeat." },
+        { "label": "squeeze through the split", "nextNode": "lower-hold", "hint": "The split is narrow but the wood bends under your shoulder." }
+      ]
+    },
+    "logbook": {
+      "passage": "The logbook is written in a spiraling script you cannot read, page after page of characters that seem to shift when you blink, except for the final entry in common tongue. 'The sea is gone. We are grounded. The compass points below, not north. Whatever sleeps beneath the keel is waking. Seal the door.' A map is folded into the binding.",
+      "choices": [
+        { "label": "search for the sealed door", "nextNode": "sealed-door", "hint": "The map shows a door marked with a circle deep in the hull." },
+        { "label": "explore the upper hold", "nextNode": "upper-hold", "hint": "The map marks crates in the hold with symbols you half-recognize." }
+      ]
+    },
+    "locked-chest": {
+      "passage": "The serpent lock fights you. You wrench and pry until the mechanism gives with a snap that echoes through the cabin. Inside, the chest is lined with blue velvet. Gold coins fill the bottom, stamped with a face you do not recognize - a crowned figure with six eyes. The coins are warm. Warmer than the air. One of them moves, like a breathing thing.",
+      "choices": [
+        { "label": "take the coins", "nextNode": "treasure-room", "hint": "They cling to your fingers like something that does not want to let go." },
+        { "label": "leave the chest alone", "nextNode": "sealed-door", "hint": "Whatever sleeps in that gold is best left in the velvet." }
+      ]
+    },
+    "upper-hold": {
+      "passage": "Crates fill the hold in careful stacks, each branded with a six-eyed sigil. You pry one open. Glass jars sit packed in straw, filled with liquid that shimmers between green and silver. They hum. A trapdoor in the floor leads further down. At the far wall, a heavy iron door bears scorch marks and a warning in a language older than the ship itself.",
+      "choices": [
+        { "label": "drop through the trapdoor", "nextNode": "lower-hold", "hint": "The ladder below sways under your weight, rungs worn thin with age." },
+        { "label": "approach the iron door", "nextNode": "sealed-door", "hint": "Heat bleeds through the iron before your hand touches the handle." }
+      ]
+    },
+    "barrel-room": {
+      "passage": "The sweating barrel is not alone. Six barrels sit apart from the rest, lids removed, arranged in a perfect ring with pale liquid inside each one casting ripples of blue across the ceiling planks. The air tastes wrong. Salt and petals. At the center of the ring, a gap in the deck opens onto a chamber below where the blue burns brighter.",
+      "choices": [
+        { "label": "slip down to the chamber", "nextNode": "glowing-pool", "hint": "The blue ripples quicken as you lower yourself through the gap." },
+        { "label": "retreat to the main hold", "nextNode": "lower-hold", "hint": "Whatever this ring is meant for, you want no part of it." }
+      ]
+    },
+    "carved-eyes": {
+      "passage": "Warmth floods your arm the moment your fingers close around the glass sphere. The figurehead's painted eyes snap to yours and hold them. A voice rises from the wood, not a sound but a pressure behind your forehead, filling it with images: a vast ocean of green fire, this ship cutting through waves that burn. Then stillness. The sphere releases you.",
+      "choices": [
+        { "label": "follow the vision below", "nextNode": "ward-room", "hint": "The images linger, pulling your attention toward the ship's interior." },
+        { "label": "release the sphere", "nextNode": "lower-hold", "hint": "Your hand opens and the warmth drains away like sand from a fist." }
+      ]
+    },
+    "lower-hold": {
+      "passage": "The ship narrows below. Tarred planks and curved ribs press close, groaning when the wind shifts above, and barnacles crust the inner hull despite the absence of any sea for leagues in every direction. A brick tunnel opens in the port wall, descending into earth. Starboard, a bronze door stands etched with the six-eyed sigil. It is warm to the touch.",
+      "choices": [
+        { "label": "enter the brick tunnel", "nextNode": "bilge-tunnel", "hint": "The tunnel walls are damp, and the floor slopes steadily downward." },
+        { "label": "try the bronze door", "nextNode": "engine-room", "hint": "The sigil warms as your hand presses against the bronze handle." }
+      ]
+    },
+    "bilge-tunnel": {
+      "passage": "Brick walls give way to raw earth after twenty paces, then to smooth bedrock slick with moisture, following the keel line above you in a long curving descent toward something that hums below. Roots poke through the ceiling. The tunnel opens into a cavern where the floor drops into a pool of vivid blue. Something moves beneath the surface.",
+      "choices": [
+        { "label": "wade into the pool", "nextNode": "glowing-pool", "hint": "The liquid is warm as a bath and tingles against your skin." },
+        { "label": "skirt the edge forward", "nextNode": "engine-room", "hint": "A narrow ledge follows the cavern wall to a bronze door beyond." }
+      ]
+    },
+    "glowing-pool": {
+      "passage": "Luminous blue envelops you to the waist. The liquid is thick, warm, alive with currents that tug your clothes and pull you toward the center where a crystal formation rises from the floor like a throne wrapped in pulsing roots. A face presses against the crystal. Its mouth is open. Behind you, a ledge circles to a bronze door in the cavern wall.",
+      "choices": [
+        { "label": "reach for the crystal face", "nextNode": "pool-depths", "hint": "The face behind the crystal shifts as your hand draws near." },
+        { "label": "swim to the bronze door", "nextNode": "engine-room", "hint": "The currents resist but release you before you reach the edge." }
+      ]
+    },
+    "pool-depths": {
+      "passage": "Your fingers meet crystal and the world inverts. You stand on this same deck, but the sky is a churning green ocean and the sails billow with currents of flame. A woman stands at the helm, the figurehead made flesh. 'You found us,' she says. 'The sea is gone. The ship sleeps. I remain.' Her eyes hold centuries. 'Stay, or let us rest?'",
+      "choices": [
+        { "label": "accept her offer", "nextNode": "ending-ancient-pact", "hint": "The green ocean roars around you and the deck feels solid underfoot." },
+        { "label": "refuse and step back", "nextNode": "engine-room", "hint": "The crystal dims as the vision fades and the cavern returns." }
+      ]
+    },
+    "treasure-room": {
+      "passage": "Behind the chest, a hidden panel gives way to a crawlspace that opens into a narrow vault sealed with pitch and lined with shelves of gold ingots, jeweled cups, and rolled tapestries stitched with constellations you cannot name. The six-eyed figure is everywhere. Carved into shelves. Pressed into gold. Woven into cloth. A second door leads deeper.",
+      "choices": [
+        { "label": "fill your pockets", "nextNode": "ending-cursed-gold", "hint": "The coins are hot against your thigh the moment your pocket closes." },
+        { "label": "go through the second door", "nextNode": "sealed-door", "hint": "Heat presses against the door like something on the other side breathes." }
+      ]
+    },
+    "ward-room": {
+      "passage": "Past the figurehead's alcove, a low door opens into an unexpected room. Suits of armor line the walls, seven in total, each built for a body not quite human - too long in the limb, too narrow in the chest. One stands apart. A sword rests across its gauntlets and the visor pulses faintly blue. A corridor leads aft behind the last rack.",
+      "choices": [
+        { "label": "grasp the sword", "nextNode": "ending-guardian", "hint": "The gauntlet tightens around your wrist the moment you reach for the blade." },
+        { "label": "pass down the corridor", "nextNode": "engine-room", "hint": "A corridor behind the armor racks leads to the heart of the ship." }
+      ]
+    },
+    "sealed-door": {
+      "passage": "Scorch marks ring the iron door in patterns that match the six-eyed sigil, and the handle radiates a heat that is not quite painful but warns you it could become so if you hold on too long. Beyond it, something thrums. A warning is scratched into the frame: 'do not open from this side.' You stand on the other side.",
+      "choices": [
+        { "label": "push the door", "nextNode": "engine-room", "hint": "Metal groans and the heartbeat behind the door surges to meet you." },
+        { "label": "step away from the door", "nextNode": "lower-hold", "hint": "There may be another way to reach whatever lies beyond this door." }
+      ]
+    },
+    "engine-room": {
+      "passage": "Heat rolls over you. The chamber is round, built into the keel, and at its center sits a device you have no name for - a sphere of interlocking metal rings the size of a cart, suspended by chains from the ceiling. Each ring is inscribed with the six-eyed sigil. A helm stands before it. Charts are pinned to the wall.",
+      "choices": [
+        { "label": "grip the helm", "nextNode": "activate-helm", "hint": "The wheel is warm and the rings spin faster as you take hold." },
+        { "label": "study the charts", "nextNode": "read-the-charts", "hint": "The parchment is covered in routes drawn across seas that do not exist." }
+      ]
+    },
+    "activate-helm": {
+      "passage": "You grip the helm and turn it. The rings shriek into motion, spinning so fast the sigils blur into a band of white, and the hull groans as timbers flex and the deck tilts beneath your feet. Something enormous shifts in the earth below. Through the walls you feel the ship straining upward against centuries of packed dirt. It wants to fly. It remembers how.",
+      "choices": [
+        { "label": "hold the course", "nextNode": "ending-ship-sails", "hint": "The earth cracks above you and sky pours through the fissure." },
+        { "label": "abandon the helm", "nextNode": "ending-ship-breaks", "hint": "The wheel kicks and the rings stutter as momentum dies." }
+      ]
+    },
+    "read-the-charts": {
+      "passage": "Overlapping charts cover the board, each one mapping a sea that occupies the same space as the valley above your head, with routes drawn in silver ink that pulses with each rotation of the spinning rings. One chart sits on top. A circle marks a point: 'Carren's Hollow - anchorage.' Below it: 'return bearing enclosed in helm housing.'",
+      "choices": [
+        { "label": "unlock the helm housing", "nextNode": "ending-map-keeper", "hint": "A small brass panel on the wheel's base pops free with a click." },
+        { "label": "set the return course", "nextNode": "ending-ship-sails", "hint": "The rings respond to the bearing and the chamber fills with a hum." }
+      ]
+    },
+    "ending-ship-sails": {
+      "passage": "Earth splits above the deck as the ship tears free. Roots snap. Stone crumbles. Then sky, wide and blinding. The vessel rises on invisible currents, sails unfurling from bare yards and catching wind from a direction that does not match the clouds. Carren's Mill shrinks below you. The green sea waits beyond the horizon, patient and vast. You hold the helm.",
+      "choices": [],
+      "ending": {
+        "title": "Boundless Wake",
+        "flavor": "Some ships find their sea, even centuries late.",
+        "action": "hold the helm"
+      }
+    },
+    "ending-ship-breaks": {
+      "passage": "A sound like a mountain cracking fills the chamber. The rings shatter, spraying hot metal. You dive behind the helm as the ceiling buckles and timbers rain down in a cascade that blocks the passage behind you. The ship is dying. You scramble through collapsing corridors and claw free of the hull as the vessel folds inward. By dawn, nothing remains but old wood.",
+      "choices": [],
+      "ending": {
+        "title": "Splinters and Regret",
+        "flavor": "Not every sleeping thing wants to wake.",
+        "action": "crawl from the wreckage"
+      }
+    },
+    "ending-map-keeper": {
+      "passage": "Inside the housing, a brass cylinder holds a chart smaller than your palm. Silver ink shifts as you unfurl it, redrawing to show the valley as it stands now - dry, landlocked, ordinary. A bearing is marked in common tongue: north by northwest, forty leagues, follow the river. You tuck the chart into your coat. The ship can sleep. You know where the sea is.",
+      "choices": [],
+      "ending": {
+        "title": "Buried Quay",
+        "flavor": "The sea is not gone, only patient.",
+        "action": "pocket the chart"
+      }
+    },
+    "ending-ancient-pact": {
+      "passage": "Green waves crash across the deck, warm as bathwater, and the woman at the helm laughs. 'Navigator,' she calls you, and the word sinks into your bones as though it belongs there and always has. The crew steps from the crystal one by one. Ropes move on their own. Sails fill. You are home.",
+      "choices": [],
+      "ending": {
+        "title": "Navigator's Berth",
+        "flavor": "Some ships choose their crew.",
+        "action": "take the wheel"
+      }
+    },
+    "ending-cursed-gold": {
+      "passage": "Gold weighs down your pockets as you climb out of the ship and into the valley air. The coins burn through the cloth. You walk toward Carren's Mill but the road feels longer than it should, and the trees lean away from you as you pass. In the river's surface, your reflection wears a crown of six eyes. You blink. It does not.",
+      "choices": [],
+      "ending": {
+        "title": "Six-Eyed Crown",
+        "flavor": "Treasure taken from a sleeping ship does not come free.",
+        "action": "count the coins"
+      }
+    },
+    "ending-guardian": {
+      "passage": "Metal screams as the gauntlet tightens around your wrist. The suit of armor steps forward, pulling you with it, and a voice fills the ward room like a bell struck underwater. 'You carry the fire-sea in your eyes. The ship has chosen.' The sword hilt warms in your grip. The armor releases you and kneels. Seven empty suits follow. You are the captain now.",
+      "choices": [],
+      "ending": {
+        "title": "Captain of Dust",
+        "flavor": "A ship without a captain is just wood and memory.",
+        "action": "draw the sword"
+      }
+    }
+  }
+}

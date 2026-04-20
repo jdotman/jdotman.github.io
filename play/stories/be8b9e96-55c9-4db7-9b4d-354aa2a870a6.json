@@ -1,0 +1,217 @@
+{
+  "id": "be8b9e96-55c9-4db7-9b4d-354aa2a870a6",
+  "title": "Gilded Tongues",
+  "description": "A scribe attending a duke's feast discovers that not every smile at the high table is genuine. Trust no one, and choose your words with care.",
+  "author": "AI",
+  "tags": ["intrigue", "negotiation"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-20",
+  "dayOfYear": "06-03",
+  "endingCount": 6,
+  "storyNumber": 62,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "You step into the feast hall of Castle Brannock. Silk banners hang from oak rafters and candlelight plays across tables heavy with roasted game. A herald calls your name. The duke raises his goblet from the high table, but his smile falters when he sees the seal on your collar. Two seats wait below.",
+      "choices": [
+        { "label": "sit near the advisor", "nextNode": "advisor-table", "hint": "The advisor's gaze lingers on your seal as you take your place." },
+        { "label": "join the hooded woman", "nextNode": "hooded-woman", "hint": "She shifts her cloak aside to make room without looking up." }
+      ]
+    },
+    "advisor-table": {
+      "passage": "Castellan Vero greets you with a firm handshake and a measuring look. He pours wine and leans close. 'Lord Aldric sends a scribe to a feast? Unusual.' His fingers tap the rim of his cup in a rhythm you recognize - a courier's signal cipher. Across the hall, a servant drops a platter. No one flinches.",
+      "choices": [
+        { "label": "tap the cipher back", "nextNode": "cipher-exchange", "hint": "Your fingers move against the table before doubt can catch up." },
+        { "label": "ignore the signal", "nextNode": "feast-continues", "hint": "Better to eat and watch than reveal what you know." },
+        { "label": "ask about Aldric", "nextNode": "aldric-question", "hint": "Vero's expression shifts at the mention of your lord's name." }
+      ]
+    },
+    "hooded-woman": {
+      "passage": "The woman lowers her hood. Sharp green eyes study you over a cup of untouched wine while one scarred hand rests on the table between you, a duelist's mark plain on her left palm. 'Maren,' she offers. No family name. She nods toward the high table. 'Five guards tonight. Last week, two.'",
+      "choices": [
+        { "label": "question the extra guards", "nextNode": "guard-question", "hint": "Maren glances left and right before leaning in to answer." },
+        { "label": "watch the high table", "nextNode": "watch-the-hall", "hint": "From here you can see every face at the duke's side." }
+      ]
+    },
+    "cipher-exchange": {
+      "passage": "Vero's eyes widen for half a breath. He masks it with a laugh and claps your shoulder. 'A fellow student of the old code.' He slides a folded napkin across the table. Inside, three words in courier script: cellar, midnight, proof. The feast roars around you both, but a pocket of hush holds your corner.",
+      "choices": [
+        { "label": "go to the cellar", "nextNode": "servant-passage", "hint": "You excuse yourself from the table and slip toward the service corridor." },
+        { "label": "press Vero for details", "nextNode": "confront-vero", "hint": "His jaw tightens when you refuse to walk into the cellar blind." }
+      ]
+    },
+    "feast-continues": {
+      "passage": "Roast pheasant and spiced bread fill your plate. You eat slowly, watching. The duke's wife whispers to a man in black velvet who sits where no place card marks a seat. A cupbearer fills the duke's goblet from a separate pitcher, one no other guest drinks from. Laughter rises and falls like a tide against a harbor wall.",
+      "choices": [
+        { "label": "follow the cupbearer", "nextNode": "servant-passage", "hint": "The cupbearer vanishes through a side door with the pitcher still in hand." },
+        { "label": "step onto the balcony", "nextNode": "balcony", "hint": "Fresh air and a wider vantage point call to you from the arch." }
+      ]
+    },
+    "aldric-question": {
+      "passage": "Vero sets down his cup. 'Aldric is a careful man. He would not send a scribe without purpose.' He studies your face the way a jeweler studies a rough gem, looking for the flaw that reveals the cut. 'Walk with me. The garden has ears, but fewer than this hall.' He stands without waiting for your answer.",
+      "choices": [
+        { "label": "walk to the garden", "nextNode": "garden", "hint": "Night air greets you through the arch at the hall's west end." },
+        { "label": "stay at the table", "nextNode": "feast-continues", "hint": "You watch Vero leave alone, his shoulders stiff with disappointment." }
+      ]
+    },
+    "guard-question": {
+      "passage": "Maren leans closer. 'A merchant from Sellwick arrived yesterday with twelve armed riders. No merchant needs twelve swords for grain and cloth.' She traces a circle on the table with one finger. 'I followed two of them to the service corridor behind the kitchen. They carry no trade goods, only sealed letters and short blades.'",
+      "choices": [
+        { "label": "find the corridor", "nextNode": "servant-passage", "hint": "Maren draws you a quick map on a scrap of linen." },
+        { "label": "approach the merchant", "nextNode": "garden", "hint": "She points toward the garden arch where the man takes the air." }
+      ]
+    },
+    "watch-the-hall": {
+      "passage": "From your seat you scan the hall with a scribe's trained eye. The duke barely touches his food. His wife's smile is a mask she adjusts between courses. A man in merchant's clothing sits apart from the trade delegation, nursing the same cup he holds an hour in. Three servants move in patterns too precise for ordinary staff.",
+      "choices": [
+        { "label": "track the servants", "nextNode": "feast-continues", "hint": "Their movements form a pattern too regular to be routine." },
+        { "label": "seek out the merchant", "nextNode": "garden", "hint": "The man in cavalry boots is not where he was sitting earlier." }
+      ]
+    },
+    "servant-passage": {
+      "passage": "A narrow hallway runs behind the feast hall, lit by tallow stubs in iron brackets that throw crooked shapes across plaster walls stained with years of grease and heavy trays. Boot prints in the dust ahead are fresh, no more than minutes old. The passage splits. Left descends toward brine and damp rock. Right opens into warmth and clattering pots.",
+      "choices": [
+        { "label": "descend to the cellar", "nextNode": "wine-cellar", "hint": "The steps are worn smooth in the center from centuries of use." },
+        { "label": "enter the kitchen", "nextNode": "kitchen", "hint": "Warmth and the thick scent of rosemary wash over you as you enter." }
+      ]
+    },
+    "confront-vero": {
+      "passage": "Vero's voice drops to a whisper that cuts through the noise. 'You want proof before you act? Fair. But proof costs something tonight.' He pulls back his sleeve. A fresh brand marks his wrist - the duke's seal, burned into skin. 'I earned this asking questions. Still want answers?' He glances toward the garden arch. 'Or there is someone else you could ask.'",
+      "choices": [
+        { "label": "accept his directions", "nextNode": "servant-passage", "hint": "Vero nods once and tells you which door to use." },
+        { "label": "demand answers first", "nextNode": "garden", "hint": "Vero sighs and points you toward someone in the garden who can explain." }
+      ]
+    },
+    "balcony": {
+      "passage": "Cool air hits your face as you step through the arched doorway onto a ledge overlooking the castle courtyard, where a saddled horse stands tied near the postern gate, packed for a long ride. Voices drift up from the garden terrace. Two figures argue in hushed tones. One wears the duke's livery. The other grips a scroll case. Neither knows you are watching.",
+      "choices": [
+        { "label": "creep toward the voices", "nextNode": "overhear-plot", "hint": "Dew-wet hedges soak your knees as you crouch behind the greenery." },
+        { "label": "climb down to the garden", "nextNode": "garden", "hint": "A trellis offers handholds down to the terrace gravel below." }
+      ]
+    },
+    "garden": {
+      "passage": "Roses climb the trellises, their scent thick enough to taste. Gravel crunches. A man sits alone near the fountain, rolling a coin across his knuckles with the practiced ease of someone whose hands never truly rest. He wears a merchant's cloak, but his boots are cavalry issue, hard-soled and spurred. He looks up. 'Lost, friend?'",
+      "choices": [
+        { "label": "challenge his identity", "nextNode": "hidden-meeting", "hint": "His coin-rolling hand pauses and his easy smile fades just a fraction." },
+        { "label": "hear his offer", "nextNode": "duke-chamber", "hint": "He pours a second cup and describes what the duke faces tonight." }
+      ]
+    },
+    "wine-cellar": {
+      "passage": "Barrels line both walls, stacked three high. The air smells of oak and vinegar. At the far end, a lantern burns beside a table covered in parchment. Letters bearing three different noble seals sit weighted by a dagger. The ink on the latest page is still wet. Whoever sits here is close, and in a hurry.",
+      "choices": [
+        { "label": "read the letters", "nextNode": "hidden-meeting", "hint": "The first seal belongs to a house declared extinct two winters ago." },
+        { "label": "take the dagger", "nextNode": "escape-tunnel", "hint": "The blade is short and blackened, built for stealth rather than battle." }
+      ]
+    },
+    "kitchen": {
+      "passage": "Steam rises from copper pots the size of rain barrels. The head cook barks orders at a dozen workers who chop, stir, and plate without pause. A boy in a flour-dusted apron tugs your sleeve. 'You are not kitchen staff,' he whispers. 'Neither is the man who went through the pantry five minutes ago. He carried a vial.'",
+      "choices": [
+        { "label": "open the pantry", "nextNode": "hidden-meeting", "hint": "The boy lifts a sack of grain to reveal a trapdoor beneath." },
+        { "label": "hurry to the feast", "nextNode": "poison-spotted", "hint": "If someone carries a vial in a kitchen, the target sits at the table." }
+      ]
+    },
+    "overhear-plot": {
+      "passage": "Crouched behind the hedge, you hear every word. 'The duke signs the charter at midnight. Once his seal marks that page, Brannock's treasury funds our army, not his.' The man in livery replies: 'And if he reads it first?' A pause. 'He will not. The wine sees to that.' The scroll case changes hands.",
+      "choices": [
+        { "label": "trail the conspirators", "nextNode": "hidden-meeting", "hint": "They split at the garden gate, one heading for the cellar below." },
+        { "label": "rush to the duke", "nextNode": "duke-chamber", "hint": "Every second that passes brings midnight and the charter closer." }
+      ]
+    },
+    "poison-spotted": {
+      "passage": "Through the gap between serving trays, you spot something wrong. The duke's cupbearer pours from a tall pitcher reserved for the high table. His hands tremble, not from nerves but precision. One thumb presses a ring against the goblet's rim as he tilts the pour. A bead of something slips from the ring's hollow face into the wine.",
+      "choices": [
+        { "label": "shout a warning", "nextNode": "warn-the-duke", "hint": "Heads turn throughout the hall at the sound of your voice." },
+        { "label": "swap the goblets", "nextNode": "swap-cups", "hint": "You thread between tables toward the high table with hands held steady." }
+      ]
+    },
+    "warn-the-duke": {
+      "passage": "A shout tears through the feast hall - yours. 'The wine is poisoned!' Guards draw swords. Guests scatter from the high table. The cupbearer bolts for the service door. The duke stares at his untouched goblet, then at you. 'Who are you?' Maren steps to your shoulder. 'Someone worth hearing, your grace.'",
+      "choices": [
+        { "label": "explain what you saw", "nextNode": "duke-chamber", "hint": "The duke's eyes narrow as he weighs each word you speak." },
+        { "label": "chase the cupbearer", "nextNode": "hidden-meeting", "hint": "His footsteps echo through the service corridor, growing fainter each second." }
+      ]
+    },
+    "swap-cups": {
+      "passage": "You rise and cross the hall with the calm of a guest seeking more bread, threading between benches where lords and merchants laugh with no idea what is happening at the high table. You stumble, or seem to. Your hand swaps the duke's goblet with an empty one. Wine spills. The cupbearer freezes. You lock eyes across the spreading stain.",
+      "choices": [
+        { "label": "grab the cupbearer", "nextNode": "ending-caught-poisoner", "hint": "Your fist closes on his collar before he can turn to run." },
+        { "label": "let him flee", "nextNode": "ending-shadow-victory", "hint": "He backs away slowly, then bolts through the service door." }
+      ]
+    },
+    "hidden-meeting": {
+      "passage": "The letters spell it plain. Three noble houses conspire to redirect Brannock's tax levy into a private army using a forged charter that bears the duke's own signature, stamped with a seal close enough to fool any magistrate. A name at the bottom stops your breath. Castellan Vero. The man sits upstairs eating pheasant while his plot runs its course.",
+      "choices": [
+        { "label": "bring proof to the duke", "nextNode": "duke-chamber", "hint": "You gather the letters and tuck them inside your coat." },
+        { "label": "burn the evidence", "nextNode": "ending-buried-truth", "hint": "A candle flame is all it takes to make this vanish." }
+      ]
+    },
+    "escape-tunnel": {
+      "passage": "Behind the last barrel, a low arch opens into rough-cut rock. Air flows from the far end, carrying the scent of river mud. The tunnel runs straight and narrow for fifty paces before a faint opening appears ahead. You could leave Brannock and its plots behind forever. Or carry what you know back to the man it threatens most.",
+      "choices": [
+        { "label": "crawl to the river", "nextNode": "ending-fled", "hint": "The river is wide and patient and asks nothing of you." },
+        { "label": "turn back with the proof", "nextNode": "duke-chamber", "hint": "You turn your back on the tunnel's end and begin to climb." }
+      ]
+    },
+    "duke-chamber": {
+      "passage": "A fire crackles in the duke's hearth. He sits behind his writing desk with two guards flanking the door, and he listens to your account without interrupting, his fingers steepled, his eyes fixed on yours as each detail lands. When you finish, he examines the proof you carry. His jaw sets. 'Vero,' he says, as though the name is a wound.",
+      "choices": [
+        { "label": "suggest a quiet arrest", "nextNode": "ending-hero", "hint": "An arrest at the feast would cause panic among the guests." },
+        { "label": "warn of the charter", "nextNode": "ending-charter-stopped", "hint": "The charter must be found and destroyed before anyone else signs." }
+      ]
+    },
+    "ending-hero": {
+      "passage": "Guards move through the hall with practiced calm. Vero is taken from his seat between the second and third course, hands bound before his fork hits the table. The duke nods to you across the room, once, slow, deliberate. By morning, riders carry sealed warrants to three noble houses. You eat the rest of your meal. Appetite returns at last.",
+      "choices": [],
+      "ending": {
+        "title": "Loyalty Rewarded",
+        "flavor": "Some feasts serve more than food.",
+        "action": "finish your meal"
+      }
+    },
+    "ending-charter-stopped": {
+      "passage": "Parchment curls in the hearth fire. The duke tears the forged charter in half and feeds both pieces to the flames. Sparks climb the chimney like fleeing birds. 'You have cost three powerful families a great deal tonight,' he says. 'They will remember.' He hands you a sealed letter of safe passage. 'Lord Aldric chose well.'",
+      "choices": [],
+      "ending": {
+        "title": "Ashes of Ambition",
+        "flavor": "The charter burns, but the conspiracy merely retreats.",
+        "action": "accept safe passage"
+      }
+    },
+    "ending-caught-poisoner": {
+      "passage": "One grab and the cupbearer crumples. Guards swarm the high table. His ring holds a reservoir of oleander extract, enough for a dozen kills. Under questioning he names his employer - a name that ripples shock through the hall. The duke lives because you trusted your eyes over your comfort. Maren raises her cup from across the room.",
+      "choices": [],
+      "ending": {
+        "title": "Poison Unmasked",
+        "flavor": "Quick hands and sharp eyes save a life worth saving.",
+        "action": "release him to the guards"
+      }
+    },
+    "ending-shadow-victory": {
+      "passage": "Panic fills the cupbearer's eyes. He backs away, then bolts through the service door and vanishes. You tell no one. The duke drinks from a clean goblet and lives to see morning, never knowing how thin the line. Maren catches your eye across the hall and mouths two words: 'well played.' That is enough.",
+      "choices": [],
+      "ending": {
+        "title": "Unseen Hand",
+        "flavor": "The best rescues leave the rescued unaware.",
+        "action": "return to your seat"
+      }
+    },
+    "ending-buried-truth": {
+      "passage": "Flame catches the edge of the first letter. You feed them in one by one - the charter, the names, the proof. Ash drifts to the cellar floor. Nobody will ever know. The conspiracy survives or falls without your hand on the scale. You climb the stairs, brush soot from your fingers, and rejoin the feast.",
+      "choices": [],
+      "ending": {
+        "title": "Willful Blindness",
+        "flavor": "Truth can burn as easily as parchment.",
+        "action": "let it burn"
+      }
+    },
+    "ending-fled": {
+      "passage": "Moonlight guides you through the tunnel and out onto the riverbank. Brannock's towers rise behind you, warm and watchful against a black sky. Whatever festers inside those walls is no longer your burden. A fisherman's skiff sits beached on the mud. You push it into the current and let the river carry you south. Nobody follows.",
+      "choices": [],
+      "ending": {
+        "title": "River and Regret",
+        "flavor": "Freedom is easy when you stop looking back.",
+        "action": "push off from shore"
+      }
+    }
+  }
+}

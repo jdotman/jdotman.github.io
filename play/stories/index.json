@@ -867,4 +867,35 @@
     "endingCount": 6,
     "storyNumber": 61
   }
+,
+  {
+    "id": "be8b9e96-55c9-4db7-9b4d-354aa2a870a6",
+    "title": "Gilded Tongues",
+    "description": "A scribe attending a duke's feast discovers that not every smile at the high table is genuine. Trust no one, and choose your words with care.",
+    "author": "AI",
+    "tags": [
+      "intrigue",
+      "negotiation"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-20",
+    "dayOfYear": "06-03",
+    "endingCount": 6,
+    "storyNumber": 62
+  }
+,
+  {
+    "id": "7ff89c1c-1019-4720-833c-aad91a6818c8",
+    "title": "Dryland Hull",
+    "description": "A landslide above Carren's Mill has uncovered a ship in the hills, miles from any coast. You climb aboard to find its cargo still sealed and its timbers warm to the touch.",
+    "author": "AI",
+    "tags": [
+      "exploration"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-20",
+    "dayOfYear": "06-04",
+    "endingCount": 6,
+    "storyNumber": 63
+  }
 ]
