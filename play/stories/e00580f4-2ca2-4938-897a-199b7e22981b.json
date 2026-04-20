@@ -1,0 +1,232 @@
+{
+  "id": "e00580f4-2ca2-4938-897a-199b7e22981b",
+  "title": "Smoke Over Grainhall",
+  "description": "Raiders descend on a farming town and its precious winter stores. You have hours to mount a defense, strike a deal, or find a way out.",
+  "author": "AI",
+  "tags": ["siege"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-20",
+  "dayOfYear": "06-02",
+  "endingCount": 6,
+  "storyNumber": 61,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Smoke climbs from the eastern ridge as you crest the last hill above Grainhall, and the town bell clangs in short panicked bursts below. Farmers sprint toward the square clutching children and sacks of grain. A bloodied scout stumbles through the gate. He drops to his knees. 'Sixty raiders,' he chokes. 'They hit by nightfall.'",
+      "choices": [
+        { "label": "climb the wall", "nextNode": "wall", "hint": "The wooden steps groan under your weight as you reach the parapet." },
+        { "label": "find the elder", "nextNode": "elder", "hint": "Maren's voice carries from the town hall, sharp and steady over the noise." },
+        { "label": "check the granary", "nextNode": "granary", "hint": "Grain dust hangs in the air as you push through the storehouse door." }
+      ]
+    },
+    "wall": {
+      "passage": "From the parapet you see the raider camp strung across the ridgeline, dozens of cookfires smoldering beside a half-built battering ram. A second column moves through the southern pines, nearly hidden among the trunks. They carry ladders. The wind shifts and brings the scent of horse sweat and oiled iron. Grainhall has hours, not days.",
+      "choices": [
+        { "label": "scan the ridgeline", "nextNode": "scout", "hint": "The camp spreads wider than you expected, fires stretching along the full ridge." },
+        { "label": "descend the steps", "nextNode": "defense", "hint": "The steps are slick with dew and the square buzzes with panicked voices." }
+      ]
+    },
+    "elder": {
+      "passage": "Elder Maren hunches over a cracked map in the town hall, her lamp throwing tall shapes on the plaster walls. Her finger traces a line beneath the streets. 'Tunnels,' she says. 'Built by my grandmother during the last siege. They surface past the ridge.' She meets your eyes. 'We save the people or the grain. Not both.'",
+      "choices": [
+        { "label": "ask about tunnels", "nextNode": "tunnel-plan", "hint": "She rolls the map tight and leads you to a heavy trapdoor below." },
+        { "label": "offer your sword", "nextNode": "defense", "hint": "She nods once and points you toward the noise filling the square." }
+      ]
+    },
+    "granary": {
+      "passage": "Sacks of grain fill the storehouse from floor to rafter, stacked so tight you turn sideways to pass. This is what the raiders want. Enough barley and wheat to feed a warband through the winter. A shelf near the entrance holds jars of lye and rat poison, their labels faded but still readable.",
+      "choices": [
+        { "label": "inspect the shelves", "nextNode": "stores", "hint": "The glass jars clink as you pull them from the dusty shelf one by one." },
+        { "label": "rush to the square", "nextNode": "defense", "hint": "Shouts echo off the walls of the square as you round the corner." }
+      ]
+    },
+    "scout": {
+      "passage": "Fires and tents spread along the ridgeline in rough clusters, sixty fighters at least, maybe seventy, with a southern group carrying scaling ladders and grappling hooks. A banner at the center of camp shows a black wolf stitched on crimson. Valdrek's Wolves. That name carries a reputation for cruelty across three provinces. They are not here to negotiate.",
+      "choices": [
+        { "label": "warn the south gate", "nextNode": "south-plan", "hint": "The south fence looks barely strong enough to stop a stray goat." },
+        { "label": "propose a parley", "nextNode": "parley", "hint": "Something in your gut says talking might buy the town more time." }
+      ]
+    },
+    "defense": {
+      "passage": "Townsfolk crowd the square gripping pitchforks, hammers, and rusty blades while children press close against their mothers in the doorways. A retired soldier named Breck climbs onto a cart. He waits for quiet. 'We have walls, oil, and height,' he says. 'Three ways to use them.' He looks at you and the crowd follows his gaze.",
+      "choices": [
+        { "label": "fortify the south", "nextNode": "south-plan", "hint": "Breck grabs a hammer and falls in step beside you toward the gate." },
+        { "label": "explore the tunnels", "nextNode": "tunnel-plan", "hint": "Maren waits by the trapdoor, lantern already lit and smoking faintly." },
+        { "label": "attempt a parley", "nextNode": "parley", "hint": "A torn strip of white linen is the closest thing to a truce flag." }
+      ]
+    },
+    "stores": {
+      "passage": "Behind the grain sacks you find barrels of salted pork, sealed jars of honey, and enough dried provisions to feed the town for several months if the siege holds. The rat poison sits on a high shelf, a brown jar with a skull scratched into its wax seal. One handful per barrel would taint everything. The raiders would feast and die. So would anyone else.",
+      "choices": [
+        { "label": "open the poison jar", "nextNode": "poison-choice", "hint": "The wax crumbles as you break the seal and the smell hits instantly." },
+        { "label": "join the defenders", "nextNode": "defense", "hint": "The storehouse door slams behind you as you head for the crowded square." }
+      ]
+    },
+    "south-plan": {
+      "passage": "Breck leads you to the south gate, little more than a fence of sharpened logs driven into packed earth. Beyond the stakes, the treeline shifts. 'They come through here first,' Breck says. 'We rig the mill bridge to collapse under them, or we stack carts and timber and hold this ground. Either way, we hit them before they spread.'",
+      "choices": [
+        { "label": "rig the bridge", "nextNode": "trap", "hint": "The old mill bridge groans in the wind, already half rotten at its center." },
+        { "label": "stack the barricade", "nextNode": "reinforce", "hint": "Breck starts dragging a hay cart toward the gap in the fence line." }
+      ]
+    },
+    "tunnel-plan": {
+      "passage": "Maren lifts a heavy trapdoor beneath the granary floor and cool air rises from below, carrying a smell of damp chalk and something far older than this town. A ladder descends into gloom. 'One branch ends at a shrine with markings I cannot read,' she says. 'The other surfaces past the ridge.' Something scrapes in the passage below.",
+      "choices": [
+        { "label": "press deeper", "nextNode": "deep-tunnels", "hint": "The lantern throws jumping shapes on the chalk walls ahead of you." },
+        { "label": "lead families out", "nextNode": "evacuate", "hint": "Maren calls for the families and the first children appear at the door." }
+      ]
+    },
+    "parley": {
+      "passage": "A strip of white linen tied to a pike serves as your flag. The walk toward the ridge is the longest of your life. A woman in wolf-fur armor meets you at the halfway mark, flanked by two fighters with drawn swords. 'My people starve,' she says. Her voice is flat. 'Half the grain. Nobody bleeds.'",
+      "choices": [
+        { "label": "accept the terms", "nextNode": "meeting", "hint": "The chief's eyes narrow, as though she expects you to change your mind." },
+        { "label": "refuse her offer", "nextNode": "south-plan", "hint": "Her jaw tightens and the two flanking fighters step closer to your side." }
+      ]
+    },
+    "poison-choice": {
+      "passage": "The brown jar sits heavy in your hand. Bitter almonds. The powder inside carries a smell that cuts through the grain dust filling the storehouse, sharp and final. Through the window you see families crossing the square, children balanced on hips. One handful per barrel and every provision here becomes a weapon that cannot tell friend from enemy.",
+      "choices": [
+        { "label": "pour the powder", "nextNode": "poison-ending", "hint": "Your hands tremble as you tilt the jar over the first open barrel." },
+        { "label": "leave it sealed", "nextNode": "defense", "hint": "The jar clinks back onto the shelf and you wipe your hands on your coat." }
+      ]
+    },
+    "trap": {
+      "passage": "The old mill bridge spans a rocky streambed just south of the wall, its timbers rotted in places and soft enough to dent with a thumbnail. Breck shows you where the support ropes anchor into the bank. 'One axe blow,' he says. 'Drops the whole thing.' He points back toward town. 'The lane by the smithy works too, if you want a chokepoint instead.'",
+      "choices": [
+        { "label": "cut the ropes", "nextNode": "bridge-trap", "hint": "Breck hands you an axe and you both start loosening the frayed ropes." },
+        { "label": "lure them to the lane", "nextNode": "chokepoint", "hint": "The lane narrows between the smithy wall and the old well at its end." }
+      ]
+    },
+    "reinforce": {
+      "passage": "Carts, timber, and broken furniture stack against the south gate until it looks almost like a proper wall. Breck directs farmers to pack mud between the planks while archers climb to the rooftops on either side of the lane. Drums begin beyond the trees. Breck grips your shoulder. 'This is where we earn it.'",
+      "choices": [
+        { "label": "follow Breck's plan", "nextNode": "breck-plan", "hint": "He rolls oil barrels toward the gate and positions archers on the rooftops." },
+        { "label": "hold the center", "nextNode": "battle", "hint": "The first rumble of boots on earth carries through the ground beneath you." }
+      ]
+    },
+    "deep-tunnels": {
+      "passage": "The passage opens into a natural cave where pale moss clings to the ceiling, casting a faint green glow across the chalky walls. An old shrine sits against the far wall, carved runes pulsing with steady warmth along its face. The air tastes of copper. Maren touches the runes and pulls her hand back. 'A ward,' she whispers.",
+      "choices": [
+        { "label": "touch the runes", "nextNode": "rune-shrine", "hint": "Warmth spreads through your fingers the moment they brush the carved marks." },
+        { "label": "continue to the exit", "nextNode": "tunnel-exit", "hint": "The passage narrows and slopes upward, a breath of fresh air ahead." }
+      ]
+    },
+    "evacuate": {
+      "passage": "Families file through the tunnel entrance in a long trembling line, carrying blankets, bread, and whatever else their shaking arms can hold. Maren counts heads by lantern as each face passes. Forty-three. She frowns. 'Eleven people are still at the outer farms,' she says. The first shouts echo from above. The raiders are early. Maren looks at you.",
+      "choices": [
+        { "label": "guide them forward", "nextNode": "tunnel-exit", "hint": "The tunnel slopes upward and you catch the scent of open air beyond." },
+        { "label": "search the shrine", "nextNode": "rune-shrine", "hint": "Maren mentioned markings she could not read somewhere in a side passage." }
+      ]
+    },
+    "meeting": {
+      "passage": "The wolf-chief studies your face for a long moment, her eyes moving slowly from your hands to your jaw as if measuring something she does not say aloud. 'Half the grain,' she repeats. Her second draws a blade and cuts his own palm, holding the bloody hand toward you. 'Blood-oath.' 'Binding on both sides.'",
+      "choices": [
+        { "label": "swear the oath", "nextNode": "deal-ending", "hint": "The blade bites your palm and you feel the oath settle like iron." },
+        { "label": "walk away", "nextNode": "battle", "hint": "Her voice follows you down the hill but you do not look back." }
+      ]
+    },
+    "bridge-trap": {
+      "passage": "Raiders pour across the mill bridge at dusk, boots hammering the old timbers in a thunder of weight and fury that shakes the bank. Breck raises his fist. Drops it. Your axe bites through the last support rope and the bridge screams apart, planks spinning into the rocky streambed. Half the raider force falls with it.",
+      "choices": [
+        { "label": "charge the stragglers", "nextNode": "ambush-ending", "hint": "The remaining raiders stumble on the far bank, leaderless and badly shaken." },
+        { "label": "fall back to town", "nextNode": "battle", "hint": "Smoke rises from the town center and you hear Breck shouting new orders." }
+      ]
+    },
+    "chokepoint": {
+      "passage": "Defenders fill the narrow lane between the smithy and the well, stacking barrels of pitch at both ends while the last farmers take position with whatever they can lift. Two at a time. That is all the lane fits. Breck crouches behind the final barrel and nods. The first raiders round the corner at a sprint.",
+      "choices": [
+        { "label": "spring the trap", "nextNode": "ambush-ending", "hint": "Pitch ignites and the narrow lane fills with heat and panicked screams." },
+        { "label": "retreat to the square", "nextNode": "battle", "hint": "The lane holds long enough for you to fall back to the square." }
+      ]
+    },
+    "breck-plan": {
+      "passage": "Breck rolls oil barrels into position at the main gate and signals archers to the rooftops on either side of the entry lane, their bows strung tight and angled down. 'When they breach, we light the oil,' he says. 'The lane becomes a furnace.' The sun drops behind the ridge. A horn sounds from the trees.",
+      "choices": [
+        { "label": "wait for the charge", "nextNode": "battle", "hint": "The drumming grows louder and torches flicker between the trunks ahead." },
+        { "label": "pull back inside", "nextNode": "last-stand", "hint": "The granary walls are thick and the door can be barred from within." }
+      ]
+    },
+    "rune-shrine": {
+      "passage": "Maren traces the carved symbols with trembling fingers and the hum in the cave grows deeper until you feel it in your teeth and your bones and the soles of your boots. 'A ward against fire and iron,' she reads. 'Strong enough to shield the whole valley.' She looks at you. 'Someone must speak the words.'",
+      "choices": [
+        { "label": "speak the ward", "nextNode": "ward-ending", "hint": "The words rise in your throat, unfamiliar yet certain, tasting of copper." },
+        { "label": "turn to the exit", "nextNode": "tunnel-exit", "hint": "Maren calls after you but the passage ahead smells of open air." }
+      ]
+    },
+    "tunnel-exit": {
+      "passage": "Cool air rushes past your face as the passage slopes upward through roots and loose chalk, and you push through a curtain of hanging vines into fading daylight on the far side of the ridge. Grainhall's smoke rises in the distance. The road to Coldmere garrison stretches north through open fields. Behind you, the clash of iron echoes faintly.",
+      "choices": [
+        { "label": "circle back to fight", "nextNode": "battle", "hint": "Smoke and shouts guide you back toward the town over the ridge." },
+        { "label": "run for the garrison", "nextNode": "last-stand", "hint": "The road stretches empty ahead but every step takes you further from home." }
+      ]
+    },
+    "battle": {
+      "passage": "Fire rolls across the cobblestones as the raiders breach the gate at dusk, and the narrow lanes fill with smoke and screaming and the clash of iron on iron. Breck bellows orders from behind a burning cart. The wall buckles, holds, buckles again. Then a horn sounds from the east, sharp and sudden.",
+      "choices": [
+        { "label": "stand your ground", "nextNode": "victory-ending", "hint": "Cavalry banners crest the eastern hill and the raiders falter, looking back." },
+        { "label": "barricade the granary", "nextNode": "last-stand", "hint": "The granary doors are thick oak and the walls might hold long enough." }
+      ]
+    },
+    "last-stand": {
+      "passage": "Grain sacks and splintered timber barricade the granary doors as the raiders hammer from outside, each blow sending dust and chaff drifting from the rafters above. The air thickens. One stray spark from their torches and this whole building becomes a kiln with everyone inside it. Breck grips your arm hard enough to bruise. 'They cannot have this grain.'",
+      "choices": [
+        { "label": "ignite the stores", "nextNode": "pyre-ending", "hint": "The lamp oil spreads fast across the dry wood and burlap around you." },
+        { "label": "taint the grain", "nextNode": "poison-ending", "hint": "The brown jar from the shelf is still in your pack, seal unbroken." }
+      ]
+    },
+    "poison-ending": {
+      "passage": "Powder sifts from your fingers into every sack and barrel, dissolving into the grain like flour into dough. The bitter almond scent fades beneath the smell of wheat. When the raiders break through and feast, they will sicken before morning. But this food can never feed Grainhall again. The stores that keep this town alive are gone. All of them.",
+      "choices": [],
+      "ending": {
+        "title": "Bitter Harvest",
+        "flavor": "Victory tastes like almonds and ash.",
+        "action": "seal the storehouse"
+      }
+    },
+    "ambush-ending": {
+      "passage": "Confusion tears through the raider ranks as Breck's defenders pour from cover and sweep the broken force back toward the ridge with spears and fury and the weight of a town fighting for its life. Torches gutter in the mud. By midnight the wolf-banner lies trampled. Grainhall stands. Battered, but standing.",
+      "choices": [],
+      "ending": {
+        "title": "Broken Ranks",
+        "flavor": "Sometimes the smaller force just needs the right ground.",
+        "action": "raise the town banner"
+      }
+    },
+    "ward-ending": {
+      "passage": "Your hands press flat against the warm shrine and words rise in your throat, unfamiliar yet certain, tasting of copper and old rain. Green glow floods the cave, the tunnels, the streets above. Raiders stagger as their blades turn brittle and snap. Arrows shatter midair. The ward hums through Grainhall like a pulse. The wolves flee before dawn.",
+      "choices": [],
+      "ending": {
+        "title": "Voice of the Shrine",
+        "flavor": "The runes fade but the valley remembers.",
+        "action": "speak the old words"
+      }
+    },
+    "deal-ending": {
+      "passage": "A blade crosses your palm and the blood runs quick and warm. The wolf-chief nods. By torchlight her people load half the grain onto mule-drawn carts and vanish north before dawn breaks over the ridge. Grainhall keeps enough to survive the winter. Barely. The farmers watch the last cart fade into the treeline. Nobody cheers.",
+      "choices": [],
+      "ending": {
+        "title": "Half-Empty Stores",
+        "flavor": "Peace is what you buy with what you cannot spare.",
+        "action": "shake the chief's hand"
+      }
+    },
+    "victory-ending": {
+      "passage": "Cavalry banners crest the eastern hill and the raiders break. Horses thunder through the gaps in the wall and mounted lancers scatter the wolf-marked fighters into the trees beyond the ridge. The horn call echoes across the valley. Grainhall stands whole. Breck sits on a broken cart, hammer across his knees, and laughs until he cries.",
+      "choices": [],
+      "ending": {
+        "title": "Dawn Relief",
+        "flavor": "Some walls hold long enough for the help to arrive.",
+        "action": "open the gates wide"
+      }
+    },
+    "pyre-ending": {
+      "passage": "The lamp shatters against the nearest sack and the oil catches. Flame climbs the grain stacks like a living thing, fast and hungry and bright, and you pull Breck through the back door as the whole building roars behind you. The raiders find nothing but cinders. Neither does Grainhall. The winter will be long.",
+      "choices": [],
+      "ending": {
+        "title": "Ashes and Cinders",
+        "flavor": "Sometimes the only way to win is to make sure nobody does.",
+        "action": "drop the torch"
+      }
+    }
+  }
+}

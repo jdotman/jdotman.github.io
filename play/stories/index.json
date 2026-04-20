@@ -852,4 +852,19 @@
     "endingCount": 6,
     "storyNumber": 60
   }
+,
+  {
+    "id": "e00580f4-2ca2-4938-897a-199b7e22981b",
+    "title": "Smoke Over Grainhall",
+    "description": "Raiders descend on a farming town and its precious winter stores. You have hours to mount a defense, strike a deal, or find a way out.",
+    "author": "AI",
+    "tags": [
+      "siege"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-20",
+    "dayOfYear": "06-02",
+    "endingCount": 6,
+    "storyNumber": 61
+  }
 ]
