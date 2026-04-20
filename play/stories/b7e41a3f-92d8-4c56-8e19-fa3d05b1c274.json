@@ -1,0 +1,243 @@
+{
+  "id": "b7e41a3f-92d8-4c56-8e19-fa3d05b1c274",
+  "title": "Fenwater Crossing",
+  "description": "A river barge carries you through the Fenwater Marshes at dusk. The bargeman refuses to speak, and something beneath the reeds keeps pace with the hull.",
+  "author": "AI",
+  "tags": ["voyage", "eerie"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-06-01",
+  "dayOfYear": "06-01",
+  "endingCount": 6,
+  "storyNumber": 60,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Twilight settles over the Fenwater Marshes as the barge pushes through brackish reeds taller than a man. The bargeman poles in silence, his jaw clenched. Lantern-flies drift above the murk, winking gold and gone. Something large displaces the water off the port side, and the reeds bend in its wake. Your cargo sits lashed amidships, untouched.",
+      "choices": [
+        {"label": "inspect the cargo", "nextNode": "cargo-hold", "hint": "The rope knots look different from the ones you tied at port."},
+        {"label": "approach the bargeman", "nextNode": "bargeman", "hint": "He does not look up as you step toward the stern."},
+        {"label": "scan the river", "nextNode": "deck-watch", "hint": "The ripple has gone but the reeds still tremble behind it."}
+      ]
+    },
+    "cargo-hold": {
+      "passage": "Crates and barrels crowd the deck. The largest one, the crate you were hired to guard, sits under oilcloth with its binding ropes retied in unfamiliar knots. A faint hum rises from beneath the cloth, low enough to feel in your teeth. The bargeman's pole scrapes the riverbed behind you. He has not said a word since you boarded.",
+      "choices": [
+        {"label": "pull back the cloth", "nextNode": "reveal-crate", "hint": "The oilcloth is warm to the touch despite the chill night air."},
+        {"label": "cut the ropes", "nextNode": "crate-opened", "hint": "Your knife slides through the first knot with almost no resistance."},
+        {"label": "leave it alone", "nextNode": "deck-watch", "hint": "The hum fades behind you as you step away from the crate."}
+      ]
+    },
+    "bargeman": {
+      "passage": "The bargeman stands at the stern, one hand on the pole, the other gripping a cord around his neck. His knuckles are white. Up close you notice fen-mud smeared in patterns on his forearms. Old ward-marks, the kind village elders paint on doors during flood season. His lips move without sound, and his eyes stay fixed on the reeds ahead.",
+      "choices": [
+        {"label": "ask about the wards", "nextNode": "bargeman-truth", "hint": "He flinches when your finger points at the marks on his arm."},
+        {"label": "offer him silver", "nextNode": "bargeman-deal", "hint": "The coin catches a flicker of glow as you hold it out."},
+        {"label": "grab the cord", "nextNode": "cord-reveal", "hint": "He jerks back but you are faster and the cord snaps free."}
+      ]
+    },
+    "deck-watch": {
+      "passage": "From the rail you peer into the marsh. The river is ink-black and flat where the barge has passed, but ahead it churns against the current. Shapes press up from below, round and pale, like river-stones drifting just under the surface. They keep pace. One rolls enough to show a hollow where an eye should be. The bargeman poles faster.",
+      "choices": [
+        {"label": "reach into the river", "nextNode": "touch-creature", "hint": "Your fingers break the surface and the cold bites to the bone."},
+        {"label": "hurl the lantern", "nextNode": "lantern-throw", "hint": "You wrench the lantern from its hook and cock your arm back."},
+        {"label": "retreat to the stern", "nextNode": "cargo-hold", "hint": "The shapes drift closer as you back away slowly from the rail."}
+      ]
+    },
+    "reveal-crate": {
+      "passage": "Beneath the oilcloth lies a crate of rough pine sealed with black wax. Runes score the lid. The hum grows louder, a vibration that crawls up through the deck planks into your boots. A crack runs along one edge of the wax seal, and a thread of green glow leaks from inside. The bargeman calls out a sharp warning.",
+      "choices": [
+        {"label": "break the seal", "nextNode": "crate-opened", "hint": "The wax cracks like ice under your fist and falls away in pieces."},
+        {"label": "trace the runes", "nextNode": "bargeman-truth", "hint": "Your finger follows the scratches and your lips shape the old words."},
+        {"label": "cover it back", "nextNode": "deck-watch", "hint": "The glow dims and the hum fades as the cloth falls into place."}
+      ]
+    },
+    "bargeman-truth": {
+      "passage": "His jaw works. 'The marsh has a keeper,' he says. 'Old as the river, older maybe. It wants what rides in that crate.' He taps the ward-marks on his arm. 'These buy passage.' His voice drops. 'If the keeper surfaces, do not speak to it and do not answer any question that it asks.'",
+      "choices": [
+        {"label": "examine the crate", "nextNode": "reveal-crate", "hint": "His eyes flick to the oilcloth and then slowly back to you."},
+        {"label": "watch for the keeper", "nextNode": "keeper-surface", "hint": "You turn to the rail and the marsh seems to stare back."},
+        {"label": "demand he turn back", "nextNode": "turn-back", "hint": "His grip tightens on the pole and he shakes his head slowly."}
+      ]
+    },
+    "bargeman-deal": {
+      "passage": "He eyes the coin. 'Keep your silver,' he says, but his hand drifts toward it. 'I will tell you one thing for free: whatever stirs beneath this hull is drawn to what you carry, and the wards hold only as long as the cargo stays sealed.' He looks at the oilcloth. 'It is sealed, yes?' A ripple thumps the hull.",
+      "choices": [
+        {"label": "hurry to the cargo", "nextNode": "reveal-crate", "hint": "You rush toward the crate with the coin forgotten in your fist."},
+        {"label": "reassure him", "nextNode": "calm-passage", "hint": "You nod firmly, though the cloth vibrates in a way that says otherwise."}
+      ]
+    },
+    "cord-reveal": {
+      "passage": "The cord snaps and a small bone charm tumbles into your palm, carved from antler and shaped like a closed eye. The bargeman snatches at it but you step back. 'That is mine,' he hisses. 'Without it I am blind to the channels.' His hands shake. Below, something scrapes the keel, long and slow, like fingers testing wood.",
+      "choices": [
+        {"label": "return the charm", "nextNode": "bargeman-truth", "hint": "He clutches it to his chest and his breathing slows at last."},
+        {"label": "keep the charm", "nextNode": "keeper-surface", "hint": "Power hums between the bone and your skin like a second pulse."},
+        {"label": "toss it overboard", "nextNode": "charm-lost", "hint": "The antler hits the murk with a soft plop and the fen goes quiet."}
+      ]
+    },
+    "touch-creature": {
+      "passage": "Your hand plunges in. The chill is instant, numbing to the wrist. Fingers close around something smooth and round, and it moves under your grip, rotating slowly until you realize you are holding a face. No features except one hollow socket that presses against your thumb. The mouth opens. A voice rises from the depths, garbled but clear enough: 'Name yourself.'",
+      "choices": [
+        {"label": "give your name", "nextNode": "name-given", "hint": "The word leaves your lips before you have a chance to stop it."},
+        {"label": "yank your hand free", "nextNode": "bargeman-truth", "hint": "The grip releases with a wet pop and you stagger back gasping."},
+        {"label": "bluff a name", "nextNode": "keeper-surface", "hint": "You speak a name that is not yours and the murk trembles."}
+      ]
+    },
+    "lantern-throw": {
+      "passage": "Burning oil spreads across the surface in a bright ring. The pale shapes scatter beneath, retreating from flame. For a moment the marsh is visible for yards in every direction: tangled roots, the ribcage of some great beast half-sunk in silt, black channels branching into nothing. Then the fire dies. The shapes return, closer than before. You are out of lanterns.",
+      "choices": [
+        {"label": "shout to the bargeman", "nextNode": "bargeman-truth", "hint": "Your voice cracks against the stillness as you call toward the stern."},
+        {"label": "search for a weapon", "nextNode": "crate-opened", "hint": "A spare push-pole lies lashed beneath the starboard rail, half hidden."},
+        {"label": "stay very still", "nextNode": "keeper-surface", "hint": "Every muscle locks tight as the pale shapes drift closer to the hull."}
+      ]
+    },
+    "crate-opened": {
+      "passage": "The lid falls open. Inside, bedded in straw and pulsing with green glow, sits a glass sphere the size of a man's head. Shapes move behind the glass, tiny figures that press their palms flat against the curved walls. The bargeman drops his pole. 'You have killed us both,' he whispers. The barge lurches hard to port.",
+      "choices": [
+        {"label": "lift the sphere", "nextNode": "sphere-held", "hint": "The glass burns hot against your palms and the figures inside turn."},
+        {"label": "smash the sphere", "nextNode": "sphere-broken", "hint": "Your boot comes down hard and the glass screams as it cracks."},
+        {"label": "seal it shut", "nextNode": "seal-attempt", "hint": "You slam the lid down and throw your full weight on top."}
+      ]
+    },
+    "keeper-surface": {
+      "passage": "The river goes flat. A shape rises, slow as poured oil, first a head, then shoulders, then arms that end in too many fingers. It has no eyes, only smooth hollows. The keeper's mouth opens and a voice comes out like a reed flute, high and thin. 'One of you carries something that belongs to the deep. Which one?'",
+      "choices": [
+        {"label": "point at the bargeman", "nextNode": "blame-bargeman", "hint": "His face goes white as your finger rises toward his chest."},
+        {"label": "present the crate", "nextNode": "crate-opened", "hint": "You gesture toward the oilcloth and the keeper tilts its eyeless head."},
+        {"label": "refuse to answer", "nextNode": "defy-keeper", "hint": "You set your jaw and let the stillness speak for itself."}
+      ]
+    },
+    "sphere-held": {
+      "passage": "The sphere floods your hands with warmth. The tiny figures press closer, their mouths moving in unison. You hear them now, a chorus of whispered names. Each belongs to someone the marsh has taken. The bargeman backs away. The barge drifts free of his pole, spinning slowly. The keeper's hand breaks the surface beside the hull, reaching for the glow.",
+      "choices": [
+        {"label": "hand it over", "nextNode": "surrender-sphere", "hint": "The keeper's long fingers close around the glass with terrible patient care."},
+        {"label": "hold it tight", "nextNode": "hold-sphere", "hint": "The names grow louder in your ears and the glow burns brighter."},
+        {"label": "throw it to shore", "nextNode": "sphere-to-shore", "hint": "Mud and reeds swallow the glow as the sphere arcs through the air."}
+      ]
+    },
+    "seal-attempt": {
+      "passage": "The lid fights back as you force it down, vibrating through the wood and into your arms. The bargeman rushes over and helps press his weight on top. Together you hold it shut. The green glow fades to a dim flicker. He looks at you, breathing hard. 'It must go back,' he says. 'There is a shrine on the east bank.'",
+      "choices": [
+        {"label": "head for the shrine", "nextNode": "shrine-approach", "hint": "The bargeman drives his pole deep and the barge swings toward east."},
+        {"label": "dump it overboard", "nextNode": "crate-sinks", "hint": "Maybe the depths are exactly where a thing like this belongs."}
+      ]
+    },
+    "shrine-approach": {
+      "passage": "East bank rises from the mist, a muddy slope crowned with a ring of low standing stones. Moss and bone fragments fill the gaps between them. A flat altar sits in the center, stained deep with something older than rust. The bargeman beaches the barge and lifts the crate. 'Place the sphere on the altar. Say nothing while you do it.'",
+      "choices": [
+        {"label": "place the sphere", "nextNode": "sphere-returned", "hint": "The glass fits the altar's hollow as if it was carved for it."},
+        {"label": "step back", "nextNode": "defy-keeper", "hint": "Something about this ring of standing stones feels like a trap."},
+        {"label": "shatter it here", "nextNode": "sphere-broken", "hint": "If the sphere breaks on the altar, maybe none of this matters."}
+      ]
+    },
+    "sphere-to-shore": {
+      "passage": "The sphere arcs over the rail and disappears into the reed bed with a wet thud. Green glow pulses from the bank like a beating heart. The keeper turns away from the hull and drifts toward shore, drawn by the pulse. The barge is free. The bargeman seizes his pole and drives hard downriver, gasping. 'We have minutes before it comes back,' he says.",
+      "choices": [
+        {"label": "help him pole", "nextNode": "escape-together", "hint": "Your arms burn as you match his frantic rhythm with the second pole."},
+        {"label": "observe the shore", "nextNode": "defy-keeper", "hint": "The keeper bends over the glow on the bank and something shifts."}
+      ]
+    },
+    "crate-sinks": {
+      "passage": "The crate hits the surface and bobs once before the weight drags it under. The green glow descends, dimmer with each fathom. The bargeman watches it go. The hum stops. Everything is quiet except the drip from your hands. Then the shapes scatter and the keeper's hand rises where the crate vanished, holding nothing. It turns toward the barge.",
+      "choices": [
+        {"label": "seize a pole", "nextNode": "defy-keeper", "hint": "The wood feels brittle and too thin for whatever you might face."},
+        {"label": "drop to the deck", "nextNode": "keeper-surface", "hint": "You press your body flat against the wet planks and hold still."}
+      ]
+    },
+    "calm-passage": {
+      "passage": "The bargeman nods when you tell him the cargo is fine, slow and unconvinced. The barge drifts on through narrowing channels where the reeds press close enough to brush your arms. Lantern-flies cluster thicker here. The hum from the crate grows, subtle and steady, a vibration you feel in the soles of your boots. The channel opens onto a wide glassy pool.",
+      "choices": [
+        {"label": "check the cargo", "nextNode": "reveal-crate", "hint": "The hum nags at you like an itch you cannot quite reach inside."},
+        {"label": "peer into the pool", "nextNode": "keeper-surface", "hint": "The pool is ringed by pale stumps and the surface is far too still."}
+      ]
+    },
+    "charm-lost": {
+      "passage": "The antler charm vanishes beneath the surface. The bargeman lunges for the rail but pulls back, hands trembling. 'You fool,' he breathes. 'That was the only thing keeping us on the right channel.' The barge drifts sideways, caught in a current that was not there before. Reeds scrape the hull on both sides and a gap opens ahead.",
+      "choices": [
+        {"label": "steer with the pole", "nextNode": "shrine-approach", "hint": "You grab the pole and aim for the gap, hoping it leads somewhere."},
+        {"label": "let the current decide", "nextNode": "keeper-surface", "hint": "The marsh decides where you go now, and the barge drifts fast."}
+      ]
+    },
+    "blame-bargeman": {
+      "passage": "The keeper turns its eyeless face toward the bargeman. He screams. He claws at the deck, nails splintering on wet wood, but the keeper is stronger and drags him toward the rail with a terrible slow patience. The barge tips as his body goes over the side. A small splash, almost gentle. The pale shapes scatter and the keeper sinks from view.",
+      "choices": [
+        {"label": "pole downstream", "nextNode": "drift-alone", "hint": "The stern is empty and the barge is yours to steer now."},
+        {"label": "push the crate off", "nextNode": "surrender-sphere", "hint": "Maybe the keeper will be satisfied with the cargo and nothing else."}
+      ]
+    },
+    "defy-keeper": {
+      "passage": "Nothing leaves your mouth. The keeper waits, head tilted, fingers twitching above the marsh. A full minute passes in awful stillness, broken only by the lap of current against the hull. It speaks again, lower now. 'Even refusal is an answer.' Its hand grips the hull and the wood groans. The barge lists. 'We must give it something,' the bargeman hisses.",
+      "choices": [
+        {"label": "open the crate", "nextNode": "crate-opened", "hint": "If the keeper wants what is inside, let it see and choose."},
+        {"label": "surrender the cargo", "nextNode": "surrender-sphere", "hint": "Maybe giving it everything will be enough to end this crossing."}
+      ]
+    },
+    "name-given": {
+      "passage": "The word leaves your lips and the face beneath smiles, a slow crack across smooth skin. The grip on your wrist tightens before releasing with a soft click. Warmth floods up your arm as the marsh learns you, every road walked, every debt unpaid. The bargeman hauls you from the rail. 'It knows your name now,' he says, his face grey.",
+      "choices": [
+        {"label": "run to the cargo", "nextNode": "crate-opened", "hint": "If the keeper comes for you, the crate may be your only bargain."},
+        {"label": "face the keeper", "nextNode": "defy-keeper", "hint": "The shapes beneath the river are all converging on the bow now."}
+      ]
+    },
+    "turn-back": {
+      "passage": "The bargeman stares at you. 'There is no turning back through the fen channels,' he says flatly. 'The current runs one way until dawn.' He is right. The reeds behind the barge have already closed like teeth, and the channel narrows ahead where the hum from the crate grows louder with every yard. Whatever waits downstream, you will meet it.",
+      "choices": [
+        {"label": "prepare for what comes", "nextNode": "reveal-crate", "hint": "If you cannot turn back, you should know what you carry."},
+        {"label": "study the channel", "nextNode": "keeper-surface", "hint": "The narrowing walls press closer and the air grows thick and damp."}
+      ]
+    },
+    "sphere-broken": {
+      "passage": "Glass flies across the deck. The green glow erupts upward, a pillar of brightness that parts the mist for a hundred yards in every direction. The tiny figures spill out, translucent and screaming, spiraling into the sky above the fen. The keeper lets out a sound that shakes the hull to its ribs. The marsh floods over the rails and swallows everything.",
+      "choices": [],
+      "ending": {
+        "title": "Shattered Names",
+        "flavor": "The marsh remembers everyone it takes.",
+        "action": "fall into the deep"
+      }
+    },
+    "sphere-returned": {
+      "passage": "The sphere settles onto the altar with a soft click. Green glow flares once, bright enough to blind, then fades to nothing. The figures inside grow still and dissolve one by one into mist that drifts toward the river. The keeper sinks below the surface without a sound. Dawn breaks pink over the fen. The bargeman nods. 'The debt is paid.'",
+      "choices": [],
+      "ending": {
+        "title": "Debt Paid",
+        "flavor": "Some things were never meant to leave the marsh.",
+        "action": "step off the altar"
+      }
+    },
+    "hold-sphere": {
+      "passage": "The names become a roar. The glow burns through your fingers and into your arms, filling your veins with green fire. You cannot let go. The keeper watches as the sphere pulls your shape against the glass alongside the others. Your hands flatten against the curved wall from inside. The bargeman wraps the sphere in oilcloth and tucks it into the crate.",
+      "choices": [],
+      "ending": {
+        "title": "Another Name",
+        "flavor": "The marsh always collects what it is owed.",
+        "action": "press against the glass"
+      }
+    },
+    "surrender-sphere": {
+      "passage": "The keeper takes the sphere in both hands. Its mouth shapes something you cannot hear and the glow dies instantly. Blackness returns to the fen, heavy as a held breath. When dawn comes you are beached on a mudbank, alone. The bargeman and his craft are gone. Barge tracks lead into the reeds and vanish. You are alive, but the marsh has kept its toll.",
+      "choices": [],
+      "ending": {
+        "title": "Toll Keeper",
+        "flavor": "You walked away, but not everyone did.",
+        "action": "climb off the mud"
+      }
+    },
+    "escape-together": {
+      "passage": "Exhaustion fills your arms but the barge breaks free of the fen and finds open river. Stars reflect on the current. The bargeman collapses against the stern, chest heaving. Neither of you speaks. At the far bank a village glows with hearth-fire. He ties off the barge and looks at you. 'Tell no one what we carried.'",
+      "choices": [],
+      "ending": {
+        "title": "Open River",
+        "flavor": "Some cargo should never be explained.",
+        "action": "tie off the barge"
+      }
+    },
+    "drift-alone": {
+      "passage": "Alone on the barge you grab the pole and drive it hard into the riverbed. The fen stretches in every direction, identical and endless, but the lantern-flies cluster at the bow as if they know the way. The hum has stopped. The shapes are gone. You follow the glow of wings through branching channels until dawn finds you on clear river, alone with the cargo.",
+      "choices": [],
+      "ending": {
+        "title": "Ferryman Now",
+        "flavor": "The marsh always needs someone willing to pole.",
+        "action": "push off from shore"
+      }
+    }
+  }
+}

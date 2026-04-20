@@ -1,0 +1,491 @@
+{
+  "id": "53ea2e58-1950-4aa2-8359-2d5af7eb900e",
+  "title": "Ashenmoor Pit",
+  "description": "A rigged arena tournament and a debt you did not choose. Three fights stand between you and freedom, but the pit master has plans of his own.",
+  "author": "AI",
+  "tags": [
+    "competition",
+    "survival"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-26",
+  "dayOfYear": "04-26",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "You wake on a stone bench in a holding cell beneath the arena of Ashenmoor. Iron bars line the corridor and the roar of a crowd pulses through the ceiling. A guard drops a bundle of leather armor at your feet and says your first bout starts in ten minutes. A brass bell hangs by the cell door. A narrow drain runs along the far wall.",
+      "choices": [
+        {
+          "label": "put on the armor",
+          "nextNode": "gear-up",
+          "hint": "The leather is stiff and cracked but better than bare skin."
+        },
+        {
+          "label": "ring the brass bell",
+          "nextNode": "bell-summon",
+          "hint": "The guard said nothing about the bell but it must be there for a reason."
+        },
+        {
+          "label": "examine the drain",
+          "nextNode": "drain-check",
+          "hint": "The grate is loose and a faint breeze rises from below."
+        }
+      ]
+    },
+    "gear-up": {
+      "passage": "You strap on the leather armor and test its weight. A rack on the wall holds three weapons: a short sword with a chipped edge, a wooden staff bound with iron rings, and a net weighted with lead balls. You can carry one. The crowd above stomps in rhythm and the stone floor trembles with it.",
+      "choices": [
+        {
+          "label": "take the short sword",
+          "nextNode": "arena-first",
+          "hint": "The grip fits your hand and the edge is sharp enough where it counts."
+        },
+        {
+          "label": "take the staff",
+          "nextNode": "arena-first",
+          "hint": "The iron rings give it reach and weight - a defensive fighter's tool."
+        },
+        {
+          "label": "take the net",
+          "nextNode": "arena-first-net",
+          "hint": "The lead weights clink softly as you coil the net over your arm."
+        }
+      ]
+    },
+    "bell-summon": {
+      "passage": "You ring the bell and a thin woman in a red robe appears on the other side of the bars. She calls herself Maren and says she handles bets for the pit master. She offers you a deal: throw your second fight and she will leave a door unlocked after the third. Her eyes are sharp and she does not blink.",
+      "choices": [
+        {
+          "label": "accept the deal",
+          "nextNode": "deal-accepted",
+          "hint": "Maren slides a small iron key through the bars and vanishes."
+        },
+        {
+          "label": "refuse the deal",
+          "nextNode": "gear-up",
+          "hint": "You turn your back on her and reach for the armor instead."
+        }
+      ]
+    },
+    "drain-check": {
+      "passage": "You pry the grate loose and peer into the drain. It drops straight down into darkness and the smell of stale water rises to meet you. A rope would make it safe but you have nothing. You could jump and risk the landing or wait and find rope later. The crowd noise swells as the first bout draws near.",
+      "choices": [
+        {
+          "label": "jump into the drain",
+          "nextNode": "drain-escape",
+          "hint": "You lower yourself to the edge and let go into the black."
+        },
+        {
+          "label": "gear up instead",
+          "nextNode": "gear-up",
+          "hint": "Better to face the arena than break your legs in the dark."
+        }
+      ]
+    },
+    "deal-accepted": {
+      "passage": "Maren nods once and disappears into the corridor. You pocket the iron key and strap on the armor. The guard returns and leads you up a ramp into blinding daylight. The arena is a sand pit ringed with wooden stands packed with screaming faces. Your first opponent waits across the ring - a tall woman with a spear.",
+      "choices": [
+        {
+          "label": "charge forward",
+          "nextNode": "fight-one-charge",
+          "hint": "You lower your shoulder and sprint across the hot sand."
+        },
+        {
+          "label": "circle and wait",
+          "nextNode": "fight-one-careful",
+          "hint": "You keep your guard high and let her make the first move."
+        }
+      ]
+    },
+    "arena-first": {
+      "passage": "The guard leads you up a stone ramp and the noise hits you like a wall. The arena is a circle of packed sand under an open sky. Wooden stands hold hundreds of cheering spectators. Across the ring stands a tall woman with a spear and a calm expression. The pit master watches from a raised box draped in red cloth.",
+      "choices": [
+        {
+          "label": "charge forward",
+          "nextNode": "fight-one-charge",
+          "hint": "You lower your shoulder and sprint across the hot sand."
+        },
+        {
+          "label": "circle and wait",
+          "nextNode": "fight-one-careful",
+          "hint": "You keep your guard high and let her make the first move."
+        }
+      ]
+    },
+    "arena-first-net": {
+      "passage": "The guard leads you into the arena and the crowd roars. Sand crunches under your boots and the sun is blinding after the dark cell. Your opponent is a tall woman with a spear. She eyes your net with caution and keeps her distance. The pit master leans forward in his box with a golden cup in hand.",
+      "choices": [
+        {
+          "label": "throw the net",
+          "nextNode": "fight-one-careful",
+          "hint": "You whip the net wide and the lead weights fan out in the sun."
+        },
+        {
+          "label": "close the distance",
+          "nextNode": "fight-one-charge",
+          "hint": "A net is useless at range if she can dodge - you need to be close."
+        }
+      ]
+    },
+    "fight-one-charge": {
+      "passage": "You rush in fast and catch her off guard. The spear jabs wide and you get inside its reach. A quick strike to her shield arm sends the spear clattering. The crowd screams. She yields with a raised fist and the pit master signals the end. A bell rings and guards escort you back to the cells. One down, two to go.",
+      "choices": [
+        {
+          "label": "rest in the cell",
+          "nextNode": "between-rounds",
+          "hint": "Your muscles ache and a bruise is forming on your ribs."
+        },
+        {
+          "label": "explore the corridor",
+          "nextNode": "corridor-explore",
+          "hint": "The guards seem busy and the corridor stretches into shadow."
+        }
+      ]
+    },
+    "fight-one-careful": {
+      "passage": "You circle each other on the hot sand. She probes with quick jabs and you parry each one. The crowd grows restless. When she overreaches you step inside and sweep her legs from under her. She hits the sand hard and the pit master waves a red flag. Your first victory. Guards lead you back below as the crowd cheers.",
+      "choices": [
+        {
+          "label": "rest in the cell",
+          "nextNode": "between-rounds",
+          "hint": "Your muscles ache and a bruise is forming on your ribs."
+        },
+        {
+          "label": "explore the corridor",
+          "nextNode": "corridor-explore",
+          "hint": "The guards seem busy and the corridor stretches into shadow."
+        }
+      ]
+    },
+    "between-rounds": {
+      "passage": "You sit on the stone bench and drink from a clay jug left by the guard. The water is warm but welcome. Through the bars you see other fighters being led past - a huge man with scarred arms and a boy barely old enough to hold a blade. The boy catches your eye and mouths the word help.",
+      "choices": [
+        {
+          "label": "call the boy over",
+          "nextNode": "help-boy",
+          "hint": "You wave him toward the bars while the guards look away."
+        },
+        {
+          "label": "focus on your next fight",
+          "nextNode": "second-fight",
+          "hint": "You cannot save everyone - you need to save yourself first."
+        }
+      ]
+    },
+    "corridor-explore": {
+      "passage": "You slip down the corridor past empty cells and storage rooms. At the end you find a heavy door marked with the pit master's seal. It is locked but the lock is old and loose. Beyond it you hear the clink of coins and low voices. A torch bracket on the wall holds a bent iron rod that might work as a pick.",
+      "choices": [
+        {
+          "label": "pick the lock",
+          "nextNode": "pit-master-room",
+          "hint": "You work the iron rod into the keyhole and feel the tumblers shift."
+        },
+        {
+          "label": "head back to the cell",
+          "nextNode": "between-rounds",
+          "hint": "Footsteps echo behind you and you decide not to press your luck."
+        }
+      ]
+    },
+    "help-boy": {
+      "passage": "The boy whispers through the bars. His name is Tam and he was taken from a farm three days ago. He says the pit master drugs the fighters who win too many bouts to keep the odds unpredictable. He saw them put something in the water jugs. You look at the jug you just drank from.",
+      "choices": [
+        {
+          "label": "find clean water",
+          "nextNode": "second-fight-alert",
+          "hint": "You dump the jug and search the cell for anything else to drink."
+        },
+        {
+          "label": "warn the other fighters",
+          "nextNode": "rally-fighters",
+          "hint": "If the pit master drugs all of you then none of you fight fair."
+        }
+      ]
+    },
+    "drain-escape": {
+      "passage": "You drop through the drain and land hard in ankle-deep water. Pain shoots through your left leg but nothing breaks. A tunnel stretches in both directions lit by pale moss on the walls. To the left you hear flowing water. To the right the tunnel slopes upward toward a faint circle of grey light.",
+      "choices": [
+        {
+          "label": "go toward the light",
+          "nextNode": "tunnel-exit",
+          "hint": "The grey circle grows brighter as you limp forward through the muck."
+        },
+        {
+          "label": "follow the water",
+          "nextNode": "tunnel-deep",
+          "hint": "The current might lead to a river outside the arena grounds."
+        }
+      ]
+    },
+    "pit-master-room": {
+      "passage": "The door swings open into a small room lined with ledgers and coin chests. A roster on the wall lists every fighter and their odds. Your name has a red mark beside it - marked to lose in the final bout. A locked cabinet holds glass vials of pale liquid. A back door leads to the arena balcony above.",
+      "choices": [
+        {
+          "label": "take the roster",
+          "nextNode": "expose-pit-master",
+          "hint": "This ledger could bring the whole operation down if the right people see it."
+        },
+        {
+          "label": "smash the vials",
+          "nextNode": "rally-fighters",
+          "hint": "Glass shatters and the pale liquid hisses as it hits the stone floor."
+        }
+      ]
+    },
+    "second-fight": {
+      "passage": "The guard returns and leads you up the ramp for your second bout. Your opponent is the scarred man you saw in the corridor. He fights with twin hand axes and moves faster than his size suggests. The crowd is louder now. The pit master watches with narrow eyes. The sand is still stained from the last match.",
+      "choices": [
+        {
+          "label": "fight to win",
+          "nextNode": "second-win",
+          "hint": "You raise your weapon and plant your feet in the sand."
+        },
+        {
+          "label": "throw the fight",
+          "nextNode": "second-throw",
+          "hint": "You remember Maren's deal and let your guard drop."
+        }
+      ]
+    },
+    "second-fight-alert": {
+      "passage": "You find a rain barrel in the corridor and drink deep. Your head clears and your hands steady. When the guard comes you feel sharp and ready. Your second opponent is the scarred man with twin axes. He moves fast but his eyes are glassy - the drugged water is slowing him. The crowd does not notice.",
+      "choices": [
+        {
+          "label": "fight clean",
+          "nextNode": "second-win",
+          "hint": "You circle him carefully and wait for the drug to do its work."
+        },
+        {
+          "label": "help him yield",
+          "nextNode": "show-mercy",
+          "hint": "He does not deserve to lose because the pit master cheated."
+        }
+      ]
+    },
+    "rally-fighters": {
+      "passage": "You move from cell to cell telling every fighter about the drugged water and the rigged odds. Anger spreads fast. By the time the guards come for the second bout twelve fighters are ready to move. The corridor fills with grim faces and clenched fists. Tam stays close behind you.",
+      "choices": [
+        {
+          "label": "storm the arena",
+          "nextNode": "revolt-arena",
+          "hint": "You kick open the ramp gate and the crowd falls silent."
+        },
+        {
+          "label": "escape through the drain",
+          "nextNode": "group-escape",
+          "hint": "Twelve fighters and one drain grate - it will be tight but possible."
+        }
+      ]
+    },
+    "second-win": {
+      "passage": "The scarred man is strong but predictable. You dodge the axes and counter with quick strikes to his arms until his grip weakens. He drops to one knee and yields. The crowd erupts. The pit master's expression does not change. A guard whispers that your final opponent is someone special. The pit master's champion.",
+      "choices": [
+        {
+          "label": "prepare for the final",
+          "nextNode": "final-fight",
+          "hint": "You roll your shoulders and walk back to the cell one more time."
+        },
+        {
+          "label": "demand your freedom now",
+          "nextNode": "demand-freedom",
+          "hint": "Two wins should be enough - you never agreed to three."
+        }
+      ]
+    },
+    "second-throw": {
+      "passage": "You make it look good. A stumble here, a missed parry there, and the scarred man catches you with a flat-side blow that sends you to the sand. The crowd boos. But Maren watches from the stands and gives the smallest nod. You limp back to the cells with the iron key pressed against your thigh.",
+      "choices": [
+        {
+          "label": "use the key tonight",
+          "nextNode": "maren-escape",
+          "hint": "When the torches dim you slip the key into the lock and turn it."
+        },
+        {
+          "label": "fight the final bout first",
+          "nextNode": "final-fight",
+          "hint": "Freedom means nothing if you leave without proving yourself."
+        }
+      ]
+    },
+    "show-mercy": {
+      "passage": "You step back and call for the scarred man to yield. He blinks, confused, then drops his axes. The crowd roars with mixed cheers and boos. The pit master stands, furious. A guard tells you the pit master has changed the rules - your final bout will be to the death. Tam grips the bars and watches with wide eyes.",
+      "choices": [
+        {
+          "label": "accept the death match",
+          "nextNode": "final-fight",
+          "hint": "You set your jaw and nod once to the guard."
+        },
+        {
+          "label": "rally the fighters",
+          "nextNode": "rally-fighters",
+          "hint": "If the pit master wants blood he will get a revolt instead."
+        }
+      ]
+    },
+    "tunnel-exit": {
+      "passage": "You climb toward the light and pull yourself through a hole in a crumbling wall. You are outside the arena in a muddy alley behind a tannery. The sounds of the crowd are muffled now. The road north leads to open country. Behind you through the wall you hear the boy Tam calling for help in the cells below.",
+      "choices": [
+        {
+          "label": "leave Ashenmoor",
+          "nextNode": "coward-ending",
+          "hint": "The road is clear and no one has seen you climb out."
+        },
+        {
+          "label": "go back for Tam",
+          "nextNode": "rescue-tam",
+          "hint": "You cannot leave a child in that pit no matter the cost."
+        }
+      ]
+    },
+    "tunnel-deep": {
+      "passage": "You follow the current deeper underground. The tunnel opens into a natural cave where an underground stream flows toward a crack of daylight. Fish dart through the clear water. The crack is wide enough to squeeze through. You can see green hills and a dirt road beyond it. Freedom is ten steps away.",
+      "choices": [],
+      "ending": {
+        "title": "The Hidden Stream",
+        "flavor": "You follow the water out of the dark and never look back.",
+        "action": "squeeze through the crack"
+      }
+    },
+    "final-fight": {
+      "passage": "The final opponent enters the ring in black armor with a two-handed sword. The crowd goes quiet. This is Korran, the pit master's champion, undefeated in forty bouts. He does not taunt or posture. He simply raises his blade and waits. The sand is warm under your boots and the sun is behind him.",
+      "choices": [
+        {
+          "label": "attack first",
+          "nextNode": "champion-aggressive",
+          "hint": "Speed may be your only edge against someone that strong."
+        },
+        {
+          "label": "wait for an opening",
+          "nextNode": "champion-patient",
+          "hint": "A man in heavy armor tires faster than one in leather."
+        }
+      ]
+    },
+    "demand-freedom": {
+      "passage": "You shout to the crowd that you have won your freedom. The pit master laughs and waves his hand. Guards close in from both sides with spears leveled. The crowd falls silent. The pit master says no one leaves Ashenmoor without his permission and the third bout is not optional.",
+      "choices": [
+        {
+          "label": "fight the guards",
+          "nextNode": "revolt-arena",
+          "hint": "If they want a fight you will give them one right here."
+        },
+        {
+          "label": "accept the final bout",
+          "nextNode": "final-fight",
+          "hint": "You lower your hands and let the guards lead you back to the sand."
+        }
+      ]
+    },
+    "maren-escape": {
+      "passage": "The key fits a door at the end of the corridor that opens into a storage tunnel beneath the stands. You follow it to a wooden hatch that lifts into a stable yard. Horses stand saddled and ready. Maren waits in the shadows and hands you a cloak. She says ride north and do not stop until dawn.",
+      "choices": [],
+      "ending": {
+        "title": "The Deal Kept",
+        "flavor": "Maren watches you ride into the dark and turns back to her ledgers.",
+        "action": "ride into the night"
+      }
+    },
+    "revolt-arena": {
+      "passage": "You lead the fighters through the gate and into the arena. The crowd scrambles. Guards rush forward but twelve angry fighters are more than they can handle. The pit master tries to flee his box but Tam trips him with a rope. The city watch arrives and finds the ledgers, the drugs, and the pit master on the sand.",
+      "choices": [],
+      "ending": {
+        "title": "The Pit Falls",
+        "flavor": "Ashenmoor's arena closed that day and never opened again.",
+        "action": "drop your weapon in the sand"
+      }
+    },
+    "group-escape": {
+      "passage": "You lead the fighters down through the drain one by one. Tam goes first because he is smallest. The tunnel is tight but everyone makes it through. You surface in the alley behind the tannery and scatter into the evening crowds. By morning you are all miles away and the pit master's cells are empty.",
+      "choices": [],
+      "ending": {
+        "title": "The Empty Cells",
+        "flavor": "The guards found nothing but open doors and a bent iron grate.",
+        "action": "vanish into the crowd"
+      }
+    },
+    "expose-pit-master": {
+      "passage": "You take the roster and the ledgers and climb to the arena balcony. The crowd stares as you hold the evidence high and read the names aloud - every rigged fight, every drugged fighter, every stolen wager. The pit master bolts for the exit but the city watch is already at the gate. Justice is swift in Ashenmoor.",
+      "choices": [],
+      "ending": {
+        "title": "The Ledger's Truth",
+        "flavor": "The pen brought down what no sword in the arena could.",
+        "action": "hand the roster to the watch"
+      }
+    },
+    "champion-aggressive": {
+      "passage": "You dart in fast and land two quick strikes on Korran's arm. He barely flinches. His counter swing clips your shoulder and sends you rolling through the sand. You recover but your left arm is numb. Korran advances slowly. The crowd holds its breath. One more mistake and this is over.",
+      "choices": [
+        {
+          "label": "go for his legs",
+          "nextNode": "champion-victory",
+          "hint": "Heavy armor means slow recovery if he goes down."
+        },
+        {
+          "label": "yield and live",
+          "nextNode": "yield-ending",
+          "hint": "There is no shame in knowing when the fight is lost."
+        }
+      ]
+    },
+    "champion-patient": {
+      "passage": "You circle Korran for what feels like an age. The heavy armor slows him and sweat drips from under his helm. He swings twice and both strikes hit only air. The third swing is slower and his footing slips in the loose sand. The opening lasts half a breath but it is enough.",
+      "choices": [
+        {
+          "label": "strike now",
+          "nextNode": "champion-victory",
+          "hint": "You lunge forward before he can recover his balance."
+        },
+        {
+          "label": "offer him a chance to yield",
+          "nextNode": "korran-yields",
+          "hint": "He is exhausted and you both know how this ends."
+        }
+      ]
+    },
+    "champion-victory": {
+      "passage": "Your blade catches Korran behind the knee and the big man crashes to the sand. His sword falls from his hand and the crowd erupts. The pit master stands white-faced in his box. You plant your weapon in the ground and raise your fist. Three bouts. Three wins. The gate swings open and daylight floods the tunnel beyond.",
+      "choices": [],
+      "ending": {
+        "title": "Champion of Ashenmoor",
+        "flavor": "The sand remembers every fighter but only the best walk free.",
+        "action": "walk through the gate"
+      }
+    },
+    "yield-ending": {
+      "passage": "You drop your weapon and raise your hands. Korran stops his swing an inch from your neck. The crowd falls silent then erupts in mixed cheers and jeers. The pit master smirks and waves you away. You limp back through the tunnel, still alive. The gate to the street stands open. Sometimes losing is its own kind of victory.",
+      "choices": [],
+      "ending": {
+        "title": "The Wiser Choice",
+        "flavor": "Pride stays in the sand but your bones walk out whole.",
+        "action": "limp through the gate"
+      }
+    },
+    "korran-yields": {
+      "passage": "You hold your blade steady and tell Korran to drop his sword. He stares at you through the slit of his helm then drives his blade into the sand and kneels. The crowd goes wild. The pit master throws his cup in fury. Korran pulls off his helm and nods once. His eyes say thank you.",
+      "choices": [],
+      "ending": {
+        "title": "Two Walk Free",
+        "flavor": "Korran never fought in the pit again and neither did you.",
+        "action": "offer Korran your hand"
+      }
+    },
+    "coward-ending": {
+      "passage": "You pull the cloak tight and walk north without looking back. The arena noise fades behind you and the road opens into quiet farmland. You are free but the boy's voice echoes in your head. Every step forward feels heavier than the last. By nightfall you have stopped walking and you are staring south.",
+      "choices": [],
+      "ending": {
+        "title": "The Weight of Leaving",
+        "flavor": "Freedom without honor is just a longer road to nowhere.",
+        "action": "stare back at the town"
+      }
+    },
+    "rescue-tam": {
+      "passage": "You drop back through the wall and fight your way to the cells. Two guards fall before they realize what is happening. You find Tam and cut his bonds. Together you climb through the drain and out the crumbling wall. The alley is clear and the north road waits. Tam grins and says he knows a farm where you can hide.",
+      "choices": [],
+      "ending": {
+        "title": "The Long Way Home",
+        "flavor": "Tam led you to the farm and you never saw the arena again.",
+        "action": "take Tam's hand and run"
+      }
+    }
+  }
+}

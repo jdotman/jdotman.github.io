@@ -1,0 +1,371 @@
+{
+  "id": "b7e3a1d4-9f52-4c8b-a6e1-3d7f08b2c5a9",
+  "title": "Drowned Beacon",
+  "description": "A lighthouse on the edge of the world has gone dark, and ships are breaking on the rocks. You climb the cliff to relight the flame, but something already lives in the tower.",
+  "author": "AI",
+  "tags": [
+    "mystery",
+    "survival"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-05-03",
+  "dayOfYear": "05-03",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Salt wind tears at your cloak as you climb the coastal path. The lighthouse stands above, its lamp snuffed for three nights now. Below the cliffs, timber from wrecked vessels tangles in the surf. The harbormaster begged you to investigate. A faint blue glow pulses behind the tower's highest window, though the keeper has not answered any signal.",
+      "choices": [
+        {
+          "label": "approach the door",
+          "nextNode": "tower-door",
+          "hint": "Barnacles crust the iron handle, but it turns freely."
+        },
+        {
+          "label": "circle the base",
+          "nextNode": "cliff-edge",
+          "hint": "The rocks here are slick with spray and something darker."
+        },
+        {
+          "label": "call out to the keeper",
+          "nextNode": "no-answer",
+          "hint": "Your voice is swallowed by the crash of waves below."
+        }
+      ]
+    },
+    "tower-door": {
+      "passage": "The oak door swings inward without resistance. A spiral stair climbs into gloom, each step worn smooth by decades of use. Driftwood and rope litter the entry hall. On a hook beside the door hangs the keeper's oilskin coat, still damp. A ledger sits open on a small desk, its last entry half-finished. The blue glow throbs faintly from above.",
+      "choices": [
+        {
+          "label": "read the ledger",
+          "nextNode": "ledger",
+          "hint": "The ink on the final line is still wet."
+        },
+        {
+          "label": "climb the stairs",
+          "nextNode": "mid-tower",
+          "hint": "Each step groans under your weight like a living thing."
+        }
+      ]
+    },
+    "cliff-edge": {
+      "passage": "Jagged rocks ring the tower's base. Tide pools gleam between them, filled with creatures you do not recognize - translucent things that pulse with pale blue luminance. A narrow cave mouth opens in the cliff face, half-hidden by kelp. From inside comes a low hum, steady as breathing. The wreckage of a rowboat lies wedged among the boulders nearby.",
+      "choices": [
+        {
+          "label": "enter the cave",
+          "nextNode": "sea-cave",
+          "hint": "The hum grows louder as you duck beneath the kelp curtain."
+        },
+        {
+          "label": "inspect the rowboat",
+          "nextNode": "rowboat",
+          "hint": "Something is scratched into the hull in frantic letters."
+        }
+      ]
+    },
+    "no-answer": {
+      "passage": "Only the wind replies. Then, after a long pause, a scraping sound drifts down from the tower - like furniture dragged across a floor. A curtain shifts in the mid-level window. Someone or something is inside, and it heard you. The front door drifts open on its own, revealing the entry hall beyond. Retreat feels unwise now.",
+      "choices": [
+        {
+          "label": "step inside",
+          "nextNode": "tower-door",
+          "hint": "The hinges do not creak. Someone has oiled them recently."
+        },
+        {
+          "label": "check the cliffs first",
+          "nextNode": "cliff-edge",
+          "hint": "You want answers before you walk into that tower blind."
+        }
+      ]
+    },
+    "ledger": {
+      "passage": "The keeper's handwriting is steady until the final entry. It reads: Day 41. The glow returns each night from below the rocks. I hear singing when the tide falls. I tried to seal the lantern room but my hands will not obey me. The pen trails off into a long scratch across the page. Beside the ledger sits a brass key.",
+      "choices": [
+        {
+          "label": "take the key",
+          "nextNode": "mid-tower",
+          "hint": "The brass is warm, as if someone held it moments ago."
+        },
+        {
+          "label": "search the desk drawers",
+          "nextNode": "desk-find",
+          "hint": "The bottom drawer rattles when you pull it."
+        }
+      ]
+    },
+    "mid-tower": {
+      "passage": "Halfway up, the stair opens into the keeper's quarters. A cot lies overturned. Charts paper the walls, covered in frantic markings - tidal patterns circled in red ink, dates crossed out. A locked chest sits beneath the window. Through the glass you see the wrecks below, their masts jutting from the surf like fingers. The blue glow brightens overhead, and the humming starts.",
+      "choices": [
+        {
+          "label": "open the chest",
+          "nextNode": "chest-contents",
+          "hint": "The lock yields with a click that echoes up the stair."
+        },
+        {
+          "label": "continue upward",
+          "nextNode": "lantern-room",
+          "hint": "The humming grows until your teeth ache from it."
+        },
+        {
+          "label": "study the charts",
+          "nextNode": "chart-clue",
+          "hint": "One chart has a phrase written over and over in the margins."
+        }
+      ]
+    },
+    "sea-cave": {
+      "passage": "Brine drips from the ceiling as you wade through ankle-deep water. The cave walls are streaked with the same luminance you saw in the tide pools. It coats the rock like frost. Deeper in, the passage widens into a grotto where something large rests on a shelf of stone - a creature coiled like an eel, its skin flickering with pale fire.",
+      "choices": [
+        {
+          "label": "speak to the creature",
+          "nextNode": "creature-talk",
+          "hint": "Its head lifts slowly, and one vast eye finds you."
+        },
+        {
+          "label": "back away quietly",
+          "nextNode": "cave-retreat",
+          "hint": "Your heel catches a loose stone that splashes into the pool."
+        }
+      ]
+    },
+    "rowboat": {
+      "passage": "Scratched into the hull in shaking letters: DO NOT RELIGHT THE FLAME. IT FEEDS ON THE FIRE. The boat's oars are snapped clean in half, and claw marks rake the gunwale in parallel grooves. Whatever attacked this vessel came from below. A rope trail leads from the boat up toward the tower door, as if someone crawled the distance.",
+      "choices": [
+        {
+          "label": "follow the rope",
+          "nextNode": "tower-door",
+          "hint": "The rope is frayed and crusted with dried salt."
+        },
+        {
+          "label": "explore the cave nearby",
+          "nextNode": "sea-cave",
+          "hint": "The humming from the cliff face pulls at your attention."
+        }
+      ]
+    },
+    "desk-find": {
+      "passage": "Inside the drawer you find a glass vial of murky seawater and a folded note. The note reads: If the creature wakes, do not feed it flame. Starve the lantern. Let the tower go dim. Seal the cave at low tide. The harbormaster knows. Beneath the note lies a bundle of waxed fuses and a tinderbox.",
+      "choices": [
+        {
+          "label": "pocket the supplies",
+          "nextNode": "mid-tower",
+          "hint": "The fuses smell of sulfur and old tar."
+        },
+        {
+          "label": "head to the cave",
+          "nextNode": "sea-cave",
+          "hint": "If the creature is real, you need to see it yourself."
+        }
+      ]
+    },
+    "chest-contents": {
+      "passage": "The chest holds the keeper's emergency kit: a signal mirror, dried rations, and a jar of thick amber oil labeled PURE FUEL. A second note is tucked beneath the oil. It warns that the creature below the rocks draws strength from the lighthouse flame. Each night it burns, the thing grows larger. The keeper planned to destroy the lamp, not repair it.",
+      "choices": [
+        {
+          "label": "take the oil upstairs",
+          "nextNode": "lantern-room",
+          "hint": "The jar is heavy and warm against your ribs."
+        },
+        {
+          "label": "descend to the cave",
+          "nextNode": "sea-cave",
+          "hint": "You need to face what lives beneath this tower."
+        }
+      ]
+    },
+    "chart-clue": {
+      "passage": "One phrase repeats across every margin: the flame is its heartbeat. Tidal charts show the creature's activity spiking each night the lamp burns. A crude map marks the cave entrance below the cliffs and labels it NEST. The keeper has drawn a plan - collapse the cave with blasting fuses at low tide, then douse the lamp forever. Low tide arrives in an hour.",
+      "choices": [
+        {
+          "label": "go to the lantern room",
+          "nextNode": "lantern-room",
+          "hint": "You climb with purpose now, each step deliberate."
+        },
+        {
+          "label": "head for the cave",
+          "nextNode": "sea-cave",
+          "hint": "If you collapse the nest, the creature loses its shelter."
+        }
+      ]
+    },
+    "lantern-room": {
+      "passage": "The great brass lamp dominates the round chamber. Its wick is cold but the housing glows with that blue luminance, pulsing like a heartbeat. The keeper stands at the far window, motionless, facing the sea. His eyes are open but glazed, and tendrils of blue thread across his skin like veins. He murmurs something about feeding the flame.",
+      "choices": [
+        {
+          "label": "shake the keeper",
+          "nextNode": "wake-keeper",
+          "hint": "His skin is frigid beneath your grip."
+        },
+        {
+          "label": "smash the lamp",
+          "nextNode": "smash-lamp",
+          "hint": "Your fist tightens around the nearest heavy tool."
+        },
+        {
+          "label": "light the wick",
+          "nextNode": "feed-flame",
+          "hint": "Ships are dying out there. The harbor needs this beam."
+        }
+      ]
+    },
+    "creature-talk": {
+      "passage": "The creature speaks without moving its mouth. Its voice fills the grotto like a tide rolling in. It tells you the lighthouse was built on its resting place. For years the flame fed it, and now it is nearly strong enough to leave. It offers a bargain - relight the lamp one final night and it departs. Let the flame die and it stays forever, trapped and furious.",
+      "choices": [
+        {
+          "label": "accept the bargain",
+          "nextNode": "bargain-path",
+          "hint": "Its eye narrows with something like gratitude."
+        },
+        {
+          "label": "refuse and leave",
+          "nextNode": "cave-retreat",
+          "hint": "You do not trust a thing that feeds on fire."
+        },
+        {
+          "label": "ask about the keeper",
+          "nextNode": "creature-keeper",
+          "hint": "The creature hesitates before answering."
+        }
+      ]
+    },
+    "cave-retreat": {
+      "passage": "You scramble back through the shallows. The humming rises to a shriek behind you, and the tide pool creatures scatter. Outside, the wind has shifted. Clouds roll in from the north, blotting out the stars. The tower looms above, its dead lamp a black eye against the sky. You can still climb up and end this, one way or another.",
+      "choices": [
+        {
+          "label": "climb to the lamp",
+          "nextNode": "lantern-room",
+          "hint": "The stair is steeper than you remember."
+        },
+        {
+          "label": "seal the cave entrance",
+          "nextNode": "seal-cave",
+          "hint": "You gather loose stones and begin to stack them."
+        }
+      ]
+    },
+    "creature-keeper": {
+      "passage": "The creature tells you the keeper resisted for weeks. He tried to starve the lamp, but the creature reached through the flame's residue and took hold of his will. He is alive but tangled in its grip. If the creature departs, the keeper wakes. If it stays, the keeper fades. The choice rests with you - one final lighting, or eternal stillness for the tower.",
+      "choices": [
+        {
+          "label": "agree to relight",
+          "nextNode": "bargain-path",
+          "hint": "You nod, and the grotto dims as if in approval."
+        },
+        {
+          "label": "collapse the cave instead",
+          "nextNode": "seal-cave",
+          "hint": "You turn your back on the bargain and wade out."
+        }
+      ]
+    },
+    "wake-keeper": {
+      "passage": "You grab his shoulders and shake hard. His head rolls, and for a moment his eyes clear. He grips your wrist with desperate strength. The flame creature has him, he whispers. He begs you to destroy the lamp before the tide turns. Then the blue threads tighten across his face and his gaze goes vacant again. He reaches for the tinderbox on the sill.",
+      "choices": [
+        {
+          "label": "grab the tinderbox first",
+          "nextNode": "smash-lamp",
+          "hint": "Your hand closes over it just before his does."
+        },
+        {
+          "label": "let him light it",
+          "nextNode": "feed-flame",
+          "hint": "His fingers tremble as they find the striker."
+        }
+      ]
+    },
+    "smash-lamp": {
+      "passage": "You swing a wrench into the brass housing. Glass shatters across the floor and the blue glow spills out like liquid, pooling at your feet before it fades. A shriek rises from below the cliffs, shaking the walls. The keeper collapses, breathing hard, the threads vanishing from his skin. The lamp is ruined beyond repair. No flame will ever burn here again.",
+      "choices": [
+        {
+          "label": "help the keeper up",
+          "nextNode": "ending-dark-tower",
+          "hint": "He leans on your arm, blinking as if waking from a dream."
+        }
+      ]
+    },
+    "feed-flame": {
+      "passage": "The wick catches and golden fire fills the chamber. The beam sweeps out to sea, bright and steady. Below, the creature screams with what might be joy. The tower shudders as something massive pulls free from the rocks beneath. The keeper smiles, still entranced, as the blue glow drains from his skin and pours into the blaze. The lamp blazes white-hot.",
+      "choices": [
+        {
+          "label": "flee the tower",
+          "nextNode": "ending-released",
+          "hint": "The stairs rattle beneath your boots as you run."
+        },
+        {
+          "label": "douse the flame now",
+          "nextNode": "ending-too-late",
+          "hint": "You lunge for the wick but heat pushes you back."
+        }
+      ]
+    },
+    "bargain-path": {
+      "passage": "You climb back to the lantern room with the creature's promise ringing in your skull. The keeper still stands at the window, motionless. The lamp housing waits, cold and ready. If you pour in the oil and strike a spark, the creature says it will leave at dawn. One night. The harbor needs the beam tonight regardless - three ships are due before morning.",
+      "choices": [
+        {
+          "label": "light the lamp",
+          "nextNode": "ending-bargain-kept",
+          "hint": "The oil catches with a soft whoosh."
+        },
+        {
+          "label": "break the lamp instead",
+          "nextNode": "smash-lamp",
+          "hint": "Promises from creatures below the rocks mean nothing."
+        }
+      ]
+    },
+    "seal-cave": {
+      "passage": "You stack boulders across the cave mouth as the tide recedes. The fuses from the keeper's desk catch on the first strike, and you wedge them between the rocks. The blast brings the overhang crashing down, sealing the entrance in a cascade of rubble and spray. The humming stops. Stillness settles over the cove, broken only by the rhythm of waves.",
+      "choices": [
+        {
+          "label": "return to the tower",
+          "nextNode": "ending-sealed",
+          "hint": "Dust coats your hands as you climb the path."
+        }
+      ]
+    },
+    "ending-dark-tower": {
+      "passage": "The keeper recovers slowly in the weeks that follow. The harbor builds a new signal - a bonfire platform on the headland, far from the tower. The lighthouse stands empty now, its broken lamp a reminder. Ships navigate by the bonfire's glow. You visit the keeper sometimes. He never looks at the tower, but he always faces the sea.",
+      "choices": [],
+      "ending": {
+        "title": "The Darkened Beacon",
+        "flavor": "Some flames are better left unlit.",
+        "action": "walk away from the tower"
+      }
+    },
+    "ending-released": {
+      "passage": "You burst from the tower door as something vast and luminous erupts from the cliff face. It spirals upward, trailing blue fire, and vanishes into the clouds. The lighthouse cracks down its center. The keeper stumbles out behind you, dazed but free. In the harbor, lanterns appear as villagers emerge to stare. The creature is gone. The tower will never stand again.",
+      "choices": [],
+      "ending": {
+        "title": "The Broken Spire",
+        "flavor": "The thing that lived beneath is free, and the cost is carved in stone.",
+        "action": "watch it disappear"
+      }
+    },
+    "ending-too-late": {
+      "passage": "The flame roars beyond control. You shield your face as the lamp housing melts and the creature tears free from the rocks below in a burst of blue fire. The tower groans and tilts. You grab the keeper and throw yourself down the stairs as masonry crumbles around you. Outside, the creature rises and turns its gaze toward the harbor.",
+      "choices": [],
+      "ending": {
+        "title": "The Hungry Tide",
+        "flavor": "You save the keeper but set something far worse upon the coast.",
+        "action": "run for the harbor"
+      }
+    },
+    "ending-bargain-kept": {
+      "passage": "The lamp burns through the night. Three ships pass safely, their crews waving at the beam. At dawn, the blue glow drains from the housing and sinks through the floor. The keeper gasps and falls to his knees, clear-eyed at last. Below the cliffs, the tide pools are empty. The creature kept its word. You stand together in the morning glow, breathing freely.",
+      "choices": [],
+      "ending": {
+        "title": "The Final Watch",
+        "flavor": "Trust is a strange currency, but tonight it bought three ships safe harbor.",
+        "action": "greet the dawn"
+      }
+    },
+    "ending-sealed": {
+      "passage": "The cave is buried. The creature thrashes beneath tons of rock, its hum fading to a distant tremor. In the tower, the keeper wakes with no memory of the past month. The lamp stays cold. You explain what you can. He nods, asks no questions, and begins packing his belongings. The harbor will need a new keeper and a new way to guide ships home.",
+      "choices": [],
+      "ending": {
+        "title": "Buried Below",
+        "flavor": "The thing still breathes under the rubble, but for now the coast is quiet.",
+        "action": "seal the tower door"
+      }
+    }
+  }
+}

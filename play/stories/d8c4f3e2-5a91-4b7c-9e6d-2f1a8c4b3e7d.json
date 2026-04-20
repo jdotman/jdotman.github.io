@@ -1,0 +1,300 @@
+{
+  "id": "d8c4f3e2-5a91-4b7c-9e6d-2f1a8c4b3e7d",
+  "title": "Hollow Star",
+  "description": "A fallen star burns in the Brackmoor and the villages downwind have begun to forget their dead. You walk into the moor with a lantern and a debt of mercy.",
+  "author": "AI",
+  "tags": [
+    "exploration",
+    "sacrifice"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-05-12",
+  "dayOfYear": "05-12",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Lantern light catches white moths. The reeds keep their secrets. A fallen star burns in the Brackmoor mire, three nights deep now, and the villages downwind have started to forget their dead. You walk alone through wet moss toward the dim glow ahead. Three paths break from the shrine post: bog, crow trail, and a thread of woodsmoke.",
+      "choices": [
+        {
+          "label": "head into the bog",
+          "nextNode": "bog-path",
+          "hint": "Black mire pulls at your boots with the very first step."
+        },
+        {
+          "label": "follow the crow trail",
+          "nextNode": "crow-trail",
+          "hint": "The birds watch you but make no sound at all."
+        },
+        {
+          "label": "visit the smoke",
+          "nextNode": "hermit-hut",
+          "hint": "The smell of dried herbs reaches you before the door does."
+        }
+      ]
+    },
+    "bog-path": {
+      "passage": "The path narrows. Peat sucks at your heels and stars overhead waver as if the sky has caught a fever. To one side, a shrine of stacked stones leans into the mud, half-hidden by reeds. The glow waits beyond a stretch of black water. The wet ground breathes around you, slow and patient.",
+      "choices": [
+        {
+          "label": "wade toward the glow",
+          "nextNode": "crater-rim",
+          "hint": "Mire grips your knees harder with every forward step."
+        },
+        {
+          "label": "detour to the shrine",
+          "nextNode": "bog-shrine",
+          "hint": "The reeds part for you as if they have been waiting."
+        }
+      ]
+    },
+    "bog-shrine": {
+      "passage": "The shrine is little more than a pilgrim's resting place, but a pilgrim slumps against it now, pale and still. A jagged star-shard is folded between his hands, glowing soft as a coal. His face is the face of someone who has finished an argument and lost. The shrine bowl beside him holds clear rain that does not ripple.",
+      "choices": [
+        {
+          "label": "pry the shard free",
+          "nextNode": "fragment-pocket",
+          "hint": "His fingers come open easier than any dead man's should."
+        },
+        {
+          "label": "press on toward the crater",
+          "nextNode": "crater-rim",
+          "hint": "You leave the pilgrim with the still rain for company."
+        }
+      ]
+    },
+    "crow-trail": {
+      "passage": "The crows perch on every withered branch and not one of them calls. Their black eyes follow you. Reed grass thins into a stand of oaks scorched on the eastern side, leaves curled like burnt paper. A narrow gap leads in. From within, you hear the slow drip of sap and a faint, distant hum, like a bell still ringing.",
+      "choices": [
+        {
+          "label": "enter the burnt grove",
+          "nextNode": "burned-grove",
+          "hint": "The ash crunches softly under your boots as you step in."
+        },
+        {
+          "label": "circle around the trees",
+          "nextNode": "crater-rim",
+          "hint": "You keep the dead grove at your shoulder and walk wide."
+        }
+      ]
+    },
+    "burned-grove": {
+      "passage": "Inside the grove, ash drifts like dry snow. The oaks are split open, sap glowing faintly inside the cracks, as if each tree has swallowed a coal that will not cool. At the center stands a low altar of moss-grown stone, a shallow bowl carved into its top. Something pale moves in the bowl, slow and patient, breathing.",
+      "choices": [
+        {
+          "label": "approach the altar",
+          "nextNode": "grove-altar",
+          "hint": "Whatever waits in the bowl shifts to face you as you near."
+        },
+        {
+          "label": "skirt the clearing",
+          "nextNode": "crater-rim",
+          "hint": "You keep your back to the cracked oaks as you slip past."
+        }
+      ]
+    },
+    "grove-altar": {
+      "passage": "The pale thing in the bowl is a hand. A small white hand, fingers folded as if asleep, with no body attached and no blood at the wrist. It opens once when your shadow falls across it. On the rim of the altar, three coins of dull silver lie waiting. Behind you, the crater glow throbs like a heart.",
+      "choices": [
+        {
+          "label": "pocket the coins",
+          "nextNode": "ending-cursed-gift",
+          "hint": "The silver is colder than the ground beneath your boots."
+        },
+        {
+          "label": "leave an offering",
+          "nextNode": "altar-pact",
+          "hint": "You set your own coin in the bowl and the hand closes around it."
+        },
+        {
+          "label": "back away slowly",
+          "nextNode": "crater-rim",
+          "hint": "Your eyes never leave the breathing bowl as you retreat."
+        }
+      ]
+    },
+    "altar-pact": {
+      "passage": "You set a copper coin in the bowl. The pale hand closes around it gently, the way a child closes a fist around a moth. Then it sinks under the silver, and a small white bone surfaces in its place, polished smooth and shaped like a tiny key. The grove's hum quiets, just for you, just enough.",
+      "choices": [
+        {
+          "label": "take the bone marker",
+          "nextNode": "crater-rim",
+          "hint": "It rests warm against your ribs as you walk on."
+        },
+        {
+          "label": "drop it and run",
+          "nextNode": "ending-coward",
+          "hint": "Your boots find the path home before your mind does."
+        }
+      ]
+    },
+    "hermit-hut": {
+      "passage": "Smoke curls from a stone chimney barely taller than you. The hut leans into a thicket of bog willow, herbs hung in bunches from the eaves. The door stands open. Inside, an old woman in a patched robe sits cross-legged before a low fire, eyes shut, lips moving. She does not look up, but she says your name.",
+      "choices": [
+        {
+          "label": "step inside",
+          "nextNode": "hermit-tale",
+          "hint": "The herb-smoke wraps around you like a familiar shawl."
+        },
+        {
+          "label": "turn back to the bog",
+          "nextNode": "ending-coward",
+          "hint": "Her closed eyes seem to follow you somehow as you retreat."
+        }
+      ]
+    },
+    "hermit-tale": {
+      "passage": "She offers you a stool and tea that smells like pine and grief. The star is older than the kingdoms, she says, and very tired. It does not mean to take memories. It only mistakes them for kindling. Tonight she will sit a vigil to keep the dying spark warm without feeding it. She asks if you will sit with her.",
+      "choices": [
+        {
+          "label": "agree to the vigil",
+          "nextNode": "hermit-vigil",
+          "hint": "She nods once and presses a clay cup into your hands."
+        },
+        {
+          "label": "go to the crater alone",
+          "nextNode": "crater-rim",
+          "hint": "Her face does not change, but the room feels colder behind you."
+        },
+        {
+          "label": "refuse and go home",
+          "nextNode": "ending-coward",
+          "hint": "You step back into the night with her tea still in your throat."
+        }
+      ]
+    },
+    "hermit-vigil": {
+      "passage": "She closes the door and unhooks a candle as long as your forearm. The wick takes light from her thumb. You sit. The hut warms. Hours pass. The candle burns even but never shrinks, and the small hum of the dying star reaches you here, faint as a moth at a window. Her lips move in a soundless song.",
+      "choices": [
+        {
+          "label": "join her song",
+          "nextNode": "ending-wakeful",
+          "hint": "Your throat finds the note before your mind does."
+        },
+        {
+          "label": "slip out to the crater",
+          "nextNode": "crater-rim",
+          "hint": "The door closes behind you with the smallest of clicks."
+        }
+      ]
+    },
+    "crater-rim": {
+      "passage": "The crater is wider than a village square and shallow, ringed by glassy soil. At its center, a husk lies broken open like a fallen acorn. Inside the husk something moves: not flame, not water, a slow grace as gentle as breath. Roots dangle down the inner wall, thick enough to climb. The hum here is louder, almost a voice.",
+      "choices": [
+        {
+          "label": "climb down the roots",
+          "nextNode": "crater-descent",
+          "hint": "The roots tremble in your grip as if listening for you."
+        },
+        {
+          "label": "chip a shard free",
+          "nextNode": "fragment-pocket",
+          "hint": "A piece breaks off with the brittle snap of frost."
+        }
+      ]
+    },
+    "crater-descent": {
+      "passage": "The roots are warm. They flex under your hands like sleeping snakes but they hold. Halfway down, the air thickens with that not-quite-voice, and you taste something faintly sweet at the back of your throat. The husk gapes open at the bottom, wide enough to step into, and the glow inside moves to meet you, slow and curious.",
+      "choices": [
+        {
+          "label": "walk into the light",
+          "nextNode": "husk-center",
+          "hint": "The sweetness on your tongue grows stronger with each step."
+        },
+        {
+          "label": "scoop up some glass",
+          "nextNode": "fragment-pocket",
+          "hint": "The crater floor crackles like ice as you kneel."
+        }
+      ]
+    },
+    "fragment-pocket": {
+      "passage": "The shard burns cold in your palm. It hums a chord you almost recognize, the way a name almost surfaces in a dream. Whoever held it last has fallen quiet. To the west, the village lights still burn. To the east, the crater pulses brighter, as if it senses a piece is missing from itself.",
+      "choices": [
+        {
+          "label": "carry it home",
+          "nextNode": "ending-cursed-gift",
+          "hint": "The chord in the shard begins to match your heartbeat."
+        },
+        {
+          "label": "return to the crater",
+          "nextNode": "crater-rim",
+          "hint": "The shard grows colder with every step toward the glow."
+        }
+      ]
+    },
+    "husk-center": {
+      "passage": "The light is the size of a child curled up in straw. It has no face but it turns its attention on you, and you feel something small in your chest answer back. The hum becomes words you almost catch. It is dying. You can feel that, the way you feel a fire going to embers in an empty room.",
+      "choices": [
+        {
+          "label": "give it your name",
+          "nextNode": "ending-nameless",
+          "hint": "The word leaves your mouth and the husk flares hungry."
+        },
+        {
+          "label": "listen to the song",
+          "nextNode": "ending-bargain",
+          "hint": "You sit cross-legged in the glass and let it sing."
+        },
+        {
+          "label": "strike it with iron",
+          "nextNode": "ending-extinguished",
+          "hint": "Your blade trembles in your grip as you raise it."
+        }
+      ]
+    },
+    "ending-nameless": {
+      "passage": "The light reaches into your throat and lifts the word out, gentle as a midwife. Your name leaves you. You feel it go, and feel something older fold itself around the empty place. The husk fills with steady fire. Above the crater, the sky stops shaking. A child you cannot remember calls a stranger by your name.",
+      "choices": [],
+      "ending": {
+        "title": "The Nameless Savior",
+        "flavor": "The moor remembers a stranger who once walked it.",
+        "action": "give your name away"
+      }
+    },
+    "ending-bargain": {
+      "passage": "You sit cross-legged in the glass and let the song wash over you. It pours pieces of itself into you in trade for pieces of you. When you stand, the husk is dim but warm, and you are quieter inside than you have ever been. You walk back through the moor, carrying songs that are not yours.",
+      "choices": [],
+      "ending": {
+        "title": "Songs Not Your Own",
+        "flavor": "Some bargains leave the seller richer than the buyer.",
+        "action": "carry the song home"
+      }
+    },
+    "ending-extinguished": {
+      "passage": "Iron meets the glow. The blade rings as if struck against a temple bell. The pale fire shudders, gathers itself once like a held breath, and goes out. The husk dulls to ordinary stone in your hands. Above the crater, the stars steady. Below it, every memory the star holds crumbles to fine ash that sticks to your lips.",
+      "choices": [],
+      "ending": {
+        "title": "The Quiet Crater",
+        "flavor": "Some lights die before they can be saved.",
+        "action": "drive the iron home"
+      }
+    },
+    "ending-cursed-gift": {
+      "passage": "You walk back through the bog with the shard wrapped in cloth. The village windows are warm but the doors do not open. Your sister stares at you from the threshold, polite as a stranger. You hold out the gift you carry for her. The shard hums in her palm, then in her chest. The forgetting spreads house to house like flour in water.",
+      "choices": [],
+      "ending": {
+        "title": "The Bright Burden",
+        "flavor": "Some gifts are easier to give than to ungive.",
+        "action": "press it into her hand"
+      }
+    },
+    "ending-wakeful": {
+      "passage": "Dawn comes the way it always does, slow and grey. The candle still burns and the hum of the dying star has faded to a thread. The hermit opens her eyes. Her hair has gone whiter overnight. So has yours, in places. The villages downwind will wake remembering everyone they mourn. You remember a few new strangers as if they were kin.",
+      "choices": [],
+      "ending": {
+        "title": "The Held Vigil",
+        "flavor": "Mercy is mostly the choice to stay awake.",
+        "action": "watch the night through"
+      }
+    },
+    "ending-coward": {
+      "passage": "The path home is shorter than you remember. Behind you, the glow does whatever glows do when no one watches. Tomorrow, more villages will forget more dead. None of those forgettings will be yours. You tell yourself that. The wind tells you something else, and you walk faster, and faster, and you do not look back.",
+      "choices": [],
+      "ending": {
+        "title": "Long Walk Home",
+        "flavor": "Some doors close behind you whether you slam them or not.",
+        "action": "turn from the moor"
+      }
+    }
+  }
+}

@@ -1,0 +1,426 @@
+{
+  "id": "a7e3f1c9-8d2b-4a5e-b6c0-4f9d1e8a3b7c",
+  "title": "Copper Flagon",
+  "description": "A silver locket has vanished from behind the bar of a crossroads inn. Five guests, one thief, and a long rainy night to sort the truth from the lies.",
+  "author": "AI",
+  "tags": [
+    "slice-of-life",
+    "mystery"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-16",
+  "dayOfYear": "04-16",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Rain hammers the road as you push through the door of the Copper Flagon. The common room is warm and full of smoke and low conversation. The innkeeper, a broad woman named Brenna, meets your eyes with a look that says she needs help. Five guests sit scattered among the tables.",
+      "choices": [
+        {
+          "label": "offer to help Brenna",
+          "nextNode": "offer-help",
+          "hint": "She glances toward the bar and beckons you closer with one hand."
+        },
+        {
+          "label": "take a seat first",
+          "nextNode": "common-room",
+          "hint": "You pull out a chair and let the room settle around you."
+        },
+        {
+          "label": "ask about the guests",
+          "nextNode": "guest-list",
+          "hint": "Brenna lowers her voice and leans across the counter toward you."
+        }
+      ]
+    },
+    "offer-help": {
+      "passage": "Brenna pulls you aside and speaks low. Her grandmother's silver locket vanished from its hook behind the bar sometime today. She cannot accuse anyone without proof but she is certain one of her five guests took it. A merchant, a minstrel, a soldier, a pilgrim, and a hedge witch. All arrived before you.",
+      "choices": [
+        {
+          "label": "search behind the bar",
+          "nextNode": "bar-search",
+          "hint": "You duck under the counter and scan the dusty shelves behind it."
+        },
+        {
+          "label": "question the merchant",
+          "nextNode": "merchant-corner",
+          "hint": "The merchant glances up from his coins as you approach."
+        },
+        {
+          "label": "talk to the minstrel",
+          "nextNode": "minstrel-fire",
+          "hint": "The minstrel's lute hums softly as you cross the room."
+        }
+      ]
+    },
+    "common-room": {
+      "passage": "You settle into a chair and watch the room. The merchant counts coins at a corner table. A minstrel tunes a lute by the fire. A soldier drinks alone at the bar, hunched over his cup. A pilgrim kneels in a side alcove. A hooded woman watches everyone from the darkest corner.",
+      "choices": [
+        {
+          "label": "sit with the minstrel",
+          "nextNode": "minstrel-fire",
+          "hint": "The fire is warm and the minstrel seems willing to talk."
+        },
+        {
+          "label": "approach the soldier",
+          "nextNode": "soldier-bar",
+          "hint": "His shoulders are tense and his cup is nearly empty."
+        },
+        {
+          "label": "watch the hooded woman",
+          "nextNode": "hedge-witch",
+          "hint": "Her eyes catch the firelight beneath the edge of her hood."
+        }
+      ]
+    },
+    "guest-list": {
+      "passage": "Brenna describes them in a low voice. Haddon the merchant arrived at dawn for the trade road. Finch the minstrel drifted in at midday. Corporal Vayne has been drinking since noon. Sister Elara is on pilgrimage to the western shrine. The witch called Moss appeared an hour before you. All five remain.",
+      "choices": [
+        {
+          "label": "question the merchant",
+          "nextNode": "merchant-corner",
+          "hint": "Haddon sits counting coins at his table in the far corner."
+        },
+        {
+          "label": "talk to the minstrel",
+          "nextNode": "minstrel-fire",
+          "hint": "Finch strums idle chords beside the crackling fire and nods at you."
+        },
+        {
+          "label": "observe the room",
+          "nextNode": "common-room",
+          "hint": "You step back and let your eyes sweep the common room."
+        }
+      ]
+    },
+    "bar-search": {
+      "passage": "Behind the bar you find an empty hook where the locket hung. A faint scratch on the bartop suggests something was dragged across the wood. On the floor beneath the hook lies a single dried leaf that does not match anything growing near the tavern. Brenna says it was not there this morning.",
+      "choices": [
+        {
+          "label": "examine the leaf",
+          "nextNode": "leaf-clue",
+          "hint": "The leaf is brittle and an unusual shade of green."
+        },
+        {
+          "label": "check the bar stool",
+          "nextNode": "soldier-bar",
+          "hint": "Someone sat here for hours and might have seen something."
+        }
+      ]
+    },
+    "merchant-corner": {
+      "passage": "Haddon the merchant looks up from his coins with a nervous smile. He says he spent the morning writing letters at this table and never went near the bar. He points out that the soldier sat at the bar all day. His pack lies open beside him. Nothing seems hidden.",
+      "choices": [
+        {
+          "label": "press him harder",
+          "nextNode": "merchant-pressed",
+          "hint": "His smile does not reach his eyes and his hands fidget."
+        },
+        {
+          "label": "try the soldier",
+          "nextNode": "soldier-bar",
+          "hint": "The soldier is still hunched over the bar across the room."
+        }
+      ]
+    },
+    "minstrel-fire": {
+      "passage": "Finch strums soft chords and greets you warmly. He arrived at midday and played three sets for the room. He says he noticed the locket and admired the silver work. He was performing in front of everyone all afternoon and several patrons could confirm it. He suggests you speak with the pilgrim.",
+      "choices": [
+        {
+          "label": "find the pilgrim",
+          "nextNode": "pilgrim-alcove",
+          "hint": "You glance toward the side alcove where a woman kneels in prayer."
+        },
+        {
+          "label": "ask what he noticed",
+          "nextNode": "minstrel-clue",
+          "hint": "Finch leans forward as if he has been waiting to tell someone."
+        }
+      ]
+    },
+    "soldier-bar": {
+      "passage": "Corporal Vayne hunches over his cup, deep in his drink. He grunts that he has been at this stool since the rain started. He saw the locket this morning and has no interest in trinkets. His eyes are bloodshot but steady. He nods toward the pilgrim and the hooded witch in the far corner.",
+      "choices": [
+        {
+          "label": "question the pilgrim",
+          "nextNode": "pilgrim-alcove",
+          "hint": "She kneels in the alcove with her head bowed low."
+        },
+        {
+          "label": "check on the witch",
+          "nextNode": "hedge-witch",
+          "hint": "The hooded figure in the corner has not moved once."
+        }
+      ]
+    },
+    "hedge-witch": {
+      "passage": "Moss sits in the darkest corner, sharp eyes tracking every movement in the room. She lowers her hood when you approach. A scar crosses her jaw. She says she arrived an hour ago and knows nothing about any locket. She smells of woodsmoke and crushed herbs. She says dishonesty hangs thick tonight.",
+      "choices": [
+        {
+          "label": "request a reading",
+          "nextNode": "witch-reading",
+          "hint": "Her sharp eyes narrow as if carefully weighing your intent."
+        },
+        {
+          "label": "examine her belongings",
+          "nextNode": "witch-search",
+          "hint": "A woven satchel and bundles of herbs sit beside her."
+        }
+      ]
+    },
+    "leaf-clue": {
+      "passage": "The leaf is from a heartwood elm, a tree that grows only deep in the forest. It is dry but not yet crumbled, perhaps a day old. The witch arrived from that same forest path. And Brenna mentioned the pilgrim reached behind the bar this morning. Two leads worth pressing.",
+      "choices": [
+        {
+          "label": "confront the witch",
+          "nextNode": "hedge-witch",
+          "hint": "The leaf matches the deep forest path she says she traveled."
+        },
+        {
+          "label": "check the pilgrim's route",
+          "nextNode": "pilgrim-alcove",
+          "hint": "The pilgrim was behind the bar when no one watched."
+        }
+      ]
+    },
+    "merchant-pressed": {
+      "passage": "Haddon squirms under your gaze. He admits he did go to the bar to refill his cup this morning but swears he did not take the locket. He adds, voice dropping, that he saw the pilgrim lingering behind the bar while Brenna was busy in the kitchen. He thought nothing of it then.",
+      "choices": [
+        {
+          "label": "confront the pilgrim",
+          "nextNode": "pilgrim-confronted",
+          "hint": "Two people now place her behind the bar this morning."
+        },
+        {
+          "label": "verify with Brenna",
+          "nextNode": "brenna-confirm",
+          "hint": "You want to hear Brenna's side before making a move."
+        }
+      ]
+    },
+    "minstrel-clue": {
+      "passage": "Finch leans close and speaks quietly. Between his second and third set, while he rested by the fire, he saw the pilgrim step behind the bar for a moment. He assumed she was reaching for the water pitcher. When he looked again she was back in her alcove. He cannot say what she carried.",
+      "choices": [
+        {
+          "label": "confront the pilgrim",
+          "nextNode": "pilgrim-confronted",
+          "hint": "The minstrel's account lines up with what you already suspected about her."
+        },
+        {
+          "label": "search her alcove first",
+          "nextNode": "pilgrim-search",
+          "hint": "You want proof in hand before you make your accusation."
+        }
+      ]
+    },
+    "pilgrim-alcove": {
+      "passage": "Sister Elara kneels on a thin mat in a side alcove, her travel pack beside her. She greets you with a warm smile and says she is on pilgrimage to the western shrine. She would never steal, she says. She mentions the hedge witch arrived from the forest path, not the main road.",
+      "choices": [
+        {
+          "label": "search her pack",
+          "nextNode": "pilgrim-search",
+          "hint": "The travel pack sits half open at her side on the floor."
+        },
+        {
+          "label": "question her about the bar",
+          "nextNode": "pilgrim-questioned",
+          "hint": "You wonder if she went behind the bar counter earlier today."
+        }
+      ]
+    },
+    "witch-reading": {
+      "passage": "Moss closes her eyes and breathes deep. She says two people in this room are hiding something. The merchant hides a debt that follows him from town to town. The pilgrim hides something smaller but closer to her skin. Moss opens one sharp eye. That is all she will say without payment.",
+      "choices": [
+        {
+          "label": "pay her a coin",
+          "nextNode": "witch-reveal",
+          "hint": "You fish a silver piece from your belt pouch and hold it out."
+        },
+        {
+          "label": "investigate the pilgrim",
+          "nextNode": "pilgrim-alcove",
+          "hint": "Something smaller and closer to her skin. That is worth a look."
+        }
+      ]
+    },
+    "witch-search": {
+      "passage": "You glance at the items around Moss. A woven satchel, bundles of dried herbs, a gnarled walking stick. Caught in the weave of the satchel is a dried heartwood elm leaf, the same kind you found behind the bar. She came from the deep forest. She notices your stare and does not flinch.",
+      "choices": [
+        {
+          "label": "accuse her of theft",
+          "nextNode": "accuse-witch",
+          "hint": "The leaf ties her to the scene behind the bar."
+        },
+        {
+          "label": "ask about the leaf",
+          "nextNode": "pilgrim-confronted",
+          "hint": "Maybe the leaf means something other than guilt. You press gently."
+        }
+      ]
+    },
+    "pilgrim-confronted": {
+      "passage": "You approach Sister Elara and tell her plainly that two witnesses saw her behind the bar this morning. Her calm expression cracks. She says she was only reaching for the water pitcher. But her hand drifts to her collar where something catches the firelight beneath her robe. She sees you notice.",
+      "choices": [
+        {
+          "label": "ask her to show it",
+          "nextNode": "truth-revealed",
+          "hint": "The glint of metal at her collar is impossible to ignore."
+        },
+        {
+          "label": "speak to her gently",
+          "nextNode": "pilgrim-confession",
+          "hint": "Her expression is fragile, as if she wants to confess."
+        }
+      ]
+    },
+    "pilgrim-search": {
+      "passage": "Elara hesitates, then opens her pack. Folded traveling clothes, bread wrapped in cloth, a leather prayer book. Nothing of value. But as she shifts the prayer book aside you hear a faint metallic clink from beneath her robe near the collar. She freezes. Her hand moves to cover the sound but it is too late.",
+      "choices": [
+        {
+          "label": "demand to see it",
+          "nextNode": "truth-revealed",
+          "hint": "The metallic sound came from just under her robe at the collar."
+        },
+        {
+          "label": "step back for now",
+          "nextNode": "morning-discovery-ending",
+          "hint": "You let the moment pass but you will not forget it."
+        }
+      ]
+    },
+    "pilgrim-questioned": {
+      "passage": "You ask Elara directly if she went behind the bar today. She pauses a breath too long before answering. She says she reached behind the bar for a water pitcher while Brenna was in the kitchen. Nothing more. But a thin chain glints at her neckline that was not visible before.",
+      "choices": [
+        {
+          "label": "ask about the chain",
+          "nextNode": "truth-revealed",
+          "hint": "The thin chain catches the firelight each time she shifts in place."
+        },
+        {
+          "label": "drop the subject",
+          "nextNode": "morning-discovery-ending",
+          "hint": "You nod and walk away, unsure what to do next."
+        }
+      ]
+    },
+    "brenna-confirm": {
+      "passage": "Brenna thinks carefully. She was in the kitchen most of the morning preparing for the caravan. Anyone could have reached behind the bar during that time. But she does remember the pilgrim asking for water and going behind the bar to fetch it herself. That was unusual. Guests usually wait to be served.",
+      "choices": [
+        {
+          "label": "confront the pilgrim",
+          "nextNode": "pilgrim-confronted",
+          "hint": "Brenna's account matches what the merchant told you about the pilgrim."
+        },
+        {
+          "label": "search her alcove",
+          "nextNode": "pilgrim-search",
+          "hint": "You cross the room toward the alcove where the pilgrim kneels."
+        }
+      ]
+    },
+    "accuse-witch": {
+      "passage": "You accuse Moss of the theft. She laughs, a dry rasp, and opens her satchel wide. Herbs, a cracked mirror, feathers, river stones. No locket. The leaf is from her home in the forest, she says. She lives beneath a heartwood elm. She folds her arms. Try the quiet one with the prayers.",
+      "choices": [
+        {
+          "label": "follow her advice",
+          "nextNode": "pilgrim-confronted",
+          "hint": "Maybe the witch is right about the quiet one with the prayers."
+        },
+        {
+          "label": "insist she is guilty",
+          "nextNode": "wrong-accused-ending",
+          "hint": "You refuse to back down despite the empty satchel she showed you."
+        }
+      ]
+    },
+    "witch-reveal": {
+      "passage": "You hand over a silver coin. Moss speaks plainly. The pilgrim is not what she claims. Her pilgrimage is real enough but so is her habit of taking small precious things from every place she visits. The locket is on her right now, beneath her robe at the collar. Moss has no reason to lie.",
+      "choices": [
+        {
+          "label": "confront her quietly",
+          "nextNode": "pilgrim-confession",
+          "hint": "You cross the room quietly and kneel beside the trembling pilgrim."
+        },
+        {
+          "label": "announce it to the room",
+          "nextNode": "truth-revealed",
+          "hint": "You turn and raise your voice for all to hear."
+        }
+      ]
+    },
+    "truth-revealed": {
+      "passage": "The common room falls silent as Elara draws the locket from beneath her robe. Brenna's silver locket, tarnished with age, hangs from a thin chain. Elara does not deny it. Tears spill down her cheeks. She says she could not help herself. She has always taken things. Every town, every inn.",
+      "choices": [
+        {
+          "label": "demand she leave",
+          "nextNode": "justice-ending",
+          "hint": "Brenna's jaw tightens and the whole room holds its breath in silence."
+        },
+        {
+          "label": "show her compassion",
+          "nextNode": "compassion-ending",
+          "hint": "Her trembling hands tell you this runs deeper than greed."
+        }
+      ]
+    },
+    "pilgrim-confession": {
+      "passage": "You draw Elara aside to the quiet of the hallway. You tell her gently that you know. She is silent for a long moment. Then she draws the locket from beneath her robe and holds it in both hands. She says the compulsion has followed her since childhood. She wants to stop.",
+      "choices": [
+        {
+          "label": "help her return it",
+          "nextNode": "compassion-ending",
+          "hint": "You place a steady hand on her shoulder and she exhales."
+        },
+        {
+          "label": "suggest she tell everyone",
+          "nextNode": "shared-meal-ending",
+          "hint": "The truth might be lighter if she shares it openly."
+        }
+      ]
+    },
+    "justice-ending": {
+      "passage": "Brenna takes back her locket and fastens it on the hook where it belongs. She tells Elara to leave by morning and never return to the Copper Flagon. The pilgrim gathers her pack in silence and retreats to her alcove. The common room exhales. The fire crackles. The rain begins to ease.",
+      "choices": [],
+      "ending": {
+        "title": "Order Restored",
+        "flavor": "Justice is simple when the truth is plain.",
+        "action": "hang the locket back"
+      }
+    },
+    "compassion-ending": {
+      "passage": "You help Elara return the locket to Brenna. The innkeeper is angry at first but sees the trembling hands and the tears. She takes the locket and hangs it back on its hook. She tells Elara to stay the night and seek help at the western shrine. Perhaps the priests there can help.",
+      "choices": [],
+      "ending": {
+        "title": "Small Mercy",
+        "flavor": "The hardest thefts to stop are the ones you commit against yourself.",
+        "action": "place the locket gently"
+      }
+    },
+    "wrong-accused-ending": {
+      "passage": "Moss stares at you with cold fury. The room turns against you for pressing a baseless accusation on an innocent woman. Brenna steps in to calm things down but the damage is done. In the morning you wake to find the pilgrim's alcove empty. She left before dawn. The locket is gone with her.",
+      "choices": [],
+      "ending": {
+        "title": "The Wrong Corner",
+        "flavor": "A hasty accusation lets the real thief walk free.",
+        "action": "stare at the empty alcove"
+      }
+    },
+    "morning-discovery-ending": {
+      "passage": "You let the matter rest and take a room for the night. The rain eases by midnight. In the pale morning light Brenna finds her locket tucked beneath a pillow in the pilgrim's empty alcove. Elara is already gone, vanished down the road at first light. The truth arrived one step too late.",
+      "choices": [],
+      "ending": {
+        "title": "Gone by Morning",
+        "flavor": "Some answers only come after the chance to act has passed.",
+        "action": "open the empty alcove"
+      }
+    },
+    "shared-meal-ending": {
+      "passage": "Elara walks back into the common room with the locket resting in her open palm. She sets it on the bar and tells her story to the room. The soldier refills her cup. The minstrel plays something gentle. Brenna puts the locket away and sets a bowl of warm stew before the pilgrim.",
+      "choices": [],
+      "ending": {
+        "title": "A Place at the Table",
+        "flavor": "Confession is lighter when the room is willing to listen.",
+        "action": "set the locket down"
+      }
+    }
+  }
+}

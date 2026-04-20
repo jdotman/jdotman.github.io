@@ -1,0 +1,392 @@
+{
+  "id": "a1d7e5b3-9c4f-4a2e-b8d6-3f0c7e1a9b5d",
+  "title": "Iron Cradle",
+  "description": "You wake in a dungeon cell with no memory of your crime. The guards are gone, the torches are dying, and somewhere below the floor something is digging upward.",
+  "author": "AI",
+  "tags": [
+    "escape",
+    "mystery"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-23",
+  "dayOfYear": "04-23",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "You are lying on cold stone. Your wrists ache from old shackles now hanging loose. The cell door stands ajar and the corridor beyond is dark. A rhythmic scraping echoes from beneath the floor. The last torch on the wall gutters, throwing shadows that move like fingers. The corridor stretches away into blackness.",
+      "choices": [
+        {
+          "label": "take the torch",
+          "nextNode": "torch-corridor",
+          "hint": "The flame sputters but holds as you pull it free."
+        },
+        {
+          "label": "listen at the floor",
+          "nextNode": "floor-sound",
+          "hint": "You press your ear to the cold stone and hold your breath."
+        },
+        {
+          "label": "slip into the corridor",
+          "nextNode": "dark-corridor",
+          "hint": "Darkness swallows you the moment you leave the cell."
+        }
+      ]
+    },
+    "torch-corridor": {
+      "passage": "You pull the torch free and step into the corridor. Iron doors line both walls, all sealed shut. At the far end, a staircase spirals upward. Halfway down the hall, a grate in the floor has been pried loose. Warm air rises from the opening and carries a smell like wet copper.",
+      "choices": [
+        {
+          "label": "climb the staircase",
+          "nextNode": "guard-room",
+          "hint": "Your footsteps echo off the stone as you spiral upward."
+        },
+        {
+          "label": "descend through the grate",
+          "nextNode": "tunnels",
+          "hint": "The warm air below smells of earth and something else."
+        }
+      ]
+    },
+    "floor-sound": {
+      "passage": "You press your ear to the stone. The scraping is closer now, deliberate and patient. Between strokes you hear breathing, something large and slow. A crack splits the flagstone beneath your knee. Dust puffs upward. Whatever is below, it is almost through. You can flee into the corridor or wait and see what breaks free.",
+      "choices": [
+        {
+          "label": "flee into the corridor",
+          "nextNode": "dark-corridor",
+          "hint": "You scramble to your feet and run for the open door."
+        },
+        {
+          "label": "wait and watch",
+          "nextNode": "creature-breach",
+          "hint": "Curiosity pins you in place as the crack widens."
+        }
+      ]
+    },
+    "dark-corridor": {
+      "passage": "Without light the corridor is a throat of black stone. You trail one hand along the wall and count doors. Seven on the left, seven on the right, all locked. Your fingers find a gap where mortar has crumbled. Behind the wall you hear wind, an outside wall perhaps. The staircase waits somewhere ahead in the dark.",
+      "choices": [
+        {
+          "label": "dig at the wall",
+          "nextNode": "wall-gap",
+          "hint": "Mortar crumbles easily under your fingers."
+        },
+        {
+          "label": "continue to the stairs",
+          "nextNode": "guard-room",
+          "hint": "You feel your way forward, one careful step at a time."
+        }
+      ]
+    },
+    "creature-breach": {
+      "passage": "The floor splits open. A pale, eyeless mole the size of a horse pushes through the rubble. Its claws are iron-hard and caked with clay. It turns its blind head toward you, nostrils flaring. It does not attack. Instead it pushes a bundle of cloth toward your feet with its snout. The mole waits, patient and still.",
+      "choices": [
+        {
+          "label": "unwrap the bundle",
+          "nextNode": "bundle-key",
+          "hint": "The cloth is damp with earth but something solid lies within."
+        },
+        {
+          "label": "back away slowly",
+          "nextNode": "dark-corridor",
+          "hint": "You keep your eyes on the creature as you edge toward the door."
+        }
+      ]
+    },
+    "bundle-key": {
+      "passage": "Inside the cloth you find a brass key and a folded note. The note reads: 'The warden buried what he stole beneath the east tower. This key opens the ossuary gate. Trust the digger.' The mole waits, head tilted, as if it understands. It turns and crawls back into the hole it made.",
+      "choices": [
+        {
+          "label": "follow the mole underground",
+          "nextNode": "tunnels",
+          "hint": "You lower yourself into the warm tunnel after the creature."
+        },
+        {
+          "label": "take the key upstairs",
+          "nextNode": "guard-room",
+          "hint": "The brass key is heavy in your hand as you climb."
+        }
+      ]
+    },
+    "wall-gap": {
+      "passage": "You claw at loose mortar until a stone falls outward into empty air. Moonlight floods through the gap. You are three stories above a courtyard. Below, a hay cart sits beside the stable. The drop is ugly but the hay might catch you. Voices echo from the stairwell behind you. Someone is coming.",
+      "choices": [
+        {
+          "label": "jump to the hay cart",
+          "nextNode": "courtyard-drop",
+          "hint": "You take a breath, grip the ledge, and push off."
+        },
+        {
+          "label": "hide in a doorway",
+          "nextNode": "ambush-guards",
+          "hint": "You press flat against the stone and hold still."
+        }
+      ]
+    },
+    "guard-room": {
+      "passage": "The staircase opens into a ransacked guard room. Tables are overturned and a cold meal rots on a plate. The main door is barred from inside. A ring of keys hangs on a peg beside a lantern that still holds oil. Through the arrow slit you see the courtyard and the east tower beyond.",
+      "choices": [
+        {
+          "label": "grab keys and lantern",
+          "nextNode": "equipped-hall",
+          "hint": "The lantern flares to life and the keys jingle at your belt."
+        },
+        {
+          "label": "unbar the main door",
+          "nextNode": "main-hall",
+          "hint": "The heavy bar scrapes as you heave it from its brackets."
+        },
+        {
+          "label": "search the room",
+          "nextNode": "warden-journal",
+          "hint": "Something catches your eye beneath the overturned table."
+        }
+      ]
+    },
+    "tunnels": {
+      "passage": "The tunnel smells of earth and iron. Mole tracks score the clay floor in both directions. To the east the passage slopes downward toward distant dripping sounds. To the west it rises and you feel a draft of fresh air. Scratch marks on the ceiling glow faintly with pale fungus light.",
+      "choices": [
+        {
+          "label": "head east downward",
+          "nextNode": "ossuary-gate",
+          "hint": "The dripping grows louder with each step deeper underground."
+        },
+        {
+          "label": "follow the draft west",
+          "nextNode": "courtyard-drop",
+          "hint": "Fresh air means an opening. You climb toward it."
+        }
+      ]
+    },
+    "equipped-hall": {
+      "passage": "Lantern lit and keys jangling, you push into the main corridor. It stretches toward the east tower. Cell doors stand open everywhere and every prisoner is gone. On the floor you find a warden's badge snapped in half and a smear of dried blood leading through a door marked Ossuary.",
+      "choices": [
+        {
+          "label": "follow the blood trail",
+          "nextNode": "ossuary-gate",
+          "hint": "The dark smear leads under the ossuary door and beyond."
+        },
+        {
+          "label": "head for the tower",
+          "nextNode": "east-tower-door",
+          "hint": "The east tower looms at the end of the long corridor."
+        }
+      ]
+    },
+    "main-hall": {
+      "passage": "You lift the heavy bar and the door groans open. A long stone hall stretches ahead, lit by moonlight from high windows. Footprints in the dust lead in two directions. East toward the tower, south toward a chapel. The silence here is deeper than in the cells. Too deep. Something feels wrong.",
+      "choices": [
+        {
+          "label": "go east toward the tower",
+          "nextNode": "east-tower-door",
+          "hint": "Your boots leave fresh prints in the dust beside the old ones."
+        },
+        {
+          "label": "enter the chapel",
+          "nextNode": "chapel",
+          "hint": "A faint smell of candle smoke drifts from the south."
+        }
+      ]
+    },
+    "warden-journal": {
+      "passage": "Beneath the overturned table you find a leather journal. The last entry reads: 'They are asking about the relic again. I moved it to the ossuary behind the third skull on the north wall. If they come for me I will use the east tower passage. Gods forgive what I have done.'",
+      "choices": [
+        {
+          "label": "take the journal and go",
+          "nextNode": "equipped-hall",
+          "hint": "You tuck the journal into your shirt and grab the lantern."
+        },
+        {
+          "label": "search for hidden exits",
+          "nextNode": "east-tower-door",
+          "hint": "The warden mentioned a tower passage. You look for it."
+        }
+      ]
+    },
+    "courtyard-drop": {
+      "passage": "You hit the hay hard enough to drive the breath from your lungs. Straw clouds the air around you. The courtyard is empty but the main gate is chained shut. The east tower looms above you, its door cracked open. Beyond the wall you hear a river rushing past. Freedom is close.",
+      "choices": [
+        {
+          "label": "enter the tower",
+          "nextNode": "east-tower-door",
+          "hint": "The cracked door swings open at your touch."
+        },
+        {
+          "label": "climb the wall",
+          "nextNode": "wall-climb",
+          "hint": "The stones are rough enough to grip if you are careful."
+        }
+      ]
+    },
+    "ambush-guards": {
+      "passage": "You press into a doorway as two figures pass. They are not guards. They wear black hoods and carry the warden's strongbox between them. One whispers about a boat waiting at the river dock. They vanish up the stairs without checking the cells. Thieves, not jailers. The cells behind you stand open and dark.",
+      "choices": [
+        {
+          "label": "follow the figures",
+          "nextNode": "main-hall",
+          "hint": "You trail them at a distance, keeping to the shadows."
+        },
+        {
+          "label": "search the open cells",
+          "nextNode": "bundle-key",
+          "hint": "If the cells are open, something useful may remain inside."
+        }
+      ]
+    },
+    "ossuary-gate": {
+      "passage": "A rusted iron gate blocks the passage. Skulls are stacked floor to ceiling beyond it. If you have a key or strong hands, you might get through. The air here is thick with dust and something older. On the third skull from the left on the north wall, a faint rune glows blue.",
+      "choices": [
+        {
+          "label": "open the gate",
+          "nextNode": "ossuary-relic",
+          "hint": "Metal groans as the gate swings inward on stiff hinges."
+        },
+        {
+          "label": "turn back",
+          "nextNode": "equipped-hall",
+          "hint": "Something about this place makes your skin crawl."
+        }
+      ]
+    },
+    "east-tower-door": {
+      "passage": "The east tower door opens onto a spiral stair climbing into darkness. Halfway up, a landing holds a heavy chest bound in iron. The lock is smashed open and the chest is empty save for a velvet shape where something round once sat. Above, the stair continues to the roof.",
+      "choices": [
+        {
+          "label": "climb to the roof",
+          "nextNode": "tower-roof",
+          "hint": "Wind whistles down the stairwell from somewhere above."
+        },
+        {
+          "label": "examine the chest",
+          "nextNode": "secret-passage",
+          "hint": "The chest's base sounds hollow when you tap it."
+        }
+      ]
+    },
+    "chapel": {
+      "passage": "The chapel pews have been shoved aside to clear a circle on the floor. Chalk symbols cover the stone. Candle stubs ring the circle, recently burned. In the center sits a clay bowl holding dark liquid. Whatever ritual happened here, it was not holy. A side door leads to the courtyard outside.",
+      "choices": [
+        {
+          "label": "study the symbols",
+          "nextNode": "ritual-knowledge",
+          "hint": "You kneel and trace the chalk lines with your finger."
+        },
+        {
+          "label": "leave through the side door",
+          "nextNode": "courtyard-drop",
+          "hint": "Cool night air hits your face as you push the door open."
+        }
+      ]
+    },
+    "ossuary-relic": {
+      "passage": "Behind the glowing skull you find a hollow space. Inside rests a crystal sphere no bigger than your fist. It pulses with cold light and hums when you touch it. The warden stole this from someone or something. With it in hand you feel the walls of the prison thin around you.",
+      "choices": [
+        {
+          "label": "pocket the relic",
+          "nextNode": "relic-escape",
+          "hint": "The sphere is cold against your chest but it feels right."
+        },
+        {
+          "label": "leave the relic alone",
+          "nextNode": "wall-climb",
+          "hint": "Some things are better left where they were hidden."
+        }
+      ]
+    },
+    "tower-roof": {
+      "passage": "Wind hits you on the tower roof. The river gleams below the eastern wall. A rope is tied to the battlement and someone planned this exit. The hooded thieves are already at the dock, loading a boat. You could slide down the rope and reach the riverbank before they push off.",
+      "choices": [
+        {
+          "label": "slide down the rope",
+          "nextNode": "river-escape",
+          "hint": "The rope burns your palms as you lower yourself fast."
+        },
+        {
+          "label": "confront the thieves",
+          "nextNode": "thief-confrontation",
+          "hint": "You drop to the dock and plant yourself in their path."
+        }
+      ]
+    },
+    "secret-passage": {
+      "passage": "A false panel in the chest base swings open to reveal a narrow chute dropping into darkness. Cool air flows upward and you hear the river clearly now. This is the warden's escape route, built for exactly this kind of night. It smells like freedom and damp stone. The tower stairs still lead up to the roof above.",
+      "choices": [
+        {
+          "label": "slide down the chute",
+          "nextNode": "river-escape",
+          "hint": "You sit on the edge, take a breath, and push off."
+        },
+        {
+          "label": "continue up the tower",
+          "nextNode": "tower-roof",
+          "hint": "The wind above grows louder as you climb higher."
+        }
+      ]
+    },
+    "ritual-knowledge": {
+      "passage": "The symbols form a binding circle meant to hold something pulled from the earth. The bowl holds not blood but groundwater mixed with crushed iron, a ward against burrowing creatures. Someone called the mole here and then tried to cage it. The side door to the courtyard still hangs open behind you. The east tower looms beyond.",
+      "choices": [
+        {
+          "label": "head for the tower",
+          "nextNode": "east-tower-door",
+          "hint": "Whatever the warden hid, the tower seems central to it."
+        },
+        {
+          "label": "leave through the side door",
+          "nextNode": "courtyard-drop",
+          "hint": "The courtyard is quiet under the moonlight."
+        }
+      ]
+    },
+    "wall-climb": {
+      "passage": "You scale the outer wall with bleeding fingers. The river rushes below, dark and fast. You drop into the current and the cold seizes your chest. But the water carries you downstream, away from the prison, away from whatever happened there. You do not have answers. You have your life.",
+      "choices": [],
+      "ending": {
+        "title": "Cold Current",
+        "flavor": "The river does not care who you were. It only carries you forward.",
+        "action": "drop into the river"
+      }
+    },
+    "relic-escape": {
+      "passage": "The crystal sphere lights your way through the tunnels like a captive star. You emerge on the riverbank under a sky thick with stars. The sphere hums against your chest and you feel its pull eastward, toward whoever made it. You are free, but the relic has plans of its own.",
+      "choices": [],
+      "ending": {
+        "title": "The Sphere's Keeper",
+        "flavor": "Some treasures choose their bearer, not the other way around.",
+        "action": "follow the sphere's pull"
+      }
+    },
+    "river-escape": {
+      "passage": "You hit the riverbank running and do not stop until the prison is a dark shape on the horizon. Dawn finds you on a trade road with nothing but the clothes on your back. A farmer's cart rattles past and the driver offers you a seat. The world is wide and you are free.",
+      "choices": [],
+      "ending": {
+        "title": "The Open Dawn",
+        "flavor": "Freedom is a dirt road and a stranger's kindness.",
+        "action": "climb onto the cart"
+      }
+    },
+    "thief-confrontation": {
+      "passage": "You drop to the dock and block their path. The thieves freeze. One draws a blade but the other raises a hand. She says you are not their enemy. The warden locked them all up for the same reason. They found what he was hiding. She offers her hand and tells you to come with them.",
+      "choices": [
+        {
+          "label": "join the thieves",
+          "nextNode": "join-ending",
+          "hint": "Her grip is firm and her eyes are steady."
+        },
+        {
+          "label": "refuse and go alone",
+          "nextNode": "river-escape",
+          "hint": "You shake your head and turn toward the dark riverbank."
+        }
+      ]
+    },
+    "join-ending": {
+      "passage": "You take her hand and step into the boat. The current pulls you south through the gorge. The other passengers are scholars, merchants, a healer, all locked away by the warden to protect his secret. As the prison fades behind the cliff, someone begins to laugh. Then everyone does.",
+      "choices": [],
+      "ending": {
+        "title": "Fellow Prisoners",
+        "flavor": "The best allies are the ones who survived the same cage.",
+        "action": "push off from the dock"
+      }
+    }
+  }
+}

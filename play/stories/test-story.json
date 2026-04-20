@@ -1,0 +1,37 @@
+{
+  "id": "test-story",
+  "title": "Test Story",
+  "description": "A minimal test story with one passage and two endings.",
+  "author": "dev",
+  "tags": ["test"],
+  "estimatedMinutes": 1,
+  "dateGenerated": "2026-04-03",
+  "startNode": "start",
+  "nodes": {
+    "start": {
+      "passage": "A. Red. Fox.",
+      "choices": [
+        { "label": "follow the fox", "nextNode": "ending-one", "hint": "Branches scratch your arms as you push into the undergrowth." },
+        { "label": "take the village path", "nextNode": "ending-two", "hint": "The packed earth feels solid and safe under your boots." }
+      ]
+    },
+    "ending-one": {
+      "passage": "Jumps. Over. Dog.",
+      "choices": [],
+      "ending": {
+        "title": "The Fox Escaped",
+        "flavor": "The fox disappeared into the forest and was never seen again.",
+        "action": "vanish into the trees"
+      }
+    },
+    "ending-two": {
+      "passage": "Nevermind. Go Home.",
+      "choices": [],
+      "ending": {
+        "title": "The Fox Remained",
+        "flavor": "The fox curled up beside the lazy dog and fell asleep.",
+        "action": "walk through the gate"
+      }
+    }
+  }
+}

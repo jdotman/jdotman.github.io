@@ -1,0 +1,411 @@
+{
+  "id": "b3d7e2a4-8f1c-4b9e-a5d6-2c0f9e3b7a1d",
+  "title": "Warden's Maze",
+  "description": "An enchanted hedge maze guards a tower where your companion is held. Dawn resets the paths and seals the way forever.",
+  "author": "AI",
+  "tags": [
+    "stealth",
+    "survival"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-05-02",
+  "dayOfYear": "05-02",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "The maze rises before you like a living wall of woven thorns. Somewhere beyond its tangled corridors, a tower juts against the fading sky. Your companion has been locked inside since the new moon and dawn will seal the paths forever. Three openings gape in the green wall - left, right, and a vine-choked gap between them.",
+      "choices": [
+        {
+          "label": "take the left opening",
+          "nextNode": "left-path",
+          "hint": "Pale flowers line the entrance, each one turning toward you."
+        },
+        {
+          "label": "enter the right opening",
+          "nextNode": "right-path",
+          "hint": "A bitter smell of crushed herbs drifts from the thorns."
+        },
+        {
+          "label": "squeeze through the gap",
+          "nextNode": "middle-gap",
+          "hint": "The vines resist but part just enough to let you through."
+        }
+      ]
+    },
+    "left-path": {
+      "passage": "A corridor of green stretches ahead, the walls close enough to brush your shoulders. Pale blooms line the base, petals opening as you pass. The air smells sweet and heavy. Ahead, the path bends around a crumbling fountain where water still trickles from a carved face. The face is weeping, though the sculptor gave it a smile.",
+      "choices": [
+        {
+          "label": "approach the fountain",
+          "nextNode": "fountain",
+          "hint": "The carved face seems to track you as you draw near."
+        },
+        {
+          "label": "step past the fountain",
+          "nextNode": "thorn-fork",
+          "hint": "The sweet smell fades as you leave the blooms behind."
+        }
+      ]
+    },
+    "right-path": {
+      "passage": "Thorns line this path like rows of teeth. Every step requires care. The corridor opens into a clearing where four stone figures stand in a ring, each facing outward with arms raised. One has a fresh scratch across its face and a faint hum fills the air around it. The scratched figure is the only one facing inward.",
+      "choices": [
+        {
+          "label": "inspect the scratched figure",
+          "nextNode": "statue-trial",
+          "hint": "The pale rock is warm against your palm, almost alive."
+        },
+        {
+          "label": "slip past the clearing",
+          "nextNode": "thorn-fork",
+          "hint": "You press against the hedge wall and keep your head low."
+        }
+      ]
+    },
+    "middle-gap": {
+      "passage": "Vines scrape your arms as you push through the narrow gap. The passage twists once, twice, then opens into a hollow where roots arch overhead like ribs. A faint glow pulses in the earth below your feet, beating in a rhythm. The roots above flex with each pulse. Two tunnels lead deeper - one slopes down, the other rises.",
+      "choices": [
+        {
+          "label": "climb the rising tunnel",
+          "nextNode": "overlook",
+          "hint": "The air grows cooler and the glow fades as the tunnel climbs."
+        },
+        {
+          "label": "follow the downward slope",
+          "nextNode": "root-cavern",
+          "hint": "The glow beneath your feet grows brighter with each step."
+        }
+      ]
+    },
+    "fountain": {
+      "passage": "The fountain is older than the maze itself. Moss covers the basin and the water runs clear despite the ruin. The carved face watches you with hollow eyes and its lips move, though no sound comes out. A copper coin rests at the bottom of the basin, tarnished green. The weeping grows louder the closer you stand.",
+      "choices": [
+        {
+          "label": "take the coin",
+          "nextNode": "skeleton-find",
+          "hint": "The coin is frigid against your fingers as you reach in."
+        },
+        {
+          "label": "leave the fountain",
+          "nextNode": "thorn-fork",
+          "hint": "The carved face watches you go, its tears still running."
+        }
+      ]
+    },
+    "thorn-fork": {
+      "passage": "The path splits at a wall of brambles. To the left, a stream cuts through the hedge floor and vanishes into a low tunnel. To the right, fireflies drift in lazy circles above a gap just wide enough to crawl through. Claw marks score the earth near the crawl-space - something uses this route often.",
+      "choices": [
+        {
+          "label": "follow the stream",
+          "nextNode": "stream-tunnel",
+          "hint": "Cool water soaks through your boots as you duck inside."
+        },
+        {
+          "label": "crawl through the gap",
+          "nextNode": "firefly-passage",
+          "hint": "The fireflies scatter as you lower yourself to the ground."
+        }
+      ]
+    },
+    "statue-trial": {
+      "passage": "The scratched figure hums louder as you touch it. Its arms lower and its mouth opens. A voice like grinding gravel speaks: 'Name what you seek and I will judge its weight.' The other three figures turn their heads toward you. Behind you, a stream trickles through a crack in the hedge floor.",
+      "choices": [
+        {
+          "label": "speak your companion's name",
+          "nextNode": "guardian-pass",
+          "hint": "The name echoes between the figures like the toll of a bell."
+        },
+        {
+          "label": "back away to the stream",
+          "nextNode": "stream-tunnel",
+          "hint": "The figures groan and the hum deepens as you step outside their ring."
+        }
+      ]
+    },
+    "overlook": {
+      "passage": "The ridge opens above the maze. Corridors sprawl below, a web of green that shifts when you blink. The tower stands three turns inward, its peak lit by a faint blue shimmer. Below to the left, a stream winds through a tunnel of roots. To the right, a corridor flickers with drifting fireflies.",
+      "choices": [
+        {
+          "label": "descend to the stream",
+          "nextNode": "stream-tunnel",
+          "hint": "Loose earth crumbles beneath your heels as you lower yourself down."
+        },
+        {
+          "label": "drop into the firefly corridor",
+          "nextNode": "firefly-passage",
+          "hint": "The fall is shorter than it looks but the landing jars your knees."
+        }
+      ]
+    },
+    "root-cavern": {
+      "passage": "The slope levels out in a cavern walled by knotted roots. The pulsing glow is stronger here, rising from a crack in the ground. Heat rolls off it in waves. Across the cavern, a curtain of hanging moss hides another passage. Near the crack, a skeleton sits propped against the roots, one hand still reaching for the moss.",
+      "choices": [
+        {
+          "label": "check the skeleton",
+          "nextNode": "skeleton-find",
+          "hint": "Something metal glints between the bony fingers, catching a faint gleam."
+        },
+        {
+          "label": "part the moss curtain",
+          "nextNode": "inner-ring",
+          "hint": "The moss is damp and warm against your face as you push through."
+        }
+      ]
+    },
+    "stream-tunnel": {
+      "passage": "The stream runs ankle-deep through a tunnel of arched roots. Faint luminous fungus clings to the ceiling, casting a dim green wash over everything. The current tugs at your legs, pulling you inward. Ahead, the tunnel forks - one branch carries the distant sound of grinding metal, the other stretches away in silence.",
+      "choices": [
+        {
+          "label": "chase the grinding sound",
+          "nextNode": "inner-ring",
+          "hint": "The metal sound grows rhythmic, like a turning gear deep in the wall."
+        },
+        {
+          "label": "wade the silent branch",
+          "nextNode": "garden-den",
+          "hint": "The hush presses against your ears as the stream fades."
+        }
+      ]
+    },
+    "firefly-passage": {
+      "passage": "You crawl through damp earth until the gap opens into a corridor lit by hundreds of fireflies. They swirl in patterns that almost look like arrows, pointing deeper into the maze. The hedge walls here are thinner - through gaps in the leaves, you catch glimpses of the tower, closer now. A wooden gate blocks the corridor ahead.",
+      "choices": [
+        {
+          "label": "open the gate",
+          "nextNode": "inner-ring",
+          "hint": "The hinges squeal and every firefly in the corridor scatters at once."
+        },
+        {
+          "label": "peer through the hedge",
+          "nextNode": "garden-den",
+          "hint": "The leaves part easily, almost inviting you through to the other side."
+        }
+      ]
+    },
+    "guardian-pass": {
+      "passage": "The figures lower their arms in unison. The scratched one speaks again: 'The weight is true.' A section of hedge behind the ring parts like a curtain, revealing a straight path lit by pale foxfire. The figures resume their original positions and the hum dies. You have been measured and found worthy - for now.",
+      "choices": [
+        {
+          "label": "walk the revealed path",
+          "nextNode": "inner-ring",
+          "hint": "Foxfire drifts alongside you like a quiet escort through the hedge."
+        },
+        {
+          "label": "search the statue base",
+          "nextNode": "skeleton-find",
+          "hint": "A narrow gap beneath the pedestal catches your eye as you kneel."
+        }
+      ]
+    },
+    "skeleton-find": {
+      "passage": "A skeleton sits propped against the roots, fingers curled around a brass key etched with a tower symbol. A worn journal lies open in its lap. The last entry reads: 'The warden cannot cross running water. The garden creature is not hostile. I was too slow.' The skull grins at nothing. Dawn is closer than you think.",
+      "choices": [
+        {
+          "label": "pocket the key",
+          "nextNode": "inner-ring",
+          "hint": "The key slides free from the bony grip with a dry click."
+        },
+        {
+          "label": "trace the map route",
+          "nextNode": "garden-den",
+          "hint": "Elara's sketches mark a clear path through the garden's back wall."
+        }
+      ]
+    },
+    "inner-ring": {
+      "passage": "The inner ring is a wide corridor circling the tower. Hedge walls twice your height press close, thorns glistening with moisture. The tower looms ahead, its base wrapped in ivy. To your right, an overgrown garden spills through a broken arch. A grinding sound pulses from somewhere near the tower's foundation - rhythmic, like breathing.",
+      "choices": [
+        {
+          "label": "head for the tower",
+          "nextNode": "tower-approach",
+          "hint": "Ivy crunches under your boots as you approach the tower's base."
+        },
+        {
+          "label": "explore the garden",
+          "nextNode": "garden-den",
+          "hint": "The broken arch frames a tangle of wild roses and something moves inside."
+        }
+      ]
+    },
+    "garden-den": {
+      "passage": "The garden is a riot of wild growth - roses the size of your fist, vines thick as rope, mushrooms that pulse with a faint inner warmth. At the center, a creature like a massive tortoise covered in moss lifts its head. Amber eyes fix on you. Its shell is carved with the same symbols as the tower door.",
+      "choices": [
+        {
+          "label": "approach the creature",
+          "nextNode": "befriend-creature",
+          "hint": "The creature's amber eyes follow your hands, not your face."
+        },
+        {
+          "label": "circle around it",
+          "nextNode": "tower-approach",
+          "hint": "You keep the rose bushes between you and those eyes."
+        }
+      ]
+    },
+    "befriend-creature": {
+      "passage": "You kneel and hold out your hand. The creature stretches its neck and rumbles - a sound like a purring boulder. It turns toward the garden's back wall, pausing to look at you. A section of hedge there is thinner than the rest. Behind it, the grinding sound from the tower grows louder and faster.",
+      "choices": [
+        {
+          "label": "follow the creature",
+          "nextNode": "tower-rear",
+          "hint": "It pushes through the thin hedge and waits on the other side."
+        },
+        {
+          "label": "linger in the garden",
+          "nextNode": "garden-watch",
+          "hint": "The warmth and the humming wrap around you like a blanket."
+        }
+      ]
+    },
+    "garden-watch": {
+      "passage": "The creature settles beside you and the garden hums with life. Fireflies rise from the roses in lazy spirals. The tower looms beyond the hedge, close enough to touch. A warm wind carries the scent of night-blooming jasmine. Peace presses against you like a blanket. Your eyelids grow heavy. The creature rumbles softly, as if singing you to rest.",
+      "choices": [
+        {
+          "label": "rest your eyes",
+          "nextNode": "garden-rest-ending",
+          "hint": "The moss beneath you is warm and impossibly soft against your skin."
+        },
+        {
+          "label": "shake it off",
+          "nextNode": "tower-rear",
+          "hint": "You force your eyes open and the tower is waiting."
+        }
+      ]
+    },
+    "tower-rear": {
+      "passage": "Behind the garden wall, a narrow gap opens at the tower's base - a drainage channel barely wide enough to crawl through. The creature settles beside it and rests its chin on the ground, watching. Inside the channel, you hear dripping water and a voice humming a tune you almost recognize. The gap leads up and inward.",
+      "choices": [
+        {
+          "label": "crawl into the channel",
+          "nextNode": "tower-inside",
+          "hint": "Damp rock presses against your back as you squeeze into the channel."
+        },
+        {
+          "label": "loop around to the front",
+          "nextNode": "tower-base",
+          "hint": "You leave the creature behind and follow the wall around."
+        }
+      ]
+    },
+    "tower-approach": {
+      "passage": "A flagstone path leads from the inner ring to the tower. Ivy drapes every surface, thick enough to hide the masonry beneath. The front door is iron-banded oak with no handle - only a keyhole shaped like a tiny tower. Claw marks score the doorframe. Above, the ivy thins and a narrow window gleams thirty feet up.",
+      "choices": [
+        {
+          "label": "examine the door",
+          "nextNode": "tower-base",
+          "hint": "A grinding mechanism clicks and resets behind the heavy iron bands."
+        },
+        {
+          "label": "scale the wall",
+          "nextNode": "tower-climb",
+          "hint": "The first vine holds but the mortar crumbles beneath it."
+        }
+      ]
+    },
+    "tower-base": {
+      "passage": "The door's lock is a puzzle of interlocking gears visible through a glass panel. Each gear bears a rune and the mechanism clicks in a steady rhythm. Three gears must align when the fourth pauses. Scratches around the keyhole suggest others have tried. Ivy above the door offers a way up, but the mortar looks crumbled.",
+      "choices": [
+        {
+          "label": "work the lock",
+          "nextNode": "warden-chamber",
+          "hint": "Metal clicks into place, the mechanism goes quiet, and the door swings."
+        },
+        {
+          "label": "climb the ivy instead",
+          "nextNode": "tower-climb",
+          "hint": "You step back from the door and reach for the nearest vine."
+        }
+      ]
+    },
+    "tower-climb": {
+      "passage": "Ivy tears under your weight twice before you find a route that holds. The wall is slick with dew and every handhold feels like a gamble. Halfway up, a window ledge offers a place to rest. Above it, the final stretch is bare rock with only a thin crack for fingers. The sky is turning grey.",
+      "choices": [
+        {
+          "label": "reach for the top",
+          "nextNode": "rescue-ending",
+          "hint": "Your fingers find the crack and your arms burn with the effort."
+        },
+        {
+          "label": "trust the window ledge",
+          "nextNode": "fall-ending",
+          "hint": "The ledge is wider than it looked from below, almost comfortable."
+        }
+      ]
+    },
+    "tower-inside": {
+      "passage": "The drainage channel empties into a cellar beneath the tower. Barrels and crates line the walls, most of them cracked open and empty. A spiral staircase rises through the ceiling. At its base, a figure wrapped in grey cloth sits with its back to you. It has not moved. A sword leans against the wall beside it.",
+      "choices": [
+        {
+          "label": "creep up the stairs",
+          "nextNode": "rescue-ending",
+          "hint": "You hold your breath and place each foot with care."
+        },
+        {
+          "label": "grab the sword",
+          "nextNode": "warden-chamber",
+          "hint": "The blade rings against the wall as you lift it free."
+        }
+      ]
+    },
+    "warden-chamber": {
+      "passage": "A circular room at the tower's heart. Your companion kneels inside a ring of blue runes, asleep but breathing. Across the circle, the warden stands - a tall figure of woven branches and thorns, eyes like burning amber. It speaks in a voice of rustling leaves: 'One may leave. Choose who stays to feed the maze.'",
+      "choices": [
+        {
+          "label": "break the rune circle",
+          "nextNode": "freedom-ending",
+          "hint": "You lunge forward and drag your heel across the runes."
+        },
+        {
+          "label": "offer yourself",
+          "nextNode": "bargain-ending",
+          "hint": "The warden's amber eyes narrow and the roots shift as you step forward."
+        }
+      ]
+    },
+    "rescue-ending": {
+      "passage": "Dawn breaks as you haul yourself through the window at the tower's peak. Your companion lies on a simple cot, eyes fluttering open at your touch. The maze below begins to crumble, hedges folding inward like wet paper. Together you descend the collapsing stairs and stumble out into an open field.",
+      "choices": [],
+      "ending": {
+        "title": "First Light",
+        "flavor": "The maze is gone by the time you look back.",
+        "action": "walk into the dawn"
+      }
+    },
+    "fall-ending": {
+      "passage": "The window ledge cracks the moment you put your weight on it. Stone gives way and the world tilts. The ivy below catches you for a heartbeat, then tears free in a long green ribbon. The ground rushes up. The last thing you see is the maze folding shut above you like a closing fist.",
+      "choices": [],
+      "ending": {
+        "title": "No Second Chance",
+        "flavor": "The maze swallows what it catches.",
+        "action": "close your eyes"
+      }
+    },
+    "garden-rest-ending": {
+      "passage": "Your eyes close. The creature's hum fills the garden and the roses lean in to shelter you. When you wake, the maze is gone. The tower is gone. A meadow stretches in every direction under a bright morning sky. Your companion is nowhere to be seen. The creature is gone too. Only the roses remain.",
+      "choices": [],
+      "ending": {
+        "title": "The Garden Keeps",
+        "flavor": "Some rescues arrive too late to matter.",
+        "action": "open your eyes"
+      }
+    },
+    "freedom-ending": {
+      "passage": "Your heel drags through the runes and the circle shatters in a flash of blue. The warden screams - a sound like splintering wood - and its body flies apart into a cloud of leaves and thorns. Your companion gasps awake. The tower shudders. Together you run down the spiral stairs as the walls crack and the sky opens above.",
+      "choices": [],
+      "ending": {
+        "title": "Broken Chains",
+        "flavor": "The warden was the maze and the maze is dust.",
+        "action": "step through the ruin"
+      }
+    },
+    "bargain-ending": {
+      "passage": "The warden nods once. Roots rise from the floor and wrap your ankles, pulling you into the ring as your companion stumbles free. The runes seal behind them. Through the tower window, you watch your companion run across the field toward sunrise. The roots climb higher. The warden whispers a name - yours - and the maze grows quiet.",
+      "choices": [],
+      "ending": {
+        "title": "The Price Paid",
+        "flavor": "The maze always finds its keeper.",
+        "action": "accept the thorns"
+      }
+    }
+  }
+}

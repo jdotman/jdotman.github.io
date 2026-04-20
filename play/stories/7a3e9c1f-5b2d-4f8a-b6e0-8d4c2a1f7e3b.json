@@ -1,0 +1,445 @@
+{
+  "id": "7a3e9c1f-5b2d-4f8a-b6e0-8d4c2a1f7e3b",
+  "title": "River of Knives",
+  "description": "A dying captain, a stolen crown, and three strangers on a river barge drifting toward trouble. Trust is a luxury you cannot afford.",
+  "author": "AI",
+  "tags": [
+    "voyage",
+    "intrigue"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-28",
+  "dayOfYear": "04-28",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "You stand at the bow of a flat-bottomed river barge as it drifts south through a narrow gorge. Captain Harlen collapsed an hour ago and lies sweating in his cabin. Three passengers share the deck with you - a cloaked woman reading near the mast, a pale merchant clutching his satchel, and a scarred boatman steering in silence. The cargo hold hatch hangs open.",
+      "choices": [
+        {
+          "label": "check the captain",
+          "nextNode": "cabin",
+          "hint": "The cabin door creaks as you push it open."
+        },
+        {
+          "label": "speak to the woman",
+          "nextNode": "woman",
+          "hint": "She looks up from her book before you say a word."
+        },
+        {
+          "label": "inspect the cargo",
+          "nextNode": "below-deck",
+          "hint": "The hold smells of damp wood and something sweet."
+        }
+      ]
+    },
+    "below-deck": {
+      "passage": "You climb down the hold ladder into cool darkness. Water drips somewhere and the air tastes of river salt. Crates line both walls, stacked high and lashed with rope. Most bear merchant stamps from towns upriver. One crate near the stern sits apart from the rest with its lid cracked open. A faint red glow leaks through the gap. Footsteps creak on the deck above.",
+      "choices": [
+        {
+          "label": "open the crate",
+          "nextNode": "hold",
+          "hint": "The red light pulses as your hand touches the splintered lid."
+        },
+        {
+          "label": "check the footsteps",
+          "nextNode": "observation",
+          "hint": "Someone is pacing near the hold hatch in a hurry."
+        }
+      ]
+    },
+    "cabin": {
+      "passage": "Captain Harlen lies on his bunk, skin gray and breathing shallow. His lips are stained dark purple - not wine, something worse. A small glass vial sits on the floor beside his cot, still wet inside. On the desk a folded letter bears a broken wax seal. The captain stirs but does not wake. His hand twitches toward the letter.",
+      "choices": [
+        {
+          "label": "read the letter",
+          "nextNode": "coded-note",
+          "hint": "The handwriting is hurried and the ink still fresh in places."
+        },
+        {
+          "label": "pocket the vial",
+          "nextNode": "vial-clue",
+          "hint": "The glass is warm and the liquid smells of bitter almonds."
+        },
+        {
+          "label": "try waking him",
+          "nextNode": "wake-captain",
+          "hint": "You shake his shoulder and his eyes flutter halfway open."
+        }
+      ]
+    },
+    "coded-note": {
+      "passage": "The letter is short. It warns Harlen that one passenger carries stolen royal property and that river wardens wait at Millford Bridge to search the barge. Someone poisoned Harlen before he could read this. You fold the letter and hear footsteps above. Through the porthole you see the merchant heading toward the cargo hold, moving fast.",
+      "choices": [
+        {
+          "label": "follow the merchant",
+          "nextNode": "confrontation",
+          "hint": "You move quietly up the steps, keeping to the wall."
+        },
+        {
+          "label": "search the hold first",
+          "nextNode": "hold",
+          "hint": "If something is hidden below, you want to find it first."
+        }
+      ]
+    },
+    "vial-clue": {
+      "passage": "You slip the vial into your coat. The dark residue inside is nightshade oil, a poison favored by guild killers. Someone on this barge wanted the captain silent. Through the cabin window you see the merchant glancing toward the hold while the cloaked woman watches him from behind her book. The boatman steers on, eyes locked on the river ahead.",
+      "choices": [
+        {
+          "label": "watch the merchant",
+          "nextNode": "observation",
+          "hint": "You lean against the rail and pretend to study the water."
+        },
+        {
+          "label": "confront the woman",
+          "nextNode": "woman-truth",
+          "hint": "She closes the book as you approach, as if she expected you."
+        }
+      ]
+    },
+    "wake-captain": {
+      "passage": "Harlen's eyes crack open. His voice is a dry whisper. He grabs your wrist and pulls you close. The merchant - do not let him reach Millford with the cargo. He was hired to move a stolen crown to a buyer on the bridge. The woman is a warden. Find her. His grip loosens and he slips back into fevered sleep, face tight with pain.",
+      "choices": [
+        {
+          "label": "find the woman",
+          "nextNode": "woman-truth",
+          "hint": "If Harlen is right, the warden needs to know he told you."
+        },
+        {
+          "label": "go to the hold",
+          "nextNode": "hold",
+          "hint": "You want to see this crown for yourself before trusting anyone."
+        }
+      ]
+    },
+    "woman": {
+      "passage": "The woman lowers her book as you approach. Her eyes are sharp and watchful. I was wondering when someone would come talk to me, she says quietly. She glances at the merchant, then at the boatman. Something is wrong on this barge. The captain did not just fall ill. I smelled nightshade when I passed his cabin this morning.",
+      "choices": [
+        {
+          "label": "ask about the merchant",
+          "nextNode": "woman-truth",
+          "hint": "Her expression darkens at the mention of his name."
+        },
+        {
+          "label": "check the cabin",
+          "nextNode": "cabin",
+          "hint": "If she is right about the poison, the cabin may hold proof."
+        },
+        {
+          "label": "inspect the cargo",
+          "nextNode": "below-deck",
+          "hint": "The hold hatch is unlatched and swinging in the breeze."
+        }
+      ]
+    },
+    "woman-truth": {
+      "passage": "The woman pulls back her cloak to reveal a bronze badge - a river warden. My name is Sera. I am tracking a crown stolen from the royal vault. The merchant Dace is the courier. He poisoned your captain to buy time. Millford Bridge is an hour downriver and his buyer waits there. I need your help to stop the handoff before we arrive.",
+      "choices": [
+        {
+          "label": "agree to help",
+          "nextNode": "alliance",
+          "hint": "Sera nods and begins laying out a plan on the deck rail."
+        },
+        {
+          "label": "refuse the risk",
+          "nextNode": "refuse",
+          "hint": "You have no stake in crowns or wardens or stolen cargo."
+        },
+        {
+          "label": "warn Dace instead",
+          "nextNode": "warn-dace",
+          "hint": "Maybe the merchant's gold is worth more than a warden's thanks."
+        }
+      ]
+    },
+    "hold": {
+      "passage": "The cargo hold is dim and damp. Crates of grain and salt line the walls but one crate near the back has been pried open. Inside, wrapped in velvet cloth, sits a gold crown set with deep red stones. It glows in the darkness. You hear someone on the ladder behind you. The merchant is climbing down with a knife in his hand.",
+      "choices": [
+        {
+          "label": "grab the crown",
+          "nextNode": "crown-taken",
+          "hint": "The gold is warm under your fingers, almost alive."
+        },
+        {
+          "label": "face the merchant",
+          "nextNode": "confrontation",
+          "hint": "You turn slowly, keeping your hands where he can see them."
+        },
+        {
+          "label": "hide in the shadows",
+          "nextNode": "hidden",
+          "hint": "You press yourself flat between the salt barrels."
+        }
+      ]
+    },
+    "observation": {
+      "passage": "You watch from the rail as the merchant Dace paces near the hold hatch. He checks his pocket watch twice, glances at the woman, then climbs down into the cargo hold. The woman notices too and catches your eye across the deck with a small deliberate nod. The boatman calls out that Millford Bridge is visible around the next bend of the river.",
+      "choices": [
+        {
+          "label": "follow Dace below",
+          "nextNode": "confrontation",
+          "hint": "The hold ladder groans under your weight as you descend."
+        },
+        {
+          "label": "approach the woman",
+          "nextNode": "woman-truth",
+          "hint": "That nod felt like an invitation, or maybe a warning."
+        }
+      ]
+    },
+    "confrontation": {
+      "passage": "Dace stands over the open crate with the crown in one hand and a knife in the other. His merchant smile is gone. You should not have come down here, he says. His eyes flick to the ladder. Millford Bridge is close and he only needs to keep you quiet for a few more minutes. Above, you hear Sera's boots on the deck.",
+      "choices": [
+        {
+          "label": "stall for time",
+          "nextNode": "stall",
+          "hint": "Every second you keep him talking brings help closer."
+        },
+        {
+          "label": "rush him",
+          "nextNode": "fight",
+          "hint": "He holds a knife but his stance says he is no fighter."
+        },
+        {
+          "label": "call for help",
+          "nextNode": "sera-arrives",
+          "hint": "Your voice echoes through the hold and up the open hatch."
+        }
+      ]
+    },
+    "crown-taken": {
+      "passage": "You seize the crown and spin around. Dace freezes on the ladder, knife raised. Give that back, he hisses. Above, Sera shouts a warning. The barge lurches as the boatman steers hard toward the bank. Through a crack in the hull planks you see Millford Bridge ahead and figures waiting on it with crossbows. Everyone wants this crown.",
+      "choices": [
+        {
+          "label": "climb topside",
+          "nextNode": "bridge-standoff",
+          "hint": "Fresh air hits your face as you pull yourself through the hatch."
+        },
+        {
+          "label": "throw it overboard",
+          "nextNode": "crown-river",
+          "hint": "If no one can have it, maybe no one has to die for it."
+        }
+      ]
+    },
+    "hidden": {
+      "passage": "You press into the shadows as Dace reaches the bottom of the ladder. He moves to the open crate and lifts the crown, wrapping it quickly in cloth. He mutters to himself - almost there, just hold steady. Then he pulls a second vial from his coat, the same dark glass as the one in the cabin. He tilts it toward the grain sacks.",
+      "choices": [
+        {
+          "label": "stop him",
+          "nextNode": "fight",
+          "hint": "He is poisoning the grain and that grain feeds a village."
+        },
+        {
+          "label": "slip past him",
+          "nextNode": "sera-arrives",
+          "hint": "The ladder is clear while his back is turned to you."
+        }
+      ]
+    },
+    "alliance": {
+      "passage": "Sera lays out the plan. When we reach the bridge, Dace will try to pass the crown to his buyer on the bank. The boatman is paid off and will steer close. I need you to take the tiller and keep us in the center channel while I deal with Dace. She pauses. If it goes wrong, the crown must not reach that bridge.",
+      "choices": [
+        {
+          "label": "take the tiller",
+          "nextNode": "tiller",
+          "hint": "The boatman watches you approach with flat, knowing eyes."
+        },
+        {
+          "label": "handle Dace yourself",
+          "nextNode": "confrontation",
+          "hint": "Sera may be a warden, but you trust your own hands more."
+        }
+      ]
+    },
+    "refuse": {
+      "passage": "You step back from Sera and raise your hands. This is not your fight. Her jaw tightens but she nods. Fair enough. She turns and strides toward the hold alone. Minutes pass. You hear raised voices below, then a crash and the ring of steel. The barge drifts around the bend and Millford Bridge appears with armed figures already drawing their bows.",
+      "choices": [
+        {
+          "label": "take cover",
+          "nextNode": "bridge-standoff",
+          "hint": "An arrow buries itself in the deck rail near your hand."
+        },
+        {
+          "label": "grab the tiller",
+          "nextNode": "tiller",
+          "hint": "The boatman has ducked below and the tiller swings free."
+        }
+      ]
+    },
+    "warn-dace": {
+      "passage": "You find Dace at the rail checking his watch. When you tell him about Sera, his eyes go wide then narrow. He pulls a heavy coin purse from his satchel. Help me get past the bridge and this is yours. Fifty gold crowns. He glances at the water. Or I throw you in and solve it myself. His hand rests on his knife.",
+      "choices": [
+        {
+          "label": "take the gold",
+          "nextNode": "dace-ally",
+          "hint": "The purse is heavier than you expected. Fifty crowns is a fortune."
+        },
+        {
+          "label": "grab his knife",
+          "nextNode": "fight",
+          "hint": "His hand is on the hilt but his grip is loose and careless."
+        }
+      ]
+    },
+    "stall": {
+      "passage": "You raise your hands slowly. Easy now. Who is buying the crown at the bridge? Dace hesitates. A collector, he says. Someone who pays well and asks nothing. His eyes keep darting to the ladder above. He is losing nerve. Sera's footsteps move toward the open hatch. Dace hears them too and his grip on the knife shifts. Time is almost up.",
+      "choices": [
+        {
+          "label": "duck and roll",
+          "nextNode": "sera-arrives",
+          "hint": "Sera's shadow falls through the hatch as you hit the floor."
+        },
+        {
+          "label": "offer a deal",
+          "nextNode": "deal-ending",
+          "hint": "Maybe there is a way out where nobody has to bleed."
+        }
+      ]
+    },
+    "fight": {
+      "passage": "You lunge at Dace. He slashes but you catch his wrist and twist hard. The blade clatters across the hold floor. He drives a fist into your ribs but you pin him against the crates. The crown tumbles free and rolls across the planks, red stones flashing. Above, Sera drops through the hatch with her own blade drawn and ready.",
+      "choices": [
+        {
+          "label": "secure the crown",
+          "nextNode": "victory-hold",
+          "hint": "The red stones pulse with faint warmth as you pick it up."
+        },
+        {
+          "label": "let Sera handle it",
+          "nextNode": "sera-arrives",
+          "hint": "She is the warden. This is her duty, not yours."
+        }
+      ]
+    },
+    "sera-arrives": {
+      "passage": "Sera drops through the hatch with her blade drawn. Dace spins but she is faster, knocking the knife from his hand and pinning him to the hull. It is over, Dace. The merchant sags against the wood. Sera binds his wrists with cord and picks up the crown. The barge rounds the bend and Millford Bridge looms ahead. Figures on it are shouting.",
+      "choices": [
+        {
+          "label": "steer the barge",
+          "nextNode": "tiller",
+          "hint": "The tiller is loose and the current pulls you toward the bank."
+        },
+        {
+          "label": "signal the bridge",
+          "nextNode": "bridge-standoff",
+          "hint": "If those are wardens up there, they need to know what happened."
+        }
+      ]
+    },
+    "tiller": {
+      "passage": "The boatman sees you coming and steps away from the tiller without a fight. I just steer where they pay me, he mutters. You grab the long wooden handle and heave the barge toward the center of the river. Millford Bridge passes overhead. Arrows splash in the water on both sides but the current is fast and you shoot through into open water.",
+      "choices": [
+        {
+          "label": "keep going south",
+          "nextNode": "safe-passage-ending",
+          "hint": "The bridge shrinks behind you and the river opens wide."
+        },
+        {
+          "label": "pull to the bank",
+          "nextNode": "warden-ending",
+          "hint": "A sandy stretch appears on the east side, sheltered by willows."
+        }
+      ]
+    },
+    "bridge-standoff": {
+      "passage": "The barge drifts toward Millford Bridge. Armed figures line the stone arch - some wear warden badges, others do not. A man in a black coat calls down. Send up the crown and nobody gets hurt. Sera grips her blade tightly. Those are not all wardens, she says. Half of them are the buyers. The barge bumps against the bridge pilings and stops.",
+      "choices": [
+        {
+          "label": "cut the mooring rope",
+          "nextNode": "tiller",
+          "hint": "A single rope ties the barge to the stone. One cut frees you."
+        },
+        {
+          "label": "throw the crown down",
+          "nextNode": "crown-river",
+          "hint": "The dark water swirls between the pilings, deep and hungry."
+        }
+      ]
+    },
+    "dace-ally": {
+      "passage": "You pocket the gold and Dace grins. When we reach the bridge, keep the warden busy. That is all I ask. The bridge appears around the bend. Sera emerges from below deck holding her blade and stops cold when she sees you standing beside Dace. Her face hardens with understanding. I see, she says quietly. The boatman steers toward the bank.",
+      "choices": [
+        {
+          "label": "step aside",
+          "nextNode": "betrayal-ending",
+          "hint": "You chose gold over honor. Now you have to live with that."
+        },
+        {
+          "label": "change your mind",
+          "nextNode": "fight",
+          "hint": "Fifty crowns is not enough to watch someone get hurt."
+        }
+      ]
+    },
+    "victory-hold": {
+      "passage": "You hold the crown while Sera binds Dace. The red stones glow warm and you feel a strange pull, a whisper at the edge of hearing. Keep it, the crown seems to say. Sera extends her hand. I will take that now. The warmth fades as you look at it. Just a circle of gold. But for a moment it felt like more.",
+      "choices": [
+        {
+          "label": "hand it over",
+          "nextNode": "warden-ending",
+          "hint": "The gold leaves your fingers and the whisper goes silent."
+        },
+        {
+          "label": "keep the crown",
+          "nextNode": "crown-keeper-ending",
+          "hint": "The warmth returns the moment you pull it close to your chest."
+        }
+      ]
+    },
+    "crown-river": {
+      "passage": "You hurl the crown through the gap in the hull planks. It flashes gold in the sunlight, then vanishes beneath the dark water with barely a splash. Dace screams. Sera stares. The figures on the bridge lower their bows and nobody moves. The river carries the barge onward in silence. Whatever that crown was worth, it belongs to the river now.",
+      "choices": [],
+      "ending": {
+        "title": "The River Takes Its Due",
+        "flavor": "Gold sinks and debts are settled, and the current flows on without caring who lost what.",
+        "action": "watch it sink"
+      }
+    },
+    "safe-passage-ending": {
+      "passage": "The barge clears the bridge and the river opens into a broad calm stretch lined with birch trees. Sera keeps watch over Dace while you hold the tiller. By evening you reach the warden outpost at Thornbury. Soldiers take Dace away and Sera delivers the crown to the vault. She finds you at the dock and presses a silver ring into your palm.",
+      "choices": [],
+      "ending": {
+        "title": "Steady Hands Prevail",
+        "flavor": "The river tested everyone aboard, and you held the course when it counted most.",
+        "action": "pocket the ring"
+      }
+    },
+    "deal-ending": {
+      "passage": "You look Dace in the eye. Walk away. Leave the crown and vanish at the next port. No one has to bleed today. Dace stares at you while Sera stands at the hatch above, blade drawn. The seconds stretch thin. Then Dace sets the crown on a crate and climbs the ladder with empty hands. No one speaks until the bridge is far behind.",
+      "choices": [],
+      "ending": {
+        "title": "Words Over Steel",
+        "flavor": "The sharpest blade on the river turned out to be a calm voice in a dark hold.",
+        "action": "lower your hands"
+      }
+    },
+    "betrayal-ending": {
+      "passage": "You step aside. Dace shoves past Sera and leaps to the bridge where his buyer waits. Sera fights off two men and drops to the deck, bleeding from a cut on her arm. She looks at you with cold fury and says nothing at all. The gold in your pocket feels heavier than it should. The barge drifts on, empty and quiet.",
+      "choices": [],
+      "ending": {
+        "title": "Thirty Pieces of Gold",
+        "flavor": "The coin spends the same, but your reflection looks different now.",
+        "action": "count the gold"
+      }
+    },
+    "warden-ending": {
+      "passage": "Sera smiles, the first real smile you have seen from her all day. If you ever want honest work, the wardens could use someone like you. She turns south with Dace in tow and the crown safe in her pack. You stand on the riverbank watching them go. The water is calm and the gorge is behind you. The road ahead is open.",
+      "choices": [],
+      "ending": {
+        "title": "A Good Name Earned",
+        "flavor": "Not all treasure is gold - some of it is the trust of someone worth trusting.",
+        "action": "wave farewell"
+      }
+    },
+    "crown-keeper-ending": {
+      "passage": "You pull the crown close against your chest. Sera's hand moves to her blade, then stops. The red stones glow brighter and the whisper grows louder. You back toward the ladder and climb topside. No one follows. The barge drifts on and you sit at the bow with the crown on your lap, warm as a living thing. The river stretches ahead, dark and endless.",
+      "choices": [],
+      "ending": {
+        "title": "The Crown Chooses",
+        "flavor": "You came aboard with nothing and now something old and hungry has chosen you to carry it.",
+        "action": "wear the crown"
+      }
+    }
+  }
+}

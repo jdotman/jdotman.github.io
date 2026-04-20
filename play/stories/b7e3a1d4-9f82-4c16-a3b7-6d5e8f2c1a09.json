@@ -1,0 +1,201 @@
+{
+  "id": "b7e3a1d4-9f82-4c16-a3b7-6d5e8f2c1a09",
+  "title": "Banners at Wolfreach",
+  "description": "A peace envoy's caravan lies in ruins on a frozen pass. You must reach Wolfreach Keep before dawn or two kingdoms bleed into war.",
+  "author": "AI",
+  "tags": ["diplomacy", "survival"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-16",
+  "dayOfYear": "05-30",
+  "endingCount": 5,
+  "storyNumber": 58,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Smoke. It curls from the overturned wagon in lazy ribbons, carrying the smell of scorched oak. Arrows jut from the planking like quills on a hedgehog. Your escort captain lies still beneath a torn peace banner, the sealed treaty scroll clutched against his chest. Wolves howl in the pines above. The treaty must reach Wolfreach Keep by sunrise.",
+      "choices": [
+        { "label": "take the scroll", "nextNode": "take_scroll", "hint": "You pry the captain's fingers loose and tuck the scroll inside your coat." },
+        { "label": "search the wreckage", "nextNode": "search_wreck", "hint": "You dig through splintered crates hoping to salvage supplies first." }
+      ]
+    },
+    "take_scroll": {
+      "passage": "Wax crackles. You slide the scroll into your coat's inner pocket and a groan rises from behind the second wagon. Harren, the junior diplomat, pulls himself upright with blood streaming from a gash on his brow. He blinks at you, foggy but alive. Boot prints in the frost lead two directions: north toward the ridge, and east into thick timber.",
+      "choices": [
+        { "label": "help Harren stand", "nextNode": "with_harren", "hint": "You grip Harren's arm and haul him to his feet, steadying him." },
+        { "label": "follow the ridge north", "nextNode": "ridge_path", "hint": "You nod to Harren and scramble up loose scree toward the ridgeline." }
+      ]
+    },
+    "search_wreck": {
+      "passage": "Flour sacks lie split open, dusting the frozen ground like false snow. Beneath a cracked weapon crate you find a hand axe, a wool blanket, and a leather water skin still half full. A raven watches from a bent wheel spoke. Head tilted. The captain's body grows pale in the starlight and his fingers still grip the treaty scroll tight.",
+      "choices": [
+        { "label": "claim the scroll now", "nextNode": "with_harren", "hint": "You take the scroll and hear Harren groaning behind the second wagon." },
+        { "label": "ward off the raven", "nextNode": "raven_omen", "hint": "You wave the axe at the raven, but it only hops closer and croaks." }
+      ]
+    },
+    "raven_omen": {
+      "passage": "A brass ring drops from the raven's beak onto frozen mud. You recognize it instantly. The crest of House Greymarch, the very lords who called for this truce, gleams dull against the dirt. Someone inside Greymarch arranged the ambush. The bird lifts off with heavy wingbeats, circling once before gliding east. Harren stumbles toward you, eyes fixed on the ring.",
+      "choices": [
+        { "label": "pocket the ring", "nextNode": "with_harren", "hint": "You slip the Greymarch ring away before Harren can study it closely." },
+        { "label": "show Harren the crest", "nextNode": "harren_knows", "hint": "You hold the ring up so Harren can read the engraved house sigil." }
+      ]
+    },
+    "harren_knows": {
+      "passage": "Harren's breath catches. He touches the engraving and his jaw tightens like a drawn bowstring. A diplomat to his core, he whispers that Lord Greymarch's nephew commands the eastern garrison and may have ordered the ambush himself. Wolfreach Keep could be compromised. Harren suggests a goat trail he once mapped that bypasses the main gate entirely. Pine sap scents the bitter wind.",
+      "choices": [
+        { "label": "use the goat trail", "nextNode": "goat_trail", "hint": "You follow Harren off the road onto a narrow path carved by hooves." },
+        { "label": "risk the main road", "nextNode": "ridge_path", "hint": "You shake your head and push north, trusting speed over caution." }
+      ]
+    },
+    "with_harren": {
+      "passage": "Harren leans on your shoulder, limping but alert. Together you press north through knee-high bracken, leaving the wreckage behind. Frost clings to every frond. An owl glides overhead. Hunting. The pass narrows between two granite bluffs and you spot firelight flickering in a hollow below, its smoke carrying the warm scent of roasted game.",
+      "choices": [
+        { "label": "approach the campfire", "nextNode": "campfire", "hint": "You guide Harren down the slope toward the glow and the smell of food." },
+        { "label": "skirt the hollow quietly", "nextNode": "ridge_path", "hint": "You press a finger to your lips and lead Harren along the bluff's rim." },
+        { "label": "send Harren ahead", "nextNode": "harren_alone", "hint": "You tell Harren to scout the camp while you keep watch from above." }
+      ]
+    },
+    "campfire": {
+      "passage": "Three figures huddle around the flames. A woman in furs looks up first, hand moving to a long knife, but then she sees Harren's diplomatic sash and pauses. Refugees. Farmers fleeing the border raids, she says. A child sleeps bundled between two packs. The woman offers broth in a clay bowl, her eyes sharp despite the hospitality.",
+      "choices": [
+        { "label": "accept the broth", "nextNode": "trust_refugees", "hint": "You sit and drink, letting warmth flood your chest and aching limbs." },
+        { "label": "ask about the road", "nextNode": "refugee_info", "hint": "You decline the bowl and ask what they have seen on the northern pass." }
+      ]
+    },
+    "trust_refugees": {
+      "passage": "Wild thyme and rabbit. The broth tastes better than anything you can remember, and warmth floods back into your fingers as you drink. Brea explains that mounted soldiers rode north two hours ago bearing Greymarch colors, speaking of sealing Wolfreach's postern gate before first light. Harren stiffens. If the postern shuts, no envoy enters without Greymarch approval.",
+      "choices": [
+        { "label": "leave for Wolfreach now", "nextNode": "final_approach", "hint": "You thank Brea, stand, and push hard into the freezing northern trail." },
+        { "label": "convince Brea to guide you", "nextNode": "brea_guides", "hint": "You ask Brea if she knows a faster route through the foothills." }
+      ]
+    },
+    "refugee_info": {
+      "passage": "Brea narrows her gaze. Soldiers, she says, a full patrol riding fast toward Wolfreach with torches and purpose. They wore Greymarch steel but carried no peace banners. She heard their sergeant bark orders about the postern gate. A shortcut exists through an old quarry, she adds, but the footing is treacherous after frost. The child whimpers in its sleep.",
+      "choices": [
+        { "label": "try the quarry path", "nextNode": "goat_trail", "hint": "You thank the woman and head for the abandoned quarry she described." },
+        { "label": "push the main trail", "nextNode": "final_approach", "hint": "You nod and stride north, choosing speed over uncertain shortcuts." }
+      ]
+    },
+    "harren_alone": {
+      "passage": "Harren limps down toward the glow and you wait among the frozen brush, listening. Minutes stretch. An owl calls twice. Then raised voices, a scuffle, a sharp cry. Torchlight flares as armed figures drag Harren into view. Not refugees. Greymarch scouts, four of them, blades drawn. One grips Harren by the collar and scans the bluff where you crouch.",
+      "choices": [
+        { "label": "surrender peacefully", "nextNode": "captured", "hint": "You raise your hands and step into the torchlight, hoping for mercy." },
+        { "label": "flee toward the ridge", "nextNode": "ridge_path", "hint": "You crawl backward through the bracken and run north along the bluff." }
+      ]
+    },
+    "captured": {
+      "passage": "Rough hands bind your wrists with hemp cord. Gone. The scouts toss the treaty scroll into the fire and parchment blackens, curls, vanishes in a breath. Harren whispers an apology through swollen lips. By morning, both kingdoms receive word that the envoy never arrived. War horns echo across the valley before noon. The truce dies in ash.",
+      "choices": [],
+      "ending": {
+        "title": "Ash and Silence",
+        "flavor": "The treaty burns and the border erupts, its fragile hope scattered like cinders on a winter wind.",
+        "action": "watch the scroll burn"
+      }
+    },
+    "ridge_path": {
+      "passage": "Wind screams across the exposed ridge. Each step crunches through a crust of ice over loose gravel. Stars blaze overhead, impossibly vivid. Far below to the east, Wolfreach Keep glimmers behind its curtain wall, torches tracing the battlements. A rockslide blocks the trail ahead, fresh rubble still settling. Pebbles tick and rattle down the slope.",
+      "choices": [
+        { "label": "climb over the rubble", "nextNode": "final_approach", "hint": "You scramble hand over foot across the loose rock, stones shifting beneath you." },
+        { "label": "descend into the timber", "nextNode": "goat_trail", "hint": "You abandon the ridge and drop into thick forest below the slide." }
+      ]
+    },
+    "goat_trail": {
+      "passage": "Barely a crease in the hillside. The trail twists through roots that grab at your boots, and Harren breathes hard but keeps pace behind you. A stream crosses the path, its current black and quick. Beyond it, the land opens into a meadow ringed by birch trees with bark pale as bone. Wolfreach's rear wall rises on the far side, unpatrolled.",
+      "choices": [
+        { "label": "cross the meadow directly", "nextNode": "meadow_sprint", "hint": "You break from the tree line and sprint across open grass toward the wall." },
+        { "label": "trace the stream closer", "nextNode": "stream_approach", "hint": "You wade into the icy current and follow it toward the keep's foundation." }
+      ]
+    },
+    "brea_guides": {
+      "passage": "Brea wakes the child and hands it to the old man. She pulls a fur hood over her braids and grabs a walking staff carved from yew. Follow me, she says, and moves like a deer through the pines. She knows every root and dip. Within an hour the rear of Wolfreach looms above you, its mortar crumbling where a drainage grate rusts open.",
+      "choices": [
+        { "label": "enter the drainage grate", "nextNode": "inside_keep", "hint": "You squeeze through the iron bars into a damp tunnel beneath the keep." },
+        { "label": "scale the crumbling wall", "nextNode": "meadow_sprint", "hint": "You find handholds in the old mortar and haul yourself up the weathered face." }
+      ]
+    },
+    "final_approach": {
+      "passage": "Wolfreach's main gate stands ahead, flanked by braziers hissing in the frost. Two guards in Greymarch livery block the entrance, halberds crossed. A third paces the parapet above. Harren grips your arm. The postern gate to the left sits ajar, a single lantern swaying beside it. A servant hurries through with a basket, leaving it briefly unguarded.",
+      "choices": [
+        { "label": "announce yourself formally", "nextNode": "formal_entry", "hint": "You straighten your coat, raise your voice, and declare your diplomatic purpose." },
+        { "label": "slip through the postern", "nextNode": "inside_keep", "hint": "You duck low and slide through the postern gate behind the departing servant." }
+      ]
+    },
+    "meadow_sprint": {
+      "passage": "Grass whips your shins as you run. Halfway across, a horn blast splits the quiet. Torches flare along the parapet. Shouts carry on the frigid air. An arrow thuds into the turf three paces to your right. Another whistles overhead. The wall is close now, its postern gate visible, but a mounted rider gallops from the tree line behind you.",
+      "choices": [
+        { "label": "dive for the gate", "nextNode": "inside_keep", "hint": "You throw yourself forward and tumble through the narrow postern opening." },
+        { "label": "raise the scroll high", "nextNode": "formal_entry", "hint": "You halt, hold the treaty scroll high, and shout your rank to the archers." }
+      ]
+    },
+    "stream_approach": {
+      "passage": "Frigid water bites your calves. The stream curves along the keep's foundation where mortar has washed away over decades. A grate covers a drainage channel, its bars corroded orange. Beyond, you hear the echo of a great hall, voices murmuring. One firm pull and the grate groans open. Musty air pours out, carrying warmth and the scent of tallow candles.",
+      "choices": [
+        { "label": "crawl through the drain", "nextNode": "inside_keep", "hint": "You squeeze into the narrow channel and drag yourself toward the voices." },
+        { "label": "circle to the main gate", "nextNode": "final_approach", "hint": "You release the grate and wade downstream toward the keep's front entrance." }
+      ]
+    },
+    "formal_entry": {
+      "passage": "Your voice rings across the frosted ground. You name yourself envoy of the Crown, bearing sealed terms for the armistice. The guards hesitate. One retreats inside. Minutes crawl past. Then the gate groans wide and a steward in grey robes beckons you into a torchlit courtyard. Lord Aldric himself descends the keep stairs, silver hair loose, eyes wary but curious.",
+      "choices": [
+        { "label": "present the treaty", "nextNode": "present_treaty", "hint": "You kneel and offer the scroll with both hands, seal facing upward." },
+        { "label": "warn of treachery first", "nextNode": "expose_plot", "hint": "You speak first of the ambush and the Greymarch crest on the ring." }
+      ]
+    },
+    "inside_keep": {
+      "passage": "Ale casks. Grain sacks. The cellar smells of must and spilled mead, and a spiral stair rises from its far end into flickering warmth. Servants' footsteps echo above as you climb carefully and emerge behind a tapestry in the great hall. Dozens of nobles sit at long tables, their talk hushed and tense. Lord Aldric occupies the high seat.",
+      "choices": [
+        { "label": "step from the tapestry", "nextNode": "dramatic_reveal", "hint": "You push the heavy cloth aside and stride into the hall, scroll raised." },
+        { "label": "find Aldric privately", "nextNode": "private_audience", "hint": "You slip along the wall seeking a quieter moment with the lord alone." }
+      ]
+    },
+    "present_treaty": {
+      "passage": "Lord Aldric breaks the seal with a thumbnail and his eyes move across the terms, line by careful line, while the courtyard holds its breath. At last he looks up. A thin smile. Acceptable, he says, and calls for ink. He signs before witnesses as the first gray band of dawn splits the horizon. Church bells ring. The border exhales.",
+      "choices": [],
+      "ending": {
+        "title": "Dawn of the Armistice",
+        "flavor": "Two kingdoms lower their banners and the long war stumbles, at last, toward its end.",
+        "action": "hear the bells ring"
+      }
+    },
+    "expose_plot": {
+      "passage": "You produce the Greymarch ring and recount the ambush. Lord Aldric's face hardens like cooling iron. He summons his captain and orders the Greymarch nephew seized. Within the hour, confessions pour out. The nephew planned to destroy the treaty and blame border raiders. Aldric signs the scroll at his war table, gratitude sharpening his gaze. The conspiracy crumbles before sunrise.",
+      "choices": [],
+      "ending": {
+        "title": "Conspiracy Unraveled",
+        "flavor": "Truth cuts deeper than any blade, and the would-be traitor kneels in chains before the ink dries.",
+        "action": "expose the traitor"
+      }
+    },
+    "dramatic_reveal": {
+      "passage": "Gasps ripple through the hall as you emerge from behind the tapestry, mud-caked and frost-bitten. Lord Aldric rises, hand on his sword hilt. You hold the scroll high and declare your purpose in a voice that cracks with exhaustion. Nobles murmur. Aldric studies you for a long breath, then gestures for you to approach. Every eye in the hall follows.",
+      "choices": [
+        { "label": "offer the scroll humbly", "nextNode": "present_treaty", "hint": "You kneel at the high table and place the scroll before Lord Aldric." },
+        { "label": "demand an audience alone", "nextNode": "private_audience", "hint": "You ask the lord to clear the hall before you reveal what you carry." }
+      ]
+    },
+    "private_audience": {
+      "passage": "Aldric leads you to a small chamber above the hall. A fire crackles in a hearth. Maps and letters blanket every surface. He pours two cups of mulled cider without asking and sits across from you, fingers steepled. Speak plainly, he says. His voice carries the fatigue of a man who has buried too many soldiers this season.",
+      "choices": [
+        { "label": "deliver the full treaty", "nextNode": "ending_private_peace", "hint": "You lay the scroll on his desk and explain each term with careful precision." },
+        { "label": "bargain for more terms", "nextNode": "ending_bitter_deal", "hint": "You push beyond the written terms, leveraging the ambush for advantage." }
+      ]
+    },
+    "ending_private_peace": {
+      "passage": "Aldric reads in the firelight, his lips moving with each clause. He sets the scroll down and rubs his temples. Then he signs, the quill scratching loud in the quiet room. No fanfare, no witnesses beyond you and the hearth flames. He clasps your hand and says he hopes this peace outlasts them both. Outside, the first gray hint of morning touches the peaks.",
+      "choices": [],
+      "ending": {
+        "title": "Quiet Accord",
+        "flavor": "Some victories arrive not with trumpets but with the soft scratch of a quill by firelight.",
+        "action": "clasp the lord's hand"
+      }
+    },
+    "ending_bitter_deal": {
+      "passage": "You press for border concessions, trade rights, hostage exchanges. Aldric's jaw clenches but he has no leverage, not with a traitor in his own ranks. He signs with visible reluctance, each stroke of the quill a wound to his pride. Peace holds, but resentment festers. You ride home victorious, yet the cider in your belly has turned sour and heavy.",
+      "choices": [],
+      "ending": {
+        "title": "Peace with Thorns",
+        "flavor": "The war ends on paper, but bitterness plants seeds that may one day bloom into fresh conflict.",
+        "action": "ride home in silence"
+      }
+    }
+  }
+}

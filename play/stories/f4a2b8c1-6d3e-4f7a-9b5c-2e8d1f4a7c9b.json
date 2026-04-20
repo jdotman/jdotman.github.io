@@ -1,0 +1,319 @@
+{
+  "id": "f4a2b8c1-6d3e-4f7a-9b5c-2e8d1f4a7c9b",
+  "title": "Vessel and the Star",
+  "description": "Tonight a second star falls upon the Aerie, and the glass to catch it is cracked. Master Halder will not say what the second star truly is.",
+  "author": "AI",
+  "tags": [
+    "sacrifice",
+    "eerie"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-05-25",
+  "dayOfYear": "05-25",
+  "endingCount": 4,
+  "storyNumber": 53,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "The Aerie perches on a cliff above the cloud sea, and tonight the master has called every hand to their post. A star will fall at moonrise. The great vessel waits on its cradle, still warm from the furnace. Master Halder frowns at the glass. Something is wrong, and he will not say what.",
+      "choices": [
+        {
+          "label": "tend the furnace",
+          "nextNode": "furnace",
+          "hint": "Heat washes toward you from the open doors at the hall's end."
+        },
+        {
+          "label": "climb to the observatory",
+          "nextNode": "observatory",
+          "hint": "The spiral stair twists up past narrow windows full of dusk glow."
+        },
+        {
+          "label": "descend to the vault",
+          "nextNode": "vault",
+          "hint": "Worn steps lead down where the air turns still and quiet."
+        }
+      ]
+    },
+    "furnace": {
+      "passage": "Heat batters you as you cross into the furnace hall, where Master Halder crouches beside the great cradle with his palm flat against the vessel's curved flank. He does not look up. 'A hairline crack runs here,' he says. 'I feel it. The star will split this glass if we fail.'",
+      "choices": [
+        {
+          "label": "seal the crack",
+          "nextNode": "furnace-repair",
+          "hint": "Molten sand waits in the ladle, ready for a steady hand."
+        },
+        {
+          "label": "brace the cradle",
+          "nextNode": "furnace-repair",
+          "hint": "The iron supports groan softly beneath the weight of the great glass."
+        }
+      ]
+    },
+    "furnace-repair": {
+      "passage": "The ladle is heavy in your hand as you guide a thin thread of molten glass along the flaw, and the crack drinks it in like a thirsty mouth. Halder rests his palm on your shoulder once, briefly. He says nothing. Your tools lie heavy in a satchel and a fresh glaze cools on the bench.",
+      "choices": [
+        {
+          "label": "carry the tools upstairs",
+          "nextNode": "stair-up",
+          "hint": "Iron tongs and pliers clink together in the worn leather satchel."
+        },
+        {
+          "label": "pour a fresh cooling glaze",
+          "nextNode": "stair-up",
+          "hint": "The glaze steams as it touches the vessel's curved lip."
+        }
+      ]
+    },
+    "stair-up": {
+      "passage": "Halder leads you up the long stair to the rooftop, and at each landing the younger apprentices rush past with buckets of water, bundles of sand, and coils of rope. One of them stops. It is a boy you do not know. 'The sky has two moons tonight,' he says, then runs on.",
+      "choices": [
+        {
+          "label": "hurry after him",
+          "nextNode": "rooftop",
+          "hint": "His words sit heavy and strange on your shoulders as you run."
+        },
+        {
+          "label": "keep your own pace",
+          "nextNode": "rooftop",
+          "hint": "Each step brings cooler air and the taste of high wind."
+        }
+      ]
+    },
+    "observatory": {
+      "passage": "Stars wheel overhead through the great lens as you step into the observatory, where Apprentice Vera hunches over the sighting glass with her fingers white on the brass wheel. She does not greet you. 'There are two,' she says at last. 'Two stars fall tonight, and one has no name in any book we own.'",
+      "choices": [
+        {
+          "label": "look through the lens",
+          "nextNode": "second-star",
+          "hint": "The brass is cool under your palms as you lean to the eyepiece."
+        },
+        {
+          "label": "ask Vera what she means",
+          "nextNode": "second-star",
+          "hint": "Her eyes meet yours with the look of someone who has not slept."
+        }
+      ]
+    },
+    "second-star": {
+      "passage": "The second star burns red behind the first, slower and larger, and Vera's hand trembles hard enough to rattle the old starmaps stacked beside her. 'It is not a star at all,' she whispers. 'It is a mouth. It is opening.' Below, a bell begins to ring and will not stop.",
+      "choices": [
+        {
+          "label": "take Vera to the roof",
+          "nextNode": "map-check",
+          "hint": "Her hand is ice in yours as you pull her from the chair."
+        },
+        {
+          "label": "grab the old starmaps",
+          "nextNode": "map-check",
+          "hint": "The parchments are brittle, stacked beside the lens in uneven piles."
+        }
+      ]
+    },
+    "map-check": {
+      "passage": "Vera unrolls the oldest map across the observatory floor. The ink is faded, but one mark is clear: a red eye drawn above the Aerie, ringed three times. 'The first watchers knew,' she says. 'They left us a word to speak if it came back. I cannot read it. Maybe Halder can.'",
+      "choices": [
+        {
+          "label": "bring the map to Halder",
+          "nextNode": "rooftop",
+          "hint": "You roll the parchment tight and tuck it beneath your arm."
+        },
+        {
+          "label": "copy the word first",
+          "nextNode": "rooftop",
+          "hint": "Your charcoal scratches the strange shape onto a scrap of hide."
+        }
+      ]
+    },
+    "vault": {
+      "passage": "Cold seeps through your boots as you reach the vault floor. Shelves of old vessels stretch into the dark, each holding a star caught by some long-dead master. Their glow pulses faint and blue. A voice moves between them, low and many, as if the stars are speaking to one another about you.",
+      "choices": [
+        {
+          "label": "listen to the voices",
+          "nextNode": "old-records",
+          "hint": "The whispers settle into a language just beneath your understanding."
+        },
+        {
+          "label": "read the shelf labels",
+          "nextNode": "old-records",
+          "hint": "Each label holds a name and a date and a warning mark."
+        }
+      ]
+    },
+    "old-records": {
+      "passage": "One label reads simply: THIS ONE SPOKE BACK. The vessel beside it stands empty. Its glass is clean and unbroken. An old ledger lies open on a reading stand, its last page filled with shaky handwriting. The words say a star can be answered if the vessel holds a drop of the speaker's blood.",
+      "choices": [
+        {
+          "label": "pocket the ledger",
+          "nextNode": "whispers",
+          "hint": "The leather is cracked and warm, as if someone just set it down."
+        },
+        {
+          "label": "touch the empty vessel",
+          "nextNode": "whispers",
+          "hint": "The glass hums against your fingers, soft and almost alive."
+        }
+      ]
+    },
+    "whispers": {
+      "passage": "A hand closes on your shoulder and you nearly drop the ledger in fright, but it is only Halder, his face drawn and his eyes bright with a fear you have never seen in him before. 'You should not be down here,' he says. Then he sees what you hold. His mouth tightens. 'Run. Now. Up to the roof.'",
+      "choices": [
+        {
+          "label": "follow Halder up",
+          "nextNode": "rooftop",
+          "hint": "His breath is quick and your own is quicker as you climb."
+        },
+        {
+          "label": "press him for answers",
+          "nextNode": "rooftop",
+          "hint": "His jaw tightens but he does not slow his steps up the stair."
+        }
+      ]
+    },
+    "rooftop": {
+      "passage": "Wind cuts across the Aerie roof and the night sky gapes wide overhead. The vessel rests on its iron cradle, mouth open to the heavens. A red glow grows among the stars, too slow to fall by chance, too steady to be a star at all. Halder waits beside the cradle. The old words burn in your pocket.",
+      "choices": [
+        {
+          "label": "raise the vessel high",
+          "nextNode": "catch-approach",
+          "hint": "Your arms shake with the weight of the great glass shell."
+        },
+        {
+          "label": "speak the old word",
+          "nextNode": "speak-approach",
+          "hint": "The strange shape on the map moves under your tongue and will not be still."
+        },
+        {
+          "label": "shield Halder with your body",
+          "nextNode": "shield-approach",
+          "hint": "He does not notice you moving to stand between him and the sky."
+        }
+      ]
+    },
+    "catch-approach": {
+      "passage": "The vessel is cold in your hands but warms fast as the red mouth above widens. Halder holds the base while you lift the mouth of the glass. Sparks drift down from the sky now, slow and strange, drifting like snow that has forgotten which way is down. One lands on your sleeve. It does not burn.",
+      "choices": [
+        {
+          "label": "hold the vessel steady",
+          "nextNode": "catch-climax",
+          "hint": "Your arms lock in place and the glass sings against your palms."
+        },
+        {
+          "label": "plant your feet wide",
+          "nextNode": "catch-climax",
+          "hint": "The roof tiles shift slightly under your weight, then hold firm."
+        }
+      ]
+    },
+    "catch-climax": {
+      "passage": "The star drops all at once, a streak of white fire that the vessel drinks in a single breath. Glass flares bright as day, then dims. Inside, a point of pure light spins, small as a seed. The mouth of the second thing yawns above, but the first star is caught. Halder weeps without sound.",
+      "choices": [
+        {
+          "label": "cap the vessel",
+          "nextNode": "catch-ending",
+          "hint": "The lid is heavy in your hands and fits with a soft click."
+        },
+        {
+          "label": "lift it to the sky",
+          "nextNode": "catch-ending",
+          "hint": "You lift the shining glass high above your head into the wind."
+        }
+      ]
+    },
+    "catch-ending": {
+      "passage": "Halder takes the capped vessel and lowers it into the cradle with the reverence of a parent with a newborn. Above, the red mouth closes, cheated, and the night returns to its old familiar stars. The bell below stops ringing. You cannot feel your hands. You do not need to. The Aerie holds another quiet ember.",
+      "choices": [],
+      "ending": {
+        "title": "Another Quiet Ember",
+        "flavor": "The vessel sings softly, and the sky forgets your name.",
+        "action": "set the star in its cradle"
+      }
+    },
+    "speak-approach": {
+      "passage": "Vera reaches you at the cradle, the map pressed flat against her chest. Halder takes one look at the red eye drawn there and his face loses the last of its color. 'I know this word.' His voice is quiet. 'My master made me swear never to speak it. You decide now.'",
+      "choices": [
+        {
+          "label": "command Halder to say it",
+          "nextNode": "bargain-scene",
+          "hint": "The word feels heavier than any command you have ever given."
+        },
+        {
+          "label": "say it yourself",
+          "nextNode": "bargain-scene",
+          "hint": "The strange syllables shift on your tongue, ready to be let go."
+        }
+      ]
+    },
+    "bargain-scene": {
+      "passage": "The word leaves your mouth and the night holds its breath, and the red mouth above slows, then tilts, as if listening for the rest of what you will say. A single voice answers, far and near at once, asking what price you will pay. Halder's hand closes on your wrist. 'Careful,' he breathes.",
+      "choices": [
+        {
+          "label": "offer your voice",
+          "nextNode": "speak-good-ending",
+          "hint": "The words taste like copper as they leave you for the last time."
+        },
+        {
+          "label": "trade a year",
+          "nextNode": "speak-bitter-ending",
+          "hint": "Something patient and still presses a seal against your heart."
+        }
+      ]
+    },
+    "speak-good-ending": {
+      "passage": "Your voice leaves you in a long slow thread of silver. It rises to meet the red mouth, and the sky drinks it down. The stars return to their places. Halder catches you as you fall. You will never sing or shout or whisper again, but the Aerie stands, and so do you, and the old stars above shine quiet and steady.",
+      "choices": [],
+      "ending": {
+        "title": "The Silent Price",
+        "flavor": "Silence is a kind of song, if you listen closely enough.",
+        "action": "give up your voice"
+      }
+    },
+    "speak-bitter-ending": {
+      "passage": "A year of your life leaves you in an instant, and you feel it go in a slow rush from the crown of your head to your aching knuckles. Your hair turns white at the roots. Above, the red mouth closes. The stars return. Halder looks at you with something close to grief. You are still young, but only just.",
+      "choices": [],
+      "ending": {
+        "title": "A Year Taken",
+        "flavor": "The cost of a saved sky is measured in borrowed days.",
+        "action": "feel the year leave you"
+      }
+    },
+    "shield-approach": {
+      "passage": "You step between Halder and the widening red mouth. He shouts your name but you do not turn. The ledger burns in your pocket, and the old words pull at your eyes with a meaning you only now understand. The empty vessel down in the vault is not meant for a star. It is meant for a person.",
+      "choices": [
+        {
+          "label": "drink from the vessel",
+          "nextNode": "shield-hold",
+          "hint": "The glass is warm as breath and tastes faintly of salt."
+        },
+        {
+          "label": "kneel in the cradle",
+          "nextNode": "shield-hold",
+          "hint": "You pull yourself up with trembling arms, eyes fixed upward."
+        }
+      ]
+    },
+    "shield-hold": {
+      "passage": "The glass is warm on your lips and something inside it meets you like a handshake, pulling you upward until your feet leave the roof tiles entirely. The vessel cradles you the way it cradles stars. Halder falls to his knees below. He calls up a name. You cannot tell whose anymore.",
+      "choices": [
+        {
+          "label": "reach toward the mouth",
+          "nextNode": "shield-ending",
+          "hint": "The sky feels close enough to touch for the first time tonight."
+        },
+        {
+          "label": "close your eyes tight",
+          "nextNode": "shield-ending",
+          "hint": "A calm settles on you that has no name in any language."
+        }
+      ]
+    },
+    "shield-ending": {
+      "passage": "The red mouth closes around you like a slow hand. The Aerie is saved. Halder will tell this story for the rest of his days. He will get the ending right and the beginning wrong. He will say you are brave, and he will not lie, though brave is only part of the truth.",
+      "choices": [],
+      "ending": {
+        "title": "What Halder Will Say",
+        "flavor": "Some gifts are given once, and remembered forever.",
+        "action": "open your arms wide"
+      }
+    }
+  }
+}

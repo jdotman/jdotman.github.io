@@ -1,0 +1,328 @@
+{
+  "id": "124434d0-b5d6-4ddb-9bc6-bc7de5a6731d",
+  "title": "Hollow Beneath",
+  "description": "A rival cartographer has vanished into the Ironroot Mines chasing a map no one believes in. You follow her lantern trail into a city that forgot the sun.",
+  "author": "AI",
+  "tags": [
+    "exploration",
+    "stealth"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-11",
+  "dayOfYear": "05-24",
+  "endingCount": 5,
+  "storyNumber": 52,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "The Ironroot Mines have been dead for forty years, but a fresh chalk arrow points down the main shaft. Marenna came this way seven nights ago and has not returned. Her camp is still set up near the entrance: bedroll, notebook, a lantern still warm in its cradle. Whatever caught her, it was sudden.",
+      "choices": [
+        {
+          "label": "drop into the shaft",
+          "nextNode": "ladder-shaft",
+          "hint": "Old rungs flake rust onto your palms as you swing onto the ladder."
+        },
+        {
+          "label": "trace the chalk marks",
+          "nextNode": "chalk-corridor",
+          "hint": "Each arrow is drawn in a hurried hand. She was not stopping for precision."
+        },
+        {
+          "label": "search the camp",
+          "nextNode": "abandoned-camp",
+          "hint": "The bedroll is neat, the notebook open, the lantern still giving off a faint warmth."
+        }
+      ]
+    },
+    "ladder-shaft": {
+      "passage": "The iron ladder drops sixty feet into a tunnel thick with beetle husks that crack under your boots like old glass. Somewhere ahead, an echo answers that noise with a softer crack, much further away. Something is listening. The shaft ends at a chamber where three tunnels fork, each marked with a chalk symbol Marenna's hand drew.",
+      "choices": [
+        {
+          "label": "follow the spiral",
+          "nextNode": "the-gate",
+          "hint": "The spiral mark glows faintly where her finger traced it in damp chalk."
+        },
+        {
+          "label": "enter the beetle tunnel",
+          "nextNode": "chalk-corridor",
+          "hint": "The husks deepen as you walk, piling in drifts against the tunnel walls."
+        }
+      ]
+    },
+    "chalk-corridor": {
+      "passage": "A narrow passage winds between shored-up pit props, each one groaning with the weight above. The chalk arrows grow frantic, doubled back on themselves, then crossed out. Near the end, a handprint has been smeared across the wall in ochre paint, palm flat, fingers splayed. A warning. Or a goodbye. The corridor opens into a wider space ahead.",
+      "choices": [
+        {
+          "label": "press into the opening",
+          "nextNode": "the-gate",
+          "hint": "The air changes as you cross the threshold. Older. Drier. Something that has not breathed."
+        },
+        {
+          "label": "study the handprint",
+          "nextNode": "abandoned-camp",
+          "hint": "The size matches Marenna's hand. You have measured it against too many maps to miss."
+        }
+      ]
+    },
+    "abandoned-camp": {
+      "passage": "Marenna's camp is laid out like a working station: compass, pen, lamp, and an open notebook filled with her cramped, urgent handwriting. The last entry is dated yesterday. 'They know I can see them now. The bell in the tower is not a bell.' Three pages are torn out after that. Her rope is coiled by the shaft, ready.",
+      "choices": [
+        {
+          "label": "lower down her rope",
+          "nextNode": "the-gate",
+          "hint": "The rope bites into your gloves. Her knots are tied in an unfamiliar pattern."
+        },
+        {
+          "label": "tear out the pages",
+          "nextNode": "ladder-shaft",
+          "hint": "The remaining pages crackle in your pocket. You will read them later, if later comes."
+        }
+      ]
+    },
+    "the-gate": {
+      "passage": "Ahead stands a gate carved from a single slab of black rock, etched with a language older than the mines themselves. A hairline crack splits the seal. Through it, you see lantern light far below, not torch, not flame, but a steady amber glow. Something vast is breathing on the other side of that gate.",
+      "choices": [
+        {
+          "label": "force the lock",
+          "nextNode": "high-bridge",
+          "hint": "The lock gives with a sound like a bone snapping back into place."
+        },
+        {
+          "label": "read the inscription",
+          "nextNode": "service-tunnel",
+          "hint": "The symbols seem to rearrange themselves when you are not looking straight at them."
+        },
+        {
+          "label": "squeeze through the crack",
+          "nextNode": "stone-garden",
+          "hint": "The rock is cool and smooth where it scrapes against your back."
+        }
+      ]
+    },
+    "high-bridge": {
+      "passage": "Beyond the broken lock, a rope bridge crosses a chasm thick with amber mist. Below the mist spreads a city that no surface map remembers: carved towers, domed halls, a great iron bell hanging from nothing at all. The bridge creaks. Something turns its head to watch you from a balcony two hundred feet down.",
+      "choices": [
+        {
+          "label": "cross the bridge",
+          "nextNode": "market-row",
+          "hint": "You do not look at the watcher. You do not look down. You just move."
+        },
+        {
+          "label": "ascend toward the tower",
+          "nextNode": "bell-tower",
+          "hint": "The bridge sways as you climb the ropes toward the bell hanging in the distance."
+        }
+      ]
+    },
+    "service-tunnel": {
+      "passage": "The inscription becomes clear as you trace it, instructions for a service tunnel used by the city's old builders. A panel slides aside at your touch. Inside, the passage is low and damp, running beneath the amber mist you glimpsed at the gate. Water beads on the walls. Somewhere below, a work bell tolls once, then stops.",
+      "choices": [
+        {
+          "label": "walk the slope down",
+          "nextNode": "forge-square",
+          "hint": "The passage slopes under you, and the sound of hammers rises to meet your steps."
+        },
+        {
+          "label": "take the side shaft",
+          "nextNode": "market-row",
+          "hint": "The shaft smells of old grease and something newer, something that breathes."
+        }
+      ]
+    },
+    "stone-garden": {
+      "passage": "You emerge into a cavern where carved mushrooms of pale rock rise in perfect rows. Someone tended this garden once. The largest of them has been chiseled open and the hollow inside is lined with tiny wax dolls. Each doll wears a face you have not seen, except one, which wears yours. It is new. The wax is still soft.",
+      "choices": [
+        {
+          "label": "pocket the wax doll",
+          "nextNode": "forge-square",
+          "hint": "The wax warms in your pocket as if it remembers the heat of your skin."
+        },
+        {
+          "label": "crush it under your heel",
+          "nextNode": "market-row",
+          "hint": "The wax gives easily. Something far off makes a sound you choose not to name."
+        }
+      ]
+    },
+    "market-row": {
+      "passage": "Market Row runs between rows of shuttered stalls stacked with goods the surface forgot centuries ago: copper kettles, dried moth-lace, jars of luminous paste. The shopkeepers are here too. Pale, hollow-cheeked, watching you pass without a word. One of them, a woman in a gray shawl, lifts a finger to point you toward a corridor ahead.",
+      "choices": [
+        {
+          "label": "approach the pointing woman",
+          "nextNode": "lantern-keeper",
+          "hint": "Her eyes are milk-white, and her shawl smells of chalk and dried sage."
+        },
+        {
+          "label": "head into the corridor",
+          "nextNode": "throne-hall",
+          "hint": "The corridor narrows and the shop glow dims behind you with each step."
+        },
+        {
+          "label": "slip into a stall",
+          "nextNode": "cartographer-trail",
+          "hint": "The stall holds a bolt of cloth, and under the cloth a fresh footprint."
+        }
+      ]
+    },
+    "forge-square": {
+      "passage": "The forge still burns. Three pale smiths work at the anvils, their hammer-strikes in perfect unison, though they wear no ear-guards and never flinch. What they shape is not metal but something else, a long flat slab that pulses with inner heat. One of the smiths looks up and meets your eyes, and the hammers do not miss a beat.",
+      "choices": [
+        {
+          "label": "step toward the anvils",
+          "nextNode": "silent-watchers",
+          "hint": "The forge heat is real. It is the only thing here that feels real."
+        },
+        {
+          "label": "back away slowly",
+          "nextNode": "bell-tower",
+          "hint": "Their hammer rhythm does not change, but one of them is watching you go."
+        }
+      ]
+    },
+    "bell-tower": {
+      "passage": "A spiral stair climbs to the top of the great bell tower. The bell itself is not a bell, it is a great amber lens, suspended on iron chains, catching the glow of the mist below. Marenna's final warning makes sense now. Whatever gazes through this lens sees the whole city at once. Your reflection in its curve is wrong. Your mouth is smiling.",
+      "choices": [
+        {
+          "label": "smash the lens",
+          "nextNode": "lens-ending",
+          "hint": "The hammer lifts from its cradle, as if it has waited long for this moment."
+        },
+        {
+          "label": "descend the stair",
+          "nextNode": "collapsed-stair",
+          "hint": "The stair groans under your weight and a tremor runs through the whole tower."
+        },
+        {
+          "label": "gaze into the lens",
+          "nextNode": "throne-hall",
+          "hint": "Your reflection's smile widens as you lean closer. Your own face does not."
+        }
+      ]
+    },
+    "silent-watchers": {
+      "passage": "They come from the balconies, the archways, the shuttered stalls. A dozen pale figures with the same milk-white eyes, moving in a rhythm too even to be human. None carry weapons. They do not need to. Long iron hooks dangle from chains in their hands, and the chains hum with a low, patient note. The spiral stair is your only way out.",
+      "choices": [
+        {
+          "label": "run for the stair",
+          "nextNode": "collapsed-stair",
+          "hint": "The hooks drag along the ground behind you in a sound like a slow drum."
+        },
+        {
+          "label": "stand your ground",
+          "nextNode": "watchers-ending",
+          "hint": "Your knife feels absurd in your hand, but it is the only answer left."
+        }
+      ]
+    },
+    "lantern-keeper": {
+      "passage": "The pale woman unwraps her shawl with hands that do not quite move like living hands and offers you her lantern. 'You are a mapper,' she says, her voice thin as paper. 'The last mapper is gone. The city needs another to walk the Hollow Road and keep the flame on the markers. Take the lantern. Stay.' The offer is sincere.",
+      "choices": [
+        {
+          "label": "accept the lantern",
+          "nextNode": "keeper-ending",
+          "hint": "The lantern's weight settles into your hand like something that has always belonged there."
+        },
+        {
+          "label": "refuse her offer",
+          "nextNode": "cartographer-trail",
+          "hint": "Her face does not change, but the shawl tightens around her shoulders."
+        },
+        {
+          "label": "ask about Marenna",
+          "nextNode": "throne-hall",
+          "hint": "'She walked further than I would have let her,' the woman says. 'Come. See.'"
+        }
+      ]
+    },
+    "throne-hall": {
+      "passage": "The corridor opens into a vast, vaulted hall. At its center sits no throne, only a bowl of black water reflecting a sky that is not above you. Marenna stands at the bowl's edge, alive, her lantern burning steady. She does not turn when you call her name. The reflection in the bowl shows her walking away. The real Marenna does not move.",
+      "choices": [
+        {
+          "label": "pull Marenna back",
+          "nextNode": "cartographer-trail",
+          "hint": "Her sleeve is chill. Her skin is warm. You cannot decide which is more wrong."
+        },
+        {
+          "label": "peer into the bowl",
+          "nextNode": "bowl-ending",
+          "hint": "The surface does not ripple even as you lean close to see your breath."
+        }
+      ]
+    },
+    "cartographer-trail": {
+      "passage": "Marenna blinks at the sound of her name. 'You followed me,' she whispers. 'I thought you had more sense.' She presses her notebook into your hands, the missing pages still folded inside. 'The map home is in the last three entries. Do not look at the bowl. Do not listen to the bell.' Her hand is shaking. 'We leave now.'",
+      "choices": [
+        {
+          "label": "flee toward the tunnel",
+          "nextNode": "escape-ending",
+          "hint": "Marenna limps beside you, pressing one hand against a wound you had not noticed."
+        },
+        {
+          "label": "insist on one more clue",
+          "nextNode": "bowl-ending",
+          "hint": "Her face falls, and she points at the bowl with a hand she cannot steady."
+        }
+      ]
+    },
+    "collapsed-stair": {
+      "passage": "You reach the spiral stair as the first iron hook bites deep into the wall behind you and drags a slow scar across the bricks. The upper steps have collapsed. A wooden support beam leans against the gap, unstable but climbable. The hooks scrape below. Above, a draft of surface air drifts down from a crack in the ceiling. Twenty feet.",
+      "choices": [
+        {
+          "label": "climb the beam",
+          "nextNode": "escape-ending",
+          "hint": "The wood creaks under your weight. You do not look down at the hooks."
+        },
+        {
+          "label": "stay and fight",
+          "nextNode": "watchers-ending",
+          "hint": "You turn at the foot of the beam and face the sound of the chains."
+        }
+      ]
+    },
+    "escape-ending": {
+      "passage": "Fresh air hits your face as you crawl through the crack in the ceiling and emerge into the pine woods above the mines. Marenna drops beside you, coughing dust and laughing at the sky. The Hollow's light fades behind you. Her notebook is tucked safely against your chest. The map home proved itself real.",
+      "choices": [],
+      "ending": {
+        "title": "The Map Home",
+        "flavor": "Some places should stay unmapped, but this one is yours to remember.",
+        "action": "step into the sunlight"
+      }
+    },
+    "keeper-ending": {
+      "passage": "The lantern's weight is strange and right. The pale woman nods once, folds into herself like paper, and is gone. You walk the first marker. Then the second. Then the third. The city's quiet sounds begin to feel like your own, and by the time you would have missed the surface, you no longer remember what that word means.",
+      "choices": [],
+      "ending": {
+        "title": "The New Keeper",
+        "flavor": "The Hollow has always needed a mapper, and now it has one again.",
+        "action": "take up the lantern"
+      }
+    },
+    "watchers-ending": {
+      "passage": "Your knife meets the first hook and the chain sings a low note. The pale figures do not speed up, do not slow. They work in perfect rhythm. You land one cut, two, and then the hooks find you. The last thing you see is the ceiling, far above, with a single crack of daylight you will never reach.",
+      "choices": [],
+      "ending": {
+        "title": "The Hooks' Rhythm",
+        "flavor": "The chain's low note becomes the only sound you know.",
+        "action": "close your eyes"
+      }
+    },
+    "bowl-ending": {
+      "passage": "The black water does not ripple as you lean over the bowl. Your reflection lifts its hand when yours does not. It smiles. It steps forward into the bowl and becomes real, walking past you with Marenna's notebook in its grip. You stay behind, suddenly weightless, suddenly flat, a reflection looking up at the hall you once stood in.",
+      "choices": [],
+      "ending": {
+        "title": "Through the Glass",
+        "flavor": "The real hall is so far away now, and getting farther every moment.",
+        "action": "reach for the surface"
+      }
+    },
+    "lens-ending": {
+      "passage": "The hammer lands and the amber lens shatters into a thousand bright shards. The city below screams in a voice that is not one voice. Walls crack. Towers lean. You run for the stair as the whole Hollow comes apart behind you, and somewhere in the collapse, you hear Marenna calling your name, unafraid. The road out opens ahead.",
+      "choices": [],
+      "ending": {
+        "title": "The Shattered Lens",
+        "flavor": "A city that should not exist has stopped existing, and you have let it go.",
+        "action": "swing the hammer"
+      }
+    }
+  }
+}

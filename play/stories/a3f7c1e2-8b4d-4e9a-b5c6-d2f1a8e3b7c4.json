@@ -1,0 +1,384 @@
+{
+  "id": "a3f7c1e2-8b4d-4e9a-b5c6-d2f1a8e3b7c4",
+  "title": "Sunken Temple",
+  "description": "A flooded ruin beneath the marshlands holds treasures and dangers in equal measure. The water is rising.",
+  "author": "AI",
+  "tags": [
+    "treasure-hunt",
+    "exploration"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-03",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "You are standing at the edge of a marsh where the ground gives way to black water. Ahead, stone steps descend into a flooded ruin half-swallowed by mud and creeping vines. The air smells of rot and old incense. Somewhere below, a faint golden light pulses through the murk. Reeds line the bank nearby.",
+      "choices": [
+        {
+          "label": "descend the steps",
+          "nextNode": "entry-hall",
+          "hint": "The wet stone is slippery under your boots as you start down."
+        },
+        {
+          "label": "search the bank",
+          "nextNode": "marsh-bank",
+          "hint": "Something small and bright glints beneath the mud and tangled reeds."
+        },
+        {
+          "label": "light a torch first",
+          "nextNode": "torchlit-entry",
+          "hint": "The flame catches on the third strike and pushes back the dark."
+        }
+      ]
+    },
+    "marsh-bank": {
+      "passage": "You kneel at the water's edge and push aside the reeds. Your fingers close around a bronze medallion half-buried in the silt. It bears the image of a serpent coiled around a flame. The metal is warm despite the cold water. You slip it into your pocket and eye the steps below.",
+      "choices": [
+        {
+          "label": "descend the steps",
+          "nextNode": "entry-hall",
+          "hint": "The medallion feels warm and heavy in your pocket as you go down."
+        },
+        {
+          "label": "examine the medallion",
+          "nextNode": "medallion-study",
+          "hint": "The tiny serpent eye catches what is left of the fading daylight."
+        }
+      ]
+    },
+    "medallion-study": {
+      "passage": "You hold the medallion up to the fading daylight. The serpent's eye is a tiny ruby that catches the sun and throws a red dot onto the nearest stone column. Where the dot lands, you notice a hidden seam in the rock. A secret passage, perhaps, invisible to anyone without this key.",
+      "choices": [
+        {
+          "label": "press the seam",
+          "nextNode": "secret-passage",
+          "hint": "The stone shifts just slightly under your fingers when you push it."
+        },
+        {
+          "label": "pocket it and descend",
+          "nextNode": "entry-hall",
+          "hint": "You tuck the medallion safely away and head for the stone steps."
+        }
+      ]
+    },
+    "torchlit-entry": {
+      "passage": "You wrap cloth around a branch and strike your flint until it catches. The flame throws dancing shadows across the wet stones as you descend. Water reaches your ankles by the fourth step. By the tenth, it laps at your knees. Torchlight reveals carvings on the walls, warnings in a language you cannot read.",
+      "choices": [
+        {
+          "label": "continue deeper inside",
+          "nextNode": "entry-hall",
+          "hint": "The water creeps higher with every step you take into the dark."
+        },
+        {
+          "label": "study the carvings",
+          "nextNode": "wall-carvings",
+          "hint": "The carved figures seem to move and dance in the flickering torchlight."
+        }
+      ]
+    },
+    "wall-carvings": {
+      "passage": "The carvings depict figures offering gifts to a great serpent that coils beneath a temple. In the final panel, the serpent sleeps and the water rises around it. You notice one figure holds a round object, perhaps a medallion, raised above its head as if for protection. The hall ahead is flooded and waiting.",
+      "choices": [
+        {
+          "label": "wade into the hall",
+          "nextNode": "entry-hall",
+          "hint": "Warm water swirls around your legs as you step forward into the ruin."
+        },
+        {
+          "label": "search for a medallion",
+          "nextNode": "marsh-bank",
+          "hint": "That round object in the carving looked important enough to find."
+        }
+      ]
+    },
+    "entry-hall": {
+      "passage": "You stand in a great hall where columns rise from knee-deep water like the ribs of a drowned giant. Moss covers everything. To the north, a doorway leads deeper into the temple and golden light pulses beyond it. To the east, a collapsed wall reveals a side chamber. Shadows pool behind the columns.",
+      "choices": [
+        {
+          "label": "go north toward the light",
+          "nextNode": "inner-sanctum",
+          "hint": "The golden glow grows warmer and brighter as you wade toward the doorway."
+        },
+        {
+          "label": "explore the side chamber",
+          "nextNode": "side-chamber",
+          "hint": "The air drifting from the east wall smells drier than the rest."
+        },
+        {
+          "label": "check behind the columns",
+          "nextNode": "column-alcove",
+          "hint": "Something pale and still catches your eye in the deep shadows there."
+        }
+      ]
+    },
+    "column-alcove": {
+      "passage": "Behind the third column you find a skeleton slumped against the stone. Its bony fingers still grip a leather satchel. Inside you find a coil of dry rope, a rusted knife, and a journal. The last entry reads: Do not wake the guardian. Take the gold and leave before the tide returns.",
+      "choices": [
+        {
+          "label": "take the rope and knife",
+          "nextNode": "inner-sanctum",
+          "hint": "The rope is still strong despite its age and the knife has some edge."
+        },
+        {
+          "label": "read more of the journal",
+          "nextNode": "journal-read",
+          "hint": "The earlier pages are water-stained but still readable if you squint hard."
+        }
+      ]
+    },
+    "journal-read": {
+      "passage": "The journal describes a golden idol at the heart of the temple, guarded by a mechanism that floods the lower chambers when disturbed. The writer found a drainage lever in the east chamber but never reached it in time. The final words trail off into a shaky scrawl. The east chamber is not far from here.",
+      "choices": [
+        {
+          "label": "head to the east chamber",
+          "nextNode": "side-chamber",
+          "hint": "The journal's warning about the flood mechanism stays fresh in your mind."
+        },
+        {
+          "label": "go north carefully",
+          "nextNode": "inner-sanctum",
+          "hint": "You step quietly through the water, watching for any sign of traps."
+        }
+      ]
+    },
+    "side-chamber": {
+      "passage": "The side chamber is smaller and drier. Stone shelves line the walls, holding clay pots and bronze tools green with age. In the corner, a heavy iron lever juts from the floor. It is connected to a network of pipes that run into the walls and downward toward the deeper chambers.",
+      "choices": [
+        {
+          "label": "pull the lever",
+          "nextNode": "lever-pulled",
+          "hint": "The iron is rough and cold under your grip as you take hold."
+        },
+        {
+          "label": "search the shelves",
+          "nextNode": "shelf-search",
+          "hint": "Some of the clay pots still have their wax-sealed lids in place."
+        },
+        {
+          "label": "leave and go north",
+          "nextNode": "inner-sanctum",
+          "hint": "The golden light pulses from somewhere beyond the flooded main hall ahead."
+        }
+      ]
+    },
+    "shelf-search": {
+      "passage": "Most of the pots hold nothing but dust and dead beetles. One contains a handful of gold coins stamped with the serpent symbol. Another holds a glass vial of clear liquid that smells sharply of vinegar. You pocket the coins and the vial and turn your attention back to the lever in the corner.",
+      "choices": [
+        {
+          "label": "pull the lever",
+          "nextNode": "lever-pulled",
+          "hint": "The iron handle is stiff but you can feel it ready to give way."
+        },
+        {
+          "label": "head north instead",
+          "nextNode": "inner-sanctum",
+          "hint": "You leave the lever alone and wade back out to the flooded hall."
+        }
+      ]
+    },
+    "lever-pulled": {
+      "passage": "The lever resists, then gives with a grinding screech. You hear the rush of water draining somewhere deep below. The pipes shudder and groan. After a long moment, the water level in the hall drops by several inches. A new passage appears beneath where the waterline used to be, leading north and downward.",
+      "choices": [
+        {
+          "label": "take the new passage",
+          "nextNode": "drained-passage",
+          "hint": "The wet stone steps glisten in the dim light as you start down."
+        },
+        {
+          "label": "return to the hall",
+          "nextNode": "inner-sanctum",
+          "hint": "The lower water level makes wading through the main hall much easier now."
+        }
+      ]
+    },
+    "drained-passage": {
+      "passage": "The drained passage leads down a narrow staircase of slick green stone. At the bottom, you find a small vault. Bronze chests line the walls, their lids crusted with barnacles. One chest stands open and empty, its lid thrown back. The others are sealed with heavy clasps shaped like coiled serpents.",
+      "choices": [
+        {
+          "label": "open the chests",
+          "nextNode": "vault-treasure",
+          "hint": "The serpent clasps are stiff with age but they bend under your pressure."
+        },
+        {
+          "label": "examine the open chest",
+          "nextNode": "empty-chest",
+          "hint": "Deep scratch marks line the inside of the open lid like claw marks."
+        }
+      ]
+    },
+    "vault-treasure": {
+      "passage": "You pry open the clasps one by one. Inside you find gold bars, strings of pearls, and a crown of dark iron set with emeralds. The treasure of a kingdom lost to the swamp long ago. You fill your satchel until it strains at the seams. The water is still low. You can leave safely.",
+      "choices": [],
+      "ending": {
+        "title": "The Forgotten Fortune",
+        "flavor": "You emerge from the marsh richer than you ever imagined, carrying the wealth of a drowned kingdom.",
+        "action": "climb into the daylight"
+      }
+    },
+    "empty-chest": {
+      "passage": "The empty chest has scratch marks on the inside of the lid. Someone was locked in here. At the bottom, scratched into the bronze, is a message: The idol is a trap. Take the gold from the vault and leave. Do not go to the sanctum. The guardian never sleeps.",
+      "choices": [
+        {
+          "label": "heed the warning",
+          "nextNode": "vault-treasure",
+          "hint": "The scratched words echo in your mind as you slowly turn away."
+        },
+        {
+          "label": "ignore it and go north",
+          "nextNode": "inner-sanctum",
+          "hint": "Warnings scratched by a dead stranger are not going to stop you now."
+        }
+      ]
+    },
+    "secret-passage": {
+      "passage": "The wall slides inward with a grinding rumble, revealing a narrow corridor lit by glowing moss. The air is warmer here and smells of sulfur. The passage slopes downward and you can hear the sound of water dripping into a vast open space ahead. The medallion grows warmer in your pocket.",
+      "choices": [
+        {
+          "label": "follow the corridor",
+          "nextNode": "guardian-chamber",
+          "hint": "The sulfur smell grows stronger and the air grows hotter with every step."
+        },
+        {
+          "label": "return to the main path",
+          "nextNode": "entry-hall",
+          "hint": "You let the hidden wall swing shut behind you and turn back."
+        }
+      ]
+    },
+    "inner-sanctum": {
+      "passage": "The sanctum opens before you, a domed chamber where the ceiling is painted with faded stars. At the center, on a stone pedestal rising from the dark water, sits a golden idol of the coiled serpent. Its ruby eyes glow with the pulsing light you followed here. The water is perfectly still.",
+      "choices": [
+        {
+          "label": "take the idol",
+          "nextNode": "idol-taken",
+          "hint": "The golden serpent seems to watch you with its ruby eyes as you reach."
+        },
+        {
+          "label": "wade around the pedestal",
+          "nextNode": "pedestal-inspect",
+          "hint": "Something about the base of the stone pedestal does not look right."
+        },
+        {
+          "label": "leave and go back",
+          "nextNode": "cautious-retreat",
+          "hint": "A voice in your head tells you this treasure is not worth the risk."
+        }
+      ]
+    },
+    "pedestal-inspect": {
+      "passage": "Wading closer, you see that the pedestal is connected to chains that disappear into the water below. A counterweight system. Remove the idol and the chains will release. You also notice grooves in the floor, clearly water channels. This whole room is designed to flood the moment the idol is lifted.",
+      "choices": [
+        {
+          "label": "take the idol anyway",
+          "nextNode": "idol-taken",
+          "hint": "Your hands tremble slightly as you reach for it despite the danger."
+        },
+        {
+          "label": "back away carefully",
+          "nextNode": "cautious-retreat",
+          "hint": "You step slowly backward, not daring to disturb the still dark water."
+        }
+      ]
+    },
+    "cautious-retreat": {
+      "passage": "You turn and wade back through the entry hall, leaving the idol on its pedestal and the temple to its silence. The marsh air feels clean after the damp of the ruin. You climb the steps into fading daylight. The temple sinks a little deeper into the mud behind you, as if relieved.",
+      "choices": [],
+      "ending": {
+        "title": "The Wise Retreat",
+        "flavor": "Some treasures are not worth the price. You leave the marsh with your life and a story worth telling.",
+        "action": "walk away from the marsh"
+      }
+    },
+    "idol-taken": {
+      "passage": "You lift the idol from the pedestal. It is heavier than it looks. The chains rattle and drop. For a heartbeat, nothing happens. Then you hear it: a deep rumble from below, and water begins to pour from every crack in the walls. The exit is behind you. The water is rising fast.",
+      "choices": [
+        {
+          "label": "run for the exit",
+          "nextNode": "flood-escape",
+          "hint": "Your boots splash hard against the stone floor as the water pours in."
+        },
+        {
+          "label": "hold up the medallion",
+          "nextNode": "medallion-use",
+          "hint": "The bronze medallion in your pocket grows burning hot against your leg."
+        }
+      ]
+    },
+    "medallion-use": {
+      "passage": "You raise the bronze medallion above your head. The ruby in the serpent's eye catches the glow of the idol and a beam of red light shoots across the chamber, striking a hidden panel in the wall. The water stops rising. A door opens in the north wall, revealing a dry passage upward.",
+      "choices": [
+        {
+          "label": "take the passage",
+          "nextNode": "medallion-escape",
+          "hint": "Dry air rushes from the opening like a long held breath finally released."
+        }
+      ]
+    },
+    "medallion-escape": {
+      "passage": "The passage climbs steeply through the bedrock and opens onto a hilltop overlooking the marsh. The temple is far below, sinking into the water with a series of deep groans. You stand in the cool evening air with the golden idol in one hand and the medallion in the other. Both are yours now.",
+      "choices": [],
+      "ending": {
+        "title": "The Serpent's Heir",
+        "flavor": "The medallion chose you, and the temple gave up its treasure willingly.",
+        "action": "step into the evening air"
+      }
+    },
+    "flood-escape": {
+      "passage": "You splash through the rising water, the idol clutched to your chest. The entry hall is waist-deep now and the current pulls at your legs. The steps are ahead and you can see daylight above. The water surges and you stumble, nearly losing your grip on the idol. It drags you down.",
+      "choices": [
+        {
+          "label": "drop the idol and swim",
+          "nextNode": "drop-idol-escape",
+          "hint": "The gold is so heavy that it pulls your arms deeper under the water."
+        },
+        {
+          "label": "hold tight and keep running",
+          "nextNode": "desperate-climb",
+          "hint": "Your fingers lock around the idol like iron bands and you push forward."
+        }
+      ]
+    },
+    "drop-idol-escape": {
+      "passage": "You let the idol go. It sinks into the dark water without a sound. Free of the weight, you swim hard for the steps and haul yourself out of the flood. Behind you, the temple groans and settles deeper into the marsh. The golden light fades. You are alive. That is enough.",
+      "choices": [],
+      "ending": {
+        "title": "The Price of Caution",
+        "flavor": "You traded gold for breath and found it was a fair exchange.",
+        "action": "let the gold sink"
+      }
+    },
+    "desperate-climb": {
+      "passage": "The water hits your chin as you reach the steps. You climb with one arm, the other locked around the idol. Every step is a battle against the current. You drag yourself onto dry ground as the water rushes past your ankles and finally stops. The temple is silent. You have the idol.",
+      "choices": [],
+      "ending": {
+        "title": "Against the Tide",
+        "flavor": "Stubbornness and luck carried you where wisdom would not have dared.",
+        "action": "crawl onto dry ground"
+      }
+    },
+    "guardian-chamber": {
+      "passage": "The corridor opens into a vast underground cavern. Stone fangs hang from the ceiling like teeth. In the center, coiled around a pillar of black rock, is a massive stone serpent. Its scales are carved with the same symbols as the medallion. Its eyes are closed. The medallion in your pocket burns hot.",
+      "choices": [
+        {
+          "label": "offer the medallion",
+          "nextNode": "serpent-awakens",
+          "hint": "The medallion seems to pull toward the stone serpent all on its own."
+        },
+        {
+          "label": "back away slowly",
+          "nextNode": "inner-sanctum",
+          "hint": "You hold your breath and take one very quiet step backward from it."
+        }
+      ]
+    },
+    "serpent-awakens": {
+      "passage": "You press the medallion into a hollow between the serpent's stone eyes. The ruby slots perfectly into place. The carved scales begin to shift and grind. The serpent's eyes open, glowing red, and it regards you with an ancient and surprisingly gentle gaze. It lowers its great head to the ground before you.",
+      "choices": [],
+      "ending": {
+        "title": "The Guardian's Trust",
+        "flavor": "You did not come for gold. You came to wake something older than treasure, and it is grateful.",
+        "action": "place your hand on its head"
+      }
+    }
+  }
+}

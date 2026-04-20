@@ -1,0 +1,371 @@
+{
+  "id": "e7d2b4a1-3f9c-4a5e-8c1d-6b0e2f8a4d9c",
+  "title": "Hollow Bell",
+  "description": "The old chapel bell rings at midnight though no one pulls the rope. The village priest has vanished and the townsfolk will not go near the graveyard after dark.",
+  "author": "AI",
+  "tags": [
+    "mystery",
+    "eerie"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-07",
+  "dayOfYear": "04-07",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Thornwell appears at dusk, a village crouching in the shadow of a chapel on the hill. The bell tower stands black against the fading sky. No one is outside. Shutters are bolted. The innkeeper waits in her doorway, arms crossed, and nods toward the hill. 'It starts at midnight,' she says.",
+      "choices": [
+        {
+          "label": "visit the chapel",
+          "nextNode": "chapel-exterior",
+          "hint": "The hill path is steep and the shadows are growing long."
+        },
+        {
+          "label": "speak with the innkeeper",
+          "nextNode": "tavern",
+          "hint": "She looks like she knows more than she is saying."
+        },
+        {
+          "label": "search the graveyard",
+          "nextNode": "graveyard-dusk",
+          "hint": "Something about the dark shape on the hill draws your attention."
+        }
+      ]
+    },
+    "chapel-exterior": {
+      "passage": "The chapel is small and stone-built, its door barred from outside with an iron bolt. Someone has nailed garlic over the doorway and scratched wards into the frame. Through the stained glass you see only darkness. The bell tower rises above, its rope hanging motionless. The air smells of old incense and fear.",
+      "choices": [
+        {
+          "label": "remove the bolt",
+          "nextNode": "chapel-interior",
+          "hint": "The iron bolt is cold and rough under your trembling fingers."
+        },
+        {
+          "label": "climb the tower",
+          "nextNode": "bell-tower",
+          "hint": "An outer ladder clings to the stonework, half-rotted but still holding."
+        },
+        {
+          "label": "examine the wards",
+          "nextNode": "ward-markings",
+          "hint": "The scratches look deliberate, carved into the wood with a steady hand."
+        }
+      ]
+    },
+    "tavern": {
+      "passage": "The inn is nearly empty. The innkeeper - a broad woman named Maren - pours you ale without asking. Father Aldric disappeared three nights ago, she says. The bell began ringing the same night. No one has entered the chapel since. She slides a rusted key across the bar and looks away.",
+      "choices": [
+        {
+          "label": "take the key",
+          "nextNode": "chapel-exterior",
+          "hint": "The key is heavier than it looks, the metal dark with age."
+        },
+        {
+          "label": "ask about the priest",
+          "nextNode": "aldric-story",
+          "hint": "Maren's hands tighten around the rag she is holding. She looks away."
+        },
+        {
+          "label": "wait until midnight",
+          "nextNode": "midnight-vigil",
+          "hint": "The fire crackles. The clock on the wall ticks slowly."
+        }
+      ]
+    },
+    "graveyard-dusk": {
+      "passage": "The graveyard wraps around the chapel's north side. Most stones are old and mossy, their names worn smooth. But one grave is fresh - earth recently turned, no headstone. A shovel leans against the iron fence. The wind carries a faint sound from underground, like chanting or singing. You cannot tell which.",
+      "choices": [
+        {
+          "label": "dig the grave",
+          "nextNode": "fresh-grave",
+          "hint": "The shovel feels like it has been used very recently."
+        },
+        {
+          "label": "listen at the earth",
+          "nextNode": "underground-voice",
+          "hint": "You press your ear close. The sound is almost words."
+        },
+        {
+          "label": "slip through the side door",
+          "nextNode": "chapel-interior",
+          "hint": "A low door on the chapel wall stands slightly open."
+        }
+      ]
+    },
+    "chapel-interior": {
+      "passage": "The chapel is chill and still. Pews are overturned. Candle stubs litter the floor in a wide circle, with symbols scratched between them. One candle has been knocked aside, breaking the pattern. A torn prayer book lies near the altar. The back room door at the rear stands open, breathing damp earth-smell.",
+      "choices": [
+        {
+          "label": "study the candle pattern",
+          "nextNode": "candle-circle",
+          "hint": "The symbols between the candles look old and scratched with great care."
+        },
+        {
+          "label": "enter the back room",
+          "nextNode": "sacristy",
+          "hint": "Cold air drifts through the open door like a breath."
+        },
+        {
+          "label": "read the prayer book",
+          "nextNode": "prayer-book",
+          "hint": "The pages are torn but the handwriting is still readable."
+        }
+      ]
+    },
+    "bell-tower": {
+      "passage": "The climb is harsh. The outer ladder is half-rotted and the stone is slick with moss. At the top the bell hangs huge and green with age. The clapper has been removed - cut clean with a saw. Yet the bell still rings at midnight. Below, through a crack in the earth, a faint light pulses.",
+      "choices": [
+        {
+          "label": "search the bell",
+          "nextNode": "bell-mechanism",
+          "hint": "The bronze hums faintly when you place your hand on it."
+        },
+        {
+          "label": "follow the light below",
+          "nextNode": "underground-voice",
+          "hint": "The pulse is steady, like a heartbeat deep in the ground."
+        }
+      ]
+    },
+    "ward-markings": {
+      "passage": "The wards are old protective symbols - salt lines, rowan crosses, holy scripture. But they are scratched backward. Not meant to keep something out. Meant to keep something in. Whatever is inside the chapel, the villagers locked it there. The iron bolt feels less like protection and more like the door of a cage.",
+      "choices": [
+        {
+          "label": "open the door anyway",
+          "nextNode": "chapel-interior",
+          "hint": "Your hand rests on the bolt. The metal vibrates faintly."
+        },
+        {
+          "label": "return to the tavern",
+          "nextNode": "tavern",
+          "hint": "Maybe Maren can explain what the wards are meant to hold back."
+        }
+      ]
+    },
+    "aldric-story": {
+      "passage": "Maren's face darkens. Father Aldric was a good man, she says, but obsessed with the crypt beneath the chapel. He found old bones down there, older than the village itself. He began conducting rituals. The last night anyone saw him he carried a silver-framed mirror through the rain. That was three days ago.",
+      "choices": [
+        {
+          "label": "go to the chapel",
+          "nextNode": "chapel-exterior",
+          "hint": "The rain has stopped but the wind still howls outside."
+        },
+        {
+          "label": "press her for details",
+          "nextNode": "midnight-vigil",
+          "hint": "Maren pours herself a drink with shaking hands. She knows more."
+        }
+      ]
+    },
+    "midnight-vigil": {
+      "passage": "The hours crawl past beside the fire. At precisely midnight the bell rings - a deep note that shakes dust from the rafters. Twelve strikes. Then stillness. Through the window, a pale blue glow drifts among the gravestones on the hill. Maren grips the bar edge and refuses to look.",
+      "choices": [
+        {
+          "label": "rush to the graveyard",
+          "nextNode": "graveyard-midnight",
+          "hint": "The blue light is already fading between the old gravestones on the hill."
+        },
+        {
+          "label": "head for the chapel",
+          "nextNode": "chapel-interior",
+          "hint": "The chapel windows glow faintly in the distance, though no one is inside."
+        }
+      ]
+    },
+    "graveyard-midnight": {
+      "passage": "The graveyard is transformed. A cold blue light hovers over the unmarked grave, pulsing like a heartbeat. The chapel windows glow faintly from within though no one is inside. You hear the chanting clearly now - a man's voice, repeating the same phrase in a language you almost recognize. The ground is warm underfoot.",
+      "choices": [
+        {
+          "label": "follow the glow",
+          "nextNode": "underground-voice",
+          "hint": "The pulse draws you forward like a hand on your chest."
+        },
+        {
+          "label": "unearth the coffin",
+          "nextNode": "fresh-grave",
+          "hint": "The shovel from the fence is still where you saw it."
+        }
+      ]
+    },
+    "fresh-grave": {
+      "passage": "The soil comes up fast. Two feet down your shovel strikes wood - a rough coffin. Inside is not a body but a mirror in a silver frame, face-down, wrapped in linen. When you brush the glass your reflection stares back at the wrong angle. Something moves behind it. The glass is warm.",
+      "choices": [
+        {
+          "label": "take the mirror",
+          "nextNode": "mirror-chamber",
+          "hint": "The silver frame hums against your palms like a living thing."
+        },
+        {
+          "label": "leave and enter the chapel",
+          "nextNode": "chapel-interior",
+          "hint": "Something about the warm glass makes your skin crawl. You step back."
+        }
+      ]
+    },
+    "underground-voice": {
+      "passage": "The chanting rises from a crack in the earth near the chapel's foundation. You press your ear to the ground. It is not singing - it is one voice, repeating a name. Aldric. Over and over. The voice is calling itself. The ground trembles faintly with each word, as if something below is pacing.",
+      "choices": [
+        {
+          "label": "find a way underground",
+          "nextNode": "sacristy",
+          "hint": "The chapel must have a way down to whatever lies beneath."
+        },
+        {
+          "label": "call out to the voice",
+          "nextNode": "confrontation",
+          "hint": "You lean close to the crack and open your mouth to speak."
+        }
+      ]
+    },
+    "candle-circle": {
+      "passage": "The pattern is a binding circle - you recognize it from old texts. Someone who knew the rites drew this carefully, precisely. And then someone broke it. One candle is knocked aside, wax scattered across the floor. Whatever was bound here is no longer contained. The break was made from inside the circle.",
+      "choices": [
+        {
+          "label": "repair the circle",
+          "nextNode": "confrontation",
+          "hint": "You gather the scattered wax and carefully straighten the fallen candle."
+        },
+        {
+          "label": "trace the wax trail",
+          "nextNode": "sacristy",
+          "hint": "A thin line of spilled wax leads toward the back door."
+        }
+      ]
+    },
+    "sacristy": {
+      "passage": "The back room is narrow and dusty - robes hang from hooks, communion wine stands corked on a shelf. A trapdoor in the floor stands open. Stone stairs descend into the depths. Cold air rises, carrying the smell of turned earth and something older. The chanting is louder here. It comes from the crypt.",
+      "choices": [
+        {
+          "label": "descend the stairs",
+          "nextNode": "crypt",
+          "hint": "The stone steps are worn smooth by centuries of feet."
+        },
+        {
+          "label": "pursue the chanting",
+          "nextNode": "mirror-chamber",
+          "hint": "The voice grows clearer with every step you take into the dark."
+        }
+      ]
+    },
+    "prayer-book": {
+      "passage": "The book lies open to a ritual of unbinding - a ceremony to release a trapped spirit from holy ground. The margins are filled with shaking handwriting: 'It asked me to free it. God forgive me.' The ink is fresh. Father Aldric wrote this. He performed the ritual willingly. Something came unbound.",
+      "choices": [
+        {
+          "label": "take the book",
+          "nextNode": "sacristy",
+          "hint": "The old pages feel brittle and cold between your trembling fingers."
+        },
+        {
+          "label": "use the ritual here",
+          "nextNode": "confrontation",
+          "hint": "The words on the page seem to shift as you read them."
+        }
+      ]
+    },
+    "crypt": {
+      "passage": "The stairs wind down into bare rock. The crypt is older than the chapel above - the walls are rough-hewn, the arches low. Alcoves hold ancient bones wrapped in rotting cloth. The chanting echoes off the walls, directionless. The passage ahead splits: one branch is clear, the other choked with fallen rubble and dust.",
+      "choices": [
+        {
+          "label": "press deeper",
+          "nextNode": "mirror-chamber",
+          "hint": "The clear passage slopes downward into the dark. The air grows colder."
+        },
+        {
+          "label": "turn back through the rubble",
+          "nextNode": "trapped-below",
+          "hint": "The narrow gap between fallen stones looks just wide enough."
+        }
+      ]
+    },
+    "mirror-chamber": {
+      "passage": "The passage opens into a vaulted chamber. In the center, the silver mirror stands upright on a rock pedestal, unsupported, its surface rippling like water. Inside the glass a figure stands - Father Aldric, palms pressed against the other side, mouth moving without sound. He sees you. His eyes widen. He mouths one word: help.",
+      "choices": [
+        {
+          "label": "speak to the figure",
+          "nextNode": "confrontation",
+          "hint": "Aldric's mouth moves but no sound passes through the glass."
+        },
+        {
+          "label": "shatter the mirror",
+          "nextNode": "priest-saved",
+          "hint": "Your fist tightens at your side. The glass ripples at your approach."
+        }
+      ]
+    },
+    "confrontation": {
+      "passage": "The spirit appears between you and the door - a column of pale light shaped like a man but wrong in every way. It speaks without sound. The words arrive in your skull: bitter, ancient, hungry. It wants to stay. It has waited centuries beneath this ground and it will not go back willingly.",
+      "choices": [
+        {
+          "label": "complete the prayer",
+          "nextNode": "spirit-freed",
+          "hint": "The words from the book rise in your mind unbidden."
+        },
+        {
+          "label": "resist the spirit",
+          "nextNode": "possessed",
+          "hint": "Cold fingers press against the inside of your skull. You feel it pushing."
+        }
+      ]
+    },
+    "bell-mechanism": {
+      "passage": "The bell has no clapper - someone cut it free with a saw. Yet when you touch the bronze you feel vibration deep inside the metal, like a heartbeat. The bell rings from within. It is part of whatever haunts this place. You could destroy the mounting and send it crashing down.",
+      "choices": [
+        {
+          "label": "destroy the mounting",
+          "nextNode": "bell-silenced",
+          "hint": "The rusted bracket looks weak enough to break with force."
+        },
+        {
+          "label": "climb down and search below",
+          "nextNode": "chapel-interior",
+          "hint": "The vibration in the bell follows you down the ladder."
+        }
+      ]
+    },
+    "spirit-freed": {
+      "passage": "You speak the binding prayer from the book. The spirit shrieks without sound, folding in on itself like burning paper. The pale glow contracts, dims, and sinks into the granite floor. The crypt falls silent. The air warms. Above, the bell tower stands quiet for the first time in three days.",
+      "choices": [],
+      "ending": {
+        "title": "Laid to Rest",
+        "flavor": "Some things only needed to be heard before they could be still.",
+        "action": "speak the final prayer"
+      }
+    },
+    "priest-saved": {
+      "passage": "The mirror shatters into a thousand pieces. For a moment the glass hangs in the air, suspended, then falls like rain. Father Aldric collapses onto the crypt floor, gasping, alive. He grips your arm and cannot speak. Above, the bell rings one final time - a clear, clean note - and then falls silent forever.",
+      "choices": [],
+      "ending": {
+        "title": "Through the Glass",
+        "flavor": "The mirror held a man. The mirror held a monster. Only one could be freed.",
+        "action": "pull him from the glass"
+      }
+    },
+    "bell-silenced": {
+      "passage": "You kick the rusted bracket until it gives. The bell tips, hangs for one impossible second, and then falls. It crashes through the tower floor, through the chapel ceiling, and buries itself in the rubble below with a sound like the end of the world. The ringing stops. But deep underground something stirs.",
+      "choices": [],
+      "ending": {
+        "title": "The Silent Tower",
+        "flavor": "You silenced the bell. You did not silence what rings it.",
+        "action": "kick the bracket free"
+      }
+    },
+    "trapped-below": {
+      "passage": "The rubble shifts as you push through the narrow passage. A stone slab drops behind you, sealing the way back. You are in a dead-end chamber, alone, in the dark. The chanting surrounds you now - inside the walls, inside the floor, inside your own chest. No one knows you are here.",
+      "choices": [],
+      "ending": {
+        "title": "Buried with the Dead",
+        "flavor": "The crypt has always been patient with its guests.",
+        "action": "listen in the dark"
+      }
+    },
+    "possessed": {
+      "passage": "Resistance lasts only a moment - the spirit is old and strong. It pours into you like icy water filling a cup. Your hands are no longer your own. Your mouth opens and the chanting begins - your voice now, speaking its name. You climb the stairs into the night. The bell rings.",
+      "choices": [],
+      "ending": {
+        "title": "The New Bell-Ringer",
+        "flavor": "The chapel has a new priest now. He never leaves.",
+        "action": "open your mouth and chant"
+      }
+    }
+  }
+}

@@ -1,0 +1,855 @@
+[
+  {
+    "id": "a3f7c1e2-8b4d-4e9a-b5c6-d2f1a8e3b7c4",
+    "title": "Sunken Temple",
+    "description": "A flooded ruin beneath the marshlands holds treasures and dangers in equal measure. The water is rising.",
+    "tags": [
+      "treasure-hunt",
+      "exploration"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-03",
+    "dayOfYear": "04-03",
+    "endingCount": 6,
+    "storyNumber": 1
+  },
+  {
+    "id": "d4e8f2a1-6c3b-4d7e-a9f5-1b2c8e4d6a3f",
+    "title": "Whispering Keep",
+    "description": "A ruined fortress on the northern moors glows at night and the nearby village cannot sleep. You have been hired to silence the whispers before the harvest moon.",
+    "tags": [
+      "mystery",
+      "exploration"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-04",
+    "dayOfYear": "04-04",
+    "endingCount": 5,
+    "storyNumber": 2
+  },
+  {
+    "id": "f3a8c5e1-2d9b-4f7e-b0c4-6a1d8e3f5c2b",
+    "title": "Queen's Cipher",
+    "description": "A forged invitation and a dangerous secret are your only weapons in the royal palace. The spymaster's eyes are everywhere, and time is running out.",
+    "tags": [
+      "diplomacy",
+      "mystery"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-05",
+    "dayOfYear": "04-05",
+    "endingCount": 6,
+    "storyNumber": 3
+  },
+  {
+    "id": "c1b4a9e2-7f3d-4c8e-b5a0-2d6f1e9c4b7a",
+    "title": "Tides of Fortune",
+    "description": "Your ship has broken apart on a wild coast and the storm is not finished with you. Survival is one thing - finding a way home is another.",
+    "tags": [
+      "escape",
+      "exploration"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-06",
+    "dayOfYear": "04-06",
+    "endingCount": 6,
+    "storyNumber": 4
+  },
+  {
+    "id": "e7d2b4a1-3f9c-4a5e-8c1d-6b0e2f8a4d9c",
+    "title": "Hollow Bell",
+    "description": "The old chapel bell rings at midnight though no one pulls the rope. The village priest has vanished and the townsfolk will not go near the graveyard after dark.",
+    "tags": [
+      "mystery",
+      "eerie"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-07",
+    "dayOfYear": "04-07",
+    "endingCount": 5,
+    "storyNumber": 5
+  },
+  {
+    "id": "a8f1d3c6-5e2b-4a9d-b7c0-3f4e6d1a8b5c",
+    "title": "Gilded Vault",
+    "description": "The merchant prince keeps a stolen relic locked beneath his manor. Tonight, during the masquerade, is your only chance to take it back.",
+    "tags": [
+      "treasure-hunt",
+      "conflict"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-08",
+    "dayOfYear": "04-08",
+    "endingCount": 5,
+    "storyNumber": 6
+  },
+  {
+    "id": "f2c8a1e4-6b3d-4f9e-a7c2-1d5e8b4f0c9a",
+    "title": "Thornwick Exchange",
+    "description": "A locked box arrives on your doorstep the same morning you owe a guild debt by nightfall. In Thornwick Market, every buyer has their price - but not every seller knows theirs.",
+    "tags": [
+      "slice-of-life",
+      "negotiation"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-09",
+    "dayOfYear": "04-09",
+    "endingCount": 6,
+    "storyNumber": 7
+  },
+  {
+    "id": "e1a4f7c2-9b3d-4e8a-b5f0-2c6d1e9a4b7f",
+    "title": "Last Lantern",
+    "description": "A storm drives you through the door of a roadside inn already heavy with tension. Sergeant Vorn and his soldiers are hunting someone, and that someone just pressed a note into your hand.",
+    "tags": [
+      "conflict",
+      "escape"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-10",
+    "dayOfYear": "04-10",
+    "endingCount": 6,
+    "storyNumber": 8
+  },
+  {
+    "id": "a3c9f1e6-2d7b-4a8e-b4c0-9f1d6e3b5a2c",
+    "title": "Barrow of Mordavain",
+    "description": "The lich Mordavain has slept in his sealed barrow for four centuries and no treasure hunter who has entered has ever returned. You are carrying better information than the others. That may or may not be enough.",
+    "tags": [
+      "eerie",
+      "treasure-hunt"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-11",
+    "dayOfYear": "04-11",
+    "endingCount": 6,
+    "storyNumber": 9
+  },
+  {
+    "id": "b5e2a7f4-1c9d-4b8e-a3f6-8d2e5c1b4a9f",
+    "title": "Beneath Bloodstone",
+    "description": "A cell beneath a dark temple. The chanting above grows louder and midnight is close. You have one chance to escape before the ritual begins.",
+    "tags": [
+      "eerie",
+      "escape"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-12",
+    "dayOfYear": "04-12",
+    "endingCount": 5,
+    "storyNumber": 10
+  },
+  {
+    "id": "b7d4e9f2-3a1c-4f8b-a6e0-5c2d7b9f1e4a",
+    "title": "Frozen Pass",
+    "description": "A blizzard traps you on Greymount Pass with night falling fast. Every choice could mean warmth or a cold grave.",
+    "tags": [
+      "conflict",
+      "exploration"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-13",
+    "dayOfYear": "04-13",
+    "endingCount": 5,
+    "storyNumber": 11
+  },
+  {
+    "id": "d9f3a7c1-4e2b-4b8d-a1c5-7e6f2d8b3a4e",
+    "title": "Iron Door Below",
+    "description": "An ancient dwarven mine has been sealed for centuries. The merchant guild offers a fortune to whoever maps its depths, but the door was sealed for a reason.",
+    "tags": [
+      "exploration",
+      "negotiation"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-14",
+    "dayOfYear": "04-14",
+    "endingCount": 6,
+    "storyNumber": 12
+  },
+  {
+    "id": "c8f2a4e7-3b1d-4e9c-a6f0-5d8b1c7e2a4f",
+    "title": "Wyvern's Terms",
+    "description": "A wyvern has claimed the mountain pass and the kingdom's trade road lies silent. You carry a diplomat's seal and orders to negotiate, not fight.",
+    "tags": [
+      "diplomacy",
+      "negotiation"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-15",
+    "dayOfYear": "04-15",
+    "endingCount": 6,
+    "storyNumber": 13
+  },
+  {
+    "id": "a7e3f1c9-8d2b-4a5e-b6c0-4f9d1e8a3b7c",
+    "title": "Copper Flagon",
+    "description": "A silver locket has vanished from behind the bar of a crossroads inn. Five guests, one thief, and a long rainy night to sort the truth from the lies.",
+    "tags": [
+      "slice-of-life",
+      "mystery"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-16",
+    "dayOfYear": "04-16",
+    "endingCount": 5,
+    "storyNumber": 14
+  },
+  {
+    "id": "d5b8e3a1-7c4f-4d2e-a9b3-1f6c8e2d5a7b",
+    "title": "Greenwood Truce",
+    "description": "Two feuding noble houses are trapped in a sealed forest with a shadow-beast on the prowl. You are the only neutral voice in the wood.",
+    "tags": [
+      "diplomacy",
+      "conflict"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-17",
+    "dayOfYear": "04-17",
+    "endingCount": 5,
+    "storyNumber": 15
+  },
+  {
+    "id": "e4c1b7f9-2a8d-4f3e-b5c6-9d0a3e7f1c2b",
+    "title": "Storm Tower",
+    "description": "A sorcerer's tower only appears during thunderstorms. Your crew has one night to climb it, steal the Heartstone, and escape before the lightning stops.",
+    "tags": [
+      "treasure-hunt",
+      "escape"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-18",
+    "dayOfYear": "04-18",
+    "endingCount": 5,
+    "storyNumber": 16
+  },
+  {
+    "id": "b2f6d8a3-1e4c-4b7f-a9d5-3c8e2f1a6b4d",
+    "title": "Minstrel's Wager",
+    "description": "A traveling minstrel challenges you to a contest of wits in a rowdy tavern. The stakes are higher than they seem and every patron has an opinion.",
+    "tags": [
+      "slice-of-life",
+      "negotiation"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-19",
+    "dayOfYear": "04-19",
+    "endingCount": 4,
+    "storyNumber": 17
+  },
+  {
+    "id": "f9a2c4e8-7b1d-4f3a-b8e6-5d0c9a2f7e1b",
+    "title": "Pale Garden",
+    "description": "A vast fungal cavern pulses with bioluminescent light beneath the Greymoor Hills. The herbalist who entered three days ago has not returned, and the glow is spreading to the surface.",
+    "tags": [
+      "exploration",
+      "eerie"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-20",
+    "dayOfYear": "04-20",
+    "endingCount": 6,
+    "storyNumber": 18
+  },
+  {
+    "id": "b9c4e1f7-3a8d-4b2e-a5f6-7d0c9e1a4b3f",
+    "title": "Broken Oath",
+    "description": "Two rival mercenary captains both claim your sworn service in a border town too small for their feud. Night is falling and steel is being drawn.",
+    "tags": [
+      "conflict",
+      "negotiation"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-21",
+    "dayOfYear": "04-21",
+    "endingCount": 6,
+    "storyNumber": 19
+  },
+  {
+    "id": "c6a3f8d2-1b7e-4c5a-9d4f-8e2b1a6c3f7d",
+    "title": "Grayhollow Hunt",
+    "description": "A beast stalks the farmsteads around Grayhollow village. The hunters who went after it came back changed. Now it is your turn to enter the fog.",
+    "tags": [
+      "conflict",
+      "mystery"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-22",
+    "dayOfYear": "04-22",
+    "endingCount": 6,
+    "storyNumber": 20
+  },
+  {
+    "id": "a1d7e5b3-9c4f-4a2e-b8d6-3f0c7e1a9b5d",
+    "title": "Iron Cradle",
+    "description": "You wake in a dungeon cell with no memory of your crime. The guards are gone, the torches are dying, and somewhere below the floor something is digging upward.",
+    "tags": [
+      "escape",
+      "mystery"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-23",
+    "dayOfYear": "04-23",
+    "endingCount": 4,
+    "storyNumber": 21
+  },
+  {
+    "id": "11fc153b-a001-4ea3-a4df-11c609c4b9be",
+    "title": "Festival Crown",
+    "description": "A golden crown lies hidden somewhere in the town of Harthmere during the annual Harvest Festival. Every treasure hunter in the region has come to find it first.",
+    "tags": [
+      "treasure-hunt",
+      "slice-of-life"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-24",
+    "dayOfYear": "04-24",
+    "endingCount": 5,
+    "storyNumber": 22
+  },
+  {
+    "id": "f60b55e3-1bcc-4cc7-b003-e5f916108f75",
+    "title": "Siege of Redwall",
+    "description": "A goblin horde surrounds the border fort of Redwall and the garrison is half strength. You must hold the walls until dawn or the entire valley falls.",
+    "tags": [
+      "conflict",
+      "diplomacy"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-25",
+    "dayOfYear": "04-25",
+    "endingCount": 7,
+    "storyNumber": 23
+  },
+  {
+    "id": "53ea2e58-1950-4aa2-8359-2d5af7eb900e",
+    "title": "Ashenmoor Pit",
+    "description": "A rigged arena tournament and a debt you did not choose. Three fights stand between you and freedom, but the pit master has plans of his own.",
+    "tags": [
+      "competition",
+      "survival"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-26",
+    "dayOfYear": "04-26",
+    "endingCount": 10,
+    "storyNumber": 24
+  },
+  {
+    "id": "8b795bac-1300-4a58-a8d4-f455aacf2cd6",
+    "title": "Velvet Ledger",
+    "description": "A stolen map leads you into the underground market beneath the city of Ashwick. Every dealer has a price and every shadow hides a knife.",
+    "tags": [
+      "stealth",
+      "negotiation"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-27",
+    "dayOfYear": "04-27",
+    "endingCount": 10,
+    "storyNumber": 25
+  },
+  {
+    "id": "7a3e9c1f-5b2d-4f8a-b6e0-8d4c2a1f7e3b",
+    "title": "River of Knives",
+    "description": "A dying captain, a stolen crown, and three strangers on a river barge drifting toward trouble. Trust is a luxury you cannot afford.",
+    "tags": [
+      "voyage",
+      "intrigue"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-28",
+    "dayOfYear": "04-28",
+    "endingCount": 6,
+    "storyNumber": 26
+  },
+  {
+    "id": "e2b4f8a1-9c3d-4e7b-a5f6-1d0c8e2b4a9f",
+    "title": "Tinker's Gambit",
+    "description": "Someone in the merchant caravan is selling forged goods. Dawn brings the city inspectors. You have one night to find the forger before the whole caravan pays the price.",
+    "tags": [
+      "trickery",
+      "crafting"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-29",
+    "dayOfYear": "04-29",
+    "endingCount": 5,
+    "storyNumber": 27
+  },
+  {
+    "id": "04d2cc2b-ef56-45c7-8b40-2c5c275a6ff1",
+    "title": "Ember Vigil",
+    "description": "Raiders surround the mountain abbey and the sacred flame is dying. You must choose what to save - the people, the relic, or the fire itself.",
+    "tags": [
+      "siege",
+      "sacrifice"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-30",
+    "dayOfYear": "04-30",
+    "endingCount": 6,
+    "storyNumber": 28
+  },
+  {
+    "id": "91618216-cab5-4896-9382-04910a40cbb6",
+    "title": "Glass Oasis",
+    "description": "A desert oasis has turned to glass overnight and the caravans cannot pass. Something ancient stirs beneath the sand and only a fool would go looking for it.",
+    "tags": [
+      "exploration",
+      "eerie"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-01",
+    "dayOfYear": "05-01",
+    "endingCount": 6,
+    "storyNumber": 29
+  },
+  {
+    "id": "b3d7e2a4-8f1c-4b9e-a5d6-2c0f9e3b7a1d",
+    "title": "Warden's Maze",
+    "description": "An enchanted hedge maze guards a tower where your companion is held. Dawn resets the paths and seals the way forever.",
+    "tags": [
+      "stealth",
+      "survival"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-02",
+    "dayOfYear": "05-02",
+    "endingCount": 5,
+    "storyNumber": 30
+  },
+  {
+    "id": "b7e3a1d4-9f52-4c8b-a6e1-3d7f08b2c5a9",
+    "title": "Drowned Beacon",
+    "description": "A lighthouse on the edge of the world has gone dark, and ships are breaking on the rocks. You climb the cliff to relight the flame, but something already lives in the tower.",
+    "tags": [
+      "mystery",
+      "survival"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-03",
+    "dayOfYear": "05-03",
+    "endingCount": 5,
+    "storyNumber": 31
+  },
+  {
+    "id": "7f3a1c2e-84b9-4d05-a6f7-29e1b0c83d54",
+    "title": "Court of Whispers",
+    "description": "A foreign diplomat arrives dead at the royal court and every noble in the hall had reason to want him gone. You are the only one who saw what really happened.",
+    "tags": [
+      "intrigue",
+      "diplomacy"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-04",
+    "dayOfYear": "05-04",
+    "endingCount": 6,
+    "storyNumber": 32
+  },
+  {
+    "id": "c4b8e2f1-7a3d-4b5c-9e6f-1a2d8b3c5e7f",
+    "title": "Ironcrag Forge",
+    "description": "A legendary smith keeps her mountain forge sealed against strangers. Tonight she is taking visitors, but the price she names is not gold.",
+    "tags": [
+      "crafting",
+      "trickery"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-05",
+    "dayOfYear": "05-05",
+    "endingCount": 5,
+    "storyNumber": 33
+  },
+  {
+    "id": "c3a8e7f2-5b1d-4f9e-a6c0-2d8b3e7f1c4a",
+    "title": "Silver Oar",
+    "description": "The Reedwater festival race begins at dawn and the prize is the legendary Silver Oar. Your boat is cracked, your rival is fast, and the river hides its own secrets.",
+    "tags": [
+      "competition",
+      "voyage"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-06",
+    "dayOfYear": "05-06",
+    "endingCount": 6,
+    "storyNumber": 34
+  },
+  {
+    "id": "e8f4c2a7-3b1d-4e9f-a5c8-6d2f1b9e4a7c",
+    "title": "Hawthorn Bargain",
+    "description": "A fey market opens once a year beneath the hawthorn arch and every wonder inside has a hidden price. Tonight is your only chance to walk back out.",
+    "tags": [
+      "trickery",
+      "diplomacy"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-07",
+    "dayOfYear": "05-07",
+    "endingCount": 6,
+    "storyNumber": 35
+  },
+  {
+    "id": "a4f2c8e1-9d3b-4f7e-b6c5-1e0a8d3f2b9c",
+    "title": "Skyclaw Eyrie",
+    "description": "A great roc has stolen the Crown of Maelden and carried it to its nest atop a wind-blasted spire. You have until midday to climb up and back down.",
+    "tags": [
+      "treasure-hunt",
+      "escape"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-08",
+    "dayOfYear": "05-08",
+    "endingCount": 6,
+    "storyNumber": 36
+  },
+  {
+    "id": "5d8a3f1c-7e2b-4a9d-b6c4-1f8e2d5a7c3b",
+    "title": "Quiet Springs",
+    "description": "A mountain bathhouse where pilgrims and nobles soak in uneasy peace. Tonight, a brass cup of pale tea is meant for a woman in a green robe.",
+    "tags": [
+      "slice-of-life",
+      "mystery"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-09",
+    "dayOfYear": "05-09",
+    "endingCount": 5,
+    "storyNumber": 37
+  },
+  {
+    "id": "c6f3a8e1-2d9b-4f5a-b7c4-1e8d3f7a6b9c",
+    "title": "Tide Pilgrimage",
+    "description": "A sacred crossing on foot to Saint's Isle before the tide returns. The fog is heavy, the path is moving, and not everyone walking the flats today is a pilgrim.",
+    "tags": [
+      "voyage",
+      "escape"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-10",
+    "dayOfYear": "05-10",
+    "endingCount": 6,
+    "storyNumber": 38
+  },
+  {
+    "id": "c5e9a3f1-7b2d-4e8a-9c6f-1d4b8a2e7c3f",
+    "title": "Parley Fires",
+    "description": "A war chief's horde surrounds the frontier town of Holvik and the gates will not hold past dawn. You ride out alone with a token of peace and no escort.",
+    "tags": [
+      "siege",
+      "negotiation"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-11",
+    "dayOfYear": "05-11",
+    "endingCount": 5,
+    "storyNumber": 39
+  },
+  {
+    "id": "d8c4f3e2-5a91-4b7c-9e6d-2f1a8c4b3e7d",
+    "title": "Hollow Star",
+    "description": "A fallen star burns in the Brackmoor and the villages downwind have begun to forget their dead. You walk into the moor with a lantern and a debt of mercy.",
+    "tags": [
+      "exploration",
+      "sacrifice"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-12",
+    "dayOfYear": "05-12",
+    "endingCount": 6,
+    "storyNumber": 40
+  },
+  {
+    "id": "f8c3d1a6-4b29-4e7d-a3f5-9e1c2b8d6f4a",
+    "title": "Sleeping Court",
+    "description": "An entire court sleeps mid-feast in a cursed castle, and no one has woken for forty years. You are here for the Ember Ring on the king's hand.",
+    "tags": [
+      "stealth",
+      "eerie"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-13",
+    "dayOfYear": "05-13",
+    "endingCount": 6,
+    "storyNumber": 41
+  },
+  {
+    "id": "a4c8e2f6-7b3d-4a1e-9f5c-8d2b6e4a1c3f",
+    "title": "Ash Covenant",
+    "description": "The volcano on Cinderpeak Isle has woken and a monastery clings to the slope. The monks cannot leave without their sacred flame - and neither can you.",
+    "tags": [
+      "survival",
+      "sacrifice"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-14",
+    "dayOfYear": "05-14",
+    "endingCount": 6,
+    "storyNumber": 42
+  },
+  {
+    "id": "d7f4a2c8-3e19-4b6d-a8f5-1c9e7b3d2a6f",
+    "title": "Black Anchor",
+    "description": "Two merchant guilds arm for war over a sunken ship in Saltmere harbor. A black-hulled vessel sits at anchor, unnamed, and the harbormaster has vanished.",
+    "tags": [
+      "intrigue",
+      "conflict"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-15",
+    "dayOfYear": "05-15",
+    "endingCount": 5,
+    "storyNumber": 43
+  },
+  {
+    "id": "b8e3a1f7-4c2d-4f9b-a6e5-7d1c8b3f2e4a",
+    "title": "Anvil Trial",
+    "description": "The Forge Fair has come to Dunmere and the master smiths are watching. You are the youngest apprentice to enter the Anvil Trial in twenty years.",
+    "tags": [
+      "crafting",
+      "competition"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-16",
+    "dayOfYear": "05-16",
+    "endingCount": 6,
+    "storyNumber": 44
+  },
+  {
+    "id": "f4a7c2e8-1d3b-4f9e-a5c6-8b2d7e1f3a4c",
+    "title": "Bone Carnival",
+    "description": "A traveling carnival has pitched its tents outside Fenwick village. Your sister went inside three nights ago and has not come out.",
+    "tags": [
+      "mystery",
+      "trickery"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-17",
+    "dayOfYear": "05-17",
+    "endingCount": 5,
+    "storyNumber": 45
+  },
+  {
+    "id": "49c09f21-6e81-4432-85e8-36521ea5060d",
+    "title": "Healer's Choice",
+    "description": "Two wounded soldiers from warring kingdoms bleed on your doorstep. Your border village sits between the armies and dawn will bring a patrol.",
+    "tags": [
+      "diplomacy",
+      "slice-of-life"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-18",
+    "dayOfYear": "05-18",
+    "endingCount": 5,
+    "storyNumber": 46
+  },
+  {
+    "id": "e9c4b2f7-3a1d-4e8b-b5f6-7d2c1a9e3f4b",
+    "title": "Wyrm's Garden",
+    "description": "A dragon died in the Thornveil valley and its hoard lies beneath the bones. The forest has grown over everything, and it is hungry.",
+    "tags": [
+      "treasure-hunt",
+      "survival"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-19",
+    "dayOfYear": "05-19",
+    "endingCount": 6,
+    "storyNumber": 47
+  },
+  {
+    "id": "a2c7f4e8-3b19-4d6a-b8c5-1f7e9d2a4c6b",
+    "title": "Shifting Manor",
+    "description": "A manor that was not on the road an hour ago invites you in from the rain. The doors lead to rooms that should not exist, and the house does not want you to leave.",
+    "tags": [
+      "escape",
+      "trickery"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-20",
+    "dayOfYear": "05-20",
+    "endingCount": 5,
+    "storyNumber": 48
+  },
+  {
+    "id": "c6a4e1f8-2d9b-4a7e-b3c5-8f1d9e2a4b7c",
+    "title": "Silver Fog",
+    "description": "A fishing boat drifts into a fog that should not exist. Voices call from the water and a black ship slips alongside in the dark.",
+    "tags": [
+      "voyage",
+      "eerie"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-21",
+    "dayOfYear": "05-21",
+    "endingCount": 5,
+    "storyNumber": 49
+  },
+  {
+    "id": "d3a8c5f2-7b1e-4c9d-a6f0-2e8b4d1f3a9c",
+    "title": "Hungry Walls",
+    "description": "The city of Veyran has held against the siege for twenty days, but the grain stores empty too fast. You have one night to find the traitor before dawn.",
+    "tags": [
+      "siege",
+      "mystery"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-22",
+    "dayOfYear": "05-22",
+    "endingCount": 5,
+    "storyNumber": 50
+  },
+  {
+    "id": "f4b9a2c7-3e1d-4f8b-a6c5-9d7e2b1f4a3c",
+    "title": "Auction of Whispers",
+    "description": "A hidden auction beneath the city sells secrets in exchange for blood. You came to buy one name and leave with your throat intact.",
+    "tags": [
+      "intrigue",
+      "negotiation"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-23",
+    "dayOfYear": "05-23",
+    "endingCount": 6,
+    "storyNumber": 51
+  },
+  {
+    "id": "124434d0-b5d6-4ddb-9bc6-bc7de5a6731d",
+    "title": "Hollow Beneath",
+    "description": "A rival cartographer has vanished into the Ironroot Mines chasing a map no one believes in. You follow her lantern trail into a city that forgot the sun.",
+    "tags": [
+      "exploration",
+      "stealth"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-11",
+    "dayOfYear": "05-24",
+    "endingCount": 5,
+    "storyNumber": 52
+  },
+  {
+    "id": "f4a2b8c1-6d3e-4f7a-9b5c-2e8d1f4a7c9b",
+    "title": "Vessel and the Star",
+    "description": "Tonight a second star falls upon the Aerie, and the glass to catch it is cracked. Master Halder will not say what the second star truly is.",
+    "tags": [
+      "sacrifice",
+      "eerie"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-25",
+    "dayOfYear": "05-25",
+    "endingCount": 4,
+    "storyNumber": 53
+  },
+  {
+    "id": "test-story",
+    "title": "Test Story",
+    "description": "A minimal test story with one passage and two endings.",
+    "tags": [
+      "test"
+    ],
+    "estimatedMinutes": 1,
+    "dateGenerated": "2026-04-03",
+    "endingCount": 2,
+    "storyNumber": -1
+  },
+  {
+    "id": "bb079bb1-24d5-420f-a67c-dd885ebd3f02",
+    "title": "Spire Heist",
+    "description": "A stolen relic hums inside the Moonspire and you are the only thief foolish enough to go after it. Three ways in, one way out - if you are lucky.",
+    "tags": [
+      "treasure-hunt",
+      "stealth"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-26",
+    "dayOfYear": "05-26",
+    "endingCount": 5,
+    "storyNumber": 54
+  },
+  {
+    "id": "8d3f6a21-9b4c-4e72-a85f-16d2b4e8c9a3",
+    "title": "Forgefire Trial",
+    "description": "Five apprentice smiths compete for the honor of forging the king's blade. Someone has fouled your coals, and dawn will bring the final strike.",
+    "tags": [
+      "competition",
+      "crafting"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-27",
+    "dayOfYear": "05-27",
+    "endingCount": 6,
+    "storyNumber": 55
+  },
+  {
+    "id": "b4c7e2f1-3a8d-4e6b-9c5f-2e1a7d3b8f4c",
+    "title": "Marked Deck",
+    "description": "A stranger in purple velvet is cleaning out the Brass Kettle at cards on feast-eve. Young Leoc has just staked his father's field, and the crowd cheers each wrong turn.",
+    "tags": [
+      "slice-of-life",
+      "trickery"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-28",
+    "dayOfYear": "05-28",
+    "endingCount": 5,
+    "storyNumber": 56
+  },
+  {
+    "id": "e5f1b3c2-7a9d-4e8c-b6f4-3c2a9d5e1f7b",
+    "title": "Singing Stones",
+    "description": "At St. Cauldric's, the walls have begun to sing at midnight. A pilgrim's child has vanished into the catacombs below, and the abbot says the mountain is owed a life.",
+    "tags": [
+      "mystery",
+      "sacrifice"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-05-29",
+    "dayOfYear": "05-29",
+    "endingCount": 5,
+    "storyNumber": 57
+  },
+  {
+    "id": "b7e3a1d4-9f82-4c16-a3b7-6d5e8f2c1a09",
+    "title": "Banners at Wolfreach",
+    "description": "A peace envoy's caravan lies in ruins on a frozen pass. You must reach Wolfreach Keep before dawn or two kingdoms bleed into war.",
+    "tags": [
+      "diplomacy",
+      "survival"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-16",
+    "dayOfYear": "05-30",
+    "endingCount": 5,
+    "storyNumber": 58
+  },
+  {
+    "id": "a3e7c1d4-9f2b-4e8a-b6d0-3c5f8a2e1b47",
+    "title": "Wards of Iron",
+    "description": "Imprisoned in a sorcerer's tower for a crime you didn't commit, you must outwit magical wards and ruthless guards to reclaim your freedom before the next moon rises.",
+    "tags": [
+      "escape",
+      "trickery"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-16",
+    "dayOfYear": "05-31",
+    "endingCount": 6,
+    "storyNumber": 59
+  },
+  {
+    "id": "b7e41a3f-92d8-4c56-8e19-fa3d05b1c274",
+    "title": "Fenwater Crossing",
+    "description": "A river barge carries you through the Fenwater Marshes at dusk. The bargeman refuses to speak, and something beneath the reeds keeps pace with the hull.",
+    "author": "AI",
+    "tags": [
+      "voyage",
+      "eerie"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-06-01",
+    "dayOfYear": "06-01",
+    "endingCount": 6,
+    "storyNumber": 60
+  }
+]

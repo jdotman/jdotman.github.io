@@ -1,0 +1,368 @@
+{
+  "id": "c6a4e1f8-2d9b-4a7e-b3c5-8f1d9e2a4b7c",
+  "title": "Silver Fog",
+  "description": "A fishing boat drifts into a fog that should not exist. Voices call from the water and a black ship slips alongside in the dark.",
+  "author": "AI",
+  "tags": [
+    "voyage",
+    "eerie"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-05-21",
+  "dayOfYear": "05-21",
+  "endingCount": 5,
+  "storyNumber": 49,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Fog rolls over the rails like smoke from a fire no one can see. Your fishing boat bobs on water gone flat as a mirror. The captain has not answered his cabin door for an hour. Two deckhands stare at the sea. The wheel turns on its own. Somewhere above, the mast creaks. Ahead, a bell tolls from nowhere.",
+      "choices": [
+        {
+          "label": "climb the mast",
+          "nextNode": "crow-nest",
+          "hint": "The ropes are slick with wet and the mast disappears into gray above."
+        },
+        {
+          "label": "go below deck",
+          "nextNode": "below-deck",
+          "hint": "The stairs creak under your weight and the air below smells of oil and fear."
+        },
+        {
+          "label": "take the helm",
+          "nextNode": "wheel-house",
+          "hint": "The wheel is turning on its own, slow and steady, steering nothing."
+        }
+      ]
+    },
+    "crow-nest": {
+      "passage": "You climb into the crow's nest and the world disappears. Fog wraps the mast so thick that the deck below is gone. Only sound remains - the creak of rope, the slap of water, and faint voices that might be the wind. Off to starboard, a lantern flickers. Off to port, something hums under the waves.",
+      "choices": [
+        {
+          "label": "spot the lantern",
+          "nextNode": "lantern-sighting",
+          "hint": "The glow looks too steady to be from a ship in trouble out there."
+        },
+        {
+          "label": "listen to the voices",
+          "nextNode": "fog-whispers",
+          "hint": "You lean toward the port side and strain your ears against the hum."
+        }
+      ]
+    },
+    "below-deck": {
+      "passage": "Below, the air is thick with lamp oil and salt. Two doors face each other in the narrow hallway - the captain's cabin on the left, the hold hatch on the right. A single lantern swings from a hook, though the boat is barely moving. Someone has chalked a shaky mark on the captain's door. A circle with a line through it.",
+      "choices": [
+        {
+          "label": "enter the cabin",
+          "nextNode": "captain-cabin",
+          "hint": "The latch is not locked. It lifts at your touch like it wants you in."
+        },
+        {
+          "label": "open the hold hatch",
+          "nextNode": "hold-deep",
+          "hint": "The hatch is heavy and something below is breathing through the gap."
+        }
+      ]
+    },
+    "wheel-house": {
+      "passage": "The wheel turns slow and steady, though no hands guide it. The compass needle spins lazy circles, pointing nowhere. A leather-bound book sits open on the navigator's stand, pages fluttering in a wind you cannot feel. Through the fog ahead, a distant light flickers once, then twice. The crew will not look at it.",
+      "choices": [
+        {
+          "label": "study the open book",
+          "nextNode": "log-secret",
+          "hint": "The topmost page shows tonight's date and a single word in red ink."
+        },
+        {
+          "label": "steer toward the light",
+          "nextNode": "lantern-sighting",
+          "hint": "The wheel resists you for a moment before letting you turn it."
+        }
+      ]
+    },
+    "lantern-sighting": {
+      "passage": "The light comes from a jagged outcrop far off the port bow - not another ship. A small island juts from the fog in a dark hump, and an old stone tower leans at its center. The lantern at the tower's peak burns steady, though the building looks dead. A narrow channel of calm water cuts toward the base.",
+      "choices": [
+        {
+          "label": "row to the island",
+          "nextNode": "rock-island",
+          "hint": "You drop the small boat over the side and the sea takes it smoothly."
+        },
+        {
+          "label": "alert the crew",
+          "nextNode": "crew-alert",
+          "hint": "Your shout sounds thin in the fog, as if something is eating the sound."
+        }
+      ]
+    },
+    "fog-whispers": {
+      "passage": "The voices are clearer now. They call by name - your name, and names you have not heard since you were a child. A woman you cannot forget. A brother lost to the sea. They say the sea is warm. They say you only need to lean a little farther and reach a little lower. The rope under your hand is loosening.",
+      "choices": [
+        {
+          "label": "release the rope",
+          "nextNode": "swallowed-by-fog",
+          "hint": "The voices are right. The sea looks warm. You could finally rest."
+        },
+        {
+          "label": "scream a warning",
+          "nextNode": "crew-alert",
+          "hint": "Your voice cracks the fog like a hammer on thin glass."
+        }
+      ]
+    },
+    "captain-cabin": {
+      "passage": "The cabin smells of pipe smoke and old paper. The captain is not here. His coat hangs on the peg. His pipe rests in a half-full tin cup, still warm to the touch. The logbook lies open on the desk. Beside it sits a battered sea chest, lid cracked open a finger's width. Nothing feels recent. Everything feels wrong.",
+      "choices": [
+        {
+          "label": "scan the logbook",
+          "nextNode": "log-secret",
+          "hint": "The last entry is from tonight. The handwriting is not the captain's."
+        },
+        {
+          "label": "lift the chest lid",
+          "nextNode": "chest-find",
+          "hint": "The hinges groan and the smell of old brine rises from inside."
+        }
+      ]
+    },
+    "hold-deep": {
+      "passage": "The hold is deep and dark, lit only by your swinging lamp. Crates stack against the hull, roped with wet cord. One crate sits apart, wrapped in iron chains sealed with red wax. The hull itself is wet where it should not be, beaded as though something warm presses against it from outside.",
+      "choices": [
+        {
+          "label": "pry the chained crate",
+          "nextNode": "iron-chains",
+          "hint": "The chains are heavier than they should be and the wax crumbles fast."
+        },
+        {
+          "label": "press against the hull",
+          "nextNode": "voices-below",
+          "hint": "The wood is cold and something is speaking on the other side."
+        }
+      ]
+    },
+    "rock-island": {
+      "passage": "Your boat scrapes against black stone and you step onto the island. The tower rises above you, its base half-swallowed by briny tide pools. Something floats in the nearest pool - rags, maybe, or seaweed. The tower door hangs open on one hinge. Above, the lantern still burns from the peak, though you can see no fuel and no keeper.",
+      "choices": [
+        {
+          "label": "head for the tower",
+          "nextNode": "old-beacon",
+          "hint": "The door hangs crooked and the dark inside breathes out at you."
+        },
+        {
+          "label": "return to the boat",
+          "nextNode": "crew-alert",
+          "hint": "You shove off the rocks and row back as fast as the oars allow."
+        }
+      ]
+    },
+    "old-beacon": {
+      "passage": "The inside of the tower is gutted - no stairs, no floorboards, just a skeleton of rotted wood spiraling upward. The lantern at the top burns without oil. A brass bell hangs from a cross-beam halfway up, rope trailing to the ground. The walls are carved with the names of drowned sailors. Hundreds of names. Some are fresh.",
+      "choices": [
+        {
+          "label": "ring the bell",
+          "nextNode": "beacon-lit",
+          "hint": "Your hand finds the rope and the bell answers louder than it should."
+        },
+        {
+          "label": "retreat to the boat",
+          "nextNode": "crew-alert",
+          "hint": "The fresh names keep your eyes from leaving the wall for too long."
+        }
+      ]
+    },
+    "beacon-lit": {
+      "passage": "The bell's toll splits the fog in half. The lantern above flares brighter and a column of pure fire rises from the tower, cutting a tunnel of clear sky straight to the stars. Through the gap, you can see your ship and your stunned crew. A black-hulled vessel drifts alongside it - closer than before. The fog will close again. You have minutes.",
+      "choices": [
+        {
+          "label": "race back to the ship",
+          "nextNode": "navigate",
+          "hint": "You shove the rowboat off the rocks and dig the oars deep."
+        },
+        {
+          "label": "signal the ghost ship",
+          "nextNode": "ghost-boarding",
+          "hint": "You raise the burning lantern high and wave it toward the black hull."
+        }
+      ]
+    },
+    "navigate": {
+      "passage": "You reach the ship and take the wheel. The compass works again. Stars show through the thinning fog, but phantom lanterns drift on the horizon in the wrong places. The black vessel slides alongside but cannot follow a true course. Your crew stands ready at the sails. One pull of the wheel and the ship answers. True north waits - or the false lights.",
+      "choices": [
+        {
+          "label": "aim true north",
+          "nextNode": "home-by-dawn",
+          "hint": "You set your hands on the wheel and refuse to let them move."
+        },
+        {
+          "label": "follow the lights",
+          "nextNode": "drift-forever",
+          "hint": "Those phantom lanterns blink like a promise of something kinder."
+        }
+      ]
+    },
+    "crew-alert": {
+      "passage": "The deck crew gathers around you, wide-eyed. They have seen it too - the black ship in the fog, closer every minute. The older hand crosses himself again. The younger one grips a fish-knife like it matters. Through the gray, a shape looms alongside you - a hull black as a drowned coat, and a figure standing at its bow.",
+      "choices": [
+        {
+          "label": "ready the crew",
+          "nextNode": "stand-fast",
+          "hint": "You point at what weapons you have and the older hand nods without speaking."
+        },
+        {
+          "label": "meet the figure",
+          "nextNode": "ghost-boarding",
+          "hint": "You raise empty hands and walk alone to the rail to face him."
+        }
+      ]
+    },
+    "log-secret": {
+      "passage": "The last page is written in an unsteady hand, and the ink is still drying. It is not the captain's script. 'The debt has come due. Tell no one. Let the black ship have what was promised. Name on the manifest: Tollen Vash. Age seven. Thirty years overdue.' You turn the page. The next is blank, and there are no more.",
+      "choices": [
+        {
+          "label": "hide the logbook",
+          "nextNode": "crew-alert",
+          "hint": "You stuff the book into your coat before anyone else can read it."
+        },
+        {
+          "label": "confront the captain",
+          "nextNode": "ghost-boarding",
+          "hint": "The captain is not in his cabin. You know where he must be now."
+        }
+      ]
+    },
+    "chest-find": {
+      "passage": "The chest holds salt-stiff clothes, a dented spyglass, and a small iron locket on a broken chain. Inside the locket is a portrait the size of a coin - a boy, maybe seven years old, painted with care. His name is scratched on the back in the captain's hand. Tollen. The painted eyes seem to follow yours across the cabin.",
+      "choices": [
+        {
+          "label": "pocket the locket",
+          "nextNode": "ghost-boarding",
+          "hint": "The metal is warm against your fingers. Warmer than it should be."
+        },
+        {
+          "label": "leave the chest open",
+          "nextNode": "crew-alert",
+          "hint": "You close the lid gently and the painted eyes do not look away."
+        }
+      ]
+    },
+    "iron-chains": {
+      "passage": "The chains fall away in a dry rattle. Inside the crate, there is no cargo - only damp hair and a small boy's jacket crusted with sea salt. A wax seal bears a single name. Tollen. Something moves in the corner of the hold. A shape the size of a child, just past the lamp's reach. The ladder creaks behind you.",
+      "choices": [
+        {
+          "label": "step toward the shape",
+          "nextNode": "ghost-boarding",
+          "hint": "Your lamp catches pale eyes that do not blink or turn away."
+        },
+        {
+          "label": "flee up the ladder",
+          "nextNode": "crew-alert",
+          "hint": "Your boots hit the rungs and the hold laughs below like a child."
+        }
+      ]
+    },
+    "voices-below": {
+      "passage": "Pressing your ear to the hull, the wood grows warm under your cheek. Voices speak from the other side - many voices, layered and wet. They ask if you are ready. They ask if you have come to join them. They know things about you that no one should. A child's voice laughs beneath them all, clear and very close.",
+      "choices": [
+        {
+          "label": "answer the voices",
+          "nextNode": "swallowed-by-fog",
+          "hint": "Your throat opens and a single word slips out before you can stop it."
+        },
+        {
+          "label": "scramble away",
+          "nextNode": "ghost-boarding",
+          "hint": "You throw yourself backward and bolt for the ladder above."
+        }
+      ]
+    },
+    "ghost-boarding": {
+      "passage": "The black ship slides against your hull without a sound. A figure crosses from deck to deck without touching the rail - a tall man in a captain's coat a century out of fashion, eyes like wet stones. He looks at each of you in turn. His boots leave wet prints on your deck. Your hand finds your knife. He waits for someone to speak.",
+      "choices": [
+        {
+          "label": "speak first",
+          "nextNode": "ghost-parley",
+          "hint": "You clear your throat and the ghost's eyes lock onto yours at once."
+        },
+        {
+          "label": "draw the knife",
+          "nextNode": "stand-fast",
+          "hint": "Steel rings as you pull it free and the ghost smiles without warmth."
+        }
+      ]
+    },
+    "ghost-parley": {
+      "passage": "He speaks without moving his lips. 'Thirty years ago, the captain of this vessel traded a boy for a safe passage home. The boy was mine - my son, drowned before his time. The debt has been called. I will take him back, or I will take this ship and everyone on it. Choose. I am patient, but the fog is not.'",
+      "choices": [
+        {
+          "label": "accept his terms",
+          "nextNode": "ghost-bargain",
+          "hint": "Your word hangs in the air and the ghost's face softens just slightly."
+        },
+        {
+          "label": "refuse him",
+          "nextNode": "stand-fast",
+          "hint": "You shake your head and his patient eyes harden into something colder."
+        }
+      ]
+    },
+    "stand-fast": {
+      "passage": "Your crew forms a line across the deck - three bodies against a ship full of dead men. The ghost captain does not draw a weapon. He does not need to. His crew climbs the rails behind him, all pale hands and dripping clothes. Your lamp is the only warm thing left here. You could hold a line or you could set a fire.",
+      "choices": [
+        {
+          "label": "hold the line",
+          "nextNode": "swallowed-by-fog",
+          "hint": "You plant your feet and the dead swarm over the rails toward you."
+        },
+        {
+          "label": "set a fire",
+          "nextNode": "burning-ship",
+          "hint": "You smash the lamp against the mast and the oil catches instantly."
+        }
+      ]
+    },
+    "home-by-dawn": {
+      "passage": "Fog tears open behind you as the ship breaks into clean air. Stars wheel overhead. The sea turns from gray to blue and the crew laughs - a rough, broken laugh, but honest. The black ship is gone. Ahead, the coast rises like a prayer answered. You do not know what the captain sold. You know only that you are going home.",
+      "choices": [],
+      "ending": {
+        "title": "Home by Dawn",
+        "flavor": "The sea keeps its secrets, but it gives you back.",
+        "action": "steer for home"
+      }
+    },
+    "swallowed-by-fog": {
+      "passage": "The voices are right. The sea is warm. You feel it close over your head like the blanket a mother wraps around a sleeping child. The ship grows small above, a black shape drifting away. The other voices welcome you, glad to have the company. The fog closes and the ship is gone. You do not struggle. The sea keeps you.",
+      "choices": [],
+      "ending": {
+        "title": "Into the Silver",
+        "flavor": "Some voices cannot be unheard, and some tides do not let go.",
+        "action": "slip beneath the waves"
+      }
+    },
+    "ghost-bargain": {
+      "passage": "You cross to the black ship's deck. The fog closes behind you and your own crew calls your name, fading. The ghost captain sets his hand on your shoulder. Cold, but not unkind. 'The boy goes home,' he says. 'You take his place for thirty years.' The wheel of the black ship feels heavy in your hands. Heavy, and patient.",
+      "choices": [],
+      "ending": {
+        "title": "The Ghost's Wheel",
+        "flavor": "A debt owed is a debt paid, whether you chose it or not.",
+        "action": "take the wheel"
+      }
+    },
+    "burning-ship": {
+      "passage": "Flame catches the sails and climbs the rigging in a bright roar. The ghost crew recoils - the dead do not love fire. Your living crew jumps for the rowboats as the mast cracks. The black ship peels away into the fog, refusing the burn. You watch your own ship go under. The sea is dark. But the fog is gone.",
+      "choices": [],
+      "ending": {
+        "title": "The Burning Deck",
+        "flavor": "Better to lose a ship than to become one.",
+        "action": "set the sails alight"
+      }
+    },
+    "drift-forever": {
+      "passage": "The lanterns you chase are not there. Every time you near one, it drifts farther off, pulling you deeper into the gray. The compass spins. The stars vanish one by one. Your crew stops talking. After a while, they stop moving. After longer, so do you. The boat drifts on, and the fog keeps no record of who enters or who leaves.",
+      "choices": [],
+      "ending": {
+        "title": "The Drifter",
+        "flavor": "The fog takes the patient ones quietly.",
+        "action": "let the wheel turn"
+      }
+    }
+  }
+}

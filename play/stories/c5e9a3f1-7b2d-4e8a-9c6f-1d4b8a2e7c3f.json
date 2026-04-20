@@ -1,0 +1,446 @@
+{
+  "id": "c5e9a3f1-7b2d-4e8a-9c6f-1d4b8a2e7c3f",
+  "title": "Parley Fires",
+  "description": "A war chief's horde surrounds the frontier town of Holvik and the gates will not hold past dawn. You ride out alone with a token of peace and no escort.",
+  "author": "AI",
+  "tags": [
+    "siege",
+    "negotiation"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-05-11",
+  "dayOfYear": "05-11",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Holvik's gates close behind you. The wheat field falls away to a road, thick pines on the left, a low ridge on the right. A hundred cookfires glitter in the dusk and a war horn moans somewhere in the camp. Your horse snorts white steam. The grain seal hangs heavy at your belt - a token, a promise, your only shield.",
+      "choices": [
+        {
+          "label": "ride the main road",
+          "nextNode": "main-road",
+          "hint": "Hooves clop steady on the rutted earth, every step watched."
+        },
+        {
+          "label": "slip through the woods",
+          "nextNode": "woodline",
+          "hint": "Branches scrape your cloak as you angle into the pines."
+        },
+        {
+          "label": "hail from the ridge",
+          "nextNode": "ridge-hail",
+          "hint": "You rein up where the campfires cannot quite reach you."
+        }
+      ]
+    },
+    "main-road": {
+      "passage": "The road runs straight between two siege lines. Two riders peel from the camp before you have gone a furlong, lances low, helms gleaming. They circle without speaking. One jerks his chin at the grain seal. The other studies your face. Neither has reached for steel yet, but the moment is thin.",
+      "choices": [
+        {
+          "label": "lift the seal high",
+          "nextNode": "sentry-fire",
+          "hint": "Wax catches the firepit gleam and the riders go very still."
+        },
+        {
+          "label": "name Korvann loud",
+          "nextNode": "sentry-fire",
+          "hint": "The chief's name pulls both helms around at once."
+        }
+      ]
+    },
+    "woodline": {
+      "passage": "Pines press close. You walk your horse through black needles, listening for sentries. Soon you smell pitch and hear low voices ahead. A watchpost waits between two split trunks - three figures hunched around a tiny shielded flame. They have not seen you. A dry branch lies under your horse's next hoof.",
+      "choices": [
+        {
+          "label": "creep past the watch",
+          "nextNode": "caught-pines",
+          "hint": "The branch cracks under your hoof and the voices stop."
+        },
+        {
+          "label": "back into the brush",
+          "nextNode": "caught-pines",
+          "hint": "Your retreat is too slow, and a hand catches the reins."
+        }
+      ]
+    },
+    "ridge-hail": {
+      "passage": "From the ridge you can see the whole horde - rows of tents, banner poles, picket lines of restless horses. A scout on a distant rise turns his head. He has marked you. He raises his bow but does not draw. The wind tugs at the cloth wrapped around the seal.",
+      "choices": [
+        {
+          "label": "wave the iron seal",
+          "nextNode": "sentry-fire",
+          "hint": "Metal flashes and the bowman lowers his arrow a finger."
+        },
+        {
+          "label": "kindle a signal torch",
+          "nextNode": "sentry-fire",
+          "hint": "Pitch flares to life between your cupped hands."
+        }
+      ]
+    },
+    "sentry-fire": {
+      "passage": "Three warriors ring you near a low fire of dry brush. Their leader is a tall woman with a scar that splits her brow. She tastes the air, weighs your horse, your boots, your hands. The fire pops once. She nods toward the larger tents and motions for two of her men to walk you in.",
+      "choices": [
+        {
+          "label": "request the war chief",
+          "nextNode": "outer-camp",
+          "hint": "Her scar catches the brushfire glow as she considers your tone."
+        },
+        {
+          "label": "ask for the old-singer",
+          "nextNode": "outer-camp",
+          "hint": "The word old-singer makes one of her men flinch."
+        }
+      ]
+    },
+    "caught-pines": {
+      "passage": "They take you fast. A bowstring digs into your throat from behind. Hands strip your weapons and bind your wrists with wet leather. Your horse is led off into the trees. Nobody speaks. They march you between rough trunks toward the cookfires, prodding the small of your back with a spear butt every dozen steps.",
+      "choices": [
+        {
+          "label": "go quietly with them",
+          "nextNode": "bound-tent",
+          "hint": "Your boots match their pace and the spear stops jabbing."
+        },
+        {
+          "label": "spit at their feet",
+          "nextNode": "bound-tent",
+          "hint": "A rough laugh answers your defiance."
+        }
+      ]
+    },
+    "outer-camp": {
+      "passage": "The camp opens around you. Children dart between tents, dogs slink underfoot, smiths hammer notched blades on stumps. Smoke and roasting horseflesh hang heavy in the air. Two great tents loom at the camp's heart - one bright with banners, one ringed with knucklebones and pale skulls. Your guides slow and wait.",
+      "choices": [
+        {
+          "label": "follow to the great tent",
+          "nextNode": "chief-tent",
+          "hint": "Banners snap overhead as you cross the trampled mud."
+        },
+        {
+          "label": "veer toward the bone tent",
+          "nextNode": "shaman-tent",
+          "hint": "The skulls grin as you pass beneath the threshold rope."
+        }
+      ]
+    },
+    "bound-tent": {
+      "passage": "They throw you onto the dirt floor of a stinking hide tent. A single guard squats by the flap, picking dried meat from his teeth with a knife point. Your wrists burn where the leather has tightened. A copper coin is still hidden in your boot heel - the messenger always keeps one for the road.",
+      "choices": [
+        {
+          "label": "bargain with the guard",
+          "nextNode": "bound-bargain",
+          "hint": "His eyes flick to the seam of your boot heel."
+        },
+        {
+          "label": "shout out a war curse",
+          "nextNode": "bound-defiance",
+          "hint": "Your voice carries further than you mean it to."
+        }
+      ]
+    },
+    "chief-tent": {
+      "passage": "Furs and trophies cover the floor of the war chief's tent. Korvann himself sits cross-legged by an iron brazier, sharpening a curved knife on his thumbnail. He is older than you expected. Three captains flank him in silence. His eyes lift to meet yours and he gestures, almost gentle, at the empty hide across the brazier.",
+      "choices": [
+        {
+          "label": "offer the grain seal",
+          "nextNode": "offer-grain",
+          "hint": "Wax catches the brazier glow as you draw the seal free."
+        },
+        {
+          "label": "demand a warrior's respect",
+          "nextNode": "demand-respect",
+          "hint": "The captains on his flanks shift their weight."
+        },
+        {
+          "label": "bow and pledge yourself",
+          "nextNode": "offer-self",
+          "hint": "Your knees press the matted furs."
+        }
+      ]
+    },
+    "shaman-tent": {
+      "passage": "Bone chimes click overhead. The old-singer sits hunched over a clay bowl of dark water, her white braid roped over one shoulder. The walls are hung with rattles, dried wing-bones, and a drum stretched from something with too many ribs. She does not look up. She says she has been waiting for a southern voice.",
+      "choices": [
+        {
+          "label": "seek an omen",
+          "nextNode": "shaman-omen",
+          "hint": "Her finger stirs the bowl and the surface clouds."
+        },
+        {
+          "label": "trade for safe passage",
+          "nextNode": "shaman-trade",
+          "hint": "The chimes click as if listening to your offer."
+        }
+      ]
+    },
+    "offer-grain": {
+      "passage": "You set the wax seal on the iron of the brazier. Korvann takes it up between two fingers and reads the marks burned into the wax. Holvik's silos have spoken before they would yield - twenty wagons of winter grain in exchange for the lifting of the siege. He breathes once, slow, and watches you over the seal.",
+      "choices": [
+        {
+          "label": "swear it with blood",
+          "nextNode": "seal-pact",
+          "hint": "Korvann turns the iron knife in his hand."
+        },
+        {
+          "label": "stamp the wax with your ring",
+          "nextNode": "seal-pact",
+          "hint": "The hot wax bites your fingertips."
+        }
+      ]
+    },
+    "demand-respect": {
+      "passage": "You straighten and refuse the offered seat. The tent goes very still. One captain laughs - a short, ugly sound - and the laugh dies when Korvann does not echo it. The chief sets his curved knife flat across his knee. He says any messenger who walks in standing must be willing to walk out the same way.",
+      "choices": [
+        {
+          "label": "call for a champion",
+          "nextNode": "duel-pit",
+          "hint": "A captain at the back rises before you finish speaking."
+        },
+        {
+          "label": "draw your own blade",
+          "nextNode": "duel-pit",
+          "hint": "Steel rasps in the hush of the tent."
+        }
+      ]
+    },
+    "offer-self": {
+      "passage": "Your knees touch the matted furs. You lay your blade across your palms and hold it out hilt first. The captains stiffen but Korvann lifts a hand to still them. He says a hostage of your station could keep the south road quiet for a season. His voice softens but his eyes do not.",
+      "choices": [
+        {
+          "label": "kneel by the firepit",
+          "nextNode": "kneel-fire",
+          "hint": "Heat washes over your bowed face."
+        },
+        {
+          "label": "lay down your sword",
+          "nextNode": "kneel-fire",
+          "hint": "Steel chimes against the iron lip of the brazier."
+        }
+      ]
+    },
+    "shaman-omen": {
+      "passage": "The old-singer dips one finger into the bowl and traces a circle on her own forehead. Shapes shift in the dark water - a wolf, a wagon, a broken arrow. She tells you the spirits at the river will speak more plainly than these. She rises with a slow grunt and ties a bone charm to your wrist.",
+      "choices": [
+        {
+          "label": "walk with her to the river",
+          "nextNode": "river-rite",
+          "hint": "Her braid swings as she ducks beneath the door rope."
+        },
+        {
+          "label": "wait for the bone to warm",
+          "nextNode": "river-rite",
+          "hint": "The charm grows hot against your pulse."
+        }
+      ]
+    },
+    "shaman-trade": {
+      "passage": "The old-singer sets her bowl aside and shows you both palms - empty, calloused, marked with old scars. She says the warband will let one road open for a price the chief alone cannot pay. The price is your name, written in ash on the drum, and one season of your service. She waits.",
+      "choices": [
+        {
+          "label": "give your name to the drum",
+          "nextNode": "kneel-fire",
+          "hint": "She lifts a charcoal stick from the brazier's edge."
+        },
+        {
+          "label": "yield your sword instead",
+          "nextNode": "kneel-fire",
+          "hint": "Steel rings as you set it on the woven mat."
+        }
+      ]
+    },
+    "bound-bargain": {
+      "passage": "You shift toward the guard and let your boot tilt so the copper catches a flicker from the brazier. He sees it. His eyes flick once to the tent flap, twice to your face. He spits in the dirt, slow. Then he leans forward and asks, very quiet, what a southern coin would buy at this hour.",
+      "choices": [
+        {
+          "label": "drop the copper into his hand",
+          "nextNode": "guard-asleep",
+          "hint": "His fist closes tight around the metal."
+        },
+        {
+          "label": "promise more on the south road",
+          "nextNode": "guard-asleep",
+          "hint": "He chews the inside of his cheek, weighing you."
+        }
+      ]
+    },
+    "bound-defiance": {
+      "passage": "Your shout cuts through the canvas. The guard is on his feet before the second word leaves your mouth. He kicks you flat and shouts back into the camp - other voices answer, boots churn the mud outside. The flap rips open. Three more warriors crowd in, blades half-drawn. The brazier sits within reach of your bound hands.",
+      "choices": [
+        {
+          "label": "kick the brazier over",
+          "nextNode": "fight-guards",
+          "hint": "Coals scatter across the trampled rugs in a hiss."
+        },
+        {
+          "label": "lunge for the loose spear",
+          "nextNode": "fight-guards",
+          "hint": "The shaft cracks as you grip it."
+        }
+      ]
+    },
+    "duel-pit": {
+      "passage": "They drag you out into a circle of warriors at the camp's edge. Torches gutter in the wind. A champion is already stepping into the ring - a head taller than you, scarred from collarbone to jaw, hefting a heavy two-handed blade. Korvann watches from the rim. The crowd is so quiet you hear your own heartbeat.",
+      "choices": [
+        {
+          "label": "step into the ring",
+          "nextNode": "single-combat",
+          "hint": "The dirt under your boots is stained with old blood."
+        },
+        {
+          "label": "raise your blade in salute",
+          "nextNode": "single-combat",
+          "hint": "Your champion grunts an approving nod."
+        }
+      ]
+    },
+    "river-rite": {
+      "passage": "The old-singer leads you between the tents to a slow stream that loops the camp's eastern flank. She crouches by the bank and presses a smooth river-stone into your palm. She tells you to name what Holvik will give and what Holvik will keep. The water mutters around her ankles. The first hint of dawn grays the sky.",
+      "choices": [
+        {
+          "label": "cast the stone into the current",
+          "nextNode": "peace-dawn",
+          "hint": "The river takes it without a splash."
+        },
+        {
+          "label": "speak the old name aloud",
+          "nextNode": "peace-dawn",
+          "hint": "Your voice fogs in the cold dawn air."
+        }
+      ]
+    },
+    "seal-pact": {
+      "passage": "Korvann lifts the iron knife and parts the pad of his own thumb. He passes the blade to you, hilt first, and you do the same. Your blood touches his on the wax of the seal. The captains breathe out together, a long held sound. Outside, a horn calls and the war drums begin to slow.",
+      "choices": [
+        {
+          "label": "share the cup he offers",
+          "nextNode": "peace-dawn",
+          "hint": "Sour mead burns down your throat in one swallow."
+        },
+        {
+          "label": "lock your palm to his",
+          "nextNode": "peace-dawn",
+          "hint": "His grip is iron-hard but no longer hostile."
+        }
+      ]
+    },
+    "kneel-fire": {
+      "passage": "They walk you to the iron firepit at the camp's heart. A heavy collar of dark metal waits on a stone block beside it. Korvann himself sets the collar around your neck and closes the catch with a click that you feel in your teeth. He says you belong to the Raven Banner now, by your own word.",
+      "choices": [
+        {
+          "label": "vow by the iron flame",
+          "nextNode": "hostage-bond",
+          "hint": "Heat from the firepit climbs the rim of your collar."
+        },
+        {
+          "label": "press your brow to ash",
+          "nextNode": "hostage-bond",
+          "hint": "Soot marks your forehead in a black smear."
+        }
+      ]
+    },
+    "guard-asleep": {
+      "passage": "The guard tucks the copper into his belt and produces a leather flask from under his cloak. He drinks. He nudges the flask toward you. After a while his head sinks against the tent pole. His knife clatters into the dust. Voices pass close enough to brush the outside canvas.",
+      "choices": [
+        {
+          "label": "cut through the back canvas",
+          "nextNode": "escape-fog",
+          "hint": "Your knife works through the hide stitch by stitch."
+        },
+        {
+          "label": "take the guard's cloak first",
+          "nextNode": "escape-fog",
+          "hint": "The fabric stinks of grease and old smoke."
+        }
+      ]
+    },
+    "fight-guards": {
+      "passage": "The brazier crashes sideways. Coals spill across the rugs in a hiss of sparks and the guards leap back. You roll, snatch the loose spear, and come up swinging. One warrior staggers, clutching his side. The others close. The tent flap is six paces away and a clear path - if six paces are enough.",
+      "choices": [
+        {
+          "label": "stand and roar at them",
+          "nextNode": "stand-alone",
+          "hint": "Your voice sounds nothing like your own."
+        },
+        {
+          "label": "snatch up a fallen blade",
+          "nextNode": "stand-alone",
+          "hint": "The hilt is slick with somebody else's blood."
+        }
+      ]
+    },
+    "escape-fog": {
+      "passage": "Outside the tent the camp is a maze of guy ropes and snoring shapes. Mist rises off the trampled wheat field beyond. Your horse is tethered with the others, just past the bone tent. Somewhere a dog barks, then quiets. The eastern sky is the faintest grey. Move now and you have a chance. Move slow and you do not.",
+      "choices": [
+        {
+          "label": "vanish into the mist",
+          "nextNode": "smoke-trail",
+          "hint": "The fog folds around you like a wet cloak."
+        },
+        {
+          "label": "race for the high road",
+          "nextNode": "smoke-trail",
+          "hint": "Your horse's hooves thunder before you mean them to."
+        }
+      ]
+    },
+    "stand-alone": {
+      "passage": "Out through the flap, into the open camp. Warriors are already spilling from neighboring tents, drawn by the noise. There is no horse, no road, no friendly face within a day's march. Your spear point lifts. A circle forms around you in the trampled mud, twenty deep, and Korvann himself walks slowly out of the great tent.",
+      "choices": [
+        {
+          "label": "charge the closing line",
+          "nextNode": "banner-mud",
+          "hint": "Your boots find one last burst of speed."
+        },
+        {
+          "label": "set your back to the post",
+          "nextNode": "banner-mud",
+          "hint": "Wood digs into your shoulder blades."
+        }
+      ]
+    },
+    "peace-dawn": {
+      "passage": "Dawn touches the wheat field as the war drums fall silent for good. Korvann's host strikes the camp tent by tent. Holvik's gates open and your horse is led back to you, washed and brushed. The grain wagons creak out by midmorning. The road south is open. You ride home with the sun on your face.",
+      "choices": [],
+      "ending": {
+        "title": "The Open Gates",
+        "flavor": "Peace tastes like dust on the wheat road and the smell of horses set free.",
+        "action": "share the dawn cup"
+      }
+    },
+    "single-combat": {
+      "passage": "Steel meets steel in the smoke of the torches. The champion's swing is heavy and slow and you turn it twice before he opens your shoulder with the third. You answer with the point through his thigh. He kneels first. Korvann lifts a hand. The fight is over. The siege is bought, and you are alive enough to ride home wounded.",
+      "choices": [],
+      "ending": {
+        "title": "Bought in Blood",
+        "flavor": "You ride home with one good arm and a kingdom that does not know your name.",
+        "action": "lift the heavy blade"
+      }
+    },
+    "hostage-bond": {
+      "passage": "By midmorning the warband strikes the camp and the long lines turn east. You ride near the front of the column with the iron at your throat and your hands free. Holvik's silos will fill the wagons. Korvann keeps his word, and so will you. One season at the Raven Banner. Maybe more. Maybe home, after.",
+      "choices": [],
+      "ending": {
+        "title": "The Raven Bond",
+        "flavor": "Your name belongs to the drum now, but Holvik still stands.",
+        "action": "take the iron collar"
+      }
+    },
+    "smoke-trail": {
+      "passage": "At an hour past sunrise you break free of the trees. Behind you the smoke of Holvik rises in a single column of grey ash. The horns have stopped. The siege is over the wrong way. Your horse is lame, your hands are still bleeding from the leather, and the south road is empty. You did not save them. You lived.",
+      "choices": [],
+      "ending": {
+        "title": "Smoke Behind",
+        "flavor": "Freedom is a long, quiet ride and a name you cannot say aloud.",
+        "action": "ride for the south road"
+      }
+    },
+    "banner-mud": {
+      "passage": "Three steps. That is all you get before the spear takes you. The mud is colder than expected. Korvann himself comes close enough to kneel beside you. He looks at you a long moment with something like respect. He says you came carrying a seal, and you fought for it. He closes your eyes.",
+      "choices": [],
+      "ending": {
+        "title": "Banner in the Mud",
+        "flavor": "Your seal stays clutched in a hand that no longer remembers how to open.",
+        "action": "raise your last cry"
+      }
+    }
+  }
+}

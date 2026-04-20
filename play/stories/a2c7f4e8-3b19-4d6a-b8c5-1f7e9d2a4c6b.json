@@ -1,0 +1,433 @@
+{
+  "id": "a2c7f4e8-3b19-4d6a-b8c5-1f7e9d2a4c6b",
+  "title": "Shifting Manor",
+  "description": "A manor that was not on the road an hour ago invites you in from the rain. The doors lead to rooms that should not exist, and the house does not want you to leave.",
+  "author": "AI",
+  "tags": [
+    "escape",
+    "trickery"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-05-20",
+  "dayOfYear": "05-20",
+  "endingCount": 5,
+  "storyNumber": 48,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Rain drives you toward a manor that sits where no building stood an hour ago. Warm firelight spills through tall windows and the front gate hangs open. Thunder rolls. An old man in a quilted robe waves from the doorway, smiling too wide for a stranger. The path behind you has already changed.",
+      "choices": [
+        {
+          "label": "enter the manor",
+          "nextNode": "grand-hall",
+          "hint": "The old man steps aside and the warmth wraps around you like a blanket."
+        },
+        {
+          "label": "circle the building",
+          "nextNode": "garden-wall",
+          "hint": "Mud pulls at your boots as you leave the lit path behind."
+        }
+      ]
+    },
+    "grand-hall": {
+      "passage": "The entrance hall stretches farther than the outside walls should allow. A chandelier of melted candles drips wax onto cracked marble. Two staircases curve upward, but the steps on the left are moving. The old man is gone. A tapestry on the far wall ripples as if something just passed behind it.",
+      "choices": [
+        {
+          "label": "climb the right staircase",
+          "nextNode": "upstairs",
+          "hint": "The banister is warm under your palm, almost like touching skin."
+        },
+        {
+          "label": "pull the tapestry aside",
+          "nextNode": "servants-passage",
+          "hint": "The fabric feels heavier than it should, as if it does not want to move."
+        },
+        {
+          "label": "try the front door",
+          "nextNode": "front-door",
+          "hint": "The handle turns without resistance, which is never a good sign."
+        }
+      ]
+    },
+    "garden-wall": {
+      "passage": "Thick ivy covers every inch of the manor's outer wall. The windows are shuttered from inside and the glass will not give. Around the corner, a rusted gate leads into a walled garden. The rain stops the moment you pass the wall's edge. Not slowly. All at once, like someone closed a lid overhead.",
+      "choices": [
+        {
+          "label": "push through the gate",
+          "nextNode": "garden",
+          "hint": "The air beyond the gate smells of flowers that should not bloom at night."
+        },
+        {
+          "label": "force a window",
+          "nextNode": "kitchen",
+          "hint": "The frame groans and pops free, revealing a room full of heat."
+        }
+      ]
+    },
+    "front-door": {
+      "passage": "The front door swings open, but the rain-soaked road is gone. A dining room stretches ahead, candles lit on a table set for twelve. Steam curls from untouched plates. Every chair is pulled back as if the guests stood mid-bite and walked away. One plate has a fresh thumbprint in the gravy.",
+      "choices": [
+        {
+          "label": "sit at the table",
+          "nextNode": "dining-room",
+          "hint": "The chair slides out for you before you touch it."
+        },
+        {
+          "label": "walk past the table",
+          "nextNode": "mirror-gallery",
+          "hint": "Your reflection moves in the silverware a half-second too late."
+        }
+      ]
+    },
+    "upstairs": {
+      "passage": "The landing splits into a hallway lined with doors of different colors and sizes. Floorboards creak in a rhythm - three short, one long - like the house is breathing. A painted blue door stands ajar on the left. Faint music drifts from a red door at the far end. Between them, portraits line the wall with eyes that track you.",
+      "choices": [
+        {
+          "label": "open the blue door",
+          "nextNode": "library",
+          "hint": "The hinges sigh as the door swings inward on its own."
+        },
+        {
+          "label": "follow the music",
+          "nextNode": "music-room",
+          "hint": "The melody pulls at something behind your ribs, familiar and wrong."
+        },
+        {
+          "label": "inspect the portraits",
+          "nextNode": "portrait-hall",
+          "hint": "The nearest portrait blinks, and you could swear it just exhaled."
+        }
+      ]
+    },
+    "servants-passage": {
+      "passage": "Behind the tapestry, a passage runs deeper than the outer walls should allow. The air smells of bread and iron. Claw marks score the plaster at knee height, dozens of them, all heading the same direction. Ahead the corridor forks. Left brings a clatter of pots and warmth. Right brings a draft that raises the hair on your arms.",
+      "choices": [
+        {
+          "label": "go toward the warmth",
+          "nextNode": "kitchen",
+          "hint": "The clatter grows louder, but no voice accompanies it."
+        },
+        {
+          "label": "chase the draft",
+          "nextNode": "cellar",
+          "hint": "The temperature drops with every step you take to the right."
+        }
+      ]
+    },
+    "kitchen": {
+      "passage": "Pots bubble on a stove no one is tending. A cleaver chops carrots on the block by itself, steady as a heartbeat. Warm tile hums beneath your boots and the room reeks of rosemary. A half-open door leads to the walled garden outside. Near the pantry, a trapdoor sits with its iron bolt already drawn back.",
+      "choices": [
+        {
+          "label": "step into the garden",
+          "nextNode": "garden",
+          "hint": "Cool air rushes over your face as you push the door wide."
+        },
+        {
+          "label": "lift the trapdoor",
+          "nextNode": "cellar",
+          "hint": "A gust of stale air rises from below as the hatch swings up."
+        }
+      ]
+    },
+    "garden": {
+      "passage": "Moonflowers bloom in spirals across an overgrown courtyard, casting pale blue glow over the flagstones. The walls rise three stories with no gate and no ladder. A well sits at the center, its rope taut and descending into nothing you can see. Against the far wall, a gnarled oak grows through the masonry, branches straining toward the roof.",
+      "choices": [
+        {
+          "label": "scale the oak",
+          "nextNode": "roof",
+          "hint": "The bark is warm and the branches bend toward you as if offering a hand."
+        },
+        {
+          "label": "descend the well",
+          "nextNode": "well-bottom",
+          "hint": "The rope holds your weight, but something tugs it from below."
+        }
+      ]
+    },
+    "library": {
+      "passage": "Shelves line every wall from floor to ceiling, sagging under leather-bound volumes. The books are whispering. Not a figure of speech - murmuring rises from the spines as you pass. One volume lies open on the reading desk to a diagram of this manor, with a red line tracing a route through the cellar. The ink is still wet.",
+      "choices": [
+        {
+          "label": "study the diagram",
+          "nextNode": "book-clue",
+          "hint": "The red line pulses faintly as your finger traces its path."
+        },
+        {
+          "label": "look for an exit",
+          "nextNode": "hidden-stair",
+          "hint": "A shelf near the window sits crooked, like something is behind it."
+        }
+      ]
+    },
+    "music-room": {
+      "passage": "A grand piano fills the center of a circular room draped in velvet curtains. The keys move by themselves, playing a waltz that makes your eyelids heavy. Candle flames bend toward the instrument as if drawn by the melody. A window behind the curtains is cracked open, letting in a thread of fresh air that clears your head.",
+      "choices": [
+        {
+          "label": "play the piano",
+          "nextNode": "melody-lost",
+          "hint": "Your fingers find the keys and the song fills the empty space behind your eyes."
+        },
+        {
+          "label": "slip through the window",
+          "nextNode": "wizard-study",
+          "hint": "The night air hits your lungs and the music fades behind you."
+        }
+      ]
+    },
+    "mirror-gallery": {
+      "passage": "A corridor of floor-to-ceiling mirrors stretches ahead. Your reflection walks beside you, but it blinks when you do not. Halfway down the hall, the reflection stops and presses its palm flat against the glass. Its mouth moves. No sound comes through, but the message is clear - it wants you to touch the mirror. The far end opens into a stairwell.",
+      "choices": [
+        {
+          "label": "touch the mirror",
+          "nextNode": "reflection-deal",
+          "hint": "The glass is warm and your fingertips sink in past the surface."
+        },
+        {
+          "label": "ignore the reflection",
+          "nextNode": "wizard-study",
+          "hint": "The reflection follows, pounding the glass, but you press forward."
+        }
+      ]
+    },
+    "dining-room": {
+      "passage": "You lower yourself into the chair and the room exhales. The food is real - roast pheasant, crusty bread, honeyed pears. But the other chairs begin to fill with hazy figures who eat without looking up. One of them wears your face. A door behind the head of the table leads deeper into the manor, past a narrow servants' arch.",
+      "choices": [
+        {
+          "label": "confront your double",
+          "nextNode": "wizard-study",
+          "hint": "The figure stands, gestures for you to follow, and walks through the far wall."
+        },
+        {
+          "label": "slip through the arch",
+          "nextNode": "servants-passage",
+          "hint": "The figures do not notice you leave, or pretend not to."
+        }
+      ]
+    },
+    "portrait-hall": {
+      "passage": "The portraits are older than anything in this manor should be. Knights, queens, merchants, children - all watching, all breathing. One frame near the end holds a painting of a man chained to a tower chair with a look of desperate recognition on his face. He mouths a single word at you. Help.",
+      "choices": [
+        {
+          "label": "search for the tower",
+          "nextNode": "wizard-study",
+          "hint": "The painted man's eyes follow you to the end of the hall."
+        },
+        {
+          "label": "examine the other frames",
+          "nextNode": "book-clue",
+          "hint": "One frame has no painting at all - just a brass handle set into the wall."
+        }
+      ]
+    },
+    "cellar": {
+      "passage": "Rough stairs descend into a vaulted chamber lined with wine barrels. The air is thick and stale. Along the far wall, fresh claw marks tear through brick into loose earth beyond. A narrow tunnel has been scratched open, just wide enough to crawl through. Something breathes in the dark space past the barrels, slow and patient.",
+      "choices": [
+        {
+          "label": "crawl into the tunnel",
+          "nextNode": "tunnel",
+          "hint": "Dirt crumbles onto your shoulders as you squeeze through the gap."
+        },
+        {
+          "label": "investigate the breathing",
+          "nextNode": "well-bottom",
+          "hint": "The sound stops as you approach, then starts again behind you."
+        }
+      ]
+    },
+    "roof": {
+      "passage": "Wind tears at your coat as you pull yourself over the gutter. The manor's roof stretches in every direction, far larger than any house should be. Below, the world looks wrong - the road is gone, the forest is closer, and the sky bends at the edges like painted cloth. A weathervane spins, pointing at nothing. You are very high up.",
+      "choices": [
+        {
+          "label": "shout into the sky",
+          "nextNode": "trick-manor",
+          "hint": "Your voice carries farther than it should, echoing off walls that are not there."
+        },
+        {
+          "label": "search for a way down",
+          "nextNode": "tower-window",
+          "hint": "A dormer window with amber glow sits on the far slope of the roof."
+        }
+      ]
+    },
+    "book-clue": {
+      "passage": "The diagram shows the manor as a living thing - rooms that shift, walls that grow, a heart that beats somewhere below ground. A note in the margin reads: the house feeds on those who wander without purpose. Name what you want and walk straight. The red line leads from the cellar to an exit beneath the eastern wall.",
+      "choices": [
+        {
+          "label": "head for the cellar",
+          "nextNode": "cellar",
+          "hint": "The book snaps shut behind you as if it has served its purpose."
+        },
+        {
+          "label": "find the heart",
+          "nextNode": "ritual-circle",
+          "hint": "The diagram pulses once and a new line appears, pointing down."
+        }
+      ]
+    },
+    "hidden-stair": {
+      "passage": "The crooked shelf swings outward on hidden hinges, revealing a spiral stair that corkscrews upward through the walls. Scratch marks cover the inner surface and the air tastes of copper. A dozen flights up, a faint glow leaks through a cracked door. Every third step creaks, and the ones between are perfectly, unnervingly quiet.",
+      "choices": [
+        {
+          "label": "ascend to the glow",
+          "nextNode": "wizard-study",
+          "hint": "The glow brightens as you approach, pulsing like a slow heartbeat."
+        },
+        {
+          "label": "descend instead",
+          "nextNode": "cellar",
+          "hint": "The staircase continues down past where you entered, into colder air."
+        }
+      ]
+    },
+    "wizard-study": {
+      "passage": "You find an old man chained to a chair in a tower room cluttered with star charts and burnt candles. He is the same man from the doorway, but thinner now, older. He says the manor is a trap he built and lost control of. The only way to break it is to complete the binding circle in the room below.",
+      "choices": [
+        {
+          "label": "free him first",
+          "nextNode": "ritual-circle",
+          "hint": "The chains fall away at your touch, rusted through from the inside."
+        },
+        {
+          "label": "leave through the window",
+          "nextNode": "roof",
+          "hint": "The tower window opens onto the rooftop and the wind grabs at your sleeves."
+        }
+      ]
+    },
+    "well-bottom": {
+      "passage": "The well opens into a chamber where roots hang from the ceiling like fingers. Shallow water pools around your ankles, warm and smelling of earth. A passage leads east, toward where the diagram's red line pointed. Something pale drifts in the water - a torn page with one word on it: run. The roots above you twitch.",
+      "choices": [
+        {
+          "label": "follow the passage east",
+          "nextNode": "tunnel",
+          "hint": "The ceiling drops lower with every step, pressing you into a crouch."
+        },
+        {
+          "label": "grab the rope",
+          "nextNode": "garden",
+          "hint": "The rope sways but holds, and the moonflowers glow above you."
+        }
+      ]
+    },
+    "reflection-deal": {
+      "passage": "The glass gives way like the surface of a pond. Your reflection stands before you now, solid and real, wearing your face with a crooked smile. It speaks in your voice. It offers a trade: your place in the manor for its freedom outside. The mirror behind it shows a world of grey halls stretching into forever.",
+      "choices": [
+        {
+          "label": "accept the trade",
+          "nextNode": "mirror-trapped",
+          "hint": "The reflection laughs and the glass closes behind it like a curtain."
+        },
+        {
+          "label": "refuse and run",
+          "nextNode": "wizard-study",
+          "hint": "The reflection screams, but you are already through the door."
+        }
+      ]
+    },
+    "tunnel": {
+      "passage": "Damp earth presses in from every side as the tunnel narrows. The air gets thinner. Roots brush your face and the sound of your breathing fills the cramped space. Then a draft - real air, carrying the scent of rain and wet grass. Ahead, a pinprick of grey sky grows wider with every step. The tunnel is ending.",
+      "choices": [
+        {
+          "label": "press toward the exit",
+          "nextNode": "escape-ending",
+          "hint": "Dirt crumbles around your shoulders as you push through the last stretch."
+        },
+        {
+          "label": "turn back for the wizard",
+          "nextNode": "cellar",
+          "hint": "Something in you cannot leave without trying to help him."
+        }
+      ]
+    },
+    "trick-manor": {
+      "passage": "You shout your own name into the bending sky. The manor shudders. You shout it again, louder. The wizard's words echo in your mind - the house feeds on those who wander without purpose. You name what you want: out. The tiles beneath your feet crack and the roof begins to fold inward like a closing book.",
+      "choices": [
+        {
+          "label": "jump before it closes",
+          "nextNode": "leap-free",
+          "hint": "The ground is far below, but the oak tree is reaching for you."
+        },
+        {
+          "label": "ride it down",
+          "nextNode": "curse-broken",
+          "hint": "The manor groans and the walls dissolve into mist around you."
+        }
+      ]
+    },
+    "tower-window": {
+      "passage": "Amber glow spills from a dormer window set into the steep roof slope. Through the glass you see a cluttered room - star charts, burnt candles, and a figure slumped in a chair. Chains glint on his wrists. The window latch is simple, but the glass is warm to the touch and hums faintly, as if alive.",
+      "choices": [
+        {
+          "label": "unlatch the window",
+          "nextNode": "wizard-study",
+          "hint": "The latch clicks and the humming stops, replaced by a tired voice inside."
+        },
+        {
+          "label": "keep searching the roof",
+          "nextNode": "trick-manor",
+          "hint": "The wind shifts and carries your name back to you in a voice not yours."
+        }
+      ]
+    },
+    "ritual-circle": {
+      "passage": "A ring of symbols burns with pale fire in the floor of a chamber beneath the manor's heart. The old wizard kneels at the edge, hands shaking. He tells you the circle needs one more voice to complete - someone the house has not yet claimed. The flames flicker low. The ceiling groans. Time is short.",
+      "choices": [
+        {
+          "label": "speak the words",
+          "nextNode": "curse-broken",
+          "hint": "The syllables taste like copper on your tongue, but the fire answers."
+        },
+        {
+          "label": "back away",
+          "nextNode": "escape-ending",
+          "hint": "He nods, unsurprised, and points toward a passage behind the flames."
+        }
+      ]
+    },
+    "escape-ending": {
+      "passage": "Fresh air hits your face as you crawl free of the earth. The road stretches before you, real and solid, wet with rain. Behind you the manor stands unchanged, windows glowing, waiting for the next traveler. The old man is still trapped inside. Dawn is breaking and the sky is honest again. Part of you wonders if you should have stayed.",
+      "choices": [],
+      "ending": {
+        "title": "Free and Clear",
+        "flavor": "Some doors are better left behind, even when they call your name.",
+        "action": "step into the dawn"
+      }
+    },
+    "leap-free": {
+      "passage": "The oak catches you. Branches wrap around your arms and lower you to the ground as the manor folds in on itself like a paper lantern - roof first, then walls, then foundation. Morning floods the clearing where it stood. Nothing remains but a square of dead grass and a single moonflower blooming at the edge. The road is back.",
+      "choices": [],
+      "ending": {
+        "title": "The Fall and the Catch",
+        "flavor": "The tree remembers what the house forgot - that living things let go.",
+        "action": "land in the branches"
+      }
+    },
+    "curse-broken": {
+      "passage": "The circle erupts in white flame and the manor screams - a sound like timber splitting and glass breaking all at once. Walls dissolve. The ceiling peels away to reveal true sky, full of stars. The wizard stands beside you, younger now, tears on his cheeks. He offers his hand. Together you walk out through where the front door used to be.",
+      "choices": [],
+      "ending": {
+        "title": "The Last Enchantment",
+        "flavor": "The house is gone, but the stars have never been so bright.",
+        "action": "walk through the empty frame"
+      }
+    },
+    "mirror-trapped": {
+      "passage": "The glass seals behind you. Grey halls stretch in every direction, endless and quiet. Your reflection waves from the other side, wearing your clothes, breathing your air, walking your road. It mouths the word goodbye. The corridor ahead is long and featureless and the glow never changes. Somewhere a clock ticks, but never chimes.",
+      "choices": [],
+      "ending": {
+        "title": "Through the Glass",
+        "flavor": "Every mirror you ever pass will hold a familiar face, watching.",
+        "action": "press your palm to the glass"
+      }
+    },
+    "melody-lost": {
+      "passage": "The waltz swallows you whole. Your fingers move across the keys and the music fills every thought until nothing else remains. The room blurs. The candles gutter. When the song ends you try to stand but your hands will not leave the ivory. The piano begins again, and this time you do not want it to stop.",
+      "choices": [],
+      "ending": {
+        "title": "The Endless Waltz",
+        "flavor": "The melody is beautiful, and it will play forever.",
+        "action": "close your eyes and play"
+      }
+    }
+  }
+}

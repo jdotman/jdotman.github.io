@@ -1,0 +1,317 @@
+{
+  "id": "8d3f6a21-9b4c-4e72-a85f-16d2b4e8c9a3",
+  "title": "Forgefire Trial",
+  "description": "Five apprentice smiths compete for the honor of forging the king's blade. Someone has fouled your coals, and dawn will bring the final strike.",
+  "author": "AI",
+  "tags": [
+    "competition",
+    "crafting"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-05-27",
+  "dayOfYear": "05-27",
+  "endingCount": 6,
+  "storyNumber": 55,
+  "startNode": "forge-hall",
+  "nodes": {
+    "forge-hall": {
+      "passage": "Midnight. The royal forge lies heavy and still. Four anvils have gone cold, but your coals hiss wrong - damp, black, sour-smelling, and reeking of something that should not be near a king's blade at dawn. Across the hall, Bryn sharpens a chisel with too-calm hands. Outside, the fuelmaster's hut stays lit.",
+      "choices": [
+        {
+          "label": "confront Bryn",
+          "nextNode": "rival-bench",
+          "hint": "Your hammer feels heavier than it should as you cross the hall."
+        },
+        {
+          "label": "inspect the coals",
+          "nextNode": "coal-bin",
+          "hint": "The smell off the coal bed makes your eyes sting as you kneel."
+        },
+        {
+          "label": "visit the fuelmaster",
+          "nextNode": "forge-yard",
+          "hint": "A lantern burning this late tells its own strange story."
+        }
+      ]
+    },
+    "rival-bench": {
+      "passage": "Bryn looks up from the chisel. His face is too calm for a man one dawn from judgment. A tin flask rests at his elbow and a fresh mug steams beside him. He sets down his tool. 'Come to share a drink with a fellow apprentice, or are there heavier things weighing on your mind so close to the final dawn?'",
+      "choices": [
+        {
+          "label": "drink the mug",
+          "nextNode": "poisoned-ending",
+          "hint": "The ale smells sweet but there is a strange bitter edge beneath."
+        },
+        {
+          "label": "tip the mug over",
+          "nextNode": "poison-proof",
+          "hint": "Your elbow knocks it by accident, or so you will claim."
+        }
+      ]
+    },
+    "poison-proof": {
+      "passage": "Ale hisses on the flagstones and hardens into black crust. Bryn's face empties of color. He backs toward the gallery door. Tools ring on. The others have not noticed - smoke and voices crowd the hall, and every eye stays bent on coals and the long dawn still hours away. That same black residue streaks the underside of his workbench.",
+      "choices": [
+        {
+          "label": "chase Bryn",
+          "nextNode": "chase-bryn",
+          "hint": "His footsteps ring hollow down the gallery as he breaks into a run."
+        },
+        {
+          "label": "scrape the residue",
+          "nextNode": "gallery-run",
+          "hint": "The crust lifts in black flakes that stain your thumb red-brown."
+        }
+      ]
+    },
+    "chase-bryn": {
+      "passage": "Bryn bolts through the gallery arch. His boots slap wet stone past the armory doors and into the service halls where you lose sight at a junction, but footprints in coal dust still mark his path forward. One trail runs down toward the storeroom. A second climbs a narrow stair toward the upper chambers.",
+      "choices": [
+        {
+          "label": "follow the lower trail",
+          "nextNode": "storeroom",
+          "hint": "The dust thickens as the corridor dips toward the back cellars."
+        },
+        {
+          "label": "climb the upper stair",
+          "nextNode": "attic-meeting",
+          "hint": "Worn steps creak under your weight; voices murmur somewhere above."
+        }
+      ]
+    },
+    "coal-bin": {
+      "passage": "A fine black powder clings to the bottom of your coal crib. Something is wrong. It smells of brine and something chemical, the kind of smell that does not belong in a coal bin. The judges will not check the coals themselves - they will only taste the blade. A ledger on the post lists every sack delivered tonight, signed by the fuelmaster.",
+      "choices": [
+        {
+          "label": "taste the powder",
+          "nextNode": "cinder-ending",
+          "hint": "A grain on the tongue numbs the teeth and sours the throat instantly."
+        },
+        {
+          "label": "sample for the mage",
+          "nextNode": "gallery-run",
+          "hint": "Master Ellin will know the salt by smell if anyone will."
+        }
+      ]
+    },
+    "gallery-run": {
+      "passage": "The gallery runs above the main forge. Bolted-up weapons gleam as you pass, each tagged with its smith's mark, and Master Ellin's loft sits at the far end with its door propped wide in silent invitation. Halfway there, a floorboard gives. You freeze. Below, Bryn glances up at the ceiling.",
+      "choices": [
+        {
+          "label": "freeze on the board",
+          "nextNode": "mage-loft",
+          "hint": "You hold your breath and hope the ceiling dust does not fall."
+        },
+        {
+          "label": "push through to the loft",
+          "nextNode": "mage-loft",
+          "hint": "Better speed than stealth now; he already knows someone walks above."
+        }
+      ]
+    },
+    "mage-loft": {
+      "passage": "Master Ellin's loft smells of parchment, and half-formed runes crawl across the slate tiles at her feet like impatient insects. She does not look up from her scales, but her hand reaches out the moment you enter. She rolls the black grit between finger and thumb and goes very still. 'Ash-salt. From the pale mines. Someone has broken into the royal storeroom tonight.'",
+      "choices": [
+        {
+          "label": "head to the storeroom",
+          "nextNode": "storeroom",
+          "hint": "Her warning charm hums faintly against your wrist as you descend."
+        },
+        {
+          "label": "warn Master Halric",
+          "nextNode": "hall-judge",
+          "hint": "The senior smith should hear this before another coal is struck."
+        }
+      ]
+    },
+    "storeroom": {
+      "passage": "Sacks of charcoal rise to the ceiling in the royal storeroom. One corner has been torn open, the black grit spilling across the floor like sand at a tide line. A figure crouches behind the third row, masked and still. They have not seen you yet. A back door hangs slightly ajar, letting in night air.",
+      "choices": [
+        {
+          "label": "seize the thief",
+          "nextNode": "confession",
+          "hint": "You draw breath, coil your weight, and move in one long stride."
+        },
+        {
+          "label": "shadow them through the door",
+          "nextNode": "attic-meeting",
+          "hint": "Better to learn who sent them than silence the runner."
+        }
+      ]
+    },
+    "confession": {
+      "passage": "The masked figure buckles under your tackle. The scarf rips free and you know the face - a stablehand from the east wing. He shakes. 'I only carried sacks, the coin came wrapped in silver paper with a name, and if you let me walk free that name is yours and I swear it on my mother's grave.'",
+      "choices": [
+        {
+          "label": "bind him and shout",
+          "nextNode": "hall-judge",
+          "hint": "Rope bites his wrists before the guards' whistles answer your call."
+        },
+        {
+          "label": "trade for the name",
+          "nextNode": "throne-corridor",
+          "hint": "His whisper lands in your ear and the name is familiar."
+        }
+      ]
+    },
+    "attic-meeting": {
+      "passage": "The upper stair ends at a slat of warm light under a closed door. You hold still. Voices murmur - two men, one drawling and easy. Through a knot in the plank, you glimpse a figure in green velvet sealing a letter with wax, and the crest on the ring is the east wing steward's. He hands the scroll to a waiting rider.",
+      "choices": [
+        {
+          "label": "burst through the door",
+          "nextNode": "brawl-ending",
+          "hint": "Your shoulder hits the plank before you have thought through what follows."
+        },
+        {
+          "label": "steal the letter",
+          "nextNode": "throne-corridor",
+          "hint": "The rider will pass within reach of your hand in a moment."
+        }
+      ]
+    },
+    "forge-yard": {
+      "passage": "The forge yard stretches between you and the fuelmaster's hut. Cold bites. Frost crunches under your boots and the anvils in the main hall ring faintly behind. Two paths cross the open ground - a shortcut past the kennels where the hounds sleep loose, and a wider route along the armory wall where the torch-sconces still burn.",
+      "choices": [
+        {
+          "label": "creep past the kennels",
+          "nextNode": "fuelmaster-hut",
+          "hint": "One growl and the whole yard wakes; you step like a cat."
+        },
+        {
+          "label": "skirt the armory wall",
+          "nextNode": "fuelmaster-hut",
+          "hint": "Each torch throws your outline long against the weathered wood."
+        }
+      ]
+    },
+    "fuelmaster-hut": {
+      "passage": "A single lantern fills the fuelmaster's hut. No one answers. Old Gwyn lies half off his stool, blood matted at his scalp and breath coming thin. A ledger is open on the table, its last page ripped clean away. A strongbox has been pried, though only a single item inside looks disturbed - a letter sealed in blue wax, half drawn.",
+      "choices": [
+        {
+          "label": "tend his wound",
+          "nextNode": "fuelmaster-tale",
+          "hint": "Pressing cloth to the gash wakes him with a ragged gasp."
+        },
+        {
+          "label": "ransack the hut",
+          "nextNode": "silver-letter",
+          "hint": "The letter peeks from the strongbox like bait in a trap."
+        }
+      ]
+    },
+    "fuelmaster-tale": {
+      "passage": "Gwyn coughs and clutches your sleeve. 'Steward Ravell,' he rasps. 'Told me to swap the sack... gave me silver with his own ring mark. I refused, and... and...' His eyes drift. You press the cloth tighter. His hut holds more than he has told: the open strongbox still waits, and so do the judges across the yard.",
+      "choices": [
+        {
+          "label": "carry him to the judges",
+          "nextNode": "hall-judge",
+          "hint": "His weight is light but each step jars his ragged breathing."
+        },
+        {
+          "label": "search the strongbox",
+          "nextNode": "silver-letter",
+          "hint": "Its metal bites your fingers as you pry the hinge wider."
+        }
+      ]
+    },
+    "silver-letter": {
+      "passage": "The letter is already half drafted. Steward Ravell's crest stamps the wax. The lines inside promise payment once the royal blade fails its test and the crown's chosen smith is disgraced. A second page names the rider who will carry the news south before dawn. The king hunts at the north keep. The hall of judgment is closer.",
+      "choices": [
+        {
+          "label": "ride for the north keep",
+          "nextNode": "throne-corridor",
+          "hint": "A fast horse waits in the fuelyard with no saddle but straps."
+        },
+        {
+          "label": "hand it to the judges",
+          "nextNode": "hall-judge",
+          "hint": "The smell of hot steel grows stronger as you near the forge hall."
+        }
+      ]
+    },
+    "throne-corridor": {
+      "passage": "Torchlight marks the corridor that runs from the east wing to the king's hunting gate. Two sleepy guards lean on their halberds at the arch. Beyond them, a groom waits with a fresh horse and a folded cloak. You do not slow. The steward's name still burns in your head, and the sealed scroll in your belt grows warm against your ribs.",
+      "choices": [
+        {
+          "label": "bluff past the guards",
+          "nextNode": "king-ending",
+          "hint": "A smith's apron looks nothing like a messenger's tabard, but worth a try."
+        },
+        {
+          "label": "slip through the postern",
+          "nextNode": "king-ending",
+          "hint": "The groom's lantern is turned the wrong way; good fortune for once."
+        }
+      ]
+    },
+    "hall-judge": {
+      "passage": "The hall of judgment burns under a hundred lamps, and Master Halric stands at the center with arms folded, while the king's three marshals watch from the bench. No one moves. Your brothers in the apprenticeship wait along the walls with their finished blades laid bare. The hammer and the last billet rest on your anvil. The time for speech is now, or never.",
+      "choices": [
+        {
+          "label": "present the evidence",
+          "nextNode": "truth-ending",
+          "hint": "Every eye in the hall turns as you raise your voice."
+        },
+        {
+          "label": "strike the blade alone",
+          "nextNode": "masterpiece-ending",
+          "hint": "The billet sings under your hammer as if it always knew."
+        }
+      ]
+    },
+    "poisoned-ending": {
+      "passage": "The ale is warm and sharp and wrong. It burns. Heat crawls down your throat, your fingers go loose on the mug, and Bryn watches with steady patient eyes as your knees fold to the flagstones. The last thing you see is his hand reaching for your hammer. The final strike belongs to another smith. The king will never know your name.",
+      "choices": [],
+      "ending": {
+        "title": "The Trusting Tongue",
+        "flavor": "Some drinks are poured for a reason.",
+        "action": "drain the offered mug"
+      }
+    },
+    "cinder-ending": {
+      "passage": "The grain on your tongue numbs fast. Your mouth goes wooden, then your jaw, then your throat. Bryn finds you before the judges do and sends for the surgeon, weeping loudly for the crowd, every tear a perfect lie to carry him to the anvil. He will forge the king's blade in the morning. You will not be there.",
+      "choices": [],
+      "ending": {
+        "title": "A Grain of Ash",
+        "flavor": "Some answers do not keep on the tongue.",
+        "action": "lick your thumb clean"
+      }
+    },
+    "brawl-ending": {
+      "passage": "The door splinters. The steward whirls, the rider dives, and your accusation crashes out in the wrong shape. Guards pour in from the outer corridor. By the time Master Halric arrives, the letter is gone, the rider vanished, and you are the only one bloodied and shouting. They drag you out before the last strike. The blade is forged without you.",
+      "choices": [],
+      "ending": {
+        "title": "Too Loud, Too Soon",
+        "flavor": "A good case falls apart against the wrong door.",
+        "action": "throw your shoulder through"
+      }
+    },
+    "truth-ending": {
+      "passage": "Your voice carries. The stablehand's confession, the ash-salt, Gwyn's wound - you lay each fact before the marshals like billets on the forge. Steward Ravell is taken from his chambers before his horse can leave the gate. The judges return your hammer with their own hands. You strike the king's blade as dawn breaks. The hall breathes again.",
+      "choices": [],
+      "ending": {
+        "title": "A Clean Strike",
+        "flavor": "The truth rings like a true-tempered blade.",
+        "action": "raise your hammer high"
+      }
+    },
+    "masterpiece-ending": {
+      "passage": "You say nothing. The billet heats, folds, sings under each blow. No one in the hall has heard a sound like it, and the judges lean forward despite themselves. The blade you draw from the quench is the finest steel in the kingdom. But the name 'Ravell' is never spoken in the hall, and no one ever learns who paid silver to buy your ruin.",
+      "choices": [],
+      "ending": {
+        "title": "The Silent Masterpiece",
+        "flavor": "The steel remembers what the hall never will.",
+        "action": "fold the glowing billet"
+      }
+    },
+    "king-ending": {
+      "passage": "You reach the hunting keep as dawn stains the hills gold. The king hears you out in his hunting cloak, stamps the letter with a grim nod, and rides back at your side. Dawn breaks. Steward Ravell is arrested before the marshals have finished taking their seats. The king hands you the hammer himself, and the final strike is yours to ring.",
+      "choices": [],
+      "ending": {
+        "title": "The King's Own Hammer",
+        "flavor": "Justice arrives on horseback, just in time for the strike.",
+        "action": "ride into the dawn"
+      }
+    }
+  }
+}

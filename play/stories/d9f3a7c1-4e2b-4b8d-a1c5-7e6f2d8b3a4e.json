@@ -1,0 +1,330 @@
+{
+  "id": "d9f3a7c1-4e2b-4b8d-a1c5-7e6f2d8b3a4e",
+  "title": "Iron Door Below",
+  "description": "An ancient dwarven mine has been sealed for centuries. The merchant guild offers a fortune to whoever maps its depths, but the door was sealed for a reason.",
+  "author": "AI",
+  "tags": [
+    "exploration",
+    "negotiation"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-14",
+  "dayOfYear": "04-14",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "You stand before an iron door set into the mountainside, green with age and carved with dwarven runes no living scholar can read. The merchant guild's map marks three entries to the mines below. This rusted main door, an air shaft on the cliff face above, and a drain tunnel to the east.",
+      "choices": [
+        {
+          "label": "force open the door",
+          "nextNode": "grand-hall",
+          "hint": "The hinges groan as you put your shoulder against cold iron."
+        },
+        {
+          "label": "climb to the shaft",
+          "nextNode": "shaft-descent",
+          "hint": "The cliff face is rough enough to grip if you are careful."
+        },
+        {
+          "label": "search for the drain",
+          "nextNode": "culvert-entry",
+          "hint": "Dead brush and loose stone hide the eastern slope from view."
+        }
+      ]
+    },
+    "grand-hall": {
+      "passage": "The door groans open and stale air rushes past you. Beyond lies a vast hall carved from living rock. Dwarven pillars rise into darkness above and the floor is thick with centuries of dust. To the left a gallery has partially collapsed. Ahead, water glimmers at the mouth of a low tunnel.",
+      "choices": [
+        {
+          "label": "explore the gallery",
+          "nextNode": "collapsed-gallery",
+          "hint": "Broken stone shifts under your boots as you step through the rubble."
+        },
+        {
+          "label": "wade into the tunnel",
+          "nextNode": "flooded-tunnel",
+          "hint": "The water is cold and dark and smells of deep places."
+        }
+      ]
+    },
+    "shaft-descent": {
+      "passage": "You scale the cliff and squeeze into the narrow shaft. Rusted iron rungs descend into blackness. Your torch catches veins of quartz in the stone. The climb is long and your arms burn. At the bottom the shaft opens where pale mushrooms crowd the floor. A side passage shows forge marks on its walls.",
+      "choices": [
+        {
+          "label": "enter the cavern",
+          "nextNode": "mushroom-grotto",
+          "hint": "The pale glow of the mushrooms pulses like slow breathing."
+        },
+        {
+          "label": "follow the forge passage",
+          "nextNode": "forge-room",
+          "hint": "The hammer marks on the walls grow deeper as you go."
+        }
+      ]
+    },
+    "culvert-entry": {
+      "passage": "You find the drain tunnel behind a wall of dead thorns. The iron grate has rusted through and breaks apart in your hands. The tunnel beyond is low and wet. You crawl through ankle-deep water that smells of stone and age. After fifty yards it opens into a wider passage. One branch glows faintly green.",
+      "choices": [
+        {
+          "label": "crawl through the tunnel",
+          "nextNode": "flooded-tunnel",
+          "hint": "The water rises as the tunnel slopes downward into the dark."
+        },
+        {
+          "label": "follow the green glow",
+          "nextNode": "mushroom-grotto",
+          "hint": "The light ahead is soft and steady, not like fire at all."
+        }
+      ]
+    },
+    "collapsed-gallery": {
+      "passage": "The gallery is half-buried under fallen stone. Broken carvings of dwarven kings stare from the rubble with cracked faces. You pick your way over the debris. At the far end a cleared doorway leads deeper. Through the dust you hear a faint sound like bellows breathing below. A side crack glows with pale mushroom light.",
+      "choices": [
+        {
+          "label": "continue to the forge",
+          "nextNode": "forge-room",
+          "hint": "The sound of bellows grows louder with every step you take."
+        },
+        {
+          "label": "squeeze toward the glow",
+          "nextNode": "mushroom-grotto",
+          "hint": "The crack is narrow but the pale light beyond looks warm."
+        }
+      ]
+    },
+    "forge-room": {
+      "passage": "The forge room is vast. A cold anvil stands at its center beneath a chimney shaft that fades into darkness. Tools hang on racks along the walls, untouched for ages. The metal is still bright, kept clean by the dry air. Two exits lead out. One descends steeply. The other is sealed by a heavy vault door.",
+      "choices": [
+        {
+          "label": "examine the vault door",
+          "nextNode": "old-vault",
+          "hint": "The steel surface is cool and unmarked by rust or scratch."
+        },
+        {
+          "label": "descend the passage",
+          "nextNode": "deep-stair",
+          "hint": "Warm air rises from below carrying the faint smell of sulfur."
+        }
+      ]
+    },
+    "flooded-tunnel": {
+      "passage": "The tunnel slopes down into dark water that rises to your waist. Your torch hisses and sputters as you wade forward. Something pale shifts beneath the surface but does not rise. The tunnel branches ahead. One passage glows faintly blue. The other carries the sound of high chattering voices echoing off wet stone.",
+      "choices": [
+        {
+          "label": "follow the blue glow",
+          "nextNode": "crystal-cavern",
+          "hint": "The light pulses slowly, like something alive deep in the stone."
+        },
+        {
+          "label": "head toward the voices",
+          "nextNode": "goblin-warren",
+          "hint": "The chattering stops for a moment, then starts again louder."
+        }
+      ]
+    },
+    "mushroom-grotto": {
+      "passage": "The cavern is alive with soft light. Giant mushrooms rise like pale trees, their caps glowing blue and green. The air is warm and damp and smells of rich earth. Small clawed footprints mark the soft ground, leading deeper into the mushroom forest. A wider tunnel exits to the north where crystal light flickers.",
+      "choices": [
+        {
+          "label": "follow the footprints",
+          "nextNode": "goblin-warren",
+          "hint": "The prints are fresh and pressed deep into the soft earth."
+        },
+        {
+          "label": "investigate the crystal light",
+          "nextNode": "crystal-cavern",
+          "hint": "The flickering has a rhythm to it, steady and almost alive."
+        }
+      ]
+    },
+    "goblin-warren": {
+      "passage": "The footprints lead to a warren of small chambers lit by tallow candles. A dozen goblins watch you from behind overturned mine carts. Their leader steps forward, a scarred elder wearing a necklace of copper coins. She holds up one clawed hand, palm out. She wants to talk, not fight.",
+      "choices": [
+        {
+          "label": "offer to trade",
+          "nextNode": "goblin-trade",
+          "hint": "The elder's eyes move to the steel blade at your belt."
+        },
+        {
+          "label": "draw your sword",
+          "nextNode": "goblin-death",
+          "hint": "Your grip tightens on the hilt before you think it through."
+        }
+      ]
+    },
+    "goblin-trade": {
+      "passage": "The elder goblin speaks halting Common. She offers a guide through the deep tunnels in exchange for your steel knife. A fair trade down here, she says, where metal means life. You hand over the blade and a young goblin with bright eyes steps forward. She points down a steep stair and toward a glowing side cave.",
+      "choices": [
+        {
+          "label": "follow the goblin downstairs",
+          "nextNode": "deep-stair",
+          "hint": "The young goblin moves fast and sure through the dark tunnels."
+        },
+        {
+          "label": "explore the glowing cave",
+          "nextNode": "crystal-cavern",
+          "hint": "The glow from the side cave is steady and faintly blue."
+        }
+      ]
+    },
+    "goblin-death": {
+      "passage": "You draw your sword and the goblins scatter like roaches into the dark. But the elder does not move. She whistles once, sharp and high. The ceiling erupts with goblins dropping from hidden shafts above. They swarm in with picks and rusted blades. In the dark, outnumbered thirty to one, you do not last long.",
+      "choices": [],
+      "ending": {
+        "title": "Buried in the Warren",
+        "flavor": "The goblins offered peace and you chose steel. The mountain remembers.",
+        "action": "raise your blade"
+      }
+    },
+    "old-vault": {
+      "passage": "The vault door is dwarven steel, untouched by rust or age. A mechanical lock sits at its center, rings within rings of engraved symbols that click when you touch them. Your guild map notes this as Forgemaster Durin's personal vault. Whatever he sealed inside was valuable enough to lock away from his own kin.",
+      "choices": [
+        {
+          "label": "study the lock",
+          "nextNode": "vault-puzzle",
+          "hint": "The rings turn with a smooth click that echoes in the quiet."
+        },
+        {
+          "label": "leave and descend deeper",
+          "nextNode": "deep-stair",
+          "hint": "The steep passage breathes warm air that smells of deep stone."
+        }
+      ]
+    },
+    "vault-puzzle": {
+      "passage": "You study the lock. The outer ring shows phases of the moon. The inner ring shows dwarven numbers. A poem is etched below in old script you can barely read. Something about the moon's count when the mountain was young. You turn the rings with steady hands. The last tumbler clicks and the door swings inward.",
+      "choices": [
+        {
+          "label": "step inside the vault",
+          "nextNode": "vault-ending",
+          "hint": "A breath of stale air escapes from the gap as the door opens."
+        },
+        {
+          "label": "back away from the door",
+          "nextNode": "deep-stair",
+          "hint": "Something about the stillness beyond the door unsettles you."
+        }
+      ]
+    },
+    "vault-ending": {
+      "passage": "The vault holds a single object on a stone pedestal. A crown of mithril and sapphire, light as a feather and cool to the touch. Forgemaster Durin's masterwork, lost for five hundred years. The merchant guild will pay handsomely but you suspect the real treasure is the craft itself, perfect and enduring beyond all memory.",
+      "choices": [],
+      "ending": {
+        "title": "The Forgemaster's Crown",
+        "flavor": "Some doors are worth the patience to open.",
+        "action": "lift the crown"
+      }
+    },
+    "crystal-cavern": {
+      "passage": "The blue glow comes from crystals growing in clusters along the walls and ceiling. They pulse with a slow rhythm like a heartbeat in sleep. At the center a tall crystal stands in a pool of clear water. A silver coin glints in your pouch. The crystal hums when you step close.",
+      "choices": [
+        {
+          "label": "take the crystal",
+          "nextNode": "crystal-curse",
+          "hint": "The hum grows louder as your hands close around the cool stone."
+        },
+        {
+          "label": "leave a silver offering",
+          "nextNode": "leave-offering",
+          "hint": "The coin is warm in your palm as you kneel by the pool."
+        }
+      ]
+    },
+    "crystal-curse": {
+      "passage": "You wrap your hands around the crystal and pull. It comes free with a sound like cracking ice. The hum becomes a shriek. The walls shake and the crystals go dark one by one. Something ancient stirs far below. By the time you reach the surface your hands have turned to cold gray stone.",
+      "choices": [],
+      "ending": {
+        "title": "Heart of Stone",
+        "flavor": "The mountain does not give its heart to thieves.",
+        "action": "pull the crystal free"
+      }
+    },
+    "leave-offering": {
+      "passage": "You set a silver coin at the base of the crystal. The humming changes pitch and the pool glows warm gold. When it fades you feel lighter on your feet. The crystal has accepted your gift. A passage stands open in the far wall, leading down. The way back to the grotto is still clear.",
+      "choices": [
+        {
+          "label": "take the hidden passage",
+          "nextNode": "deep-stair",
+          "hint": "The passage beyond the wall is smooth and warm to the touch."
+        },
+        {
+          "label": "return to the grotto",
+          "nextNode": "mushroom-grotto",
+          "hint": "The soft glow of the mushrooms is still visible behind you."
+        }
+      ]
+    },
+    "deep-stair": {
+      "passage": "A staircase spirals down through raw stone. The air grows warmer with each turn and carries the smell of sulfur. Scorch marks blacken the walls where something hot has passed. You emerge into a wide corridor. The stone here has been melted and shaped by terrible heat. A crack of pale daylight shows behind you.",
+      "choices": [
+        {
+          "label": "press onward",
+          "nextNode": "dark-corridor",
+          "hint": "The heat grows with every step and your torch barely helps."
+        },
+        {
+          "label": "climb toward the daylight",
+          "nextNode": "surface-exit",
+          "hint": "The pale crack behind you promises sky and fresh mountain air."
+        }
+      ]
+    },
+    "dark-corridor": {
+      "passage": "The corridor stretches ahead into deep shadow. Your torch gutters in a warm draft rising from below. The walls bear claw marks, each gouge as wide as your open hand. At a junction the passage splits. One way slopes further down toward a distant orange glow. The other leads toward a crack of pale daylight.",
+      "choices": [
+        {
+          "label": "approach the orange glow",
+          "nextNode": "dragon-threshold",
+          "hint": "The air shimmers with heat and you smell smoke ahead."
+        },
+        {
+          "label": "climb toward daylight",
+          "nextNode": "surface-exit",
+          "hint": "The breeze from the crack carries the scent of wildflowers."
+        }
+      ]
+    },
+    "dragon-threshold": {
+      "passage": "The glow is firelight. You step into a cavern so vast your torch cannot find the ceiling. Gold coins carpet the floor like autumn leaves. At the center, curled around a stone pillar, a dragon sleeps. One amber eye opens and fixes on you. It speaks in a voice like grinding rock. Why are you here.",
+      "choices": [
+        {
+          "label": "speak to the dragon",
+          "nextNode": "parley-dragon",
+          "hint": "You steady your voice and choose your first words with care."
+        },
+        {
+          "label": "grab from the hoard",
+          "nextNode": "sneak-hoard",
+          "hint": "A jeweled goblet gleams just a step away from your boot."
+        }
+      ]
+    },
+    "parley-dragon": {
+      "passage": "You bow low and speak honestly. You are a mapmaker, not a thief. The dragon regards you for a long moment. Sit, it says. Tell me of the world above. You talk through the night of kingdoms and seasons. At dawn it drops a coin into your palm worth more than the guild's bounty.",
+      "choices": [],
+      "ending": {
+        "title": "The Dragon's Bargain",
+        "flavor": "The richest trade is always words for gold.",
+        "action": "sit and speak true"
+      }
+    },
+    "sneak-hoard": {
+      "passage": "You lunge for a jeweled goblet near your feet. A claw the size of a greatsword pins you to the ground before you can stand. The dragon does not open its other eye. I was not sleeping, it says. The fire comes without warning. The hoard settles back into silence as though you were never there.",
+      "choices": [],
+      "ending": {
+        "title": "The Hoard's Price",
+        "flavor": "Greed burns brightest in the dark.",
+        "action": "reach for the gold"
+      }
+    },
+    "surface-exit": {
+      "passage": "The crack widens into a natural chimney that climbs toward daylight. You wedge yourself between the walls and haul upward, boots scraping stone. After a long climb you pull yourself out onto a mountainside covered in wildflowers. The mine is far below. Your guild map is marked with every turn and chamber. That will have to be enough.",
+      "choices": [],
+      "ending": {
+        "title": "The Mapmaker's Return",
+        "flavor": "Not every fortune glitters, but every step you mapped was worth taking.",
+        "action": "climb into the light"
+      }
+    }
+  }
+}

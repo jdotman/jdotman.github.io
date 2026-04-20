@@ -1,0 +1,201 @@
+{
+  "id": "b5e2a7f4-1c9d-4b8e-a3f6-8d2e5c1b4a9f",
+  "title": "Beneath Bloodstone",
+  "description": "A cell beneath a dark temple. The chanting above grows louder and midnight is close. You have one chance to escape before the ritual begins.",
+  "author": "AI",
+  "tags": ["eerie", "escape"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-12",
+  "dayOfYear": "04-12",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "You wake on cold stone, wrists raw from rope. The cell reeks of old blood and damp earth. Through rusted bars, a narrow corridor stretches into darkness. Somewhere above, a slow rhythmic chanting pulses and builds. You do not know how long you have been here. The midnight hour cannot be far off.",
+      "choices": [
+        { "label": "search the cell floor", "nextNode": "search-cell", "hint": "Your fingers drag across the rough stone, looking for anything useful." },
+        { "label": "listen to the chanting", "nextNode": "hear-chant", "hint": "The rhythm is steady, almost like a heartbeat growing louder." },
+        { "label": "test the bars", "nextNode": "test-bars", "hint": "Rust flakes off beneath your grip as you pull." }
+      ]
+    },
+    "search-cell": {
+      "passage": "The floor is cold and uneven. Scratched into the mortar in one corner are dozens of names - every prisoner who passed through this cell. Beneath the lowest name, a loose stone wobbles. You pry it free and find a short iron spike, left by someone who never got the chance to use it.",
+      "choices": [
+        { "label": "pick the lock", "nextNode": "cell-unlocked", "hint": "The spike fits into the keyhole with a faint scrape of metal." },
+        { "label": "listen at the bars", "nextNode": "hear-chant", "hint": "You press your ear to the cold iron and hold your breath." }
+      ]
+    },
+    "hear-chant": {
+      "passage": "You press your ear to the bars. The chanting is in an old tongue - slow and deliberate, building toward something you do not want to witness. Then, closer than expected, a hoarse whisper drifts from the cell to your left. A woman's voice, careful and low. She has been here much longer than you.",
+      "choices": [
+        { "label": "whisper back", "nextNode": "selene-whispers", "hint": "You keep your voice low, matching her careful tone." },
+        { "label": "press against the bars", "nextNode": "test-bars", "hint": "The iron is cold and rough. One bar feels looser than the rest." }
+      ]
+    },
+    "test-bars": {
+      "passage": "You brace your back against the stone wall and pull. The second bar from the left grinds in its socket - rust has eaten through its base. You strain until your arms burn. Then something pops. The bar tears free. You hold a length of iron and a gap wide enough to slide through sideways.",
+      "choices": [
+        { "label": "squeeze through the gap", "nextNode": "corridor", "hint": "The edges of the opening scrape against your ribs as you push through." },
+        { "label": "pause and listen first", "nextNode": "hear-chant", "hint": "You hold still and let the sounds of the temple wash over you." }
+      ]
+    },
+    "cell-unlocked": {
+      "passage": "The spike finds the mechanism inside the lock. The tumblers are simple iron - whoever built this place did not expect prisoners to pick locks. After a tense minute of probing, something gives with a quiet click. The door swings inward. You step into the narrow corridor, spike still in your hand.",
+      "choices": [
+        { "label": "go toward the chanting", "nextNode": "corridor", "hint": "The sound pulls you forward like a current in dark water." },
+        { "label": "search for other prisoners", "nextNode": "selene-whispers", "hint": "A faint voice reaches you from somewhere down the row of cells." }
+      ]
+    },
+    "selene-whispers": {
+      "passage": "Her name is Selene. She has mapped the temple by sound over three days here. Below the main hall lies a crypt. Behind the farthest coffin, she says, a tunnel leads to the forest. The priests use it to bring bodies in unseen. Past the cells, a corridor leads there too.",
+      "choices": [
+        { "label": "follow her to the crypt", "nextNode": "crypt", "hint": "Selene moves quietly, her bare feet silent on the cold stone." },
+        { "label": "take the corridor instead", "nextNode": "corridor", "hint": "You leave Selene behind and step into the dark passage alone." }
+      ]
+    },
+    "corridor": {
+      "passage": "The corridor is narrow and black as pitch. Damp stone walls press close on either side. The chanting above has grown more urgent. Ahead, torchlight bleeds under a doorway to what looks like a guard post. Another passage heads east toward a larger hall. A stairway descends south toward a crypt.",
+      "choices": [
+        { "label": "check the guard post", "nextNode": "guard-post", "hint": "Torchlight flickers beneath the door. You hear no movement inside." },
+        { "label": "head east to the hall", "nextNode": "antechamber", "hint": "The passage widens as you move toward the sound of chanting." },
+        { "label": "descend to the crypt", "nextNode": "crypt", "hint": "The stairway is steep and the air grows colder with each step." }
+      ]
+    },
+    "guard-post": {
+      "passage": "This was once a guard post. Hooks line the walls - most empty, their weapons long taken or rusted to nothing. One hook still holds a short sword, pitted with rust but solid in the grip. A map pinned to the wall shows the temple layout. A passage leads south to the crypt.",
+      "choices": [
+        { "label": "go south to the crypt", "nextNode": "crypt", "hint": "The passage slopes downward and the air turns cold and still." },
+        { "label": "continue east to the hall", "nextNode": "antechamber", "hint": "You take the sword and move toward the sound of chanting." }
+      ]
+    },
+    "crypt": {
+      "passage": "Large stone coffins line the walls, sealed with iron clasps. No names, no markings - these were not people who died with dignity. The air is cold and perfectly still. Against the far wall, one coffin has been pushed slightly aside over the years, revealing a dark gap in the stone behind it.",
+      "choices": [
+        { "label": "squeeze through the gap", "nextNode": "dark-passage", "hint": "Cold air flows from the opening, carrying a faint smell of earth." },
+        { "label": "hide inside a coffin", "nextNode": "coffin-risk", "hint": "The nearest lid is heavy but slides aside with effort." },
+        { "label": "retreat to the hall", "nextNode": "antechamber", "hint": "You back away from the coffins and return the way you came." }
+      ]
+    },
+    "antechamber": {
+      "passage": "This is a preparation room. Hooks line the walls where robes hang in long rotting strips. A tall stand in the corner holds a book, its pages marked with diagrams. The chanting beyond the eastern door has risen to a rhythmic fever. Two doors lead further into the temple - north and east.",
+      "choices": [
+        { "label": "go north to the library", "nextNode": "library", "hint": "The northern door is ajar and the smell of old paper drifts through." },
+        { "label": "push open the east door", "nextNode": "altar-hall", "hint": "The chanting grows louder as your hand touches the iron handle." }
+      ]
+    },
+    "dark-passage": {
+      "passage": "The gap opens into a rough earth tunnel. The walls are damp and roots brush your face as you move forward. Cold air presses in from ahead, carrying the faint smell of pine. The tunnel slopes upward. Behind you, voices echo in the crypt - someone has noticed the moved coffin.",
+      "choices": [
+        { "label": "run toward the cold air", "nextNode": "tunnel-climb", "hint": "Your boots slip on the wet earth as you scramble forward." },
+        { "label": "turn back to the crypt", "nextNode": "crypt", "hint": "The voices behind you are getting closer. You hesitate." }
+      ]
+    },
+    "coffin-risk": {
+      "passage": "You heave a coffin lid aside and climb in, pulling it back above you. The darkness is absolute. You lie flat, arms at your sides, barely breathing. Footsteps enter the crypt. Torchlight bleeds through the seam above your face. A voice announces your cell is empty. The footsteps slow. Then they stop.",
+      "choices": [
+        { "label": "slip out and run", "nextNode": "dark-passage", "hint": "You wait for the footsteps to fade, then push the lid aside." },
+        { "label": "wait longer", "nextNode": "priestess-confronts", "hint": "Your heart pounds in the silence. The torchlight does not move." }
+      ]
+    },
+    "library": {
+      "passage": "Bookcases rise to the ceiling, packed with scrolls and leather-bound tomes. A long table in the centre holds handwritten notes - ritual diagrams, star charts, lists of names written in a trembling hand. Your own name is near the top of the most recent page. Beyond the shelves, a door leads to a workshop.",
+      "choices": [
+        { "label": "go to the workshop", "nextNode": "workshop", "hint": "A sharp chemical smell drifts through the gap beneath the door." },
+        { "label": "head east to the hall", "nextNode": "altar-hall", "hint": "The chanting echoes through the walls, pulling you toward it." }
+      ]
+    },
+    "altar-hall": {
+      "passage": "The main chamber is vast and silent except for the chanting. Black marble pillars line the walls. At the far end, a dark red altar rises on a raised stone platform, stained almost black. Robed figures stand in a ring with their backs to you. They have not yet seen you enter.",
+      "choices": [
+        { "label": "move toward the altar", "nextNode": "altar-dais", "hint": "You keep to the shadows between the pillars as you creep forward." },
+        { "label": "slip behind a pillar", "nextNode": "phylactery-room", "hint": "A narrow gap behind the far pillar leads to another chamber." }
+      ]
+    },
+    "altar-dais": {
+      "passage": "You edge forward, keeping to the shadows of the pillars. The doorway behind you feels far away now. The chanting reaches a fever pitch. The nearest figure turns - and the others follow. Their eyes are pale and unseeing. From behind, hands seize your arms. You have walked into the centre of the ring.",
+      "choices": [
+        { "label": "dive back through the doorway", "nextNode": "corridor", "hint": "You wrench free and throw yourself toward the flickering torchlight." },
+        { "label": "stand and fight", "nextNode": "sacrifice", "hint": "Their grip tightens. The circle closes around you." }
+      ]
+    },
+    "workshop": {
+      "passage": "Two long workbenches run the length of the room, covered in glass vessels, coiled tubing, and powders of many colours. Shelves line the walls - dried herbs, sealed jars, bundled roots. A draft slips through a crack in the far wall. Nearby, a crystal ball on a black iron stand pulses with dim cold light.",
+      "choices": [
+        { "label": "shatter the crystal", "nextNode": "crystal-shattered", "hint": "The cold light flickers as your hand draws near the glass." },
+        { "label": "check the cracked wall", "nextNode": "phylactery-room", "hint": "Cold air pushes through the crack. Something lies beyond." }
+      ]
+    },
+    "phylactery-room": {
+      "passage": "You pass through a low door into a chamber filled with grey mist. The mist has no source and does not move. In the centre, a dark glass vessel floats at eye level, turning slowly. Something is inside it - not a flame but a presence. It pulses when you draw near, and you feel cold.",
+      "choices": [
+        { "label": "reach toward the vessel", "nextNode": "lich-consumed", "hint": "The mist parts around your arm as you extend your hand." },
+        { "label": "smash the vessel", "nextNode": "crystal-shattered", "hint": "Whatever is inside needs to be destroyed. You clench your fist." }
+      ]
+    },
+    "tunnel-climb": {
+      "passage": "The tunnel narrows as it rises. You dig your fingers into the earth and pull yourself forward. The smell of pine grows stronger. Roots give way to stones, and the stones grow lighter in colour. Then cold night air pours over your face. A ring of pale sky appears just ahead, just within reach.",
+      "choices": [
+        { "label": "push toward the sky", "nextNode": "forest-edge", "hint": "Fresh air fills your lungs for the first time in days." },
+        { "label": "wait and listen", "nextNode": "dark-passage", "hint": "You hold still. Distant voices echo from the tunnel below." }
+      ]
+    },
+    "forest-edge": {
+      "passage": "You drag yourself out of the tunnel at the base of a huge dead tree with black bark. The dark forest stretches in all directions, branches tangled overhead. Behind you, the fortress looms against the sky. Then a sound - footsteps crunching through dead leaves, moving toward the tree. A familiar voice calls out softly.",
+      "choices": [
+        { "label": "run into the forest", "nextNode": "forest-escape", "hint": "Branches snap against your arms as you plunge into the dark." },
+        { "label": "call back to the voice", "nextNode": "selene-together", "hint": "The voice is quiet but steady. You recognize it at once." }
+      ]
+    },
+    "priestess-confronts": {
+      "passage": "The coffin lid is wrenched away. A tall woman in black robes looks down at you, her face perfectly calm. Her eyes are pale as a winter sky. You are not surprised, she says. None of them ever are. She holds no weapon. She does not need one. Guards fill the doorway behind her.",
+      "choices": [
+        { "label": "dive past her", "nextNode": "dark-passage", "hint": "You roll sideways out of the coffin and scramble for the gap." },
+        { "label": "attempt to fight", "nextNode": "sacrifice", "hint": "Her pale eyes follow you as you rise to your feet." }
+      ]
+    },
+    "forest-escape": {
+      "passage": "You run. The forest closes around you - dark and cold and full of sounds you cannot name. Branches claw at your face and roots catch your feet. But behind you, no pursuit comes. By dawn, you find a road. By midday, a village. You do not look back. You do not speak of the temple for a very long time.",
+      "choices": [],
+      "ending": {
+        "title": "Into the Dark Trees",
+        "flavor": "Freedom smells like pine and cold air.",
+        "action": "vanish into the trees"
+      }
+    },
+    "selene-together": {
+      "passage": "The footsteps belong to Selene. She found the tunnel too. You run together through the black trees, her hand gripping your wrist. The forest is vast and strange but it ends. By first light you reach open farmland and the smell of woodsmoke from a village hearth. You never learned her surname. It does not matter.",
+      "choices": [],
+      "ending": {
+        "title": "Two Into the Darkness",
+        "flavor": "Some escapes are better shared.",
+        "action": "run with her into dawn"
+      }
+    },
+    "sacrifice": {
+      "passage": "The altar is cold beneath your back. The chanting rises to a roar. You look up at the black ceiling of the temple and see nothing beyond it - no sky, no stars, no mercy. The high priestess begins. You close your eyes. The stone grows colder. The sound does not stop.",
+      "choices": [],
+      "ending": {
+        "title": "The Rite Complete",
+        "flavor": "The temple always claims its due.",
+        "action": "close your eyes"
+      }
+    },
+    "lich-consumed": {
+      "passage": "Your fingers close around the vessel. The grey mist rushes inward at once, pouring through your skin. You feel your memories lifting away one by one, replaced by something older and patient and vast. Your hand lets go. Your name lets go. Something steps back from the mist in your shape and smiles slowly.",
+      "choices": [],
+      "ending": {
+        "title": "What Remains",
+        "flavor": "Some doors are better left unopened.",
+        "action": "open the vessel"
+      }
+    },
+    "crystal-shattered": {
+      "passage": "The crystal shatters with a sound like a struck bell. The light dies. In the altar hall, the chanting dissolves into screams and then into silence. You run through the dark, following the smell of pine through a passage you had not noticed before. The forest air hits you like cold water. You are out.",
+      "choices": [],
+      "ending": {
+        "title": "Broken Light",
+        "flavor": "Sometimes the only escape is breaking what sustains the darkness.",
+        "action": "shatter the crystal"
+      }
+    }
+  }
+}

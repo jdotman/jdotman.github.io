@@ -1,0 +1,566 @@
+{
+  "id": "8b795bac-1300-4a58-a8d4-f455aacf2cd6",
+  "title": "Velvet Ledger",
+  "description": "A stolen map leads you into the underground market beneath the city of Ashwick. Every dealer has a price and every shadow hides a knife.",
+  "author": "AI",
+  "tags": [
+    "stealth",
+    "negotiation"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-27",
+  "dayOfYear": "04-27",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "You stand in a rain-slick alley behind the Ashwick tannery district. A torn map in your hand marks three entrances to the underground market known as the Velvet. Your contact said the stolen heirloom is being sold tonight at midnight. A sewer grate gleams at your feet. A side door leads into the tannery. Further down the alley a cellar hatch sits half-hidden under old crates.",
+      "choices": [
+        {
+          "label": "open the sewer grate",
+          "nextNode": "sewer-entrance",
+          "hint": "The iron grate lifts with a groan and warm air rises from below."
+        },
+        {
+          "label": "try the tannery door",
+          "nextNode": "tannery-entrance",
+          "hint": "The door is unlocked and the smell of leather hits you at once."
+        },
+        {
+          "label": "check the cellar hatch",
+          "nextNode": "cellar-entrance",
+          "hint": "You shove the crates aside and find the hatch bolted from within."
+        }
+      ]
+    },
+    "sewer-entrance": {
+      "passage": "You drop into a brick tunnel lit by oil lamps hung on rusted hooks. The water is shallow and the air is thick with smoke and perfume meant to mask the smell. Voices echo from ahead. A narrow ledge runs along the left wall above the waterline. The main tunnel opens into a wider chamber where lantern light spills across stacked crates.",
+      "choices": [
+        {
+          "label": "take the ledge",
+          "nextNode": "ledge-path",
+          "hint": "You press your back against the damp bricks and inch along the stone lip."
+        },
+        {
+          "label": "walk through the tunnel",
+          "nextNode": "market-floor",
+          "hint": "You splash forward and the voices grow louder with each step."
+        }
+      ]
+    },
+    "tannery-entrance": {
+      "passage": "The tannery workshop is empty but a trapdoor behind the drying racks stands open. A rope ladder drops into warm orange light. You hear music below - a fiddle and a drum playing something fast. A leather apron hangs on a peg near the trapdoor. A worker's cap sits on the bench beside a set of tanning tools.",
+      "choices": [
+        {
+          "label": "put on the apron",
+          "nextNode": "disguised-entry",
+          "hint": "The apron is stiff with old dye but it makes you look like staff."
+        },
+        {
+          "label": "climb down quickly",
+          "nextNode": "market-floor",
+          "hint": "You grab the rope and drop into the noise and light below."
+        }
+      ]
+    },
+    "cellar-entrance": {
+      "passage": "The hatch is bolted from inside. You knock three times the way your contact showed you. A slot opens and a pair of dark eyes studies you. A voice asks for the password. You do not have one. Your contact never mentioned a password. The eyes narrow and the slot begins to close.",
+      "choices": [
+        {
+          "label": "offer coin",
+          "nextNode": "bribe-entry",
+          "hint": "You fish a gold piece from your belt pouch and hold it to the slot."
+        },
+        {
+          "label": "try the sewer instead",
+          "nextNode": "sewer-entrance",
+          "hint": "You step back and look for the grate you passed on the way in."
+        }
+      ]
+    },
+    "ledge-path": {
+      "passage": "The ledge takes you above the market floor where you can see everything without being seen. Below, dozens of stalls fill a vaulted brick chamber. Dealers sell weapons, potions, forged documents, and stranger things. A raised platform at the far end holds the auction block. A woman in a velvet coat stands near it counting a stack of papers.",
+      "choices": [
+        {
+          "label": "watch the woman",
+          "nextNode": "watch-velvet",
+          "hint": "She moves with purpose and the dealers give her a wide space."
+        },
+        {
+          "label": "drop to the floor",
+          "nextNode": "market-floor",
+          "hint": "You swing your legs over the ledge and land softly between two stalls."
+        },
+        {
+          "label": "follow the ledge further",
+          "nextNode": "back-offices",
+          "hint": "The ledge continues past the auction block toward a lit doorway."
+        }
+      ]
+    },
+    "market-floor": {
+      "passage": "The market is a maze of stalls crammed into the old sewer junction. Candles and oil lamps throw warm light on tables piled with goods both common and forbidden. A dwarf sells lockpicks from a velvet roll. An elf in a hooded cloak hawks glass vials of glowing liquid. The auction block sits on a raised stone platform at the center.",
+      "choices": [
+        {
+          "label": "browse the stalls",
+          "nextNode": "stall-browse",
+          "hint": "You drift between the tables trying to look like a regular buyer."
+        },
+        {
+          "label": "head to the auction block",
+          "nextNode": "auction-area",
+          "hint": "The stone platform is draped in red cloth and ringed with benches."
+        },
+        {
+          "label": "find a quiet corner",
+          "nextNode": "quiet-corner",
+          "hint": "A gap between two stalls offers shadow and a view of the whole floor."
+        }
+      ]
+    },
+    "disguised-entry": {
+      "passage": "The apron and cap let you pass through the market without a second glance. Workers carry crates and mop floors and no one questions another pair of hands. You move freely past the stalls toward the auction block. A guard with a curved blade nods at you and jerks his thumb toward a back room where crates are stacked high.",
+      "choices": [
+        {
+          "label": "enter the back room",
+          "nextNode": "back-offices",
+          "hint": "You nod back and push through the curtain into a dim corridor."
+        },
+        {
+          "label": "stay on the floor",
+          "nextNode": "auction-area",
+          "hint": "The auction block is close and you can hear the caller warming up."
+        }
+      ]
+    },
+    "bribe-entry": {
+      "passage": "The eyes widen at the gold. The bolt slides back and the hatch swings open to reveal a steep staircase lit by a single candle. A thin man with a scarred lip pockets your coin and waves you down without a word. The stairs creak under your weight. At the bottom a curtain of red beads separates you from noise and light.",
+      "choices": [
+        {
+          "label": "push through the curtain",
+          "nextNode": "market-floor",
+          "hint": "The beads click against each other as you step into the warm glow."
+        },
+        {
+          "label": "question the doorman",
+          "nextNode": "doorman-info",
+          "hint": "You grab his sleeve before he can disappear back up the stairs."
+        }
+      ]
+    },
+    "doorman-info": {
+      "passage": "The scarred man flinches when you grab him but does not pull away. He says the heirloom you seek is lot number seven in tonight's auction. The woman running the sale is called Sable and she does not take kindly to trouble. He says the back offices hold the lots before they go to the block. Then he yanks free and climbs back up.",
+      "choices": [
+        {
+          "label": "head to the auction",
+          "nextNode": "auction-area",
+          "hint": "Lot seven - you need to be in the crowd when the bidding starts."
+        },
+        {
+          "label": "find the back offices",
+          "nextNode": "back-offices",
+          "hint": "If the lots are stored there you might not need to bid at all."
+        }
+      ]
+    },
+    "watch-velvet": {
+      "passage": "The woman in the velvet coat moves between dealers with quiet authority. Guards step aside for her and merchants bow their heads. She checks a leather-bound ledger, makes notes, and speaks to no one longer than ten seconds. This must be Sable, the market boss. She tucks the ledger under her arm and walks toward a guarded door behind the auction block.",
+      "choices": [
+        {
+          "label": "follow her",
+          "nextNode": "back-offices",
+          "hint": "You creep along the ledge keeping pace with her velvet shoulders below."
+        },
+        {
+          "label": "drop to the auction area",
+          "nextNode": "auction-area",
+          "hint": "The auction caller is testing his voice and the crowd is gathering."
+        }
+      ]
+    },
+    "stall-browse": {
+      "passage": "You pause at the dwarf's lockpick stall and he offers you a set of fine steel picks for three silver. The elf with the vials catches your eye and holds up a bottle of pale smoke. She whispers it can put a guard to sleep for an hour. Both could be useful. Your coin pouch is light - you can afford one.",
+      "choices": [
+        {
+          "label": "buy the lockpicks",
+          "nextNode": "got-picks",
+          "hint": "The dwarf wraps the picks in oilcloth and slides them across the table."
+        },
+        {
+          "label": "buy the sleep potion",
+          "nextNode": "got-potion",
+          "hint": "The elf presses the cool glass into your palm and winks."
+        },
+        {
+          "label": "save your coin",
+          "nextNode": "auction-area",
+          "hint": "You may need every coin you have when the bidding starts."
+        }
+      ]
+    },
+    "quiet-corner": {
+      "passage": "From the shadows you study the layout. Two guards flank the auction block. A third patrols the perimeter. The back door behind the block is locked with a heavy padlock. Every few minutes a worker carries a crate through that door. The auction caller climbs onto the platform and clears his throat. The crowd begins to settle.",
+      "choices": [
+        {
+          "label": "wait for the auction",
+          "nextNode": "auction-start",
+          "hint": "You lean against the cool brick and watch the caller shuffle his notes."
+        },
+        {
+          "label": "approach the back door",
+          "nextNode": "back-door-sneak",
+          "hint": "You wait for the guard to turn then slip along the wall."
+        }
+      ]
+    },
+    "back-offices": {
+      "passage": "A narrow corridor behind the auction block holds three rooms. The first is open and full of crated lots tagged with numbers. The second is locked with an iron padlock. The third has light spilling under the door and you hear Sable's voice inside giving orders. A guard leans against the wall picking his teeth.",
+      "choices": [
+        {
+          "label": "search the open room",
+          "nextNode": "lot-room",
+          "hint": "You slip through the doorway and scan the numbered tags on each crate."
+        },
+        {
+          "label": "listen at Sable's door",
+          "nextNode": "eavesdrop-sable",
+          "hint": "You press your ear to the wood and hold your breath."
+        },
+        {
+          "label": "distract the guard",
+          "nextNode": "guard-distract",
+          "hint": "The guard looks bored enough to fall for almost anything."
+        }
+      ]
+    },
+    "got-picks": {
+      "passage": "The lockpicks are fine dwarven steel and fit your hand well. You tuck them into your belt and move toward the auction block. The crowd is thick now and the caller is testing his voice. You notice a heavy padlock on the back door behind the platform. The picks could handle it if you get a moment alone with the lock.",
+      "choices": [
+        {
+          "label": "try the back door",
+          "nextNode": "back-door-picks",
+          "hint": "You circle the crowd and approach the door from the blind side."
+        },
+        {
+          "label": "join the auction crowd",
+          "nextNode": "auction-start",
+          "hint": "You push into the crowd and find a spot near the front."
+        }
+      ]
+    },
+    "got-potion": {
+      "passage": "The sleep potion is cold in your hand and the pale smoke swirls inside the glass. You pocket it carefully and drift toward the auction block. A guard stands at the back door with a bored expression. The crowd is settling into rows of benches and the caller shuffles a stack of lot cards on the podium.",
+      "choices": [
+        {
+          "label": "use the potion on the guard",
+          "nextNode": "potion-guard",
+          "hint": "You uncork the bottle behind your back as you approach him."
+        },
+        {
+          "label": "join the auction crowd",
+          "nextNode": "auction-start",
+          "hint": "You slip onto a bench near the end of the third row."
+        }
+      ]
+    },
+    "auction-area": {
+      "passage": "The auction block is a raised slab of stone draped in red cloth. Wooden benches face it in rows and the crowd fills them fast. Wealthy merchants sit beside hooded strangers. The caller, a stout man with a booming voice, climbs onto the platform and holds up a brass bell. Sable watches from a chair to the side.",
+      "choices": [
+        {
+          "label": "take a seat",
+          "nextNode": "auction-start",
+          "hint": "You find a spot on the second bench where you can see everything."
+        },
+        {
+          "label": "circle behind the block",
+          "nextNode": "back-door-sneak",
+          "hint": "While all eyes face forward you drift toward the shadows behind the stage."
+        }
+      ]
+    },
+    "auction-start": {
+      "passage": "The caller rings his bell and the market goes quiet. Lots sell one by one - a jeweled dagger, a set of forged land deeds, a caged fire lizard. The prices climb fast. When lot seven comes up the caller holds a silver pendant on a chain. Your heirloom. Three bidders raise their hands at once. The price is already steep.",
+      "choices": [
+        {
+          "label": "bid on the pendant",
+          "nextNode": "bidding-war",
+          "hint": "You raise your hand and the caller's eyes lock onto you."
+        },
+        {
+          "label": "cause a distraction",
+          "nextNode": "auction-chaos",
+          "hint": "You kick over a bench and shout that guards are coming from above."
+        }
+      ]
+    },
+    "back-door-sneak": {
+      "passage": "You creep along the wall behind the auction block while the crowd faces the caller. The back door guard is watching the auction and his back is half-turned. The padlock on the door is heavy but old. You have seconds before he turns around. The nearest shadow is three steps away if you need to hide.",
+      "choices": [
+        {
+          "label": "grab the padlock",
+          "nextNode": "back-door-attempt",
+          "hint": "Your fingers close around the cold iron and you test its weight."
+        },
+        {
+          "label": "wait for a better moment",
+          "nextNode": "auction-start",
+          "hint": "The guard shifts his weight and you pull back into the shadow."
+        }
+      ]
+    },
+    "back-door-picks": {
+      "passage": "You kneel beside the padlock and work the picks into the keyhole. The tumblers are stiff but the dwarven steel finds each one. The lock clicks open and you ease the door wide. Inside, crates sit in numbered rows. Lot seven is a small velvet box on the middle shelf. Your heirloom is ten steps away.",
+      "choices": [
+        {
+          "label": "take the pendant",
+          "nextNode": "steal-success",
+          "hint": "The velvet box opens with a soft click and moonlight catches the silver."
+        },
+        {
+          "label": "check for traps",
+          "nextNode": "trap-check",
+          "hint": "Something about the shelf looks wrong - a thin wire catches the light."
+        }
+      ]
+    },
+    "potion-guard": {
+      "passage": "You stumble toward the guard pretending to be drunk and uncork the bottle as you fall against him. The pale smoke curls into his face. His eyes widen then droop. He slides down the wall without a sound and sits in a heap. The padlock on the door is within reach. No one saw. The auction noise covers everything.",
+      "choices": [
+        {
+          "label": "open the door",
+          "nextNode": "lot-room",
+          "hint": "You test the padlock and it swings open - the guard had the key on him."
+        },
+        {
+          "label": "take his keys first",
+          "nextNode": "lot-room",
+          "hint": "A ring of brass keys hangs from his belt and you slip it free."
+        }
+      ]
+    },
+    "lot-room": {
+      "passage": "The lot room is cool and quiet. Crates and boxes line the shelves each tagged with a number. Lot seven sits on the middle shelf - a small velvet box. You open it and find the silver pendant gleaming inside. A footstep sounds in the corridor behind you. Someone is coming and the only other exit is a coal chute in the far wall.",
+      "choices": [
+        {
+          "label": "grab it and run",
+          "nextNode": "coal-chute-escape",
+          "hint": "You pocket the pendant and dive headfirst into the coal chute."
+        },
+        {
+          "label": "hide and wait",
+          "nextNode": "hide-lot-room",
+          "hint": "You press yourself behind a tall crate and hold the pendant tight."
+        }
+      ]
+    },
+    "eavesdrop-sable": {
+      "passage": "Through the door you hear Sable telling someone that lot seven has a special buyer lined up. She says the pendant is worth ten times what the auction will fetch and the real sale happens after midnight in her private room. She mentions a vault key hidden in the locked second room. Then her chair scrapes back.",
+      "choices": [
+        {
+          "label": "slip away quickly",
+          "nextNode": "lot-room",
+          "hint": "You step back from the door just as the handle begins to turn."
+        },
+        {
+          "label": "confront Sable",
+          "nextNode": "confront-sable",
+          "hint": "You push the door open before she can reach it."
+        }
+      ]
+    },
+    "guard-distract": {
+      "passage": "You toss a coin down the corridor and it rings against the stone. The guard looks up, pushes off the wall, and walks toward the sound. You have maybe thirty seconds before he comes back. The open lot room and the locked second room are both within reach. Sable's voice still murmurs behind the third door.",
+      "choices": [
+        {
+          "label": "search the lot room",
+          "nextNode": "lot-room",
+          "hint": "You dart through the open doorway and scan the numbered shelves."
+        },
+        {
+          "label": "try the locked room",
+          "nextNode": "back-door-attempt",
+          "hint": "The padlock on the second door is old and the bolt is loose."
+        }
+      ]
+    },
+    "back-door-attempt": {
+      "passage": "You work at the padlock with your bare hands. It is old but stubborn. The bolt wiggles but does not give. Footsteps approach from the corridor - the guard is coming back. You have one more try before you need to vanish. The lock groans under your grip and something inside shifts.",
+      "choices": [
+        {
+          "label": "force the lock",
+          "nextNode": "lot-room",
+          "hint": "Metal screams and the bolt snaps free in your hand."
+        },
+        {
+          "label": "retreat to the shadows",
+          "nextNode": "auction-start",
+          "hint": "You let go and melt into the dark as the guard rounds the corner."
+        }
+      ]
+    },
+    "bidding-war": {
+      "passage": "The bidding climbs fast. A merchant in fur raises you twice. A hooded figure in the back matches every bid without flinching. Your coin pouch grows lighter. The caller grins - this is good business. The price hits your limit. One more bid will empty your purse. The hooded figure tilts their head waiting for your move.",
+      "choices": [
+        {
+          "label": "bid everything",
+          "nextNode": "won-auction",
+          "hint": "You empty your purse on the bench and the caller counts the coins."
+        },
+        {
+          "label": "let it go",
+          "nextNode": "lost-auction",
+          "hint": "You lower your hand and the hooded figure nods to the caller."
+        }
+      ]
+    },
+    "auction-chaos": {
+      "passage": "You shout that the city watch is raiding the tunnels. Panic erupts instantly. Benches topple and merchants grab their goods. The caller drops the pendant and it skitters across the stone platform. Guards rush toward the entrances. In the chaos Sable sweeps forward and snatches the pendant off the floor. She heads for the back door fast.",
+      "choices": [
+        {
+          "label": "chase Sable",
+          "nextNode": "chase-sable",
+          "hint": "You vault over a bench and push through the stampeding crowd."
+        },
+        {
+          "label": "grab it from the floor",
+          "nextNode": "too-late",
+          "hint": "You lunge for the platform but her hand was faster than yours."
+        }
+      ]
+    },
+    "won-auction": {
+      "passage": "The caller slams his bell and declares you the winner. The hooded figure stands and walks away without a word. A clerk hands you the velvet box and inside lies the silver pendant - your family's heirloom returned at last. You are broke but it sits warm in your palm like something that was always meant to come home.",
+      "choices": [],
+      "ending": {
+        "title": "Every Last Coin",
+        "flavor": "Some things cost everything and are still worth the price.",
+        "action": "clasp the pendant around your neck"
+      }
+    },
+    "lost-auction": {
+      "passage": "The hooded figure wins and collects the pendant without ceremony. You follow them through the crowd and up the sewer tunnel to the street. In the rain you call out and they stop. They turn and lower their hood. It is your sister. She bought the pendant back herself. She holds it out and says she has been looking for you.",
+      "choices": [],
+      "ending": {
+        "title": "The Other Bidder",
+        "flavor": "Family finds a way even through the dark.",
+        "action": "take your sister's hand"
+      }
+    },
+    "chase-sable": {
+      "passage": "You catch Sable in the corridor behind the auction block. She spins and draws a thin blade. Her eyes are cold but she is not a fighter - she is a dealer. She holds up the pendant and says name your price. Anything in the market. Weapons, secrets, safe passage. She just wants the chaos to end and business to resume.",
+      "choices": [
+        {
+          "label": "demand the pendant",
+          "nextNode": "sable-deal",
+          "hint": "You hold your ground and point at the silver chain in her hand."
+        },
+        {
+          "label": "accept a trade",
+          "nextNode": "sable-trade",
+          "hint": "She has something you need more than a pendant right now - a way out."
+        }
+      ]
+    },
+    "too-late": {
+      "passage": "Sable is gone through the back door before you reach the platform. The crowd stampedes toward every exit and the market dissolves into chaos. You search for an hour but the back rooms are empty and the pendant is gone. When you climb out of the sewers the rain has stopped and the moon stares down at you cold and indifferent.",
+      "choices": [],
+      "ending": {
+        "title": "Empty Hands",
+        "flavor": "The market swallowed it whole and left you with nothing but rain.",
+        "action": "climb out of the dark"
+      }
+    },
+    "steal-success": {
+      "passage": "The pendant is cool and heavy in your hand. You close the box and tuck it inside your shirt. The corridor is clear. You retrace your steps to the sewer tunnel and climb the grate into the rain-slick alley. No one follows. The night air fills your lungs and the pendant rests against your chest like a second heartbeat.",
+      "choices": [],
+      "ending": {
+        "title": "The Silent Thief",
+        "flavor": "You came for what was yours and left without a sound.",
+        "action": "disappear into the rain"
+      }
+    },
+    "trap-check": {
+      "passage": "A thin wire connects the velvet box to a small bell hidden behind the shelf. If you had grabbed the box the bell would have rung. You cut the wire with your thumbnail and lift the pendant free. Quick thinking saved you. The corridor outside is still clear and the sewer tunnel waits at the far end.",
+      "choices": [],
+      "ending": {
+        "title": "Cut the Wire",
+        "flavor": "Patience turns a clumsy thief into an invisible one.",
+        "action": "pocket the pendant and leave"
+      }
+    },
+    "coal-chute-escape": {
+      "passage": "You slide down the coal chute and crash into a pile of soot in a basement boiler room. The pendant is safe in your pocket. An iron door leads to the street level. You push through it and stumble into a quiet alley two blocks from the tannery. The rain washes the soot from your face and you start to laugh.",
+      "choices": [],
+      "ending": {
+        "title": "The Soot Exit",
+        "flavor": "Not graceful but the pendant does not care how you got out.",
+        "action": "brush off the soot and walk"
+      }
+    },
+    "hide-lot-room": {
+      "passage": "You press behind the crate as Sable herself enters the room. She checks lot seven, finds the box empty, and freezes. Her eyes sweep the room. For a long moment she stares directly at the crate you are hiding behind. Then she curses and storms out shouting for guards. You have seconds to find an exit.",
+      "choices": [
+        {
+          "label": "take the coal chute",
+          "nextNode": "coal-chute-escape",
+          "hint": "The narrow chute in the far wall is your only chance."
+        },
+        {
+          "label": "bluff your way out",
+          "nextNode": "bluff-escape",
+          "hint": "You step into the corridor wearing the worker's apron and walk fast."
+        }
+      ]
+    },
+    "confront-sable": {
+      "passage": "Sable stares at you across her desk. Two guards step forward but she waves them back. She asks what you want. You tell her about the pendant. She opens a drawer and places it on the desk between you. She says everything in this market has a price and asks what you are willing to trade for it.",
+      "choices": [
+        {
+          "label": "offer information",
+          "nextNode": "sable-deal",
+          "hint": "You know things about the city watch that she would pay dearly to hear."
+        },
+        {
+          "label": "grab it and run",
+          "nextNode": "grab-and-run",
+          "hint": "The pendant is right there and the door is two steps behind you."
+        }
+      ]
+    },
+    "sable-deal": {
+      "passage": "Sable considers your offer then nods. She places the pendant in your hand and closes your fingers around it. She says you are welcome in the Velvet any time and that she always needs people who can keep their head underground. You nod, pocket the pendant, and leave through the front entrance like a paying customer.",
+      "choices": [],
+      "ending": {
+        "title": "A Fair Exchange",
+        "flavor": "In the Velvet, respect buys more than gold ever could.",
+        "action": "walk up the stairs to the street"
+      }
+    },
+    "sable-trade": {
+      "passage": "Sable offers you safe passage through her tunnels to the harbor district - passage no one else can buy. You take it. The pendant stays in the Velvet but you leave with something rarer: a friend in the underground. The tunnel opens onto the moonlit docks and the smell of salt water replaces soot and perfume.",
+      "choices": [],
+      "ending": {
+        "title": "The Better Deal",
+        "flavor": "Sometimes what you need is not what you came for.",
+        "action": "step onto the docks"
+      }
+    },
+    "grab-and-run": {
+      "passage": "You snatch the pendant and bolt for the door. Sable does not even stand. She rings a small bell on her desk and the corridor fills with guards. You make it twenty steps before they pin you to the wall. The pendant is taken from your hand and you are dragged to the sewer grate and thrown out into the rain.",
+      "choices": [],
+      "ending": {
+        "title": "Thrown Out",
+        "flavor": "Sable does not chase thieves - she simply takes everything back.",
+        "action": "pick yourself up from the mud"
+      }
+    },
+    "bluff-escape": {
+      "passage": "You walk down the corridor with the apron straight and your hands steady. Two guards rush past you toward the lot room without a glance. You climb the rope ladder into the tannery and step through the workshop into the night. The pendant presses against your ribs and the rain drums on the cobblestones like applause.",
+      "choices": [],
+      "ending": {
+        "title": "Hidden in Plain Sight",
+        "flavor": "The best disguise is looking like you belong.",
+        "action": "close the tannery door behind you"
+      }
+    }
+  }
+}

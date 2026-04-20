@@ -1,0 +1,328 @@
+{
+  "id": "d3a8c5f2-7b1e-4c9d-a6f0-2e8b4d1f3a9c",
+  "title": "Hungry Walls",
+  "description": "The city of Veyran has held against the siege for twenty days, but the grain stores empty too fast. You have one night to find the traitor before dawn.",
+  "author": "AI",
+  "tags": [
+    "siege",
+    "mystery"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-05-22",
+  "dayOfYear": "05-22",
+  "endingCount": 5,
+  "storyNumber": 50,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Torches burn along the wall of Veyran and the drums of the enemy camp roll in the distance. For twenty days the siege has held, but the grain stores empty too fast. Captain Solari drops a wax-sealed order into your hand. 'One night,' she says. 'The warehouse, the noble quarter, the chapel. Start somewhere. Find the traitor before dawn.'",
+      "choices": [
+        {
+          "label": "visit the warehouse",
+          "nextNode": "warehouse",
+          "hint": "The quartermaster's lamps still burn at this hour, which is already strange."
+        },
+        {
+          "label": "ride to the noble quarter",
+          "nextNode": "manor-gate",
+          "hint": "The noble houses hoard their own grain behind iron gates and hired spears."
+        },
+        {
+          "label": "walk to the chapel",
+          "nextNode": "chapel",
+          "hint": "The priest has taken charge of rationing since the siege began, by the captain's order."
+        }
+      ]
+    },
+    "warehouse": {
+      "passage": "The grain warehouse smells of dust and old sacks. A pair of guards nod at you and step aside. Inside, row upon row of burlap sacks stack to the rafters, stamped with the city seal. The quartermaster paces near a ledger table, ink on his fingers and shadows under his eyes. Half the back row looks thinner than the rest.",
+      "choices": [
+        {
+          "label": "count the sacks",
+          "nextNode": "tally-room",
+          "hint": "You walk between the stacks and the numbers do not add up at all."
+        },
+        {
+          "label": "question the quartermaster",
+          "nextNode": "quartermaster",
+          "hint": "He looks up too quickly when you say his name aloud."
+        }
+      ]
+    },
+    "manor-gate": {
+      "passage": "Lady Oren's manor stands dark at the top of the noble quarter. Two of her household guards block the gate with crossed spears. Their livery is new, their boots are clean, and the siege has not touched them at all. A single window on the third floor burns with candlelight. A figure moves behind it. The lady is awake.",
+      "choices": [
+        {
+          "label": "force past the guards",
+          "nextNode": "locked-study",
+          "hint": "You draw the captain's seal and the spears drop without a word of protest."
+        },
+        {
+          "label": "request an audience",
+          "nextNode": "lady-oren",
+          "hint": "The elder guard bows and steps aside to send a runner up the stairs."
+        }
+      ]
+    },
+    "chapel": {
+      "passage": "The Chapel of the Flame stands quiet in the heart of the city. A long line of hungry citizens waits outside the bread wagon, each clutching a wooden token. Inside, Brother Pryce kneels at the altar, lips moving in silent prayer. His robes are fine, his hands are fed. The side door to the sacristy hangs just a finger's width open.",
+      "choices": [
+        {
+          "label": "join the evening prayer",
+          "nextNode": "priest-pryce",
+          "hint": "You kneel beside him and pretend to whisper the rite you never learned."
+        },
+        {
+          "label": "slip into the sacristy",
+          "nextNode": "hidden-stash",
+          "hint": "The hinge does not creak and the room beyond looks dim and quiet."
+        }
+      ]
+    },
+    "tally-room": {
+      "passage": "Between the stacks, you count aloud. The ledger says six hundred sacks. You count four hundred. Two hundred gone, and the dust on the floor shows where they have been dragged. The drag marks lead to a grating in the back wall - a grain chute into the old drainage tunnels that run under the city. The grating is fresh-oiled.",
+      "choices": [
+        {
+          "label": "follow the chute down",
+          "nextNode": "sewer-grate",
+          "hint": "The grate lifts smoothly and the air below smells of grain and rot."
+        },
+        {
+          "label": "report to the captain",
+          "nextNode": "captain-solari",
+          "hint": "She needs to know someone is moving food right under her nose."
+        }
+      ]
+    },
+    "quartermaster": {
+      "passage": "You press the quartermaster and his hands start to shake. 'I only signed the orders,' he says. 'A man in a grey cloak brought the ledgers, already marked. He said Captain Solari wanted it quiet. I believed him.' His voice drops and his eyes flick toward a small grate set into the back wall. Then away, too quickly.",
+      "choices": [
+        {
+          "label": "drag him to the captain",
+          "nextNode": "captain-solari",
+          "hint": "He goes limp in your grip and does not argue on the way there."
+        },
+        {
+          "label": "check the grate",
+          "nextNode": "sewer-grate",
+          "hint": "The bars pull free with one hard tug. Someone has been through here."
+        }
+      ]
+    },
+    "locked-study": {
+      "passage": "Inside the manor, you find Lady Oren's private study. The desk holds a stack of letters sealed with wax from a dozen houses. One letter sits open, ink still wet. It speaks of a postern gate and a payment in gold. The signature is not Lady Oren's. It is a name you half-remember from the captain's watch roster.",
+      "choices": [
+        {
+          "label": "pocket the letter",
+          "nextNode": "captain-solari",
+          "hint": "You fold it into your coat and back out before anyone sees you."
+        },
+        {
+          "label": "grab the brass key",
+          "nextNode": "sewer-grate",
+          "hint": "A small iron key hangs from a nail marked with the postern's sigil."
+        }
+      ]
+    },
+    "lady-oren": {
+      "passage": "Lady Oren receives you in a candlelit parlor, her gown plain and her face drawn. 'I know why you have come,' she says. 'Half my house suspects me. I have sent no letters out. My sons died on the wall last week. Whatever the spy is selling, it is not my silence.' Her eyes are dry. Her hands do not shake.",
+      "choices": [
+        {
+          "label": "believe her",
+          "nextNode": "captain-solari",
+          "hint": "You nod once and she closes her eyes like a weight has lifted."
+        },
+        {
+          "label": "arrest her anyway",
+          "nextNode": "wrong-accusation",
+          "hint": "Her guards draw steel and she tells them to stand down."
+        }
+      ]
+    },
+    "priest-pryce": {
+      "passage": "Brother Pryce looks up from his prayer and smiles at you - too quickly. 'My child,' he says, 'have you come to pray or to confess?' His robes rustle as he stands. A small brass key gleams at his belt, half-hidden by the fold of his sleeve. The sacristy door is behind him. He angles himself to block it.",
+      "choices": [
+        {
+          "label": "push past him",
+          "nextNode": "hidden-stash",
+          "hint": "Your shoulder meets his and he does not resist as hard as he should."
+        },
+        {
+          "label": "ask about the key",
+          "nextNode": "captain-solari",
+          "hint": "His fingers find the key first, and his smile does not reach his eyes."
+        }
+      ]
+    },
+    "hidden-stash": {
+      "passage": "Behind a false panel in the sacristy, a stairwell drops into an unlit room. Your lamp picks out sacks of grain stacked to the ceiling - city seal stamped on each - and a small chest of gold coins. Fresh footprints track across the floor, smaller than yours. A child's shoe, maybe. Or a woman's. The lamp oil hangs fresh in the air.",
+      "choices": [
+        {
+          "label": "fetch the captain",
+          "nextNode": "captain-solari",
+          "hint": "You leave the stash untouched and run for the barracks at a sprint."
+        },
+        {
+          "label": "trace the footprints",
+          "nextNode": "sewer-grate",
+          "hint": "The tracks lead to a loose stone in the corner and a pit below."
+        }
+      ]
+    },
+    "captain-solari": {
+      "passage": "Captain Solari listens without interrupting. When you finish, she does not speak for a long moment. Then she draws a map of the city on the table with her finger. 'There are three ways out before dawn. The sewer grate under the warehouse. The postern gate at the north wall. And my own quarters.' Her eyes meet yours. 'Choose well.'",
+      "choices": [
+        {
+          "label": "head for the sewer",
+          "nextNode": "sewer-grate",
+          "hint": "The warehouse is closest and the drag marks are your strongest lead."
+        },
+        {
+          "label": "climb to the wall",
+          "nextNode": "nightwatch",
+          "hint": "The postern is quiet now. Too quiet for an hour before dawn."
+        },
+        {
+          "label": "inspect her quarters",
+          "nextNode": "captain-study",
+          "hint": "She says nothing when you step toward her private door."
+        }
+      ]
+    },
+    "nightwatch": {
+      "passage": "The north wall is manned by three sleepy spearmen and a dying torch. Below, the enemy camp lies quiet - too quiet. An officer would have pressed the assault by now if he did not expect the gate to open for him. Somewhere along the wall, a lantern will rise to signal the attack. Behind you, the captain's tower stands dark.",
+      "choices": [
+        {
+          "label": "watch for the signal",
+          "nextNode": "lantern-signal",
+          "hint": "You crouch behind a barrel and keep your eyes on the gap below."
+        },
+        {
+          "label": "cross to the tower",
+          "nextNode": "captain-study",
+          "hint": "Her quarters sit in the tower a short run from where you stand."
+        }
+      ]
+    },
+    "sewer-grate": {
+      "passage": "The grate lifts with a wet scrape. Below the warehouse, a narrow drainage shaft drops into blackness, the old brickwork slick with centuries of filth. Grain dust drifts on the draft, painting a pale trail into the dark. Whoever has been moving the sacks has come this way tonight. The smell of a fresh footprint lingers in the wet air.",
+      "choices": [
+        {
+          "label": "drop into the shaft",
+          "nextNode": "tunnel-dark",
+          "hint": "Your boots meet slick brick and the drop echoes deep below you."
+        },
+        {
+          "label": "hide by the grate",
+          "nextNode": "the-widow",
+          "hint": "You crouch behind a sack and wait for whoever is coming up."
+        }
+      ]
+    },
+    "tunnel-dark": {
+      "passage": "The tunnel runs wide beneath the city. Your lamp throws long shadows on the brick and the air smells of wet grain. Fresh footprints mark the muck - small boots, a child's pace. Further in, you see the faint glow of another lamp ahead, and you hear soft crying. A child's voice, trying to be quiet. It is not alone.",
+      "choices": [
+        {
+          "label": "pursue the lamp",
+          "nextNode": "the-widow",
+          "hint": "The crying grows clearer and you slow your steps on the wet brick."
+        },
+        {
+          "label": "press deeper alone",
+          "nextNode": "walls-fall",
+          "hint": "The tunnel branches and branches again. Time slips away from you."
+        }
+      ]
+    },
+    "lantern-signal": {
+      "passage": "You see it - a shuttered lantern raised toward the enemy camp, opening and closing in a careful rhythm. Five long, two short, one long. A code. The hand holding the lantern belongs to a woman in plain servant's clothes, crouched in the angle of the wall where no one looks. She is young. She is scared. Behind her, dawn bleeds into the sky.",
+      "choices": [
+        {
+          "label": "tackle the lantern",
+          "nextNode": "traitor-caught",
+          "hint": "You close the distance in three strides and the signal dies in her hand."
+        },
+        {
+          "label": "shout for the guards",
+          "nextNode": "walls-fall",
+          "hint": "Your shout crosses the wall and the signal has already been seen."
+        }
+      ]
+    },
+    "the-widow": {
+      "passage": "The child is perhaps five years old, pressed against the brick beside a sack of stolen grain. The woman cradling him looks up at you - thin, sleepless, ink on her fingers. A scribe, maybe. 'He has not eaten in two days,' she says. 'I took what I could carry. The priest said nothing.' She does not beg. She only holds the child.",
+      "choices": [
+        {
+          "label": "let her keep the grain",
+          "nextNode": "widow-mercy",
+          "hint": "You lower your lamp and the child stops flinching at the light."
+        },
+        {
+          "label": "march her to the captain",
+          "nextNode": "wrong-accusation",
+          "hint": "She stands without a word and the child does not understand at all."
+        }
+      ]
+    },
+    "captain-study": {
+      "passage": "Captain Solari's study is empty. The desk is tidy - too tidy. A single sheet of paper sits centered on the blotter with your name at the top. Below it, a confession in her hand, dated tomorrow. 'If you are reading this, you have found me out. The enemy holds my daughter. I bought her life with theirs.' A key sits beside the page.",
+      "choices": [
+        {
+          "label": "claim the key",
+          "nextNode": "captain-betrayed",
+          "hint": "The key fits the postern. You know where she will be at dawn."
+        },
+        {
+          "label": "destroy the confession",
+          "nextNode": "walls-fall",
+          "hint": "You hold the page to a candle and the city's fate goes with it."
+        }
+      ]
+    },
+    "traitor-caught": {
+      "passage": "The woman drops the lantern and it clatters on the stone. Guards swarm around her - she does not fight. At the wall, the signal never reaches the enemy camp. Dawn breaks gray and clean and the attack does not come. The city holds. She is led away, white-faced and silent. You do not know her name. You do not want to.",
+      "choices": [],
+      "ending": {
+        "title": "The Last Signal",
+        "flavor": "The wall holds. The city breathes. Someone always pays the price.",
+        "action": "take the traitor down"
+      }
+    },
+    "wrong-accusation": {
+      "passage": "The captain listens without expression. You feel the weight of her silence like a held breath. Before she can speak, a horn sounds from the wall - three short blasts, then one long. Somewhere else in the city, the real traitor lifts a lantern. The guards at the gate open it for him, and the enemy comes in.",
+      "choices": [],
+      "ending": {
+        "title": "The Wrong Name",
+        "flavor": "Blame is easy. Truth is heavier than any sack of grain.",
+        "action": "speak the name aloud"
+      }
+    },
+    "widow-mercy": {
+      "passage": "You lower your blade. The widow does not move. 'Feed him,' you say. 'Then hide, and do not come up until tomorrow.' She nods and slips into the tunnels with the child clutched against her chest. By the time you climb back to the wall, a signal lantern is already burning from the postern. It is not her fault. You will live with that.",
+      "choices": [],
+      "ending": {
+        "title": "The Mercy Debt",
+        "flavor": "Kindness does not balance the ledger, but it keeps you human.",
+        "action": "lower the blade"
+      }
+    },
+    "walls-fall": {
+      "passage": "A thunder of boots hits the postern gate and it flies open from inside. Torches stream through the gap like a river of fire. The horn sounds too late. You hear your captain shouting, the clash of steel, the screams of the market square. Dawn breaks red over Veyran. You did not find the traitor in time.",
+      "choices": [],
+      "ending": {
+        "title": "The Fall of Veyran",
+        "flavor": "A single night was all the city had. It was not enough.",
+        "action": "raise the alarm"
+      }
+    },
+    "captain-betrayed": {
+      "passage": "Captain Solari stands at the postern gate with the key already in the lock. She turns when she hears you. Her face is tired beyond all words. 'I did what any mother would do,' she says. 'I am not asking for forgiveness.' She steps aside and offers you the key. The choice is yours now. Dawn is minutes away.",
+      "choices": [],
+      "ending": {
+        "title": "The Captain's Daughter",
+        "flavor": "Some chains do not break. Some only change hands.",
+        "action": "turn the key"
+      }
+    }
+  }
+}

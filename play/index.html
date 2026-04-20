@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="screen-orientation" content="portrait">
+  <meta name="x5-orientation" content="portrait">
+  <meta name="browsermode" content="application">
+  <title>Keeb Quest - Typing Battles</title>
+  <meta name="description" content="Keeb Quest is a free browser-based typing game. Type words to defeat enemies, survive boss fights, and level up your speed and accuracy.">
+  <meta name="keywords" content="typing game, typing practice, keyboard game, browser game, keeb quest, keebquest">
+  <meta property="og:title" content="Keeb Quest - Typing Battles">
+  <meta property="og:description" content="A free browser-based typing game. Type words to defeat enemies, survive boss fights, and level up your speed and accuracy.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.keebquest.com">
+  <link rel="canonical" href="https://www.keebquest.com">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="apple-touch-icon" href="./favicon.svg">
+  <link rel="manifest" href="./manifest.json">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Keeb Quest: Typing Battles">
+  <meta name="twitter:description" content="A free browser-based typing game. Type words to defeat enemies, survive boss fights, and level up your speed and accuracy.">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%; height: 100dvh; background: #000; overflow: hidden;
+      display: flex; flex-direction: column;
+      touch-action: manipulation;
+      -webkit-user-select: none; user-select: none;
+    }
+    /* Fallback for browsers that don't support dvh */
+    @supports not (height: 100dvh) {
+      html, body { height: 100%; }
+    }
+    #game-wrapper {
+      flex: 1; min-height: 0; overflow: hidden;
+      display: flex; justify-content: center; align-items: center;
+    }
+    /* Mobile RESIZE mode: canvas fills parent */
+    .mobile canvas {
+      width: 100% !important;
+      height: 100% !important;
+    }
+    canvas {
+      display: block;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -webkit-crisp-edges;
+      image-rendering: pixelated;
+    }
+  </style>
+  <script type="module" crossorigin src="./assets/index-BgBOLJns.js"></script>
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="628f7c6a-c065-4e5c-a4b8-8cd96b0e5619"></script>
+</head>
+<body>
+  <div id="game-wrapper"></div>
+</body>
+</html>

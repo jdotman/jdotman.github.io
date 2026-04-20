@@ -1,0 +1,380 @@
+{
+  "id": "c6f3a8e1-2d9b-4f5a-b7c4-1e8d3f7a6b9c",
+  "title": "Tide Pilgrimage",
+  "description": "A sacred crossing on foot to Saint's Isle before the tide returns. The fog is heavy, the path is moving, and not everyone walking the flats today is a pilgrim.",
+  "author": "AI",
+  "tags": [
+    "voyage",
+    "escape"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-05-10",
+  "dayOfYear": "05-10",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Salt wind cuts across the mudflats. Brother Halvic hands you a coiled rope and points to the wooden stakes leading out toward Saint's Isle. The tide is low. The fog is not. Behind him, two pilgrims hesitate at the shore. Halvic says you have until the second bell, and any soul still walking when the water returns is given to the sea.",
+      "choices": [
+        {
+          "label": "follow the stakes",
+          "nextNode": "the-stakes",
+          "hint": "The wooden posts disappear into thick white mist after twenty steady paces."
+        },
+        {
+          "label": "walk the open flats",
+          "nextNode": "the-flats",
+          "hint": "Salt crackles softly underfoot in a place where no one has walked today."
+        },
+        {
+          "label": "ask Halvic for a warning",
+          "nextNode": "the-warning",
+          "hint": "His old eyes flick toward the fog wall once before he finally answers."
+        }
+      ]
+    },
+    "the-warning": {
+      "passage": "Halvic lowers his voice. He tells you of a pilgrim named Wenna who walked alone last spring. Her bell still rings on quiet evenings, he says, somewhere out beyond the third stake. He presses a small wax-stoppered torch into your hand. Then he turns away as if he has said too much already.",
+      "choices": [
+        {
+          "label": "follow the stakes",
+          "nextNode": "the-stakes",
+          "hint": "Your fingers tighten around the torch as you step out."
+        },
+        {
+          "label": "step onto the open flats",
+          "nextNode": "the-flats",
+          "hint": "The wax stopper feels strange and heavy in your palm."
+        },
+        {
+          "label": "head straight for the bell",
+          "nextNode": "bell-ghost",
+          "hint": "The faint sound pulls at you from somewhere off the marked path."
+        }
+      ]
+    },
+    "the-stakes": {
+      "passage": "Twenty paces in, the stakes vanish into a wall of fog. The mud is firm here, ribbed by old tide marks. You hear a bell - faint, low, off to your left where no path runs. Ahead, the next stake appears for a moment then is swallowed again. The wind drops to nothing.",
+      "choices": [
+        {
+          "label": "chase the bell",
+          "nextNode": "bell-ghost",
+          "hint": "Wet sand tugs at your feet as you turn off the path."
+        },
+        {
+          "label": "press toward the island",
+          "nextNode": "mudflat",
+          "hint": "The next stake leans at a wrong angle in the gloom."
+        },
+        {
+          "label": "wait for the fog to lift",
+          "nextNode": "wait-fog",
+          "hint": "You crouch low and listen for your own breath in the silence."
+        }
+      ]
+    },
+    "the-flats": {
+      "passage": "Off the marked path, the salt crust crackles like dry leaves. Boot prints cross the mud here - fresh, deep, pointing away from the holy island. Three sets. Whoever leaves them is carrying weight. A low whistle drifts from somewhere ahead, two short notes and a long one. Smugglers, maybe. Or worse.",
+      "choices": [
+        {
+          "label": "track the prints",
+          "nextNode": "smuggler-camp",
+          "hint": "Each step sinks deep into the soft outline of the last."
+        },
+        {
+          "label": "circle the noise",
+          "nextNode": "spy-on-smugglers",
+          "hint": "You drop low and slip sideways through the salt without a sound."
+        },
+        {
+          "label": "return to the stakes",
+          "nextNode": "the-stakes",
+          "hint": "You glance back at the line of wooden posts behind you."
+        }
+      ]
+    },
+    "bell-ghost": {
+      "passage": "The bell hangs from a half-buried iron post, green with salt and age. A small leather bag rests beside it, untouched by tide. No footprints lead here but yours. The bell is heavy, the kind monks ring to mark drowned souls. Something inside the bag clinks when the wind shifts the leather.",
+      "choices": [
+        {
+          "label": "lift the bell",
+          "nextNode": "cursed-bell-ending",
+          "hint": "The metal is heavier than it should be and bites your skin."
+        },
+        {
+          "label": "open the bag",
+          "nextNode": "pilgrim-bag",
+          "hint": "The leather is stiff with old salt and dried algae from the flats."
+        },
+        {
+          "label": "leave it alone",
+          "nextNode": "mudflat",
+          "hint": "You back away slowly, eyes fixed on the iron post."
+        }
+      ]
+    },
+    "mudflat": {
+      "passage": "Three steps past the stake your boot sinks. The mud holds. You pull, and the mud holds harder. Your other foot slides in. Within a heartbeat you are knee-deep in cold grey ooze, and the tide line on the distant rocks looks higher than the mark from a moment ago. Saint's Isle is still half a mile away.",
+      "choices": [
+        {
+          "label": "lie flat and crawl",
+          "nextNode": "quicksand-escape",
+          "hint": "You spread your arms across the surface of the muck."
+        },
+        {
+          "label": "shout for help",
+          "nextNode": "mud-rescue",
+          "hint": "Your voice carries strangely flat in the heavy air around you."
+        },
+        {
+          "label": "thrash free",
+          "nextNode": "drown-ending",
+          "hint": "Panic floods your chest before your hands have time to move."
+        }
+      ]
+    },
+    "wait-fog": {
+      "passage": "You crouch on the firm ridge between two stakes and let the mist drift around you. Time slips. The bell sound returns - closer now, or maybe it has not moved at all. Then a lantern bobs through the haze toward you. A voice calls out, soft, hopeful, asking if you are the one she has been waiting for.",
+      "choices": [
+        {
+          "label": "answer the voice",
+          "nextNode": "pilgrim-met",
+          "hint": "Your throat tightens around words you did not plan to speak."
+        },
+        {
+          "label": "stay silent",
+          "nextNode": "mudflat",
+          "hint": "You hold your breath and feel the lantern light pass over you."
+        }
+      ]
+    },
+    "pilgrim-met": {
+      "passage": "The lantern lifts. A young woman in a soaked grey cloak stands knee-deep in the flats, eyes wide. She says her name is Wenna and the path keeps moving. She has rope. She has bread. She says she will share both, but only if you swear to lead her home, not to the island.",
+      "choices": [
+        {
+          "label": "swear to guide her back",
+          "nextNode": "return-shore-ending",
+          "hint": "Her grip on your sleeve is stronger than you expect."
+        },
+        {
+          "label": "refuse and press on",
+          "nextNode": "final-stretch",
+          "hint": "Her lantern dims as you take your first step away."
+        },
+        {
+          "label": "share the bread first",
+          "nextNode": "wenna-deal",
+          "hint": "The bread is salt-stained but warm and dense in the wrapping."
+        }
+      ]
+    },
+    "wenna-deal": {
+      "passage": "Wenna breaks the bread in half and you eat together on the mudridge. She tells you the bell at the iron post is hers - she lost it weeks ago when the path swallowed her. She begs you not to ring it. Then she points east, past the haze, where she swears the true path runs.",
+      "choices": [
+        {
+          "label": "trust her path east",
+          "nextNode": "final-stretch",
+          "hint": "Her finger trembles as she points into the swirling fog."
+        },
+        {
+          "label": "head back to the bell",
+          "nextNode": "bell-ghost",
+          "hint": "Her face goes pale the moment you turn that way."
+        }
+      ]
+    },
+    "smuggler-camp": {
+      "passage": "Three figures crouch around a flat-bottomed boat half-grounded in the mud. Crates marked with the seal of a foreign house sit roped under oilcloth. The smugglers have not seen you yet - they are arguing in low voices about tide times. One holds a long knife. Another counts coins onto a wet plank.",
+      "choices": [
+        {
+          "label": "step into the open",
+          "nextNode": "bargain",
+          "hint": "Your worn boots crunch loud against the salt crust as you move."
+        },
+        {
+          "label": "creep closer to listen",
+          "nextNode": "spy-on-smugglers",
+          "hint": "You drop low and breathe slow and quiet through your nose."
+        },
+        {
+          "label": "back away quietly",
+          "nextNode": "the-stakes",
+          "hint": "You move heel-first across the mud, eyes locked on the long knife."
+        }
+      ]
+    },
+    "spy-on-smugglers": {
+      "passage": "From behind a low ridge of mud you catch their words. They speak of a relic stolen from Saint's Isle - a bone reliquary the monks have not yet missed. The boat sails at the next slack tide. One smuggler glances toward the ridge. He frowns. He starts to walk your way.",
+      "choices": [
+        {
+          "label": "ambush him",
+          "nextNode": "ambush-end",
+          "hint": "Your hand finds a fist-sized rock half-buried in the wet mud."
+        },
+        {
+          "label": "rise and bluff",
+          "nextNode": "bargain",
+          "hint": "You stand slowly and force your face into a smile."
+        },
+        {
+          "label": "slip away east",
+          "nextNode": "final-stretch",
+          "hint": "You crawl backward through the wet salt without making any sound."
+        }
+      ]
+    },
+    "bargain": {
+      "passage": "The smugglers eye you over the crates. Their leader is a woman with sea-stained leathers and a silver tooth. She offers you a deal: passage on the boat to a quiet cove for two silver coins, or your silence about what you have seen here. She does not ask which one you choose. She waits.",
+      "choices": [
+        {
+          "label": "pay for passage",
+          "nextNode": "boat-ending",
+          "hint": "The coins are warm from being clutched too long in your hand."
+        },
+        {
+          "label": "swear silence",
+          "nextNode": "silence-deal",
+          "hint": "The smuggler's silver tooth glints brightly as she gives one slow nod."
+        },
+        {
+          "label": "refuse them both",
+          "nextNode": "mudflat",
+          "hint": "Hands grab your collar before you have time to step back."
+        }
+      ]
+    },
+    "silence-deal": {
+      "passage": "You give your word. The smugglers laugh, not unkindly, and the leader points east toward a hidden ridge that runs straight to the holy island. She says the monks do not know it exists, and that suits her trade just fine. She tells you to walk fast. The tide is already turning.",
+      "choices": [
+        {
+          "label": "take the hidden ridge",
+          "nextNode": "final-stretch",
+          "hint": "The smuggler watches you walk until the fog finally hides your shape."
+        },
+        {
+          "label": "double back to the stakes",
+          "nextNode": "mudflat",
+          "hint": "Her laugh follows you across the flats longer than it should."
+        }
+      ]
+    },
+    "quicksand-escape": {
+      "passage": "Lying flat, you drag yourself across the mud one slow inch at a time. The cold seeps through your clothes and into your bones. After what feels like an age, your fingers find a firmer ridge. You pull yourself up onto it, gasping. Saint's Isle still glints somewhere in the murk ahead. The water is closer now.",
+      "choices": [
+        {
+          "label": "sprint for the island",
+          "nextNode": "final-stretch",
+          "hint": "Your tired legs burn with every desperate sliding stride forward."
+        },
+        {
+          "label": "retreat to the shore",
+          "nextNode": "return-shore-ending",
+          "hint": "The mainland looks much closer than it really is from here."
+        }
+      ]
+    },
+    "mud-rescue": {
+      "passage": "Your shout echoes flat across the flats and dies. Then a rope hits the mud beside you. A figure crouches at the edge of a firmer ridge - the smuggler with the silver tooth, watching you with mild amusement. She says she will pull you out for one favor: forget you ever saw her boat.",
+      "choices": [
+        {
+          "label": "agree to her terms",
+          "nextNode": "silence-deal",
+          "hint": "Your hand closes around the wet rope and grips it tight."
+        },
+        {
+          "label": "refuse the favor",
+          "nextNode": "drown-ending",
+          "hint": "Her smile thins and the rope between you goes very still."
+        }
+      ]
+    },
+    "final-stretch": {
+      "passage": "The fog thins for a moment and you see it - Saint's Isle, no more than two hundred paces ahead, its low stone chapel pale against the grey sky. Pilgrim bells ring once from the bell tower. The tide is curling around the far stakes already. You have one good run left in your legs.",
+      "choices": [
+        {
+          "label": "sprint for the chapel",
+          "nextNode": "sanctuary-ending",
+          "hint": "Salt water splashes up around your ankles as you sprint."
+        },
+        {
+          "label": "wade through the rising tide",
+          "nextNode": "drown-ending",
+          "hint": "The tide laps higher and pulls hard at your knees."
+        }
+      ]
+    },
+    "pilgrim-bag": {
+      "passage": "Inside the leather bag you find a small wooden charm carved like a kingfisher, three salt-stiff letters tied with twine, and a single silver coin. The letters are addressed to a woman named Wenna, in handwriting too neat for a pilgrim. The kingfisher charm warms strangely against your palm. The bell beside you sways without any wind.",
+      "choices": [
+        {
+          "label": "pocket the charm",
+          "nextNode": "final-stretch",
+          "hint": "The little wooden bird thrums faintly against your hip as you walk."
+        },
+        {
+          "label": "ring the bell once",
+          "nextNode": "cursed-bell-ending",
+          "hint": "The clapper swings hard before you can finish the thought yourself."
+        },
+        {
+          "label": "leave it all and walk",
+          "nextNode": "mudflat",
+          "hint": "The bag falls back to the salt with a small wet sound."
+        }
+      ]
+    },
+    "sanctuary-ending": {
+      "passage": "You stagger up the wet stone steps of the chapel as the tide closes the path behind you. Brother Halvic's warning rings true - the sea has taken everything west of the second stake. A monk wraps you in a dry cloak and presses warm bread into your hands. The bells ring twice. You have made the pilgrimage.",
+      "choices": [],
+      "ending": {
+        "title": "Saint's Welcome",
+        "flavor": "The bells say what your tongue cannot.",
+        "action": "kneel at the altar"
+      }
+    },
+    "drown-ending": {
+      "passage": "The water finds you before the chapel does. It comes fast, faster than you expect, and the mud below holds you just long enough for the icy sea to climb your knees, your waist, your chest. Somewhere ahead the bells ring twice. Then once more for you. The fog folds gently over the empty place you leave behind.",
+      "choices": [],
+      "ending": {
+        "title": "Drawn Below",
+        "flavor": "The flats keep their pilgrims, in the end.",
+        "action": "let the breath go"
+      }
+    },
+    "cursed-bell-ending": {
+      "passage": "The bell comes loose with a wet sucking sound. The moment your fingers close around the iron, your reflection in a tide pool turns to look at you. Then the mist drinks you whole. You walk for hours. Days. The bell rings in your hand whether you swing it or not. You are still walking.",
+      "choices": [],
+      "ending": {
+        "title": "The Lost Bell",
+        "flavor": "Some pilgrims never reach any shore at all.",
+        "action": "ring the iron bell"
+      }
+    },
+    "boat-ending": {
+      "passage": "Silver coins clink in the smuggler's palm as you climb into the boat. The tide lifts the hull free and the leader throws her shoulder to the long oar. Saint's Isle slides past in the haze without a single bell to mark your passing. The cove they take you to is quiet, lawless, and warm. You eat tonight. You do not pray.",
+      "choices": [],
+      "ending": {
+        "title": "The Silver Cove",
+        "flavor": "Some debts are paid in coin, some in faith.",
+        "action": "step into the boat"
+      }
+    },
+    "return-shore-ending": {
+      "passage": "The mainland calls you home. The path of stakes still holds, and the tide is closer with each step. Brother Halvic meets you at the high tide line, takes one look at your shaking hands, and says nothing. He folds his rope and walks back toward the chapel hostel. You will try again next spring. Maybe.",
+      "choices": [],
+      "ending": {
+        "title": "The Long Walk Back",
+        "flavor": "Some pilgrimages end where they began.",
+        "action": "return your borrowed rope"
+      }
+    },
+    "ambush-end": {
+      "passage": "The rock comes down hard and the smuggler drops without a sound. The other two see you and grab their knives. The tide is rising. The boat is right there. You leap for the oar - and a knife finds your ribs before your hand finds the wood. You fall into the rising water with the boat just out of reach.",
+      "choices": [],
+      "ending": {
+        "title": "The Smuggler's Knife",
+        "flavor": "Greed is heavier than any tide.",
+        "action": "raise the rock"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "id": "5d8a3f1c-7e2b-4a9d-b6c4-1f8e2d5a7c3b",
+  "title": "Quiet Springs",
+  "description": "A mountain bathhouse where pilgrims and nobles soak in uneasy peace. Tonight, a brass cup of pale tea is meant for a woman in a green robe.",
+  "author": "AI",
+  "tags": [
+    "slice-of-life",
+    "mystery"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-05-09",
+  "dayOfYear": "05-09",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Steam coils through the open archway of the bathhouse and the smell of cedar and warm stone fills your lungs. Pilgrims and nobles drift past in white robes. Three paths branch from the entry chamber: a changing room, the main pool ahead, and a small herb alcove tucked to the left. A bell rings somewhere deep inside.",
+      "choices": [
+        {
+          "label": "enter the changing room",
+          "nextNode": "changing-room",
+          "hint": "The cedar floor creaks under your feet as you push the door open."
+        },
+        {
+          "label": "step into the steam",
+          "nextNode": "main-pool",
+          "hint": "Warm mist curls around your shoulders and softens the edges of every shape."
+        },
+        {
+          "label": "visit the herb alcove",
+          "nextNode": "herb-alcove",
+          "hint": "The smell of crushed lavender grows stronger with every quiet step you take."
+        }
+      ]
+    },
+    "changing-room": {
+      "passage": "Wooden cubbies line the walls and wet sandals litter the floor. A lone attendant folds towels with quick, careful hands. On the bench beside you lies a folded note, half hidden under a silk sash. The attendant has not noticed it yet. Down the corridor, laughter rises from the main pool.",
+      "choices": [
+        {
+          "label": "grab the note",
+          "nextNode": "letter-clue",
+          "hint": "The folded parchment is colder than it should be in this warm room."
+        },
+        {
+          "label": "ask the attendant",
+          "nextNode": "attendant-talk",
+          "hint": "She does not look up from the towel, but her hands have slowed."
+        },
+        {
+          "label": "continue to the pool",
+          "nextNode": "main-pool",
+          "hint": "The corridor beyond glows softly with hanging brass lamps and rising steam."
+        }
+      ]
+    },
+    "main-pool": {
+      "passage": "The great pool stretches across a domed chamber, its surface broken by curls of steam. Dozens of bathers murmur in low voices. At the far end, a tall woman in a green robe watches the doorway with quiet, focused eyes. She raises one finger when she sees you. The water laps against carved stone steps.",
+      "choices": [
+        {
+          "label": "approach the woman",
+          "nextNode": "veska-meeting",
+          "hint": "Her green robe gleams wet against the carved steps as you draw nearer."
+        },
+        {
+          "label": "slip toward the grotto",
+          "nextNode": "private-grotto",
+          "hint": "The crowd thins quickly as you slide along the wall toward the side passage."
+        },
+        {
+          "label": "linger by the steps",
+          "nextNode": "watch-servant",
+          "hint": "Warm water laps over your ankles and the murmur of voices grows quieter."
+        }
+      ]
+    },
+    "herb-alcove": {
+      "passage": "Bunches of dried lavender hang from the low ceiling and clay jars line every shelf. An old herbalist grinds something pale in a clay bowl. On a workbench near the back glints a slender glass vial filled with amber liquid. The herbalist has not turned to greet you. Outside the curtain, a bell rings twice.",
+      "choices": [
+        {
+          "label": "pocket the vial",
+          "nextNode": "vial-clue",
+          "hint": "The glass is cool and the cork fits snug between your hidden fingers."
+        },
+        {
+          "label": "speak to the herbalist",
+          "nextNode": "herbalist-talk",
+          "hint": "Her shoulders tense the moment your shadow falls across her workbench."
+        },
+        {
+          "label": "leave the alcove",
+          "nextNode": "main-pool",
+          "hint": "The lavender scent clings to your robes long after the curtain falls behind you."
+        }
+      ]
+    },
+    "letter-clue": {
+      "passage": "The note unfolds in your palm. Three lines of hurried script: Lady Veska. Green robe. Do not let her drink from the east pool. The handwriting is shaky, the ink barely dry. Whoever wrote this is somewhere in the bathhouse right now, and afraid. Outside the changing room, the bell rings again, longer this time.",
+      "choices": [
+        {
+          "label": "find Lady Veska",
+          "nextNode": "veska-meeting",
+          "hint": "Your pulse quickens and the corridor toward the main pool feels longer than before."
+        },
+        {
+          "label": "search the bathhouse",
+          "nextNode": "private-grotto",
+          "hint": "Quiet footsteps lead you through curling mist and unfamiliar passages of cedar and brass."
+        },
+        {
+          "label": "hide the note",
+          "nextNode": "main-pool",
+          "hint": "You tuck the parchment deep beneath your sash where no eye will find it."
+        }
+      ]
+    },
+    "attendant-talk": {
+      "passage": "The attendant lowers her voice when you ask about the bell. 'It rings for a guest who needs the keeper. Tonight it has rung four times.' Her fingers tighten on the towel she is folding. 'Some of the staff are unhappy. A new herb came in this morning.' She glances toward the herb alcove and bites her lip.",
+      "choices": [
+        {
+          "label": "ask about the herb",
+          "nextNode": "herb-alcove",
+          "hint": "Her eyes flick toward the curtained alcove and her voice drops even lower."
+        },
+        {
+          "label": "find the keeper",
+          "nextNode": "keeper-meeting",
+          "hint": "She points you down a side hallway, then turns quickly back to her folding."
+        },
+        {
+          "label": "search for Lady Veska",
+          "nextNode": "veska-meeting",
+          "hint": "Her voice goes very quiet at the name and she will not meet your eyes."
+        }
+      ]
+    },
+    "vial-clue": {
+      "passage": "The vial is warm in your hand and the amber liquid catches the lamplight. A sour scent rises through the cork: wormroot and something sharper underneath. Poison, mixed for a single dose. The herbalist has begun to hum, slow and steady, behind you. Through the curtain, a woman's voice calls for tea.",
+      "choices": [
+        {
+          "label": "carry it to the pool",
+          "nextNode": "veska-meeting",
+          "hint": "The cool glass burns against your palm as you turn toward the main chamber."
+        },
+        {
+          "label": "confront the herbalist",
+          "nextNode": "herbalist-talk",
+          "hint": "Her humming stops the moment you turn around with the vial in your hand."
+        },
+        {
+          "label": "pour it on the floor",
+          "nextNode": "private-grotto",
+          "hint": "Amber liquid hisses against the warm tiles and a sour smell fills the air."
+        }
+      ]
+    },
+    "herbalist-talk": {
+      "passage": "The herbalist looks up at last. Her eyes are pale and tired. 'You should leave,' she says without warning. 'Tonight is not a good night for visitors.' Her hand trembles around the wooden pestle. Behind her, the slender vial of amber liquid is gone from the workbench. A door at the back of the alcove stands ajar.",
+      "choices": [
+        {
+          "label": "demand an answer",
+          "nextNode": "vial-clue",
+          "hint": "Her pale eyes widen and her lips begin to tremble around an old fear."
+        },
+        {
+          "label": "slip through the back door",
+          "nextNode": "shadow-corridor",
+          "hint": "The door swings open onto a narrow hallway that smells of damp iron."
+        },
+        {
+          "label": "return to the main pool",
+          "nextNode": "main-pool",
+          "hint": "You step back through the curtain and the warm noise of bathers rises again."
+        }
+      ]
+    },
+    "private-grotto": {
+      "passage": "A narrow passage leads to a small grotto where three nobles whisper in the steam. They fall silent when you enter. One of them, a thin man with rings on every finger, raises an eyebrow. 'You are not invited.' His tone is calm but his hand drifts toward the dagger laid carefully across his folded robe.",
+      "choices": [
+        {
+          "label": "claim Lady Veska sent you",
+          "nextNode": "veska-meeting",
+          "hint": "His eyes narrow at the name but his hand moves away from the dagger."
+        },
+        {
+          "label": "back out slowly",
+          "nextNode": "main-pool",
+          "hint": "You keep your hands open and visible until the curtain falls between you."
+        },
+        {
+          "label": "ask about the bell",
+          "nextNode": "keeper-meeting",
+          "hint": "The thin man sets his rings down on the bench and folds his fingers."
+        }
+      ]
+    },
+    "shadow-corridor": {
+      "passage": "The back door opens onto a dim corridor lit by a single oil lamp. Wet footprints lead away into the gloom. From around the corner ahead drifts a low voice you do not recognize. 'The cup is poured. Wait for the bell.' A second voice answers, softer. 'And the herbalist?' The first voice laughs once, short and cold.",
+      "choices": [
+        {
+          "label": "creep closer to listen",
+          "nextNode": "midnight-grotto",
+          "hint": "Your bare feet make no sound on the damp tiles as you ease forward."
+        },
+        {
+          "label": "run back to warn Veska",
+          "nextNode": "veska-meeting",
+          "hint": "You take the corner at speed and the brass lamps blur into long streaks."
+        },
+        {
+          "label": "find the keeper",
+          "nextNode": "keeper-meeting",
+          "hint": "Memory of the side hallway carries you toward the keeper's small chamber of brass."
+        }
+      ]
+    },
+    "keeper-meeting": {
+      "passage": "The keeper of the baths is a broad woman with silver-streaked braids and a soaked apron. She listens without interrupting. 'You think someone means harm under my roof,' she says, slow and grim. 'I have suspected as much for two nights.' Her hand closes on a brass key at her belt. 'Show me what you know. Quickly.'",
+      "choices": [
+        {
+          "label": "show her the vial",
+          "nextNode": "signal-keeper",
+          "hint": "She lifts it to the lamp and the amber catches the gleam like fire."
+        },
+        {
+          "label": "offer to bait the killer",
+          "nextNode": "midnight-grotto",
+          "hint": "Her braids swing as she nods, slow and grim, and reaches for her keys."
+        }
+      ]
+    },
+    "veska-meeting": {
+      "passage": "Lady Veska sits on the carved steps of the east pool, her green robe pooled around her ankles. She speaks before you can. 'You move like someone who has seen trouble.' Her voice is low, careful. A servant approaches with a brass cup of pale tea. Veska reaches for it without looking away from your face.",
+      "choices": [
+        {
+          "label": "knock the cup away",
+          "nextNode": "cup-knocked",
+          "hint": "Your arm moves before your thoughts catch up to what you have just done."
+        },
+        {
+          "label": "whisper a warning",
+          "nextNode": "whisper-warning",
+          "hint": "Her perfume smells of jasmine and her ear is closer than you expected."
+        },
+        {
+          "label": "watch the servant closely",
+          "nextNode": "watch-servant",
+          "hint": "The servant's shoulders are too still and his eyes are fixed on the brass cup."
+        }
+      ]
+    },
+    "cup-knocked": {
+      "passage": "The brass cup spins from your hand and tea splashes across the carved steps. The servant freezes. Veska does not flinch. Around you, conversation falls into a long, watching hush. The servant's face goes pale and his fingers tremble against the empty cup. From the herb alcove, the old herbalist steps quietly into view.",
+      "choices": [
+        {
+          "label": "accuse the servant",
+          "nextNode": "accuse-servant",
+          "hint": "Your finger trembles only a little as you raise it across the steaming pool."
+        },
+        {
+          "label": "chase the herbalist",
+          "nextNode": "pursue-herbalist",
+          "hint": "The old woman is already retreating into the curtained shadows of her alcove."
+        },
+        {
+          "label": "ring the gong",
+          "nextNode": "ending-burned-baths",
+          "hint": "The brass rope swings within reach above your head and your hand finds it."
+        }
+      ]
+    },
+    "whisper-warning": {
+      "passage": "You lean close and your breath stirs the loose hair at her ear. 'The tea. Wormroot. Do not.' Veska's hand stops a finger's width from the cup. Her expression does not change but her eyes sharpen, hard as flint. She nods once, slowly, and lowers the cup back to the silver tray. The servant's smile cracks.",
+      "choices": [
+        {
+          "label": "signal the keeper",
+          "nextNode": "signal-keeper",
+          "hint": "You catch the eye of a guard in white and tip your head once."
+        },
+        {
+          "label": "follow the servant",
+          "nextNode": "pursue-herbalist",
+          "hint": "He weaves through the columns of steam with quick, careful steps you must match."
+        },
+        {
+          "label": "spill the cup",
+          "nextNode": "cup-knocked",
+          "hint": "Your hand sweeps the brass cup from the tray in one quick, deliberate motion."
+        }
+      ]
+    },
+    "watch-servant": {
+      "passage": "The servant stands frozen behind a column, his eyes locked on the brass cup. He shifts his weight. He has not blinked. When Veska's fingers touch the cup, his lips part. He is waiting for something. A hand falls on your shoulder from behind, warm and heavy, and a calm voice says, 'You should not be staring.'",
+      "choices": [
+        {
+          "label": "shout a warning",
+          "nextNode": "shout-warning",
+          "hint": "Your throat tightens and your voice cracks loose before you can think it through."
+        },
+        {
+          "label": "find the keeper",
+          "nextNode": "keeper-meeting",
+          "hint": "You ease backward between the columns and away from the steaming pool's edge."
+        },
+        {
+          "label": "knock the cup over",
+          "nextNode": "cup-knocked",
+          "hint": "Your hand moves on its own toward the brass tray and the steaming cup."
+        }
+      ]
+    },
+    "shout-warning": {
+      "passage": "The shout cracks loose from your throat. 'Poison! Don't drink!' Bathers scramble from the pool. The servant bolts for a side door, robes flapping, and Veska rises with a knife already in her hand. The brass cup tumbles, untouched. The keeper bursts in from the corridor, eyes blazing, and her gaze finds you first.",
+      "choices": [
+        {
+          "label": "explain everything",
+          "nextNode": "ending-dawn-truth",
+          "hint": "Your hands open at your sides and the keeper's hard eyes hold yours steady."
+        },
+        {
+          "label": "tail the servant",
+          "nextNode": "pursue-herbalist",
+          "hint": "His robes flap around the corner and your wet feet slap the tiled floor."
+        },
+        {
+          "label": "vanish in the chaos",
+          "nextNode": "ending-quiet-road",
+          "hint": "Bathers stumble past you in every direction and no one watches the side door."
+        }
+      ]
+    },
+    "accuse-servant": {
+      "passage": "You point at the servant and your voice carries across the chamber. 'He poured wormroot in the cup.' The servant drops the silver tray and runs. Veska's bodyguards move from the shadows like wolves. Veska herself rises slowly, watching you with new and dangerous interest. The keeper appears at the doorway, her brass key already in her fist.",
+      "choices": [
+        {
+          "label": "give your name to Veska",
+          "nextNode": "ending-silent-debt",
+          "hint": "Her dark eyes meet yours across the pool and her bodyguards stop on her signal."
+        },
+        {
+          "label": "hunt the servant",
+          "nextNode": "pursue-herbalist",
+          "hint": "His footprints are still wet on the cedar floor and the trail leads east."
+        },
+        {
+          "label": "speak to the keeper",
+          "nextNode": "signal-keeper",
+          "hint": "She lifts her brass key and motions you toward a quiet doorway behind her."
+        }
+      ]
+    },
+    "pursue-herbalist": {
+      "passage": "Bare feet slap cedar as you sprint past columns of steam. The servant is fast but the corridor narrows ahead. He skids around a turn and vanishes through the herb alcove curtain. Inside, the old herbalist waits with the vial in her shaking hand. 'I tried to leave the note,' she whispers. 'They watched me too closely.'",
+      "choices": [
+        {
+          "label": "take the vial as proof",
+          "nextNode": "signal-keeper",
+          "hint": "Her shaking fingers release the glass into your palm without a moment of resistance."
+        },
+        {
+          "label": "promise her safety",
+          "nextNode": "ending-keeper-mantle",
+          "hint": "Her eyes fill with tears and she grips your wrist with surprising strength."
+        },
+        {
+          "label": "press her for the buyer",
+          "nextNode": "midnight-grotto",
+          "hint": "She glances over her shoulder at the back door and her voice drops low."
+        }
+      ]
+    },
+    "midnight-grotto": {
+      "passage": "The hidden grotto smells of damp moss. A figure in a black hood stands beside a shallow basin, swirling something with a wooden rod. Behind him, three robes hang on iron pegs and a coin pouch lies open on a low bench. He has not seen you yet. The brass bell rope dangles from a hole in the ceiling above his head.",
+      "choices": [
+        {
+          "label": "pull the bell rope",
+          "nextNode": "ending-dawn-truth",
+          "hint": "Your fingers close on the rough hemp and the brass voice answers above you."
+        },
+        {
+          "label": "snatch the coin pouch",
+          "nextNode": "ending-quiet-road",
+          "hint": "The leather is heavy with silver and clinks softly as you tuck it away."
+        },
+        {
+          "label": "attack the hooded man",
+          "nextNode": "ending-burned-baths",
+          "hint": "He turns at the sound of your step and his hood slips back an inch."
+        }
+      ]
+    },
+    "signal-keeper": {
+      "passage": "The keeper takes the vial without a word, sniffs once, and her face goes hard as iron. 'Wormroot.' She slips the vial into her sleeve and turns to the gathered bathers. Her voice carries like a temple bell. 'No one drinks from the east pool tonight. No one leaves either.' Guards in white step in from every doorway.",
+      "choices": [
+        {
+          "label": "name the hooded buyer",
+          "nextNode": "ending-dawn-truth",
+          "hint": "The keeper's iron grip tightens on the vial as she hears the noble's name."
+        },
+        {
+          "label": "request Veska's protection",
+          "nextNode": "ending-silent-debt",
+          "hint": "Lady Veska tilts her head and a slow, knowing smile touches her lips."
+        },
+        {
+          "label": "exit the side gate",
+          "nextNode": "ending-quiet-road",
+          "hint": "Mountain air rushes through the cracked door the moment you push it open."
+        }
+      ]
+    },
+    "ending-dawn-truth": {
+      "passage": "Dawn light spills through the high windows of the bathhouse. The servant kneels in chains. The hooded buyer, unmasked, is a rival of Lady Veska's house, and the herbalist tells her story to a circle of witnesses. Veska places one warm hand on your shoulder and says nothing. Her silence is the highest praise she gives.",
+      "choices": [],
+      "ending": {
+        "title": "The Truthful Dawn",
+        "flavor": "Some debts are paid in silence and steam.",
+        "action": "step into the morning sun"
+      }
+    },
+    "ending-silent-debt": {
+      "passage": "Veska leads you through a side door into a quiet courtyard where dawn has not yet broken. She presses a heavy silver coin into your palm. 'My house remembers,' she says. 'Send word when you need a friend.' Her bodyguards walk you to the gate. The bathhouse keeps its quiet, and so do you.",
+      "choices": [],
+      "ending": {
+        "title": "A Friend in Veska",
+        "flavor": "The coin is warm and the door is open.",
+        "action": "pocket the silver coin"
+      }
+    },
+    "ending-quiet-road": {
+      "passage": "Cold air bites your cheeks as you slip out through the side gate and onto the mountain road. Behind you the bathhouse glows soft against dark trees. You carry no proof, no name, no reward. But the truth of what you saw is a thing some men would pay a kingdom for. The road bends north.",
+      "choices": [],
+      "ending": {
+        "title": "The Long Road North",
+        "flavor": "Truth weighs more than silver, and travels lighter.",
+        "action": "walk into the dark"
+      }
+    },
+    "ending-burned-baths": {
+      "passage": "Steam and shouting fill the chamber. A lamp tips. Hot oil meets dry cedar and the bathhouse takes fire faster than anyone believes possible. You stagger out into the snow with your robes still smoking. Behind you, the cries grow loud, then quieter, then stop. The keeper is not among those who reach the cold mountain air.",
+      "choices": [],
+      "ending": {
+        "title": "Ashes in the Snow",
+        "flavor": "Some questions should never be asked aloud.",
+        "action": "kneel in the ash"
+      }
+    },
+    "ending-keeper-mantle": {
+      "passage": "The herbalist weeps with relief in your arms. Word reaches the keeper before the killers can return. By dawn, the old woman is on a wagon south, safe with her sister, and the keeper offers you the empty post at the alcove herself. The pay is poor. The work is steady. The mountain holds many secrets.",
+      "choices": [],
+      "ending": {
+        "title": "Keeper of the Alcove",
+        "flavor": "Lavender and patience and the long quiet years.",
+        "action": "tie on the herbalist's apron"
+      }
+    }
+  }
+}

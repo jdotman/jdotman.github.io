@@ -1,0 +1,323 @@
+{
+  "id": "e5f1b3c2-7a9d-4e8c-b6f4-3c2a9d5e1f7b",
+  "title": "Singing Stones",
+  "description": "At St. Cauldric's, the walls have begun to sing at midnight. A pilgrim's child has vanished into the catacombs below, and the abbot says the mountain is owed a life.",
+  "author": "AI",
+  "tags": [
+    "mystery",
+    "sacrifice"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-05-29",
+  "dayOfYear": "05-29",
+  "endingCount": 5,
+  "storyNumber": 57,
+  "startNode": "chapel-hall",
+  "nodes": {
+    "chapel-hall": {
+      "passage": "Candles gutter in the stone chapel of St. Cauldric's. Midnight nears. The monks stand in silent ranks, lips pressed thin, because tonight the walls themselves have begun to sing. A low deep-throat hum thrums beneath your feet. A pilgrim mother weeps in the cloister doorway - her child, Inea, has vanished. The abbot stares at the catacomb stair and says nothing.",
+      "choices": [
+        {
+          "label": "climb to the bell tower",
+          "nextNode": "bell-tower",
+          "hint": "The singing is loudest up there, where the brass bell hangs mute."
+        },
+        {
+          "label": "visit the abbot's study",
+          "nextNode": "abbot-study",
+          "hint": "His lamp still burns though his chamber door is barred shut."
+        },
+        {
+          "label": "walk the cloister",
+          "nextNode": "cloister-walk",
+          "hint": "The mother's sobbing carries past the fountain and along the pillars."
+        }
+      ]
+    },
+    "bell-tower": {
+      "passage": "A spiral stair climbs to the bell loft. The brass bell hangs mute on its iron yoke. Here the singing is loudest - not one voice but many, woven in slow chords beneath the boards and shaking dust from the rafters in pale rings. A pull-rope dangles. Through the slit-window, the moon lies low over the gorge.",
+      "choices": [
+        {
+          "label": "listen to the song below",
+          "nextNode": "stone-truth",
+          "hint": "The chord under the floorboards begins to form something like words."
+        },
+        {
+          "label": "ring the alarm bell",
+          "nextNode": "alarm-rung",
+          "hint": "A single heaved pull should wake every sleeper in the cloister below."
+        }
+      ]
+    },
+    "abbot-study": {
+      "passage": "Abbot Odric's study smells of beeswax and fear-sweat. Parchments lie scattered, all pointing to the same cave-mouth below. He pales. He sees you, fumbles a brass key back into his belt, and covers the parchments with a damp sleeve too late to hide what he has been studying. 'The mountain takes what it is owed,' he rasps. A side door stands half open behind him.",
+      "choices": [
+        {
+          "label": "demand the truth from him",
+          "nextNode": "abbot-confess",
+          "hint": "His jaw works but the words refuse to rise from his throat."
+        },
+        {
+          "label": "steal the brass key",
+          "nextNode": "steal-key",
+          "hint": "The key is warm from his hip and heavier than it looks."
+        }
+      ]
+    },
+    "cloister-walk": {
+      "passage": "The cloister runs square around a moss fountain gone still at midnight. A pilgrim woman kneels by the basin with her shawl knotted in both fists, whispering her daughter's name over and over to the empty fountain water. 'Inea,' she says. 'Where are you, Inea.' A pair of novices cluster under the south arch, whispering behind their hands, and both fall quiet when you pass.",
+      "choices": [
+        {
+          "label": "kneel with the mother",
+          "nextNode": "mother-plea",
+          "hint": "The basin is colder than any night air should leave it."
+        },
+        {
+          "label": "question the novices",
+          "nextNode": "novice-whisper",
+          "hint": "The youngest one flinches as soon as your shadow falls on him."
+        }
+      ]
+    },
+    "alarm-rung": {
+      "passage": "The rope is heavy. You haul with both hands and the brass bell answers at last, one deep copper-gold clang rolling down the gorge and then another and then another. Lamps flare. The singing beneath the boards rises to a howl and does not stop. Below, the abbot bursts into the cloister in night-robes, his face white as chalk.",
+      "choices": [
+        {
+          "label": "confront the abbot now",
+          "nextNode": "abbot-confront",
+          "hint": "His wide eyes say everything his pressed lips are refusing to speak."
+        },
+        {
+          "label": "race for the catacomb stair",
+          "nextNode": "catacomb-stair",
+          "hint": "The sound below pulls you like a rope tied behind your ribs."
+        }
+      ]
+    },
+    "abbot-confess": {
+      "passage": "Odric's shoulders fold. He sets the key on the desk and does not meet your eye. 'Every twenty years the stones sing, a child walks willing into the deep, and the mountain sleeps again - we do not choose, we only open the gate.' His voice cracks. 'I cannot do it this time. Take the key. Or refuse me.'",
+      "choices": [
+        {
+          "label": "accept his key",
+          "nextNode": "catacomb-stair",
+          "hint": "The brass is warm and heavier than the weight he laid down."
+        },
+        {
+          "label": "refuse the ritual",
+          "nextNode": "abbot-confront",
+          "hint": "Something in your voice lifts his eyes; he looks almost grateful."
+        }
+      ]
+    },
+    "steal-key": {
+      "passage": "Odric turns his back for one breath - long enough - and the brass key slides into your palm, cool and heavy. A pair of robed novices pass outside in hushed procession. The abbot's side door opens onto a narrow hall that drops three flights to the cave-mouth. Your pulse hammers. The key feels like guilt and permission both.",
+      "choices": [
+        {
+          "label": "slip out the side door",
+          "nextNode": "catacomb-stair",
+          "hint": "The narrow hall smells of wet rock and the singing grows louder."
+        },
+        {
+          "label": "lift a lantern first",
+          "nextNode": "catacomb-stair",
+          "hint": "A small flame against the deep pit seems very thin right now."
+        }
+      ]
+    },
+    "mother-plea": {
+      "passage": "The woman's hands are raw from gripping the pew. 'She went to fetch water - just to the well - and the walls opened like a mouth and swallowed her before I could scream.' She grips your wrist. 'Please. My Inea is alone down there. I have no one else. Only you.'",
+      "choices": [
+        {
+          "label": "promise to find Inea",
+          "nextNode": "catacomb-stair",
+          "hint": "Her grip loosens only when you look her straight in the eyes."
+        },
+        {
+          "label": "ask what else she saw",
+          "nextNode": "stone-truth",
+          "hint": "Her voice drops to a whisper as she describes the song itself."
+        }
+      ]
+    },
+    "novice-whisper": {
+      "passage": "The youngest novice will not meet your eye. The taller one speaks for both, voice flat with held-back panic, and his lips tremble as every word scrapes out of his throat against his will. 'The walls breathe every twenty years. The abbot opens the lower gate. Someone small is always chosen. We sealed our ears with wax tonight.'",
+      "choices": [
+        {
+          "label": "press them for the song",
+          "nextNode": "stone-truth",
+          "hint": "The taller boy pulls the wax from one ear and winces at once."
+        },
+        {
+          "label": "dismiss their fear and go",
+          "nextNode": "catacomb-stair",
+          "hint": "Their eyes follow your back with something that is not quite relief."
+        }
+      ]
+    },
+    "stone-truth": {
+      "passage": "You stop your ears with two fingers, then let one finger slip. The song becomes words - old words, older than the monastery, older than the road that brought you here. A pact is named. Every generation, one willing child, given to the deep so the peak stays still. The offering is due at moonrise. There is no trick in it.",
+      "choices": [
+        {
+          "label": "agree to the old pact",
+          "nextNode": "catacomb-stair",
+          "hint": "Your feet turn toward the stair before your mind has agreed."
+        },
+        {
+          "label": "reject the whole thing",
+          "nextNode": "abbot-confront",
+          "hint": "The words burn in your chest as you storm back to the abbot."
+        }
+      ]
+    },
+    "catacomb-stair": {
+      "passage": "The catacomb door is studded iron and the brass key turns sweet. You descend. A spiral stair drops into a throat of blacker dark, each step polished smooth by centuries of bare feet. The singing up here is louder, wetter, almost tender. Two tunnels branch at the bottom - one runs west to the monk-crypt, the other east where blue light pulses in slow waves.",
+      "choices": [
+        {
+          "label": "head west to the crypt",
+          "nextNode": "crypt-hall",
+          "hint": "The monk-crypt whispers of older dead, older pacts, older prices."
+        },
+        {
+          "label": "follow the east glow",
+          "nextNode": "singing-chamber",
+          "hint": "The blue pulse ahead flickers in rhythm with the chord below."
+        }
+      ]
+    },
+    "crypt-hall": {
+      "passage": "Low niches line both walls, each holding a robed skull with a coin between its teeth, and the air smells of wet chalk and iron. Ahead, an iron gate blocks the passage. To the side, a low archway leads into an alcove clotted with older bones. Something breathes. A girl's voice whispers your name.",
+      "choices": [
+        {
+          "label": "open the iron gate",
+          "nextNode": "deep-well",
+          "hint": "The gate hinges groan like a voice that has not spoken in years."
+        },
+        {
+          "label": "search the alcove",
+          "nextNode": "child-found",
+          "hint": "A small shape curls beneath a shroud of bone-dust and fear."
+        }
+      ]
+    },
+    "singing-chamber": {
+      "passage": "The east tunnel opens into a great round chamber carved from blue-black rock, and the walls are not smooth - they bow outward, as if breathing. You stop. Runes run along them in lines older than any alphabet and each one glows with the chord. A small shoe lies in the center of the floor. Past it, a crack yawns down into black water.",
+      "choices": [
+        {
+          "label": "approach the singing wall",
+          "nextNode": "stone-wall",
+          "hint": "Its glow warms your face like a hearth on a winter night."
+        },
+        {
+          "label": "descend toward the crack",
+          "nextNode": "deep-well",
+          "hint": "The crack widens as you near; echoes ripple off the depth."
+        }
+      ]
+    },
+    "deep-well": {
+      "passage": "The crack widens into a black shaft that drops further than your lantern-beam can reach, and at the bottom voices rise through a deep flooded cistern. A small pale thing, a braid of fair hair, floats on the surface far below. A coil of old rope lies near your feet. The singing pulls at your knees.",
+      "choices": [
+        {
+          "label": "dive in after the child",
+          "nextNode": "drowned-ending",
+          "hint": "Your boots clatter off on the edge before your mind agrees."
+        },
+        {
+          "label": "toss down the old rope",
+          "nextNode": "child-found",
+          "hint": "The coils uncurl down the shaft and thump against the wet rock."
+        }
+      ]
+    },
+    "stone-wall": {
+      "passage": "The runes blaze. Heat rolls off the wall in pulses. You understand the chord without wanting to - a bargain, a mouth, a taker that has been fed for longer than any record in the monastery remembers. Behind you, the small shoe lies alone. Somewhere below, a child still breathes. The wall opens a hand-shaped hollow at chest height.",
+      "choices": [
+        {
+          "label": "offer your own life",
+          "nextNode": "sacrifice-ending",
+          "hint": "Your palm presses into the hollow and the wall accepts it."
+        },
+        {
+          "label": "flee the chamber",
+          "nextNode": "stone-ending",
+          "hint": "Your boots slip on glass-smooth floor as the chord rises in pitch."
+        }
+      ]
+    },
+    "child-found": {
+      "passage": "She is small and curled and alive. Her hair is damp, her eyes glazed, her lips moving in the chord she has started to learn. She looks up when you speak her name. 'The walls are warm,' she says, in a voice too old. She reaches for your hand. 'He said I would be brave.' Footsteps begin above you.",
+      "choices": [
+        {
+          "label": "carry her back up",
+          "nextNode": "child-saved-ending",
+          "hint": "She weighs almost nothing against your shoulder as you run."
+        },
+        {
+          "label": "wait for the abbot",
+          "nextNode": "abbot-confront",
+          "hint": "The footsteps above pause, then continue again, slower now, heavier and deliberate."
+        }
+      ]
+    },
+    "abbot-confront": {
+      "passage": "Odric stands in the passage with a candle in one trembling hand and a curved knife in the other, and wax drips unheeded down his wrist onto the worn steps. He is weeping without sound. 'Please,' he says. 'The mountain will not be denied. Step aside. Or take my place at the wall - your name instead of hers.' The knife shakes in his grip.",
+      "choices": [
+        {
+          "label": "expose his scheme aloud",
+          "nextNode": "flight-ending",
+          "hint": "Your voice carries up the stair and wakes the brothers in their cells."
+        },
+        {
+          "label": "bow to the old ritual",
+          "nextNode": "sacrifice-ending",
+          "hint": "Your hand rises on its own toward the hollow in the glowing wall."
+        }
+      ]
+    },
+    "drowned-ending": {
+      "passage": "You hit the surface and the chord becomes a mouth. It is warm. It is wrong. The braid drifts past you untouched - it is no hair at all, only a lure. You swim, and the voices swim with you, and the surface is already farther than you remember, and the singing will have you both tonight.",
+      "choices": [],
+      "ending": {
+        "title": "The Mountain's Mouth",
+        "flavor": "Some songs only end when there is no voice left to answer.",
+        "action": "leap into the shaft"
+      }
+    },
+    "stone-ending": {
+      "passage": "The floor flexes like tongue beneath you. One step, two, and the glass-smooth surface tilts and folds, and runes close around your ankles, and the wall opens and takes you in the child's place without a sound. Above, the singing finally stops. Inea wakes on the altar floor and does not remember her name. The mountain sleeps.",
+      "choices": [],
+      "ending": {
+        "title": "In Her Place",
+        "flavor": "The mountain is not picky. Any willing voice will do.",
+        "action": "step onto the glass floor"
+      }
+    },
+    "child-saved-ending": {
+      "passage": "Inea is a warm weight against your shoulder as you climb. The singing rises, falls, and slowly ebbs. At the top, Abbot Odric stands in the stair-mouth, knife lowered. His shoulders fall. He lets you pass. Dawn breaks pale over the gorge as you set the child in her mother's arms, and the mountain stays silent.",
+      "choices": [],
+      "ending": {
+        "title": "Dawn at the Gorge",
+        "flavor": "Some songs end when a stubborn heart says no.",
+        "action": "carry her up the stair"
+      }
+    },
+    "sacrifice-ending": {
+      "passage": "The hollow fits your palm like a glove of living stone. The chord climbs a note, and another, and begins to say your true name out loud in a language that is older than any tongue you have ever spoken. Warmth pours in. You become chord. Inea is led up the stair, alive. The mountain sleeps with you inside it.",
+      "choices": [],
+      "ending": {
+        "title": "A Voice Inside the Peak",
+        "flavor": "The price was never a child. The price was a willing heart.",
+        "action": "press your palm in"
+      }
+    },
+    "flight-ending": {
+      "passage": "Your voice cuts louder than the chord. 'The mountain is not owed. It only takes what you feed it.' Odric sags. The novices come running with the mother close behind them, and Inea is carried up into the dawn air where she belongs at last. By dawn the monastery is empty. The brothers walk the road in bare feet.",
+      "choices": [],
+      "ending": {
+        "title": "Bare Feet on the Road",
+        "flavor": "Some pacts only bind those who agree to hear them.",
+        "action": "break the old pact"
+      }
+    }
+  }
+}

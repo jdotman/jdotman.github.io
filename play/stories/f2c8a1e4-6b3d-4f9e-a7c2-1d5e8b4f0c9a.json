@@ -1,0 +1,359 @@
+{
+  "id": "f2c8a1e4-6b3d-4f9e-a7c2-1d5e8b4f0c9a",
+  "title": "Thornwick Exchange",
+  "description": "A locked box arrives on your doorstep the same morning you owe a guild debt by nightfall. In Thornwick Market, every buyer has their price - but not every seller knows theirs.",
+  "author": "AI",
+  "tags": [
+    "slice-of-life",
+    "negotiation"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-09",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "You are standing at Thornwick Market gate on a crisp autumn morning, a locked box tucked under your arm. You owe the Merchant's Guild fifteen gold by nightfall or lose your trading license. The box arrived on your doorstep this morning with a note: sell this, and keep what remains.",
+      "choices": [
+        {
+          "label": "head to merchant row",
+          "nextNode": "merchant-row",
+          "hint": "The smell of spice and fresh bread drifts from the busy lane ahead."
+        },
+        {
+          "label": "visit the Barrel and Beam",
+          "nextNode": "tavern",
+          "hint": "The old tavern sign creaks in the breeze above its worn door."
+        },
+        {
+          "label": "check the auction house",
+          "nextNode": "auction-house",
+          "hint": "A crowd is already gathering near the Exchange hall doors."
+        }
+      ]
+    },
+    "merchant-row": {
+      "passage": "The merchant row buzzes with voices, spice, and bright cloth. Two buyers catch your eye at once. Aldric, a grey-bearded tinker, tends his stall near the fountain with steady hands and an honest face. Across the lane, Lady Calverion stands in green silk flanked by guards, watching the crowd as if she owns it.",
+      "choices": [
+        {
+          "label": "approach the tinker",
+          "nextNode": "aldric-meet",
+          "hint": "Aldric looks up from his work and nods as you draw near."
+        },
+        {
+          "label": "walk toward Calverion",
+          "nextNode": "calverion-meet",
+          "hint": "Her guards watch you the moment you step in her direction."
+        },
+        {
+          "label": "linger and listen first",
+          "nextNode": "overhear-talk",
+          "hint": "You pretend to browse a stall and let the crowd talk around you."
+        }
+      ]
+    },
+    "overhear-talk": {
+      "passage": "You browse a cloth stall and let conversation wash over you. Two men in dark coats speak in low voices nearby. You catch the words locked box, Old Quarter, and paying handsomely for its return. Whatever is in your box, more than one party already knows it exists and wants it badly.",
+      "choices": [
+        {
+          "label": "follow the men",
+          "nextNode": "follow-guild",
+          "hint": "You keep your distance and match their pace through the crowd."
+        },
+        {
+          "label": "approach Aldric instead",
+          "nextNode": "aldric-meet",
+          "hint": "The tinker's stall feels safer than chasing strangers through alleys."
+        }
+      ]
+    },
+    "follow-guild": {
+      "passage": "You trail the men through winding lanes until they stop at a narrow door marked with a feather and inkpot. A sign reads: Merin's Archive. One man enters while the second watches the lane. He has not seen you yet but his eyes sweep the street with care. The archive door is still ajar.",
+      "choices": [
+        {
+          "label": "enter the archive",
+          "nextNode": "archive-visit",
+          "hint": "You slip past the watchman while his gaze sweeps the far end."
+        },
+        {
+          "label": "return to the market",
+          "nextNode": "merchant-row",
+          "hint": "You back away slowly and let the crowd swallow you again."
+        }
+      ]
+    },
+    "archive-visit": {
+      "passage": "Inside, a slight man with ink-stained fingers looks up from a desk buried under papers. He is Merin, archivist of the Lore Guild. He says the box contains a brass key to a vault sealed for sixty years, holding documents that matter to powerful people. He offers twenty gold now and twenty more on delivery.",
+      "choices": [
+        {
+          "label": "accept Merin's offer",
+          "nextNode": "guild-job",
+          "hint": "Twenty gold coins glint on the desk between you."
+        },
+        {
+          "label": "decline and sell elsewhere",
+          "nextNode": "merchant-row",
+          "hint": "You tuck the box tighter under your arm and turn to leave."
+        }
+      ]
+    },
+    "guild-job": {
+      "passage": "Merin counts twenty gold coins into your palm and hands you a wax-sealed letter for the vault keeper in the Old Quarter. The key inside the box, he says, will open a door shut before your grandfather was born. He urges you to go quickly and speak to no one along the way.",
+      "choices": [
+        {
+          "label": "go to the Old Quarter",
+          "nextNode": "vault-opened",
+          "hint": "The sealed letter feels heavy in your pocket as you step outside."
+        },
+        {
+          "label": "pocket the gold and vanish",
+          "nextNode": "betray-merin",
+          "hint": "Twenty gold is already more than you expected this morning."
+        }
+      ]
+    },
+    "betray-merin": {
+      "passage": "You are two streets clear of the market when doubt curdles into something worse. Twenty gold is twenty gold. The Old Quarter is a long walk and vaults are none of your concern. You adjust course toward the city gate. Behind you somewhere, Merin is already sending men after his investment.",
+      "choices": [
+        {
+          "label": "run for the gate",
+          "nextNode": "run-caught",
+          "hint": "Your boots pound the cobblestones as the city gate comes into view."
+        },
+        {
+          "label": "turn back and reconsider",
+          "nextNode": "guild-job",
+          "hint": "A guilty knot tightens in your stomach with every step."
+        }
+      ]
+    },
+    "aldric-meet": {
+      "passage": "Aldric sets down his tools and examines the box with care, turning it slowly and pressing each panel. He does not try to force it open. He offers twelve gold. It is what the mahogany and brass are worth to him, he says, and he means every word of it. Lady Calverion is visible across the lane.",
+      "choices": [
+        {
+          "label": "accept twelve gold",
+          "nextNode": "aldric-low",
+          "hint": "The coins are warm from his palm as he counts them into yours."
+        },
+        {
+          "label": "bargain for more",
+          "nextNode": "bargain-aldric",
+          "hint": "You turn the box in your hands and let the silence do the work."
+        },
+        {
+          "label": "thank him and move on",
+          "nextNode": "calverion-meet",
+          "hint": "Aldric nods without offense and returns to his workbench."
+        }
+      ]
+    },
+    "bargain-aldric": {
+      "passage": "Aldric scratches his beard and looks at the box again. He says honestly that twelve gold is what the materials are worth and he does not know what is inside. He could go to fifteen, his hard limit, and he will not regret losing the sale if you say no. His eyes are steady and patient.",
+      "choices": [
+        {
+          "label": "accept fifteen gold",
+          "nextNode": "aldric-deal",
+          "hint": "He counts the coins with practiced speed and slides them across."
+        },
+        {
+          "label": "push for even more",
+          "nextNode": "push-too-far",
+          "hint": "Something shifts behind his eyes when you name a higher number."
+        }
+      ]
+    },
+    "push-too-far": {
+      "passage": "Aldric closes his hands and turns back to his workbench. That is his final word. You stand in the market lane holding your box and fewer options than you started with. Across the market, Lady Calverion's green silk catches the light. She is still watching. Down the lane, the Barrel and Beam sign sways in the breeze.",
+      "choices": [
+        {
+          "label": "approach Lady Calverion",
+          "nextNode": "calverion-meet",
+          "hint": "Her guards part slightly as you cross the lane toward her."
+        },
+        {
+          "label": "try the Barrel and Beam",
+          "nextNode": "tavern",
+          "hint": "The tavern door is propped open and the fire inside looks warm."
+        }
+      ]
+    },
+    "calverion-meet": {
+      "passage": "Lady Calverion looks at your box as if she has been expecting it. Her expression is smooth and unhurried. She offers thirty gold without asking what is inside or even touching it. One of her guards takes a half step closer. Everything about her suggests she already knows exactly what the box contains.",
+      "choices": [
+        {
+          "label": "accept thirty gold",
+          "nextNode": "accept-calverion",
+          "hint": "She snaps her fingers and a guard produces a heavy coin purse."
+        },
+        {
+          "label": "ask what she knows",
+          "nextNode": "question-calverion",
+          "hint": "Her calm smile does not waver as you study her face."
+        },
+        {
+          "label": "refuse and back away",
+          "nextNode": "flee-calverion",
+          "hint": "Something in her stillness makes the hair on your neck stand up."
+        }
+      ]
+    },
+    "question-calverion": {
+      "passage": "She smiles like a woman who rarely needs to explain herself. She says the box was stolen from her family estate years ago and she simply wants it returned. Her offer rises to thirty-five gold. Her guards shift subtly closer. You are no longer certain who is conducting this transaction. The crowd behind you still churns.",
+      "choices": [
+        {
+          "label": "accept thirty-five gold",
+          "nextNode": "accept-calverion",
+          "hint": "The weight of the coins in her hand looks very real and very heavy."
+        },
+        {
+          "label": "escape into the crowd",
+          "nextNode": "escape-calverion",
+          "hint": "A gap opens between two market carts just wide enough to slip through."
+        }
+      ]
+    },
+    "escape-calverion": {
+      "passage": "You duck under a cart and push through a cluster of shoppers before the guard can close the gap. Calverion's voice rises behind you but the market crowd swallows you whole. You emerge at the far end of the merchant row, breathing hard, box still under your arm. Aldric's stall and the Barrel and Beam are both in sight.",
+      "choices": [
+        {
+          "label": "find Aldric's stall",
+          "nextNode": "aldric-meet",
+          "hint": "The tinker is right where you left him, working with steady hands."
+        },
+        {
+          "label": "duck into the tavern",
+          "nextNode": "tavern",
+          "hint": "You shoulder through the tavern door and let it swing shut behind you."
+        }
+      ]
+    },
+    "flee-calverion": {
+      "passage": "Something in her stillness makes the decision for you. You step back with a polite excuse and disappear into the crowd before her guards can react. The box is still yours and so is your freedom to choose. Aldric's fountain stall is nearby. Further down the lane you can see the auction house.",
+      "choices": [
+        {
+          "label": "find the tinker's stall",
+          "nextNode": "aldric-meet",
+          "hint": "Aldric glances up from his work as you approach a second time."
+        },
+        {
+          "label": "try the auction house",
+          "nextNode": "auction-house",
+          "hint": "A hand-painted sign reads: Next Auction, This Afternoon."
+        }
+      ]
+    },
+    "tavern": {
+      "passage": "The Barrel and Beam is warm with fire and low conversation. Goswick, a round-faced auctioneer you know by reputation, waves from the corner table. A woman in plain grey sits alone by the hearth, watching your box with practiced calm. Two different kinds of opportunity are waiting in this room.",
+      "choices": [
+        {
+          "label": "sit with the woman",
+          "nextNode": "courier-meet",
+          "hint": "She does not look surprised when you pull out the chair."
+        },
+        {
+          "label": "wave back to Goswick",
+          "nextNode": "goswick-talk",
+          "hint": "His grin widens as he kicks the chair across from him out for you."
+        }
+      ]
+    },
+    "courier-meet": {
+      "passage": "She is a courier for the Lore Guild, carrying standing instructions to pay a finder's fee when this box surfaces anywhere in the city market. She slides a small purse across the table. Twenty gold now, she says, and a sealed letter for the vault keeper in the Old Quarter. Twenty more on arrival.",
+      "choices": [
+        {
+          "label": "accept the courier's terms",
+          "nextNode": "vault-opened",
+          "hint": "The purse is heavier than it looks when you lift it from the table."
+        },
+        {
+          "label": "ask Goswick about auction",
+          "nextNode": "goswick-talk",
+          "hint": "You glance toward the corner table where Goswick is still waving."
+        }
+      ]
+    },
+    "goswick-talk": {
+      "passage": "Goswick leans in close and speaks quietly. He runs the Thornwick Exchange auction house and for a ten-percent commission he can put your box before the best buyers in three counties this very afternoon. He expects bidding to clear forty gold, perhaps more. He raises his drink and waits for your answer.",
+      "choices": [
+        {
+          "label": "agree to the auction",
+          "nextNode": "auction-house",
+          "hint": "Goswick stands and claps you on the shoulder with a broad grin."
+        },
+        {
+          "label": "decline and try the market",
+          "nextNode": "merchant-row",
+          "hint": "You thank him and step back out into the autumn air."
+        }
+      ]
+    },
+    "auction-house": {
+      "passage": "The Exchange is a long hall with tiered benches and oil lanterns. Goswick introduces your box from the platform with suitable theater. Three paddles rise from the crowd: Aldric in the back row, Lady Calverion near the front, and a hooded figure seated to one side. Bidding opens at ten gold.",
+      "choices": [
+        {
+          "label": "let the auction proceed",
+          "nextNode": "auction-end",
+          "hint": "Goswick's voice rings out across the hall as the first bid lands."
+        },
+        {
+          "label": "pull the box from sale",
+          "nextNode": "merchant-row",
+          "hint": "Goswick frowns but hands the box back without argument."
+        }
+      ]
+    },
+    "vault-opened": {
+      "passage": "The vault door stands at the base of a crumbling tower in the Old Quarter. The keeper reads your letter and opens the box herself, lifting out the brass key. The lock accepts it with a sound like a long sigh. She presses forty gold into your hands. Your debt is cleared with coin to spare.",
+      "choices": [],
+      "ending": {
+        "title": "The Right Errand",
+        "flavor": "Not every locked box holds treasure - some hold something the world was waiting to find.",
+        "action": "turn the key in the lock"
+      }
+    },
+    "run-caught": {
+      "passage": "They catch you at the end of a blind lane two blocks from the gate. Merin's men are fast and thorough. They recover the twenty gold, the box, and your guild papers for good measure. Merin does not come himself or send a message. You walk home in the afternoon sun with nothing but the lesson.",
+      "choices": [],
+      "ending": {
+        "title": "A Poor Investment",
+        "flavor": "The fastest road to nothing is the short cut through easy coin.",
+        "action": "drop the empty purse"
+      }
+    },
+    "aldric-low": {
+      "passage": "Twelve gold is three short of your debt. You carry it to the guild hall and negotiate an extension with a clerk who has seen this before. Thirty more days. It is a narrow ledge to stand on, but your license is intact and you are still in business. For now, that is enough.",
+      "choices": [],
+      "ending": {
+        "title": "Good Enough for Today",
+        "flavor": "A partial solution beats a perfect problem, as any working merchant learns.",
+        "action": "sign the extension papers"
+      }
+    },
+    "aldric-deal": {
+      "passage": "Fifteen gold exactly. Aldric counts the coins with practiced speed and shakes your hand. The walk to the guild hall takes ten minutes. The clerk stamps your license renewal without looking up. Outside in the autumn sun you have nothing left but a clear debt, a valid license, and a fair day behind you.",
+      "choices": [],
+      "ending": {
+        "title": "A Fair Day's Work",
+        "flavor": "Honest coin from an honest buyer is worth more than a sharper deal made badly.",
+        "action": "pocket the stamped license"
+      }
+    },
+    "accept-calverion": {
+      "passage": "She counts the coins into your hands with crisp efficiency. More than enough to clear your debt. Walking home, you pass a broadsheet pinned to a post. Crown Seeks Stolen Documents. The illustration matches your box exactly. You walk faster and do not look back. The gold is real. The rest is someone else's problem.",
+      "choices": [],
+      "ending": {
+        "title": "Sold and Forgotten",
+        "flavor": "Gold buys a clear debt and a conscience you would rather not examine.",
+        "action": "walk faster past the broadsheet"
+      }
+    },
+    "auction-end": {
+      "passage": "Calverion wins at thirty-eight gold. After Goswick's cut you pocket thirty-four, more than enough for your debt. As her guard carries the box out, the hooded figure rises and follows without a word. Goswick hands you your coins with a smile. A legal sale in a public room. What comes next is not your problem.",
+      "choices": [],
+      "ending": {
+        "title": "Sold by the Gavel",
+        "flavor": "The auction house settles all debts and asks no questions of the seller.",
+        "action": "collect your coins and leave"
+      }
+    }
+  }
+}

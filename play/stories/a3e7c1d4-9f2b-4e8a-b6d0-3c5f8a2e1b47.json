@@ -1,0 +1,218 @@
+{
+  "id": "a3e7c1d4-9f2b-4e8a-b6d0-3c5f8a2e1b47",
+  "title": "Wards of Iron",
+  "description": "Imprisoned in a sorcerer's tower for a crime you didn't commit, you must outwit magical wards and ruthless guards to reclaim your freedom before the next moon rises.",
+  "author": "AI",
+  "tags": ["escape", "trickery"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-16",
+  "dayOfYear": "05-31",
+  "endingCount": 6,
+  "storyNumber": 59,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Rust and sweat. The cell reeks of both, a sour tang that clings to your tongue and throat. A collar of etched bronze clasps your neck, humming with enchantment that dulls every spell you attempt. Beyond the bars, a corridor echoes with dripping. A bell tolls twice above. Second watch. The guard rotation leaves one brief gap near the stairwell each night.",
+      "choices": [
+        { "label": "test the collar", "nextNode": "test_collar", "hint": "You press your fingers against the bronze runes, searching for any flaw." },
+        { "label": "call to the next cell", "nextNode": "neighbor", "hint": "You whisper through the gap in the wall toward whatever prisoner sits beyond." },
+        { "label": "pick the lock", "nextNode": "lockpick", "hint": "You slide the bone shard you've been sharpening against the cell door's mechanism." }
+      ]
+    },
+    "test_collar": {
+      "passage": "Cool. One glyph near the clasp feels cooler than the rest, its edges worn smooth by some prior captive's desperate effort over months or years. Your fingertips trace each rune and most burn at your touch, but this one pulses faintly when pressed. Not broken, but weakened. Given time, you might crack it open or force raw will through the flaw.",
+      "choices": [
+        { "label": "work the weakened glyph", "nextNode": "break_collar", "hint": "You dig your thumbnail into the worn rune, pushing magic against its fracture." },
+        { "label": "save it for later", "nextNode": "neighbor", "hint": "You memorize the glyph's position and turn your attention to the neighboring cell." }
+      ]
+    },
+    "break_collar": {
+      "passage": "Pain lances through your jaw as magic surges against the ward. Crack. Not fully, but enough to let a trickle of power return to your veins, warm and achingly familiar after weeks of emptiness. You can manage small cantrips now. Muffled footsteps approach from the corridor above, quick and purposeful. Someone heard the hum of breaking wards.",
+      "choices": [
+        { "label": "hide against the wall", "nextNode": "guard_encounter", "hint": "You flatten yourself beside the door frame, pressing into the rough surface." },
+        { "label": "feign sleep", "nextNode": "feign_sleep", "hint": "You drop onto the straw pallet and close your eyes, steadying your breath." }
+      ]
+    },
+    "neighbor": {
+      "passage": "A voice answers. Low, cracked, female. She calls herself Maret, twelve years confined for poisoning a magistrate who deserves worse. Her cell shares a drainage channel with yours, barely wide enough for a cat. She claims she has mapped every patrol route in the tower from listening alone. Her price for help is simple. Take her with you.",
+      "choices": [
+        { "label": "accept her terms", "nextNode": "alliance", "hint": "You reach through the gap and clasp her outstretched hand in agreement." },
+        { "label": "refuse and go alone", "nextNode": "lockpick", "hint": "You pull back from the wall and return to working on the cell door." }
+      ]
+    },
+    "lockpick": {
+      "passage": "The bone shard catches on the third tumbler. Sweat beads along your wrists. A click. Then another. The mechanism groans, and the door swings inward just enough to squeeze through. Freedom tastes like damp air and adrenaline. The corridor stretches left toward stairs going up, right toward a supply room that glows faintly with lantern warmth.",
+      "choices": [
+        { "label": "ascend the stairs", "nextNode": "guard_encounter", "hint": "You slip through the gap and move toward the spiraling staircase above." },
+        { "label": "inspect the supply room", "nextNode": "supply_room", "hint": "You creep toward the amber glow, hoping to find tools or a disguise." }
+      ]
+    },
+    "alliance": {
+      "passage": "Maret talks fast. A laundry chute on the third level drops outside the outer ward, she says, and guards avoid the east corridor between second and third bell because of a ghost rumor she started years ago. Clever. She passes a bent iron nail through the drainage channel. Better than your bone shard for locks, she promises.",
+      "choices": [
+        { "label": "head for the chute", "nextNode": "laundry_chute", "hint": "You use Maret's nail on both cell doors and lead the way upstairs." },
+        { "label": "try the east corridor", "nextNode": "ghost_corridor", "hint": "You follow Maret's whispered directions toward the east passage she claims is haunted." }
+      ]
+    },
+    "feign_sleep": {
+      "passage": "Boots stop at your door. A lantern beam sweeps across your face and every muscle screams to flinch, but you hold still, breathing slow and deep. The guard mutters something about rats chewing ward-stones again. He moves on. One chance. You roll off the pallet and press against the door, which gives, unlocked during inspection.",
+      "choices": [
+        { "label": "follow the guard up", "nextNode": "guard_encounter", "hint": "You trail the guard's lantern glow at a careful distance up the stairwell." },
+        { "label": "slip downward instead", "nextNode": "undercroft", "hint": "You turn away from the retreating footsteps and descend into the depths." }
+      ]
+    },
+    "guard_encounter": {
+      "passage": "Torchlight rounds the bend. A guard, young and wide-eyed, his hand already gripping the sword hilt at his waist. Recognition crosses his face. He knows you are a prisoner. But he hesitates, and that pause stretches into something useful. His grip trembles. Fear, perhaps, or doubt. Seconds remain before training overrides whatever mercy he is weighing.",
+      "choices": [
+        { "label": "knock him out", "nextNode": "disguise", "hint": "You lunge forward and strike before his sword clears the scabbard." },
+        { "label": "beg for mercy", "nextNode": "mercy_guard", "hint": "You raise both palms and speak quickly, appealing to the doubt in his eyes." },
+        { "label": "cast a cantrip", "nextNode": "spell_escape", "hint": "You channel the trickle of recovered magic into a blinding flash of sparks." }
+      ]
+    },
+    "supply_room": {
+      "passage": "Crates of salted pork. Spare uniforms. A ring of brass keys hangs from a nail beside a duty roster pinned to the wall, and the roster shows that third bell brings a skeleton crew of only two guards for the entire north wing. You grab a uniform and the keys. Dressed as a guard, you might walk straight out the front gate.",
+      "choices": [
+        { "label": "don the uniform", "nextNode": "disguise", "hint": "You pull the guard's tunic over your head and buckle the belt tight." },
+        { "label": "grab the keys only", "nextNode": "laundry_chute", "hint": "You pocket the brass ring and head upstairs toward the third level." }
+      ]
+    },
+    "ghost_corridor": {
+      "passage": "Empty. Maret was right about the east corridor, its sconces unlit and its flagstones echoing every footstep you take. Halfway through, a chill presses against your spine, real and sharp, not rumor at all. Maret grabs your arm. Something moves at the far end, a pale shape drifting without touching the floor. Her twelve-year ghost story might have a source.",
+      "choices": [
+        { "label": "approach the shape", "nextNode": "true_ghost", "hint": "You step forward slowly, squinting through the murk at the drifting figure." },
+        { "label": "retreat to the stairs", "nextNode": "laundry_chute", "hint": "You pull Maret backward and take the longer route toward the chute." }
+      ]
+    },
+    "undercroft": {
+      "passage": "Below the cells lies a forgotten vault, its crumbled archways opening into chambers packed with confiscated belongings from decades of prisoners. Moth-eaten cloaks, rusted blades, a child's wooden horse. Sad. At the vault's far wall you find what matters: a drainage grate leading outside. Moonbeams filter through the bars, corroded but thick.",
+      "choices": [
+        { "label": "weaken the bars", "nextNode": "drain_escape", "hint": "You channel every scrap of recovered power into heating the corroded iron." },
+        { "label": "climb back upstairs", "nextNode": "guard_encounter", "hint": "You turn from the grate and climb the spiral steps, hoping for another way." }
+      ]
+    },
+    "disguise": {
+      "passage": "Too broad at the shoulders. The uniform fits poorly, but in dim corridors it will pass. A helmet hides your face as you walk with purpose, mimicking the stiff gait of every guard who ever marched past your cell. At the gatehouse, two sentries share a flask of wine. One glances your way and nods. The portcullis mechanism sits three paces to your left.",
+      "choices": [
+        { "label": "operate the portcullis", "nextNode": "gate_freedom", "hint": "You step to the winch and begin turning it as though performing routine duty." },
+        { "label": "join their conversation", "nextNode": "bluff_gate", "hint": "You approach the sentries and reach for the flask with a casual greeting." }
+      ]
+    },
+    "mercy_guard": {
+      "passage": "His name is Aldric, he says, enlisted last winter to feed a younger sister back home. He does not believe you killed the merchant. Too many prisoners claim innocence, but your trial has no witnesses, no evidence, only the magistrate's word. Aldric sheathes his blade and tells you he will look the other way for exactly one minute. Run.",
+      "choices": [
+        { "label": "sprint for the roof", "nextNode": "rooftop", "hint": "You bolt up the spiral staircase, taking steps two at a time toward open air." },
+        { "label": "hurry toward the gate", "nextNode": "disguise", "hint": "You grab a cloak from a wall hook and stride toward the main gatehouse." }
+      ]
+    },
+    "spell_escape": {
+      "passage": "Sparks erupt from your palm. Bright, harmless, but enough. The guard staggers backward blinded and crashes into the wall as you sprint past him up the curving stairwell. Shouts echo below. An alarm horn blasts twice, its bellow shaking mortar from between the bricks. Every guard in the tower now knows a prisoner runs free. Speed alone will save you.",
+      "choices": [
+        { "label": "race to the rooftop", "nextNode": "rooftop", "hint": "You charge upward through the spiraling stairs toward the tower's summit." },
+        { "label": "dive through a window", "nextNode": "window_jump", "hint": "You spot a narrow archer's slit and throw yourself toward it without slowing." }
+      ]
+    },
+    "laundry_chute": {
+      "passage": "Third level. The chute gapes open in the wall, a square shaft dropping into night air that howls upward carrying the scent of wet grass and pine. Long drop. Maret peers over the edge and nods. Knotted sheets from the laundry pile could slow the descent, but without them the fall will break bones. With them, you still might slip.",
+      "choices": [
+        { "label": "tie the sheets", "nextNode": "sheet_descent", "hint": "You grab armfuls of linen and begin knotting them into a rough rope." },
+        { "label": "jump without rope", "nextNode": "reckless_jump", "hint": "You grip the chute's edge, whisper a prayer, and let yourself drop into the void." }
+      ]
+    },
+    "true_ghost": {
+      "passage": "Not a ghost. A woman, translucent, her form woven from residual ward magic that has lingered in these walls for centuries since the tower was first enchanted. Her voice arrives without sound, pressing meaning directly into your skull. She offers a bargain. Free her by shattering the keystone at the tower's peak, and she dissolves every ward instantly.",
+      "choices": [
+        { "label": "agree to the bargain", "nextNode": "rooftop", "hint": "You nod and follow the enchantress's spectral guidance toward the tower's summit." },
+        { "label": "decline and move on", "nextNode": "laundry_chute", "hint": "You shake your head and pull Maret past the apparition toward the chute." }
+      ]
+    },
+    "drain_escape": {
+      "passage": "Heat bleeds from your hands into the corroded bars. Orange, then white. The iron sags and bends under your sustained effort. You kick through the gap, tumbling onto a muddy slope beyond the tower's foundation. A river churns below, fast and frigid. Behind you, alarm bells begin to toll. The slope forks toward the riverbank and a birch-lined road.",
+      "choices": [
+        { "label": "scramble to the river", "nextNode": "window_jump", "hint": "You let gravity pull you down the muddy bank toward the rushing current." },
+        { "label": "run for the road", "nextNode": "desperate_run", "hint": "You veer right and sprint toward the pale birch trunks lining the road." }
+      ]
+    },
+    "rooftop": {
+      "passage": "Wind tears at your clothes. The tower's peak holds a massive crystal, the keystone of every ward in the structure, pulsing with amber energy that hums against your teeth. Below, the countryside stretches to a river gleaming under moonlight. Shouts rise from the stairwell. Guards, minutes away at most. Shattering the crystal frees every prisoner, but the blast might kill you too.",
+      "choices": [
+        { "label": "shatter the keystone", "nextNode": "shatter_ending", "hint": "You raise your fist and drive it into the pulsing crystal with everything you have." },
+        { "label": "leap from the parapet", "nextNode": "window_jump", "hint": "You climb the battlement and hurl yourself toward the river far below." }
+      ]
+    },
+    "gate_freedom": {
+      "passage": "Birch trunks flash past, silver under the moon. The tower falls behind and then disappears entirely beyond the trees as the road winds deeper into forest. No hoofbeats follow. No horns. You slow to a walk, then stop. Breathe. Just breathe. The road stretches ahead, empty and pale, winding toward a life the tower tried to take from you.",
+      "choices": [],
+      "ending": {
+        "title": "Borrowed Armor",
+        "flavor": "Wearing the face of your captors, you march calmly out of the life they built to hold you.",
+        "action": "walk into the birches"
+      }
+    },
+    "bluff_gate": {
+      "passage": "The wine is sour. You drink anyway, laughing at a joke you half-hear. One sentry squints at your collar, the bronze band still visible beneath the uniform's neckline, and his hand moves toward the alarm bell. Caught. You hurl the flask at the bell, muffling its ring with shattering clay and cheap wine. Both sentries draw blades. None of the exits are safe.",
+      "choices": [
+        { "label": "charge through the gate", "nextNode": "desperate_run", "hint": "You shoulder past the nearest sentry and bolt for the half-raised portcullis." },
+        { "label": "seize the winch chain", "nextNode": "gate_freedom", "hint": "You lunge for the portcullis chain and yank it hard to raise the iron grate." }
+      ]
+    },
+    "sheet_descent": {
+      "passage": "Knot after knot. Maret tests each with a sharp tug and the makeshift rope holds firm. You lower yourself into the chute, linen burning your palms as you slide. Wind buffets you sideways. Maret follows above, her weight making the sheets creak and stretch. Twenty feet from the ground, the last knot slips. You fall, hit grass, roll. Pain blooms. But you are outside.",
+      "choices": [],
+      "ending": {
+        "title": "Knotted Together",
+        "flavor": "Two prisoners limp into the forest, bound by a promise made through a drainage gap.",
+        "action": "hobble toward the treeline"
+      }
+    },
+    "reckless_jump": {
+      "passage": "Air screams past your ears. The chute narrows, then opens to sky, and you tumble arms-first through a thatched stable roof outside the tower wall. Hay cushions the impact barely enough. A horse screams and kicks its stall. Every bone aches. Above, Maret's face appears in the chute opening. She will not jump. She mouths one word: go.",
+      "choices": [
+        { "label": "steal the horse", "nextNode": "horse_ending", "hint": "You grab the panicked horse's reins and haul yourself onto its bare back." },
+        { "label": "wait for Maret", "nextNode": "captured_ending", "hint": "You call up to her, refusing to leave without your ally from the cells." }
+      ]
+    },
+    "window_jump": {
+      "passage": "Gravity claims you. The river rushes up, black and glittering, and you hit feet first. The current swallows you whole, icy and furious, tumbling you over submerged rocks until a branch catches your arm. You cling, gasping, dragging yourself onto a muddy bank downstream. The tower is a distant pillar against the sky. They will search the roads, not the river.",
+      "choices": [],
+      "ending": {
+        "title": "River's Mercy",
+        "flavor": "Half-drowned and wholly free, you let the current carry you beyond the reach of wardens and wards alike.",
+        "action": "float downstream at dawn"
+      }
+    },
+    "shatter_ending": {
+      "passage": "The crystal explodes. Amber energy rips through the tower like a thunderclap, dissolving every ward and springing every enchanted lock in a single blinding instant. Your collar splits and falls clanging to the stones. Below, prisoners stumble from their cells blinking at sudden freedom. The enchantress rises as a pillar of brilliance, laughing without sound, and scatters into the wind. Guards flee.",
+      "choices": [],
+      "ending": {
+        "title": "Broken Crown",
+        "flavor": "You freed them all, the living and the long-imprisoned spirit, and brought the tower's centuries of cruelty to a thundering end.",
+        "action": "descend the empty tower"
+      }
+    },
+    "desperate_run": {
+      "passage": "A blade catches your shoulder. Searing. You duck low and sprint with everything you have left, blood warm on your arm as cobblestones blur beneath your boots. Shouts fade behind you. Hoofbeats do not follow, not yet. A wheat field flanks the road, tall enough to swallow you whole. You dive into golden stalks and press flat, heart hammering, bleeding, grinning.",
+      "choices": [],
+      "ending": {
+        "title": "Scarred but Free",
+        "flavor": "You trade blood for distance and vanish into the wheat like a fox slipping its snare.",
+        "action": "crawl through the wheat"
+      }
+    },
+    "horse_ending": {
+      "passage": "The horse bolts before you are ready, hooves pounding packed earth as the stable door splinters outward into the night. Wind roars in your ears. An arrow hisses past, embedding in a fence post. You lean flat against the horse's neck, whispering calm you do not feel. The road forks ahead: birch forest to the left, river bridge to the right.",
+      "choices": [
+        { "label": "ride into the forest", "nextNode": "gate_freedom", "hint": "Branches close overhead like a curtain as you steer the horse between pale trunks." },
+        { "label": "cross the bridge", "nextNode": "window_jump", "hint": "The horse balks at the river's edge and you tumble into the current." }
+      ]
+    },
+    "captured_ending": {
+      "passage": "Maret never jumps. Guards reach the chute and drag her backward while more pour from the tower's ground entrance, surrounding the stable. You fight. It is not enough. They bind your wrists with fresh enchanted iron, colder and tighter than before. Maret's voice drifts from a high window as they march you inside. She is singing. A lullaby, slow and impossibly sad.",
+      "choices": [],
+      "ending": {
+        "title": "Iron Returns",
+        "flavor": "Loyalty kept you waiting, and the tower swallowed you both back into its belly.",
+        "action": "listen to the lullaby"
+      }
+    }
+  }
+}

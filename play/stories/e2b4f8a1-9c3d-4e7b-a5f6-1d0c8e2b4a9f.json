@@ -1,0 +1,356 @@
+{
+  "id": "e2b4f8a1-9c3d-4e7b-a5f6-1d0c8e2b4a9f",
+  "title": "Tinker's Gambit",
+  "description": "Someone in the merchant caravan is selling forged goods. Dawn brings the city inspectors. You have one night to find the forger before the whole caravan pays the price.",
+  "author": "AI",
+  "tags": [
+    "trickery",
+    "crafting"
+  ],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-29",
+  "dayOfYear": "04-29",
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "The merchant caravan has camped at a dusty crossroads. Firelight flickers between painted wagons and the smell of roasting meat drifts from the bonfire. Your master Wren pulls you aside. Someone is selling forged goods, she whispers. We reach the city gates at dawn. Find the forger before then. She presses her testing kit into your hands.",
+      "choices": [
+        {
+          "label": "examine the goods",
+          "nextNode": "goods-tent",
+          "hint": "The trade tent is lit by lanterns and full of crates waiting for market."
+        },
+        {
+          "label": "visit the bonfire",
+          "nextNode": "bonfire",
+          "hint": "Laughter and the clatter of tin cups drift toward you as you approach."
+        },
+        {
+          "label": "walk the wagon row",
+          "nextNode": "wagon-row",
+          "hint": "The wagons stand in a long line, their canvas sides glowing in moonlight."
+        }
+      ]
+    },
+    "goods-tent": {
+      "passage": "You duck under the flap of the trade tent. Lanterns hang from the crossbeams, casting warm light over rows of goods laid out on cloth - rings, bracelets, daggers, bolts of silk. A gold ring catches your eye. The metal looks wrong somehow, too bright and too even. Nearby, a ruby necklace sits on velvet, its stones oddly dull in the light.",
+      "choices": [
+        {
+          "label": "test the ring",
+          "nextNode": "forge-test",
+          "hint": "You pull Wren's acid vial from the kit and hold the ring steady."
+        },
+        {
+          "label": "examine the necklace",
+          "nextNode": "gem-check",
+          "hint": "The stones feel lighter than they should when you lift the chain."
+        }
+      ]
+    },
+    "bonfire": {
+      "passage": "A dozen traders sit around the bonfire on upturned crates and rolled blankets. Sparks rise into the dark sky. A young merchant named Pol shuffles a deck of cards at one end while an old woman at the other tells a story about a cursed ship. The fire pops and someone passes a skin of wine your way.",
+      "choices": [
+        {
+          "label": "join the card game",
+          "nextNode": "card-game",
+          "hint": "Pol deals you in without a word, his eyes darting to the shadows."
+        },
+        {
+          "label": "listen to the story",
+          "nextNode": "gossip",
+          "hint": "The old woman's voice drops low and the circle leans in closer."
+        }
+      ]
+    },
+    "wagon-row": {
+      "passage": "The wagons stand in a long curved line at the edge of camp. Most are dark and quiet, their owners asleep or at the bonfire. A sharp chemical smell drifts from a wagon near the middle of the row. Further down, a caravan guard leans against a wheel, arms crossed, watching the tree line with a bored but steady gaze.",
+      "choices": [
+        {
+          "label": "follow the smell",
+          "nextNode": "strange-smell",
+          "hint": "The sharp tang grows stronger as you slip between two canvas wagons."
+        },
+        {
+          "label": "talk to the guard",
+          "nextNode": "guard-talk",
+          "hint": "He straightens up as you approach and uncrosses his arms slowly."
+        }
+      ]
+    },
+    "forge-test": {
+      "passage": "You pull the acid vial from Wren's kit and touch a drop to the ring's inner band. The gold bubbles and flakes away, showing dull copper beneath. This is no gold ring - it is a clever fake, painted and polished to fool a buyer at a glance. A tag on the display cloth reads Pol - Stall Seven. Someone sold Pol a forgery.",
+      "choices": [
+        {
+          "label": "find Pol",
+          "nextNode": "pol-talk",
+          "hint": "You scan the bonfire circle and spot him shuffling cards near the flames."
+        },
+        {
+          "label": "report to Wren",
+          "nextNode": "wren-advice",
+          "hint": "Your master is waiting by her cart, tools laid out in the lantern light."
+        }
+      ]
+    },
+    "gem-check": {
+      "passage": "You lift the ruby necklace and hold a stone up to the lantern. Through Wren's lens the truth is plain - these are not rubies. They are colored glass, cut well enough to pass a quick look but worthless under any real test. The setting is silver but thin and cheap. A stamp on the clasp reads M.K. You have never seen that mark before.",
+      "choices": [
+        {
+          "label": "trace the mark",
+          "nextNode": "maren-clue",
+          "hint": "M.K. - someone in this caravan made these and you intend to find them."
+        },
+        {
+          "label": "show Wren",
+          "nextNode": "wren-advice",
+          "hint": "Your master will know what the mark means and who it belongs to."
+        }
+      ]
+    },
+    "card-game": {
+      "passage": "You sit down across from Pol. He deals the cards fast, eyes on the deck. After two hands you mention the gold ring in the trade tent. Pol's fingers freeze mid-shuffle. He glances around and lowers his voice. I got that ring cheap from Maren the jeweler, he says. She has a wagon near the middle of the row. Good prices, no questions.",
+      "choices": [
+        {
+          "label": "press Pol",
+          "nextNode": "pol-talk",
+          "hint": "You lean forward and Pol shifts in his seat, suddenly nervous."
+        },
+        {
+          "label": "follow the lead",
+          "nextNode": "maren-clue",
+          "hint": "A jeweler named Maren with cheap goods and no questions - interesting."
+        }
+      ]
+    },
+    "gossip": {
+      "passage": "The old woman tells of a merchant who sold cursed amulets three towns back. Someone laughs. Another trader chimes in - Maren the jeweler bought a crate of copper wire and melting pots at the last stop. Strange supplies for someone who claims to sell only finished pieces. The fire crackles and the old woman raises an eyebrow at you.",
+      "choices": [
+        {
+          "label": "search for Maren",
+          "nextNode": "maren-clue",
+          "hint": "Copper wire and melting pots - that is a forger's kit if ever you saw one."
+        },
+        {
+          "label": "ask Wren about it",
+          "nextNode": "wren-advice",
+          "hint": "Your master knows every crafter in the caravan by name and trade."
+        }
+      ]
+    },
+    "strange-smell": {
+      "passage": "You squeeze between two wagons and trace the chemical smell to a small painted wagon with the flap tied shut. Through a gap in the canvas you see a workbench inside, lit by a single oil lamp. Copper molds shaped like rings and pendants line the shelf. Tongs, flux, acid bottles, and a tiny furnace sit under the bench. This is a portable forge.",
+      "choices": [
+        {
+          "label": "examine the molds",
+          "nextNode": "maren-clue",
+          "hint": "The molds match the shapes of the rings you saw in the trade tent."
+        },
+        {
+          "label": "report to Griff",
+          "nextNode": "griff-report",
+          "hint": "The guard captain should know about a hidden forge in the caravan."
+        }
+      ]
+    },
+    "guard-talk": {
+      "passage": "The guard, a broad man called Dorn, uncrosses his arms as you approach. Quiet night, he says, though his eyes say otherwise. You ask if he has seen anything odd. He pauses. Last two nights someone has been moving between wagons after the fires die. Always the same route - trade tent to the middle of the row and back. Never a lamp.",
+      "choices": [
+        {
+          "label": "stake out the route",
+          "nextNode": "maren-clue",
+          "hint": "You crouch behind a wagon wheel and watch the path Dorn described."
+        },
+        {
+          "label": "tell Griff",
+          "nextNode": "griff-report",
+          "hint": "The guard captain is camped near the front wagon with the caravan ledger."
+        }
+      ]
+    },
+    "pol-talk": {
+      "passage": "You find Pol pacing behind his wagon. When you show him the tested ring he goes pale. Maren sold me those. She said they were real. He runs a hand through his hair. She sells from a wagon near the center of the row. I thought I was getting a deal. Pol looks sick with worry. The city inspectors will blame me.",
+      "choices": [
+        {
+          "label": "find Maren's wagon",
+          "nextNode": "maren-wagon",
+          "hint": "Pol points a shaking hand toward the middle of the row."
+        },
+        {
+          "label": "ask Wren for help",
+          "nextNode": "wren-advice",
+          "hint": "Your master will want to know what Pol just told you."
+        }
+      ]
+    },
+    "maren-clue": {
+      "passage": "The pieces come together. A jeweler named Maren with a wagon near the center of the row. Copper molds, melting pots, cheap wire - the tools of a skilled forger. Her mark, M.K., is stamped on every fake piece in the trade tent. The caravan reaches the city gates at dawn. If the inspectors find the forgeries, the whole caravan pays the price.",
+      "choices": [
+        {
+          "label": "go to her wagon",
+          "nextNode": "maren-wagon",
+          "hint": "The painted wagon sits dark and quiet in the middle of the row."
+        },
+        {
+          "label": "tell the guard captain",
+          "nextNode": "griff-report",
+          "hint": "Griff needs to see the evidence before you confront anyone."
+        }
+      ]
+    },
+    "wren-advice": {
+      "passage": "You find Wren at her cart, sorting tools by lantern light. She listens as you lay out what you found. Maren, she says quietly. I had my eye on her. Wren taps a brass compass on the bench. You need proof she cannot deny. Go to her wagon and see for yourself. Or plant a marked coin in her next batch and catch her.",
+      "choices": [
+        {
+          "label": "find her wagon",
+          "nextNode": "maren-wagon",
+          "hint": "Wren nods and hands you a small iron pry bar, just in case."
+        },
+        {
+          "label": "set the trap",
+          "nextNode": "steal-evidence",
+          "hint": "Wren presses a stamped copper coin into your palm and winks."
+        }
+      ]
+    },
+    "griff-report": {
+      "passage": "You find Griff, the guard captain, by a low fire near the lead wagon, sharpening his blade. He listens without a word as you tell him about the forged goods and the hidden forge. When you finish he slides the blade into its sheath. I cannot arrest on a hunch, he says. Show me. Or dig up something I can hold in court.",
+      "choices": [
+        {
+          "label": "bring him along",
+          "nextNode": "maren-wagon",
+          "hint": "Griff stands, buckles his sword belt, and follows you into the dark."
+        },
+        {
+          "label": "search the tent first",
+          "nextNode": "goods-tent",
+          "hint": "Solid proof from the trade tent would make a stronger case."
+        }
+      ]
+    },
+    "maren-wagon": {
+      "passage": "You reach the painted wagon. The canvas flap is ajar and lamplight flickers inside. Through the gap you see a woman bent over a workbench, filing the edge of a gold-colored ring. Molds and acid bottles surround her. She hums quietly as she works, unaware of your presence. Dawn is less than an hour away. The city gates and the inspectors wait.",
+      "choices": [
+        {
+          "label": "confront her",
+          "nextNode": "confront-maren",
+          "hint": "You push the flap aside and step into the lamplight."
+        },
+        {
+          "label": "offer your help",
+          "nextNode": "offer-help",
+          "hint": "A skilled forger might be worth more as a friend than an enemy."
+        },
+        {
+          "label": "steal the evidence",
+          "nextNode": "steal-evidence",
+          "hint": "If you take the molds, she cannot deny what she has done."
+        }
+      ]
+    },
+    "confront-maren": {
+      "passage": "Maren looks up as you push the flap aside. Her hands freeze over the workbench. For a long breath neither of you speaks. Then she sets down the file and meets your gaze. So you know, she says. Her voice is steady but her eyes are tired. I suppose you want to drag me to the guard captain and end this.",
+      "choices": [
+        {
+          "label": "turn her in",
+          "nextNode": "justice-ending",
+          "hint": "You reach for the canvas flap to call for Griff."
+        },
+        {
+          "label": "hear her out",
+          "nextNode": "maren-story",
+          "hint": "Something in her voice makes you pause and lower your hand."
+        }
+      ]
+    },
+    "offer-help": {
+      "passage": "You step inside and raise your hands. I am not here to turn you in. Maren stiffens, then slowly lowers the file. You tell her you are a tinker's apprentice and you know metalwork. Her eyes search your face. You could fix the fakes, she says. Make them real - or close enough. I have the gems but not the skill. Dawn is close.",
+      "choices": [
+        {
+          "label": "fix the pieces",
+          "nextNode": "craft-ending",
+          "hint": "You pull up a stool and reach for Wren's tools in your belt."
+        },
+        {
+          "label": "improve the fakes",
+          "nextNode": "trickster-ending",
+          "hint": "Not fix them for real - just make the fakes good enough to pass."
+        }
+      ]
+    },
+    "steal-evidence": {
+      "passage": "You wait until Maren steps away from the bench to check something in a crate. Moving fast, you grab a handful of copper molds and a finished fake ring. Your foot catches a stool and it scrapes across the floor. Maren spins around. She sees the molds in your hand and her face hardens. Thief, she hisses, and reaches for a bell on the wall.",
+      "choices": [
+        {
+          "label": "run with the proof",
+          "nextNode": "justice-ending",
+          "hint": "You burst through the flap and sprint toward Griff's fire."
+        },
+        {
+          "label": "drop the molds",
+          "nextNode": "caught-ending",
+          "hint": "The bell rings and voices rise from the nearest wagons."
+        }
+      ]
+    },
+    "maren-story": {
+      "passage": "Maren sinks onto a stool. She learned her craft from her father, a jeweler who lost everything when a noble house seized his workshop. She has been forging to earn enough to buy it back. I am not proud of it, she says. But I am close to the sum I need. One more city and I would have been done.",
+      "choices": [
+        {
+          "label": "let her go",
+          "nextNode": "mercy-ending",
+          "hint": "You look at the forge tools and the tired lines around her eyes."
+        },
+        {
+          "label": "use your skills",
+          "nextNode": "craft-ending",
+          "hint": "If you work fast, you might be able to make the pieces real."
+        }
+      ]
+    },
+    "justice-ending": {
+      "passage": "You hand the evidence to Griff at first light. He confronts Maren in front of the gathered caravan. She does not fight or deny it. The guard binds her hands and pulls the fake goods from the trade tent. Pol gets his money back. The caravan rolls on toward the city gates, lighter by one wagon. Wren pats you on the shoulder and says nothing.",
+      "choices": [],
+      "ending": {
+        "title": "The Honest Road",
+        "flavor": "Justice is not always satisfying, but the caravan is clean and the road goes on.",
+        "action": "close the gate"
+      }
+    },
+    "craft-ending": {
+      "passage": "You work through the last dark hours before dawn, hands steady and tools singing on metal. Maren watches as you set real stones into cleaned settings and true the bands. By the time the sun rises, every piece in the trade tent is genuine. Maren packs her forge and slips away before the caravan wakes. She presses a ruby into your hand.",
+      "choices": [],
+      "ending": {
+        "title": "Hands That Mend",
+        "flavor": "The finest craft is not what you make - it is what you fix.",
+        "action": "pocket the ruby"
+      }
+    },
+    "mercy-ending": {
+      "passage": "You look at Maren for a long time. Then you turn and walk out of the wagon without a word. At dawn you tell Wren the forge has been dismantled and the forger has moved on. It is not quite a lie. Maren's wagon is gone when the caravan wakes. You find a small brass compass on your bedroll, still warm.",
+      "choices": [],
+      "ending": {
+        "title": "The Empty Wagon",
+        "flavor": "Some debts are paid in silence, and some roads are walked alone.",
+        "action": "pick up the compass"
+      }
+    },
+    "trickster-ending": {
+      "passage": "You work fast, coating the copper bands with a thicker layer of gold paste and pressing the glass gems deeper into their settings. By dawn the fakes look perfect - good enough to fool any city inspector. Maren grins and splits her purse with you. The caravan rolls through the gates without a single flag. Nobody checks twice. You never look back.",
+      "choices": [],
+      "ending": {
+        "title": "A Gilded Lie",
+        "flavor": "The gold shines just as bright whether it is real or not - and so do you.",
+        "action": "count the coins"
+      }
+    },
+    "caught-ending": {
+      "passage": "The bell rings out across the sleeping camp. Voices rise from nearby wagons. Griff arrives in moments, sword drawn. He finds you standing in a forger's workshop holding stolen molds while Maren shouts for help. The guard captain looks from her to you and shakes his head. You spend the rest of the night in rope bindings beside the lead wagon, waiting for dawn.",
+      "choices": [],
+      "ending": {
+        "title": "Rope and Regret",
+        "flavor": "The worst part is knowing you were right about everything except the last step.",
+        "action": "sit and wait"
+      }
+    }
+  }
+}
