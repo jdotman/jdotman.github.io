@@ -1,0 +1,209 @@
+{
+  "id": "ccdb9a1d-3dc0-4da0-8aa0-6fee551b6287",
+  "title": "Pitfighter's Bargain",
+  "description": "Chained fighters enter the pits of Velkash, where three wins promise freedom. No one has ever collected.",
+  "author": "AI",
+  "tags": ["competition"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-06-05",
+  "dayOfYear": "06-05",
+  "endingCount": 5,
+  "storyNumber": 64,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "The roar is deafening. Hundreds of voices blend into a single hungry sound above your head, where the fighting pit of Velkash bakes under a coastal sun. A handler cuts your wrist-chains with a rusted key and shoves you forward into a low corridor that splits three ways beneath buzzing torchlight. Blood stains the leftmost wall.",
+      "choices": [
+        { "label": "enter the cells", "nextNode": "cells", "hint": "Rust and sweat fill the air as you step past the bars." },
+        { "label": "approach the gate", "nextNode": "arena-gate", "hint": "Sand grinds underfoot as you walk toward the bright rectangle of sky ahead." },
+        { "label": "pry the grate", "nextNode": "grate", "hint": "The iron shifts with a groan, and damp air rushes up from below." }
+      ]
+    },
+    "cells": {
+      "passage": "Iron bars line both sides of a narrow corridor. Fighters sit on wooden benches behind them, wrapping hands, sharpening bone blades, muttering to themselves. One cell stands empty with its door bent open. At the far end, a woman with twelve tally marks carved into her forearm watches you with steady, measuring eyes. She nods.",
+      "choices": [
+        { "label": "speak to Maren", "nextNode": "maren", "hint": "She watches you sit down across from her, saying nothing until you speak." },
+        { "label": "head for the gate", "nextNode": "arena-gate", "hint": "You pass the cells without stopping, and the fighters watch you go." }
+      ]
+    },
+    "arena-gate": {
+      "passage": "Sand spills through the iron gate ahead. Beyond it, the pit stretches wide under a bleached sky, ringed by tiers of screaming spectators waving colored scarves. A weapons rack stands bolted to the wall, holding blunted swords and cracked shields. Below your feet, running water echoes through grating. Something moves down there.",
+      "choices": [
+        { "label": "step onto the sand", "nextNode": "arena-floor", "hint": "The gate swings open and the noise crashes over you like a wave." },
+        { "label": "inspect the floor", "nextNode": "underbelly", "hint": "Your fingers find a loose board in the floor near the weapons rack." }
+      ]
+    },
+    "grate": {
+      "passage": "A rusted grate sits flush with the corridor floor, half hidden by sand. Through the bars, you catch the glint of salt water moving fast in a channel underneath. The smell hits. Brine and copper. The bars are loose enough to lift if you move quickly, before the handler comes back for you.",
+      "choices": [
+        { "label": "crawl into the drain", "nextNode": "drain-mouth", "hint": "Brine soaks your knees the moment you lower yourself through the gap." },
+        { "label": "drop below", "nextNode": "underbelly", "hint": "You land on damp timber in a crouch, the arena floor creaking above." }
+      ]
+    },
+    "maren": {
+      "passage": "Maren leans close. She tells you she has won twelve bouts, and twelve times the master has moved the target further, stretching the deal until it means nothing. 'Freedom is bait,' she whispers. She draws a line on the floor with her blade. 'A drain runs beneath the east passage. At low tide, it opens to the shore.'",
+      "choices": [
+        { "label": "follow her plan", "nextNode": "escape-tunnel", "hint": "She nods once and sketches the rest of the route on the floor." },
+        { "label": "choose the pit", "nextNode": "arena-floor", "hint": "You stand and walk toward the noise, leaving Maren behind in the dim." }
+      ]
+    },
+    "underbelly": {
+      "passage": "Wooden beams creak overhead as fighters slam into the pit floor above you. Dust falls through the slats. The underbelly of the arena is a maze of support pillars and drainage channels, half flooded with brackish runoff. A wide iron pipe to the east drips steadily. The crowd's roar pulses through the timber like a heartbeat.",
+      "choices": [
+        { "label": "squeeze into the pipe", "nextNode": "drain-mouth", "hint": "Rust flakes off under your palms as you pull yourself into the opening." },
+        { "label": "climb to the arena", "nextNode": "arena-floor", "hint": "You hoist yourself up through a gap in the planks, back into the noise." }
+      ]
+    },
+    "drain-mouth": {
+      "passage": "Warm air pushes up from the pipe's mouth. Brine and rust. The tunnel drops at a steep angle into murky flow that reaches your knees within the first few steps. Two channels fork ahead, one narrow with a dry ledge along its wall, one wider where the current pulls hard and constant.",
+      "choices": [
+        { "label": "wade left", "nextNode": "salt-passage", "hint": "The ledge is slick but holds your weight as you edge along the wall." },
+        { "label": "swim right", "nextNode": "flooded-way", "hint": "The current tugs at your legs as you push off into the wider channel." }
+      ]
+    },
+    "escape-tunnel": {
+      "passage": "Maren's directions hold true. A side passage branches from the main corridor behind a crumbled section of wall, invisible unless you know to look. The air here is cooler and the flow thinner, barely ankle-deep. Scratch marks line the walls at shoulder height where someone has come this way before. Two branches split ahead.",
+      "choices": [
+        { "label": "take the salt path", "nextNode": "salt-passage", "hint": "Crystals crunch under your boots as the tunnel bends away from the arena." },
+        { "label": "push through floods", "nextNode": "flooded-way", "hint": "Foam splashes your chest as you brace against the flow and shove forward." }
+      ]
+    },
+    "salt-passage": {
+      "passage": "Salt crusts the walls in jagged ridges that snag your arms as you press through. The tunnel tightens. Your shoulders scrape both sides before the passage opens into a wider chamber where the ceiling drips with mineral buildup. A faint breeze carries the smell of open air from the left fork. The right fork gurgles with rushing flow.",
+      "choices": [
+        { "label": "press into the narrows", "nextNode": "narrows", "hint": "Your shoulders scrape the walls on both sides as the path tightens ahead." },
+        { "label": "turn toward the flow", "nextNode": "flooded-way", "hint": "The sound of rushing current grows louder as you angle toward the wider tunnel." }
+      ]
+    },
+    "flooded-way": {
+      "passage": "The wider channel surges around your waist as you step in, the current strong enough to lean against. Foam collects in eddies along the rough-hewn walls. A torch bobs past. Ahead, the channel bends and narrows where mineral deposits have built up into a shelf you might scramble onto, but the current fights every step you take toward it.",
+      "choices": [
+        { "label": "scramble to the shelf", "nextNode": "narrows", "hint": "Your fingers catch the mineral ledge and you haul yourself up, dripping and shaking." },
+        { "label": "retreat to the arena", "nextNode": "arena-floor", "hint": "The current pushes you back, and you let it carry you toward the glow." }
+      ]
+    },
+    "narrows": {
+      "passage": "The passage squeezes to barely a shoulder's width. Barnacles dig into your skin as you edge sideways through the gap, each breath louder than the last in the close space. A pale glow flickers at the far end where the tunnel curves toward what might be daylight. Behind you, the arena's rumble grows faint. Almost too faint to follow back.",
+      "choices": [
+        { "label": "slide through", "nextNode": "tidal-cave", "hint": "Rock scrapes your ribs as you twist sideways through the gap toward the breeze." },
+        { "label": "go back", "nextNode": "arena-floor", "hint": "You turn carefully in the tight space and retrace your steps toward the arena." }
+      ]
+    },
+    "tidal-cave": {
+      "passage": "Spray kisses your face. The tunnel opens into a sea cave where waves crash against a ledge of worn rock, and beyond the mouth, grey sky stretches over a churning coastline. The tide is pulling out, exposing a slick path of shells and kelp that leads down to the sand below. Gulls wheel above the cave's opening.",
+      "choices": [
+        { "label": "leap for the shore", "nextNode": "shore-escape", "hint": "Your feet leave the rock and for a moment nothing holds you but air." },
+        { "label": "circle back", "nextNode": "arena-floor", "hint": "The spray fades behind you as you turn away from the open sky." }
+      ]
+    },
+    "shore-escape": {
+      "passage": "You drop from the ledge onto wet sand and run. The arena shrinks behind you, its noise swallowed by the crash of surf and the call of gulls. The coast road winds north toward fishing villages where no one knows your name or your debt. Salt wind fills your lungs. For the first time in months, you breathe without counting.",
+      "choices": [],
+      "ending": {
+        "title": "Salt Wind Freedom",
+        "flavor": "The tide washes your footprints clean behind you.",
+        "action": "run along the shore"
+      }
+    },
+    "arena-floor": {
+      "passage": "Sand crunches underfoot. You walk through the gate into blinding sunlight and a wall of noise that hits like a fist. The pit is a circle of packed earth ringed by wooden barriers, and above them, hundreds of faces blur together. A fighter enters from the opposite gate, rolling a heavy chain between scarred fists.",
+      "choices": [
+        { "label": "charge your opponent", "nextNode": "fight-bold", "hint": "Your feet dig into the sand as you close the gap between you." },
+        { "label": "study their stance", "nextNode": "fight-careful", "hint": "You circle wide, watching how they shift their weight with each slow step." },
+        { "label": "throw down your blade", "nextNode": "refuse-fight", "hint": "The metal hits the sand with a dull sound that stops the crowd short." }
+      ]
+    },
+    "fight-bold": {
+      "passage": "You lunge before the handler's whistle fades, closing the gap in three strides. Your opponent swings the chain wide but you duck beneath it and drive your shoulder into his ribs. He staggers. The crowd erupts. When you stand over him with his own chain pressed across his throat, the pit judge raises a red flag. First bout to you.",
+      "choices": [
+        { "label": "raise your arms", "nextNode": "crowd-favor", "hint": "The crowd surges to its feet, and the noise is almost enough to stagger you." },
+        { "label": "demand an audience", "nextNode": "masters-box", "hint": "You point toward the balcony, and the master's eyes narrow behind his gold rings." }
+      ]
+    },
+    "fight-careful": {
+      "passage": "Patience saves you. The chained fighter lunges three times and each swing pulls him further off balance, burning his strength against the open air while you circle just out of reach. On his fourth try, he stumbles. You catch his wrist, twist, and bring him down hard. The crowd offers a slow, grudging applause. The pit judge raises a red flag.",
+      "choices": [
+        { "label": "acknowledge the crowd", "nextNode": "crowd-favor", "hint": "You dip your head toward the stands and a few voices call out in approval." },
+        { "label": "seek the master", "nextNode": "masters-box", "hint": "A guard at the north stair meets your eyes and beckons you up." }
+      ]
+    },
+    "refuse-fight": {
+      "passage": "The chain rattles to the sand as your opponent circles in, but you plant your feet and let the blunted sword fall from your hand. The crowd goes quiet for a heartbeat, then erupts in confused jeering. The chained fighter hesitates, unsure. The pit judge glares down from his platform, face red. Guards begin moving along the barrier.",
+      "choices": [
+        { "label": "shout to the crowd", "nextNode": "defiance", "hint": "Your voice cracks across the pit, raw enough to quiet the nearest rows." },
+        { "label": "face the master", "nextNode": "masters-box", "hint": "You turn your back on the crowd and stare up at the balcony." }
+      ]
+    },
+    "crowd-favor": {
+      "passage": "Spectators chant a word you cannot make out. A name. Maybe a demand. The arena master takes notice from his cushioned balcony above the north wall, a bald man in a gold-trimmed coat watching you with the careful attention of someone counting coins. A runner approaches with a sealed note and offers it without meeting your eyes.",
+      "choices": [
+        { "label": "challenge the champion", "nextNode": "champion-call", "hint": "The note crumples in your fist as you lift your chin toward the gate." },
+        { "label": "confront the master", "nextNode": "masters-box", "hint": "You push past the runner and stride toward the staircase beneath the balcony." }
+      ]
+    },
+    "defiance": {
+      "passage": "Guards close in from both sides, spears angled toward your chest. But the crowd has gone strange and still, watching with a hunger that has nothing to do with blood. Other fighters press against the bars of the holding cells below, faces tense with something you have not seen in this place before. It looks like hope.",
+      "choices": [
+        { "label": "rally the prisoners", "nextNode": "uprising", "hint": "You fill your lungs and let a single word carry across the arena sand." },
+        { "label": "kneel in the sand", "nextNode": "condemned", "hint": "Your knees meet the sand, and the guards close their grip on your arms." }
+      ]
+    },
+    "champion-call": {
+      "passage": "The runner's note bears a single line: 'Win the final bout and walk free.' The crowd screams for blood as the champion enters through a private gate, armored in boiled leather and carrying a sword that gleams with fresh oil. She moves like a dancer. Every scar on her arms says the grace is earned, not given.",
+      "choices": [
+        { "label": "fight to the end", "nextNode": "champion-victory", "hint": "You roll your shoulders, grip the blade tight, and step into the ring." },
+        { "label": "bargain with her", "nextNode": "masters-box", "hint": "You raise your voice so the master can hear you over the crowd." }
+      ]
+    },
+    "masters-box": {
+      "passage": "The master's balcony smells of wine and perfume. Silk drapes frame the view of the pit below, where bloodstains mark the sand in overlapping rings. He turns from the railing, gold rings catching the afternoon glare, and studies you like a horse at auction. 'You fight well,' he says. 'I could use someone with your talent. Name your terms.'",
+      "choices": [
+        { "label": "accept his offer", "nextNode": "gilded-cage", "hint": "His hand extends across the table, heavy with gold rings and quiet promise." },
+        { "label": "reject the terms", "nextNode": "reject-offer", "hint": "You shake your head, and something shifts behind the calm mask of his face." }
+      ]
+    },
+    "reject-offer": {
+      "passage": "His smile hardens into something brittle. 'No one refuses me in my own house,' he says, and the guards behind his chair reach for their hilts. Below in the pit, the crowd senses a shift and falls to a restless murmur. Fighters in the holding cells are rattling their bars. The air feels like the moment before a storm breaks.",
+      "choices": [
+        { "label": "start a revolt", "nextNode": "uprising", "hint": "Your voice carries down to the pit, where every fighter with open ears listens." },
+        { "label": "surrender to guards", "nextNode": "condemned", "hint": "You hold your hands out, palms up, and let the guards take your wrists." }
+      ]
+    },
+    "champion-victory": {
+      "passage": "The champion falls. Her sword clatters to the sand and she raises one hand, yielding without a word. The crowd stamps hard enough to shake the barriers. The pit judge unfurls a white banner from the north tower. The arena master watches in rigid stillness from his balcony as the gate swings open and you walk through it, unchained.",
+      "choices": [],
+      "ending": {
+        "title": "Unchained Victor",
+        "flavor": "The crowd chants a name you barely recognize as your own.",
+        "action": "walk through the gate"
+      }
+    },
+    "gilded-cage": {
+      "passage": "Silk sheets, hot meals, a balcony overlooking the harbor. The master gives you everything except the key. You train new fighters. You eat well. You sleep in a bed instead of a cell. But the gate to the street stays locked, and each morning you wake to the sound that fills every corner of this place: the roar of the crowd.",
+      "choices": [],
+      "ending": {
+        "title": "Comfortable Chains",
+        "flavor": "The bed is soft, but the lock never turns.",
+        "action": "close the balcony doors"
+      }
+    },
+    "uprising": {
+      "passage": "The holding cells burst open. Fighters pour into the pit from every gate, and the crowd scrambles for the exits as the arena fills with dust and shouting. You stand in the center of the storm, blade in hand, while the master's balcony empties and the guards throw down their spears. By nightfall, the pit belongs to no one.",
+      "choices": [],
+      "ending": {
+        "title": "Ashes of the Arena",
+        "flavor": "No one fights for coin in Velkash tonight.",
+        "action": "break the master's chair"
+      }
+    },
+    "condemned": {
+      "passage": "They drag you through a low archway into a chamber beneath the stands where the walls sweat with damp and the floor slopes toward a drain. The pit judge reads the sentence from a scroll he does not bother to unroll. Two guards hold your arms. The crowd above stamps in rhythm, counting down from ten. They reach one.",
+      "choices": [],
+      "ending": {
+        "title": "Final Count",
+        "flavor": "The crowd finishes counting, and the arena falls quiet.",
+        "action": "close your eyes"
+      }
+    }
+  }
+}

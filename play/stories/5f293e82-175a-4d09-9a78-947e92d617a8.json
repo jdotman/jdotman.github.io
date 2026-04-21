@@ -1,0 +1,217 @@
+{
+  "id": "5f293e82-175a-4d09-9a78-947e92d617a8",
+  "title": "Velvet Trespass",
+  "description": "A merchant prince keeps a stolen relic locked behind silk curtains and hired blades. Tonight you slip inside to take it back.",
+  "author": "AI",
+  "tags": ["stealth", "treasure-hunt"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-06-06",
+  "dayOfYear": "06-06",
+  "endingCount": 6,
+  "storyNumber": 65,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Moonlight glazes the rooftops of Saffen's merchant quarter. Below, the Oradi estate sprawls behind a wrought-iron fence, its windows warm with amber glow. Tonight is the night. A contact slipped you the layout this morning - three floors, twelve guards, and one relic sealed in a velvet-lined case on the top floor. A fence gap sits to the west and a vine-covered wall flanks east.",
+      "choices": [
+        { "label": "squeeze through the fence", "nextNode": "garden-path", "hint": "Rust flakes press cold lines into your ribs as you slide between the bars." },
+        { "label": "climb the vine wall", "nextNode": "upper-terrace", "hint": "The vines hold your weight, though one root tears free with a quiet snap." }
+      ]
+    },
+    "garden-path": {
+      "passage": "Gravel crunches. Trimmed hedges line a walk that leads toward the servants' entrance, and two lanterns hang from iron hooks painting the path in overlapping circles of light. A guard leans against the kitchen door, picking his teeth with a fish bone. Beyond the hedge row, a cellar hatch gleams where rain has pooled on its rusted surface.",
+      "choices": [
+        { "label": "distract the guard", "nextNode": "kitchen-entry", "hint": "You toss a copper coin into the hedge and it rattles through the leaves." },
+        { "label": "pry open the cellar", "nextNode": "wine-cellar", "hint": "The hatch groans but lifts, releasing a draft thick with oak and vinegar." }
+      ]
+    },
+    "upper-terrace": {
+      "passage": "Jasmine. The scent hits before you see the potted clusters crowding the balcony railing two stories above the garden. Through a cracked shutter you spot a study lined with maps and ledgers, candlewax dripping onto a half-written letter. Somewhere deeper in the house a lute plays a slow waltz. A copper drainpipe runs up toward the third floor from the balcony corner.",
+      "choices": [
+        { "label": "enter the study", "nextNode": "merchant-study", "hint": "The shutter swings inward without a sound and warm candlelight spills across the sill." },
+        { "label": "scale the drainpipe", "nextNode": "rooftop-access", "hint": "Copper brackets creak under your boots as you haul yourself higher." }
+      ]
+    },
+    "kitchen-entry": {
+      "passage": "Garlic and fat. The kitchen reeks of both, and copper pots hang from ceiling hooks above a cook who dozes on a stool near the hearth with her chin on her chest. Stairs climb to the main hall from the far doorway. Beside the pantry, a narrow servants' passage cuts through the wall, barely wide enough for one person.",
+      "choices": [
+        { "label": "ascend the stairs", "nextNode": "main-hall", "hint": "Each step bows slightly under your weight but none of them creak." },
+        { "label": "use the servants' passage", "nextNode": "passage-fork", "hint": "Cobwebs brush your face as the passage swallows the kitchen light behind you." }
+      ]
+    },
+    "wine-cellar": {
+      "passage": "Damp air. Rows of oak barrels line the cellar walls, and dust motes drift through a shaft of moonlight from the hatch above. A rat skitters across the flagstones and vanishes behind a rack of green bottles. At the far end, a locked iron gate blocks a stairway leading up. Scratches around the lock suggest someone has forced it before.",
+      "choices": [
+        { "label": "pick the lock", "nextNode": "passage-fork", "hint": "Your thin wire finds the tumblers one by one in the gloom." },
+        { "label": "search behind the barrels", "nextNode": "hidden-tunnel", "hint": "A barrel shifts too easily, as though something hollowed the wall behind it." }
+      ]
+    },
+    "merchant-study": {
+      "passage": "Ledgers fill every shelf, their spines labeled by season and port. A glass case near the desk holds a jeweled dagger - valuable, but not what you came for. Ink glistens. The half-written letter mentions a shipment arriving at dawn and a guest who must not be kept waiting. Footsteps approach from the corridor beyond the door.",
+      "choices": [
+        { "label": "hide behind the curtain", "nextNode": "overheard-secret", "hint": "Velvet presses against your back as you hold your breath." },
+        { "label": "slip into the corridor", "nextNode": "main-hall", "hint": "You ease the door open just enough to slide through sideways." }
+      ]
+    },
+    "rooftop-access": {
+      "passage": "Wind up here. It tugs at your cloak as clay tiles slope toward a skylight set into the peaked center of the estate roof. Through the glass you see the third-floor gallery below - display cases, tapestries, and a single guard circling the room. The relic's case sits on a marble pedestal near the far wall. A chimney stack offers cover.",
+      "choices": [
+        { "label": "break the skylight", "nextNode": "loud-entry", "hint": "Glass shatters across the gallery floor below and the guard's head snaps upward." },
+        { "label": "wait by the chimney", "nextNode": "patient-drop", "hint": "Minutes drag. The guard yawns and turns his back to refill his lamp." }
+      ]
+    },
+    "main-hall": {
+      "passage": "Vast. Tapestries depicting naval victories cover the hall walls, and a chandelier of whale-oil candles throws shifting brilliance across a checkered marble floor. Two guards stand at the base of the grand staircase, murmuring about wages. The staircase leads to the third floor and the relic. A side corridor branches toward the east wing.",
+      "choices": [
+        { "label": "create a diversion", "nextNode": "diversion-loss", "hint": "You knock a vase from its stand and it explodes on the marble." },
+        { "label": "sneak past the guards", "nextNode": "gallery-approach", "hint": "You press flat against the tapestry and inch forward while their eyes drift." }
+      ]
+    },
+    "passage-fork": {
+      "passage": "The passage splits. Chalk marks on the left wall point upward - a servant's shortcut to the upper floors. The right branch slopes down and carries a faint metallic smell, like old coins or dried blood. A draft pushes from the right, suggesting it connects somewhere outside the main structure.",
+      "choices": [
+        { "label": "follow the chalk marks", "nextNode": "gallery-approach", "hint": "The passage narrows until your shoulders brush both walls at once." },
+        { "label": "investigate the draft", "nextNode": "hidden-tunnel", "hint": "The metallic smell grows stronger with every step you take." }
+      ]
+    },
+    "hidden-tunnel": {
+      "passage": "A rough-hewn tunnel stretches beneath the estate foundation. Chisel marks stripe the walls. This is no cellar extension - someone carved an escape route, or a smuggling lane. Crates stamped with foreign seals line one side. The tunnel forks ahead: one branch angles up toward flickering light, the other descends into a flooded passage where water laps at knee height.",
+      "choices": [
+        { "label": "head toward the light", "nextNode": "gallery-approach", "hint": "The air warms and you hear muffled footsteps above the ceiling." },
+        { "label": "wade into the flood", "nextNode": "sewer-escape", "hint": "Frigid water soaks through your boots and numbs your ankles instantly." }
+      ]
+    },
+    "overheard-secret": {
+      "passage": "A steward enters, muttering to himself while sorting papers. He pulls a brass key from his vest, unlocks a drawer, and places a folded note inside before mentioning the relic will be moved to a ship before sunrise. Then he leaves. The drawer sits unlocked, and the brass key still rests on the desk where he forgot it.",
+      "choices": [
+        { "label": "read the note", "nextNode": "gallery-approach", "hint": "The note names a buyer and a price that makes your stomach turn." },
+        { "label": "take the brass key", "nextNode": "gallery-approach", "hint": "The key is warm from the steward's pocket and fits neatly in your palm." }
+      ]
+    },
+    "gallery-approach": {
+      "passage": "The gallery. Glass cases display plundered artifacts from a dozen conquered ports, and one guard patrols a slow circuit around the room's perimeter. The relic - a bone-white horn rimmed with silver - rests under a glass dome on a marble pedestal. A thin wire runs from the dome's base to a bell mounted on the wall.",
+      "choices": [
+        { "label": "cut the wire", "nextNode": "clean-grab", "hint": "Your blade parts the wire with a faint ping that fades into silence." },
+        { "label": "lift the dome quickly", "nextNode": "alarm-grab", "hint": "The bell shivers but you clamp your hand over it before it rings." },
+        { "label": "lure the guard away", "nextNode": "guard-distracted", "hint": "You roll a marble across the floor and it clicks against the far wall." }
+      ]
+    },
+    "loud-entry": {
+      "passage": "Glass rains onto the gallery floor. The guard draws his blade and shouts for help. You drop through the skylight frame and land hard on the tiles, palms stinging against cold marble. The relic sits twenty paces away, but boots are already thundering up the staircase. Jagged moonlight pours through the broken roof above. No time to think.",
+      "choices": [
+        { "label": "snatch the horn", "nextNode": "rooftop-chase", "hint": "Your fingers close around the relic as the first guard rounds the corner." },
+        { "label": "surrender peacefully", "nextNode": "captured-ending", "hint": "You raise your hands slowly as drawn blades ring you on every side." }
+      ]
+    },
+    "patient-drop": {
+      "passage": "The guard drifts to the far end of the gallery to tend his lamp. You pry a tile free and lower yourself through the gap, boots finding a display case below. The relic gleams on its pedestal, unguarded for the moment. Lamp oil fumes drift across the room. Every second here is borrowed.",
+      "choices": [
+        { "label": "pluck the horn free", "nextNode": "clean-grab", "hint": "The silver rim is cool against your fingers as you lift it free." },
+        { "label": "check for traps first", "nextNode": "guard-distracted", "hint": "Your fingertips trace the dome's base and find a thin wire hidden beneath." }
+      ]
+    },
+    "diversion-loss": {
+      "passage": "The crash draws every guard in the hall. They rush toward the noise, shouting orders. But a third guard you did not see steps from behind a pillar and seizes your arm. His grip is iron. More boots pound down the corridor. The merchant prince appears at the top of the stairs in a silk robe, smiling as though he expected you.",
+      "choices": [],
+      "ending": {
+        "title": "Caught in the Act",
+        "flavor": "The cell door closes, and the merchant's smile lingers long after the lantern goes out.",
+        "action": "accept your capture"
+      }
+    },
+    "clean-grab": {
+      "passage": "The horn lifts free without a sound. Heavy. You tuck it inside your cloak and feel its weight settle against your ribs like a second heartbeat. The gallery remains still, every display case gleaming under pale glow from the windows. A path leads back toward the skylight above, or you could retrace the servants' passage downward. Freedom is minutes away if you move now.",
+      "choices": [
+        { "label": "exit through the skylight", "nextNode": "rooftop-escape", "hint": "Cool night air greets you as you pull yourself onto the roof tiles." },
+        { "label": "creep through the passage", "nextNode": "passage-escape", "hint": "The narrow walls guide you downward through the sleeping house." }
+      ]
+    },
+    "alarm-grab": {
+      "passage": "One muffled clang. The bell shivers under your palm before you silence it. The guard freezes mid-step, then turns. Your eyes meet across the gallery, and for a breath neither of you moves. He reaches for the whistle at his neck. The horn sits exposed on the pedestal, the glass dome still warm in your other hand.",
+      "choices": [
+        { "label": "seize the horn and flee", "nextNode": "rooftop-chase", "hint": "You clutch the relic to your chest and sprint for the nearest window." },
+        { "label": "bluff your way out", "nextNode": "bluff-ending", "hint": "You hold up the steward's key and speak with borrowed authority." }
+      ]
+    },
+    "guard-distracted": {
+      "passage": "The marble clicks against the baseboard and the guard walks toward the sound, hand on his hilt. You have a clear path to the pedestal. The wire trap is visible now - a thin copper line from dome to bell. Cutting it requires a steady hand and a sharp edge. The guard will turn back in moments.",
+      "choices": [
+        { "label": "sever the wire", "nextNode": "clean-grab", "hint": "One clean cut and the wire falls limp against the marble base." },
+        { "label": "rush the pedestal", "nextNode": "alarm-grab", "hint": "Your boots slap the tile as you lunge for the glass dome." }
+      ]
+    },
+    "rooftop-chase": {
+      "passage": "Tiles crack. You sprint across the estate roof as guards shout below and a crossbow bolt whistles past your ear. The gap to the next building stretches wide - three paces at least. Behind you, a guard hauls himself onto the roof, blade drawn. Rain begins to fall, slicking the clay beneath your feet.",
+      "choices": [
+        { "label": "leap across the gap", "nextNode": "daring-escape", "hint": "Your legs coil and you throw yourself into the empty air between buildings." },
+        { "label": "turn and fight", "nextNode": "rooftop-stand", "hint": "You draw your blade and plant your feet on the wet tiles." }
+      ]
+    },
+    "rooftop-escape": {
+      "passage": "You cross the rooftop under a canopy of stars. The estate shrinks behind you as you drop to a lower building, then slide down a gutter pipe to the cobblestones. The horn presses warm against your chest. No alarms sound. The merchant prince will wake to an empty pedestal and a story he can never tell - the relic was never his to display.",
+      "choices": [],
+      "ending": {
+        "title": "Ghost in Moonlight",
+        "flavor": "By morning you are three districts away, and the horn sings softly against your heartbeat.",
+        "action": "vanish into the night"
+      }
+    },
+    "passage-escape": {
+      "passage": "Fresh air. The servants' passage delivers you to the garden, and wet grass muffles your steps as you cross to the iron fence and squeeze through the gap. Behind you the estate glows, oblivious. The horn is heavier than you expected, as if it remembers the hands that carved it. The street ahead is empty and yours.",
+      "choices": [],
+      "ending": {
+        "title": "Silent Retrieval",
+        "flavor": "No one sees you leave, and by dawn the relic rests where it belongs.",
+        "action": "slip through the fence"
+      }
+    },
+    "daring-escape": {
+      "passage": "For one breath you are weightless. Rain streaks past your face. Your hands catch the far ledge and your arms scream as they take your full weight. You haul yourself up and roll onto flat stone. The guards cluster at the roof's edge, unwilling to follow. The horn is safe. The city spreads below, glistening and free.",
+      "choices": [],
+      "ending": {
+        "title": "Leap of Faith",
+        "flavor": "The gap between rooftops is the widest thing you have ever crossed - until the next job.",
+        "action": "pull yourself over the edge"
+      }
+    },
+    "rooftop-stand": {
+      "passage": "Steel rings against steel on the rain-slicked roof. The guard is skilled but cautious on the wet tiles. You trade blows until his boot slides and he drops to one knee. More guards are climbing. You could finish this or run while the path is clear. The horn weighs heavy inside your cloak.",
+      "choices": [
+        { "label": "spare him and run", "nextNode": "daring-escape", "hint": "You sheathe your blade and sprint for the rooftop edge." },
+        { "label": "disarm and question him", "nextNode": "truth-ending", "hint": "You kick his sword away and press your blade to his collar." }
+      ]
+    },
+    "bluff-ending": {
+      "passage": "The guard hesitates. You hold the key higher and recite the steward's name, claiming an urgent order to relocate the display. Doubt flickers in his eyes. He steps aside. You walk past him with the horn under your arm, down the stairs, and out the servants' door into the garden. Sometimes the boldest lie is the quietest exit.",
+      "choices": [],
+      "ending": {
+        "title": "Borrowed Authority",
+        "flavor": "A brass key and steady nerve prove sharper than any blade tonight.",
+        "action": "walk out the front door"
+      }
+    },
+    "truth-ending": {
+      "passage": "The guard talks. He gasps that the merchant bought the horn from a tomb raider last winter, and a woman came asking for it a week ago but Oradi turned her away - she wept on the steps. You release him and tuck the horn deeper into your cloak. The relic carries more grief than you knew. Returning it will mend something older than tonight.",
+      "choices": [
+        { "label": "flee across the rooftop", "nextNode": "rooftop-escape", "hint": "You sheathe your blade and leave the guard kneeling on the wet tiles." },
+        { "label": "retrace the passage down", "nextNode": "passage-escape", "hint": "The narrow walls welcome you back as you slip into the servants' route." }
+      ]
+    },
+    "sewer-escape": {
+      "passage": "Freezing. Icy water climbs to your waist as the tunnel narrows, and you hold the walls for balance pushing forward until the passage opens into a storm drain beneath the city streets. Moonlight filters through a grate above. You never reached the relic, but you found the smuggling route - and that knowledge has its own kind of value.",
+      "choices": [],
+      "ending": {
+        "title": "Empty-Handed Wisdom",
+        "flavor": "You leave without the prize, but the merchant's secrets follow you home.",
+        "action": "crawl through the grate"
+      }
+    },
+    "captured-ending": {
+      "passage": "Steel everywhere. Guards surround you in a ring of drawn blades, and the merchant prince walks down the staircase adjusting his cuffs as though receiving a late dinner guest. He studies your face and nods to himself. The relic stays on its pedestal. A cell waits below the kitchen for a thief who does not exist.",
+      "choices": [
+        { "label": "plead for mercy", "nextNode": "diversion-loss", "hint": "Your words echo off the marble but the merchant's smile does not waver." },
+        { "label": "bolt for the window", "nextNode": "rooftop-chase", "hint": "You shove past a guard and hurl yourself at the nearest pane of glass." }
+      ]
+    }
+  }
+}

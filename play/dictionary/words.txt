@@ -596,7 +596,6 @@ hymn
 icon
 idea
 idle
-imam
 inch
 info
 isle
@@ -1321,7 +1320,6 @@ angry
 ankle
 annex
 anvil
-aorta
 apple
 apply
 apron
@@ -1561,7 +1559,6 @@ fable
 facet
 fault
 feign
-femur
 ferry
 fetch
 fever
@@ -1697,12 +1694,10 @@ ocean
 odder
 optic
 orbit
-ovary
 oxide
 ozone
 paddy
 pansy
-papal
 pasta
 pasty
 patsy
@@ -1738,20 +1733,16 @@ prawn
 privy
 prone
 prune
-psalm
 puffy
 pulse
 puppy
 purge
 purse
-pygmy
 qualm
-quark
 quasi
 quell
 quest
 quota
-rabbi
 rabid
 rainy
 rally
@@ -1778,7 +1769,6 @@ rough
 rowdy
 rummy
 runny
-rupee
 rusty
 salty
 savvy
@@ -1933,7 +1923,6 @@ verge
 vexed
 vigil
 viral
-virile
 virus
 visor
 vista
@@ -1941,7 +1930,6 @@ vivid
 vixen
 vocab
 vodka
-voila
 vomit
 voter
 vouch
@@ -2234,7 +2222,6 @@ bravery
 brewery
 brigade
 broader
-bromine
 buckle
 builder
 captive
@@ -2305,7 +2292,6 @@ feature
 fiction
 fighter
 finding
-fission
 fixing
 flashback
 flowing

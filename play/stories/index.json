@@ -898,4 +898,34 @@
     "endingCount": 6,
     "storyNumber": 63
   }
+,
+  {
+    "id": "ccdb9a1d-3dc0-4da0-8aa0-6fee551b6287",
+    "title": "Pitfighter's Bargain",
+    "description": "Chained fighters enter the pits of Velkash, where three wins promise freedom. No one has ever collected.",
+    "author": "AI",
+    "tags": [
+      "competition"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-20",
+    "dayOfYear": "06-05",
+    "endingCount": 5,
+    "storyNumber": 64
+  },
+  {
+    "id": "5f293e82-175a-4d09-9a78-947e92d617a8",
+    "title": "Velvet Trespass",
+    "description": "A merchant prince keeps a stolen relic locked behind silk curtains and hired blades. Tonight you slip inside to take it back.",
+    "author": "AI",
+    "tags": [
+      "stealth",
+      "treasure-hunt"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-06-06",
+    "dayOfYear": "06-06",
+    "endingCount": 6,
+    "storyNumber": 65
+  }
 ]
