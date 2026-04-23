@@ -1,0 +1,210 @@
+{
+  "id": "de89c7a2-fa15-4e46-82e0-20d7a39e896e",
+  "title": "Frosthollow Pass",
+  "description": "A mountain guide leads a stranded merchant caravan through a blizzard-choked pass. The trail splits, the wind howls, and something stalks the tree line.",
+  "author": "AI",
+  "tags": ["survival"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-22",
+  "dayOfYear": "06-10",
+  "endingCount": 6,
+  "storyNumber": 69,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "The blizzard hit three hours ago and shows no sign of easing. Six merchant wagons huddle behind a ridge of black pine, their oxen lowing into the gale. Hagen, the caravan master, grips your arm and shouts over the wind. His eyes carry a question you already know the answer to. Press forward or die here.",
+      "choices": [
+        { "label": "scout the trail ahead", "nextNode": "trail-fork", "hint": "Wind cuts through your cloak like a blade as you push past the last wagon." },
+        { "label": "check the supply wagon", "nextNode": "supply-check", "hint": "Canvas snaps against the wooden frame as you pull back the frozen tarp." }
+      ]
+    },
+    "trail-fork": {
+      "passage": "Fifty paces beyond the wagons, the path splits around a frozen crag. Two choices. Left descends into a narrow gorge where the wind dies but the rock walls glisten with treacherous ice. Right climbs a bare ridge, exposed and brutal, though a tree line waits on the far side. Fresh tracks press into the drift on the left trail. Not human.",
+      "choices": [
+        { "label": "follow the gorge", "nextNode": "gorge-entry", "hint": "The walls close in fast and the howling fades to a low, steady moan." },
+        { "label": "take the ridge", "nextNode": "ridge-climb", "hint": "Each step on the exposed rock demands everything your legs can give you." },
+        { "label": "return to camp", "nextNode": "supply-check", "hint": "Hagen needs to hear about those tracks before you commit to either path." }
+      ]
+    },
+    "supply-check": {
+      "passage": "The supply wagon tilts on a cracked axle. Inside, you find a half-empty grain sack, two coils of rope, a lantern with a thumb's width of oil, and iron stakes meant for tent pegs. Hagen watches from behind you. The oxen will not last until dawn without shelter, he says. One of the drovers coughs blood into her fist.",
+      "choices": [
+        { "label": "push toward the trail", "nextNode": "trail-fork", "hint": "Rope coiled over your shoulder and lantern in hand, you head into the white." },
+        { "label": "tend the sick drover", "nextNode": "drover-tent", "hint": "She waves you off at first, but her hand trembles too much to mean it." }
+      ]
+    },
+    "gorge-entry": {
+      "passage": "Ice walls rise on both sides, glowing faint blue where moonshine filters through the storm above. The gorge floor is smooth. Treacherous. Halfway through, you find a dead elk, freshly killed, its belly opened by claws wider than your hand. A low rumble echoes from deeper in the passage, and the bend ahead hides whatever made that sound.",
+      "choices": [
+        { "label": "press deeper in", "nextNode": "gorge-beast", "hint": "Your boot slides on frozen blood as you step carefully over the carcass." },
+        { "label": "retreat to the fork", "nextNode": "trail-fork", "hint": "Whatever killed this elk is still close, and you are very much alone." }
+      ]
+    },
+    "gorge-beast": {
+      "passage": "Around the bend, two pale eyes reflect your lantern from a shelf of rock above. A frost-cat. Lean and enormous, it crouches low with killing intent, every muscle taut beneath matted silver fur. It does not charge. Behind it, the gorge opens into a wide sheltered basin ringed by pines. Perfect shelter. The cat's tail flicks once. It is deciding.",
+      "choices": [
+        { "label": "hold still and wait", "nextNode": "cat-standoff", "hint": "Every instinct screams to run, but your feet refuse to obey the command." },
+        { "label": "offer the elk meat", "nextNode": "cat-offering", "hint": "Dragging the carcass forward with shaking hands, you keep your gaze low and steady." }
+      ]
+    },
+    "cat-standoff": {
+      "passage": "Minutes stretch like hours. Frost builds on your eyebrows and your knees lock with the chill. The cat's breathing steadies and it shifts its weight off the front legs. Then, without warning, it leaps from the ledge and vanishes into a crack in the wall beyond. The basin lies open and still, sheltered from the gale. Room enough for all six wagons.",
+      "choices": [
+        { "label": "signal the caravan", "nextNode": "basin-camp", "hint": "Striking flint to the lantern, you raise it high above your head and wait." },
+        { "label": "explore the basin first", "nextNode": "basin-ruins", "hint": "Something angular juts from the drifts near the far tree line ahead." }
+      ]
+    },
+    "cat-offering": {
+      "passage": "The frost-cat descends in a single fluid motion. It circles the elk, tears a haunch free without looking at you, and drags the meat into the crack. Silence returns. The basin opens before you, wide and windless, rimmed by ancient pines whose roots grip the gorge walls like fingers. A faint smell of old smoke drifts from the far end.",
+      "choices": [
+        { "label": "investigate the smoke", "nextNode": "basin-ruins", "hint": "Ash and char cling to the rocks near a cluster of fallen timber trunks." },
+        { "label": "wave the caravan through", "nextNode": "basin-camp", "hint": "Turning back through the gorge, you move faster now that the cat is fed." }
+      ]
+    },
+    "ridge-climb": {
+      "passage": "Merciless. The ridge wind slams you sideways and the rock underfoot crumbles where frost has split it apart. Halfway up, you spot a shallow overhang large enough for one wagon at most. Beyond it, the ridge crests and drops toward a dense fir forest. Smoke rises from somewhere among the trees - thin, deliberate, a campfire. Someone else is out here tonight.",
+      "choices": [
+        { "label": "climb toward the smoke", "nextNode": "hermit-camp", "hint": "Your fingers are numb by the time you reach the tree line at the crest." },
+        { "label": "shelter under the overhang", "nextNode": "overhang-wait", "hint": "Even this shallow cover feels like a fortress after the open ridge above." }
+      ]
+    },
+    "hermit-camp": {
+      "passage": "A lean-to of layered bark and hide sits between two massive firs. An old woman tends the fire, unbothered by the storm raging beyond the branches. She looks up as you approach and gestures to a seat on a split log. Thirty winters on this peak, she says. She knows every trail, every den, every crevice. Her eyes are milky but her voice is iron.",
+      "choices": [
+        { "label": "ask for safe passage", "nextNode": "hermit-deal", "hint": "She tilts her head as if weighing whether you deserve the answer she holds." },
+        { "label": "pay coin for shelter", "nextNode": "hermit-refuse", "hint": "Digging into your belt pouch with clumsy fingers, you produce a handful of silver." }
+      ]
+    },
+    "hermit-deal": {
+      "passage": "She nods slowly. Beneath the ridge lies a cave system, she says, with a mouth wide enough for wagons. Warm air rises from below, something volcanic keeping the rock heated. She will show you the entrance for three sacks of grain from the caravan stores. Hagen will not like it. The drovers need that grain. But warmth is warmth.",
+      "choices": [
+        { "label": "accept the deal", "nextNode": "cave-entrance", "hint": "Three sacks of grain against six lives feels like a bargain you can stomach." },
+        { "label": "try to negotiate", "nextNode": "hermit-haggle", "hint": "One sack and a jar of salted pork might do instead, you suggest." }
+      ]
+    },
+    "hermit-refuse": {
+      "passage": "She laughs. A dry rasp, like wind through bare branches on a dead tree. Coin means nothing on this peak, she says, because there is no one to buy from and nothing worth selling to the rock and ice. She pokes the fire and sparks climb into the gale. Keep moving before the frost-cats come down from the upper crags, she warns.",
+      "choices": [
+        { "label": "learn what she needs", "nextNode": "hermit-deal", "hint": "Pride fades quickly when the alternative is freezing to death in the open." },
+        { "label": "head for the overhang", "nextNode": "overhang-wait", "hint": "Her warning about the frost-cats settles into your gut like a swallowed rock." }
+      ]
+    },
+    "hermit-haggle": {
+      "passage": "Her expression hardens. One sack is an insult, she says. The mountain gives nothing for free and neither does she. Two sacks. Final offer. She rises and kicks dirt over the fire, ready to walk away into the timber. The last warmth gutters and dies. Somewhere above, a long wail cuts through the storm. Not wind. Not human. The frost-cats are moving.",
+      "choices": [
+        { "label": "agree to two sacks", "nextNode": "cave-entrance", "hint": "You clasp her wrist before she can vanish into the dark timber behind." },
+        { "label": "refuse and leave", "nextNode": "overhang-wait", "hint": "Two sacks might starve someone down the trail, so you turn back alone." }
+      ]
+    },
+    "cave-entrance": {
+      "passage": "The hermit leads you along a goat path hidden beneath a snowdrift. She kicks aside a curtain of icicles and reveals a wide mouth in the rock, warm air pouring out like breath. Inside, the tunnel opens into a vaulted chamber where mineral veins gleam copper and green. Dripping echoes fill the hush. Room for wagons, oxen, and a full night of rest.",
+      "choices": [
+        { "label": "bring the caravan in", "nextNode": "cave-safe-ending", "hint": "You sprint back through the blizzard with directions burned into your memory now." },
+        { "label": "venture deeper inside", "nextNode": "cave-deep", "hint": "The warm draft comes from somewhere below, and curiosity pulls you forward hard." }
+      ]
+    },
+    "cave-deep": {
+      "passage": "Down. The tunnel slopes and the air grows warmer with every step you take toward whatever waits below. Mineral formations hang like melted candles from the ceiling. At the bottom, a pool of steaming water fills a natural bowl in the rock, fed by a crack that glows faint orange. Beside the pool sits a carved chest, sealed with wax.",
+      "choices": [
+        { "label": "open the chest", "nextNode": "cave-treasure-ending", "hint": "The wax cracks under your knife and the lid swings free with a groan." },
+        { "label": "leave it alone", "nextNode": "cave-safe-ending", "hint": "Whatever secrets this mountain keeps are not yours to disturb right now." }
+      ]
+    },
+    "basin-camp": {
+      "passage": "It takes an hour to guide the wagons through the gorge. Oxen slip and drivers curse, but the basin rewards the effort with windless calm. Pine boughs break the gale and the ground is firm beneath the drift. Hagen builds a fire ring while the drovers stake the canvas. Maren, the sick drover, sits by the flames. Color returns to her cheeks.",
+      "choices": [
+        { "label": "set a watch rotation", "nextNode": "basin-night", "hint": "The frost-cat is still out there and the gorge has only one way in." },
+        { "label": "walk the basin perimeter", "nextNode": "east-gap", "hint": "Restless legs carry you along the tree line while the others make camp tonight." }
+      ]
+    },
+    "basin-ruins": {
+      "passage": "Beneath the drifts, you uncover the remains of a waystation - collapsed roof, blackened hearth, a post with trail markers carved in old script that still holds firm against the years. One marker points back. Another points east, toward a narrow gap in the basin wall you had not noticed before. A trade route, abandoned but not forgotten.",
+      "choices": [
+        { "label": "clear the old hearth", "nextNode": "basin-camp", "hint": "Good timber sits under the collapse, dry enough to burn through the night." },
+        { "label": "trace the east marker", "nextNode": "east-gap", "hint": "A trade route means a destination, and destinations mean survival for everyone." }
+      ]
+    },
+    "basin-night": {
+      "passage": "Midnight. Your watch. The fire crackles low and the sky clears enough to show a ribbon of stars between the peaks. A branch snaps in the tree line. Then another. Three sets of pale eyes appear at the gorge mouth, low to the ground, spaced wide. A frost-cat hunting pack. They do not enter. They wait. The iron stakes sit by the supply wagon.",
+      "choices": [
+        { "label": "grab the iron stakes", "nextNode": "stake-defense", "hint": "Metal scrapes against the wagon bed as you pull the heavy bundle free." },
+        { "label": "stoke the fire higher", "nextNode": "fire-defense", "hint": "Every spare branch goes onto the coals until sparks fly wild and bright." }
+      ]
+    },
+    "stake-defense": {
+      "passage": "Iron bites frozen ground as you drive the stakes at the gorge mouth, angled outward like a crude palisade. The lead cat snarls and paces. It tests one stake with a paw, draws back, and circles. After a long hour, the pack retreats into the gorge and the night grows still. Dawn breaks grey. Maren is standing when you return. She says the fever broke.",
+      "choices": [],
+      "ending": {
+        "title": "Iron in the Ground",
+        "flavor": "Sometimes survival is just one good fence between you and the wild.",
+        "action": "drive the last stake"
+      }
+    },
+    "fire-defense": {
+      "passage": "Flames leap high and the cats recoil from the glow. Feeding the blaze until sweat runs down your back despite the chill, you watch the pack circle twice and melt into the gorge. By morning, every scrap of spare wood is ash. Hagen says you bought them a night. Now you need to buy them a trail out. The pass still awaits beyond the ridge.",
+      "choices": [],
+      "ending": {
+        "title": "Burning Through the Night",
+        "flavor": "The fire kept them alive, but the mountain is not done with you yet.",
+        "action": "watch the last ember fade"
+      }
+    },
+    "east-gap": {
+      "passage": "The gap is barely wide enough for a single wagon, its walls scraping the canvas as you squeeze through to see what lies beyond. The terrain drops into a sheltered valley where a frozen river gleams under thinning clouds. On the far bank, chimneys rise from snowdrifts. A village. Lanterns glow in windows. The other side of the pass.",
+      "choices": [],
+      "ending": {
+        "title": "Lanterns on the Far Bank",
+        "flavor": "The valley opens like a held breath finally released.",
+        "action": "step into the valley"
+      }
+    },
+    "overhang-wait": {
+      "passage": "Wedged under the rock with your cloak pulled tight, you ride out the worst of it. The wind screams past the lip of the overhang for hours. Slowly the blizzard thins and the first grey hint of dawn appears on the eastern peaks. Below, you spot a sheltered ravine you missed in the murk, leading south toward lower ground. The caravan might fit.",
+      "choices": [
+        { "label": "descend the ravine", "nextNode": "ravine-ending", "hint": "Loose scree shifts underfoot but the path is passable in the growing dawn." },
+        { "label": "trek back to camp", "nextNode": "supply-check", "hint": "Morning changes everything, and Hagen deserves to hear what you have found out here." }
+      ]
+    },
+    "drover-tent": {
+      "passage": "Maren sits propped against a crate. Her breath rattles like gravel shaken in a jar, shallow and thin. A bruise spreads across her ribs where she fell from the wagon seat hours ago. She tells you the oxen spooked at something in the trees, a shape too large for any wolf. The cough returns. Without a healer, warmth is all you can offer.",
+      "choices": [
+        { "label": "forage for healing herbs", "nextNode": "herb-search", "hint": "Frozen ground makes the search desperate, but pine bark has its medicinal uses." },
+        { "label": "find the trail ahead", "nextNode": "trail-fork", "hint": "Maren needs shelter more than medicine right now, and the trail is waiting." }
+      ]
+    },
+    "herb-search": {
+      "passage": "Scraping through the drift at the tree line, you find wintergreen still clinging to life beneath the ice crust. Stripped pine bark joins the handful. Back in the tent, you brew a rough tea over a shielded flame. Maren drinks, grimaces, breathes a fraction easier. She grabs your wrist. Her grandmother spoke of a cave somewhere on the ridge, she says. Warm inside.",
+      "choices": [
+        { "label": "ascend the ridge", "nextNode": "ridge-climb", "hint": "Maren's grandmother knew these mountains, and her word is worth the hard climb." },
+        { "label": "rally the caravan", "nextNode": "trail-fork", "hint": "A cave on the ridge gives you a heading, so you gather everyone quickly." }
+      ]
+    },
+    "cave-safe-ending": {
+      "passage": "The caravan rolls into the cave as the blizzard reaches its peak outside. Oxen settle on the warm rock and the drovers unroll blankets near the mineral walls. Hagen builds a fire at the entrance. Maren sleeps soundly for the first time in two days. The hermit vanishes before anyone can thank her. Outside, the mountain roars, but in here, nothing can touch you.",
+      "choices": [],
+      "ending": {
+        "title": "Shelter in the Deep",
+        "flavor": "The mountain tried to kill you, but it held a gift in its belly all along.",
+        "action": "close your eyes and rest"
+      }
+    },
+    "cave-treasure-ending": {
+      "passage": "Inside the chest, a set of surveyor's tools rests beside a rolled parchment. The map shows every passage beneath this peak, marked in careful ink. Trade routes, springs, sheltered valleys. Whoever left this meant it to be found by someone who needed it. The caravan will survive tonight, and with this knowledge, no traveler need fear Frosthollow Pass again.",
+      "choices": [],
+      "ending": {
+        "title": "Cartographer's Legacy",
+        "flavor": "The mountain keeps its secrets until someone earns them.",
+        "action": "roll the map and rise"
+      }
+    },
+    "ravine-ending": {
+      "passage": "The ravine descends steeply but the walls block the worst of the gale, and by midmorning you lead the caravan onto a valley road lined with bare birch trees. A milestone appears. Two leagues south. Hagen laughs for the first time since the storm began. Maren rides in the lead wagon, bundled tight but breathing. Through at last.",
+      "choices": [],
+      "ending": {
+        "title": "Milestone in the Birch",
+        "flavor": "Two leagues never felt so short after a night that felt so long.",
+        "action": "follow the valley road"
+      }
+    }
+  }
+}

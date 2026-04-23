@@ -1,0 +1,210 @@
+{
+  "id": "e65b6490-8f43-43a4-a2de-e1efa2045244",
+  "title": "Molten Whispers",
+  "description": "A master glassblower's shop sits open and empty at dawn. Molten glass still bubbles on the shelf, and something trapped inside the orbs is trying to speak.",
+  "author": "AI",
+  "tags": ["crafting"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-22",
+  "dayOfYear": "06-07",
+  "endingCount": 5,
+  "storyNumber": 66,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Salt wind carries the smell of hot sand and flux through the open door of Voss's glass shop. A note on the frame reads 'Come at dawn,' but the old master is nowhere in sight. Crucibles of molten color line the furnace shelf, still bubbling. Nobody tends them. The village lane behind you is empty.",
+      "choices": [
+        { "label": "enter the shop", "nextNode": "workshop", "hint": "The heat from the furnace hits your face the moment you step inside." },
+        { "label": "circle the building", "nextNode": "courtyard", "hint": "Gravel crunches underfoot as you follow the narrow path around the back." },
+        { "label": "ask a neighbor", "nextNode": "neighbor", "hint": "The fishmonger across the lane watches you with one eye while gutting eels." }
+      ]
+    },
+    "workshop": {
+      "passage": "Heat bends the air above the marver table where Voss's blowpipe rests, its tip still coated in cooling glass. Shelves of finished pieces line the far wall: goblets, lenses, tiny figurines whose eyes seem to track you across the room. Odd. A narrow staircase leads up, and behind the annealing oven something glows faintly blue.",
+      "choices": [
+        { "label": "investigate the glow", "nextNode": "furnace-glow", "hint": "The pulsing blue grows brighter as you move around the side of the oven." },
+        { "label": "climb the staircase", "nextNode": "storage-loft", "hint": "Each step groans beneath your weight and dust drifts down from the beams." }
+      ]
+    },
+    "courtyard": {
+      "passage": "Behind the shop, a walled yard holds crates of white sand and sacks of soda ash stacked against the brick. A padlocked shed sits in the far corner, its timbers warped with damp. The lock is rusted through. Through a gap in the shutters you spot movement inside, fabric maybe, or a shape that vanishes when you blink.",
+      "choices": [
+        { "label": "force the shed", "nextNode": "shed", "hint": "The rusted padlock gives way with a twist and drops into the weeds." },
+        { "label": "go inside", "nextNode": "workshop", "hint": "The back door opens into a wave of furnace heat and burnt sand." }
+      ]
+    },
+    "neighbor": {
+      "passage": "The fishmonger across the lane, Brecca, squints at you through the steam of her boiling pot and wipes both hands on a stained cloth. She says Voss has not left the shop in three days. Deliveries pile up. She tells you she hears grinding sounds at odd hours, and a strange blue glow fills his windows after midnight.",
+      "choices": [
+        { "label": "head to the shop", "nextNode": "workshop", "hint": "Brecca watches you cross the lane with worry plain on her weathered face." },
+        { "label": "check the alley", "nextNode": "courtyard", "hint": "You duck past the fish stalls and slip into the narrow passage behind the shops." }
+      ]
+    },
+    "furnace-glow": {
+      "passage": "A shelf behind the oven holds a row of glass orbs, each the size of a fist. Most are clear. One at the center burns with a shifting blue flame that casts no heat, yet the glass gives off a sharp chill when your hand draws near. Below the shelf, scorch marks trace a path toward a cellar hatch.",
+      "choices": [
+        { "label": "touch the orb", "nextNode": "orb-whisper", "hint": "Your fingers close around the glass and a jolt of frozen air shoots through you." },
+        { "label": "open the hatch", "nextNode": "cellar-stairs", "hint": "The iron ring is warm as you heave the heavy wooden door upward." }
+      ]
+    },
+    "storage-loft": {
+      "passage": "Dust coats every surface up here. Shelves sag under rows of glass pieces sorted by color: amber, cobalt, emerald, and a milky white that seems to shift when you look away. A leather-bound journal sits open on a tilted desk, its pages filled with cramped writing and diagrams of circles within circles. One page is torn out, recently.",
+      "choices": [
+        { "label": "read the journal", "nextNode": "journal", "hint": "The ink is fresh and the handwriting grows shaky toward the final entry." },
+        { "label": "descend toward the glow", "nextNode": "furnace-glow", "hint": "From up here you can see the blue pulse clearly, beating like a slow heart." }
+      ]
+    },
+    "shed": {
+      "passage": "Bundles of dried herbs hang from the rafters alongside pouches of powdered bone and crushed ore. A scarred workbench holds grinding tools and a mortar still dusted with silver flakes. Rosemary and burnt iron. A trapdoor sits flush with the dirt floor, its ring handle wrapped in cloth to keep it from making any sound when lifted.",
+      "choices": [
+        { "label": "pull the trapdoor", "nextNode": "tunnels", "hint": "The cloth-wrapped ring makes no sound at all as you lift the heavy panel." },
+        { "label": "slip back inside", "nextNode": "workshop", "hint": "You close the shed behind you and push through the workshop's rear entrance." }
+      ]
+    },
+    "tunnels": {
+      "passage": "The trapdoor opens onto a ladder of salt-crusted rungs dropping into a narrow tunnel cut through the cliff beneath the shop. Cool air rises from below, carrying the scent of minerals and hot glass. Tally marks score the walls. Dozens of them. The passage bends left before swallowing what little daylight follows you down.",
+      "choices": [
+        { "label": "press forward", "nextNode": "cellar-stairs", "hint": "The passage widens after the bend and the blue glow strengthens up ahead." },
+        { "label": "turn back", "nextNode": "workshop", "hint": "The ladder rungs are slick with damp as you haul yourself back to daylight." }
+      ]
+    },
+    "orb-whisper": {
+      "passage": "The moment your fingers close around the orb, a voice fills your skull: thin, layered, like many people speaking the same word at once. It says a name. Voss. Then others. Maren. Kell. Dorin. Each name pulses with sorrow. The glow brightens until the glass is almost too bright to hold, and the voice says one word more: below.",
+      "choices": [
+        { "label": "follow the voice", "nextNode": "cellar-stairs", "hint": "The orb dims as you lower it, and a draft rises from the hatch below." },
+        { "label": "set it down", "nextNode": "orb-refuse", "hint": "The glass clings to your palm for a heartbeat before letting go at last." }
+      ]
+    },
+    "journal": {
+      "passage": "Voss's handwriting starts neat but frays across the final pages. He writes of a method to trap willing spirits inside blown glass, preserving them past the death of the body. The diagrams show a binding circle scored into a cellar floor with channels for molten glass. The last entry reads: it works. Forgive me.",
+      "choices": [
+        { "label": "find the cellar", "nextNode": "cellar-stairs", "hint": "A charcoal arrow on the back of the page points toward the furnace below." },
+        { "label": "take the journal", "nextNode": "master-returns", "hint": "You tuck the book inside your coat and turn to leave, but footsteps echo." }
+      ]
+    },
+    "orb-refuse": {
+      "passage": "The orb leaves a tingling chill in your palm long after you place it back on the shelf. Fading, not gone. The voice hums at the edge of hearing, a low note that vibrates in your teeth. On the workbench, a half-finished goblet sits next to a bill of sale with one name circled in red: Lord Halder.",
+      "choices": [
+        { "label": "pry the hatch open", "nextNode": "cellar-stairs", "hint": "The cellar door is heavy but the latch gives way with steady pulling." },
+        { "label": "examine the bill", "nextNode": "master-returns", "hint": "You hold the paper up to the furnace glow and more names appear." }
+      ]
+    },
+    "cellar-stairs": {
+      "passage": "Rough-cut steps spiral down into a dim passage lined with jars of colored sand and ground mineral. The air thickens with each step, heavy with the tang of heated glass and something older, something that smells like a storm about to break. Deeper still. A faint blue glow outlines a doorframe carved into the bedrock.",
+      "choices": [
+        { "label": "step through", "nextNode": "binding-chamber", "hint": "The glow swells and the air hums against your skin as you cross the threshold." },
+        { "label": "retreat upstairs", "nextNode": "master-returns", "hint": "Your boot scuffs the top step and a figure fills the doorway above you." }
+      ]
+    },
+    "binding-chamber": {
+      "passage": "A circular room hewn from raw rock, its floor scored with deep grooves that form an intricate pattern of interlocking rings. Molten glass fills the channels, glowing amber and blue. Nine orbs rest in carved niches around the perimeter, each holding a faint wisp of motion inside. The grooves pulse. Something here is alive, and it knows you are standing in its circle.",
+      "choices": [
+        { "label": "shatter the orbs", "nextNode": "shatter-orbs", "hint": "You grab the nearest orb and raise it high above the carved grooves." },
+        { "label": "trace the runes", "nextNode": "study-runes", "hint": "Your fingertip follows the groove and warmth floods up through your wrist and arm." },
+        { "label": "walk away", "nextNode": "walk-away", "hint": "The grooves brighten as you turn, as if the circle wants you to stay." }
+      ]
+    },
+    "shatter-orbs": {
+      "passage": "The first orb breaks like an egg against the grooved floor and a stream of pale mist rises from the shards, curling toward the ceiling with a sound like a held breath finally let go. Then the next. And the next. Each spirit unfurls, shapeless and grateful, brushing past your face with a touch like cool silk. The binding circle cracks beneath your feet.",
+      "choices": [
+        { "label": "release the last orb", "nextNode": "spirits-freed", "hint": "One orb remains in the deepest niche, glowing brighter than all the others combined." },
+        { "label": "keep one orb", "nextNode": "one-kept", "hint": "Your hand hesitates over the final sphere and the mist around you goes still." }
+      ]
+    },
+    "study-runes": {
+      "passage": "Warmth floods up through your wrist as your finger follows the carved groove. The pattern is a language, each loop a syllable of a binding chant written in glass and rock. Knowledge settles into you like heat from a kiln. You understand now how Voss traps them. More than that. You understand how to do it yourself. The circle hums, inviting.",
+      "choices": [
+        { "label": "accept the power", "nextNode": "dark-power", "hint": "The grooves blaze white and the hum becomes a roar inside your skull." },
+        { "label": "refuse and run", "nextNode": "walk-away", "hint": "You wrench your hand free and the warmth drains out of you like water." }
+      ]
+    },
+    "walk-away": {
+      "passage": "The staircase feels longer on the way up. Each step carries you further from the hum of the binding circle, but the sound does not fully fade. Voss's workshop greets you with familiar heat and the tick of cooling glass. Seagulls cry outside. The lane, the harbor, the whole wide coast stretches before you, asking nothing.",
+      "choices": [
+        { "label": "flee the shop", "nextNode": "flee-ending", "hint": "The cobblestones ring under your boots and the sea wind clears your lungs at last." },
+        { "label": "stay and wait", "nextNode": "master-returns", "hint": "You settle into Voss's chair and the creak of the front gate stirs you." }
+      ]
+    },
+    "master-returns": {
+      "passage": "Footsteps echo from the lane outside. The front door swings wide and Voss fills the frame, tall and gaunt, with rings under his eyes and glass dust in his beard. He carries a fresh pouch of crushed quartz. His gaze finds yours. He does not look surprised. He looks tired, and something worse. He sets the pouch down slowly.",
+      "choices": [
+        { "label": "confront him", "nextNode": "confront-voss", "hint": "You hold your ground and the words come before you can think them through." },
+        { "label": "hide behind the oven", "nextNode": "hide-watch", "hint": "You press your back against the warm brick and hold your breath as he passes." },
+        { "label": "bolt for the door", "nextNode": "flee-ending", "hint": "You shoulder past him before he can react and hit the lane at a sprint." }
+      ]
+    },
+    "confront-voss": {
+      "passage": "Voss sinks onto a bench and rubs his face with calloused hands. He does not deny it. He says the spirits come to him willingly, old folk with no kin who fear what lies beyond death. He gives them a home in glass, where they can watch the living world forever. His voice cracks. He asks what you intend to do.",
+      "choices": [
+        { "label": "report him", "nextNode": "guard-ending", "hint": "You turn without a word and the door closes hard behind you." },
+        { "label": "offer to help", "nextNode": "spirits-freed", "hint": "He looks up and something like hope reaches his eyes for the first time." }
+      ]
+    },
+    "hide-watch": {
+      "passage": "Pressed against the oven bricks, you watch through a gap as Voss moves to the cellar hatch and lifts it without effort. He murmurs to himself, names you recognize from the shelf: Maren, Kell. His tone is gentle, tender even, the way a person speaks to sleeping children. He descends. The hatch stays open and the blue glow strengthens from below.",
+      "choices": [
+        { "label": "creep down after", "nextNode": "cellar-confrontation", "hint": "You wait until his footsteps fade and then lower yourself through the hatch." },
+        { "label": "seal the hatch", "nextNode": "flee-ending", "hint": "You slide the iron bolt across and Voss's voice rises from the depths." }
+      ]
+    },
+    "cellar-confrontation": {
+      "passage": "Voss kneels at the center of the binding circle, feeding molten glass into the grooves from a long-handled ladle. Nine orbs pulse around him. He senses you before you speak and turns with a look that holds no anger, only weariness. Blue glow paints deep lines across his face. He says he can explain, if you are willing to listen.",
+      "choices": [
+        { "label": "hear him out", "nextNode": "confront-voss", "hint": "You lower yourself to the floor and the grooves warm your knees through the cloth." },
+        { "label": "topple the orbs", "nextNode": "shatter-orbs", "hint": "Your arm sweeps the nearest niche and the orb rolls free across the carved floor." }
+      ]
+    },
+    "one-kept": {
+      "passage": "The freed spirits drift through the ceiling and vanish, but the last orb sits heavy in your palm. Inside, a figure presses both hands against the glass, mouth moving with no sound. Voss's binding still holds it. The workshop above is quiet now, the furnace cooling. Whatever you decide, this spirit's fate rests in your grip and yours alone.",
+      "choices": [
+        { "label": "crack it open", "nextNode": "spirits-freed", "hint": "The glass gives way with a clean snap and warmth fills the empty chamber." },
+        { "label": "pocket the orb", "nextNode": "keeper-ending", "hint": "The figure inside curls small and still as you slide the orb into your coat." }
+      ]
+    },
+    "spirits-freed": {
+      "passage": "Light pours from the orbs as the last spirit rises, trailing a ribbon of pale mist that curls toward freedom. The binding grooves cool to dull iron, their glow fading to nothing. The air clears and for the first time in days the workshop smells only of glass and salt wind. You breathe. It is over.",
+      "choices": [],
+      "ending": {
+        "title": "Breath Unbound",
+        "flavor": "Some cages are beautiful, but every spirit deserves the sky.",
+        "action": "watch the mist rise"
+      }
+    },
+    "dark-power": {
+      "passage": "The grooves blaze white and a roar fills the chamber, drowning every other sound as knowledge crashes into you: names, faces, lifetimes of memory that are not yours. The orbs dim one by one as their occupants bow to your will. You rise with the circle's hum threaded through your bones. Voss's workshop belongs to you now. So do the spirits.",
+      "choices": [],
+      "ending": {
+        "title": "Bound in Glass",
+        "flavor": "Power always costs more than you think, and someone always pays.",
+        "action": "claim the circle"
+      }
+    },
+    "flee-ending": {
+      "passage": "You push through the door and the coastal wind hits your face, sharp and clean after the heavy air below. The lane stretches to the harbor where fishing boats rock at anchor. Behind you, Voss's shop sits quiet, its chimney trailing a thin line of smoke into the gray sky. You keep walking. The whisper in your teeth fades with every step.",
+      "choices": [],
+      "ending": {
+        "title": "Salt and Smoke",
+        "flavor": "Not every door is yours to open, and not every secret is yours to keep.",
+        "action": "walk to the harbor"
+      }
+    },
+    "guard-ending": {
+      "passage": "You find Tarrel at the harbor wall and tell him everything. He listens, then calls two of his men. Chains. By midday they lead Voss through the lane with his eyes fixed on the cobbles, and the orbs sit in a locked chest bound for the magistrate's tower. Whether the spirits inside will ever be freed is no longer your burden to carry.",
+      "choices": [],
+      "ending": {
+        "title": "Justice by Daybreak",
+        "flavor": "The law is a blunt tool, but sometimes blunt is all you have.",
+        "action": "close the case"
+      }
+    },
+    "keeper-ending": {
+      "passage": "The orb sits in your coat pocket, warm against your ribs, as you step onto the lane. The figure inside no longer presses against the glass. It rests now, curled small, trusting or resigned. Gulls wheel above the rooftops. You do not know what you will do with it, only that you cannot leave it in that circle beneath the shop.",
+      "choices": [],
+      "ending": {
+        "title": "Carried Weight",
+        "flavor": "Some things find you, and you carry them whether you choose to or not.",
+        "action": "pocket the last orb"
+      }
+    }
+  }
+}

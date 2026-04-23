@@ -851,8 +851,7 @@
     "dayOfYear": "06-01",
     "endingCount": 6,
     "storyNumber": 60
-  }
-,
+  },
   {
     "id": "e00580f4-2ca2-4938-897a-199b7e22981b",
     "title": "Smoke Over Grainhall",
@@ -866,8 +865,7 @@
     "dayOfYear": "06-02",
     "endingCount": 6,
     "storyNumber": 61
-  }
-,
+  },
   {
     "id": "be8b9e96-55c9-4db7-9b4d-354aa2a870a6",
     "title": "Gilded Tongues",
@@ -882,8 +880,7 @@
     "dayOfYear": "06-03",
     "endingCount": 6,
     "storyNumber": 62
-  }
-,
+  },
   {
     "id": "7ff89c1c-1019-4720-833c-aad91a6818c8",
     "title": "Dryland Hull",
@@ -897,8 +894,7 @@
     "dayOfYear": "06-04",
     "endingCount": 6,
     "storyNumber": 63
-  }
-,
+  },
   {
     "id": "ccdb9a1d-3dc0-4da0-8aa0-6fee551b6287",
     "title": "Pitfighter's Bargain",
@@ -927,5 +923,128 @@
     "dayOfYear": "06-06",
     "endingCount": 6,
     "storyNumber": 65
+  },
+  {
+    "id": "e65b6490-8f43-43a4-a2de-e1efa2045244",
+    "title": "Molten Whispers",
+    "description": "A master glassblower's shop sits open and empty at dawn. Molten glass still bubbles on the shelf, and something trapped inside the orbs is trying to speak.",
+    "author": "AI",
+    "tags": [
+      "crafting"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-22",
+    "dayOfYear": "06-07",
+    "endingCount": 5,
+    "storyNumber": 66
+  },
+  {
+    "id": "4a151af8-85c2-4952-b6e7-fe9ed97eb9cd",
+    "title": "Smoke and Cider",
+    "description": "A crossroads inn hums with firelight and argument as evening falls. You only meant to rest your legs, but the night has other plans.",
+    "author": "AI",
+    "tags": [
+      "slice-of-life"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-22",
+    "dayOfYear": "06-08",
+    "endingCount": 6,
+    "storyNumber": 67
+  },
+  {
+    "id": "f7a3d1e8-6b2c-4f95-a8d7-3e1b9c0f5a42",
+    "title": "Warden of the Pyre",
+    "description": "A relief warden climbs Greymount at dusk to find the signal-pyre dark, the tower door clawed open from inside, and the previous keeper gone.",
+    "author": "AI",
+    "tags": [
+      "mystery",
+      "sacrifice"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-22",
+    "dayOfYear": "06-09",
+    "endingCount": 5,
+    "storyNumber": 68
+  },
+  {
+    "id": "de89c7a2-fa15-4e46-82e0-20d7a39e896e",
+    "title": "Frosthollow Pass",
+    "description": "A mountain guide leads a stranded merchant caravan through a blizzard-choked pass. The trail splits, the wind howls, and something stalks the tree line.",
+    "author": "AI",
+    "tags": [
+      "survival"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-22",
+    "dayOfYear": "06-10",
+    "endingCount": 6,
+    "storyNumber": 69
+  },
+  {
+    "id": "347d98b5-1523-4358-bf3d-a2931471ee51",
+    "title": "Parley at Ashford Bridge",
+    "description": "Two armies camp on opposite banks of the River Ash, and you carry the only letter that might prevent a war. The bridge between them is neutral ground - for now.",
+    "author": "AI",
+    "tags": [
+      "diplomacy"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-22",
+    "dayOfYear": "06-11",
+    "endingCount": 4,
+    "storyNumber": 70
+  },
+  {
+    "id": "f1f0aae6-7994-44a0-874b-49ea249b0a35",
+    "title": "Copper and Misdirection",
+    "description": "A rigged wager at the Thornmarket Festival has ruined a dozen honest traders. You plan to beat the cheat at his own game, but the crowd is watching and you only get one chance.",
+    "author": "AI",
+    "tags": [
+      "trickery"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-22",
+    "dayOfYear": "06-12",
+    "endingCount": 6,
+    "storyNumber": 71
+  },
+  {
+    "id": "bc0f16c3-a12d-44e0-96a0-e168ff6904fb",
+    "title": "Drowning Gallery",
+    "description": "A collapsed mine entrance seals you underground with rising floodwater and a single sputtering torch. Somewhere below, the river finds its way out. You need to find it first.",
+    "author": "AI",
+    "tags": [
+      "escape"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-22",
+    "dayOfYear": "06-13",
+    "endingCount": 6,
+    "storyNumber": 72
+  },
+  {
+    "id": "4699c309-86a0-466b-b8de-50d36ed4d4f4",
+    "title": "Lanternwake",
+    "description": "A fishing skiff offers passage through waters that glow at night. Three days saved, if you survive what stirs beneath the sunken city of Mirren.",
+    "author": "AI",
+    "tags": ["voyage"],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-22",
+    "dayOfYear": "06-14",
+    "endingCount": 6,
+    "storyNumber": 73
+  },
+  {
+    "id": "802a8a50-ce45-4ba9-9f1d-38ab91be1bfd",
+    "title": "Holdfast",
+    "description": "A skeleton garrison, a wounded commander, and an army in the valley below. Two days until relief arrives. The walls are cracked and the choices are yours.",
+    "author": "AI",
+    "tags": ["siege"],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-22",
+    "dayOfYear": "06-15",
+    "endingCount": 5,
+    "storyNumber": 74
   }
 ]

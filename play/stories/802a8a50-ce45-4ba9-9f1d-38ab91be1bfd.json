@@ -1,0 +1,232 @@
+{
+  "id": "802a8a50-ce45-4ba9-9f1d-38ab91be1bfd",
+  "title": "Holdfast",
+  "description": "A skeleton garrison, a wounded commander, and an army in the valley below. Two days until relief arrives. The walls are cracked and the choices are yours.",
+  "author": "AI",
+  "tags": ["siege"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-22",
+  "dayOfYear": "06-15",
+  "endingCount": 5,
+  "storyNumber": 74,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "A single horn tears through the grey dawn and does not stop. From the battlement you count campfires spreading across the valley floor like spilled embers - three hundred souls at least, with a battering ram on wheels and ladders stacked in rows. Commander Sere lies in the infirmary with a bolt in her shoulder. The garrison looks to you.",
+      "choices": [
+        { "label": "inspect the walls", "nextNode": "scout-walls", "hint": "Cracks in the eastern face catch your eye before you reach the parapet." },
+        { "label": "visit the commander", "nextNode": "visit-commander", "hint": "The infirmary door stands ajar and the healer waves you through without a word." },
+        { "label": "muster the garrison", "nextNode": "rally-troops", "hint": "Boots scrape on cobblestones as fighters drag themselves into the courtyard." }
+      ]
+    },
+    "scout-walls": {
+      "passage": "The eastern wall carries a crack from last winter's freeze, running floor to parapet, wide enough to fit your fist inside where mortar crumbles at a touch. The south gate hangs on hinges that weep rust. From the north tower, the enemy camp sprawls across the valley in neat ordered rows. Patient.",
+      "choices": [
+        { "label": "shore up the defenses", "nextNode": "shore-defenses", "hint": "Beams and rubble will not fix the crack but they might slow what comes through." },
+        { "label": "return with your report", "nextNode": "rally-troops", "hint": "The garrison needs to know what they are facing before the sun climbs higher." }
+      ]
+    },
+    "visit-commander": {
+      "passage": "Sere lies pale against a stained pillow, arm bound tight, her breathing shallow but her eyes sharp and fixed on yours as she grips your wrist and pulls you down to whisper. Hold the fort. Two days, maybe three, and the duke's riders come. A passage under the chapel, she adds. For when everything else fails.",
+      "choices": [
+        { "label": "find the tunnel", "nextNode": "chapel-tunnel", "hint": "The chapel sits at the far end of the courtyard, its door unlocked and swinging." },
+        { "label": "rally the garrison", "nextNode": "rally-troops", "hint": "Her words follow you into the courtyard where the fighters are already gathering." }
+      ]
+    },
+    "rally-troops": {
+      "passage": "Forty-one fighters form a ragged line in the courtyard, some still pulling on mail, blinking sleep from their eyes while the horn echoes off the inner walls. Three archers, two with fever. The blacksmith can swing a hammer. The cook grips a cleaver like she means it. Not enough. But it is what you have.",
+      "choices": [
+        { "label": "fortify the defenses", "nextNode": "shore-defenses", "hint": "Beams and sand and muscle can buy time even if they cannot buy victory." },
+        { "label": "prepare fire traps", "nextNode": "fire-prep", "hint": "Oil barrels in the cellar could turn the approach into a killing ground." },
+        { "label": "dispatch a rider", "nextNode": "dispatch-rider", "hint": "One fast horse through the northern ridge could reach the duke by nightfall." }
+      ]
+    },
+    "shore-defenses": {
+      "passage": "Beams brace the south gate by noon. Rubble fills the eastern crack, packed tight with sand and prayer. Archers string fresh bows along the north parapet. The work is loud and honest and for a few hours nobody looks at the valley below where the army sits and watches and waits. Holdfast stiffens. Not enough, but better.",
+      "choices": [
+        { "label": "send a rider before dark", "nextNode": "dispatch-rider", "hint": "Every hour without a message to the duke is an hour wasted on hope alone." },
+        { "label": "settle in for the night", "nextNode": "first-night", "hint": "The walls are as ready as they will ever be. Night comes fast." }
+      ]
+    },
+    "fire-prep": {
+      "passage": "Cauldrons of sand line the wall-walk and oil barrels stand ready at every stairhead, their contents sharp-smelling in the morning chill. The blacksmith forges caltrops from bent horseshoes and scatters them across the approach while the cook boils water by the kettleful. By afternoon Holdfast bristles with improvised defenses. None of it is elegant. All of it might buy time.",
+      "choices": [
+        { "label": "order a rider out", "nextNode": "dispatch-rider", "hint": "The defenses are set. Now someone needs to carry word to the duke." },
+        { "label": "hunker down till dark", "nextNode": "first-night", "hint": "The traps are laid. Nothing to do now but wait for what comes." }
+      ]
+    },
+    "dispatch-rider": {
+      "passage": "Kellan volunteers before you finish the sentence - young, fast horse, knows the back trails through the northern ridge where enemy patrols are thinnest. He mounts up at the postern gate and salutes once, hand to chest, the way Sere taught the scouts. Then he rides. The hoof-beats fade too quickly.",
+      "choices": [
+        { "label": "watch him clear the ridge", "nextNode": "first-night", "hint": "He crests the tree-line and vanishes without looking back. A good sign, maybe." },
+        { "label": "turn back to the walls", "nextNode": "first-night", "hint": "There is nothing more you can do for him. The fort still needs you." }
+      ]
+    },
+    "chapel-tunnel": {
+      "passage": "Behind the chapel altar, a cracked flagstone lifts with effort to reveal worn steps spiraling down into the earth, the walls damp and narrow, the air tasting of clay and old roots that push through the mortar. The passage runs southeast toward the ravine behind the enemy camp. Cobwebs stretch unbroken. Untouched for years.",
+      "choices": [
+        { "label": "lead a raid tonight", "nextNode": "tunnel-raid", "hint": "Six volunteers and a dark tunnel could change the shape of this siege entirely." },
+        { "label": "save it for escape", "nextNode": "first-night", "hint": "Sere said it was for when everything else fails. That hour is not here yet." }
+      ]
+    },
+    "first-night": {
+      "passage": "Torches flicker along the wall-walk as the last copper band of sun drops below the ridge. The enemy camp glows orange in the valley, alive with the sound of hammers building something you cannot see. Your garrison rests in shifts. Nobody pretends to sleep. Dawn brings the assault. Tonight you choose what kind of fight this is.",
+      "choices": [
+        { "label": "wait for dawn", "nextNode": "dawn-vigil", "hint": "Sometimes the best you can do is stand ready and let morning come." },
+        { "label": "slip out through the tunnel", "nextNode": "tunnel-raid", "hint": "The chapel passage is cool and silent beneath the noise of the camp above." },
+        { "label": "raise a white flag", "nextNode": "parley", "hint": "A cloth on a pole might buy something that swords cannot reach." }
+      ]
+    },
+    "dawn-vigil": {
+      "passage": "The final hours crawl past in the hush before the sky turns grey, every creak of timber loud enough to lift heads from folded arms along the wall-walk where your people sit in the dim and stare at the fires below. A chill wind rolls down from the ridge. Dawn approaches. Then the ram begins to move.",
+      "choices": [
+        { "label": "brace for the assault", "nextNode": "dawn-assault", "hint": "You grip the parapet edge and watch the ram lurch forward on its wheels." },
+        { "label": "make a final check", "nextNode": "dawn-assault", "hint": "One last walk along the wall to steady nerves and tighten what can be tightened." }
+      ]
+    },
+    "parley": {
+      "passage": "A white cloth on a pole draws a single rider from the enemy camp, a woman in polished mail who stops at the foot of the hill and calls up in a voice trained to carry across a battlefield. Terms for surrender. Walk free, leave your arms, keep your lives. The ram reaches the gate by noon otherwise. She waits.",
+      "choices": [
+        { "label": "hear their terms", "nextNode": "terms-talk", "hint": "You climb down to meet her at the gate, unarmed by custom and necessity." },
+        { "label": "refuse and fight", "nextNode": "dawn-vigil", "hint": "The cloth comes down and the rider wheels her horse without another word spoken." }
+      ]
+    },
+    "tunnel-raid": {
+      "passage": "Six of you slip through the passage single-file, bent double where the ceiling dips, the walls slick with moisture that catches the flicker of a single shielded candle. The ravine opens behind the enemy camp. Supply wagons stand in a loose circle, guards dozing beside a low fire. Nobody stirs. The camp trusts its numbers.",
+      "choices": [
+        { "label": "torch the wagons", "nextNode": "burn-wagons", "hint": "Oil rags and a striker can turn those supplies into a bonfire in seconds." },
+        { "label": "steal supplies instead", "nextNode": "steal-supplies", "hint": "Grain and bandages carried quietly through the tunnel are worth more than ash." }
+      ]
+    },
+    "terms-talk": {
+      "passage": "Seated on a stool outside the south gate with her sword across her knees, the envoy lays out terms while three hundred fighters stand at her back. Holdfast surrenders, the garrison walks free, Sere goes to their healers. Counter? She tilts her head. You have nothing she cannot take by force. But talk costs nothing.",
+      "choices": [
+        { "label": "stall for time", "nextNode": "buy-time", "hint": "Every hour spent talking is an hour the ram sits idle on the hill." },
+        { "label": "reject the offer", "nextNode": "dawn-vigil", "hint": "You stand and walk back through the gate. Her eyes follow you the whole way." }
+      ]
+    },
+    "buy-time": {
+      "passage": "Hours stretch across the table outside the gate as you argue grain rights, hostage conditions, withdrawal routes, anything to keep her talking while the sun climbs higher and no ram approaches the walls. The envoy's patience frays. She taps the table with two fingers, a drumbeat of irritation. That buys half a day. Maybe enough.",
+      "choices": [
+        { "label": "accept the compromise", "nextNode": "yield-end", "hint": "Her pen scratches across the parchment and the terms feel heavier than any armor." },
+        { "label": "break off talks", "nextNode": "dawn-vigil", "hint": "The stool scrapes back and you leave her at the table staring after you." }
+      ]
+    },
+    "burn-wagons": {
+      "passage": "The first wagon catches fast, oil-soaked canvas blooming orange in the gloom, and before the guards can raise a cry the second is burning too and figures scramble toward the growing blaze from every tent. You sprint for the ravine. Behind you the hillside glows. Four of your six make it back through the tunnel. Four.",
+      "choices": [
+        { "label": "seal the tunnel behind you", "nextNode": "siege-holds", "hint": "Rubble fills the passage entrance. They cannot follow. But the cost is steep." },
+        { "label": "keep the passage open", "nextNode": "dawn-vigil", "hint": "The tunnel may be needed again before this is finished." }
+      ]
+    },
+    "steal-supplies": {
+      "passage": "Grain sacks and a box of wound dressings, hauled through the tunnel one load at a time while the camp snores around you, the work slow and careful with each footfall measured against the rhythm of a sentry's breathing. No fire. No alarm. The enemy does not notice the missing stores until morning.",
+      "choices": [
+        { "label": "block the entrance", "nextNode": "siege-holds", "hint": "Stone and timber seal the tunnel mouth. Nobody follows what nobody discovers." },
+        { "label": "catch what sleep you can", "nextNode": "dawn-vigil", "hint": "The stolen grain fills your larder. Dawn will come whether you are rested or not." }
+      ]
+    },
+    "dawn-assault": {
+      "passage": "Horns sound at first light and the ram rolls forward, pulled by chains and shielded behind green-timber walls that bristle with iron studs, and behind it ranks of infantry advance carrying ladders that rise against the north parapet like fingers reaching for the sky. Arrows hiss overhead. Holdfast shakes with the first impact.",
+      "choices": [
+        { "label": "hold the north wall", "nextNode": "hold-north", "hint": "The ladders are already rising and the first helmets appear above the parapet edge." },
+        { "label": "defend the south gate", "nextNode": "brace-gate", "hint": "The ram strikes again and timber groans through the entire gatehouse frame." }
+      ]
+    },
+    "hold-north": {
+      "passage": "Ladders slam against the parapet and you meet the first climber with a shield-edge that catches him under the jaw and sends him spinning backward off the rungs. He falls. Another takes his place, then three at once along a stretch of wall meant for ten. You have four. The eastern crack groans behind you.",
+      "choices": [
+        { "label": "charge into the breach", "nextNode": "breach-fight", "hint": "Mortar explodes outward and armored shoulders push through the widening gap in the wall." },
+        { "label": "call for support", "nextNode": "brace-gate", "hint": "Your shout carries over the noise but pulls fighters from the gate below." }
+      ]
+    },
+    "brace-gate": {
+      "passage": "The ram strikes the south gate with a crunch that shakes mortar from the ceiling and rattles every timber in the frame, and the whole structure bows inward as dust rains onto the defenders bracing the crossbar with shoulders and pike shafts. A hinge snaps. Daylight glows through a split in the planks. The next blow finishes it.",
+      "choices": [
+        { "label": "pour oil and ignite it", "nextNode": "fire-defense", "hint": "Three barrels wait at the top of the stair, their contents sharp and ready." },
+        { "label": "rush out and meet them", "nextNode": "sally-end", "hint": "If the gate falls, better to choose the ground than have it chosen." },
+        { "label": "fall back to the keep", "nextNode": "fall-back", "hint": "The inner keep has thicker walls and a door that can still hold." }
+      ]
+    },
+    "breach-fight": {
+      "passage": "Rubble cascades as the eastern wall gives way, and three armored soldiers pour through the gap before anyone can shout. You wade into the breach beside the blacksmith, her hammer swinging wide and heavy in the narrow space where only two can fight at a time. Steel rings. The gap holds. Barely.",
+      "choices": [
+        { "label": "stand in the gap", "nextNode": "last-stand-end", "hint": "Your boots find purchase on the broken rubble and you plant yourself like a post." },
+        { "label": "pull back to the keep", "nextNode": "fall-back", "hint": "The blacksmith nods once and you retreat together, step by measured step." }
+      ]
+    },
+    "fire-defense": {
+      "passage": "Oil spills down the gate face and into the passage, and the torch you throw catches everything at once in a wall of orange flame that drives the ram crew stumbling backward with their hands over their faces. Smoke fills the gateway and for a long moment no one can approach from either side. The gate still stands.",
+      "choices": [
+        { "label": "endure till relief comes", "nextNode": "relief-end", "hint": "Hours pass behind the burning gate. The fire dies. The enemy does not return." },
+        { "label": "retreat to the keep", "nextNode": "fall-back", "hint": "The gate holds for now but the flames are dying and more troops are massing." }
+      ]
+    },
+    "fall-back": {
+      "passage": "Thick walls, a single iron-banded door, arrow slits covering the courtyard below - the inner keep is built for this. Twenty-three of you crowd inside. The door bolts shut with a sound like a coffin lid. Someone counts heads. The rest are on the wall or in the yard. Or gone.",
+      "choices": [
+        { "label": "barricade and wait", "nextNode": "siege-holds", "hint": "Furniture piles against the door while outside the courtyard fills with enemy boots." },
+        { "label": "escape through the tunnel", "nextNode": "tunnel-escape", "hint": "The chapel passage is just across the courtyard. A sprint in the open." }
+      ]
+    },
+    "siege-holds": {
+      "passage": "Days blur inside the walls of Holdfast, measured in dwindling rations and the slow rhythm of shifts on the remaining battlements. The enemy probes but does not commit another full assault, their supplies burning or their patience thinning. On the second dawn, a horn sounds from the north. Not the enemy's horn.",
+      "choices": [
+        { "label": "open the gates", "nextNode": "relief-end", "hint": "Blue banners crest the northern ridge and the enemy camp breaks apart like smoke." },
+        { "label": "signal from the wall", "nextNode": "relief-end", "hint": "You raise Holdfast's banner and the duke's cavalry wheels toward the valley below." }
+      ]
+    },
+    "tunnel-escape": {
+      "passage": "You lead the survivors through the chapel passage in single file, the wounded supported between stronger shoulders, the candle guttering in the draft that means the far end is close. The ravine is empty. Every enemy soldier crowds the walls of Holdfast above. Starlit hills stretch before you. The forest waits beyond.",
+      "choices": [
+        { "label": "head for the duke's camp", "nextNode": "retreat-end", "hint": "The northern road is clear and the duke's riders cannot be far ahead." },
+        { "label": "vanish into the woods", "nextNode": "retreat-end", "hint": "The trees close around your column and the sound of the siege fades behind you." }
+      ]
+    },
+    "yield-end": {
+      "passage": "Gates open without a fight. Your garrison files out in a quiet line, weapons left in a heap by the south wall, Sere carried on a stretcher between two soldiers who refuse to meet your eyes. The enemy rides in. The red banner rises above Holdfast before you reach the bottom of the hill.",
+      "choices": [],
+      "ending": {
+        "title": "Open Gates",
+        "flavor": "Everyone lives. The flag does not.",
+        "action": "drop your sword"
+      }
+    },
+    "last-stand-end": {
+      "passage": "Blood runs down your forearm and your shield hangs from a strap you can no longer feel, but the gap in the eastern wall is yours and nothing comes through it alive. Bodies heap in the rubble. The blacksmith sinks to her knees beside you, breathing hard, hammer resting on the ground between her boots. You hold.",
+      "choices": [],
+      "ending": {
+        "title": "Broken and Standing",
+        "flavor": "The wall is rubble, but you are not.",
+        "action": "plant your banner"
+      }
+    },
+    "relief-end": {
+      "passage": "Horn-call swells from the north ridge and behind it comes the thunder of cavalry - three hundred riders under the duke's blue standard pouring over the crest in a line that stretches from one tree-line to the other. The enemy camp scatters. At the gate, someone weeps. It is not grief. Holdfast stands.",
+      "choices": [],
+      "ending": {
+        "title": "Blue Banners",
+        "flavor": "The riders come. They always come.",
+        "action": "open the gates"
+      }
+    },
+    "sally-end": {
+      "passage": "Iron hinges scream as the gate flies open and you lead the charge straight into the infantry pressing the entrance, and for three wild heartbeats you are through them, blade swinging, voice raw, the momentum carrying you further than any plan should allow. Then their numbers close. Steel from every side. The sky narrows.",
+      "choices": [],
+      "ending": {
+        "title": "Crimson Sortie",
+        "flavor": "The charge bought nothing but a warrior's end.",
+        "action": "draw your blade"
+      }
+    },
+    "retreat-end": {
+      "passage": "Forest closes behind your column of twenty-three ragged survivors, branches knitting together as if the trees conspire to hide your passage from the force swarming the hillside above. Behind you, a red banner rises over Holdfast. Gone. Sere walks unaided now, one arm bound, the other gripping a sword she refuses to sheathe.",
+      "choices": [],
+      "ending": {
+        "title": "Holdfast Fallen",
+        "flavor": "The fort is lost. The people are not.",
+        "action": "keep walking north"
+      }
+    }
+  }
+}

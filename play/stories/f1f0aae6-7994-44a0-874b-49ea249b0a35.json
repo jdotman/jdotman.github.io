@@ -1,0 +1,188 @@
+{
+  "id": "f1f0aae6-7994-44a0-874b-49ea249b0a35",
+  "title": "Copper and Misdirection",
+  "description": "A rigged wager at the Thornmarket Festival has ruined a dozen honest traders. You plan to beat the cheat at his own game, but the crowd is watching and you only get one chance.",
+  "author": "AI",
+  "tags": ["trickery"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-22",
+  "dayOfYear": "06-12",
+  "endingCount": 6,
+  "storyNumber": 71,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Thornmarket Square hums with a hundred stalls hawking spice, cloth, and luck. At the center stands Rook Halvern's betting tent, draped in crimson silk and ringed by a crowd that grows louder with every losing wager. Halvern cheats. Everyone knows it. No one can prove it. Your friend Elsin lost her wool shipment to him yesterday. Tonight you settle the debt.",
+      "choices": [
+        { "label": "scout the betting tent", "nextNode": "tent-exterior", "hint": "Crimson silk ripples in the evening breeze as you circle the perimeter carefully." },
+        { "label": "find Elsin first", "nextNode": "elsin-stall", "hint": "Her empty wool stall sits at the edge of the square, lantern still burning." }
+      ]
+    },
+    "tent-exterior": {
+      "passage": "The tent is larger than it looks from the square. Three entrances: the main flap facing the crowd, a supply slit on the east side where wine crates go in, and a roped-off rear panel guarded by a broad man with arms like oak branches. Halvern's voice booms inside. The crowd cheers. Someone groans. Another loss.",
+      "choices": [
+        { "label": "enter through the front", "nextNode": "main-entrance", "hint": "Bold moves draw less suspicion than careful ones in a place like this." },
+        { "label": "slip through the supply slit", "nextNode": "supply-entrance", "hint": "A crate slides aside just enough for you to squeeze past the canvas wall." }
+      ]
+    },
+    "elsin-stall": {
+      "passage": "Elsin sits on an overturned crate, stitching a torn saddlebag by lantern glow. Three seasons of wool, she says. Gone on a dice roll that felt wrong before the bones stopped moving. Halvern uses weighted dice but swaps them mid-throw with a sleight so fast the judges never catch it. She has one thing left to wager. Her eyes are steady but tired.",
+      "choices": [
+        { "label": "ask what remains", "nextNode": "elsin-offer", "hint": "Her hands stop stitching and she reaches beneath the crate without a word." },
+        { "label": "head to the tent alone", "nextNode": "tent-exterior", "hint": "Whatever she has left, risking it feels worse than going in empty-handed tonight." }
+      ]
+    },
+    "elsin-offer": {
+      "passage": "A brass compass. Old, dented, still true, and worth enough to buy into Halvern's high table where the real money changes hands and the crowd presses close enough to see every throw. Win and she gets the wool back plus the compass. Lose and she has nothing left that belonged to her family. She holds it out.",
+      "choices": [
+        { "label": "take the compass", "nextNode": "tent-exterior", "hint": "The brass is warm in your palm, heavier than it looks, and ticks faintly." },
+        { "label": "refuse the wager", "nextNode": "refuse-path", "hint": "Gambling with someone else's last heirloom sits wrong in your chest tonight." }
+      ]
+    },
+    "refuse-path": {
+      "passage": "Elsin nods slowly. Expected. But she offers something else: Halvern keeps his winnings in a lockbox beneath the betting table, not the guarded counting tent. Brass latch, no lock. He trusts his reputation more than any bolt. If dice will not work, perhaps quick hands will. She draws you a map of the tent's interior on a scrap of hide.",
+      "choices": [
+        { "label": "plan the grab", "nextNode": "supply-entrance", "hint": "The supply slit on the east side gives you a path under the table." },
+        { "label": "challenge him anyway", "nextNode": "main-entrance", "hint": "Maybe the trick is not to steal from the cheat but to out-cheat him." }
+      ]
+    },
+    "main-entrance": {
+      "passage": "Lanterns blaze inside. Halvern stands behind a long table draped in green felt, grin wide beneath a waxed mustache, silver glinting in neat stacks beside a copper bowl of bone dice. He sees you and gestures grandly. Fresh challenger, he announces. His eyes are quick. He sizes you up in a single glance and finds you wanting.",
+      "choices": [
+        { "label": "wager the compass", "nextNode": "high-stakes", "hint": "Brass catches the lantern glow as you set the compass on the felt." },
+        { "label": "watch a round first", "nextNode": "observe-round", "hint": "Standing back lets you study his hands before you risk anything tonight." }
+      ]
+    },
+    "supply-entrance": {
+      "passage": "Wine crates and sacks of roasted nuts line the gap between the tent wall and the inner curtain. Through the fabric you hear Halvern's patter, smooth as oiled rope. The lockbox sits beneath the table, visible through a gap where the curtain lifts off packed earth. Brass latch, just as Elsin said. No guard on this side. Just you and the box.",
+      "choices": [
+        { "label": "reach for the lockbox", "nextNode": "lockbox-grab", "hint": "Your fingers brush packed earth as you slide your arm beneath the curtain." },
+        { "label": "wait for a distraction", "nextNode": "crowd-distraction", "hint": "Halvern's voice rises with each wager, pulling every eye toward the front." }
+      ]
+    },
+    "observe-round": {
+      "passage": "A tanner steps forward with a pouch of silver. Halvern rolls with a flourish, calling twelve before the bones land. Twelve. The tanner stares, stunned. Halvern sweeps the silver into his stack. But you saw it. A flick at the apex of the throw, one die swapped for another palmed against his cuff. The weighted bone always lands on six.",
+      "choices": [
+        { "label": "call out the swap", "nextNode": "public-call", "hint": "Your voice cuts through the murmur before Halvern can pocket the spare." },
+        { "label": "memorize the technique", "nextNode": "high-stakes", "hint": "Knowing how the trick works is the first step to beating it outright." }
+      ]
+    },
+    "high-stakes": {
+      "passage": "Halvern accepts the compass with a nod and places it beside his silver. High table rules: one throw each, highest sum wins. He offers you first roll. Generous, he says. The bone dice sit in the copper bowl between you. The crowd leans in. Somewhere a dog barks. Your hands are steady. His are steadier. The lantern flickers once.",
+      "choices": [
+        { "label": "throw the dice clean", "nextNode": "clean-throw", "hint": "Honest bones in an honest hand, and let the crowd see every bit of it." },
+        { "label": "swap his rigged dice", "nextNode": "counter-swap", "hint": "Two can play the sleight game, and your fingers learned by watching his." }
+      ]
+    },
+    "public-call": {
+      "passage": "Cheat! The word rings through the tent like a bell and Halvern's smile freezes while the crowd falls silent around the green felt table. You describe the palmed die against his right cuff, the weighted bone that always lands on six. He laughs and opens both hands. Empty. The spare is already gone. Prove it, he says.",
+      "choices": [
+        { "label": "search his cuff", "nextNode": "cuff-search", "hint": "If the die left his hand it went somewhere close to his wrist." },
+        { "label": "appeal to the judges", "nextNode": "judge-appeal", "hint": "Festival judges stand near the entrance, arms crossed, already interested in this." }
+      ]
+    },
+    "clean-throw": {
+      "passage": "The dice leave your hand in a clean arc, spinning in the lantern glow. Eight. Respectable. Halvern scoops the bones into his palm and throws. Liquid, effortless. You watch his wrist. There - the micro-flick. One die swapped. Eleven. He reaches for the compass and the silver. The crowd sighs. Unless you speak now, it is over.",
+      "choices": [
+        { "label": "grab his wrist", "nextNode": "cuff-search", "hint": "Your hand closes around his forearm before the rigged die can vanish again." },
+        { "label": "accept the loss", "nextNode": "loss-ending", "hint": "Walking away stings, but a scene without proof could sting far worse." }
+      ]
+    },
+    "counter-swap": {
+      "passage": "While Halvern watches a serving girl refill his wine, your fingers find the weighted die in the bowl and replace it with a fair bone from your pocket. Identical color. He picks up the dice without checking. His throw is confident, the same liquid motion, but this time the loaded die sits in your pocket. The bones land. Seven. His smile falters.",
+      "choices": [
+        { "label": "roll your round", "nextNode": "victory-throw", "hint": "The copper bowl slides toward you and the fair dice wait inside it now." },
+        { "label": "reveal the loaded die", "nextNode": "expose-ending", "hint": "His rigged bone sits in your pocket, and the crowd watches every move." }
+      ]
+    },
+    "victory-throw": {
+      "passage": "Fair dice in a fair hand. The bones tumble across green felt. Nine. Nine beats seven. Silence holds the tent for one breath, then the crowd erupts. Halvern stares at the dice as if they betrayed him. He reaches for the bowl but the festival judge steps forward, hand raised. The result stands. Elsin's compass slides back across the felt toward you.",
+      "choices": [],
+      "ending": {
+        "title": "Nine Over Seven",
+        "flavor": "Fair dice have a music all their own when the cheat finally hears them.",
+        "action": "pocket the compass"
+      }
+    },
+    "expose-ending": {
+      "passage": "The loaded die catches the lantern glow as you hold it above your head. Halvern's bone, weighted with lead in the six-pip. The crowd gasps. Halvern lunges but the judge steps between you, one hand on his chest. She rolls the die five times on the felt. Six. Six. Six. Six. Six. Halvern's grin is gone. The tent erupts in shouts.",
+      "choices": [],
+      "ending": {
+        "title": "Lead in the Bone",
+        "flavor": "Five sixes in a row tell a story no charm can rewrite.",
+        "action": "toss the die to the judge"
+      }
+    },
+    "lockbox-grab": {
+      "passage": "The latch lifts with a soft click. Inside: a velvet pouch fat with silver and a folded deed. Elsin's wool consignment, signed over under duress. Halvern's voice drones on above the table, oblivious. You pocket the deed and leave the silver. Stealing back what was stolen is justice. Taking more would make you no different. The supply slit waits. Two steps.",
+      "choices": [],
+      "ending": {
+        "title": "Beneath the Felt",
+        "flavor": "The best trick is the one nobody sees until the tent is empty.",
+        "action": "slip into the crowd"
+      }
+    },
+    "crowd-distraction": {
+      "passage": "A juggler outside drops a torch into a hay bale. Sparks fly and the crowd surges toward the commotion, dragging Halvern's attention with it. He shouts for his guard. The tent empties by half in ten seconds. Under the table, the lockbox gleams. Above you, a single pair of boots remains planted on the far side. Someone stayed behind.",
+      "choices": [
+        { "label": "open the box quickly", "nextNode": "quick-grab", "hint": "Speed matters more than stealth when the distraction has a very short fuse." },
+        { "label": "identify the boots", "nextNode": "boots-reveal", "hint": "Whoever stayed behind chose not to follow the crowd, and that matters." }
+      ]
+    },
+    "quick-grab": {
+      "passage": "The latch pops. Silver spills between your fingers and the boots shift above you. A voice says, not the silver, and a hand reaches down holding a folded document - Elsin's deed. The hand belongs to the tanner who lost earlier. Halvern cheated him too, he says, and he has been waiting for someone brave enough to try this. He grins.",
+      "choices": [
+        { "label": "seize the deed and run", "nextNode": "ally-ending", "hint": "The tanner's grin is the most honest thing you have seen inside this tent." },
+        { "label": "claim everything instead", "nextNode": "lockbox-grab", "hint": "Silver bought with loaded dice belongs to the people it was stolen from." }
+      ]
+    },
+    "boots-reveal": {
+      "passage": "Peering through the curtain gap, you recognize the festival judge. Arms folded, watching the chaos, making no move to leave. She glances down and meets your eyes. A long pause. Then she nudges the lockbox toward you with the toe of her boot. Not a word. Her expression carries the full weight of permission. Take what is owed. Go.",
+      "choices": [
+        { "label": "lift the brass latch", "nextNode": "lockbox-grab", "hint": "The judge's silent blessing steadies your hand as you reach for the box." },
+        { "label": "nod and back away", "nextNode": "judge-appeal", "hint": "If the judge knows the truth, let her authority handle what your hands cannot." }
+      ]
+    },
+    "cuff-search": {
+      "passage": "You seize Halvern's right arm. He twists but you are faster, rolling back the silk cuff to reveal a thin leather sleeve stitched to the lining. Empty now. But the stitching tells the story: a pocket sized for a single die, worn smooth from years of use. The crowd sees it. The judge sees it. Halvern stops struggling and his shoulders drop.",
+      "choices": [
+        { "label": "demand full restitution", "nextNode": "restitution-ending", "hint": "Elsin's wool deed should be in the lockbox beneath this very table." },
+        { "label": "let the judge rule", "nextNode": "restitution-ending", "hint": "The chain of office carries more weight than anything your hands hold tonight." }
+      ]
+    },
+    "judge-appeal": {
+      "passage": "The festival judge, a tall woman with grey braids and a chain of office, steps forward. She asks for evidence. You describe the wrist motion, the timing of the swap. Halvern scoffs. She asks to see his sleeves. He hesitates. One heartbeat too long. She asks again. He rolls them up slowly, and the leather die-pocket glints under lantern glow.",
+      "choices": [
+        { "label": "press for restitution", "nextNode": "restitution-ending", "hint": "Every trader cheated this week deserves their goods returned by morning." },
+        { "label": "walk away satisfied", "nextNode": "restitution-ending", "hint": "The judge has what she needs, and your part in this is finished now." }
+      ]
+    },
+    "restitution-ending": {
+      "passage": "By midnight, Halvern's tent is stripped bare. The judge orders full repayment to every trader cheated in the last three days. Elsin's wool deed returns to her hand and she presses the brass compass into yours. Keep it, she says. Thornmarket hums on around you, alive with fiddle music and roasting chestnuts. Honest games at last. The square breathes easier.",
+      "choices": [],
+      "ending": {
+        "title": "Honest Games at Last",
+        "flavor": "The market sounds different when the scales are finally balanced.",
+        "action": "hang the compass around your neck"
+      }
+    },
+    "ally-ending": {
+      "passage": "The tanner's name is Pol. You shake hands beneath the table while Halvern shouts at the crowd outside about the hay fire. Elsin's deed is safe in your coat. Pol slips out the supply slit first and you follow, stepping into cool market air thick with woodsmoke and spiced wine. Elsin sees the deed. She does not speak. She just holds on.",
+      "choices": [],
+      "ending": {
+        "title": "Partners in the Straw",
+        "flavor": "Sometimes the best ally is the one who lost the same game you did.",
+        "action": "vanish into the festival"
+      }
+    },
+    "loss-ending": {
+      "passage": "Night air hits your face as you step from the tent. Elsin waits at her stall, reading your expression before you speak. The compass is gone. She closes her eyes. Then opens them. She stands and begins folding the saddlebag she was mending. Other markets, she says, though her voice does not believe it. You walk the square together. Silence is its own answer.",
+      "choices": [],
+      "ending": {
+        "title": "Empty Hands",
+        "flavor": "Some debts outlast the markets where they were made.",
+        "action": "leave the square behind"
+      }
+    }
+  }
+}

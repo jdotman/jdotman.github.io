@@ -1,0 +1,188 @@
+{
+  "id": "bc0f16c3-a12d-44e0-96a0-e168ff6904fb",
+  "title": "Drowning Gallery",
+  "description": "A collapsed mine entrance seals you underground with rising floodwater and a single sputtering torch. Somewhere below, the river finds its way out. You need to find it first.",
+  "author": "AI",
+  "tags": ["escape"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-22",
+  "dayOfYear": "06-13",
+  "endingCount": 6,
+  "storyNumber": 72,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Dust settles. The entrance is gone, buried under a ton of loose shale that gave way the moment you stepped past the threshold. Your torch still burns but the flame leans sideways, pulled by a draft from deeper in. Runoff pools around your boots, ankle-deep and rising. The mine groans. Forward is the only direction left.",
+      "choices": [
+        { "label": "follow the draft", "nextNode": "draft-tunnel", "hint": "Moving air means an opening somewhere ahead, and openings mean a way out." },
+        { "label": "check the collapse", "nextNode": "rubble-wall", "hint": "Loose shale shifts under your hands as you feel along the blockage above." }
+      ]
+    },
+    "rubble-wall": {
+      "passage": "The collapse fills the tunnel floor to ceiling. Gaps exist between the largest rocks but nothing wide enough to crawl through, and every piece you pull loose sends more sliding down. Unstable. Digging risks a second cave-in. Behind you, the pooling runoff has climbed past your ankles. A rusted rail track runs along the floor, vanishing into the murk ahead.",
+      "choices": [
+        { "label": "trace the rail track", "nextNode": "draft-tunnel", "hint": "Rails lead somewhere, and somewhere is better than standing in rising flood." },
+        { "label": "search the rubble edge", "nextNode": "miner-remains", "hint": "Something angular juts from the shale near the left wall, half-buried and metallic." }
+      ]
+    },
+    "miner-remains": {
+      "passage": "A tin lunch pail, dented and green with age. Inside: a stub of candle, a coil of copper wire, and a folded map drawn on oilcloth. The map shows three levels. Level one is where you stand. Level two connects to an underground river. Level three opens to a ravine on the mountain's far side. The flood is at your shins.",
+      "choices": [
+        { "label": "study the map closely", "nextNode": "map-detail", "hint": "Faded ink is hard to read by torchfire but the routes are still visible." },
+        { "label": "move deeper with the map", "nextNode": "draft-tunnel", "hint": "Every second standing still is a second the rising current spends climbing higher." }
+      ]
+    },
+    "map-detail": {
+      "passage": "Three paths branch from here. The rail track descends through a wide gallery to level two. A ventilation shaft to the east drops straight down but has iron rungs bolted into the rock. A passage to the west is marked with an X and the word SEALED. Someone circled the ventilation shaft in charcoal and wrote one word beside it: SAFE.",
+      "choices": [
+        { "label": "take the ventilation shaft", "nextNode": "vent-shaft", "hint": "Iron rungs and a charcoal endorsement are more than most paths offer tonight." },
+        { "label": "descend the rail gallery", "nextNode": "draft-tunnel", "hint": "Wide galleries give you room to maneuver if the flood follows you down." }
+      ]
+    },
+    "draft-tunnel": {
+      "passage": "The gallery opens wide enough for ore carts, its ceiling braced by timber frames black with age. The draft strengthens and your torch flame bends hard to the left, pointing down the slope like a compass needle. Thin ribbons of runoff stream along the rail track. Halfway down, the tunnel splits. Left drops steeply. Right levels out into dry footing.",
+      "choices": [
+        { "label": "go left and drop", "nextNode": "steep-drop", "hint": "Gravity pulls the flow left, and where it goes the exit might follow." },
+        { "label": "walk the level path", "nextNode": "ore-room", "hint": "Level ground means dry footing, and dry footing means time to think clearly." }
+      ]
+    },
+    "steep-drop": {
+      "passage": "The slope turns treacherous fast. Wet rock and loose gravel send your boots sliding until you grab a timber brace and hold. Below, the tunnel opens into a cavern where the sound of rushing current fills every inch of the air like a drumroll building toward something enormous. Your torch gutters in the mist. A river. Underground and fast.",
+      "choices": [
+        { "label": "climb down to the river", "nextNode": "underground-river", "hint": "The mist coats your face as you lower yourself toward the roaring channel." },
+        { "label": "retreat to the split", "nextNode": "ore-room", "hint": "Rushing flow and no visibility is a combination that kills the careless." }
+      ]
+    },
+    "ore-room": {
+      "passage": "An old sorting room. Bins of gravel line one wall and a winch hangs from the ceiling, its chain rusted but intact. A narrow passage continues east, marked with a pickaxe carved into the rock. The chain drops through a square hole in the floor into total blackness. Cool air rises from below. The draft is strongest here.",
+      "choices": [
+        { "label": "grip the winch chain", "nextNode": "chain-descent", "hint": "Rust flakes off under your palm but the links hold when you test them." },
+        { "label": "explore the east passage", "nextNode": "vent-shaft", "hint": "The pickaxe symbol suggests miners used this route often enough to mark it." }
+      ]
+    },
+    "vent-shaft": {
+      "passage": "Iron rungs set into the rock descend into a vertical shaft. Cool air rushes upward, steady and clean. Twenty rungs down, the shaft opens into a horizontal tunnel lit by patches of glowing moss clinging to the walls in streaks of pale green. Beautiful. Eerie. The glow reveals two paths: one north toward the sound of rushing current, one curving south.",
+      "choices": [
+        { "label": "head north toward the sound", "nextNode": "underground-river", "hint": "The river carved this mountain once, and its path might reach open air." },
+        { "label": "curve south instead", "nextNode": "crystal-chamber", "hint": "The moss grows thicker to the south, pulsing faintly like a slow heartbeat." }
+      ]
+    },
+    "chain-descent": {
+      "passage": "Link by link, you lower yourself through the square hole. The chain ends six feet above the floor. You drop. The landing jars your knees but nothing breaks. A minecart sits on a track that curves into a sloping tunnel, wheels locked with a wooden brake lever. Trickles of runoff slide past the rusted wheels into the dark below.",
+      "choices": [
+        { "label": "release the brake lever", "nextNode": "cart-ride", "hint": "The lever groans under your hand as rust gives way to stubborn force." },
+        { "label": "proceed on foot instead", "nextNode": "underground-river", "hint": "Trusting a rusted minecart in a flooded mine feels like betting against yourself." }
+      ]
+    },
+    "cart-ride": {
+      "passage": "The brake releases with a shriek. The cart lurches forward and the tunnel swallows you whole, wheels screaming on bent rails as the slope steepens and the walls blur past your torch. A sharp curve. You grip the sides and brace hard. The cart bursts through a curtain of falling spray and slams to a stop against a gravel pile. Silence. Mist.",
+      "choices": [
+        { "label": "pull yourself from the cart", "nextNode": "gravel-landing", "hint": "Bruised but breathing, you haul yourself over the rim into thick wet air." },
+        { "label": "inspect the cascade", "nextNode": "falls-passage", "hint": "The curtain of spray came from above, and above means closer to the sky." }
+      ]
+    },
+    "underground-river": {
+      "passage": "The river is fast and black, carving through limestone in a channel barely wider than your arm span. Spray soaks your clothes. Upstream, the flow pours from a crack too narrow to enter. Downstream, the channel widens and the current pulls everything toward a bend where the ceiling drops low. A wooden plank rests wedged between two rocks at the bank.",
+      "choices": [
+        { "label": "ride the plank downstream", "nextNode": "river-ride", "hint": "The current grabs the wood the moment it touches the surface of the flow." },
+        { "label": "pick along the bank", "nextNode": "gravel-landing", "hint": "Wet boots on limestone demand caution as you edge along the narrow shelf." }
+      ]
+    },
+    "crystal-chamber": {
+      "passage": "The tunnel opens into a chamber studded with mineral formations that catch your torchfire and scatter it into a thousand points of amber and green. Gorgeous. The floor tilts downward and a thin sheet of runoff feeds into a drain hole at the far end. Near the drain, a rope ladder hangs from a shelf of rock above, swaying in the updraft.",
+      "choices": [
+        { "label": "scale the rope ladder", "nextNode": "upper-shelf", "hint": "The rungs are frayed but each one holds when you test your full weight." },
+        { "label": "examine the drain hole", "nextNode": "drain-squeeze", "hint": "The hole is tight but the flow moving through it runs with real purpose." }
+      ]
+    },
+    "upper-shelf": {
+      "passage": "The shelf is a natural ledge ten feet above the chamber floor, wide enough to stand on and perfectly dry. From here you see the full scope of the crystal chamber below, glittering like a buried sky. A crevice in the wall leads upward at a steep angle. Fresh air pours through it, carrying the smell of pine and wet earth. Outside.",
+      "choices": [
+        { "label": "squeeze through the crevice", "nextNode": "crevice-ending", "hint": "Rough rock scrapes your shoulders as you wedge yourself into the narrow gap." },
+        { "label": "rest on the ledge first", "nextNode": "ledge-rest", "hint": "Your arms shake from the ascent and a moment of stillness feels necessary." }
+      ]
+    },
+    "drain-squeeze": {
+      "passage": "The drain is barely wide enough for your shoulders, angled down at thirty degrees. You slide in headfirst through total blackness. Ten feet of blind struggle. Then the passage spits you into a pool of waist-deep flood in a vaulted cavern where three currents converge. An arch of natural rock frames a tunnel filled to chest height. Faint grey beyond.",
+      "choices": [
+        { "label": "wade toward the grey", "nextNode": "flooded-exit", "hint": "Grey means something other than rock and murk, and that is enough to follow." },
+        { "label": "swim the main channel", "nextNode": "river-ride", "hint": "The strongest current pulls toward the arch, and fighting it wastes precious energy." }
+      ]
+    },
+    "gravel-landing": {
+      "passage": "A gravel bar forms a narrow beach where the river bends. Driftwood collects here, along with bones of animals swept underground by spring floods. Among the debris: a coil of rope, still strong, knotted to a rusted piton driven into the wall above. Someone escaped this way before. A chimney of rock rises into blackness. The rope reaches halfway up.",
+      "choices": [
+        { "label": "ascend the chimney", "nextNode": "chimney-climb", "hint": "The piton holds firm and the rope takes your weight without a single creak." },
+        { "label": "drift with the current", "nextNode": "river-ride", "hint": "Beyond the gravel bar the flow slows and the ceiling lifts just a fraction." }
+      ]
+    },
+    "falls-passage": {
+      "passage": "Behind the cascade, a passage climbs steeply through wet rock. Handholds are plentiful but slick. Twenty feet up, the passage levels into a gallery with timber supports still standing after decades of neglect. A breeze carries the smell of rain-soaked grass. An exit. Close. A boarded-up adit frame blocks the far end, planks grey and soft with rot.",
+      "choices": [
+        { "label": "kick through the boards", "nextNode": "adit-ending", "hint": "Rotten wood splinters under your boot as you strike at the lowest plank." },
+        { "label": "brace the supports first", "nextNode": "careful-exit", "hint": "Disturbing the boards might bring the gallery down if the beams cannot hold." }
+      ]
+    },
+    "ledge-rest": {
+      "passage": "Sitting on the dry shelf, you let your muscles unknot while the crystal chamber glitters below like a sky turned inside out. The torch is nearly spent. When it dies, you will have the moss glow and nothing else. But the pine-scented air from the crevice above is steady and real. After a long breath, you rise. Ready.",
+      "choices": [
+        { "label": "enter the crevice now", "nextNode": "crevice-ending", "hint": "The smell of pine pulls you forward like a hand on your collar." },
+        { "label": "return to the chamber", "nextNode": "crystal-chamber", "hint": "The drain hole below might offer a faster route than the tight crevice." }
+      ]
+    },
+    "river-ride": {
+      "passage": "The current takes you. Walls blur past as the channel narrows and widens in surges that slam you against limestone and pull you under before releasing you to gasp again. Then glow. Faint, grey, growing. The ceiling lifts and the river spills through a mouth in the mountainside. You tumble into a calm pool under open sky. Stars. Air. Silence.",
+      "choices": [],
+      "ending": {
+        "title": "Carried to Daybreak",
+        "flavor": "The mountain kept you long enough to make the sky feel like a gift.",
+        "action": "crawl onto the bank"
+      }
+    },
+    "chimney-climb": {
+      "passage": "Rope, then bare rock. Your fingers find holds and you press your back against one side, feet against the other, inching upward in a technique older than climbing itself. Fifty feet. Sixty. Your arms burn and your grip shakes. Then a crack of sky appears above, thin as a knife blade but brighter than anything you have seen in hours. You squeeze through.",
+      "choices": [],
+      "ending": {
+        "title": "Chimney to the Sky",
+        "flavor": "Birdsong never sounded so earned as it does on this bruised and breathing morning.",
+        "action": "stand in the open air"
+      }
+    },
+    "flooded-exit": {
+      "passage": "Chest-deep. Cold enough to steal your breath. The tunnel stretches thirty feet and the ceiling dips to inches above the surface. You tilt your head back and breathe through the gap, step by step, while the current pushes against your ribs. Then the ceiling rises. The tunnel opens. Moonrise over a mountain lake, silver and still. You surface, gasping.",
+      "choices": [],
+      "ending": {
+        "title": "Moonrise at the Mouth",
+        "flavor": "Silver on the lake is the first color you have seen that was not underground.",
+        "action": "float on your back"
+      }
+    },
+    "crevice-ending": {
+      "passage": "The crevice is tight. Shoulders scrape and hips catch on a ridge of quartz until you exhale completely to push through. Ten feet of blind struggle, then a rush of cool air and the sound of wind through pine needles fills everything around you. You pull yourself out onto a mossy slope under a canopy of stars. Below, the mountain keeps its hollow secrets.",
+      "choices": [],
+      "ending": {
+        "title": "Pine and Starfire",
+        "flavor": "The mountain let you go, but it kept your torch as payment.",
+        "action": "breathe the open air"
+      }
+    },
+    "adit-ending": {
+      "passage": "Three kicks and the boards give way. Evening air rushes in, warm and thick with the smell of summer grass and distant woodsmoke from a valley below. The old mine road stretches downhill, overgrown but passable, switchbacking toward a cluster of rooftops where lanterns glow. You step through the broken frame. Behind you, the mine exhales once and falls silent.",
+      "choices": [],
+      "ending": {
+        "title": "Broken Frame, Open Road",
+        "flavor": "Lanterns in a valley have never looked so much like a promise kept.",
+        "action": "walk toward the lanterns"
+      }
+    },
+    "careful-exit": {
+      "passage": "The supports are solid despite their age - heartwood pine, barely rotted. You brace the nearest beam with a chunk of loose rock before touching the boards. Smart. The first plank comes free without a shudder. Then the second. Daybreak spills through the gap, painting the gallery floor in gold. The mountain held. You held. The adit opens onto a hillside thick with wildflowers.",
+      "choices": [],
+      "ending": {
+        "title": "Heartwood and Daybreak",
+        "flavor": "Patience underground buys you a gentler welcome from the sky.",
+        "action": "step into the wildflowers"
+      }
+    }
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "id": "f7a3d1e8-6b2c-4f95-a8d7-3e1b9c0f5a42",
+  "title": "Warden of the Pyre",
+  "description": "A relief warden climbs Greymount at dusk to find the signal-pyre dark, the tower door clawed open from inside, and the previous keeper gone.",
+  "author": "AI",
+  "tags": ["mystery", "sacrifice"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-22",
+  "dayOfYear": "06-09",
+  "endingCount": 5,
+  "storyNumber": 68,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "The signal-pyre on Greymount stands dark against the dusk. You have climbed two hours to relieve the warden, but no lantern burns in the tower window and no smoke rises from the beacon. The door hangs open. Claw marks score the frame from the inside, deep enough to splinter the oak. Wind carries a smell like burnt hair.",
+      "choices": [
+        { "label": "enter the tower", "nextNode": "enter-tower", "hint": "The hinges creak as you push the door wide and step across the threshold." },
+        { "label": "circle the building", "nextNode": "circle-outside", "hint": "Gravel crunches under your boots as you move along the curved wall." },
+        { "label": "tend the pyre", "nextNode": "tend-pyre", "hint": "A few embers still glow beneath the ash in the iron grate." }
+      ]
+    },
+    "enter-tower": {
+      "passage": "A single room. The warden's chair lies on its side near scattered pages and a bedroll slashed open from end to end, spilling feathers across the boards. The log sits open on the desk, its last entry unfinished. A ladder leads up. Something stains the floorboards near the bedroll, still faintly wet, and whoever left did not leave willingly.",
+      "choices": [
+        { "label": "read the log", "nextNode": "wardens-log", "hint": "The handwriting grows more erratic with each page you turn forward." },
+        { "label": "search the bedroll", "nextNode": "torn-bedroll", "hint": "Feathers drift as you pull the ruined fabric aside with both hands." },
+        { "label": "climb the ladder", "nextNode": "roof-watch", "hint": "Each rung groans under your weight, and the hatch above is unlatched." }
+      ]
+    },
+    "circle-outside": {
+      "passage": "Gravel paths ring the base of the tower. Halfway around, a cracked window gapes at chest height, its frame bent outward as though something forced its way through. Below the sill, trampled grass leads downhill toward the tree line. A crow sits on the chimney, watching you with one tilted eye. It does not fly.",
+      "choices": [
+        { "label": "follow the tracks", "nextNode": "follow-tracks", "hint": "The prints are deep and oddly spaced, as if the stride keeps changing." },
+        { "label": "peer through glass", "nextNode": "cracked-window", "hint": "Dim shapes take form as your eyes adjust to the gloom inside." }
+      ]
+    },
+    "tend-pyre": {
+      "passage": "The iron grate holds a mound of grey ash with a few embers still glowing at the base, barely alive. You find split logs stacked beside the wall and feed them in one by one until flames catch and roar upward, throwing sparks into the dusk. Not an echo. A shriek from somewhere below the ridge answers the fire.",
+      "choices": [
+        { "label": "grab a torch", "nextNode": "grab-torch", "hint": "The brand hisses and spits as you pull it from the grate." },
+        { "label": "barricade the door", "nextNode": "barricade-door", "hint": "You drag the warden's desk across the floor and wedge it tight." }
+      ]
+    },
+    "wardens-log": {
+      "passage": "The entries begin calm. Weather notes, supply counts, a sketch of a hawk. By the third week the handwriting changes and the tone grows frantic, describing scratching at the shutters each night, footsteps that circle but never knock. The final page holds three words pressed so hard the quill tore the paper. It wears faces.",
+      "choices": [
+        { "label": "check the cellar", "nextNode": "cellar", "hint": "A rusted hatch in the floor lifts with a groan of old hinges." },
+        { "label": "head upstairs", "nextNode": "roof-watch", "hint": "The rungs are worn smooth and the hatch above swings freely in the wind." }
+      ]
+    },
+    "torn-bedroll": {
+      "passage": "Feathers and torn cloth cover the floor around the bedroll. Beneath the shredded fabric, your fingers close on something hard. A locket on a copper chain, its clasp still shut. Beside it, a hunting knife with a leather grip, the blade clean but the handle wrapped in stained cloth. Both feel important.",
+      "choices": [
+        { "label": "open the locket", "nextNode": "locket-clue", "hint": "The clasp resists for a moment, then gives way with a faint click." },
+        { "label": "take the knife", "nextNode": "grab-knife", "hint": "The leather grip fits your palm well, steady and sure in your hand." }
+      ]
+    },
+    "roof-watch": {
+      "passage": "Wind batters you the moment the hatch falls open. The pyre's glow barely reaches the slopes below. Halfway down the trail, a figure stands motionless in the grass, facing the tower, and it wears a cloak you recognize from the wooden pegs downstairs. The warden's cloak. The figure does not move or breathe.",
+      "choices": [
+        { "label": "call to the figure", "nextNode": "figure-appears", "hint": "Your voice carries across the slope, and the figure tilts its head sharply." },
+        { "label": "descend quietly", "nextNode": "barricade-door", "hint": "You ease the hatch shut and lower yourself rung by rung without a sound." }
+      ]
+    },
+    "follow-tracks": {
+      "passage": "The prints cut a ragged line through bracken and loose soil. Whatever made them walks on two legs but the stride shifts from short to long with no rhythm. Fifty paces down, the trail splits. One path dips left toward a cave mouth half-hidden by thornbush. The other curves right along a narrow cliff ledge.",
+      "choices": [
+        { "label": "explore the cave", "nextNode": "cave-trail", "hint": "Warm air drifts from the opening, carrying a smell like old meat." },
+        { "label": "walk the ledge", "nextNode": "cliff-edge", "hint": "The rock crumbles at the edge and small pieces tumble into nothing below." }
+      ]
+    },
+    "cracked-window": {
+      "passage": "Through the broken pane you see the cellar hatch standing wide open in the tower floor, a pale glow rising from somewhere beneath the boards where no lamp should burn. Pitch black is all the supply log accounts for. Something carries its own gleam. The jagged glass bites at your palms as you lean closer.",
+      "choices": [
+        { "label": "crawl inside", "nextNode": "cellar", "hint": "You knock the remaining glass loose and swing your legs over the sill." },
+        { "label": "return to the door", "nextNode": "enter-tower", "hint": "The front door still hangs open, swinging gently in the mountain wind." }
+      ]
+    },
+    "grab-torch": {
+      "passage": "Smoke curls from the brand, but the flame holds. Armed with firelight, you step outside into the highland wind, where slopes drop away on three sides and the trail below vanishes into a tree line that rustles without breeze. Something pale flashes between the trunks. Gone. The pyre crackles behind you, brighter now but not enough.",
+      "choices": [
+        { "label": "pursue the shape", "nextNode": "follow-tracks", "hint": "The pale shape reappears at the tree line, pausing as if it wants pursuit." },
+        { "label": "go to the roof", "nextNode": "roof-watch", "hint": "The ladder rattles behind the chimney stack, bolted firm against the brickwork." }
+      ]
+    },
+    "barricade-door": {
+      "passage": "The desk scrapes across the floor and wedges against the door frame, chair stacked on top for good measure. Quiet falls. Then a low hum vibrates through the walls, rattling the iron latch under your hands. Through the shutters you catch movement on the slope, slow and deliberate. The cellar hatch behind you sits open.",
+      "choices": [
+        { "label": "drop into the cellar", "nextNode": "cellar", "hint": "Your boots hit packed earth and the smell of oil fills your nose." },
+        { "label": "watch the shutters", "nextNode": "figure-appears", "hint": "The humming grows louder and a shape darkens the gap between the slats." }
+      ]
+    },
+    "locket-clue": {
+      "passage": "Two faces painted in miniature stare back at you. Twins. One is the warden whose name you know from the duty roster. The other is no one you have ever met, yet something in the jawline and the set of the mouth nags at your memory. Below the portraits, scratched into the copper, a single word: Kael.",
+      "choices": [
+        { "label": "bring locket below", "nextNode": "cellar", "hint": "The copper chain swings against your chest as you kneel by the hatch." },
+        { "label": "pocket it and listen", "nextNode": "figure-appears", "hint": "You tuck the locket away and hear footsteps crunching on gravel outside." }
+      ]
+    },
+    "grab-knife": {
+      "passage": "The blade gleams clean but the wrapping around the handle tells a different story. Dried blood, days old, flakes under your thumb. The steel bears no stain, yet the leather grip beneath is soaked through with something rust-brown that crumbles at your touch. Careful hands clean one but not the other. You feel steadier armed. The noise outside grows closer.",
+      "choices": [
+        { "label": "investigate outside", "nextNode": "follow-tracks", "hint": "Gravel shifts under your boot and the night air bites at exposed skin." },
+        { "label": "bolt the hatch", "nextNode": "cellar", "hint": "The hatch drops behind you and you slide the iron bar into place." }
+      ]
+    },
+    "cellar": {
+      "passage": "Packed earth and the sharp smell of lamp oil. Crates line one wall, and the missing warden's travel pack leans against a barrel, still buckled shut as if its owner plans to return any moment. On the far wall, a symbol is carved deep into the clay. A binding ward. Instructions scratched in charcoal run beside it.",
+      "choices": [
+        { "label": "study the ward", "nextNode": "study-ward", "hint": "The lines glow faintly when your fingers trace the outermost ring of the symbol." },
+        { "label": "rummage the pack", "nextNode": "search-pack", "hint": "Buckles snap open and the pack exhales a smell of pine and old wool." }
+      ]
+    },
+    "cave-trail": {
+      "passage": "The trail narrows and dips into a rocky cleft. Warm air pushes outward, carrying a thick animal smell and something sweeter underneath, like overripe fruit left too long in the sun. Bones litter the entrance, cracked open for marrow. Deep inside, a faint clicking echoes off the walls, rhythmic and patient. This is a den.",
+      "choices": [
+        { "label": "press inside", "nextNode": "cave-interior", "hint": "Your torch pushes the clicking back and the shapes at the edge retreat." },
+        { "label": "seal the entrance", "nextNode": "sealed-dawn", "hint": "You begin dragging loose rocks from the slope to pile across the opening." }
+      ]
+    },
+    "cliff-edge": {
+      "passage": "The ledge runs out at a sheer drop. Twenty feet below, caught on a jutting slab of granite, a body lies face-up in the warden's uniform with the face gone, replaced by something smooth and blank like a mask half-formed from wax. Wind howls between you and the dead. This is the real warden. Whatever walks the trail above is something else.",
+      "choices": [
+        { "label": "hurry to the cave", "nextNode": "cave-trail", "hint": "Loose gravel scatters behind you as you scramble back along the narrow ledge." },
+        { "label": "retreat uphill", "nextNode": "barricade-door", "hint": "The slope rises steeply but the tower chimney smoke guides you through the gloom." }
+      ]
+    },
+    "study-ward": {
+      "passage": "The charcoal instructions are simple. Burn the creature's shed skin in the pyre. Speak its true name. The ward traps the essence and the fire consumes it. You trace the outer ring with your finger and the lines pulse with a faint warmth that fades the moment you pull away. Two things needed. A name and a skin.",
+      "choices": [
+        { "label": "trace the symbol", "nextNode": "prepare-binding", "hint": "The charcoal smears under your fingertip as you follow the innermost spiral." },
+        { "label": "look in the pack", "nextNode": "search-pack", "hint": "The pack sits just behind you, its buckles loose now in the lamplight." }
+      ]
+    },
+    "search-pack": {
+      "passage": "Inside the pack: dried rations, a flint kit, and a leather pouch tied shut with cord. The pouch holds a folded scrap of pale material that is not paper at all, translucent and warm to the touch. Shed skin. The warden keeps this close for a reason, wrapped tight and tucked beneath everything else. A piece of the puzzle.",
+      "choices": [
+        { "label": "start the ritual", "nextNode": "prepare-binding", "hint": "You carry the skin upstairs and lay it beside the pyre in the wind." },
+        { "label": "hunt the creature", "nextNode": "cave-trail", "hint": "The warm air from below grows stronger as you leave the cellar behind." }
+      ]
+    },
+    "cave-interior": {
+      "passage": "The cave opens into a low chamber where the walls gleam with pale fungus. Shed skins. Dozens of them, coiled in a hollow at the center, each one a perfect cast of a human form with face and fingers intact. The freshest bears the warden's features, still soft. From deeper in the passage, a voice speaks your name.",
+      "choices": [
+        { "label": "accept its offer", "nextNode": "bargain-struck", "hint": "The voice is calm and almost kind as it lists the terms one by one." },
+        { "label": "strike the creature", "nextNode": "prepare-binding", "hint": "You lunge at the nearest shape and something tears loose in your fist." }
+      ]
+    },
+    "figure-appears": {
+      "passage": "A shape rounds the corner of the tower, moving in a slow and steady gait that looks almost right until you notice the feet barely touch the ground. It wears the warden's face. The eyes catch the pyre's glow wrong, flat and reflective like a cat's. It stops. Your name spills from its lips in the warden's voice.",
+      "choices": [
+        { "label": "confront the figure", "nextNode": "confront-visitor", "hint": "You plant your feet and grip the door frame, blocking the entrance." },
+        { "label": "hide below", "nextNode": "cellar", "hint": "You duck through the hatch and pull it shut above your head." }
+      ]
+    },
+    "prepare-binding": {
+      "passage": "You spread the shed skin flat beside the pyre. The charcoal instructions call for a name. Scratched into the copper casing of the warden's locket, hidden among the supplies in the cellar, a single word waits. Kael. You speak it aloud and the skin curls at the edges. Something outside shrieks. The ward below pulses bright. One step remains.",
+      "choices": [
+        { "label": "ignite the ward", "nextNode": "binding-fire", "hint": "You thrust the skin into the flames and the fire turns white." },
+        { "label": "stall for time", "nextNode": "confront-visitor", "hint": "A scraping sound at the door tells you the creature is already here." }
+      ]
+    },
+    "confront-visitor": {
+      "passage": "The thing stands in the doorway. Up close, the warden's face sits wrong on its frame, stretched at the temples and too smooth at the jaw. It tilts its head the way a bird does, studying you. It asks to be let inside, voice cracking between two tones. The pyre gutters behind you. The threshold holds, for now.",
+      "choices": [
+        { "label": "refuse it entry", "nextNode": "vigil-kept", "hint": "You grip the frame with both hands and set your shoulder against the wood." },
+        { "label": "let it inside", "nextNode": "stolen-face", "hint": "Your hand lifts the bar and the door swings inward on silent hinges." }
+      ]
+    },
+    "sealed-dawn": {
+      "passage": "You pile every loose rock and branch across the cave mouth, packing the gaps with earth and sweat. The clicking inside rises to a frenzy, then quiets. Hours pass. Dawn breaks grey and cold over the ridge, and birdsong fills the highland air from slope to slope. The seal holds. For now. You know it will not hold forever.",
+      "choices": [],
+      "ending": {
+        "title": "Sealed Until Spring",
+        "flavor": "Some doors are easier to close than to keep closed.",
+        "action": "pile the last rock"
+      }
+    },
+    "binding-fire": {
+      "passage": "The skin catches and the pyre erupts white. A scream tears the night apart, rising from every direction at once and folding over itself before it cuts short like snapping timber. The ward on the cellar wall cracks and goes dim. Silence. When dawn arrives, the trail stands empty and Greymount breathes clean air for the first time in weeks.",
+      "choices": [],
+      "ending": {
+        "title": "Name Spoken True",
+        "flavor": "The fire remembers what the mountain forgets.",
+        "action": "feed the skin to flame"
+      }
+    },
+    "vigil-kept": {
+      "passage": "You hold the door through the night. The thing circles the tower for hours, testing every window and every crack, pressing its borrowed face against the glass and whispering in voices you almost recognize. The pyre burns and you feed it each time it dips. It bargains. You do not answer. By dawn the slopes stand empty. Your relief party finds you standing.",
+      "choices": [],
+      "ending": {
+        "title": "Vigil Kept",
+        "flavor": "The creature learns that not every door opens to a familiar face.",
+        "action": "hold the door till dawn"
+      }
+    },
+    "stolen-face": {
+      "passage": "The bar lifts. The door swings wide. It steps inside with a grateful sigh and the pyre dies to embers in a single breath. Close now, its features shift like wax near a flame, the warden's face melting away to reveal something blank and hungry underneath. Its hand finds your jaw. Warmth drains from your skin like water through sand.",
+      "choices": [],
+      "ending": {
+        "title": "Borrowed Skin",
+        "flavor": "By morning, the tower has a new warden.",
+        "action": "lift the bar"
+      }
+    },
+    "bargain-struck": {
+      "passage": "The voice belongs to a tall, pale creature that unfolds from the shadows like wet cloth, smooth skin where features should be. It offers terms. Leave the mountain. Return one night each season to keep the pyre burning while it feeds, and in return the valley below stays safe. You accept. The walk down feels longer than any climb.",
+      "choices": [],
+      "ending": {
+        "title": "Seasons Owed",
+        "flavor": "Freedom is never free when the mountain remembers your name.",
+        "action": "walk down the trail"
+      }
+    }
+  }
+}

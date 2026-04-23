@@ -1876,10 +1876,8 @@ taffy
 tally
 talon
 tangy
-tapir
 tardy
 taunt
-tawny
 tepid
 terse
 tiger
@@ -1909,7 +1907,6 @@ tuner
 turbo
 tutor
 tweet
-twerp
 twirl
 ulcer
 ultra
@@ -1928,7 +1925,6 @@ visor
 vista
 vivid
 vixen
-vocab
 vodka
 vomit
 voter
@@ -1954,7 +1950,6 @@ yearn
 yodel
 zippy
 zilch
-zingy
 zonal
 abandon
 ability

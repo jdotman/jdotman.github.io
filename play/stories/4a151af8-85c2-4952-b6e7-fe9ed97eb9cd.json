@@ -1,0 +1,240 @@
+{
+  "id": "4a151af8-85c2-4952-b6e7-fe9ed97eb9cd",
+  "title": "Smoke and Cider",
+  "description": "A crossroads inn hums with firelight and argument as evening falls. You only meant to rest your legs, but the night has other plans.",
+  "author": "AI",
+  "tags": ["slice-of-life"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-22",
+  "dayOfYear": "06-08",
+  "endingCount": 6,
+  "storyNumber": 67,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "A stone inn sits where two roads cross beneath a wooded hill, its chimney trailing smoke through the last amber glow of evening while a faded sign swings on one broken hinge. The Fiddler's Rest. A stable crouches to one side, door ajar, and a gravel path curves behind the building. Warmth and cider-scent spill from the entrance, but a muffled argument carries inside.",
+      "choices": [
+        { "label": "enter the inn", "nextNode": "common-room", "hint": "The warmth hits your face the moment you cross the threshold." },
+        { "label": "follow the path", "nextNode": "courtyard", "hint": "Gravel crunches under your boots as you round the corner." },
+        { "label": "check the stable", "nextNode": "stable", "hint": "A horse nickers softly from the dim row of stalls." }
+      ]
+    },
+    "common-room": {
+      "passage": "The common room buzzes with voices and candle-flame. A bard tunes a lute in the far corner, one string broken. Near the hearth, two merchants stand chest to chest, arguing over a crate of something unseen while the room pretends not to notice. Every seat is taken. An old woman in a hooded cloak watches from a booth, bones spread on the table.",
+      "choices": [
+        { "label": "approach the bard", "nextNode": "bard-corner", "hint": "His fingers hover above the strings as he glances your way." },
+        { "label": "watch the argument", "nextNode": "argument", "hint": "One merchant jabs a finger while the other's face turns crimson." },
+        { "label": "sit with the woman", "nextNode": "fortune-corner", "hint": "She looks up from the bones and tilts her head, waiting." }
+      ]
+    },
+    "courtyard": {
+      "passage": "Behind the inn, a small courtyard opens beneath a trellis of browning grapevines. A kitchen door stands propped open with a brick, steam and the clatter of pots drifting out. Past the doorway, a patch of garden grows wild against the back wall, thick with herbs gone to seed. Something metal glints among the leaves.",
+      "choices": [
+        { "label": "try the kitchen door", "nextNode": "kitchen", "hint": "Steam curls around your face as you lean through the doorway." },
+        { "label": "explore the garden", "nextNode": "herb-garden", "hint": "The herbs smell sharp and alive despite the overgrown tangle." }
+      ]
+    },
+    "stable": {
+      "passage": "Lantern glow spills across four stalls, three occupied. A chestnut mare stamps and huffs. Beside her, a boy of maybe twelve works a curry brush in slow circles, humming a tune to himself while fresh hay drifts down from the loft above. A rough ladder leads up. The boy has not noticed you yet.",
+      "choices": [
+        { "label": "talk to the boy", "nextNode": "stable-hand", "hint": "He startles at your voice, then grins with a missing tooth." },
+        { "label": "climb the ladder", "nextNode": "hayloft", "hint": "The rungs creak under your weight as you pull yourself up." }
+      ]
+    },
+    "bard-corner": {
+      "passage": "The bard raises an eyebrow as you settle onto the bench across from him, his lute old and the neck worn smooth from years of thumbs pressing the same faded chords. He plucks a string. Winces. 'Rough crowd tonight,' he says, nodding toward the arguing merchants. 'Could use a proper request to drown them out. Something with feeling.'",
+      "choices": [
+        { "label": "request a ballad", "nextNode": "song-fills", "hint": "He nods slowly and adjusts the tuning peg with care." },
+        { "label": "buy him a drink", "nextNode": "feast", "hint": "His eyes brighten as you signal the barkeep for two cups." }
+      ]
+    },
+    "song-fills": {
+      "passage": "His fingers find the strings and a melody rises, low and steady, filling the common room until the arguing merchants pause and the old woman lifts her gaze from the bones. Even the kitchen noise softens. The song tells of a shepherd who follows a river to the sea. Nobody speaks. The candle flames lean as if listening.",
+      "choices": [
+        { "label": "join the applause", "nextNode": "feast", "hint": "Your hands meet the table in rhythm with the rest of the room." },
+        { "label": "ask about the song", "nextNode": "feast", "hint": "The bard looks surprised that anyone cares enough to ask." }
+      ]
+    },
+    "argument": {
+      "passage": "Two merchants face each other beside the hearth, voices pitched high enough to turn heads. The shorter one clutches a bill of sale while the taller one gestures at a crate on the floor between them. 'Twelve silver for rotten grain,' the short one hisses. A few patrons watch with amusement. Others look away, pretending not to hear.",
+      "choices": [
+        { "label": "step between them", "nextNode": "feast", "hint": "You plant yourself between them and the room holds its breath." },
+        { "label": "slip past them", "nextNode": "fortune-corner", "hint": "Their argument covers the sound of your boots on the floorboards." }
+      ]
+    },
+    "fortune-corner": {
+      "passage": "The cloaked woman sits alone in a booth near the back wall, a scatter of carved bones arranged on the table before her in a pattern you do not recognize. Her eyes are the color of wet clay. 'Sit,' she says, without looking up. 'The bones already know you are here.' Her voice carries no warmth, but no threat either.",
+      "choices": [
+        { "label": "offer your palm", "nextNode": "bone-reading", "hint": "You extend your hand across the table, palm facing the ceiling." },
+        { "label": "wave her off", "nextNode": "feast", "hint": "A polite nod is all you can manage as you turn to leave." }
+      ]
+    },
+    "bone-reading": {
+      "passage": "She closes her eyes and rolls the bones across the wood, letting them clatter and settle before she leans close. 'A crossroads,' she murmurs. 'Not the one outside. The one in here.' She taps her chest. 'You are carrying something that wants to be set down. What you decide tonight is not about where you sleep. It is about what you release.'",
+      "choices": [
+        { "label": "thank her and go", "nextNode": "feast", "hint": "The reading lingers in your mind as you push back from the table." },
+        { "label": "press for more", "nextNode": "feast", "hint": "Something in her words pulls at you like a fishhook in cloth." }
+      ]
+    },
+    "kitchen": {
+      "passage": "Steam billows from a pot the size of a washtub, and a broad-shouldered cook works the counter beside it, chopping turnips with a blade that has seen better days. Jars everywhere. Shelves line every wall, crammed with dried herbs and pickled roots. She glances at you, knife still moving. 'Looking for a meal or trouble? Wash your hands first.'",
+      "choices": [
+        { "label": "lend a hand", "nextNode": "help-cook", "hint": "You roll up your sleeves and step toward the chopping block." },
+        { "label": "grab a bowl", "nextNode": "feast", "hint": "The stew smells even better up close, all pepper and rosemary." }
+      ]
+    },
+    "help-cook": {
+      "passage": "Turnips, then onions, then a fistful of rosemary stripped from the stem. The cook watches your knife work and nods. 'Not bad.' She tells you the stew feeds every traveler who walks through this door tonight, no coin asked, because that is how the Fiddler's Rest earns its name. 'Most folk can barely peel a potato,' she adds. 'Everyone eats.'",
+      "choices": [
+        { "label": "carry the pot", "nextNode": "feast", "hint": "The handle is almost too hot to grip, but you manage." },
+        { "label": "chop more roots", "nextNode": "feast", "hint": "The blade finds a steady rhythm against the worn cutting board." }
+      ]
+    },
+    "herb-garden": {
+      "passage": "Wild thyme and sage grow tangled along the garden wall, untended but alive. Fireflies drift between the stalks. The metal glint from earlier turns out to be a tin lantern with a stub of candle inside, left on a low stone ledge. The sky deepens from violet to ink above. From the kitchen, someone hums an old tune between the clatter of pots.",
+      "choices": [
+        { "label": "light the lantern", "nextNode": "garden-night", "hint": "A match from your pack catches, and the wick sputters to life." },
+        { "label": "go inside", "nextNode": "feast", "hint": "The humming grows louder as you push through the kitchen door." }
+      ]
+    },
+    "stable-hand": {
+      "passage": "The boy jumps when you speak, then grins wide enough to show a missing tooth. 'She is called Pepper,' he says, patting the chestnut mare on the neck while he tells you she belongs to one of the merchants inside. Sweet horse. He offers you the curry brush. A second mare in the far stall kicks her door. 'That one bites,' he adds.",
+      "choices": [
+        { "label": "take the brush", "nextNode": "feast", "hint": "The bristles are stiff and the mare watches you with calm brown eyes." },
+        { "label": "head to the loft", "nextNode": "hayloft", "hint": "Straw crunches under your boots as you step toward the ladder." }
+      ]
+    },
+    "hayloft": {
+      "passage": "Hay dust tickles your nose as you pull yourself onto the loft floor. Bales are stacked against one wall, and a wool blanket lies crumpled near a gap in the boards where you can see the courtyard below. Crickets sing from the field beyond the stable. It is quiet up here, far from the noise of the common room. Almost too quiet.",
+      "choices": [
+        { "label": "search the hay", "nextNode": "locket", "hint": "Dust swirls as you push aside the nearest bale with both hands." },
+        { "label": "wrap in the blanket", "nextNode": "settle-in", "hint": "The wool smells of horse and lavender, not a bad combination." }
+      ]
+    },
+    "locket": {
+      "passage": "Beneath a loose bale you find a tarnished locket on a thin chain, and inside a tiny portrait shows a woman with braided hair and a half-smile that follows you when you tilt it. No name, no inscription. It looks old, maybe a generation or more. The kind of thing someone hides on purpose, or loses and never finds again.",
+      "choices": [
+        { "label": "bring it inside", "nextNode": "feast", "hint": "The chain swings gently as you tuck the locket into your palm." },
+        { "label": "set it back", "nextNode": "garden-night", "hint": "The portrait's half-smile stays with you as you lower yourself down." }
+      ]
+    },
+    "settle-in": {
+      "passage": "Crickets fill the hush outside. The wool blanket is rough but warm, and the hay beneath you gives just enough to feel like a real bed. Voices from the inn drift up as a murmur, half-words and laughter blending with the creak of settling timber. Your eyes grow heavy. The night could end right here if you let it.",
+      "choices": [
+        { "label": "drift off", "nextNode": "loft-rest", "hint": "The blanket tightens around your shoulders as you curl into the hay." },
+        { "label": "rouse yourself", "nextNode": "feast", "hint": "Laughter from below pulls you back toward the warmth and noise." }
+      ]
+    },
+    "garden-night": {
+      "passage": "Fireflies pulse above the herb rows, each one a brief green spark in the growing dark. The air hums. The inn's windows cast yellow rectangles across the ground, and from inside the clink of cups and the rumble of voices promise a crowded evening. Beyond the garden wall, a meadow stretches toward a line of birch trees, pale trunks catching the sky's last color.",
+      "choices": [
+        { "label": "duck inside", "nextNode": "feast", "hint": "The door opens to a wave of noise and the smell of fresh bread." },
+        { "label": "walk to the meadow", "nextNode": "meadow-walk", "hint": "Grass brushes your ankles as you step past the low garden wall." }
+      ]
+    },
+    "feast": {
+      "passage": "Long tables fill the common room, and the cook's stew sits in the center like a cauldron of liquid gold. Bread, cheese, and dried fruit crowd every flat surface. The merchants sit together now, sharing a bench near the hearth, their argument forgotten. The bard plays softly. The innkeeper, a tall woman with gray-streaked hair, moves between the tables refilling cups. She catches your eye.",
+      "choices": [
+        { "label": "raise your cup", "nextNode": "toast", "hint": "Cider sloshes over the rim as you lift the cup high." },
+        { "label": "sneak out the door", "nextNode": "night-road", "hint": "Cool air hits your skin as you ease through the front entrance." },
+        { "label": "speak with the innkeeper", "nextNode": "innkeeper", "hint": "Her eyes meet yours across the crowded room as you approach." }
+      ]
+    },
+    "toast": {
+      "passage": "Someone starts a drinking chant and the room joins in, pounding fists on tables in rhythm. Cups spill. Even the old bone-reader taps a finger against her cup, and the cook appears in the kitchen doorway, arms folded, trying not to smile. For a moment the inn feels less like a building and more like a living thing, pulsing with its own stubborn warmth.",
+      "choices": [
+        { "label": "stay by the fire", "nextNode": "late-fire", "hint": "The chant fades, but the warmth in your chest lingers on." },
+        { "label": "wander outside", "nextNode": "night-road", "hint": "The night air stings after the warmth of the crowded room." }
+      ]
+    },
+    "night-road": {
+      "passage": "A dirt road stretches away from the inn, pale under a rising moon, and the noise of the common room thins to nothing behind you, replaced by the scent of wet earth and cut grass and the soft give of the road beneath your boots. An owl calls. Your pack sits easy on your shoulders. Nothing stops you from walking until dawn.",
+      "choices": [
+        { "label": "keep walking", "nextNode": "walk-on", "hint": "Each step takes you further from the glow and closer to whatever comes next." },
+        { "label": "turn back", "nextNode": "late-fire", "hint": "The inn's glow pulls at you, an anchor against the dark." }
+      ]
+    },
+    "innkeeper": {
+      "passage": "She leans against the bar and studies you with sharp, tired eyes, pouring cider into a cup without being asked and sliding it your way in one smooth motion. 'Wanderer, yes? I can always tell.' Her voice drops. 'This place needs hands. The cook is leaving after harvest. The boy is growing faster than his wages. No urgent destination required.'",
+      "choices": [
+        { "label": "say you need work", "nextNode": "job-offer", "hint": "The words come out before you have time to second-guess them." },
+        { "label": "finish your cider", "nextNode": "late-fire", "hint": "The cider is warm and sweet, and you drain the last of it." }
+      ]
+    },
+    "late-fire": {
+      "passage": "Embers pulse in the hearth. The room sits empty now, chairs pushed back, crumbs scattered across the long tables, and somewhere upstairs a floorboard creaks as if the building itself is settling down for the night. The bone-reader is gone. The bard dozes with his lute across his lap. Through the window, a thin gray line marks the edge of dawn.",
+      "choices": [
+        { "label": "close your eyes", "nextNode": "ember-sleep", "hint": "The last ember fades as your head settles against the chairback." },
+        { "label": "wait for sunrise", "nextNode": "dawn-road", "hint": "Your eyes trace the thin line of gray along the windowsill." }
+      ]
+    },
+    "job-offer": {
+      "passage": "'Sweep the floor, stock the cellar, chop kindling,' she says, sliding a brass key across the bar as if she gives this speech to every wanderer who stays past the second cup. 'Fix what breaks. Room at the end of the hall. No pay the first month.' She meets your gaze. 'You look like someone who needs a door to close behind them.'",
+      "choices": [
+        { "label": "accept the key", "nextNode": "new-home", "hint": "The brass is warm in your hand, heavier than it looks." },
+        { "label": "push it back", "nextNode": "late-fire", "hint": "The brass scrapes softly against the wood as you slide it toward her." }
+      ]
+    },
+    "meadow-walk": {
+      "passage": "Tall grass whispers against your legs as you leave the garden behind, and the inn shrinks to a glowing square on the hillside with each step you take toward the birch trees at the meadow's edge. Bark peels in curls. A creek murmurs somewhere nearby. The sky is a vault of scattered constellations, and the air smells of wild mint and cooling earth.",
+      "choices": [
+        { "label": "stride on", "nextNode": "walk-on", "hint": "Your boots leave prints in the dewy grass as you press forward." },
+        { "label": "lie in the grass", "nextNode": "starfield", "hint": "The earth is cool against your back as you settle into the meadow." }
+      ]
+    },
+    "loft-rest": {
+      "passage": "You pull the blanket tight and let the sounds of the inn below carry you to sleep, each distant voice and clinking cup fading until all that remains is the rhythm of your own breathing. The hay is warm. The wool smells of lavender. Through the gap in the boards, a single star holds steady. Tomorrow the road will be there, but tonight you rest.",
+      "choices": [],
+      "ending": {
+        "title": "Borrowed Rest",
+        "flavor": "Some nights, a stranger's blanket is enough.",
+        "action": "rest in the hay"
+      }
+    },
+    "walk-on": {
+      "passage": "The road unspools beneath your boots as the inn fades to a flicker behind you. No one calls your name. No one asks you to stay. The fields roll on under a sky full of scattered stars, and each step feels lighter than the last. Wherever you end up, it will not be here, and that is enough for now.",
+      "choices": [],
+      "ending": {
+        "title": "Open Road",
+        "flavor": "Not all who wander need a reason to keep going.",
+        "action": "walk until dawn"
+      }
+    },
+    "ember-sleep": {
+      "passage": "The last ember dims to a dull orange and the hearth settles with a sigh. Your chin rests on your chest. Somewhere far off a rooster crows, but sleep pulls you under before the sound fades. The bard's breathing is steady across the room. The inn holds you both like a cupped hand, and morning finds you still here, still warm, still held.",
+      "choices": [],
+      "ending": {
+        "title": "Fading Embers",
+        "flavor": "The best nights end without you noticing.",
+        "action": "drift to sleep"
+      }
+    },
+    "dawn-road": {
+      "passage": "You step outside as the first pink tint touches the hilltop. The road gleams with dew. Your legs feel rested for the first time in weeks, and the pack on your back is no heavier than a promise. Behind you, the inn's chimney begins to trail fresh smoke. Someone is already stoking the morning fire. You do not need it. The road is yours.",
+      "choices": [],
+      "ending": {
+        "title": "First Light",
+        "flavor": "The best rest is the kind that sends you forward.",
+        "action": "take the road"
+      }
+    },
+    "new-home": {
+      "passage": "You turn the key in the lock and push the door open to find a narrow room waiting: a bed, a washbasin, a window overlooking the courtyard garden where fireflies still pulse above the herbs. The sheets are clean. The floorboards creak in a friendly way. Downstairs, the cook hums while banking the fire. Tonight, you set your pack down for the last time.",
+      "choices": [],
+      "ending": {
+        "title": "Roots and Hearth",
+        "flavor": "Sometimes the place you stop is the place you belong.",
+        "action": "set your pack down"
+      }
+    },
+    "starfield": {
+      "passage": "The grass folds around you like a nest. Above, the stars are thick enough to blur together at the edges, and a breeze carries the faintest trace of woodsmoke from the inn on the hill while crickets hold a single steady note. You breathe in. Breathe out. The distance between you and everything else grows wide and gentle. The sky asks nothing. Neither do you.",
+      "choices": [],
+      "ending": {
+        "title": "Open Sky",
+        "flavor": "Between the stars and the earth, there is room to simply be.",
+        "action": "breathe and let go"
+      }
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "id": "347d98b5-1523-4358-bf3d-a2931471ee51",
+  "title": "Parley at Ashford Bridge",
+  "description": "Two armies camp on opposite banks of the River Ash, and you carry the only letter that might prevent a war. The bridge between them is neutral ground - for now.",
+  "author": "AI",
+  "tags": ["diplomacy"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-22",
+  "dayOfYear": "06-11",
+  "endingCount": 4,
+  "storyNumber": 70,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "The River Ash churns below, swollen with spring runoff that hammers the pylons of the old bridge. On the north bank, Harfeld's lancers sharpen their weapons beside cook-fires that glow like scattered embers. South, the Velmare pikemen drill in tight rows, their banners snapping in the wind. You carry a sealed letter from Queen Orla. Peace, or the end of it.",
+      "choices": [
+        { "label": "cross to the north camp", "nextNode": "north-camp", "hint": "Harfeld's side sent the grievance, so they should hear the queen's terms first." },
+        { "label": "inspect the bridge first", "nextNode": "bridge-center", "hint": "Neutral ground deserves a look before you commit to either bank tonight." }
+      ]
+    },
+    "bridge-center": {
+      "passage": "Ashford Bridge is wide enough for two carts abreast, its railings carved with the old treaty sigils that neither kingdom has honored in a decade. Halfway across, a woman in a grey cloak leans against the railing. No insignia. She watches the current below and speaks without turning. She says she represents neither side, and that is exactly why you should listen to her.",
+      "choices": [
+        { "label": "hear her out", "nextNode": "grey-woman", "hint": "Something in her voice carries the weight of someone used to being believed." },
+        { "label": "continue north", "nextNode": "north-camp", "hint": "Grey cloaks and riddles can wait until after you deliver the queen's letter." }
+      ]
+    },
+    "grey-woman": {
+      "passage": "Her name is Sable. A merchant broker, she says, who trades in grain across both borders and stands to lose everything if the armies march. She tells you the real dispute is not about the river tolls printed in every broadsheet. It runs deeper. Harfeld's general lost a brother to Velmare scouts last autumn. Grief wears the mask of policy. She has proof.",
+      "choices": [
+        { "label": "ask for the proof", "nextNode": "sable-proof", "hint": "Proof changes everything, if it holds up under the weight of two generals." },
+        { "label": "dismiss her claim", "nextNode": "north-camp", "hint": "Merchants have their own reasons for wanting peace, not all of them noble." }
+      ]
+    },
+    "sable-proof": {
+      "passage": "Sable produces a folded letter bearing the Velmare captain's seal. It orders the scouts to observe only, never engage. The brother's death was a skirmish gone wrong, not an assassination. She says the Harfeld general has never seen this letter because no one dared bring it across the river. Until now. She holds it out to you. A bridge within a bridge.",
+      "choices": [
+        { "label": "take the letter", "nextNode": "two-letters", "hint": "Two letters now, one from a queen and one from a dead captain's hand." },
+        { "label": "refuse the letter", "nextNode": "north-camp", "hint": "Carrying unauthorized documents into a war camp is a dangerous kind of honest." }
+      ]
+    },
+    "two-letters": {
+      "passage": "Both letters rest inside your coat now, one sealed with royal wax and one with a field captain's ring-stamp. Together they tell a fuller story than either alone. Sable nods and vanishes into the fog rolling off the river before you can thank her. North or south. The queen's terms go to Harfeld, but the captain's letter could go to either side first.",
+      "choices": [
+        { "label": "deliver both north", "nextNode": "north-camp", "hint": "Harfeld's general carries the grudge, so both letters belong in his hands." },
+        { "label": "split the delivery", "nextNode": "south-first", "hint": "Velmare should see the queen's terms while Harfeld reads the captain's letter." }
+      ]
+    },
+    "north-camp": {
+      "passage": "Cook-fires crackle and boiled grain scents the Harfeld camp. Soldiers eye you with suspicion as a sergeant leads you through rows of oiled tents toward the command pavilion. General Aldric sits behind a campaign table covered in maps, his jaw set like hewn granite. He does not rise. A scar runs from temple to collar. One minute, he says.",
+      "choices": [
+        { "label": "present the queen's letter", "nextNode": "aldric-reads", "hint": "The wax seal cracks under his thumb and his eyes move across the page." },
+        { "label": "speak before showing it", "nextNode": "aldric-talk", "hint": "Words chosen well might soften the ground before the letter lands on it." }
+      ]
+    },
+    "aldric-reads": {
+      "passage": "Aldric reads in silence. His knuckles go pale around the edges of the parchment and a vein pulses at his temple. The queen demands a sixty-day truce and joint arbitration by the River Council. He sets the letter down. Unacceptable, he says. Velmare killed his brother and the queen asks him to sit at a table with them. His voice does not rise. It lowers.",
+      "choices": [
+        { "label": "reveal the captain's letter", "nextNode": "reveal-proof", "hint": "If you carry Sable's proof, now is the moment to lay it on the table." },
+        { "label": "argue for the truce", "nextNode": "truce-argument", "hint": "Sixty days is not forgiveness, you say, just enough rope to find the truth." }
+      ]
+    },
+    "aldric-talk": {
+      "passage": "Before the letter, a question. Does he want justice for his brother, or does he want a war? Silence fills the tent. Aldric's aide shifts near the entrance. The general stares at you for a long count, then gestures for you to sit. Justice, he says, though his tone makes it clear he believes the two are the same thing right now.",
+      "choices": [
+        { "label": "open the queen's letter", "nextNode": "aldric-reads", "hint": "The seal breaks and you lay the parchment flat between you on the table." },
+        { "label": "tell him about Sable", "nextNode": "reveal-proof", "hint": "A merchant on the bridge says the killing was not what he believes it was." }
+      ]
+    },
+    "reveal-proof": {
+      "passage": "The captain's letter lands on the table beside the maps. Aldric reads it twice. His breathing changes. The scouts were under orders to observe, not engage. A skirmish gone wrong, not a sanctioned kill. His brother died to confusion in the fog, not malice. The general closes his eyes. When he opens them, something behind the fury has shifted. Not gone. Shifted.",
+      "choices": [
+        { "label": "suggest the parley", "nextNode": "parley-offer", "hint": "The bridge is neutral ground, you say, and sixty days starts with one meeting." },
+        { "label": "give him space", "nextNode": "tent-wait", "hint": "Grief needs air, and pressing a general in mourning helps no one tonight." }
+      ]
+    },
+    "truce-argument": {
+      "passage": "Sixty days, you say, is not a pardon. It is a lantern held up in a tunnel so both sides can see what they are walking toward before the ceiling comes down on everyone beneath it. Aldric drums his fingers on the table. He says Velmare will use the time to fortify. You counter that Harfeld can do the same. Stalemate favors the living.",
+      "choices": [
+        { "label": "name the bridge as ground", "nextNode": "parley-offer", "hint": "Neutral ground means neither side kneels, and both sides can still walk away." },
+        { "label": "request a written reply", "nextNode": "written-reply", "hint": "Ink on parchment travels further than a spoken promise in a war camp." }
+      ]
+    },
+    "parley-offer": {
+      "passage": "Ashford Bridge at dawn, you suggest. Aldric and the Velmare commander, two aides each, no weapons past the center rail. The general stands and walks to the tent flap, staring south across the river where the Velmare fires mirror his own. He says he will come to the bridge if the Velmare commander agrees to the same terms. No tricks. No archers in the reeds.",
+      "choices": [
+        { "label": "ride south with the terms", "nextNode": "south-parley", "hint": "The south bank is a short ride, but the bridge feels like a world apart." },
+        { "label": "dispatch a runner instead", "nextNode": "runner-sent", "hint": "A runner carries less authority but also draws fewer arrows on the approach." }
+      ]
+    },
+    "tent-wait": {
+      "passage": "An hour passes. You sit outside the command tent and watch soldiers mend boots and dice for copper rings. Normal life pressed against the edge of something terrible. Aldric emerges, his expression unreadable but the fury drained from his posture. He says he will hear terms. Not agree. Hear. The bridge at dawn. He wants you there as a witness.",
+      "choices": [
+        { "label": "go south with the terms", "nextNode": "south-parley", "hint": "Carrying a general's conditional yes across a river feels heavier than any letter." },
+        { "label": "confirm the conditions", "nextNode": "parley-offer", "hint": "Details matter when lives hang on the difference between a word and a promise." }
+      ]
+    },
+    "south-first": {
+      "passage": "The Velmare camp smells of pine resin and oiled leather. Commander Theron meets you in a cleared circle between the tents, standing rather than sitting, arms folded across a breastplate marked with three river lines. She listens to the queen's terms without interrupting. Sixty days. Arbitration. Her eyes flick to the bridge, then back to you. She says Harfeld will never agree.",
+      "choices": [
+        { "label": "share the captain's letter", "nextNode": "theron-letter", "hint": "The field captain's orders might change her mind about what Harfeld will accept." },
+        { "label": "challenge her assumption", "nextNode": "theron-push", "hint": "Never is a long time, you say, and grief bends before it breaks entirely." }
+      ]
+    },
+    "theron-letter": {
+      "passage": "Theron unfolds the captain's letter and reads it standing. Her jaw tightens. She knew about the observe-only order, she says. The scouts disobeyed and paid for it with their own lives in the same skirmish. But no one told Harfeld because admitting the order existed means admitting they were watching Aldric's brother in the first place. A confession wrapped inside a defense.",
+      "choices": [
+        { "label": "urge her to confess openly", "nextNode": "south-parley", "hint": "Honesty on the bridge might cost pride, but silence will cost far more lives." },
+        { "label": "keep that detail quiet", "nextNode": "quiet-approach", "hint": "Some truths arrive better in pieces than all at once on neutral ground." }
+      ]
+    },
+    "theron-push": {
+      "passage": "Theron uncrosses her arms. She says she has watched Aldric's camp for three weeks and counted his supply wagons. He cannot sustain a siege longer than a month, and he knows it. War is a bluff neither side can afford, but backing down without a reason looks like weakness. Give her a reason, she says, and she will meet him on the bridge. Something real.",
+      "choices": [
+        { "label": "show Sable's evidence", "nextNode": "theron-letter", "hint": "A merchant on the bridge gave you proof that the killing was not deliberate." },
+        { "label": "pledge yourself as guarantor", "nextNode": "guarantor-ending", "hint": "Your life as a pledge of good faith is the most real thing available." }
+      ]
+    },
+    "south-parley": {
+      "passage": "Theron agrees. Dawn. Two aides. No weapons past the center rail. She writes her acceptance on a strip of vellum and presses her ring into the wax. Walking back across the bridge in the failing dusk, you feel the weight of both armies on either side, their fires reflected in the churning current below. Morning will decide everything. The bridge holds. For now.",
+      "choices": [
+        { "label": "sleep on the bridge", "nextNode": "bridge-dawn-ending", "hint": "Neutral ground is the only place left that belongs to neither army tonight." },
+        { "label": "wait in the north camp", "nextNode": "north-dawn-ending", "hint": "Aldric's tent is closer, and someone should be there when the general wakes." }
+      ]
+    },
+    "runner-sent": {
+      "passage": "A young lancer named Pol volunteers. He carries the terms across the bridge at a trot, his torch bobbing in the fog like a low star. An hour passes. Then two. The camp settles into an uneasy quiet and you doze against a supply barrel. Pol returns before midnight, breathless. Theron agrees. Dawn. The bridge. He grins. Nobody shot at me, he says.",
+      "choices": [
+        { "label": "rest before dawn", "nextNode": "north-dawn-ending", "hint": "A few hours of sleep is all you can steal before the parley changes everything." },
+        { "label": "walk the bridge alone", "nextNode": "bridge-dawn-ending", "hint": "The bridge is quiet at this hour, and quiet is what you need most." }
+      ]
+    },
+    "written-reply": {
+      "passage": "Aldric dictates to his scribe. Conditional acceptance. Sixty days if Velmare surrenders the scouts who crossed the border, dead or alive. He stamps the wax and hands you the reply without ceremony. It is not peace, he says. It is a door left open a crack. You take it. A crack is enough. The south bank waits, fires burning low in the distance.",
+      "choices": [
+        { "label": "carry it south tonight", "nextNode": "south-parley", "hint": "Every hour that passes gives someone on either bank time to do something reckless." },
+        { "label": "negotiate the terms down", "nextNode": "parley-offer", "hint": "Surrendering scouts is a poison pill, and Velmare will never swallow it whole." }
+      ]
+    },
+    "quiet-approach": {
+      "passage": "Theron nods. She will come to the bridge and present only the queen's terms, keeping the captain's letter in reserve. If Aldric refuses, then she reveals it. A staged honesty, one truth at a time, measured like medicine. She asks if you are comfortable with that. Comfortable is the wrong word, you say. But it might keep people alive. She accepts that answer.",
+      "choices": [],
+      "ending": {
+        "title": "Measured Truths",
+        "flavor": "Diplomacy is the art of telling the truth slowly enough that it heals instead of cuts.",
+        "action": "fold the letter away"
+      }
+    },
+    "bridge-dawn-ending": {
+      "passage": "Dawn spills gold across the river. Aldric approaches from the north with two aides. Theron from the south with two of her own. They meet at the center rail where the old treaty sigils still hold. Words pass between them, low and careful, while the current roars below. Neither smiles. Neither shouts. By midmorning, a quill touches vellum. The bridge holds.",
+      "choices": [],
+      "ending": {
+        "title": "Sigils on the Rail",
+        "flavor": "Peace is not a gift. It is a bridge you build while standing on it.",
+        "action": "step back from the rail"
+      }
+    },
+    "north-dawn-ending": {
+      "passage": "Aldric wakes you before first glow and walks to the bridge in silence. Theron is already there, her breath fogging in the chill. They speak for an hour while soldiers on both banks pretend not to watch. No agreement yet. But no swords either. Aldric returns and says he will meet her again tomorrow. And the day after. The bridge holds.",
+      "choices": [],
+      "ending": {
+        "title": "Tomorrow and After",
+        "flavor": "Some treaties are signed in ink. Others are built one sunrise at a time.",
+        "action": "watch the armies stand down"
+      }
+    },
+    "guarantor-ending": {
+      "passage": "Theron studies your face. A queen's envoy offering their own life as collateral. She says either you are very brave or very desperate, and both are useful on a bridge between two armies. She writes her acceptance and adds a clause. If the truce breaks, your life answers for it. You sign. The ink dries fast in the river wind. Done.",
+      "choices": [],
+      "ending": {
+        "title": "Ink and Collateral",
+        "flavor": "Your name on that vellum weighs more than any crown's seal tonight.",
+        "action": "sign the vellum"
+      }
+    }
+  }
+}

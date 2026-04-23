@@ -150,7 +150,6 @@ pomp
 pony
 pooh
 pool
-poon
 poop
 puku
 puli
@@ -172,7 +171,6 @@ hippo
 hippy
 hollo
 holly
-honky
 hooky
 hoppy
 hulky
@@ -219,7 +217,6 @@ ninon
 nippy
 noily
 nonyl
-nooky
 nullo
 nummi
 nylon
@@ -229,7 +226,6 @@ opium
 phono
 phony
 pilon
-pinko
 pinky
 pinny
 pinon

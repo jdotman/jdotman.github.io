@@ -1,0 +1,221 @@
+{
+  "id": "4699c309-86a0-466b-b8de-50d36ed4d4f4",
+  "title": "Lanternwake",
+  "description": "A fishing skiff offers passage through waters that glow at night. Three days saved, if you survive what stirs beneath the sunken city of Mirren.",
+  "author": "AI",
+  "tags": ["voyage"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-22",
+  "dayOfYear": "06-14",
+  "endingCount": 6,
+  "storyNumber": 73,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Your merchant vessel plows through grey swells as evening settles over the Strait of Vann, the sky turning the color of old copper from one horizon to the other. A fishing skiff cuts alongside, its crew grinning. Shortcut through the Shallows. Saves three days. Your own crew mutters. Everyone knows those shallows glow at night.",
+      "choices": [
+        { "label": "board the skiff", "nextNode": "skiff-deck", "hint": "The gap between vessels narrows as you step across onto wet planks." },
+        { "label": "ask about the glow", "nextNode": "glow-talk", "hint": "The skiff captain tilts his head and waits for you to speak." },
+        { "label": "keep your course", "nextNode": "open-sea", "hint": "The fishing crew watches you pull away without so much as a wave." }
+      ]
+    },
+    "glow-talk": {
+      "passage": "The skiff captain leans on his tiller and grins wider. Old city sank below centuries back, he says. Ward-stones still burn. Harmless shimmer, nothing more, good for fishing - his crew nods along, maybe too quickly, their eyes sliding away from yours. Behind him, the horizon is already turning copper. Decide before dusk.",
+      "choices": [
+        { "label": "step aboard", "nextNode": "skiff-deck", "hint": "Rope creaks as the crew hauls you over the salt-stained rail." },
+        { "label": "stay on your ship", "nextNode": "open-sea", "hint": "The captain shrugs and the skiff peels away into the fading dusk." }
+      ]
+    },
+    "skiff-deck": {
+      "passage": "The fishing skiff rocks as you step aboard, smelling of salt and brine and something faintly sweet that you cannot name. Your merchant vessel shrinks against the last band of sunlight. The crew rows in steady silence toward the shallows. Below the hull, the bottom rises. A pale shimmer begins to pulse.",
+      "choices": [
+        { "label": "speak with the captain", "nextNode": "captain-tale", "hint": "He gestures you toward the stern where his pipe smoke curls upward." },
+        { "label": "check below deck", "nextNode": "cargo-hold", "hint": "A hatch near the bow opens to steep wooden steps slick with spray." },
+        { "label": "lean over the rail", "nextNode": "rail-watch", "hint": "The surface is so clear you can count the stones on the bottom." }
+      ]
+    },
+    "open-sea": {
+      "passage": "Storm clouds stack along the western horizon within an hour of your refusal. Rain hammers the deck before you can reef the sails, and waves slam the hull broadside while the rudder fights every turn you try to force through the mounting swells. A grinding crack splits the mainmast halfway up. Spray blinds you.",
+      "choices": [
+        { "label": "scale the rigging", "nextNode": "storm-climb", "hint": "Wind tears at your sleeves the moment you leave the relative safety of deck." },
+        { "label": "search below for charts", "nextNode": "charts-below", "hint": "The hold door bangs open and bilge sloshes halfway up your boots." }
+      ]
+    },
+    "captain-tale": {
+      "passage": "The captain speaks between slow pulls of his pipe while smoke curls over the rail and drifts out across the shallows where the first traces of shimmer are beginning to show. Mirren lies below, he says. Sunk in a quake two centuries past. Its ward-stones still burn. Eels follow the gleam on bright nights.",
+      "choices": [
+        { "label": "learn what stirs", "nextNode": "dusk-glow", "hint": "Eels the length of this skiff, he mutters, squinting at the rising moon." },
+        { "label": "offer to keep watch", "nextNode": "dusk-glow", "hint": "He nods slowly and hands you a lantern without another word spoken." }
+      ]
+    },
+    "cargo-hold": {
+      "passage": "Below deck, shelves line both walls of a cramped hold. Jars of brine crowd every surface, each one holding a faint blue radiance that pulses and flickers against the low ceiling above your head. Something drifts inside - fragments of carved rock throbbing like a slow heartbeat. Dive gear by the hatch.",
+      "choices": [
+        { "label": "confront the captain", "nextNode": "confrontation", "hint": "His expression does not change when you hold the glowing jar up to his face." },
+        { "label": "go back up quietly", "nextNode": "dusk-glow", "hint": "The hatch closes behind you and the faintly sweet smell fades from your nose." }
+      ]
+    },
+    "rail-watch": {
+      "passage": "Rooftops pass beneath the hull. Coral-crusted archways frame empty doorways and a bell tower rises from the murk, its bell swaying in the current. The radiance pulses in a rhythm you can almost count - slow, steady, patient. A shape darts between the buildings below. Too large for a fish. Too fast to follow.",
+      "choices": [
+        { "label": "call the captain over", "nextNode": "captain-tale", "hint": "He sets down his pipe and crosses the deck to lean beside you." },
+        { "label": "watch in silence", "nextNode": "dusk-glow", "hint": "The shapes below drift past like a slow parade beneath the hull." }
+      ]
+    },
+    "confrontation": {
+      "passage": "He does not flinch. Scholars in Harrowgate pay twelve silver per jar, he says, and that is good coin for quiet work on a bright night when the ward-stones are easy to find. He rattles a leather purse and holds it toward you. His other hand rests on a gutting knife.",
+      "choices": [
+        { "label": "accept his coin", "nextNode": "dusk-glow", "hint": "The leather purse is heavier than you expected and warm to the touch." },
+        { "label": "walk away", "nextNode": "dusk-glow", "hint": "His smile drops the moment your back is turned but he says nothing." }
+      ]
+    },
+    "dusk-glow": {
+      "passage": "Copper fades from the sky as the last rim of sun drops below the horizon. Lanterns are lit along the rail. Below the hull, the radiance swells until the sea looks like a second sky full of slow blue stars. Quiet falls over the crew. Then something bumps the hull. Hard.",
+      "choices": [
+        { "label": "arm yourself", "nextNode": "night-watch", "hint": "A boat hook is the closest thing to a weapon anywhere on deck." },
+        { "label": "snuff the lanterns", "nextNode": "dark-drift", "hint": "One by one the flames die and the sea-fire below takes their place." }
+      ]
+    },
+    "storm-climb": {
+      "passage": "Rain slashes sideways as you haul yourself up the shrouds, each rung slick with spray, the cracked mast groaning overhead where it hangs by a single bolt and splintered wood. One gust more. Through the curtain of rain you spot calm shallows to port where something luminous stirs beneath the waves.",
+      "choices": [
+        { "label": "lash the broken mast", "nextNode": "forced-shallows", "hint": "The rope bites your palms but the mast holds. The current does not." },
+        { "label": "cut it loose", "nextNode": "forced-shallows", "hint": "The mast crashes into the waves and the ship drifts free but rudderless." }
+      ]
+    },
+    "charts-below": {
+      "passage": "Ankle-deep bilge sloshes across the hold. Crates have broken loose, sliding with every pitch of the deck and smashing against the bulkhead to the rhythm of the swells. Wedged behind a barrel you find a leather tube, still dry inside. Charts spill out. One marks a safe channel through the Shallows in faded red ink.",
+      "choices": [
+        { "label": "bring them topside", "nextNode": "forced-shallows", "hint": "The helmsman squints at the faded ink and nods slowly after a long pause." },
+        { "label": "study the route first", "nextNode": "forced-shallows", "hint": "Annotations in the margins warn of depth changes and strong currents at low tide." }
+      ]
+    },
+    "forced-shallows": {
+      "passage": "Calm swallows the storm the moment you cross into the channel. Flat stillness stretches in every direction, the bottom only a few fathoms down, lit from beneath where rooftops and broken columns pass below the keel like the ruins of a dream you cannot quite recall. Wind falls to nothing. Your sails hang slack.",
+      "choices": [
+        { "label": "press into the channel", "nextNode": "night-watch", "hint": "The keel scrapes something below and every member of the crew holds their breath." },
+        { "label": "drop anchor here", "nextNode": "ghost-rise", "hint": "Chain rattles overboard and the anchor bites into soft sand between two rooftops." }
+      ]
+    },
+    "night-watch": {
+      "passage": "Midnight. The crew sleeps below while you stand watch at the bow. Lantern-flame reflects off flat calm in every direction. Then a thud rolls through the hull, deep and heavy, followed by the scrape of something rough against the planks. A shape circles just beneath the surface, longer than the skiff. It does not leave.",
+      "choices": [
+        { "label": "grab the harpoon", "nextNode": "harpoon-fight", "hint": "Rust flakes off the shaft but the iron point is still sharp and keen." },
+        { "label": "kill the lanterns", "nextNode": "dark-drift", "hint": "The last flame hisses out between your fingers and the dark swallows everything." },
+        { "label": "wake the crew", "nextNode": "crew-rally", "hint": "They stumble up from below with fear in their eyes and blades in hand." }
+      ]
+    },
+    "harpoon-fight": {
+      "passage": "Salt-rusted but heavy, the harpoon fills your grip as you brace against the rail and thrust downward the moment a scaled back breaks the surface in a spray of foam. The hit lands solid. The creature thrashes and the skiff tilts until brine pours over the gunwale. Rope sings taut.",
+      "choices": [
+        { "label": "strike again", "nextNode": "eel-victory", "hint": "The shaft buries deep into the scaled hide and the depths erupt around you." },
+        { "label": "pull back", "nextNode": "crew-rally", "hint": "You stumble away from the rail just as the thing rolls beneath the hull." }
+      ]
+    },
+    "eel-victory": {
+      "passage": "Blood clouds the brine and the eel dives with a violent snap of its tail, dragging the shaft down into the murk until the rope goes taut and snaps clean. Stillness returns. The captain appears beside you, pale. That was a scout, he says. Where there is one, more follow the scent.",
+      "choices": [
+        { "label": "row for open water", "nextNode": "dawn-end", "hint": "Every back bends to the oars and the Shallows slowly begin to shrink behind." },
+        { "label": "douse the remaining lights", "nextNode": "dark-drift", "hint": "Blood in the brine draws more than eels, the captain warns through clenched teeth." }
+      ]
+    },
+    "dark-drift": {
+      "passage": "Darkness drops like a curtain and without the lanterns only the gleam beneath remains, a dim constellation under the keel that shifts and sways with each tremor of the current. The crew huddles low. No one speaks. The bumping stops. Minutes stretch. A faint point of warmth flickers far across the flat calm.",
+      "choices": [
+        { "label": "wait for dawn", "nextNode": "dawn-end", "hint": "You curl against the hull and count the slow hours by the wheeling stars." },
+        { "label": "follow the distant warmth", "nextNode": "lost-end", "hint": "It flickers at the edge of sight like a candle left burning in a window." },
+        { "label": "spark a single lantern", "nextNode": "shapes-rise", "hint": "The flint catches on the third try and the tiny flame sputters to life." }
+      ]
+    },
+    "crew-rally": {
+      "passage": "Shouts ring across the deck as the crew scrambles up with boat hooks and gutting blades, forming a rough line at the rail with hard breathing and wide eyes locked on the murk below. Then the bumping stops. The shape drifts away and vanishes. Nobody lowers their weapon. Nobody blinks.",
+      "choices": [
+        { "label": "hold till sunrise", "nextNode": "ghost-rise", "hint": "No one sleeps. Every creak of timber draws a flinch from someone on watch." },
+        { "label": "flee for the edge", "nextNode": "dawn-end", "hint": "Oars churn foam and the flat calm slowly gives way to honest rolling swells." }
+      ]
+    },
+    "ghost-rise": {
+      "passage": "A tremor runs through the depths and the gleam intensifies until every ripple burns so bright you have to squint against the glare reflecting off the underside of your hull. Towers breach the surface first, then walls, then entire streets slick with weed. Mirren is rising. The skiff settles onto a cobbled road.",
+      "choices": [
+        { "label": "navigate the streets", "nextNode": "ghost-city", "hint": "The skiff scrapes along cobblestones still slick with brine and crusted with barnacles." },
+        { "label": "abandon the skiff", "nextNode": "depths-end", "hint": "Your feet hit wet cobbles and the current surges around your ankles immediately." }
+      ]
+    },
+    "shapes-rise": {
+      "passage": "A single lantern flares to life in your hand and instantly the depths answer, the radiance surging upward until the ocean churns and spires break the surface trailing kelp and foam. A plaza rises beneath the hull, lifting the skiff onto cracked flagstones. Luminous. Around you, an entire city climbs from the seabed.",
+      "choices": [
+        { "label": "sail through the ruins", "nextNode": "ghost-city", "hint": "Towers pass on either side of the skiff, close enough to touch if you reached." },
+        { "label": "dive overboard", "nextNode": "depths-end", "hint": "The brine is warmer than you expected and much brighter from below the surface." }
+      ]
+    },
+    "ghost-city": {
+      "passage": "Drowned streets stretch in every direction, glistening under a sky thick with stars, barnacles crusting the shop windows where algae trails from the lintels like wet curtains. Fish everywhere. A temple dome rises above the rooftops ahead, split open at the crown. Warm radiance pours from the crack like breath.",
+      "choices": [
+        { "label": "enter the temple", "nextNode": "temple-heart", "hint": "The cracked dome looms overhead as you duck through the barnacled entrance." },
+        { "label": "loot the storefronts", "nextNode": "mercenary-end", "hint": "Glass crunches underfoot and your hands close on something hard and valuable." },
+        { "label": "find the way out", "nextNode": "dawn-end", "hint": "A channel of deeper brine between two fallen walls points toward the east." }
+      ]
+    },
+    "temple-heart": {
+      "passage": "Inside the dome, the air is warm and smells of clean rock, dry despite the ocean pressing in on all sides and the damp ruin of the streets outside. An altar stands at the center. On it rests a crystal pulsing with amber fire. Every ward-stone in Mirren draws from this source. It hums.",
+      "choices": [
+        { "label": "take the crystal", "nextNode": "crystal-end", "hint": "Heat radiates from its surface and your fingers stretch slowly toward the amber." },
+        { "label": "leave it untouched", "nextNode": "peaceful-end", "hint": "Your hand stops an inch from the surface and slowly pulls itself back." }
+      ]
+    },
+    "dawn-end": {
+      "passage": "Warmth touches your face before you open your eyes. Gold. The horizon burns with it. Open ocean stretches ahead, clean and deep, and the Shallows sit behind you as a fading shimmer to the south, already becoming something you are not sure you believe. The crew cheers. You grip the rail and breathe.",
+      "choices": [],
+      "ending": {
+        "title": "First Light",
+        "flavor": "The ocean forgets and so, eventually, will you.",
+        "action": "face the sunrise"
+      }
+    },
+    "depths-end": {
+      "passage": "Brine closes over your head. For a moment you see Mirren in full below - every street, every tower, every ward-stone burning with amber fire. Beautiful and vast and utterly indifferent. The current pulls you through an open archway and brightness fills your vision until there is nothing else. No surface. No air.",
+      "choices": [],
+      "ending": {
+        "title": "Below the Reach",
+        "flavor": "The city has waited centuries for visitors.",
+        "action": "sink into the deep"
+      }
+    },
+    "mercenary-end": {
+      "passage": "Your pockets are heavy with salvage - carved ward-fragments, a copper bell, a ring set with a gem that pulses warmly against your thigh as the crew loads the skiff until the gunwale barely clears the tide-line. Harrowgate harbor waits beyond the next headland. Gold waits after that. The ring keeps pulsing.",
+      "choices": [],
+      "ending": {
+        "title": "Sunken Fortune",
+        "flavor": "Gold spends, but the ring keeps pulsing.",
+        "action": "pocket the salvage"
+      }
+    },
+    "crystal-end": {
+      "passage": "Every ward-flame in Mirren dies the moment your fingers close around the crystal, and the temple plunges into a blackness so complete you cannot see your own hand though it burns with the heat of the crystal gripped inside it. The depths below go dead and cold. You have it. It is yours.",
+      "choices": [],
+      "ending": {
+        "title": "Dead Reckoning",
+        "flavor": "Some fires are not meant to be carried.",
+        "action": "close your fist"
+      }
+    },
+    "peaceful-end": {
+      "passage": "You step back from the altar and the crystal pulses on, steady and patient, filling the dome with a warmth that reaches into your chest like a held breath finally released. Outside, the tide begins to rise along the temple steps. Mirren is sinking home. By morning, only flat horizon remains. The old fire burns on.",
+      "choices": [],
+      "ending": {
+        "title": "Unbroken Tide",
+        "flavor": "Mirren sleeps, and the ward-stones keep their vigil.",
+        "action": "leave the altar"
+      }
+    },
+    "lost-end": {
+      "passage": "Each stroke brings the warmth no closer, the flickering point drifting ahead patient and unhurried and matching your speed exactly as though it knows the rhythm of your arms and means to keep you rowing until you forget you ever wanted anything else. No shoreline appears. Your arms grow heavy. The oars drag.",
+      "choices": [],
+      "ending": {
+        "title": "Lantern Chaser",
+        "flavor": "Still calm and a flicker that never arrives.",
+        "action": "rest the oars"
+      }
+    }
+  }
+}
