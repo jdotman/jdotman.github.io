@@ -1,0 +1,202 @@
+{
+  "id": "6dbf2e22-34b3-4165-83c4-aed1e9dc711e",
+  "title": "Crooked Wager",
+  "description": "A rigged card game in a traveling carnival holds a farmer's stolen compass. To win it back, you must out-trick the trickster at his own table.",
+  "author": "AI",
+  "tags": ["trickery"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-06-23",
+  "dayOfYear": "06-23",
+  "endingCount": 5,
+  "storyNumber": 82,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "You stand at the edge of a field where a traveling carnival sprawls in a maze of canvas and rope. Smoke curls from cook-fires. A loose crowd mills around the main gate, and lanterns sway above the entrance. A farmer in town says the cardmaster Sable holds his silver compass, won in a rigged game. You are here to claim it back.",
+      "choices": [
+        { "label": "enter the main gate", "nextNode": "main-gate", "hint": "You push through the crowd and the noise closes in around you." },
+        { "label": "circle around back", "nextNode": "side-path", "hint": "The canvas smells of mildew and old rain as you squeeze between tents." },
+        { "label": "study the crowd", "nextNode": "watch-crowd", "hint": "A vantage point near the fence gives you a clear view of everything." }
+      ]
+    },
+    "main-gate": {
+      "passage": "Noise hits like a wall. Jugglers toss lit torches, a barker shouts prices for games of chance, and the smell of roasting meat mixes with sawdust and cheap perfume. Two paths branch ahead: a row of market stalls selling trinkets and charms, and a wide canvas tent with a painted sign that reads SABLE'S TABLE in gold letters.",
+      "choices": [
+        { "label": "browse the stalls", "nextNode": "market-row", "hint": "Handmade trinkets catch the lamplight as you drift between the crowded tables." },
+        { "label": "head for the tent", "nextNode": "game-tent", "hint": "The gold letters glow brighter the closer you get to the entrance." }
+      ]
+    },
+    "side-path": {
+      "passage": "A muddy trail runs between tent stakes and coiled rope. Canvas flaps in the breeze, offering glimpses of performers stretching and stagehands hauling crates. Ahead, a small patched tent glows amber from within, and past it, a cluster of wagons marks the backstage area where the carnival crew gathers between acts. No one stops you.",
+      "choices": [
+        { "label": "slip into the tent", "nextNode": "fortune-tent", "hint": "A curtain of beads rattles as you duck through the narrow opening." },
+        { "label": "continue to the wagons", "nextNode": "back-stage", "hint": "Mud sucks at your boots as you cross the gap between the last tents." }
+      ]
+    },
+    "watch-crowd": {
+      "passage": "The fence line tells all. Townsfolk drift between stalls, laughing and spending coin, but your eye catches something else: a boy near the main tent flashes hand signals to someone inside. Every few minutes the rhythm repeats, a fist tap followed by two fingers held low. The crowd flows past, oblivious to the pattern.",
+      "choices": [
+        { "label": "track the signal boy", "nextNode": "spot-signal", "hint": "He does not notice you closing in from behind the nearest stall." },
+        { "label": "push toward the tent", "nextNode": "game-tent", "hint": "The crowd parts as you shoulder your way toward the canvas entrance." }
+      ]
+    },
+    "market-row": {
+      "passage": "Stalls crowd both sides of a trampled dirt lane. A woman sells carved talismans, a man hawks bottled remedies, and a child offers roasted chestnuts from a blackened pan. Near the end of the row, an older woman sits alone behind an empty table, eyes locked on the game tent. She does not blink.",
+      "choices": [
+        { "label": "approach the old woman", "nextNode": "old-dealer", "hint": "She looks up as you near her table, as if expecting you." },
+        { "label": "wander to the tent", "nextNode": "game-tent", "hint": "The painted sign grows larger with each step down the dirt lane." }
+      ]
+    },
+    "game-tent": {
+      "passage": "Canvas walls muffle the carnival noise into a dull hum. Lanterns hang from the center pole, casting amber circles on a green felt table where Sable deals cards to a nervous merchant. Sable's hands move fast. Too fast. A small crowd presses in to watch, and the merchant sweats through his collar. The edge of the table shows faint scratches.",
+      "choices": [
+        { "label": "watch the next round", "nextNode": "watch-round", "hint": "You settle against the tent pole and keep your eyes on the cards." },
+        { "label": "check the table edge", "nextNode": "inspect-table", "hint": "Your fingers brush the worn felt as you lean in for a look." }
+      ]
+    },
+    "fortune-tent": {
+      "passage": "Incense fills the patched tent, thick enough to taste. An old woman in layered shawls sits behind a cracked crystal orb, fingers tracing slow circles on its surface. She speaks before you do. Knows your name. She says Sable rehearses his trick in the backstage wagon each evening, and a gap in the rear canvas lets you watch him work.",
+      "choices": [
+        { "label": "ask about the gap", "nextNode": "spy-on-sable", "hint": "She points to the north edge of camp with one ringed finger." },
+        { "label": "peek behind the wagons", "nextNode": "back-stage", "hint": "The tent flap swings shut behind you as you step into open air." }
+      ]
+    },
+    "back-stage": {
+      "passage": "Crates and barrels line the gap between two wagons. Masks and feathered cloaks sway on a costume rack, stirring like ghosts. A heated argument leaks from the nearest wagon, words too muffled to catch. Something breaks inside. On a barrel near the rack, a lean woman with calloused hands whittles a stick and watches the game tent.",
+      "choices": [
+        { "label": "search the wagon", "nextNode": "spy-on-sable", "hint": "The wagon door is ajar and the argument inside has gone quiet now." },
+        { "label": "find a seat beside her", "nextNode": "old-dealer", "hint": "She stops whittling and sets the knife down when you settle next to her." }
+      ]
+    },
+    "spot-signal": {
+      "passage": "The boy leans against the tent pole, thumbs hooked in his belt, watching the entrance with the patience of someone who has done this a hundred times before. Every time a new player sits at Sable's table, he flashes a sequence: fist, pause, fingers. It is a code. The pattern shifts depending on how the mark holds his cards.",
+      "choices": [
+        { "label": "follow the boy", "nextNode": "follow-signal", "hint": "He peels away from the pole and ducks behind a row of stalls." },
+        { "label": "sneak behind the tents", "nextNode": "back-stage", "hint": "You slip between two stalls and find yourself among the backstage wagons." }
+      ]
+    },
+    "old-dealer": {
+      "passage": "Her name is Maren. She says she dealt cards for Sable two seasons back, before he replaced her with the signal boy and a deck of marked cards. Her voice holds no bitterness. Just facts. She knows the marks, the signals, and the exact moment Sable switches the deck. She offers to teach you, if you care to learn.",
+      "choices": [
+        { "label": "press her for details", "nextNode": "learn-trick", "hint": "Maren pulls a worn card from her sleeve and lays it face up." },
+        { "label": "spy on Sable yourself", "nextNode": "spy-on-sable", "hint": "Maren nods toward the gap in the fence behind the nearest wagon." }
+      ]
+    },
+    "watch-round": {
+      "passage": "Cards fly and coins clatter. The merchant folds and walks away cursing. Another player takes his seat, an older man with a thick beard who cracks his knuckles and lays down a confident bet. Sable welcomes him with a smile that reaches nowhere near his eyes. Within minutes the bearded man is down three rounds and running pale.",
+      "choices": [
+        { "label": "lean in closer", "nextNode": "inspect-table", "hint": "From this angle you can almost see the underside of the cards." },
+        { "label": "note Sable's technique", "nextNode": "meet-sable", "hint": "His fingers move in a pattern you begin to recognize after several rounds." }
+      ]
+    },
+    "inspect-table": {
+      "passage": "Up close, everything shows. Faint scratches run along the left edge where a fingernail has scored the felt, each mark near a different card position. The surface is worn smooth in one corner, as though something slides there often. A second deck sits beneath a cloth to Sable's right, half hidden but visible if you know where to look.",
+      "choices": [
+        { "label": "test the hidden deck", "nextNode": "learn-trick", "hint": "Your fingers close around worn cardstock and the tiny notches are unmistakable." },
+        { "label": "tap Sable's shoulder", "nextNode": "meet-sable", "hint": "He turns with a ready smile, already sizing you up as his next mark." }
+      ]
+    },
+    "follow-signal": {
+      "passage": "Between two stalls the boy ducks and cuts behind the canvas. Quick feet. He weaves between tent ropes without a stumble, ducking past a stack of crates until he reaches a wagon with a red door. He knocks three times and waits. A hand slides the door open just enough to pass something through.",
+      "choices": [
+        { "label": "trail him to the wagon", "nextNode": "spy-on-sable", "hint": "You keep to the gaps between tents, matching his pace step for step." },
+        { "label": "double back to camp", "nextNode": "back-stage", "hint": "The path behind the stalls loops around to where the carnival crew rests." }
+      ]
+    },
+    "spy-on-sable": {
+      "passage": "Through a slit in the wagon canvas, you watch Sable seated at a low workbench with two decks of cards spread before him in neat rows. He swaps cards between the decks with a nimble hand, marking every third card with a notch along the top edge using just his thumbnail. The swap takes a heartbeat. Simple, and devastating.",
+      "choices": [
+        { "label": "listen for more", "nextNode": "learn-trick", "hint": "Sable mutters the signal code to himself as he rehearses the full routine." },
+        { "label": "step away quietly", "nextNode": "meet-sable", "hint": "Armed with what you know, you walk around to the front of the tent." }
+      ]
+    },
+    "learn-trick": {
+      "passage": "Everything clicks. Sable uses two decks: one clean, one marked with thumbnail notches that he can read by touch alone while the signal boy feeds him each opponent's hand through a series of coded gestures from outside the tent. The switch happens mid-game. Fast, invisible. Knowing all of this is only half the real fight.",
+      "choices": [
+        { "label": "take your seat", "nextNode": "take-seat", "hint": "Your boots feel heavy on the packed earth as you cross to the tent." },
+        { "label": "gather the townsfolk", "nextNode": "rally-crowd", "hint": "A crowd will make it harder for Sable to run when the truth comes out." }
+      ]
+    },
+    "meet-sable": {
+      "passage": "Sable turns to you with bright eyes and a grin that could sell rust as gold. Confident hands. His voice carries over the crowd without effort as he asks if you want to play, says the buy-in is ten silver, says no one has beaten him in four seasons. His fingers never stop shuffling the deck.",
+      "choices": [
+        { "label": "accept the wager", "nextNode": "take-seat", "hint": "You drop ten silver on the felt and the crowd goes quiet around you." },
+        { "label": "examine his deck", "nextNode": "inspect-table", "hint": "Your hand hovers over the cards and Sable's smile tightens just slightly." }
+      ]
+    },
+    "take-seat": {
+      "passage": "Packed earth crunches under the chair as you pull it back and settle into the seat across from Sable, who shuffles the deck with fingers that move like they have a mind of their own. The crowd presses closer. Lantern flame dips. You catch a flicker in Sable's expression, something between amusement and alarm, gone before you can name it.",
+      "choices": [
+        { "label": "play the first hand", "nextNode": "first-hand", "hint": "Sable deals five cards each and the tent holds its breath around you." },
+        { "label": "rally the crowd", "nextNode": "rally-crowd", "hint": "You push back from the table and turn to face the gathered onlookers." }
+      ]
+    },
+    "rally-crowd": {
+      "passage": "Townsfolk are not hard to convince. The bearded man, three rounds poorer, joins first, then the merchant, then a cluster of vendors who close their stalls and follow you to the tent. Within minutes a crowd of thirty stands outside, arms crossed, voices low and angry. Sable's boy sees them coming. He darts inside. The canvas walls bulge with whispers.",
+      "choices": [
+        { "label": "denounce Sable now", "nextNode": "public-reckoning", "hint": "You raise your voice above the crowd and every head turns toward you." },
+        { "label": "join the game instead", "nextNode": "first-hand", "hint": "The crowd watches as you push through the tent flap and take a seat." },
+        { "label": "rile them further", "nextNode": "crowd-riot", "hint": "Anger feeds on itself and the mood tips from confrontation to something worse." }
+      ]
+    },
+    "first-hand": {
+      "passage": "You draw your cards and spread them in a tight fan, two faces showing thumbnail notches along the edge that confirm every suspicion. Sable's smile is frozen. The crowd murmurs behind you. Your hand is middling at best, and Sable raises the bet, pushing coins forward with one finger. The silver compass glints beside his pile.",
+      "choices": [
+        { "label": "match his bet", "nextNode": "play-clean", "hint": "You push your coins forward and the compass needle trembles on the table." },
+        { "label": "switch the deck", "nextNode": "cheat-back", "hint": "Your hand moves under the table faster than even Sable's eyes can track." }
+      ]
+    },
+    "cheat-back": {
+      "passage": "You palm the clean deck under the table while Sable watches the crowd. The switch is smooth. Sable glances at his cards and something shifts behind his eyes. He knows. But the crowd is pressing in from every side and he cannot call you a cheat without revealing that he is one himself. The compass sits between you, waiting.",
+      "choices": [
+        { "label": "pocket the compass", "nextNode": "stolen-victory", "hint": "Your fingers close around the silver case and the needle swings toward your chest." },
+        { "label": "reveal your hand", "nextNode": "caught-cheating", "hint": "Sable's eyes drop to the notched cards on your side of the table." }
+      ]
+    },
+    "public-reckoning": {
+      "passage": "Marked cards hit the table. You call out each notch, each signal, each rigged shuffle, holding them up for the crowd to see with their own eyes. Sable's smile dies. The merchant demands his money. The bearded man cracks his knuckles. Sable reaches into his coat and places the silver compass down without a word. The carnival folds by morning.",
+      "choices": [],
+      "ending": {
+        "title": "Cards on the Table",
+        "flavor": "The truth hits harder than any bluff.",
+        "action": "lay down the proof"
+      }
+    },
+    "play-clean": {
+      "passage": "No tricks, no angles. Just the cards in front of you. Sable reads every tell on your face and peels your stack coin by coin until the table is bare. The final hand is not even close. He sweeps your silver into his pile, pats the compass once like a pet, and leans back. Better luck next season, he says.",
+      "choices": [],
+      "ending": {
+        "title": "Empty Pockets",
+        "flavor": "Some games are rigged before the first card lands.",
+        "action": "leave the table"
+      }
+    },
+    "stolen-victory": {
+      "passage": "The compass slides into your palm and you stand before Sable can react, pushing through the crowd while his protests dissolve into the noise of the carnival behind you. His face twists. Outside the tent, the night air bites and the compass needle spins once, twice, then points south toward home. Sable gets a taste of his own medicine.",
+      "choices": [],
+      "ending": {
+        "title": "Cheat's Reward",
+        "flavor": "A stolen victory still tastes like winning.",
+        "action": "walk into the night"
+      }
+    },
+    "caught-cheating": {
+      "passage": "Sable flips the deck face up and every notch gleams under the lanterns for everyone in the tent to see, each mark unmistakable against the worn cardstock. He looks at you, then at the crowd. This one tried to cheat me, he announces. Hands grab your collar. The compass stays on the table. Sable winks as they drag you out.",
+      "choices": [],
+      "ending": {
+        "title": "Caught Red-Handed",
+        "flavor": "The house always wins, especially when you play by its rules.",
+        "action": "stumble into the mud"
+      }
+    },
+    "crowd-riot": {
+      "passage": "The crowd surges forward before you can finish speaking. Someone throws a bottle. The game tent collapses in a tangle of rope and canvas as vendors flee and townsfolk tear through the stalls. Fire catches a banner and climbs fast. In the confusion, the compass skids across the dirt and you snatch it up. Victory, though nothing else survives.",
+      "choices": [],
+      "ending": {
+        "title": "Ashes and Silver",
+        "flavor": "Some truths burn hotter than they should.",
+        "action": "run from the flames"
+      }
+    }
+  }
+}

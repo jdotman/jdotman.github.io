@@ -1,0 +1,187 @@
+{
+  "id": "d7f437c3-3a0a-4770-ae29-bb5e4264fbc3",
+  "title": "Gilded Descent",
+  "description": "Cracked pillars in the desert mark the entrance to a sealed vault. What waits below is worth more than gold, if you survive long enough to find out.",
+  "author": "AI",
+  "tags": ["treasure-hunt"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-22",
+  "dayOfYear": "06-19",
+  "endingCount": 5,
+  "storyNumber": 78,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Cracked pillars rise from the dunes like broken teeth. A sand-scoured archway marks the entrance to a vault sealed for centuries. The desert wind carries a faint hum from below, rhythmic and low, as if the ruin itself breathes. Tracks disappear at the threshold. No one who enters seems to come back.",
+      "choices": [
+        { "label": "descend the steps", "nextNode": "carved-stairway", "hint": "The first step crumbles slightly, and cool air rushes past your ankles." },
+        { "label": "scout the perimeter", "nextNode": "crumbling-wall", "hint": "Loose rubble shifts under your boots as you circle the outer wall." }
+      ]
+    },
+    "carved-stairway": {
+      "passage": "Steep steps spiral downward, carved from sandstone worn smooth at the center by the many feet that walk this same long descent over the centuries. Grooves line the walls where torch brackets hold nothing but dust. Halfway down, a section of wall has crumbled. A narrow passage hides behind it.",
+      "choices": [
+        { "label": "examine the passage", "nextNode": "painted-landing", "hint": "Dry air flows from the gap, carrying the scent of old pigment." },
+        { "label": "continue downward", "nextNode": "rubble-landing", "hint": "The stairs narrow and curve sharply before opening to a wider space." }
+      ]
+    },
+    "crumbling-wall": {
+      "passage": "The outer wall has buckled near the southeast corner, where sand piles against the rock and forms a natural ramp to a gap wide enough to squeeze through. Rubble slopes into dimness beyond. Something moves. A lizard darts across the hot surface and vanishes into the crack, confirming the way is clear.",
+      "choices": [
+        { "label": "squeeze through the gap", "nextNode": "rubble-landing", "hint": "Rough edges scrape your shoulders as you push into the narrow space." },
+        { "label": "circle to the stairs", "nextNode": "carved-stairway", "hint": "The main entrance sits around the north face, half-buried in sand." }
+      ]
+    },
+    "painted-landing": {
+      "passage": "A low chamber opens before you, its ceiling barely above your head. Faded paintings cover every wall, showing hunters with spears, a falcon diving toward a golden disc, and a serpent coiled tight around a cracked pillar. Pigment flakes at your touch. Two paths slope down, and the painted falcon seems to watch both.",
+      "choices": [
+        { "label": "follow the falcon path", "nextNode": "sand-gallery", "hint": "The falcon's painted eye catches a gleam you could swear is new." },
+        { "label": "take the serpent path", "nextNode": "sand-gallery", "hint": "Dust sifts from the ceiling as your weight settles on the sloping floor." }
+      ]
+    },
+    "rubble-landing": {
+      "passage": "Broken rock and sand cover the floor of a broad landing. Chisel marks line the walls, every groove cut with purpose. The air is stale but breathable. Ahead, a vast chamber echoes with the drip of moisture, and something metallic glints in the rubble near your feet, half-buried and long forgotten.",
+      "choices": [
+        { "label": "pick up the object", "nextNode": "sand-gallery", "hint": "It is a brass coin stamped with the same falcon from the paintings above." },
+        { "label": "move toward the chamber", "nextNode": "sand-gallery", "hint": "Your footsteps echo ahead of you, bouncing off unseen walls in the gloom." }
+      ]
+    },
+    "sand-gallery": {
+      "passage": "Pillars thick as old oaks hold up a ceiling lost in murk above. Sand has drifted through cracks, forming low dunes across the tile floor. An archway to your left carries the sound of trickling water, and to your right tiles arranged in a grid stretch toward a dim corridor. The grid feels deliberate.",
+      "choices": [
+        { "label": "wade through the archway", "nextNode": "flooded-tunnel", "hint": "Your boots fill immediately, and the current tugs gently at your ankles." },
+        { "label": "cross the tiled grid", "nextNode": "pressure-hall", "hint": "The first tile sinks half an inch under your weight and clicks softly." }
+      ]
+    },
+    "flooded-tunnel": {
+      "passage": "Murky current fills the tunnel to your waist within a few strides, and the ceiling slopes lower with each step, forcing you to duck as salt coats your lips. Ripples fan outward. A faint green shimmer pulses deep below the surface, and to your right a rusted valve protrudes from the wall.",
+      "choices": [
+        { "label": "swim toward the shimmer", "nextNode": "sunken-arch", "hint": "The current fights you, but the glow grows brighter with every stroke." },
+        { "label": "turn the valve", "nextNode": "drain-chamber", "hint": "Metal groans as the valve gives way, and the floor vibrates beneath you." }
+      ]
+    },
+    "sunken-arch": {
+      "passage": "A submerged archway leads to a round chamber where you surface, gasping. The walls are smooth, carved with spiraling grooves that funnel the overflow upward into the rock. At the center, on a pedestal just below the waterline, a jade idol rests with both hands extended. Its eyes are closed. The shimmer comes from within it.",
+      "choices": [
+        { "label": "reach for the idol", "nextNode": "idol-pool", "hint": "The jade is warm to the touch, almost alive, pulsing against your palm." },
+        { "label": "pull back", "nextNode": "drain-chamber", "hint": "Something about the idol's closed eyes makes you want to keep your distance." }
+      ]
+    },
+    "idol-pool": {
+      "passage": "Warmth floods through your hands the moment your fingers close around the jade. The heat travels up your arms like a slow fire. The idol's eyes open. They are not carved. Not painted. Real, watching you with ancient recognition. The grooves in the walls begin to glow green, and the chamber hums. You cannot release your grip.",
+      "choices": [
+        { "label": "hold on", "nextNode": "idol-curse", "hint": "The glow climbs your wrists and the room begins to spin around you." },
+        { "label": "tear yourself free", "nextNode": "drain-chamber", "hint": "Pain lances through your fingers as you wrench them from the jade." }
+      ]
+    },
+    "drain-chamber": {
+      "passage": "A rusted iron wheel sits in an alcove, connected to pipes that run deep into the walls and disappear beyond where your eyes can follow. The floor is damp, and a slow drip echoes from somewhere above. Scratches on the wheel suggest it has been turned before. A narrow shaft climbs into the ceiling, and a dry passage branches left.",
+      "choices": [
+        { "label": "head down the passage", "nextNode": "dry-passage", "hint": "The floor slopes gently downward and the air grows warmer with each step." },
+        { "label": "climb the shaft", "nextNode": "blade-run", "hint": "Iron rungs set into the rock hold your weight, barely." }
+      ]
+    },
+    "dry-passage": {
+      "passage": "Bones lie scattered along a narrow passage, small and brittle, some animal you cannot name. The air tastes of copper and old dust. Ahead, the tunnel opens to a wider space where you catch the gleam of bronze in the distance, steady and unmistakable against the surrounding murk. Behind you, the drip of the drain grows faint.",
+      "choices": [
+        { "label": "approach the bronze", "nextNode": "bronze-door", "hint": "Each step echoes in the widening space, and the gleam sharpens into focus." },
+        { "label": "inspect the bones", "nextNode": "bronze-door", "hint": "They crumble when you lift them, and beneath lies a tarnished ring." }
+      ]
+    },
+    "pressure-hall": {
+      "passage": "Tiles arranged in a precise grid cover the corridor floor, each marked with a faded symbol. Dust lies undisturbed on most, but three near the center are clean, as if something brushes them often. Every step clicks. The walls seem to respond to your weight, and the corridor stretches thirty paces to an iron-banded door.",
+      "choices": [
+        { "label": "step on the clean tiles", "nextNode": "blade-run", "hint": "The first clean tile holds firm, but the second one sinks and clicks." },
+        { "label": "hug the wall", "nextNode": "bronze-door", "hint": "Pressed flat against the masonry, you edge past the grid to the far door." }
+      ]
+    },
+    "blade-run": {
+      "passage": "Pendulum blades swing from slots in the ceiling, each one tracing a wide arc across the corridor, and their timing is irregular, some fast, others slow, none matching their neighbors. Beyond them, a door waits. To your left, a narrow alcove holds what looks like a chest, half-buried in fallen masonry.",
+      "choices": [
+        { "label": "sprint past the blades", "nextNode": "bronze-door", "hint": "Wind from the nearest blade ruffles your hair as you dive through the gap." },
+        { "label": "check the alcove", "nextNode": "crumbling-vault", "hint": "The chest gleams under a layer of grit, its latch still intact." }
+      ]
+    },
+    "crumbling-vault": {
+      "passage": "Cracks web across the ceiling of a small vault. Fine dust sifts down with each distant vibration from the blades outside. A chest sits atop a raised platform, its iron latch green with age. The platform leans at an angle, and the slab beneath has shifted. One wrong move could bring everything down.",
+      "choices": [
+        { "label": "open the chest", "nextNode": "cave-in", "hint": "The latch gives way with a snap that echoes far too loudly." },
+        { "label": "back away slowly", "nextNode": "bronze-door", "hint": "A chunk of ceiling drops behind you as you retreat to the corridor." }
+      ]
+    },
+    "bronze-door": {
+      "passage": "A massive door fills the archway, cast from bronze gone green with centuries of neglect, and a disc at its center bears two symbols: a falcon on the left, a serpent on the right. Both are rubbed smooth by the countless hands before yours. The air is still. No breeze, no drip, no echo. Just the door and the choice.",
+      "choices": [
+        { "label": "press the falcon", "nextNode": "inner-vault", "hint": "The disc turns with a grinding sound, and the door begins to swing inward." },
+        { "label": "rotate the serpent", "nextNode": "inner-vault", "hint": "A hiss escapes the mechanism, but the door shudders open all the same." }
+      ]
+    },
+    "inner-vault": {
+      "passage": "Beyond the bronze door, a chamber of polished marble veined with gold stretches before you. Three objects rest on separate pedestals. To the left, a golden relic shaped like a crowned falcon. Ahead, a sealed chest carved with glyphs you recognize from the murals. To the right, a passage slopes upward toward fresh air and daylight.",
+      "choices": [
+        { "label": "grab the relic", "nextNode": "guardian-stirs", "hint": "The falcon is heavier than it looks, and warm as a living thing." },
+        { "label": "lift the chest lid", "nextNode": "hidden-archive", "hint": "Glyphs on the lid shift as your hands find the clasp beneath them." },
+        { "label": "leave through the exit", "nextNode": "empty-return", "hint": "Fresh air fills your lungs and the weight of the vault lifts." }
+      ]
+    },
+    "guardian-stirs": {
+      "passage": "Marble grinds against marble the moment the relic leaves its pedestal. A shape unfolds from the far wall, shedding flakes of painted plaster. A guardian, carved from the same rock as the room, tall as two men. Its falcon-helmed head turns toward you with grinding precision. Hollow eyes fix on the relic in your hands. It steps forward.",
+      "choices": [
+        { "label": "fight the guardian", "nextNode": "triumph", "hint": "You plant your feet and raise the relic like a weapon before you." },
+        { "label": "return the relic", "nextNode": "empty-return", "hint": "The golden falcon feels heavier with each step back toward the pedestal." }
+      ]
+    },
+    "hidden-archive": {
+      "passage": "Inside the chest lies not gold but scrolls. Dozens of them, packed tight in oiled leather cases. You unroll the nearest and find diagrams of the vault itself, its traps, its builders, its purpose. This is not a treasury. It is a library, sealed to protect knowledge the builders consider too dangerous for the world above. A crown rests atop the deepest scroll.",
+      "choices": [
+        { "label": "study the scrolls", "nextNode": "scholar", "hint": "Hours pass like minutes as the diagrams reveal secrets lost for centuries." },
+        { "label": "seize the crown", "nextNode": "guardian-stirs", "hint": "The moment you touch it, the floor begins to vibrate beneath your feet." }
+      ]
+    },
+    "idol-curse": {
+      "passage": "Green radiance crawls from the jade through your veins, tracing bright lines under your skin. You try to drop the idol but your hands refuse. The chamber fills with emerald fire and the walls begin to blur. When the humming stops, you are standing on the pedestal, hands extended, eyes closed. Another guardian for an empty room.",
+      "choices": [],
+      "ending": {
+        "title": "Bound in Jade",
+        "flavor": "The vault keeps what it claims.",
+        "action": "close your eyes"
+      }
+    },
+    "cave-in": {
+      "passage": "A snap from the latch, and the platform lurches. A deep crack races up the wall and across the ceiling. You have time to see the chest is empty before the first slab falls. Dust swallows everything. The blades in the corridor beyond go silent, one by one, as rubble seals the vault for another age.",
+      "choices": [],
+      "ending": {
+        "title": "Buried Twice",
+        "flavor": "The vault does not forgive curiosity without caution.",
+        "action": "reach for the chest"
+      }
+    },
+    "empty-return": {
+      "passage": "You walk the passage upward until daylight finds you. The desert wind hits your face and you breathe deep, tasting heat and distance. Behind you, the vault settles back into stillness. You carry nothing in your hands. But you know the way in, the traps, the turns, and the shape of what waits below. That knowledge is yours alone.",
+      "choices": [],
+      "ending": {
+        "title": "Empty Hands",
+        "flavor": "Some treasures are not meant to be carried.",
+        "action": "walk into the sunlight"
+      }
+    },
+    "triumph": {
+      "passage": "You raise the falcon relic and its golden radiance floods the chamber. The guardian falters, one arm cracking at the joint. It reaches for you, slow now, and you step aside as it crumbles to the floor in a cascade of marble. Stillness follows. The vault is yours. You climb into open air, the falcon warm against your chest.",
+      "choices": [],
+      "ending": {
+        "title": "Falcon's Keeper",
+        "flavor": "The desert remembers those who earn what they take.",
+        "action": "carry the falcon home"
+      }
+    },
+    "scholar": {
+      "passage": "Hours vanish as you read. The scrolls describe wonders: medicines from common herbs, bridges that span rivers without pillars, songs that calm storms. The knowledge is sealed not because it is dangerous, but because the world above is not ready for it. You roll the last scroll closed and tuck it beneath your arm. Perhaps the world is ready now.",
+      "choices": [],
+      "ending": {
+        "title": "Bearer of Scrolls",
+        "flavor": "Not all treasure glitters, and not all vaults are prisons.",
+        "action": "bring the scrolls to daylight"
+      }
+    }
+  }
+}

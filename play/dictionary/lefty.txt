@@ -1,3 +1,4 @@
+a
 abstract
 access
 ace
@@ -8,6 +9,8 @@ acts
 add
 added
 adder
+address
+adverse
 after
 age
 aged
@@ -29,11 +32,15 @@ as
 assert
 asserted
 asserts
+asset
 at
+ate
 attest
 attested
 attests
 attract
+average
+award
 awarded
 aware
 awe
@@ -50,6 +57,8 @@ bags
 bar
 bare
 bars
+base
+based
 baste
 bat
 bats
@@ -57,6 +66,7 @@ battered
 be
 bead
 bear
+beard
 bears
 beast
 beat
@@ -113,6 +123,7 @@ career
 careers
 cares
 cars
+cart
 carve
 carved
 case
@@ -149,6 +160,7 @@ craved
 craves
 craze
 crazed
+crease
 create
 created
 creates
@@ -171,6 +183,7 @@ dared
 dares
 dart
 darted
+data
 date
 dated
 dates
@@ -229,6 +242,7 @@ dread
 dredge
 dredged
 dredges
+dregs
 dress
 dressed
 dresser
@@ -236,12 +250,16 @@ drew
 eager
 ear
 ears
+ease
 eased
 east
 eat
 eats
 edge
 edges
+effect
+egg
+era
 erased
 eraser
 erasers
@@ -266,6 +284,7 @@ facade
 face
 faced
 faces
+facet
 fact
 facts
 fade
@@ -291,6 +310,8 @@ feed
 feeder
 feeders
 feeds
+feet
+fest
 fester
 festered
 festers
@@ -303,6 +324,7 @@ few
 fewer
 free
 freed
+freer
 frees
 freeze
 freezer
@@ -402,6 +424,7 @@ reeds
 reef
 reefs
 ref
+refer
 regard
 regarded
 regards
@@ -436,6 +459,7 @@ saw
 scab
 scabs
 scar
+scare
 scared
 scarred
 scatter
@@ -444,6 +468,7 @@ scatters
 screw
 screwed
 screws
+sea
 sear
 seat
 seated
@@ -468,11 +493,14 @@ sever
 severe
 severed
 severs
+sew
 stab
 stabbed
 stabs
+staff
 staffed
 stag
+stage
 stagger
 staggered
 staggers
@@ -480,6 +508,7 @@ star
 stare
 stared
 starred
+start
 started
 starve
 starved
@@ -491,6 +520,7 @@ stave
 staved
 stead
 steed
+steer
 steered
 stew
 steward
@@ -501,11 +531,13 @@ streets
 stress
 swagger
 swaggered
+swat
 swear
 swears
 sweat
 sweated
 sweats
+sweet
 swerve
 swerved
 tab
@@ -531,6 +563,8 @@ tears
 teas
 teaser
 teasers
+terse
+test
 tested
 tester
 text
@@ -552,10 +586,12 @@ treats
 tree
 treed
 trees
+tweet
 vase
 vases
 vast
 vat
+verb
 verge
 verged
 verges
@@ -586,6 +622,7 @@ waste
 wasted
 waster
 wasters
+water
 wave
 waved
 waves
@@ -598,9 +635,11 @@ weave
 weaved
 weaver
 weavers
+web
 wedge
 wedged
 were
+west
 wet
 wets
 zebra

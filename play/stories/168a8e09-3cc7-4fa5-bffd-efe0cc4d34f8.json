@@ -1,0 +1,215 @@
+{
+  "id": "168a8e09-3cc7-4fa5-bffd-efe0cc4d34f8",
+  "title": "Bellwright's Toll",
+  "description": "A hilltop town summons you to recast its cracked cathedral bell. The bronze melts green, the furnace speaks in riddles, and the old Warden holds more than just a tone.",
+  "author": "AI",
+  "tags": ["crafting"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-22",
+  "dayOfYear": "06-21",
+  "endingCount": 5,
+  "storyNumber": 80,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Greyspire earns its name. The cathedral tower rises above the town like a gray fang, and from its peak a cracked bell hangs crooked in its frame. You have been summoned to recast it. The foundry at the base of the hill still glows with banked coals, and Prior Tomas waits at the tower door, wringing his hands.",
+      "choices": [
+        { "label": "climb the tower", "nextNode": "climb-the-tower", "hint": "The stairs are worn smooth in the center, polished by centuries of feet." },
+        { "label": "enter the foundry", "nextNode": "enter-the-foundry", "hint": "Warm air rolls out through the open door, carrying the scent of charcoal." }
+      ]
+    },
+    "climb-the-tower": {
+      "passage": "The stairs spiral upward, tight as a corkscrew, through the tower's narrow gut. Pigeons scatter. You emerge into the belfry where the Warden hangs, massive, twice your height, cast from bronze so old it has gone nearly black. A crack runs from the rim to the crown like a jagged scar that will not close.",
+      "choices": [
+        { "label": "strike the bell", "nextNode": "examine-the-bell", "hint": "Your knuckle raps the bronze and a low hum shivers through the metal." },
+        { "label": "trace the crack", "nextNode": "examine-the-bell", "hint": "The fissure is warm under your fingertip, warmer than the rest of the bell." }
+      ]
+    },
+    "enter-the-foundry": {
+      "passage": "Heat washes over you the moment you cross the threshold. The foundry is a cave of brick and iron, with a furnace at its heart banked low but still breathing. Tools hang in rows. Molds line the shelves. A young apprentice named Sable looks up from sweeping ash and nods toward the back room where Prior Tomas paces.",
+      "choices": [
+        { "label": "greet the prior", "nextNode": "speak-with-prior", "hint": "Tomas stops pacing when he sees you and clasps your hand with both of his." },
+        { "label": "inspect the furnace", "nextNode": "speak-with-prior", "hint": "The coals need stoking, but the brickwork is solid and the draft pulls true." }
+      ]
+    },
+    "examine-the-bell": {
+      "passage": "Up close, the Warden tells a different story. Hairline fractures web outward from the main fissure like roots in dry soil, and the metal hums faintly even without being struck, a vibration you feel more in your teeth than your ears. Strange letters circle the bell's waist. Someone has poured more than bronze into this casting.",
+      "choices": [
+        { "label": "sketch the letters", "nextNode": "the-melt", "hint": "You copy them into your notebook, but the shapes seem to shift on the page." },
+        { "label": "test the bronze", "nextNode": "the-melt", "hint": "Your file bites into the metal and bright shavings curl away, too warm." }
+      ]
+    },
+    "speak-with-prior": {
+      "passage": "Tomas grips your arm before you can sit. The bell must ring before the solstice, he says, or the town loses its charter. He speaks too quickly, as if he fears you will ask the questions he does not want to answer. His eyes drift to the floor. You notice the flagstones are cracked in a pattern that looks deliberate.",
+      "choices": [
+        { "label": "ask about the letters", "nextNode": "the-melt", "hint": "Tomas goes pale and says the less you know about those, the better." },
+        { "label": "begin the work", "nextNode": "the-melt", "hint": "You roll up your sleeves and Sable banks the furnace to full heat." }
+      ]
+    },
+    "the-melt": {
+      "passage": "The Warden takes three days to lower, and two more to break apart. When the bronze finally melts in the crucible, the liquid metal glows a color you have never seen in thirty years of casting. Pale green, not orange. The furnace roars, and for a moment you hear something in the flame. A voice, or the memory of one. Sable steps back.",
+      "choices": [
+        { "label": "weave the enchantment in", "nextNode": "weave-the-enchantment", "hint": "If the old bell carries magic, the new one can carry it further." },
+        { "label": "cast it clean", "nextNode": "cast-it-clean", "hint": "You skim the green from the surface and reach for the standard mold." },
+        { "label": "descend below the floor", "nextNode": "descend-below", "hint": "The cracked flagstones in Tomas's chamber suddenly make a different kind of sense." }
+      ]
+    },
+    "weave-the-enchantment": {
+      "passage": "You let the green stay in the bronze. The liquid metal swirls in the crucible like something alive, responding to the heat with a rhythm that feels almost musical. Sable watches from the door, wide-eyed. The mold waits on the casting floor, a bell-shaped hollow packed in sand. Two paths forward: careful shaping, or letting the metal find its own voice.",
+      "choices": [
+        { "label": "shape the mold", "nextNode": "shape-the-mold", "hint": "You carve binding runes into the clay, matching the letters from the old bell." },
+        { "label": "channel the tone", "nextNode": "channel-the-tone", "hint": "You hum a low note and the metal in the crucible hums back." }
+      ]
+    },
+    "shape-the-mold": {
+      "passage": "You carve the old letters into the mold's inner wall, copying each one from your notebook with steady hands. The clay accepts them as if it remembers the shapes. Sable pours wax into the core while you adjust the vents. Every detail matters now. One misplaced stroke and the enchantment could twist during the pour. The crucible bubbles, patient but eager.",
+      "choices": [
+        { "label": "pour the metal", "nextNode": "final-cast-careful", "hint": "The bronze runs into the mold like honey, slow and bright and green." },
+        { "label": "wait for the signs", "nextNode": "final-cast-careful", "hint": "A faint tone rises from the crucible, the pitch climbing until you feel it settle." }
+      ]
+    },
+    "channel-the-tone": {
+      "passage": "Instead of shaping the mold, you close your eyes and hum. The sound builds until the crucible answers with a resonance that rattles the tools on the wall. Sable covers her ears. The metal is speaking now, pulling at the air around it, and you let it guide your hands as you prepare the mold without markings. Pure tone. Pure intent.",
+      "choices": [
+        { "label": "release the pour", "nextNode": "final-cast-fierce", "hint": "The bronze leaps from the crucible like something freed from a cage." },
+        { "label": "hold the note", "nextNode": "final-cast-fierce", "hint": "Your throat burns, but the pitch steadies and the metal follows your lead." }
+      ]
+    },
+    "final-cast-careful": {
+      "passage": "Bronze fills the mold in a steady stream, shimmering green at the edges where the enchantment bites into the clay. The heat is immense. Hours pass before you break the mold away and see the bell within, smooth and whole, the old letters reborn in fresh metal. A tone rings from it unbidden. Sable gasps. The foundry walls vibrate.",
+      "choices": [
+        { "label": "ring the bell", "nextNode": "warden-reborn", "hint": "You take the clapper in both hands and let the new Warden sing." },
+        { "label": "silence the tone", "nextNode": "cracked-again", "hint": "You press your palm flat against the bronze and the vibration dies instantly." }
+      ]
+    },
+    "final-cast-fierce": {
+      "passage": "The bronze hits the mold like a wave and the furnace screams, sending green fire up the sides of the casting pit as letters form by themselves in the cooling metal. Minutes, not hours. When the mold falls away, the Warden stares back at you, remade and furious, its surface covered in script you never carved.",
+      "choices": [
+        { "label": "touch the bell", "nextNode": "warden-reborn", "hint": "The bronze pulses under your palm, warm and steady, like a heartbeat." },
+        { "label": "back away", "nextNode": "unbound", "hint": "The script on the bell's surface writhes, and the floor beneath you cracks." }
+      ]
+    },
+    "cast-it-clean": {
+      "passage": "You skim the green from the molten bronze with a ladle, pulling the strange color out stroke by stroke until the metal returns to honest orange. The enchantment resists. Each pass of the ladle grows heavier, as if the liquid is thickening around your tool. Sable helps you lift the crucible to the standard mold. Clean bronze. No magic. Just the craft.",
+      "choices": [
+        { "label": "tip the clean metal", "nextNode": "cooling-bell", "hint": "Orange bronze fills the mold in a smooth, even stream, textbook perfect." },
+        { "label": "rush the pour", "nextNode": "rush-the-pour", "hint": "You tilt the crucible hard and the metal splashes against the mold walls." }
+      ]
+    },
+    "cooling-bell": {
+      "passage": "The mold sits on the foundry floor for hours, radiating heat in waves that shimmer and bend the air above it while Sable times the cooling with a sand clock. Three hours. Six. By nightfall the bronze is ready. You crack the mold and lift the bell free. Flawless. But when you flick the rim, the tone falls flat.",
+      "choices": [
+        { "label": "retune the bell", "nextNode": "test-the-tone", "hint": "You reach for your file and begin shaving bronze from the inner lip." },
+        { "label": "accept the result", "nextNode": "silent-tower", "hint": "A flat bell is still a bell, and the solstice is three days away." }
+      ]
+    },
+    "rush-the-pour": {
+      "passage": "The crucible tips hard and fast under your grip. Bronze splashes against the mold walls and a hiss of steam erupts where moisture has crept into the clay. Sable shouts a warning but you keep pouring, fighting the weight as the metal fills the mold in uneven surges. The surface bubbles. Air pockets form where none should be.",
+      "choices": [
+        { "label": "let it cool", "nextNode": "hasty-result", "hint": "You step back and watch, but the mold pops twice before going quiet." },
+        { "label": "stir the pour", "nextNode": "hasty-result", "hint": "You shove an iron rod into the mold and work the trapped air free." }
+      ]
+    },
+    "test-the-tone": {
+      "passage": "Your file bites into the bronze and shaves curls of metal from the bell's inner lip, each pass changing the pitch by a fraction, climbing toward the note the Warden is meant to carry. The work is delicate. Too much and the wall thins. Too little and the bell stays mute. On the twentieth pass, a true note rings through the foundry.",
+      "choices": [
+        { "label": "keep filing", "nextNode": "silent-tower", "hint": "The note grows stronger but never reaches the depth the old bell carries in memory." },
+        { "label": "hoist the bell", "nextNode": "cracked-again", "hint": "The bell rings once in the tower, then a hairline crack appears at the rim." }
+      ]
+    },
+    "hasty-result": {
+      "passage": "When the mold breaks apart, the bell inside is rough and pitted, its surface cratered by trapped air and a seam running crooked near the shoulder where the pour runs uneven. Sable shakes her head. The bell might ring, but not true. No bronze remains for a second attempt, and the solstice is close.",
+      "choices": [
+        { "label": "hang it anyway", "nextNode": "cracked-again", "hint": "The hoist chains groan as the flawed bell rises toward the tower." },
+        { "label": "melt it down", "nextNode": "sealed-below", "hint": "The bronze goes back into the crucible, and you notice the green returning." }
+      ]
+    },
+    "descend-below": {
+      "passage": "Sable helps you pry the cracked flagstones from Tomas's chamber floor. Below lies a stairway carved into raw bedrock, spiraling down into a dim passage that smells of copper and wet earth. Tomas stands ashen at the doorway. He says there is more beneath this cathedral than anyone living knows. His lantern trembles when he offers it.",
+      "choices": [
+        { "label": "take the lantern", "nextNode": "vault-door", "hint": "The flame bends toward the stairway as if the draft below is breathing." },
+        { "label": "send Sable ahead", "nextNode": "vault-door", "hint": "She squares her shoulders and disappears into the passage without looking back." }
+      ]
+    },
+    "vault-door": {
+      "passage": "The passage ends at an iron door riveted into the bedrock, each bolt the size of your fist. A thick bar of bronze runs across its face, green with the same strange patina as the Warden's metal, and the air around it presses against your ears like being underwater. Something waits behind it.",
+      "choices": [
+        { "label": "pry the door open", "nextNode": "pry-it-open", "hint": "The bar resists, then gives with a groan that echoes down the tunnel." },
+        { "label": "reinforce the seal", "nextNode": "reinforce-the-seal", "hint": "You press your palm to the bronze bar and feel the enchantment pulse." }
+      ]
+    },
+    "pry-it-open": {
+      "passage": "The bronze bar bends under your weight and the door swings inward on hinges that scream with rust. Beyond lies a chamber carved from the living rock, perfectly round, with a pit at its center. The pit is not empty. Something shifts in the deep, formless and vast, and the smell of copper rises until it coats the back of your throat.",
+      "choices": [
+        { "label": "call out to it", "nextNode": "face-what-stirs", "hint": "Your voice drops into the pit and something answers, low and resonant." },
+        { "label": "slam the door shut", "nextNode": "reinforce-the-seal", "hint": "The hinges catch, and through the gap you see the murk rising." }
+      ]
+    },
+    "reinforce-the-seal": {
+      "passage": "Both palms press flat against the bronze bar. The enchantment flickers beneath your hands, weak but alive, like coals that need nothing more than a breath of fresh air to catch again. It sparks. An idea forms: pour molten bronze over the seal to carry the enchantment back into the binding. The thing below may not wait.",
+      "choices": [
+        { "label": "fetch the crucible", "nextNode": "pour-over-seal", "hint": "Sable arrives with the vessel, green bronze sloshing over the rim." },
+        { "label": "chant the old words", "nextNode": "pour-over-seal", "hint": "The bar warms under your palms and the letters begin to shimmer faintly." }
+      ]
+    },
+    "face-what-stirs": {
+      "passage": "A shape rises from the pit, slow and vast, pressing against the chamber walls like smoke filling a glass bottle. No face. No form you can name. But you feel its gaze the way you feel heat from an open forge. The Warden's tone is what keeps this thing contained. Without the bell, the seal is breaking.",
+      "choices": [
+        { "label": "sing the Warden's note", "nextNode": "sealed-below", "hint": "You open your throat and the note that comes out is not entirely yours." },
+        { "label": "run for the stairs", "nextNode": "unbound", "hint": "The shape surges forward as you turn, and the copper smell becomes a roar." }
+      ]
+    },
+    "pour-over-seal": {
+      "passage": "Sable and you pour the green bronze over the vault door in a slow, even sheet. The metal hisses against the iron and the enchantment flares bright enough to fill the tunnel, casting the bedrock walls in a wash of trembling green. Letters write themselves into the cooling seal. The pressure against your ears fades. Quiet, and contained.",
+      "choices": [
+        { "label": "seal the flagstones", "nextNode": "sealed-below", "hint": "You and Sable fit the stones back into place, and the floor holds." },
+        { "label": "recast the bell", "nextNode": "warden-reborn", "hint": "Enough enchanted bronze remains in the crucible for one more casting." }
+      ]
+    },
+    "warden-reborn": {
+      "passage": "The new Warden hangs in the tower at dawn, sharp against the gray sky. When the clapper swings for the first time, the tone rolls across Greyspire and into the valleys beyond, deep and pure and older than the cathedral beneath it. Sable stands beside you on the belfry platform, grinning. The town has its bell. The seal holds. The Warden sings again.",
+      "choices": [],
+      "ending": {
+        "title": "Warden Reborn",
+        "flavor": "The bell remembers what it is, and so does the town below.",
+        "action": "toll the Warden"
+      }
+    },
+    "silent-tower": {
+      "passage": "The bell hangs in the tower, bright and new, a masterwork of clean bronze without a single flaw, and when it rings, the tone is sweet and carries across the valley to the hills beyond. Tomas nods. The pigeons do not scatter. Something is missing from the sound, and only you and the prior hear the absence.",
+      "choices": [],
+      "ending": {
+        "title": "Silent Craft",
+        "flavor": "A perfect bell with an empty voice is still a bell worth ringing.",
+        "action": "pack your tools"
+      }
+    },
+    "sealed-below": {
+      "passage": "The flagstones fit back into place as if they belong there, and you mount the stairs with bronze under your fingernails and the sharp taste of copper still coating your tongue. Tomas meets you at the top. You tell him the seal holds. He closes his eyes. The bell can wait.",
+      "choices": [],
+      "ending": {
+        "title": "Deeper Foundations",
+        "flavor": "Some things are built not to be seen, only to hold.",
+        "action": "close the chamber"
+      }
+    },
+    "cracked-again": {
+      "passage": "The crack appears on the third ring, a hairline at first, then widening with each swing of the clapper until the sound drops from a clear tone to a groan that sends the pigeons screaming from the belfry. Sable looks away. Tomas sinks to his knees. The Warden is broken again, and this time you have no bronze left.",
+      "choices": [],
+      "ending": {
+        "title": "Fractured Note",
+        "flavor": "Bronze remembers every mistake, and this one has no second chance.",
+        "action": "leave the belfry"
+      }
+    },
+    "unbound": {
+      "passage": "The ground splits beneath the cathedral. A sound rises from the vault, lower than any bell, a vibration that loosens mortar and cracks the tower stairs. Sable grabs your arm and pulls you toward the door. Behind you, the pit opens wider. The copper smell floods every room. Greyspire's bell tower leans, groans, and the town below begins to run.",
+      "choices": [],
+      "ending": {
+        "title": "Loosed from Below",
+        "flavor": "The Warden's silence is louder than any bell can ring.",
+        "action": "flee the tower"
+      }
+    }
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "id": "c7d3a1f8-4b2e-4e9a-8f5c-6d0b7a3e2c1f",
+  "title": "Saltrock Rising",
+  "description": "A bell tolls three times in the cliff-side prison of Saltrock. The king tide is coming, and the lower cells will flood by midnight.",
+  "author": "AI",
+  "tags": ["escape"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-06-24",
+  "dayOfYear": "06-24",
+  "endingCount": 5,
+  "storyNumber": 83,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "A bell tolls somewhere above. Three rings, the king tide warning. Brackish water already seeps under your cell door, pooling around your boots. By midnight the lower block will be chest-deep. Your cellmate's bent pin sits under the straw, and the iron grate in the floor has rusted thin. Two ways out, if you move now.",
+      "choices": [
+        { "label": "pry the grate", "nextNode": "lower-cells", "hint": "Rust flakes off as you dig your fingers into the gap between bars." },
+        { "label": "pick the lock", "nextNode": "cell-block", "hint": "The pin bends twice before catching on something inside the mechanism." }
+      ]
+    },
+    "lower-cells": {
+      "passage": "The grate gives way and you drop into a flooded corridor beneath the cell block, landing hard in knee-deep brine that sloshes against crumbling walls. Ahead, a drain tunnel angles downward into blackness, carrying the tide's pull with it. A cracked stairwell behind you leads back up to the main block. The water rises fast.",
+      "choices": [
+        { "label": "squeeze forward", "nextNode": "drain-tunnel", "hint": "The tunnel narrows and brine laps at your chest as you push deeper." },
+        { "label": "turn back", "nextNode": "cell-block", "hint": "Each step up the broken stairwell pulls you clear of the rising water." }
+      ]
+    },
+    "cell-block": {
+      "passage": "The main corridor of the lower cell block stretches left and right beneath a single guttering torch that spits sparks onto damp flagstones. Empty cells line both sides, doors hanging open. To the left, a guard post marks the junction with the mess hall. Stairs spiral upward at the far end. A rat skitters past.",
+      "choices": [
+        { "label": "head left", "nextNode": "guard-post", "hint": "The guard post looks abandoned but a half-eaten meal sits on the desk." },
+        { "label": "climb the stairs", "nextNode": "upper-hall", "hint": "The spiral staircase groans under your weight as you ascend into dimness." },
+        { "label": "check the door", "nextNode": "mess-hall", "hint": "A warm draft carries the smell of old grease through the cracked doorway." }
+      ]
+    },
+    "drain-tunnel": {
+      "passage": "The tunnel narrows to a crawlspace carved into bare rock. Steep. Seawater rushes past your knees in a relentless current, tugging you toward whatever waits below. Rusted iron rungs bolted into the right wall lead up through a vertical shaft toward a faint glow. Ahead, the passage opens into something larger.",
+      "choices": [
+        { "label": "follow the current", "nextNode": "flooded-passage", "hint": "The roar grows louder as the tunnel widens and the ceiling drops even lower." },
+        { "label": "take the ladder", "nextNode": "kitchen-yard", "hint": "Your hands slip on the wet rungs but each step brings warmer air." }
+      ]
+    },
+    "guard-post": {
+      "passage": "An overturned stool and a half-eaten bowl of porridge sit on the desk beside a ring of iron keys that still sways on its nail. Through the north archway, the clatter of pots carries from the mess hall. The guard is gone. A locked gate to the east leads to the armory, its bolt half-drawn.",
+      "choices": [
+        { "label": "sneak past", "nextNode": "mess-hall", "hint": "Your bare feet make no noise on the flagstones as you cross the threshold." },
+        { "label": "grab the ring", "nextNode": "armory", "hint": "The keys clink together as you lift them free of the nail." }
+      ]
+    },
+    "mess-hall": {
+      "passage": "Long wooden tables fill the hall, scarred with knife marks and ringed with candle burns that have melted deep into the grain. A cooking hearth takes up the far wall, its chimney rising into dimness. Stale bread and a cold iron pot sit untouched. A narrow passage leads right toward the servants' quarters. Footsteps echo overhead.",
+      "choices": [
+        { "label": "search the hearth", "nextNode": "chimney", "hint": "Soot rains down as you lean into the fireplace and look straight up." },
+        { "label": "enter the pantry", "nextNode": "servant-corridor", "hint": "The passage smells of vinegar and dried fish hung from ceiling hooks." }
+      ]
+    },
+    "upper-hall": {
+      "passage": "The staircase opens into a corridor lined with officer quarters, each door hanging open on empty rooms that have not held a living soul in months. Wind presses through the arrow slits. At the far end, a heavy door bears the warden's seal in tarnished brass. A rope bridge to the left stretches toward the watchtower.",
+      "choices": [
+        { "label": "try the lock", "nextNode": "warden-quarters", "hint": "The tarnished seal cracks as you force the bolt with the heel of your hand." },
+        { "label": "cross the catwalk", "nextNode": "watchtower", "hint": "The rope bridge sways under every step and the wind pulls at your clothes." }
+      ]
+    },
+    "flooded-passage": {
+      "passage": "The drain opens into a wide chamber half-filled with churning seawater, foam spraying off the walls with each surge. The noise is deafening. A constant roar swallows every other sound as the current drags flotsam through a narrow channel toward a gap in the far wall. Above the waterline, a rough shelf of rock offers a handhold.",
+      "choices": [
+        { "label": "swim ahead", "nextNode": "tidal-cave", "hint": "The channel pulls you forward so fast your feet leave the bottom entirely." },
+        { "label": "pull yourself up", "nextNode": "kitchen-yard", "hint": "The shelf leads to a narrow crawlspace that angles upward, away from the flood." }
+      ]
+    },
+    "armory": {
+      "passage": "Spears and shortswords line the walls on wooden racks. Most rusted beyond use. A barrel of pitch sits in the corner beside a stack of moldy leather shields. Someone has scratched a crude map into the wall plaster with a nail, showing tunnels that do not appear on any official chart. A trapdoor hides beneath the lowest shelf.",
+      "choices": [
+        { "label": "arm yourself", "nextNode": "kitchen-yard", "hint": "The shortsword is dull but heavy enough to feel useful in your hands." },
+        { "label": "find the hatch", "nextNode": "tidal-cave", "hint": "The trapdoor opens onto a ladder that drops into the sound of rushing waves." }
+      ]
+    },
+    "chimney": {
+      "passage": "Soot coats every surface inside the hearth, and the chimney shaft rises straight up into a circle of grey sky far above. Iron brackets jut from the brickwork where a flue cover is missing, forming a rough ladder. Halfway up, a side vent opens into the outer wall. The bricks feel slick. Warm air pushes at your back from below.",
+      "choices": [
+        { "label": "scale the shaft", "nextNode": "rooftop", "hint": "Your arms burn as you pull yourself higher bracket by bracket toward open sky." },
+        { "label": "kick the vent", "nextNode": "outer-wall", "hint": "Rusted metal gives way and you tumble out onto a narrow ledge above the sea." }
+      ]
+    },
+    "servant-corridor": {
+      "passage": "A low-ceilinged passage runs between the kitchen and the servants' sleeping quarters, smelling of vinegar and dried herbs hung from the rafters. The corridor bends right toward a bolted gate. Moonlight leaks beneath it. Scratches on the bolt show someone works it open regularly. A side door to the left stands ajar, revealing a loading dock beyond.",
+      "choices": [
+        { "label": "slip outside", "nextNode": "kitchen-yard", "hint": "The gate bolt slides free with a grind and salt air hits your face." },
+        { "label": "duck through", "nextNode": "sea-dock", "hint": "The side door leads to a loading dock where two rowboats rest against pilings." }
+      ]
+    },
+    "warden-quarters": {
+      "passage": "The warden's study smells of tobacco and lamp oil, and charts cover every wall with tide tables and patrol routes that no one has updated since the evacuation. A brass key rests in the top drawer. Heavy. Behind a bookshelf, plaster crumbles from a gap in the wall where someone has started to dig.",
+      "choices": [
+        { "label": "inspect the desk", "nextNode": "main-corridor", "hint": "The key fits your palm like it belongs there, brass against warm skin." },
+        { "label": "move the shelf", "nextNode": "secret-passage", "hint": "The bookshelf scrapes across the floor and reveals a narrow stairway going down." }
+      ]
+    },
+    "watchtower": {
+      "passage": "Wind howls through the open top of the watchtower. The rope bridge still sways. A brazier stands loaded with dry tinder and pitch-soaked rags, everything needed for a rescue beacon that no one has lit in years. Over the parapet, crashing surf chews at the cliff a hundred feet below. A coil of rope hangs from the iron railing.",
+      "choices": [
+        { "label": "light the beacon", "nextNode": "ending-rescue", "hint": "The tinder catches and flame leaps skyward, painting the fog in amber and gold." },
+        { "label": "rappel down", "nextNode": "outer-wall", "hint": "You loop the rope around the railing and lower yourself over the edge." }
+      ]
+    },
+    "tidal-cave": {
+      "passage": "Saltwater floods the cavern in surges that rise higher with each wave, crashing against formations that jut from the ceiling like broken teeth. A narrow ridge runs along the right wall above the churning froth. Straight ahead, a submerged channel leads deeper under the cliff. Pitch black. The tide reaches your waist now and is still climbing.",
+      "choices": [
+        { "label": "wade the channel", "nextNode": "ending-drowned", "hint": "The current seizes your legs and drags you forward before you can change your mind." },
+        { "label": "walk the ridge", "nextNode": "ending-dawn", "hint": "Each step on the slick ridge demands your full attention as spray hits your face." }
+      ]
+    },
+    "kitchen-yard": {
+      "passage": "You emerge into a walled yard behind the kitchens, where salt wind whips through lines of drying laundry. The main gate stands across the yard, torchlit and guarded by two soldiers huddled around a barrel fire. To the right, a low sea wall overlooks a dock where a single rowboat bobs against its mooring line. Someone shouts inside the prison. Not much time.",
+      "choices": [
+        { "label": "rush the gate", "nextNode": "ending-caught", "hint": "You sprint across the open yard and the soldiers reach for their weapons immediately." },
+        { "label": "steal the rowboat", "nextNode": "sea-dock", "hint": "You vault the sea wall and drop onto the dock, landing hard on wet planks." }
+      ]
+    },
+    "rooftop": {
+      "passage": "Chimney smoke mingles with salt mist up here. Tiles slick with spray. Across a gap of ten feet, the outer wall runs along the cliff edge, its walkway patrolled by a single guard whose torch moves steadily away from you. Below, a knotted rope dangles from a gargoyle mount, reaching partway down the prison's outer face.",
+      "choices": [
+        { "label": "leap across", "nextNode": "outer-wall", "hint": "Your boots hit the walkway hard and you stumble but stay on your feet." },
+        { "label": "lower yourself down", "nextNode": "cliff-path", "hint": "The rope creaks against the gargoyle mount as your weight pulls it taut." }
+      ]
+    },
+    "outer-wall": {
+      "passage": "The walkway narrows to barely two feet wide, with nothing but a sheer drop to your left and the prison wall to your right. Wind tears at you. Fifty feet below, waves slam against jagged rocks in plumes of white spray. The guard's torch flickers at the far end, moving toward the gatehouse. A rusted ladder descends the cliff beside a drainage pipe.",
+      "choices": [
+        { "label": "descend the ladder", "nextNode": "cliff-path", "hint": "The rungs are rusted but hold your weight as you go over the edge." },
+        { "label": "drop into the pipe", "nextNode": "tidal-cave", "hint": "The drainage pipe is barely wide enough for your shoulders as you slide inside." }
+      ]
+    },
+    "main-corridor": {
+      "passage": "The brass key turns in the main corridor's gate with a satisfying click, and the iron bars swing open into a torch-lit passage leading to the front entrance. Two guards stand at the far end, arguing over a dice game spread across an overturned crate. They have not noticed you yet. The corridor offers alcoves on both sides, deep enough to hide in.",
+      "choices": [
+        { "label": "bluff the guards", "nextNode": "sea-dock", "hint": "They nod you past, but the front gate is chained shut from outside." },
+        { "label": "retreat to shadows", "nextNode": "kitchen-yard", "hint": "An alcove swallows you whole as a patrol passes inches from your hiding spot." }
+      ]
+    },
+    "secret-passage": {
+      "passage": "The gap behind the bookshelf opens into a stairway carved from living rock, spiraling downward. Each step is damp and the air smells of brine and rot. Halfway down, the stairs fork. To the left, a rusted grate covers a hole that opens onto the outer cliff wall with a view of churning surf below. To the right, the stairs keep descending into warmth.",
+      "choices": [
+        { "label": "push the grate", "nextNode": "outer-wall", "hint": "Rust crumbles as you shove the grate free and crawl out onto a narrow ledge." },
+        { "label": "go deeper", "nextNode": "tidal-cave", "hint": "The temperature drops as the stairway levels out into a broad cavern below." }
+      ]
+    },
+    "sea-dock": {
+      "passage": "The dock sits low against the cliff base, three wooden pilings driven into rock with a single rowboat tied between them. Waves slap the hull in a steady rhythm. The boat strains at its mooring with each surge, pulling toward open sea and the fog bank that swallows the horizon. The tide rises here too. Dock planks are already half-submerged.",
+      "choices": [
+        { "label": "untie the boat", "nextNode": "ending-boat", "hint": "The rope comes free in your hands and the current immediately grabs the hull." },
+        { "label": "brave the surf", "nextNode": "tidal-cave", "hint": "You wade past the dock into shallows where the cliff opens into a cavern." }
+      ]
+    },
+    "cliff-path": {
+      "passage": "The cliff face is a maze of handholds and crumbling ledges, with the sea boiling white far below. Your fingers ache. Salt spray coats every surface and each grip feels less certain than the last. Above, the prison looms like a dark crown against the sky. Below, a fissure in the rock opens into a cavern mouth where foam surges in and out.",
+      "choices": [
+        { "label": "keep climbing", "nextNode": "ending-dawn", "hint": "Muscle memory takes over as you haul yourself upward ledge by painful ledge." },
+        { "label": "jump to the cave", "nextNode": "tidal-cave", "hint": "You push off the cliff face and drop into the churning mouth of the cavern." }
+      ]
+    },
+    "ending-rescue": {
+      "passage": "Flame catches the oil-soaked rags and a column of fire leaps from the brazier, painting the fog in gold. Within minutes a signal horn answers from the sea. You stand at the parapet watching a patrol galley cut through the waves toward the prison dock. By dawn, the garrison arrives and Saltrock's iron gates open from the outside. You walk free.",
+      "choices": [],
+      "ending": {
+        "title": "Signal Fire",
+        "flavor": "Help comes to those who burn bright enough to be seen.",
+        "action": "light the signal"
+      }
+    },
+    "ending-drowned": {
+      "passage": "The channel sucks you under before you can draw a full breath. Saltwater fills your mouth and the current pins you against a submerged grating that bars the way to open sea. You claw at the iron but your strength fades with every heartbeat. The last thing you see is a faint shimmer of moonlight filtering down through the churn. Then nothing.",
+      "choices": [],
+      "ending": {
+        "title": "Beneath the Tide",
+        "flavor": "The sea does not bargain, and it does not wait.",
+        "action": "sink into darkness"
+      }
+    },
+    "ending-caught": {
+      "passage": "You sprint for the gate and a shout goes up before you cover half the distance. The guards knock over their dice game and close from both sides, spears leveled. Nowhere to run. They march you to a cell on the upper floor, above the tide line but locked tighter than before. Morning finds you staring at a new ceiling.",
+      "choices": [],
+      "ending": {
+        "title": "Back in Irons",
+        "flavor": "A higher cell, a heavier lock, and the same old walls.",
+        "action": "sit and wait"
+      }
+    },
+    "ending-boat": {
+      "passage": "The rope falls free and the rowboat lurches into the current. You grab the oars and pull hard toward open sea. Saltrock shrinks behind you, its cliff face swallowed by fog until nothing remains but waves under your hull and stars through gaps in the clouds. You row until your arms burn. The tide carries you the rest of the way.",
+      "choices": [],
+      "ending": {
+        "title": "Salt and Stars",
+        "flavor": "The sea takes you far from Saltrock, and you do not look back.",
+        "action": "row toward dawn"
+      }
+    },
+    "ending-dawn": {
+      "passage": "The ridge leads to a crevice that opens onto a narrow beach littered with driftwood and kelp. Waves lap at the sand and the first pale line of dawn touches the horizon to the east. You are free, but you are alone, soaked through, with nothing but the clothes on your back and a coastline you do not recognize. You start walking.",
+      "choices": [],
+      "ending": {
+        "title": "Uncharted Shore",
+        "flavor": "Freedom and nothing else stretch out before you in equal measure.",
+        "action": "walk into morning"
+      }
+    }
+  }
+}

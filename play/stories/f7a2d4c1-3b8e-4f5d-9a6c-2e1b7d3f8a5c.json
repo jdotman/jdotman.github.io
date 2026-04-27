@@ -1,0 +1,193 @@
+{
+  "id": "f7a2d4c1-3b8e-4f5d-9a6c-2e1b7d3f8a5c",
+  "title": "Scarred Laurels",
+  "description": "A border-town arena hosts its annual tournament, but this year the Laurel Crown carries a weight no champion expects.",
+  "author": "AI",
+  "tags": ["competition", "sacrifice"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-26",
+  "dayOfYear": "06-29",
+  "endingCount": 5,
+  "storyNumber": 88,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Banners snap above the arena town of Fenmark - crimson and bone-white, the colors of the Laurel Crown tournament. Fighters pack the gateway, sizing each other up with sharp eyes. A clerk shouts names from a parchment near the registration table. The air tastes like iron. Across the road, firelight pulses inside a low tavern where veterans mutter over cheap ale.",
+      "choices": [
+        { "label": "approach the clerk", "nextNode": "registration-yard", "hint": "The clerk squints at you, tapping the parchment with a stained quill." },
+        { "label": "enter the tavern", "nextNode": "tavern-corner", "hint": "Smoke and noise roll through the cracked doorway as you push inside." }
+      ]
+    },
+    "registration-yard": {
+      "passage": "The clerk scratches your name onto a stained register and hands you a numbered cloth. Thirty-two fighters this year. He taps a bracket board nailed to the post - your first draw is someone called Harsk, a stocky woman with scars across both forearms. She stands ten paces away, watching you without blinking.",
+      "choices": [
+        { "label": "speak to Harsk", "nextNode": "sparring-ring", "hint": "Her eyes narrow as you step forward, but she holds her ground." },
+        { "label": "study the bracket", "nextNode": "bracket-post", "hint": "The ink is fresh but something about the pairings looks wrong." }
+      ]
+    },
+    "tavern-corner": {
+      "passage": "Smoke hangs thick. A gray-haired man in a worn cloak sits alone at the far table, nursing a drink while gamblers shout odds across the room. He catches your eye and gestures to the empty seat beside him. A scar runs from his jaw to his collar - not a kitchen wound. Beside the bar, a sharp-eyed woman rattles dice and smirks.",
+      "choices": [
+        { "label": "sit with the stranger", "nextNode": "veterans-tale", "hint": "He pours you a drink without asking if you want one." },
+        { "label": "talk to the gambler", "nextNode": "gambler-odds", "hint": "She slides a parchment of odds across the sticky counter toward you." }
+      ]
+    },
+    "sparring-ring": {
+      "passage": "Harsk meets you in the practice ring behind the stables, a circle of packed dirt fenced by crooked posts where nobody bothers to watch. She fights low and fast. After three passes she steps back, breathing hard. 'You move better than your bracket seed,' she says. 'Someone rigged the draw. Watch the balcony.' She nods toward the upper terrace.",
+      "choices": [
+        { "label": "investigate the balcony", "nextNode": "bracket-post", "hint": "Her expression hardens as you glance up toward the railing above." },
+        { "label": "head to the pit", "nextNode": "first-bout", "hint": "A horn blasts below, calling the first pairs down to fight." }
+      ]
+    },
+    "bracket-post": {
+      "passage": "The bracket board lists thirty-two names in paired columns, and your side of the draw is stacked with three former champions clustered in the same quarter. The other half holds unknowns and first-timers. Someone arranged this. Above the board, a balcony overlooks the yard where a figure in a black surcoat leans on the rail, watching the fighters with arms folded.",
+      "choices": [
+        { "label": "confront the figure", "nextNode": "lord-balcony", "hint": "The staircase to the balcony creaks under every step you take." },
+        { "label": "go to the pit", "nextNode": "first-bout", "hint": "Whatever this means, the fights are starting with or without you." }
+      ]
+    },
+    "veterans-tale": {
+      "passage": "The man calls himself Dorn. He tells you he won the Laurel Crown twenty years back and accepted a mission from the lord of Fenmark - clear a nest of raiders from Greymarch Pass. He says half his company never returned. 'The crown is bait,' he mutters, gripping his cup. 'They need a blade they can spend. Every year, same trick.'",
+      "choices": [
+        { "label": "ask about the lord", "nextNode": "lord-balcony", "hint": "Dorn points toward the balcony without looking up from his ale." },
+        { "label": "ignore the warning", "nextNode": "first-bout", "hint": "The horn echoes through the tavern walls. Fights are starting." }
+      ]
+    },
+    "gambler-odds": {
+      "passage": "The gambler's name is Brin. She runs the book on every bout. For a silver coin she lays out the full odds board - your name sits near the bottom, a long shot. Brin taps a name circled in red near the top: Voss, the lord's guard. 'He never loses,' she says. 'Because nobody is allowed to beat him.'",
+      "choices": [
+        { "label": "bet against Voss", "nextNode": "first-bout", "hint": "Brin raises an eyebrow and takes your coin without a word." },
+        { "label": "find the lord's man", "nextNode": "lord-balcony", "hint": "She nods toward the balcony where a figure watches the yard." }
+      ]
+    },
+    "lord-balcony": {
+      "passage": "The balcony belongs to Lord Fenmark's steward, a lean man named Calder who stands with arms crossed, surveying the fighters below. When you climb the steps he does not look surprised. 'I know why you are here,' he says. 'The bracket favors Voss. That is by design. But I can shift your name to the easier side - for a price.'",
+      "choices": [
+        { "label": "hear the price", "nextNode": "calder-deal", "hint": "His smile is thin and ready, as if rehearsed for this moment." },
+        { "label": "refuse and leave", "nextNode": "first-bout", "hint": "You turn your back on the balcony and walk toward the pit." }
+      ]
+    },
+    "calder-deal": {
+      "passage": "Calder lays out the terms. If you reach the final against Voss, you throw the match and walk away with a heavy purse and no broken bones. 'Lose convincingly,' he says. 'Voss keeps his record. The lord stays pleased. In return, I move your name to the easier bracket.' He extends a hand, and below the balcony the horn blares for the first bout.",
+      "choices": [
+        { "label": "shake his hand", "nextNode": "easy-bouts", "hint": "His grip is firm. The bargain is sealed before you can reconsider." },
+        { "label": "walk away", "nextNode": "first-bout", "hint": "The look on his face says this was not the expected answer." }
+      ]
+    },
+    "first-bout": {
+      "passage": "The pit is a circle of packed earth ringed by timber walls. Your opponent, a tall fighter with a chipped blade, charges hard before the horn stops echoing and swings wild at your head. Three exchanges and he overextends, leaving his right flank open. The crowd stomps above. Sweat drips from your chin as you circle for position.",
+      "choices": [
+        { "label": "strike the opening", "nextNode": "second-round", "hint": "Your blade finds the gap before he recovers his guard." },
+        { "label": "hold back", "nextNode": "healer-tent", "hint": "He reads your pause and swings hard at your shoulder." }
+      ]
+    },
+    "easy-bouts": {
+      "passage": "True to Calder's word, the easier bracket is kind - two bouts against journeymen with more nerve than skill, and coin stacking behind Brin's table after each win. Evening falls. Harsk finds you at the water trough, one fight from the final. 'I saw the bracket change,' she says. 'Calder owns your sword now.' Campfires flicker beyond the stables where the remaining fighters gather.",
+      "choices": [
+        { "label": "meet Calder", "nextNode": "deal-camp", "hint": "The torchlit corridor to the balcony stairs feels longer this time." },
+        { "label": "join the fighters", "nextNode": "night-camp", "hint": "Harsk watches you walk toward the campfires without another word." }
+      ]
+    },
+    "healer-tent": {
+      "passage": "Canvas walls muffle the roar from the pit. The cut is shallow. A healer wraps your shoulder where the blade caught you, but the muscle burns with each movement and the bandage is already red. Through the tent flap, fighters leave on stretchers. 'Still think the crown is worth bleeding for?' Dorn asks from the doorway. Night is falling and the campfires are lit.",
+      "choices": [
+        { "label": "return to the fights", "nextNode": "second-round", "hint": "The healer shakes her head but does not stop you leaving." },
+        { "label": "rest until morning", "nextNode": "night-camp", "hint": "Dorn walks with you toward the fires, saying nothing more." }
+      ]
+    },
+    "second-round": {
+      "passage": "Your next opponent fights smarter - a quick woman with a buckler who picks at your guard from range while the spectators lean forward, sensing a real contest. She feints left, then drives her shield edge toward your ribs. You catch it on your blade and force her back. One clean strike will end it. The horn-master watches from the rail, hand raised.",
+      "choices": [
+        { "label": "disarm her", "nextNode": "night-camp", "hint": "Metal scrapes as you twist the buckler free from her grip." },
+        { "label": "outlast her", "nextNode": "night-camp", "hint": "Patience wins. She tires first, and her guard drops just enough." }
+      ]
+    },
+    "deal-camp": {
+      "passage": "Calder waits on the balcony with two cups of wine, and the semifinal proves no contest - a green recruit who crumbles before you land your third strike. Voss stands at his shoulder now, arms folded. The final is set for midday. 'Remember our terms,' he says. 'Take the fall in round two. Make it look real.' Voss cracks his knuckles. The sound carries.",
+      "choices": [
+        { "label": "honor the deal", "nextNode": "finals-fixed", "hint": "A bargain is a bargain, even one that tastes bitter." },
+        { "label": "break the deal", "nextNode": "finals-arena", "hint": "Something in Voss's eyes tells you he expects exactly this." }
+      ]
+    },
+    "night-camp": {
+      "passage": "Campfires dot the yard behind the arena, and fighters nurse bruises and trade stories while the smell of roasting meat drifts between the tents. Tomorrow brings the next bout. Dorn sits apart from the others on an upturned barrel, staring into the flames. The bracket board has been updated. Only four names remain.",
+      "choices": [
+        { "label": "seek out Dorn", "nextNode": "dorn-farewell", "hint": "He does not look up from the fire as you sit beside him." },
+        { "label": "sleep and prepare", "nextNode": "semifinal", "hint": "Morning comes fast. The horn pulls you from a restless sleep." }
+      ]
+    },
+    "dorn-farewell": {
+      "passage": "Dorn speaks without looking up. He tells you Voss has crippled two fighters in past finals - broken arms, shattered knees, not accidents but messages from a lord who wants a champion people fear. 'You can still walk away,' he says. 'No shame in keeping your legs.' The road south is visible beyond the gate, lit by a low moon.",
+      "choices": [
+        { "label": "stay in Fenmark", "nextNode": "semifinal", "hint": "Dorn nods once, slow and heavy, and says nothing more." },
+        { "label": "follow the road", "nextNode": "quiet-road-ending", "hint": "The road is quiet. Your footsteps are the only sound." }
+      ]
+    },
+    "semifinal": {
+      "passage": "Morning heat bakes the arena floor. Your opponent is a bearded veteran named Kolm who has won this tournament twice and shows no sign of treating you gently. He salutes with his blade. The spectators stamp their feet in the timber stands. Across the bracket, Voss leans against the pit wall with arms folded, watching your every move. This bout decides who faces him.",
+      "choices": [
+        { "label": "overpower Kolm", "nextNode": "finals-arena", "hint": "Kolm staggers back, surprised by the force behind your swing." },
+        { "label": "wear him down", "nextNode": "finals-arena", "hint": "Patience costs sweat, but Kolm slows first and drops his guard." }
+      ]
+    },
+    "finals-arena": {
+      "passage": "Noon sun hammers the pit. Voss enters from the far gate, a head taller than any fighter here, his blade polished to a mirror finish. The stands overflow. Lord Fenmark himself watches from the high balcony. Calder stands at his shoulder, expressionless. Voss rolls his neck and sets his stance. This is the man who breaks bones on purpose. The horn waits for your signal.",
+      "choices": [
+        { "label": "challenge Voss", "nextNode": "champion-ending", "hint": "You step forward and raise your blade. The horn screams." },
+        { "label": "expose the rigging", "nextNode": "truth-ending", "hint": "The whole town is watching. This is the moment to speak." }
+      ]
+    },
+    "finals-fixed": {
+      "passage": "Voss waits in the pit, blade resting on his shoulder. He knows the arrangement. The stands are full and the betting stalls are loud with silver. Calder watches from the balcony with his arms behind his back, a thin smile visible even from the ground. Voss nods at you - a brief signal. Second round, take the fall. The purse money is already counted.",
+      "choices": [
+        { "label": "take the fall", "nextNode": "hollow-ending", "hint": "You lower your guard and wait for the blow you agreed to." },
+        { "label": "defy Voss", "nextNode": "defiance-ending", "hint": "Something in you refuses to bend. You raise your blade." }
+      ]
+    },
+    "quiet-road-ending": {
+      "passage": "The road stretches south under a sky full of fading stars. Fenmark's torches grow small behind you. Your shoulder aches, your purse is lighter than when you arrived, and no crown sits on your head. But your legs work. Your hands are whole. Somewhere ahead, another town waits with its own fights and its own prizes - ones that come without a leash.",
+      "choices": [],
+      "ending": {
+        "title": "Walking Free",
+        "flavor": "Not every fight worth winning happens inside an arena.",
+        "action": "walk the open road"
+      }
+    },
+    "champion-ending": {
+      "passage": "Voss hits the dirt. The arena erupts. You stand over him with a blade at his throat while the spectators chant your name and Lord Fenmark descends from the balcony. He places the Laurel Crown on your head himself. The silver leaves feel heavier than you expected. Calder is nowhere to be seen. Fenmark has a real champion - one nobody has to buy.",
+      "choices": [],
+      "ending": {
+        "title": "Silver Leaves",
+        "flavor": "The crown fits, and for once, nobody else decided that.",
+        "action": "raise the laurel crown"
+      }
+    },
+    "truth-ending": {
+      "passage": "You lower your blade and face the stands. Your voice carries across the arena as you name every rigged bracket, every paid loss, every fighter Voss has crippled on Calder's orders. The steward's face drains of color. The spectators go quiet, then furious. Lord Fenmark signals his guards, but the fighters below the balcony are already moving toward the stairs.",
+      "choices": [],
+      "ending": {
+        "title": "Broken Brackets",
+        "flavor": "The crown stays unclaimed, but the truth wears no leash.",
+        "action": "speak the truth aloud"
+      }
+    },
+    "hollow-ending": {
+      "passage": "You take the hit in round two and let yourself drop. Voss stands over you, fist raised, and the stands erupt for a champion who has never earned a single honest win. Calder meets you beneath the stands afterward and presses a heavy coin pouch into your hands. 'Smart choice,' he says. The silver weighs nothing against the pit in your chest.",
+      "choices": [],
+      "ending": {
+        "title": "Paid Dirt",
+        "flavor": "The coin spends, but the taste never quite leaves your mouth.",
+        "action": "pocket the silver"
+      }
+    },
+    "defiance-ending": {
+      "passage": "Steel catches Voss across the jaw. He stumbles. He falls. The arena goes wild, but Calder's face on the balcony tells you everything, and before you can lift the crown two of the lord's guards step into the pit with hands on their hilts. 'You owe a debt,' one says. The cheering fades. Victory tastes like iron and trouble.",
+      "choices": [],
+      "ending": {
+        "title": "Bitter Crown",
+        "flavor": "You won the fight, but the fight is not over.",
+        "action": "face the guards alone"
+      }
+    }
+  }
+}

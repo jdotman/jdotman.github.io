@@ -1,0 +1,238 @@
+{
+  "id": "4a7c2e9f-8b31-4d56-9e0a-6f2c8d1b5e37",
+  "title": "Holdfast",
+  "description": "A warlord's army surrounds the last bridge fortress on the Ashwater, and you arrive just as the road closes behind you.",
+  "author": "AI",
+  "tags": ["siege"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-25",
+  "dayOfYear": "06-26",
+  "endingCount": 5,
+  "storyNumber": 85,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "You stand at the gate of Holdfast, a squat fortress straddling the only bridge across the Ashwater. Dust rises from the far bank where a warlord's army digs trenches, raises timber towers, and rolls heavy siege engines toward the river crossing. The last supply wagon sits behind you. Three corridors branch into the keep.",
+      "choices": [
+        { "label": "climb the outer wall", "nextNode": "outer-wall", "hint": "Worn steps spiral upward through a narrow gap in the masonry." },
+        { "label": "enter the storehouse", "nextNode": "storehouse", "hint": "The heavy door scrapes across the flagstones as you push through." },
+        { "label": "find the command post", "nextNode": "command-post", "hint": "A guard points you toward a low door at the end of the hall." }
+      ]
+    },
+    "outer-wall": {
+      "passage": "Wind pulls at your cloak on top of the curtain wall. The river churns far below, brown and fast, and across it siege engines creep forward on wooden rollers, each one taller than a barn door. A catapult platform waits to the north, its crew hauling stones into the sling. The watchtower looms south.",
+      "choices": [
+        { "label": "cross to the catapult", "nextNode": "catapult-deck", "hint": "The wooden walkway creaks under your weight as you move along the wall." },
+        { "label": "scale the watchtower", "nextNode": "watchtower", "hint": "Iron rungs bolted into the wall lead up into the wind." }
+      ]
+    },
+    "storehouse": {
+      "passage": "Crates and barrels fill the storehouse from wall to wall, and sacks of grain lean against each other in crooked stacks that nearly reach the ceiling. A woman tallies supplies on a slate, shaking her head with each mark. Half the food is gone. Near the back, a weapon rack holds rusted blades and a trapdoor hides beneath empty sacks.",
+      "choices": [
+        { "label": "grab a blade", "nextNode": "weapon-rack", "hint": "The rusty steel feels brittle in your hand, but it is better than nothing." },
+        { "label": "open the trapdoor", "nextNode": "grain-cellar", "hint": "Damp air rises through the gap as you pull the wooden panel aside." }
+      ]
+    },
+    "command-post": {
+      "passage": "The command post is a low room behind a slit window. Commander Voss leans over a table strewn with maps, one arm bound in bloody cloth, and she looks up as you enter. 'Another pair of hands.' A cot in the corner holds a wounded soldier, pale and barely breathing. The air smells of sweat and iron.",
+      "choices": [
+        { "label": "study the war table", "nextNode": "war-table", "hint": "The maps are covered in marks and pins, each one representing a hard choice." },
+        { "label": "check the infirmary", "nextNode": "infirmary", "hint": "The curtain is stiff with dried blood, and it resists as you push." }
+      ]
+    },
+    "catapult-deck": {
+      "passage": "A heavy catapult squats on the platform with its arm cocked and a rough-cut boulder resting in the sling, ready to fire at the first target you choose. Grel, the crew chief, wipes soot from his face and points across the river. A siege tower inches toward the bridge. The yard below bustles with runners.",
+      "choices": [
+        { "label": "aim at the tower", "nextNode": "aim-tower", "hint": "Grel nods and begins cranking the arm toward the tall frame." },
+        { "label": "descend to the yard", "nextNode": "courtyard", "hint": "Steps worn smooth by boots lead down into the noise below." }
+      ]
+    },
+    "watchtower": {
+      "passage": "The watchtower rises above the rest of the keep, its upper platform open to the wind. From here you see the full spread of the enemy camp, cook fires dotting the far bank like fallen stars. A brass mirror hangs from a hook beside a stack of dry beacon wood. Smoke curls from somewhere below.",
+      "choices": [
+        { "label": "light the beacon", "nextNode": "beacon-platform", "hint": "The kindling catches fast and a curl of flame licks the dry timber." },
+        { "label": "survey the grounds", "nextNode": "courtyard", "hint": "Your boots echo on the spiral steps as you wind back down." }
+      ]
+    },
+    "grain-cellar": {
+      "passage": "Cold air hits your face. Below the storehouse, grain sacks line the walls and some have split, spilling seed and husks across the wet floor. A narrow hole in the far wall opens into a passage carved through packed earth. The smell of damp soil is heavy enough to taste. Someone means for this route to stay hidden.",
+      "choices": [
+        { "label": "crawl into the passage", "nextNode": "tunnel-mouth", "hint": "Your elbows scrape packed dirt as you squeeze into the narrow gap." },
+        { "label": "return to the yard", "nextNode": "courtyard", "hint": "You pull yourself up through the trapdoor and into the noise above." }
+      ]
+    },
+    "weapon-rack": {
+      "passage": "Rust clings to every blade on the rack. Swords, axes, and a few spears lean against the storehouse wall, none of them sharp enough to shave with. A row of clay pots sits nearby, sealed with wax and marked with a flame symbol. Lamp oil. Enough to fill a dozen buckets. The courtyard door stands propped open above.",
+      "choices": [
+        { "label": "pour lamp oil", "nextNode": "oil-casks", "hint": "The thick liquid smells sharp and sloshes against the sides of each pot." },
+        { "label": "haul blades upstairs", "nextNode": "courtyard", "hint": "The swords clank against each other as you carry them up the steps." }
+      ]
+    },
+    "war-table": {
+      "passage": "Maps cover the table, pinned at the corners with daggers. Commander Voss traces a line along the river with her good hand and taps a red mark at the enemy camp. 'We hold until the Seventh Regiment reaches us, or we do not hold at all.' She pulls two sealed letters from her belt. One bears a white ribbon.",
+      "choices": [
+        { "label": "send the envoy letter", "nextNode": "send-envoy", "hint": "Voss holds up the ribbon-sealed letter and waits for you to take it." },
+        { "label": "propose a night sortie", "nextNode": "plan-sortie", "hint": "The wounded scout in the infirmary lifts his head when he hears your plan." }
+      ]
+    },
+    "infirmary": {
+      "passage": "Cots everywhere. A healer named Maren wraps a soldier's leg with strips of linen, her hands moving fast while the smell of boiled herbs and copper hangs in every breath you take. Three of the wounded sit upright, staring at nothing. A scout with a bandaged eye grabs your sleeve. 'I know where their line is thin.'",
+      "choices": [
+        { "label": "tend the wounded", "nextNode": "courtyard", "hint": "Maren nods thanks and sends you to the yard when the work is done." },
+        { "label": "speak to the scout", "nextNode": "plan-sortie", "hint": "The man pulls himself upright on the cot with his good arm." }
+      ]
+    },
+    "courtyard": {
+      "passage": "The courtyard sits at the heart of Holdfast, hemmed in by walls on every side, and soldiers drag furniture from the barracks to stack against the inner gate. A sergeant shouts from atop a barrel. Beyond the growing barricade, the sally gate stands bolted shut. A torn white banner leans against the well. Tension fills the air like smoke.",
+      "choices": [
+        { "label": "rally at the barricade", "nextNode": "barricade", "hint": "Soldiers shove a broken table into the pile as you push through." },
+        { "label": "push through the sally gate", "nextNode": "sally-gate", "hint": "Iron bolts grind as you help drag the heavy door open a crack." },
+        { "label": "raise the white banner", "nextNode": "parley-flag", "hint": "The torn cloth catches the wind as you lift it from the well." }
+      ]
+    },
+    "aim-tower": {
+      "passage": "You crank the catapult arm toward the siege tower. Grel steadies the frame as the whole platform groans. Across the river, the tower lurches forward on its rollers, armored in wet hides that steam in the morning heat. Soldiers crowd its base. Below, defenders stack debris at the inner gate. A crack in the east wall grows with each ram strike.",
+      "choices": [
+        { "label": "rush to the barricade", "nextNode": "barricade", "hint": "The catapult stone flies and you sprint down the platform steps behind it." },
+        { "label": "cover the breach", "nextNode": "breach", "hint": "A deep crack runs through the east wall and figures swarm toward it." }
+      ]
+    },
+    "beacon-platform": {
+      "passage": "Flame leaps from the beacon pile and races up through dry timber until the platform glows orange. Heat presses against your skin. From this height, you see the full spread of the enemy camp, cook fires dotting the far bank like fallen stars. Below, the sally gate stands ready at the south wall. If the Seventh Regiment sees the fire, help may come.",
+      "choices": [
+        { "label": "watch for a signal", "nextNode": "breach", "hint": "Minutes pass with no reply, and then the east wall groans and cracks." },
+        { "label": "signal the sally gate", "nextNode": "sally-gate", "hint": "You angle the brass mirror toward the courtyard and flash three bursts." }
+      ]
+    },
+    "send-envoy": {
+      "passage": "Voss hands you the ribbon-sealed letter and a white flag on a pole, and she nods toward the envoy gate at the south end of the courtyard, barely wide enough for one rider. Beyond it, the road drops to the river ford where enemy sentries pace the muddy bank. Voss holds your gaze. 'Come back alive. The terms are fair, but Kern may not be.'",
+      "choices": [
+        { "label": "present the terms", "nextNode": "parley-flag", "hint": "The white flag snaps in the wind as you ride toward the enemy line." },
+        { "label": "carry orders below", "nextNode": "courtyard", "hint": "You tuck the second letter into your belt and head for the stairs." }
+      ]
+    },
+    "plan-sortie": {
+      "passage": "The scout's map shows a gap in the enemy line where the river bends east, wide enough for a team of six to slip through after midnight and circle behind the camp. He taps the mark with a shaking finger. 'Their wagons sit right here. Burn them and the siege starves.' His good eye is steady.",
+      "choices": [
+        { "label": "lead the strike team", "nextNode": "night-plan", "hint": "Six volunteers step forward before you finish asking for names." },
+        { "label": "gather in the yard", "nextNode": "courtyard", "hint": "The squad forms up near the well, adjusting straps and checking blades." }
+      ]
+    },
+    "barricade": {
+      "passage": "Broken tables, bed frames, and grain barrels form a jagged wall across the courtyard, chest high and growing taller with each load the soldiers carry. Gaps still show between the debris. Through them, you see the inner gate, its iron bolts straining as something heavy pushes from the other side. Oil would seal those gaps. The tunnel below might offer a way out.",
+      "choices": [
+        { "label": "fetch the oil casks", "nextNode": "oil-casks", "hint": "The clay pots are heavier than they look, and the wax seals crack." },
+        { "label": "fall back to the tunnel", "nextNode": "tunnel-mouth", "hint": "A soldier lifts the cellar hatch and waves you through with a grim nod." }
+      ]
+    },
+    "sally-gate": {
+      "passage": "The sally gate is a narrow door set into the south wall, built for quick raids and quiet escapes. Iron bars hold it shut. Beyond the door, you hear boots crunching on gravel and the clatter of weapons being stacked. The enemy line is close enough to smell their cook smoke. A squad of volunteers waits nearby, armed and grim.",
+      "choices": [
+        { "label": "charge with the sortie", "nextNode": "night-plan", "hint": "The gate swings open and the squad slips out into the evening gloom." },
+        { "label": "slip into the cellar", "nextNode": "tunnel-mouth", "hint": "The hatch is still open, and the tunnel air is cool on your face." }
+      ]
+    },
+    "oil-casks": {
+      "passage": "Clay pots of lamp oil line the gatehouse floor, each sealed with wax and warm to the touch. The arch beyond frames the bridge where enemy soldiers mass with ladders and grappling hooks, their shouts bouncing off the walls. A single torch flickers. One spark in the right place and this whole corridor burns. The breach in the east wall gapes wide.",
+      "choices": [
+        { "label": "ignite the corridor", "nextNode": "gatehouse-fire", "hint": "A single spark hits the oil and the floor erupts in a sheet of flame." },
+        { "label": "drag casks to the breach", "nextNode": "breach", "hint": "The clay pots scrape against the floor as you haul them toward the crack." }
+      ]
+    },
+    "tunnel-mouth": {
+      "passage": "Roots scrape your shoulders as you press through the narrow tunnel. The passage curves downhill, damp and tight, and the sound of the battle above grows muffled behind packed earth. After fifty paces, gray daylight appears ahead. The tunnel opens onto a gully choked with ferns, hidden from the enemy camp by a ridge of broken rock. Behind you, the fortress shakes.",
+      "choices": [
+        { "label": "follow the tunnel out", "nextNode": "gully-ridge", "hint": "Gray daylight grows brighter with each step as the passage slopes upward." },
+        { "label": "turn back to fight", "nextNode": "gatehouse-fire", "hint": "The sounds of battle pull you back through the narrow passage toward the keep." }
+      ]
+    },
+    "parley-flag": {
+      "passage": "You ride under a white flag toward the enemy camp, the horse beneath you stamping and snorting at the smell of smoke and turned earth while sentries watch from both sides of the road. Spears everywhere. The warlord's crimson banner rises above a cluster of tents near the river bend. A gully cuts east along the ridge, half-hidden by scrub.",
+      "choices": [
+        { "label": "ride to the warlord", "nextNode": "warlord-tent", "hint": "Guards fall into step behind your horse as you enter the camp." },
+        { "label": "scout the gully", "nextNode": "gully-ridge", "hint": "A narrow track leads east through the scrub toward a ridge of broken rock." }
+      ]
+    },
+    "night-plan": {
+      "passage": "Midnight presses close. Six volunteers crouch in the shadow of the sally gate, blades drawn and faces smeared with ash. The plan is simple: follow the river east, cut through the gully, and reach the enemy camp before the watch changes. The warlord's tent glows with lantern light at the center. A frontal strike or a quiet approach. Both carry risk.",
+      "choices": [
+        { "label": "strike through the gully", "nextNode": "gully-ridge", "hint": "The mud is soft underfoot as the team moves in single file." },
+        { "label": "circle to the tent", "nextNode": "warlord-tent", "hint": "The warlord's silhouette moves behind the canvas, lit by a single lantern." }
+      ]
+    },
+    "breach": {
+      "passage": "Smoke pours through a ragged hole in the east wall where a battering ram has punched clean through the stone, and enemy soldiers scramble over the rubble on the other side, torches cutting bright arcs. Defenders fall back in loose groups, some toward the gatehouse, others toward the cellar stairs. The tunnel below still offers a way out. The gully ridge might too.",
+      "choices": [
+        { "label": "defend the gatehouse", "nextNode": "gatehouse-fire", "hint": "Flames already lick at the oil on the gatehouse floor as you arrive." },
+        { "label": "retreat to the tunnel", "nextNode": "tunnel-mouth", "hint": "The cellar hatch is still propped open and the air below smells of earth." },
+        { "label": "escape through the gully", "nextNode": "gully-ridge", "hint": "Fern fronds brush your arms as you scramble up the hillside toward daylight." }
+      ]
+    },
+    "gatehouse-fire": {
+      "passage": "Fire licks along the floor of the gatehouse as the first wave of enemy soldiers rushes through the arch. Screams echo off the walls. The flames climb fast, feeding on lamp oil that coats every surface, and black smoke chokes the passage tight. Across the burning corridor, more soldiers hesitate at the threshold. The siege tower beyond the bridge begins to list.",
+      "choices": [
+        { "label": "hurl pitch at the tower", "nextNode": "ending-bombardier", "hint": "The clay pot shatters against the siege tower's hide and the flames spread fast." },
+        { "label": "brace for the charge", "nextNode": "ending-last-stand", "hint": "You plant your feet on the hot flagstone and grip your blade with both hands." }
+      ]
+    },
+    "gully-ridge": {
+      "passage": "Fern fronds brush your arms as you crouch at the top of the gully ridge. Below, the fortress burns. Smoke rises from the gatehouse and the east wall, and the sound of fighting carries on the wind like a distant storm. The tree line begins thirty paces north. Behind you, the gully leads back toward the tunnel and the keep. Choose now.",
+      "choices": [
+        { "label": "sprint for the trees", "nextNode": "ending-escape", "hint": "Your lungs burn and branches scratch your arms, but the forest swallows you whole." },
+        { "label": "stand at the ridge", "nextNode": "ending-last-stand", "hint": "The high ground gives you a view of every soldier climbing toward you." }
+      ]
+    },
+    "warlord-tent": {
+      "passage": "Kern sits behind a field desk, broader than any two of his guards. Scars line his jaw and his hands rest flat on the wood like a man used to keeping still before he strikes. A map of Holdfast is pinned to the canvas wall behind him. He studies you without blinking. 'You carry terms, or you carry a blade. Which is it?'",
+      "choices": [
+        { "label": "offer the bridge", "nextNode": "ending-terms", "hint": "You lay the letter on his desk and meet his eyes without flinching." },
+        { "label": "demand single combat", "nextNode": "ending-raid", "hint": "Kern rises from his chair and draws a sword longer than your arm." }
+      ]
+    },
+    "ending-bombardier": {
+      "passage": "The oil catches and the fire spreads along the gatehouse arch and out across the bridge, racing through pitch and timber until the siege tower erupts in a column of orange flame. Enemy soldiers scatter from the bridge, dropping ladders and shields as they run. Holdfast still stands. Smoke rises in a straight black line against the morning sky.",
+      "choices": [],
+      "ending": {
+        "title": "Burning Siege",
+        "flavor": "The river carries the ashes of an army that should have stayed home.",
+        "action": "watch them burn"
+      }
+    },
+    "ending-last-stand": {
+      "passage": "Steel rings on steel as you hold your ground against the wave. One by one, the enemy fighters push forward, and one by one they fall back, bleeding and stunned by the sheer ferocity of your defense. Hours pass. Dawn breaks gray and quiet over the river, and when the mist clears, the far bank is empty. They are gone.",
+      "choices": [],
+      "ending": {
+        "title": "Broken but Holding",
+        "flavor": "The wall falls, but the people behind it do not.",
+        "action": "lower your blade"
+      }
+    },
+    "ending-escape": {
+      "passage": "Branches whip your face as you run north through the tree line, the sounds of the siege fading behind you with every stride. The forest thickens and the ground rises until you reach a deer trail winding through birch and oak. Behind you, smoke marks Holdfast against the sky. You carry nothing but your life. For now, that is enough.",
+      "choices": [],
+      "ending": {
+        "title": "Through the Ferns",
+        "flavor": "Not every battle ends with a sword in your hand.",
+        "action": "keep running north"
+      }
+    },
+    "ending-terms": {
+      "passage": "Kern reads the letter, folds it once, and sets it on his desk. 'The bridge for the lives,' he says. 'Fair enough.' By sunrise, the gates of Holdfast open and the garrison walks free, carrying their wounded on stretched canvas. The warlord's banner rises above the keep. You watch it snap in the wind, knowing every life inside is breathing.",
+      "choices": [],
+      "ending": {
+        "title": "Price of Truce",
+        "flavor": "Peace costs something, and today you pay with a fortress.",
+        "action": "sign the accord"
+      }
+    },
+    "ending-raid": {
+      "passage": "The warlord draws his sword, but you are faster. Steel meets steel once, twice, and on the third blow his blade skids from his grip and clatters across the tent floor. Kern drops to one knee. Outside, fires bloom among the supply wagons as your team cuts through the camp. By dawn, the siege line crumbles. Holdfast stands.",
+      "choices": [],
+      "ending": {
+        "title": "Broken Camp",
+        "flavor": "Kern falls, and the army scatters like ash in a gale.",
+        "action": "sheathe your blade"
+      }
+    }
+  }
+}

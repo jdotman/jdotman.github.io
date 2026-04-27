@@ -1028,7 +1028,9 @@
     "title": "Lanternwake",
     "description": "A fishing skiff offers passage through waters that glow at night. Three days saved, if you survive what stirs beneath the sunken city of Mirren.",
     "author": "AI",
-    "tags": ["voyage"],
+    "tags": [
+      "voyage"
+    ],
     "estimatedMinutes": 12,
     "dateGenerated": "2026-04-22",
     "dayOfYear": "06-14",
@@ -1040,11 +1042,214 @@
     "title": "Holdfast",
     "description": "A skeleton garrison, a wounded commander, and an army in the valley below. Two days until relief arrives. The walls are cracked and the choices are yours.",
     "author": "AI",
-    "tags": ["siege"],
+    "tags": [
+      "siege"
+    ],
     "estimatedMinutes": 12,
     "dateGenerated": "2026-04-22",
     "dayOfYear": "06-15",
     "endingCount": 5,
     "storyNumber": 74
+  },
+  {
+    "id": "41f09aac-b333-46c2-bee7-09619fec5f10",
+    "title": "Hollowfield",
+    "description": "A ranger arrives at a quiet village to find every door open, every meal half-eaten, and not a single soul in sight.",
+    "author": "AI",
+    "tags": [
+      "eerie",
+      "exploration"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-23",
+    "dayOfYear": "06-16",
+    "endingCount": 6,
+    "storyNumber": 75
+  },
+  {
+    "id": "c3b290ec-972f-412b-bf3a-5df4a137fbcc",
+    "title": "Quiet Hands",
+    "description": "A masquerade ball, a stolen treaty, and one night to take it back. Every mask hides a motive, including yours.",
+    "author": "AI",
+    "tags": [
+      "stealth",
+      "intrigue"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-23",
+    "dayOfYear": "06-17",
+    "endingCount": 5,
+    "storyNumber": 76
+  },
+  {
+    "id": "c2f8a4e7-3d1b-4f6e-a9c2-7e5b8d3f1a06",
+    "title": "Crucible Run",
+    "description": "The guild accepts one new member each year, chosen by whoever survives the Crucible first. Twenty runners line up at dawn. The fortress does not care who wins.",
+    "author": "AI",
+    "tags": [
+      "competition"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-23",
+    "dayOfYear": "06-18",
+    "endingCount": 6,
+    "storyNumber": 77
+  },
+  {
+    "id": "d7f437c3-3a0a-4770-ae29-bb5e4264fbc3",
+    "title": "Gilded Descent",
+    "description": "Cracked pillars in the desert mark the entrance to a sealed vault. What waits below is worth more than gold, if you survive long enough to find out.",
+    "author": "AI",
+    "tags": [
+      "treasure-hunt"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-22",
+    "dayOfYear": "06-19",
+    "endingCount": 5,
+    "storyNumber": 78
+  },
+  {
+    "id": "bf0f444d-3260-48b7-a1cb-d498fb057ddf",
+    "title": "Sworn Ground",
+    "description": "Two feuding clans meet at an ancient stone circle to settle a border dispute. You are the appointed voice between them, and the ground they stand on remembers every broken promise.",
+    "author": "AI",
+    "tags": [
+      "negotiation"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-22",
+    "dayOfYear": "06-20",
+    "endingCount": 5,
+    "storyNumber": 79
+  },
+  {
+    "id": "168a8e09-3cc7-4fa5-bffd-efe0cc4d34f8",
+    "title": "Bellwright's Toll",
+    "description": "A hilltop town summons you to recast its cracked cathedral bell. The bronze melts green, the furnace speaks in riddles, and the old Warden holds more than just a tone.",
+    "author": "AI",
+    "tags": [
+      "crafting"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-22",
+    "dayOfYear": "06-21",
+    "endingCount": 5,
+    "storyNumber": 80
+  },
+  {
+    "id": "f4a7c2e1-8d3b-45f9-a6e2-1c9b5d7f3a08",
+    "title": "Vanishing Ink",
+    "description": "A canal-district mapmaker has vanished, leaving behind a half-finished chart that moves when you look away. The ink is alive, and it remembers every coast.",
+    "author": "AI",
+    "tags": [
+      "mystery"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-24",
+    "dayOfYear": "06-22",
+    "endingCount": 6,
+    "storyNumber": 81
+  },
+  {
+    "id": "6dbf2e22-34b3-4165-83c4-aed1e9dc711e",
+    "title": "Crooked Wager",
+    "description": "A rigged card game in a traveling carnival holds a farmer's stolen compass. To win it back, you must out-trick the trickster at his own table.",
+    "author": "AI",
+    "tags": [
+      "trickery"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-24",
+    "dayOfYear": "06-23",
+    "endingCount": 5,
+    "storyNumber": 82
+  },
+  {
+    "id": "c7d3a1f8-4b2e-4e9a-8f5c-6d0b7a3e2c1f",
+    "title": "Saltrock Rising",
+    "description": "A bell tolls three times in the cliff-side prison of Saltrock. The king tide is coming, and the lower cells will flood by midnight.",
+    "author": "AI",
+    "tags": [
+      "escape"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-24",
+    "dayOfYear": "06-24",
+    "endingCount": 5,
+    "storyNumber": 83
+  },
+  {
+    "id": "7f3a91c2-6d48-4e5b-b2a7-8c1f3e9d5a06",
+    "title": "Tidecaller's Wake",
+    "description": "Fog swallows your merchant ship in the Graymist Straits. The compass spins, the sea glows green, and something vast stirs beneath the keel.",
+    "author": "AI",
+    "tags": [
+      "voyage"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-25",
+    "dayOfYear": "06-25",
+    "endingCount": 5,
+    "storyNumber": 84
+  },
+  {
+    "id": "4a7c2e9f-8b31-4d56-9e0a-6f2c8d1b5e37",
+    "title": "Holdfast",
+    "description": "A warlord's army surrounds the last bridge fortress on the Ashwater, and you arrive just as the road closes behind you.",
+    "author": "AI",
+    "tags": [
+      "siege"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-25",
+    "dayOfYear": "06-26",
+    "endingCount": 5,
+    "storyNumber": 85
+  },
+  {
+    "id": "00667cdb-9916-43d7-960f-6663ccffdcd9",
+    "title": "Hollowroot",
+    "description": "A dead oak splits open in a sacred grove, revealing carved steps spiraling into its roots. The bark still pulses with warmth, and whatever lives at the heart of the tree is listening.",
+    "author": "AI",
+    "tags": [
+      "eerie",
+      "exploration"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-25",
+    "dayOfYear": "06-27",
+    "endingCount": 6,
+    "storyNumber": 86
+  },
+  {
+    "id": "3a0c442a-e1f2-4bf2-b2d5-727af1ae0aad",
+    "title": "Quiet Hands",
+    "description": "Your family's stolen falcon crest sits somewhere inside Lord Maren's lakeside villa. Fifty feast guests, hired guards, and a locked vault stand between you and the silver wings.",
+    "author": "AI",
+    "tags": [
+      "stealth",
+      "intrigue"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-25",
+    "dayOfYear": "06-28",
+    "endingCount": 5,
+    "storyNumber": 87
+  },
+  {
+    "id": "f7a2d4c1-3b8e-4f5d-9a6c-2e1b7d3f8a5c",
+    "title": "Scarred Laurels",
+    "description": "A border-town arena hosts its annual tournament, but this year the Laurel Crown carries a weight no champion expects.",
+    "author": "AI",
+    "tags": [
+      "competition",
+      "sacrifice"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-26",
+    "dayOfYear": "06-29",
+    "endingCount": 5,
+    "storyNumber": 88
   }
 ]

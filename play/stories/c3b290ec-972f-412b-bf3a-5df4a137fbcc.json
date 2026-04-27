@@ -1,0 +1,201 @@
+{
+  "id": "c3b290ec-972f-412b-bf3a-5df4a137fbcc",
+  "title": "Quiet Hands",
+  "description": "A masquerade ball, a stolen treaty, and one night to take it back. Every mask hides a motive, including yours.",
+  "author": "AI",
+  "tags": ["stealth", "intrigue"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-06-17",
+  "dayOfYear": "06-17",
+  "endingCount": 5,
+  "storyNumber": 76,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Duke Harren's estate glows against the night sky. Masked revelers stream through the iron gates while music drifts from every window. Somewhere inside, a stolen treaty sits in the duke's private archive. You need it back before dawn. Three ways in: the front doors stand wide, a low garden wall curves east, and a servant entrance sits unguarded to the south.",
+      "choices": [
+        { "label": "enter the ballroom", "nextNode": "ballroom", "hint": "Warm air and perfume wash over you as you step inside." },
+        { "label": "scale the garden wall", "nextNode": "garden-wall", "hint": "The mortar crumbles under your fingers as you pull yourself up." },
+        { "label": "try the servant door", "nextNode": "servant-door", "hint": "The hinges are freshly oiled and the door opens without a sound." }
+      ]
+    },
+    "ballroom": {
+      "passage": "Chandeliers blaze. The marble floor swirls with dancers in masks of feather and gilt, the air thick with perfume and laughter. A woman in crimson silk catches your eye and nods toward the east corridor before vanishing into the crowd. Across the room, a staircase leads up to a mezzanine where fewer guests linger and the music fades.",
+      "choices": [
+        { "label": "follow the woman", "nextNode": "dance-floor", "hint": "She moves through the dancers like smoke through a grate." },
+        { "label": "climb the staircase", "nextNode": "east-corridor", "hint": "Each step up the marble stairs takes you further from the noise." }
+      ]
+    },
+    "garden-wall": {
+      "passage": "Ivy clings to crumbling stone. You haul yourself over and drop into a moonlit garden where trimmed hedges form narrow paths to the north. A squat greenhouse sits to the east, its glass panels fogged from inside. The ground is soft and your boots leave prints that anyone with a lantern could follow.",
+      "choices": [
+        { "label": "trace the hedges", "nextNode": "fountain-court", "hint": "The hedge corridor narrows until you can touch both walls at once." },
+        { "label": "duck into the greenhouse", "nextNode": "greenhouse", "hint": "Heat rolls out as you crack the door open an inch." }
+      ]
+    },
+    "servant-door": {
+      "passage": "The wooden door opens onto a corridor of bare brick. Cooks shout somewhere ahead and the smell of roast meat fills the air. A stack of folded linens sits on a shelf beside you, freshly pressed. Two paths branch from here: left toward the clatter of the kitchen, right toward a quieter passage lined with storage rooms.",
+      "choices": [
+        { "label": "head to the kitchen", "nextNode": "kitchen-pass", "hint": "Steam billows through the swinging door as you push it open." },
+        { "label": "take the linen passage", "nextNode": "linen-room", "hint": "Your footsteps echo off the narrow brick walls around you." }
+      ]
+    },
+    "dance-floor": {
+      "passage": "Couples spin around you in practiced rhythm. The woman in crimson appears at your elbow, presses a folded note into your palm, and slips away before you can speak. The note reads: third floor, second door, rear staircase. A guard stands by the east archway, scanning the crowd. The rear staircase is just beyond him.",
+      "choices": [
+        { "label": "slip past the guard", "nextNode": "east-corridor", "hint": "You time your move as a cluster of dancers crosses his sight." },
+        { "label": "find the rear staircase", "nextNode": "masked-stranger", "hint": "The note crinkles in your fist as you push through the crowd." }
+      ]
+    },
+    "fountain-court": {
+      "passage": "A stone fountain burbles at the center of a courtyard ringed by torches. Servants pass through carrying silver trays, and none spare you a glance. But a man in a boar mask leans against the far column, watching. An arched doorway leads up toward the upper gallery. To the left, a corridor branches east, its entrance half-hidden by a faded tapestry.",
+      "choices": [
+        { "label": "ascend to the gallery", "nextNode": "upper-gallery", "hint": "The stairs curve upward past portraits whose eyes seem to track you." },
+        { "label": "walk the east corridor", "nextNode": "east-corridor", "hint": "The tapestry brushes your shoulder as you duck beneath its hem." }
+      ]
+    },
+    "greenhouse": {
+      "passage": "Humid air hits you like a wall. Rows of clay pots line iron shelves, growing herbs you cannot name. The glass ceiling reveals the upper floors of the estate, every window bright. A trapdoor sits in the tiled floor, partially covered by a sack of soil. Through the far door, the east corridor of the main house is visible.",
+      "choices": [
+        { "label": "open the trapdoor", "nextNode": "cellar-stair", "hint": "Damp air rises from below, carrying the smell of old oak." },
+        { "label": "cross to the corridor", "nextNode": "east-corridor", "hint": "Gravel crunches underfoot as you cross the open ground toward the house." }
+      ]
+    },
+    "kitchen-pass": {
+      "passage": "Steam clouds the ceiling and copper pans clang like bells. Two cooks argue over a broth while a third chops onions with furious speed. None look up. A spiral staircase in the far corner descends to the cellar, its steps slick with grease. Beyond the chopping block, a narrow corridor leads toward the estate's upper rooms.",
+      "choices": [
+        { "label": "descend to the cellar", "nextNode": "cellar-stair", "hint": "The kitchen noise fades with each slippery step down the stairs." },
+        { "label": "sneak past the cooks", "nextNode": "upper-gallery", "hint": "You move behind their backs while the argument holds their focus." }
+      ]
+    },
+    "linen-room": {
+      "passage": "Folded sheets fill shelves from floor to ceiling, smelling of lavender and lye. A servant's uniform hangs from a hook beside the door, roughly your size. Voices drift from above through a ceiling vent. Someone mentions the archive and a name you recognize. A back staircase leads up, and a side passage angles toward the front of the estate.",
+      "choices": [
+        { "label": "go up the staircase", "nextNode": "upper-gallery", "hint": "The uniform swings on its hook as you brush past it." },
+        { "label": "dart down the passage", "nextNode": "masked-stranger", "hint": "The passage bends twice before opening into a wider hall." }
+      ]
+    },
+    "masked-stranger": {
+      "passage": "A figure steps from an alcove and blocks your path. The mask is plain white porcelain, and behind it, a pair of steady eyes study your face. \"I know what you are here for,\" the stranger whispers. \"Harren keeps it in the archive on the third floor. Go east and up, or try the gallery balcony. Both reach it. Choose quickly.\"",
+      "choices": [
+        { "label": "move east", "nextNode": "east-corridor", "hint": "The stranger fades back into the alcove without another word." },
+        { "label": "seek the gallery", "nextNode": "upper-gallery", "hint": "You nod once and the stranger steps aside to let you pass." }
+      ]
+    },
+    "east-corridor": {
+      "passage": "The corridor stretches long and hushed, lined with oil portraits of Harren's ancestors. Their painted eyes seem to track each step you take. A locked study sits behind a heavy oak door on the right, its brass keyhole glinting by candlelight. Farther ahead, a guardsman leans against the wall near a narrow alcove, half-asleep but still armed.",
+      "choices": [
+        { "label": "pick the study lock", "nextNode": "locked-study", "hint": "The brass is warm to the touch. Someone used this door recently." },
+        { "label": "creep past the guard", "nextNode": "guard-alcove", "hint": "His breathing is steady and slow. One wrong step changes that." }
+      ]
+    },
+    "upper-gallery": {
+      "passage": "Pale glow spills through tall windows onto a gallery of marble busts and faded banners. The floor creaks. Each step sounds loud enough to make you wince. At the far end, a reinforced door bears the duke's seal, marking the archive entrance. A balcony railing overlooks the courtyard three stories below, and a rusted drainpipe runs along the outer wall toward the roof.",
+      "choices": [
+        { "label": "approach the archive", "nextNode": "archive-landing", "hint": "The seal is stamped in red wax and it has not been broken." },
+        { "label": "grab the drainpipe", "nextNode": "rooftop", "hint": "Rust flakes off in your hand as you test the first grip." }
+      ]
+    },
+    "cellar-stair": {
+      "passage": "The spiral staircase deposits you in a cellar that smells of damp earth and aged wine. Barrels line the walls in long rows, their brass bands green with years. Ahead, an arched passage leads deeper underground. To the right, a guardsman's lantern bobs at the far end of the room. He has not seen you yet, but the space between you offers little cover.",
+      "choices": [
+        { "label": "press into the passage", "nextNode": "wine-vault", "hint": "The archway swallows the lampglow behind you as you slip through." },
+        { "label": "edge past the guardsman", "nextNode": "guard-alcove", "hint": "You crouch behind a barrel and wait for him to turn away." }
+      ]
+    },
+    "wine-vault": {
+      "passage": "Tall racks of bottled wine stretch toward a vaulted ceiling. The oldest vintages gather dust near the back. Nobody comes here. A narrow tunnel opens in the far wall where bricks have been pried loose, leading somewhere beneath the estate's foundation. A second passage branches left, angling upward through a cramped service stairwell that smells of clean linen.",
+      "choices": [
+        { "label": "crawl into the tunnel", "nextNode": "tunnel-mouth", "hint": "Loose bricks scrape your shoulders as you squeeze through the gap." },
+        { "label": "use the stairwell", "nextNode": "archive-landing", "hint": "The steps grow narrower and steeper with each flight you climb." }
+      ]
+    },
+    "locked-study": {
+      "passage": "The lock yields with a soft click. Inside, bookshelves line three walls and a writing desk sits beneath a window. A leather folio on the desk holds letters stamped with the duke's seal. The ink on the latest one is still wet. A second door on the far wall stands slightly ajar, and warm air drifts through the gap.",
+      "choices": [
+        { "label": "push through the far door", "nextNode": "archive", "hint": "The smell of old parchment hits you as the door swings wide." },
+        { "label": "read the wet letter", "nextNode": "trap-ending", "hint": "You lean over the desk and your elbow brushes a thin wire." }
+      ]
+    },
+    "guard-alcove": {
+      "passage": "The guardsman's back is to you, but only for a moment. He turns on his patrol route and you press flat against the alcove wall. His lantern passes close enough to warm your face. You hold still. When he moves on, two options remain: a service door ahead propped open with a wedge, or the main stairway behind him leading to the upper floor.",
+      "choices": [
+        { "label": "rush the service door", "nextNode": "archive-landing", "hint": "The wedge scrapes the tile as you squeeze through the gap." },
+        { "label": "risk the main stairway", "nextNode": "caught-ending", "hint": "His footsteps stop. You hear him turn back toward you." }
+      ]
+    },
+    "tunnel-mouth": {
+      "passage": "The tunnel narrows until your hands touch rough stone on both sides. Roots push through the ceiling and the air tastes of minerals and wet clay. Ahead, a faint rectangle of amber glow marks what might be a door. To the right, a gap in the wall opens onto a cramped service passage that angles steeply upward.",
+      "choices": [
+        { "label": "reach for the door", "nextNode": "archive", "hint": "The glow grows brighter as you crawl the last few yards forward." },
+        { "label": "squeeze into the gap", "nextNode": "archive-landing", "hint": "Your knees ache on the rough steps as you begin to climb." }
+      ]
+    },
+    "rooftop": {
+      "passage": "Wind pulls at your clothes as you haul yourself onto the slate tiles, and the city spreads below in a patchwork of chimney smoke and flickering lamps. The estate's roof slopes toward a skylight set into the shingles. Its latch is corroded but might break with force. Beyond the edge, a three-story drop to the garden below. Freedom, if you want it.",
+      "choices": [
+        { "label": "break the skylight", "nextNode": "archive", "hint": "Glass shatters inward and you drop into warm air and dust." },
+        { "label": "jump to the garden", "nextNode": "flee-ending", "hint": "You land hard in soft earth. Your ankle screams, but you move." }
+      ]
+    },
+    "archive-landing": {
+      "passage": "The archive door stands before you, sealed with the duke's personal wax sigil, and a thin line of warm air escapes from the gap beneath it. Voices rise from the stairwell below. Guards, two at least, climbing steadily. You have moments. The sigil is the only barrier, and above you a maintenance hatch opens to the roof.",
+      "choices": [
+        { "label": "crack the seal", "nextNode": "archive", "hint": "The wax crumbles under your thumb and the door swings inward." },
+        { "label": "escape to the roof", "nextNode": "rooftop", "hint": "The hatch groans as you shove it open against the wind." }
+      ]
+    },
+    "archive": {
+      "passage": "Scrolls and ledgers fill iron shelves along every wall, and a single oil lamp burns on a reading table, casting long shadows across the floor. There, unrolled beneath a glass weight, sits the treaty. Your guild's seal marks the margin. It belongs to you, and Harren knows it. Ink and a candle sit beside it. The guards' footsteps echo closer.",
+      "choices": [
+        { "label": "roll up the treaty", "nextNode": "take-scroll", "hint": "The parchment is heavier than you expect. Real vellum, real weight." },
+        { "label": "burn the treaty", "nextNode": "burn-scroll", "hint": "The candle flame catches the edge and the ink begins to curl." }
+      ]
+    },
+    "trap-ending": {
+      "passage": "A wire snaps taut across your wrist. The desk splits open and iron bars slam down from the ceiling, caging you in a space barely wide enough to stand. Boots pound the corridor outside. An alarm bell rings somewhere deep in the estate. Harren's voice drifts through the bars, calm and unsurprised: \"I expected someone sooner.\"",
+      "choices": [],
+      "ending": {
+        "title": "Harren's Cage",
+        "flavor": "The bars are strong, and so is the duke's patience.",
+        "action": "grip the iron bars"
+      }
+    },
+    "caught-ending": {
+      "passage": "The guardsman spins at the creak of the step and his spear finds your chest before you can react. Two more guards appear from the corridor below. They bind your hands with rough cord and march you through the ballroom in full view of the masquerade guests. Masks turn. Nobody helps. The music plays on.",
+      "choices": [],
+      "ending": {
+        "title": "Unmasked at Midnight",
+        "flavor": "The party continues without you.",
+        "action": "lower your head"
+      }
+    },
+    "flee-ending": {
+      "passage": "You hit the garden soil and roll. Pain shoots through your ankle but you force yourself upright and limp toward the outer wall as the estate's lanterns shrink behind you. No treaty, no proof, nothing but bruises and the bitter knowledge that Harren is guilty and you cannot prove it. The night swallows you whole.",
+      "choices": [],
+      "ending": {
+        "title": "Empty Hands",
+        "flavor": "You escape with your life, but nothing else.",
+        "action": "vanish into the trees"
+      }
+    },
+    "take-scroll": {
+      "passage": "You slide the treaty into your coat and snuff the oil lamp. A windowpane lifts with a nudge. Cool air rushes in. You drop to the balcony below, then to the garden, then over the wall and into the maze of streets beyond. The treaty presses warm against your ribs. Harren will know by morning. Let him.",
+      "choices": [],
+      "ending": {
+        "title": "Midnight Courier",
+        "flavor": "The guild's property returns where it belongs.",
+        "action": "pocket the treaty"
+      }
+    },
+    "burn-scroll": {
+      "passage": "The candle flame catches the treaty's edge and the parchment curls into ash, taking every line, every clause, and every signature with it. Nobody can wield it now. Not Harren, not your guild, not anyone. The ashes settle on the reading table like grey snow. You hear the guards outside, but it does not matter anymore. The proof is smoke.",
+      "choices": [],
+      "ending": {
+        "title": "Ashes and Nothing",
+        "flavor": "What cannot be held cannot be stolen.",
+        "action": "watch it burn"
+      }
+    }
+  }
+}

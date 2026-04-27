@@ -1,0 +1,217 @@
+{
+  "id": "c2f8a4e7-3d1b-4f6e-a9c2-7e5b8d3f1a06",
+  "title": "Crucible Run",
+  "description": "The guild accepts one new member each year, chosen by whoever survives the Crucible first. Twenty runners line up at dawn. The fortress does not care who wins.",
+  "author": "AI",
+  "tags": ["competition"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-23",
+  "dayOfYear": "06-18",
+  "endingCount": 6,
+  "storyNumber": 77,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Twenty runners stand shoulder to shoulder before the fortress gate as dawn breaks over cracked battlements. The iron bell tolls once. The Crucible is an old guild trial through this crumbling stronghold, open to any soul brave or desperate enough to enter. Moss chokes the entry arch. A veteran beside you mutters a prayer. The gate groans wide.",
+      "choices": [
+        { "label": "sprint for the gate", "nextNode": "gate-yard", "hint": "Gravel crunches under your boots as you surge ahead of the pack." },
+        { "label": "hold back", "nextNode": "pack-run", "hint": "The fastest runners will trigger whatever traps lie inside the walls." }
+      ]
+    },
+    "pack-run": {
+      "passage": "Dust rises as the pack surges through the gate. Elbows fly. Runners jostle and shove for position, boots stamping on broken tile as the courtyard opens into three corridors that disappear around sharp corners ahead. A young woman beside you stumbles and hits the ground hard. Her ankle bends the wrong way. Others leap over her without slowing.",
+      "choices": [
+        { "label": "help her up", "nextNode": "fallen-runner", "hint": "She grips your arm and winces, trying to put weight on the ankle." },
+        { "label": "shove past", "nextNode": "gate-yard", "hint": "Her face flashes in your mind for a moment, then the crowd carries you on." }
+      ]
+    },
+    "fallen-runner": {
+      "passage": "You kneel beside her as runners stream past. She grips your arm. Her name is Wren, she says, from the coastal ward, and this is her only chance at the guild. The ankle swells fast beneath the wrapping. She cannot walk, let alone run. The Crucible's sounds grow faint through the gate behind you.",
+      "choices": [
+        { "label": "carry her out", "nextNode": "ending-mercy", "hint": "Her arm loops over your shoulder as you turn back toward the gate." },
+        { "label": "mark her spot", "nextNode": "gate-yard", "hint": "You tear a strip of cloth and tie it to the nearest post." }
+      ]
+    },
+    "ending-mercy": {
+      "passage": "Wren leans against you as you limp through the gate together, her arm over your shoulder and the morning air filling your lungs with each slow step. A healer rushes over and takes her weight. She looks at you. Her eyes say enough. The Crucible goes on without you. Somewhere inside, someone else claims the guild seat.",
+      "choices": [],
+      "ending": {
+        "title": "Worth the Losing",
+        "flavor": "Some victories never reach the scoreboard.",
+        "action": "walk her out"
+      }
+    },
+    "gate-yard": {
+      "passage": "Three corridors branch from the courtyard. To the left, a sagging rope bridge hangs over a gap where the lower floors are gone and rubble glints far below. The center drops into a tunnel with damp air rolling from its mouth. The right holds a crumbling wall with handholds carved into the face. Two runners vanish into the tunnel ahead.",
+      "choices": [
+        { "label": "cross the bridge", "nextNode": "rope-bridge", "hint": "The ropes creak and the planks wobble under your weight from the first step." },
+        { "label": "enter the tunnel", "nextNode": "tunnel-mouth", "hint": "Cool air washes over your face as the tunnel swallows the daylight behind you." },
+        { "label": "scale the wall", "nextNode": "outer-wall", "hint": "The first handhold crumbles, but the second holds firm under your grip." }
+      ]
+    },
+    "rope-bridge": {
+      "passage": "Rotten planks flex under your feet as you step onto the bridge, each one bowing toward the thirty-foot drop to jagged rubble below. Halfway across, a gust sets the whole frame swinging. One plank splinters. The far platform holds, but behind you a runner hesitates at the edge, eyes locked on the fraying anchor rope.",
+      "choices": [
+        { "label": "run across", "nextNode": "bridge-end", "hint": "Your boots pound the planks in a flat sprint toward the far ledge." },
+        { "label": "grip the ropes", "nextNode": "bridge-fall", "hint": "Your fingers wrap tight around the rough fiber as the bridge lurches sideways." }
+      ]
+    },
+    "bridge-end": {
+      "passage": "The far platform is a landing of cracked tile overlooking a grand hall that stretches deep into the fortress, torchlight marking the staircase at its far end. Scuff marks everywhere. To your right, a narrow stairwell cuts into the wall. Below, boots echo off the flagstones, and whoever owns them is fast. You are losing ground.",
+      "choices": [
+        { "label": "search the hall", "nextNode": "upper-hall", "hint": "The torchlight draws your eyes to the far staircase and the runners ahead." },
+        { "label": "press down the stairwell", "nextNode": "stairwell", "hint": "The steps spiral into the walls, narrow enough that your shoulders brush both sides." }
+      ]
+    },
+    "bridge-fall": {
+      "passage": "You tighten your grip as the bridge lurches sideways and a full section of planking tears free beneath your boots, leaving you dangling above flooded stonework far below. The ropes hold. Above, the anchor post groans under the weight. Another runner lands on the bridge behind you and the whole structure shudders. It will not hold much longer.",
+      "choices": [
+        { "label": "drop below", "nextNode": "tunnel-deep", "hint": "Your boots hit shallow water and the impact rolls through your knees." },
+        { "label": "pull yourself up", "nextNode": "upper-hall", "hint": "Rope fiber bites into your palms as you haul your body back onto the planks." }
+      ]
+    },
+    "tunnel-mouth": {
+      "passage": "The tunnel swallows daylight within three steps. Damp walls press close. The ceiling brushes the top of your head as you move forward, and the sound of splashing echoes from a runner who takes this path somewhere ahead. A crack in the left wall opens into a side passage barely wide enough to squeeze through.",
+      "choices": [
+        { "label": "follow the splashing", "nextNode": "tunnel-deep", "hint": "Each step lands in ankle-deep water that chills your feet through your boots." },
+        { "label": "squeeze through the crack", "nextNode": "side-crack", "hint": "The gap scrapes your ribs but opens wider after the first tight stretch." }
+      ]
+    },
+    "side-crack": {
+      "passage": "The side passage opens into a small chamber lit by a shaft of pale sky from a collapsed ceiling above. Roots dangle. Rubble lines the floor and old tiles lean against the far wall, one of them loose with fresh scratch marks along its edges as if fingers work at it regularly. The main tunnel echoes behind you.",
+      "choices": [
+        { "label": "pry the loose tile", "nextNode": "secret-vault", "hint": "The tile grinds against the floor as it slides free, revealing a gap beneath." },
+        { "label": "crawl onward", "nextNode": "tunnel-deep", "hint": "The passage narrows further but curves back toward the main tunnel route." }
+      ]
+    },
+    "secret-vault": {
+      "passage": "Beneath the tile, a narrow shaft drops into a vault lined with iron shelves that gleam dull orange in the trace of daylight filtering down from above. Dust coats everything. A chest sits at the center, its lock rusted open, lid ajar. Guild markings are etched into the wood. This room is not meant for runners. Boots pound overhead.",
+      "choices": [
+        { "label": "open the chest", "nextNode": "ending-secret", "hint": "The hinges creak as you lift the lid and something inside catches the faint glow." },
+        { "label": "leave the vault", "nextNode": "tunnel-deep", "hint": "You climb back through the shaft and drop into the main tunnel again." }
+      ]
+    },
+    "ending-secret": {
+      "passage": "Inside the chest, a folded parchment bears the guild master's own seal. It is a standing offer of apprenticeship, placed here for anyone clever enough to stray from the course and look where others do not. No Crucible win required. The guild wants problem-solvers, not sprinters. Above, the race goes on. Down here, you hold something better than a title.",
+      "choices": [],
+      "ending": {
+        "title": "Hidden Apprentice",
+        "flavor": "The best path is the one nobody else thinks to take.",
+        "action": "read the parchment"
+      }
+    },
+    "tunnel-deep": {
+      "passage": "The tunnel floor dips and water rises to your shins, each step a cold slosh that echoes off the low ceiling. The current tugs. Ahead, the passage curves toward a faint glow where it joins the fortress interior. To your left, a section of wall buckles inward, revealing old brickwork and a gap behind it. Something scrapes on the far side.",
+      "choices": [
+        { "label": "wade toward the glow", "nextNode": "flooded-hall", "hint": "The water climbs past your knees as the tunnel floor slopes further downward." },
+        { "label": "check the gap", "nextNode": "ending-trapped", "hint": "You press your face to the opening and feel warm air on the other side." }
+      ]
+    },
+    "ending-trapped": {
+      "passage": "The gap behind the brickwork opens into a dry chamber, but the wall gives way behind you as you crawl through. Rubble seals the passage shut. The chamber is small and still, the only sound your own breathing. No exits. You pound on the walls but the fortress answers with nothing. Somewhere above, the Crucible ends without you.",
+      "choices": [],
+      "ending": {
+        "title": "Buried Ambition",
+        "flavor": "The fortress keeps what it catches.",
+        "action": "pound the walls"
+      }
+    },
+    "flooded-hall": {
+      "passage": "The tunnel empties into a flooded hall where columns rise from murky water like ribs of some drowned giant, their shadows stretching across the surface. The reflection shimmers. A staircase climbs from the shallows to a doorway on the upper level. Beyond the columns, a second stairwell angles through the wall in the opposite direction.",
+      "choices": [
+        { "label": "swim to the stairs", "nextNode": "upper-hall", "hint": "The water is chest-high between the columns and cold enough to lock your muscles." },
+        { "label": "haul up the stairwell", "nextNode": "stairwell", "hint": "The steps are slick with algae but solid under your feet once you find grip." }
+      ]
+    },
+    "outer-wall": {
+      "passage": "Wind pulls at your sleeves as you grip the first handhold carved into the fortress wall, forty feet of open climb between you and the rampart above. Below, the courtyard shrinks. Another runner scales the wall a dozen paces to your left, moving fast enough to send loose chips raining down. Halfway up, a window opens in the wall to your right.",
+      "choices": [
+        { "label": "keep climbing", "nextNode": "wall-top", "hint": "Your fingers ache but every handhold brings the rampart ledge closer to your reach." },
+        { "label": "swing through the window", "nextNode": "window-gap", "hint": "The shutters bang against the wall as you throw yourself through the opening." }
+      ]
+    },
+    "wall-top": {
+      "passage": "The rampart stretches along the fortress rooftop, its cracked walkway narrowing in places where the outer edge crumbles away to nothing but sky. Wind howls up here. To the right, the grand hall below is visible through a gap in the floor, torchlight dancing off broken tile. A ladder leans against the inner wall, leading down to the hall.",
+      "choices": [
+        { "label": "survey the rampart", "nextNode": "rampart", "hint": "The walkway narrows ahead but the view lets you spot runners far below." },
+        { "label": "leap to the hall", "nextNode": "upper-hall", "hint": "The drop is farther than it looks and you tuck your knees as you fall." }
+      ]
+    },
+    "rampart": {
+      "passage": "The rampart narrows to barely two feet wide, the outer edge crumbling and the wind shoving hard at your back with every step along the exposed ridge. No railing. Below, through cracks, you catch glimpses of movement in the halls. The tower ahead is blocked by a fallen roof. A gap in the inner wall reveals a stairwell spiraling down.",
+      "choices": [
+        { "label": "jump to the hall", "nextNode": "upper-hall", "hint": "The fall is shorter from here and you land hard on scattered tile below." },
+        { "label": "slide into the stairwell", "nextNode": "stairwell", "hint": "Your heels scrape the curved steps as gravity takes you down the spiral." }
+      ]
+    },
+    "window-gap": {
+      "passage": "You tumble through the window into a dusty chamber lined with old weapon racks, most of them empty though a few rusted swords still hang at crooked angles from their pegs. The far wall has a door with iron hinges, half open. Chalk marks on the floor trace a path toward it. Something scrapes in the corridor beyond.",
+      "choices": [
+        { "label": "read the chalk marks", "nextNode": "upper-hall", "hint": "The marks are arrows, and they point through the door toward the fortress center." },
+        { "label": "slip through the door", "nextNode": "trap-hall", "hint": "The hinges groan as you ease through and the corridor beyond smells like oil." }
+      ]
+    },
+    "upper-hall": {
+      "passage": "A grand hall opens before you, its vaulted ceiling held up by columns of carved granite and its walls lined with iron torch brackets that throw unsteady shapes across the floor. Two exits wait at the far end. A runner lies crumpled at the base of a column, clutching his knee. He looks up. His face twists with pain.",
+      "choices": [
+        { "label": "charge past him", "nextNode": "trap-hall", "hint": "His hand reaches out but you are already through the painted archway." },
+        { "label": "take his arm", "nextNode": "rival-down", "hint": "He flinches at first but then grips your wrist with surprising force." }
+      ]
+    },
+    "rival-down": {
+      "passage": "His name is Garrett. He tells you he is a blacksmith's son from the northern quarter, and he cannot stand, his knee buckling every time he puts weight on it. The corridor ahead splits into a staircase going up and a passage angling down. Footsteps echo from above. Someone else is about to reach the finish before either of you.",
+      "choices": [
+        { "label": "lift him up", "nextNode": "ending-honor", "hint": "His arm drapes over your shoulder and together you limp toward the staircase." },
+        { "label": "step past him", "nextNode": "trap-hall", "hint": "He says nothing as you go, but you feel his eyes on your back." }
+      ]
+    },
+    "ending-honor": {
+      "passage": "Garrett leans on your shoulder as you climb the final staircase together and emerge into sunlight, dead last, with the winner already at the line. The guild master watches you lower Garrett onto a bench. She nods once, says nothing. There is no seat for you today. By next morning, two letters of invitation arrive at your doors.",
+      "choices": [],
+      "ending": {
+        "title": "Two Letters",
+        "flavor": "The guild remembers who stops to help.",
+        "action": "carry him out"
+      }
+    },
+    "trap-hall": {
+      "passage": "The corridor narrows into a gauntlet of old training traps, starting with a tripwire stretched ankle-high across the floor that glints in the dim torchlight ahead. Beyond it, swinging timber beams hang from chains bolted to the ceiling. Scuff marks and torn fabric show where others have stumbled. Past the beams, the corridor ends at a lit archway. Almost there.",
+      "choices": [
+        { "label": "kick the beam", "nextNode": "rafters", "hint": "The beam swings wild on its chain and cracks into the wall beside you." },
+        { "label": "duck through the gauntlet", "nextNode": "ending-champion", "hint": "You drop low, step over the wire, and weave between the swinging timbers." }
+      ]
+    },
+    "stairwell": {
+      "passage": "The spiral stairwell drops through the inner wall in tight turns, each step slick with moss. Breathing echoes from below. Another runner is close, their boots scuffing the steps somewhere in the darkness beneath you. A side door at the next landing stands open, revealing a corridor strung with dangling chains and the smell of oil.",
+      "choices": [
+        { "label": "dodge through the chains", "nextNode": "trap-hall", "hint": "The chains clatter and swing as you shoulder through the narrow corridor." },
+        { "label": "vault the railing", "nextNode": "rival-down", "hint": "You grab the rail and swing yourself over, dropping to the landing below." }
+      ]
+    },
+    "rafters": {
+      "passage": "The kicked beam sends you stumbling sideways through a gap in the wall and you catch a timber crossbeam, hauling yourself up into the rafters above the corridor. The archway glows below. A narrow beam stretches across the gap to the far side. Below, the swinging traps still churn. One runner crouches at the archway, catching their breath.",
+      "choices": [
+        { "label": "balance across the beam", "nextNode": "ending-champion", "hint": "Each step sends dust down to the traps below and your arms spread wide." },
+        { "label": "cut through the boards", "nextNode": "ending-fall", "hint": "The old boards crack under your boots as you try to force a path." }
+      ]
+    },
+    "ending-champion": {
+      "passage": "Your boots hit the ground beyond the archway and sunlight floods the courtyard. A guild official stands at a wooden table, quill in hand, writing your name in the ledger before you can speak. First across. The other runners trickle in behind you, some limping, some bloodied, all of them watching as the guild master nods. Welcome to the ranks.",
+      "choices": [],
+      "ending": {
+        "title": "First Through",
+        "flavor": "The fortress remembers your name now.",
+        "action": "cross the finish line"
+      }
+    },
+    "ending-fall": {
+      "passage": "The boards give way beneath your weight and you plunge through the rafters into the trap corridor below, landing hard on your back among the chains. A beam catches your shoulder. Nothing breaks, but you cannot move. Above, the gap you fall through frames a strip of dim ceiling. Other runners pass the archway without looking up. The Crucible finishes. You do not.",
+      "choices": [],
+      "ending": {
+        "title": "Tangled Below",
+        "flavor": "The fortress does not forgive carelessness.",
+        "action": "hang in the chains"
+      }
+    }
+  }
+}

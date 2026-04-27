@@ -1,0 +1,191 @@
+{
+  "id": "00667cdb-9916-43d7-960f-6663ccffdcd9",
+  "title": "Hollowroot",
+  "description": "A dead oak splits open in a sacred grove, revealing carved steps spiraling into its roots. The bark still pulses with warmth, and whatever lives at the heart of the tree is listening.",
+  "author": "AI",
+  "tags": ["eerie", "exploration"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-25",
+  "dayOfYear": "06-27",
+  "endingCount": 6,
+  "storyNumber": 86,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "A split runs through the Great Oak from crown to root, wide enough for a person to step inside. Amber sap oozes from the wound in slow, warm drops. Villagers say the tree has been dead for a season, yet the bark pulses beneath your palm. Carved steps spiral down into the gap, slick with resin. Something below hums.",
+      "choices": [
+        { "label": "descend the steps", "nextNode": "root-passage", "hint": "The resin is warm and sticky under your boots as you start down." },
+        { "label": "circle the trunk", "nextNode": "outer-bark", "hint": "Your hand finds a ridge in the bark that runs the full circumference." },
+        { "label": "follow the sap", "nextNode": "sap-trail", "hint": "Each drop catches what remains of the daylight, bright as a jewel." }
+      ]
+    },
+    "root-passage": {
+      "passage": "Steps wind down through living wood. Roots arch overhead like ribs, and the air grows thick with the scent of turned earth as each step gives slightly beneath your feet. Ahead, two paths open. One pushes through tangled roots into amber. The other narrows where the walls hum with a faint, shifting tone.",
+      "choices": [
+        { "label": "push through roots", "nextNode": "amber-chamber", "hint": "The roots bend but do not break, parting just enough to let you pass." },
+        { "label": "listen closely", "nextNode": "whisper-hall", "hint": "The tone shifts as you tilt your head, almost like a voice." }
+      ]
+    },
+    "outer-bark": {
+      "passage": "You circle the trunk's base, one hand tracing ridges in the bark. The oak is massive. Ten people linking arms could not reach around it, and its dead branches jut from the crown like broken fingers against the sky. Near the ground, a patch of loose soil sits where something has been digging. Claw marks score the bark above.",
+      "choices": [
+        { "label": "climb the branches", "nextNode": "canopy-bones", "hint": "The bark flakes away in sheets, but the wood beneath holds firm." },
+        { "label": "dig at the base", "nextNode": "buried-shrine", "hint": "Loose soil gives way fast. Something solid sits just beneath the surface." }
+      ]
+    },
+    "sap-trail": {
+      "passage": "Amber sap trickles along a groove in the earth, pooling in shallow ruts between exposed roots. The trail leads away from the tree and dips underground through a low gap choked with pale mushrooms. A sweet, heavy scent. It coats your fingers when you touch it, warm as fresh blood.",
+      "choices": [
+        { "label": "enter the grotto", "nextNode": "fungal-grotto", "hint": "The mushroom caps brush your shoulders as you duck through the gap." },
+        { "label": "taste the sap", "nextNode": "vision-pool", "hint": "It coats your tongue, sweet and heavy, and the grove blurs at the edges." }
+      ]
+    },
+    "amber-chamber": {
+      "passage": "Roots open into a wide cavern where veins of amber run through every wall, catching what little shimmer filters from the cracks above and painting the rock in muted gold. A shallow pool covers the far end, its surface milky and still. Behind the largest deposit, a gap breathes cool air. The veins pulse, matching your heartbeat.",
+      "choices": [
+        { "label": "search behind amber", "nextNode": "hidden-passage", "hint": "Cool air hits your face as your fingers find a gap in the wall." },
+        { "label": "wade into the pool", "nextNode": "fungal-grotto", "hint": "The water is warmer than it should be. Your boots find no bottom." },
+        { "label": "touch the warm vein", "nextNode": "vision-pool", "hint": "Amber sticks to your palm. The vein throbs once, hard, beneath your fingers." }
+      ]
+    },
+    "whisper-hall": {
+      "passage": "Tight walls press against your shoulders. Grain patterns in the wood shift like knots forming faces that dissolve the moment you stare at them, and a voice threads through the air, too low to make out words. It comes from deeper. The opposite wall has a seam just wide enough to slip through.",
+      "choices": [
+        { "label": "trace the voice", "nextNode": "echo-shaft", "hint": "The sound pulls you forward, curling around corners like smoke." },
+        { "label": "press through", "nextNode": "hidden-passage", "hint": "The seam scrapes your arms as you turn sideways to fit." }
+      ]
+    },
+    "canopy-bones": {
+      "passage": "Brittle branches creak as you climb. The bark crumbles under your grip, dry as old paper. From up here the grove stretches in every direction, all gray and leafless, and a hollow gap opens in the trunk below your feet, dropping into blackness. The hum from inside is stronger at this height.",
+      "choices": [
+        { "label": "drop through hollow", "nextNode": "echo-shaft", "hint": "Your feet find open air. The fall is shorter than you feared." },
+        { "label": "crawl inside", "nextNode": "whisper-hall", "hint": "The trunk is hollow enough to move through, barely. You smell old wood." }
+      ]
+    },
+    "buried-shrine": {
+      "passage": "Your hands hit something hard beneath the soil. Brushing dirt aside reveals a flat slab carved with spiraling runes. A hollow in the center holds a tarnished copper token shaped like a seed. The runes still glow faintly at the edges, green as moss. These marks speak of old devotion. The offering remains untouched for a reason.",
+      "choices": [
+        { "label": "take the offering", "nextNode": "cursed-path", "hint": "The copper warms the instant your fingers close around it." },
+        { "label": "leave it alone", "nextNode": "sap-trail", "hint": "Something about those runes keeps your hand from reaching a second time." }
+      ]
+    },
+    "fungal-grotto": {
+      "passage": "Pale mushrooms line every surface, their caps as wide as dinner plates. A faint blue shimmer comes from the gills underneath, enough to see by. Ankle-deep water fills the floor, warm and sour-smelling. The far wall opens into a narrow crack where dry air flows through. Spores drift through the haze like lazy snowflakes.",
+      "choices": [
+        { "label": "harvest the caps", "nextNode": "spore-cloud", "hint": "The nearest cap is soft and heavy. It splits at the stem with a sigh." },
+        { "label": "cross the shallows", "nextNode": "hidden-passage", "hint": "The water barely reaches your ankles. The far wall has a narrow crack." }
+      ]
+    },
+    "vision-pool": {
+      "passage": "Sap collects in a basin carved from a single root, shining amber and thick as honey. Images ripple across the surface. A face that might be yours, older and marked with bark-like scars. A chamber deep below with something bright at its center. The visions shift each time you blink. Your reflection does not always match your movements.",
+      "choices": [
+        { "label": "reach into the pool", "nextNode": "hidden-passage", "hint": "The sap is thick around your wrist, pulling gently like a current." },
+        { "label": "look away", "nextNode": "fungal-grotto", "hint": "Your reflection lingers a moment longer than it should before the surface stills." }
+      ]
+    },
+    "hidden-passage": {
+      "passage": "Behind the amber, the rock gives way to a crawl space barely wide enough for your shoulders. The air is damp and tastes of copper. Roots thread through the ceiling, and some of them twitch when you brush past. After a dozen paces, the tunnel widens ahead into a web of thick roots. A faint pulse throbs through the ground beneath you.",
+      "choices": [
+        { "label": "squeeze through", "nextNode": "root-web", "hint": "The roots press in from every side, guiding you more than trapping you." },
+        { "label": "retreat to the cavern", "nextNode": "amber-chamber", "hint": "You push back the way you came. The air opens up again quickly." }
+      ]
+    },
+    "echo-shaft": {
+      "passage": "You drop through the hollow and land on soft, rotted wood. A vertical shaft stretches below, carved with hand-holds spiraling down. Every sound you make returns twice, each echo slightly different from the original, as if someone below repeats your words with a changed mouth. Amber veins streak the walls. Two routes lead from here.",
+      "choices": [
+        { "label": "call into the shaft", "nextNode": "whisper-hall", "hint": "Your voice comes back wrong. Softer. As if something below is mocking you." },
+        { "label": "slide down", "nextNode": "amber-chamber", "hint": "The hand-holds are worn smooth. Someone carved this path a long time ago." }
+      ]
+    },
+    "cursed-path": {
+      "passage": "Heat floods your fist the moment you lift the token. Runes blaze green across your skin, crawling up your wrist like living ink. The ground beneath the shrine splits, revealing a slope of tangled roots pulling you downward. Your fingers tighten around the copper. Letting go feels impossible, but the grip is yours, not the token's. For now.",
+      "choices": [
+        { "label": "keep the token", "nextNode": "rootbound-ending", "hint": "The copper bites into your skin. You tell yourself you chose this." },
+        { "label": "release the token", "nextNode": "fungal-grotto", "hint": "It takes every ounce of will, but your fingers open at last." }
+      ]
+    },
+    "spore-cloud": {
+      "passage": "A cap splits under your hand and a thick cloud bursts upward. The spores are gold and warm, filling your lungs before you can react. The grotto blurs. Colors smear. Your knees buckle, and the mushrooms seem to lean closer. A whisper rises through the haze, promising rest. Ahead, a gap in the cloud shows a passage. You have seconds.",
+      "choices": [
+        { "label": "hold your breath", "nextNode": "root-web", "hint": "Your chest burns. Through the haze, a gap in the cloud flickers open." },
+        { "label": "breathe deep", "nextNode": "spore-ending", "hint": "The warmth fills your chest. For a moment, everything feels perfectly still." }
+      ]
+    },
+    "root-web": {
+      "passage": "Thick roots weave together like a net, stretching across a cavern so wide you cannot see the far wall. Each root thrums with warmth. The pulse is steady now, strong as a drumbeat, and it comes from below. Between the roots, gaps open onto blackness. A warm draft rises, carrying the scent of sap and turned soil.",
+      "choices": [
+        { "label": "go deeper", "nextNode": "deep-hollow", "hint": "The pulse matches your heartbeat now. Each step downward feels like coming home." },
+        { "label": "back away", "nextNode": "amber-chamber", "hint": "The warmth fades behind you. Part of you does not want to leave." }
+      ]
+    },
+    "deep-hollow": {
+      "passage": "Every root leads here. A mass of living wood fills the center, knotted and folded, pulsing with amber sap that runs through it like veins. It is warm. It breathes. The rhythm matches your heartbeat, as if it has been waiting. A hollow opens in the wood where a seed might rest. Your belt knife would reach the taproot.",
+      "choices": [
+        { "label": "speak to the heart", "nextNode": "heart-dialogue", "hint": "You place your palm against the wood. It is warmer than skin." },
+        { "label": "plant a seed", "nextNode": "newgrowth-ending", "hint": "The hollow fits your thumb perfectly, as if it has been waiting for this." },
+        { "label": "cut the taproot", "nextNode": "silence-ending", "hint": "The knife slides free of your belt. The heartwood does not flinch." }
+      ]
+    },
+    "heart-dialogue": {
+      "passage": "You press your palm against the heartwood and close your eyes. The pulse slows, matching your breath. An old voice fills your mind. Not words exactly, but images. A grove full of life. Animals nesting in branches. Rain on green leaves. Then: rot, axes, fire scorching the roots. A question forms, clear as a bell. Will you help?",
+      "choices": [
+        { "label": "offer your aid", "nextNode": "greenwarden-ending", "hint": "The images shift. Green spreads through the vision like ink through water." },
+        { "label": "walk away", "nextNode": "walk-ending", "hint": "The pulse slows as you pull your hand from the bark." }
+      ]
+    },
+    "rootbound-ending": {
+      "passage": "Runes spread across your arms, your chest, your face. Bark grows over your skin, hard and cracked. You try to scream but your jaw locks shut. Roots wind around your ankles and pull you to your knees. The last thing you see is your own hands turning to wood, fingers branching toward a sky you will never reach again.",
+      "choices": [],
+      "ending": {
+        "title": "Taken Root",
+        "flavor": "Greed takes root faster than regret.",
+        "action": "close your fist"
+      }
+    },
+    "spore-ending": {
+      "passage": "Gold fills your lungs and the world goes soft. Mushroom caps sway around you like gentle hands. Your body sinks into the warm shallows and spores settle on your skin like pollen. It does not hurt. Nothing hurts anymore. The haze thickens until the grotto, the tree, and everything above it fade into quiet, dreamless warmth.",
+      "choices": [],
+      "ending": {
+        "title": "Spore Sleep",
+        "flavor": "The garden keeps what the garden claims.",
+        "action": "sink into the warmth"
+      }
+    },
+    "newgrowth-ending": {
+      "passage": "A hollow waits in the heartwood, shaped for a gift. You kneel and press your thumb into the soft center. Green splits the bark. A shoot rises, pale and thin, reaching upward. Heartwood shudders. Sap flows fresh and bright through every vein in the walls. Above, dead branches stir. You feel it in the roots.",
+      "choices": [],
+      "ending": {
+        "title": "New Growth",
+        "flavor": "Even the oldest roots remember how to reach for the sun.",
+        "action": "touch the heartwood"
+      }
+    },
+    "silence-ending": {
+      "passage": "Your knife bites into the root and amber sap sprays across your hands, scalding. Heartwood lets out a sound like a held breath released. The pulse stops. Warmth drains from the chamber in seconds. Every root in the cavern goes rigid and pale. The hum dies. What remains is just wood, just rock, just you in the quiet.",
+      "choices": [],
+      "ending": {
+        "title": "Silence Falls",
+        "flavor": "Some things die only once.",
+        "action": "sheathe the knife"
+      }
+    },
+    "greenwarden-ending": {
+      "passage": "Heartwood opens like a fist uncurling. Sap coats your arm to the elbow, warm and bright. The voice fills you. Not possessing, but sharing. The tree's memory pours in: every season, every creature that shelters here, every root that drinks from the river below. Your eyes open, and the grove outside is green. Buds split the bark of every branch.",
+      "choices": [],
+      "ending": {
+        "title": "Greenwarden's Oath",
+        "flavor": "The grove remembers, and now so do you.",
+        "action": "open your eyes"
+      }
+    },
+    "walk-ending": {
+      "passage": "Warmth cools under your retreating hand. The pulse continues without you, steady and slow. That old voice fades like a dream at dawn. Back through the root web, up the spiraling steps, out into the grove where the air tastes clean and sharp. The split in the oak remains. Someone else will find it someday. Someone else might stay.",
+      "choices": [],
+      "ending": {
+        "title": "Left Unanswered",
+        "flavor": "Not every call needs an answer.",
+        "action": "leave the grove"
+      }
+    }
+  }
+}

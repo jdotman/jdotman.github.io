@@ -1,0 +1,215 @@
+{
+  "id": "bf0f444d-3260-48b7-a1cb-d498fb057ddf",
+  "title": "Sworn Ground",
+  "description": "Two feuding clans meet at an ancient stone circle to settle a border dispute. You are the appointed voice between them, and the ground they stand on remembers every broken promise.",
+  "author": "AI",
+  "tags": ["negotiation"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-22",
+  "dayOfYear": "06-20",
+  "endingCount": 5,
+  "storyNumber": 79,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "A ring of ancient pillars rises from the forest floor, older than any clan alive. At the center sits a great oak table, its surface scarred with centuries of carved oaths and the thin lines of knife marks. Two groups wait on opposite sides. Maren of Ashgrove meets your eyes. Drust does not look up.",
+      "choices": [
+        { "label": "approach the elder", "nextNode": "greet-maren", "hint": "Maren's hands are steady, but the lines around her eyes tell a longer story." },
+        { "label": "greet the warden", "nextNode": "greet-drust", "hint": "Drust's jaw is set tight, and his guards stand closer than custom allows." }
+      ]
+    },
+    "greet-maren": {
+      "passage": "Maren stands with her arms folded, a wool cloak drawn tight against the chill. Her voice is low when she speaks. She tells you Ashgrove has bled for twenty years over land their own ancestors cleared and planted with their own hands. She asks nothing but fairness. Behind her, the nearest pillar looms like a judge, and her farmers grip their staves.",
+      "choices": [
+        { "label": "hear her terms", "nextNode": "hear-maren", "hint": "She pulls a folded parchment from her cloak and smooths it on the table." },
+        { "label": "inspect the pillars", "nextNode": "inspect-the-stones", "hint": "The tallest pillar catches the dawn and the carvings on its face seem to shift." }
+      ]
+    },
+    "greet-drust": {
+      "passage": "Drust is younger than you expected, barely past twenty, with a fresh scar across his knuckles and the bearing of someone used to giving orders. He speaks first. His father is dead because of Ashgrove, he says, and no table in a forest changes that. He spits toward the nearest pillar. His guards watch Maren's people without blinking.",
+      "choices": [
+        { "label": "ask his terms", "nextNode": "hear-drust", "hint": "He pulls a map from his belt and slaps it flat on the oak." },
+        { "label": "study the carvings", "nextNode": "inspect-the-stones", "hint": "Old words line the nearest column, half-worn by wind but still legible." }
+      ]
+    },
+    "hear-maren": {
+      "passage": "Maren unfolds a parchment on the oak table and points to border marks that still stand from her grandparents' time, more than fifty years back. She wants the eastern orchards returned and the river crossing rights restored. The terms are modest. Her hand trembles as she traces the line, and you realize she expects this to fail.",
+      "choices": [
+        { "label": "acknowledge her claim", "nextNode": "open-session", "hint": "You nod once, and something in her shoulders relaxes, if only slightly." },
+        { "label": "reserve judgment", "nextNode": "open-session", "hint": "You fold the parchment and set it aside without comment." }
+      ]
+    },
+    "hear-drust": {
+      "passage": "Drust slams a map onto the table hard enough to make the oak groan. He jabs a finger at the southern ridge and says Thornwall's herders need the grazing land that Ashgrove claims by a treaty nobody alive remembers signing. His voice rises. Maren flinches. You notice his guards shift their weight toward their belt knives.",
+      "choices": [
+        { "label": "ease the tension", "nextNode": "open-session", "hint": "You raise a hand and both sides go quiet, for the moment." },
+        { "label": "let the anger burn", "nextNode": "open-session", "hint": "Sometimes people need to say the hard thing before they can hear anything." }
+      ]
+    },
+    "inspect-the-stones": {
+      "passage": "Twelve monoliths form the ring. Each one rises taller than a man, slick with moss and carved deep with words, some legible, others smoothed by centuries of rain. The oldest inscription names three clans: Ashgrove, Thornwall, and a third worn too thin to read. Below it, a warning: oaths spoken here bind deeper than any written law.",
+      "choices": [
+        { "label": "begin the session", "nextNode": "open-session", "hint": "Both groups turn toward you as you step to the center of the ring." },
+        { "label": "trace the warning", "nextNode": "open-session", "hint": "The grooves are cold under your fingertip, and the pillar seems to hum." }
+      ]
+    },
+    "open-session": {
+      "passage": "Both leaders stand at the oak table now, Maren to the north, Drust to the south, and the morning fog thins between the pillars as birdsong returns to the canopy above. Neither sits. Drust's hand rests near his knife. Maren's people grip their staves. The first words you speak will set the course.",
+      "choices": [
+        { "label": "propose shared borders", "nextNode": "propose-border", "hint": "You lay both maps side by side and draw a line down the middle." },
+        { "label": "demand the full truth", "nextNode": "demand-truth", "hint": "Maren's eyes narrow and Drust's hand tightens on the edge of the table." },
+        { "label": "invoke the ancient ring", "nextNode": "invoke-the-binding", "hint": "Your voice carries across the clearing, and the pillars seem to lean inward." }
+      ]
+    },
+    "propose-border": {
+      "passage": "You spread both maps flat and trace a new line with your finger, splitting the disputed ground at the creek that already divides the lower valley. Orchards to Ashgrove, grazing rights to Thornwall, the creek shared for water. Maren leans forward. Drust folds his arms. The proposal hangs in the cold air between them like an unfinished sentence.",
+      "choices": [
+        { "label": "wait for Drust", "nextNode": "drust-objects", "hint": "His jaw works silently, as if chewing the words before spitting them out." },
+        { "label": "look to Maren", "nextNode": "maren-backs-you", "hint": "She catches your eye and gives the smallest nod you have ever seen." }
+      ]
+    },
+    "drust-objects": {
+      "passage": "Drust shoves the map back across the table. His voice is steady but his knuckles are white. The creek means nothing, he says, and the grazing land runs far beyond the line you propose, stretching over the ridge into territory his herders already use. He is not wrong. Maren knows it.",
+      "choices": [
+        { "label": "press the warden", "nextNode": "press-drust", "hint": "You step closer to Drust and lower your voice so only he can hear." },
+        { "label": "concede some ground", "nextNode": "concede-ground", "hint": "You redraw the line further south, giving Thornwall the ridge and the creek." }
+      ]
+    },
+    "maren-backs-you": {
+      "passage": "Maren nods slowly and places her palm flat on the map, over the creek line. She says she can accept this, on one condition: the crossing bridge stays neutral, maintained by neither clan and open to both. The offer is reasonable. Across the table, Drust uncrosses his arms. He is listening now, though his expression gives nothing away.",
+      "choices": [
+        { "label": "seal the terms", "nextNode": "seal-the-terms", "hint": "You reach for the ink pot at the edge of the table." },
+        { "label": "push for more", "nextNode": "push-harder", "hint": "Drust's guard shifts, and you wonder how far you can bend this." }
+      ]
+    },
+    "press-drust": {
+      "passage": "You step closer to the warden and speak in a voice low enough that only he hears your next words. His father's death weighs on him, you say. It should. But more death will not balance the scales. The ridge is farmland, not grazing, and his own elders know it. His jaw tightens. His guards reach for their hilts.",
+      "choices": [
+        { "label": "hold your ground", "nextNode": "fragile-accord", "hint": "The hush stretches until Drust finally exhales and sets his knife on the table." },
+        { "label": "keep pushing", "nextNode": "violence", "hint": "Drust's face goes blank, the way a storm goes quiet before it breaks." }
+      ]
+    },
+    "concede-ground": {
+      "passage": "The new line falls further south on the parchment, giving Thornwall the ridge, the creek, and every grazing path that stretches between them. Maren watches the revised boundary take shape. Her face goes still. Drust studies the map, and for the first time his expression softens into something close to relief. The question is whether Maren can accept what remains.",
+      "choices": [
+        { "label": "turn to Maren", "nextNode": "walk-away", "hint": "She opens her mouth, closes it, then folds her parchment and turns away." },
+        { "label": "offer Maren a trade", "nextNode": "fragile-accord", "hint": "You promise Ashgrove first harvest rights from the eastern field as payment." }
+      ]
+    },
+    "seal-the-terms": {
+      "passage": "Ink flows across fresh parchment as you scratch the terms into place: orchards east, grazing west, the bridge shared between both clans for all seasons to come. Drust watches each stroke. Maren stands with her chin raised, the posture of someone who has waited a long time for this moment.",
+      "choices": [
+        { "label": "pass the quill", "nextNode": "lasting-peace", "hint": "Maren takes the quill first, and after a long breath, Drust follows." },
+        { "label": "read the terms aloud", "nextNode": "walk-away", "hint": "As you speak the words, Drust's face hardens and he shakes his head." }
+      ]
+    },
+    "push-harder": {
+      "passage": "Maren's acceptance emboldens you. You turn to Drust and ask for one thing more: that Thornwall pay a harvest tithe to Ashgrove for the first five years, as a gesture of good faith. The clearing goes quiet. Drust's scar whitens across his knuckles. Even Maren looks surprised. You may have pushed the balance too far.",
+      "choices": [
+        { "label": "stand firm", "nextNode": "lasting-peace", "hint": "Drust stares at you for a long time before reaching for the quill." },
+        { "label": "withdraw the demand", "nextNode": "fragile-accord", "hint": "You wave the tithe away, but the damage lingers in Drust's narrowed eyes." }
+      ]
+    },
+    "demand-truth": {
+      "passage": "A crack splits the air as your palm hits the oak table, loud enough to silence both sides at once. Enough posturing, you say. Something neither of them is telling you sits beneath every demand, and no line on a map holds if the ground below it is rotten. Maren looks at her hands. Drust looks at Maren.",
+      "choices": [
+        { "label": "insist on answers", "nextNode": "old-betrayal", "hint": "Maren's jaw tightens and she starts to speak, then stops, then starts again." },
+        { "label": "watch their faces", "nextNode": "old-betrayal", "hint": "Drust's eyes stay locked on Maren, and the anger there shifts into something else." }
+      ]
+    },
+    "old-betrayal": {
+      "passage": "Silence holds the clearing until Maren speaks, her voice breaking once before she steadies it. She says Drust's grandfather poisoned a shared grain store thirty years ago, breaking a sworn harvest pact to drive Ashgrove from the eastern ridge. Drust goes pale. He does not deny it. The clearing is so hushed you can hear moss dripping from the pillars.",
+      "choices": [
+        { "label": "question Maren", "nextNode": "confront-maren", "hint": "If she has known this all along, you need to understand why she kept quiet." },
+        { "label": "face Drust", "nextNode": "confront-drust", "hint": "His face tells you he is hearing this for the first time." }
+      ]
+    },
+    "confront-maren": {
+      "passage": "The question lands before you can soften it: why has she kept this truth to herself? Maren meets your gaze. She says she fears the truth will end any chance of peace, that telling it feels like throwing a lit torch into a haystack, but she cannot negotiate over a lie. Honesty hangs between them like a blade above the table.",
+      "choices": [
+        { "label": "forgive her silence", "nextNode": "lasting-peace", "hint": "Drust watches you absolve her, and something in his posture shifts forward." },
+        { "label": "name it betrayal", "nextNode": "fragile-accord", "hint": "Maren closes her eyes, and the clearing seems to grow colder around her." }
+      ]
+    },
+    "confront-drust": {
+      "passage": "Drust stares at the ground. When he speaks, his voice is stripped bare. He says he never knew. His grandfather's name is carved on the tallest slab in Thornwall's village, honored above all others, and now that name is a lie. He grips the edge of the oak table until his knuckles crack. The weight of it bends him.",
+      "choices": [
+        { "label": "give him a moment", "nextNode": "fragile-accord", "hint": "He breathes out slowly, and when he looks up, his eyes are wet." },
+        { "label": "force an answer", "nextNode": "violence", "hint": "His hand moves to his knife and his guards step forward as one." }
+      ]
+    },
+    "invoke-the-binding": {
+      "passage": "You raise your voice above both leaders and speak the words carved on the oldest stone, words in a language rough on your tongue, older than either clan, older than the forest around you. Maren and Drust fall silent. Wind stirs the circle, though the trees beyond stand perfectly still. The ring is listening.",
+      "choices": [
+        { "label": "channel the power", "nextNode": "stones-respond", "hint": "A hum rises from the earth and travels through the soles of your boots." },
+        { "label": "trust the circle", "nextNode": "stones-respond", "hint": "The wind inside the ring picks up, and the carved words begin to glow." }
+      ]
+    },
+    "stones-respond": {
+      "passage": "Bright lines trace the carved words on every pillar, slow as sunrise. The ground trembles. Maren grabs the table edge and Drust steps back, his bravado gone. A voice rises from the rock itself, wordless but clear, carrying the weight of every oath ever spoken in this ring. It demands a new one. Both leaders look to you.",
+      "choices": [
+        { "label": "speak the oath", "nextNode": "channel-the-oath", "hint": "Words form on your lips that you do not remember learning." },
+        { "label": "step away", "nextNode": "resist-the-pull", "hint": "The glow flickers and the hum drops a note, as if disappointed." }
+      ]
+    },
+    "channel-the-oath": {
+      "passage": "Words pour from you in the old language, steady and sure, as if the pillars themselves are speaking through your throat. Maren kneels. After a long breath, Drust follows. Golden thread wraps around their wrists, binding hand to hand across the oak table. The voice from the rock falls quiet. It is done.",
+      "choices": [
+        { "label": "bow to the ring", "nextNode": "bound-by-stone", "hint": "The thread fades, but the oath remains, carved deeper than any letter." },
+        { "label": "break the circle", "nextNode": "violence", "hint": "Drust tears his hand free and the thread snaps with a sound like glass." }
+      ]
+    },
+    "resist-the-pull": {
+      "passage": "The pull of the ring tightens around your ribs as you step outside and wrench free. The glow fades from the carvings, slowly, reluctant to let go. Maren watches with something between disappointment and relief. Drust says nothing. His shoulders drop. The ancient power is offering a solution you are not willing to accept.",
+      "choices": [
+        { "label": "summon them back", "nextNode": "fragile-accord", "hint": "Both leaders turn, but neither moves to sit down at the table again." },
+        { "label": "accept the stalemate", "nextNode": "walk-away", "hint": "You turn your back on the circle, and the glow fades to nothing." }
+      ]
+    },
+    "fragile-accord": {
+      "passage": "Hands clasp across the oak table, brief and tight, more ceremony than conviction, and the parchment between them is signed though the ink still glistens, not yet dry, not yet certain. Maren turns to her people. Drust rolls the map. The forest accepts the stillness. Peace, but on a cracked foundation.",
+      "choices": [],
+      "ending": {
+        "title": "Cracked Foundation",
+        "flavor": "Peace holds, for now, but neither side sleeps easy tonight.",
+        "action": "fold the parchment"
+      }
+    },
+    "lasting-peace": {
+      "passage": "Both leaders sign the parchment, then Maren offers her hand across the table and Drust takes it. Not a handshake but a grip, firm and held, while the morning glow breaks through the canopy and falls across the oak. Something shifts in the air. The guards lower their weapons. The farmers set down their staves. It is not forgiveness, not yet, but it is enough.",
+      "choices": [],
+      "ending": {
+        "title": "Common Ground",
+        "flavor": "The oaks will outlast the grudge, and the roots have already begun to weave together.",
+        "action": "leave them in peace"
+      }
+    },
+    "bound-by-stone": {
+      "passage": "The golden thread sinks into their skin. Gone. Maren and Drust stand together, blinking, as if waking from a shared dream that neither can name but both feel the shape of. The tall columns dim. The wind dies. Whatever binds them now is older than memory, and it will not break in their lifetime.",
+      "choices": [],
+      "ending": {
+        "title": "Bound by Stone",
+        "flavor": "Some oaths are stronger than the people who speak them.",
+        "action": "step outside the ring"
+      }
+    },
+    "walk-away": {
+      "passage": "The table sits behind you as you walk toward the tree line without looking back. The clearing holds its breath. Neither leader calls out. Neither follows. The path home stretches long through the forest, and you wonder if the words spoken today will matter in a year, or if they are already fading like breath in the chill air.",
+      "choices": [],
+      "ending": {
+        "title": "Unfinished Words",
+        "flavor": "The clearing waits, patient as the pillars, for someone else to try.",
+        "action": "walk the forest road"
+      }
+    },
+    "violence": {
+      "passage": "Steel rings. Drust's guards draw their blades and Maren's farmers lift their staves. The ancient columns watch in silence as the clearing erupts into shouting, then shoving, then the first wet sound of impact. You throw yourself between them but a shoulder catches your ribs and you hit the ground hard. The parchment tears under a boot.",
+      "choices": [],
+      "ending": {
+        "title": "Blood on Stone",
+        "flavor": "The ring remembers every oath broken in its shadow.",
+        "action": "crawl from the clearing"
+      }
+    }
+  }
+}

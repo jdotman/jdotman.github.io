@@ -1,0 +1,217 @@
+{
+  "id": "7f3a91c2-6d48-4e5b-b2a7-8c1f3e9d5a06",
+  "title": "Tidecaller's Wake",
+  "description": "Fog swallows your merchant ship in the Graymist Straits. The compass spins, the sea glows green, and something vast stirs beneath the keel.",
+  "author": "AI",
+  "tags": ["voyage"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-25",
+  "dayOfYear": "06-25",
+  "endingCount": 5,
+  "storyNumber": 84,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Fog swallows the merchant vessel Thornbreak as it drifts through the Graymist Straits. The sails hang limp. No wind. The crew stands motionless at the rails, eyes fixed on a sea gone flat and still as poured glass. Something green pulses once beneath the surface, then fades. The captain has not left his cabin in hours.",
+      "choices": [
+        { "label": "speak to the captain", "nextNode": "captain-cabin", "hint": "The cabin door is heavy and the hinges have not been oiled." },
+        { "label": "climb the rigging", "nextNode": "crow-nest", "hint": "Salt spray makes the ropes slick but the footholds are still solid." },
+        { "label": "go below", "nextNode": "lower-hold", "hint": "The air grows warm as you step down into the hold." }
+      ]
+    },
+    "captain-cabin": {
+      "passage": "The captain sits hunched over his desk with charts spread beneath his elbows and a compass in his palm, its needle spinning in slow circles that refuse to stop. He does not look up. 'Has not pointed north since the shoals,' he mutters. A lantern swings on its hook above him, though the cabin itself is perfectly still.",
+      "choices": [
+        { "label": "inspect the compass", "nextNode": "compass-spin", "hint": "The needle trembles as your fingers close around the brass casing." },
+        { "label": "study the charts", "nextNode": "chart-room", "hint": "Rolled parchment and loose pages cover every surface in the small room." }
+      ]
+    },
+    "crow-nest": {
+      "passage": "Rope burns your palms as you haul yourself up the mainmast. Fog blankets every horizon. Below the hull, the sea glows with green veins of brightness that trace slow patterns beneath the keel, each one larger than the one before it, pulsing like a heartbeat. Something vast moves down there. The crew has not noticed yet.",
+      "choices": [
+        { "label": "watch the glow", "nextNode": "mast-lights", "hint": "The green grows brighter the longer you stare at the surface below." },
+        { "label": "scan the horizon", "nextNode": "horizon-scan", "hint": "You shield your eyes and turn a slow circle atop the mast." }
+      ]
+    },
+    "lower-hold": {
+      "passage": "The ladder creaks under your weight. Down here, crates of salt pork and grain barrels line the walls, lashed tight for rough seas that never arrive. A low hum rises through the planks beneath your boots, something between a vibration and a song. Between the hull boards, faint green glow seeps in from outside, pulsing too steadily to be natural.",
+      "choices": [
+        { "label": "check the hull", "nextNode": "hull-marks", "hint": "Your hand finds something rough and unfamiliar along the inner planks." },
+        { "label": "follow the glow", "nextNode": "bilge-glow", "hint": "The brightness leads you deeper, past stacked crates and coiled rope." }
+      ]
+    },
+    "compass-spin": {
+      "passage": "You lift the compass from the captain's palm. The needle spins once, twice, then snaps downward with a click, pointing straight through the deck and into the sea below. The captain rises from his chair. 'Never seen it do that,' he whispers. A tremor runs through the hull. The glow outside brightens for a moment.",
+      "choices": [
+        { "label": "heed the bearing", "nextNode": "deep-channel", "hint": "The captain nods slowly and takes the wheel without another word." },
+        { "label": "warn the crew", "nextNode": "crew-deck", "hint": "Boots pound the deck above as you shout through the hatch." }
+      ]
+    },
+    "chart-room": {
+      "passage": "Charts hang pinned to every wall, sea routes marked in faded ink across paper that crumbles at the edges. One stands apart. Older, drawn on hide, it shows the Graymist Straits with a symbol at the center that looks like something between a whirlpool and an eye. Beneath it, someone has scratched a single word in charcoal: Tidecaller.",
+      "choices": [
+        { "label": "show the crew", "nextNode": "crew-deck", "hint": "The hide chart feels brittle in your hands as you carry it topside." },
+        { "label": "trace the route", "nextNode": "reef-passage", "hint": "Your finger follows the faded line through a maze of coral marks." }
+      ]
+    },
+    "mast-lights": {
+      "passage": "The glow intensifies as you watch from above. Patterns form beneath the surface, curving lines that spread outward from a central point somewhere ahead of the bow, pulsing in steady unison. Slow and rhythmic. A shape drifts at the center, vast enough to blot out the green entirely for a heartbeat before the pattern returns.",
+      "choices": [
+        { "label": "signal with a lantern", "nextNode": "signal-response", "hint": "You grab the oil lantern from the hook and swing it wide." },
+        { "label": "call to the crew", "nextNode": "crew-deck", "hint": "Your voice carries down through the fog but the words scatter fast." }
+      ]
+    },
+    "horizon-scan": {
+      "passage": "Nothing breaks the fog line. Every direction looks the same, a wall of white without edge or end that swallows distance and sound alike until even the sea beneath you feels like a guess. The mainmast creaks. Below on deck, the crew murmurs, and one of them points at something in the sea and backs away.",
+      "choices": [
+        { "label": "descend to the deck", "nextNode": "crew-deck", "hint": "The rungs are slick with dew and the climb down feels longer." },
+        { "label": "keep watching", "nextNode": "fog-wall", "hint": "Minutes pass and the white around you thickens into something solid." }
+      ]
+    },
+    "hull-marks": {
+      "passage": "Barnacles crust the inner hull in clusters, but these are not the kind any sailor knows, each one ringed with thin spiraling lines that look carved by a careful hand rather than grown from the sea. They glow faintly. You press a finger to one and it is warm, warmer than the hull around it. The lines pulse at your touch.",
+      "choices": [
+        { "label": "scrape the marks", "nextNode": "bilge-glow", "hint": "Flakes of shell come away under your knife but the lines remain." },
+        { "label": "report to the crew", "nextNode": "crew-deck", "hint": "You take the ladder two rungs at a time heading up." }
+      ]
+    },
+    "bilge-glow": {
+      "passage": "A green glow fills the lowest point of the hull, pooling between the ribs of the ship like something spilled and alive. The planks vibrate under your feet, a low drone you feel more than hear. Where the brightness peaks, the wood has gone soft. Almost clear. Shapes move on the other side, slow and enormous.",
+      "choices": [
+        { "label": "press your hand to it", "nextNode": "deep-channel", "hint": "The wood is warm and yields slightly under the pressure of your palm." },
+        { "label": "step back", "nextNode": "crew-deck", "hint": "The glow dims as you pull away, then brightens again behind you." }
+      ]
+    },
+    "signal-response": {
+      "passage": "The lantern swings out over the rail three times before you catch it and hold steady. For a breath, nothing. Then the glow beneath the surface pulses in answer, three slow flashes that mirror your signal exactly. A shape rises from the deep, drawing closer to the hull until a ridge of spines and a single pale eye come into view.",
+      "choices": [
+        { "label": "lower a line", "nextNode": "lantern-dive", "hint": "The rope uncoils into the green and something tugs it gently downward." },
+        { "label": "pull away", "nextNode": "crew-deck", "hint": "Your boots find the deck again and the solidity is a relief." }
+      ]
+    },
+    "fog-wall": {
+      "passage": "Thick white fog rolls in from every side at once, closing around the ship like a fist. Visibility drops to the length of the bowsprit. The rigging vanishes overhead. Somewhere behind you, a sailor drops a coil of rope and it lands with no sound at all, as though the fog eats noise along with everything else.",
+      "choices": [
+        { "label": "shout a warning", "nextNode": "crew-deck", "hint": "Your voice cracks in the thick air but someone below hears you." },
+        { "label": "hold the course", "nextNode": "deep-channel", "hint": "The ship moves on its own now, drawn forward by the current." }
+      ]
+    },
+    "crew-deck": {
+      "passage": "The crew gathers near the mainmast, their faces tight. The first mate holds a harpoon across his chest and speaks in clipped tones about turning back before the fog closes every way out. The cook argues for anchoring. No one agrees. A dinghy rests in its cradle, untouched. The green glow beneath the hull casts every face in a sickly tint.",
+      "choices": [
+        { "label": "arm the ship", "nextNode": "armed-deck", "hint": "The first mate opens the weapons locker and hands you a harpoon." },
+        { "label": "take the helm", "nextNode": "deep-channel", "hint": "The wheel feels alive in your grip, vibrating with each passing wave." },
+        { "label": "ready a boat", "nextNode": "lantern-dive", "hint": "The dinghy hits the green sea with a slap that echoes strangely." }
+      ]
+    },
+    "armed-deck": {
+      "passage": "Harpoons and boat hooks line the rail as the crew takes positions along the port side, eyes fixed on the glow that circles beneath them in widening arcs. The first mate lashes a lantern to a grappling hook. 'It is getting closer,' he mutters. Something scrapes the underside of the hull, long and slow. The ship tilts.",
+      "choices": [
+        { "label": "wait for contact", "nextNode": "creature-surface", "hint": "The crew holds steady with white knuckles wrapped around their weapons." },
+        { "label": "fire a volley", "nextNode": "narrow-pass", "hint": "Harpoons vanish into the glow and something below roars in answer." }
+      ]
+    },
+    "deep-channel": {
+      "passage": "The sea floor drops away beneath the keel. Ahead, the glow lines converge into a trench so wide it swallows the edges of your vision, green veins snaking down its walls like roots reaching for something deeper still. The hull groans. A current tugs the ship forward without wind or oar, gentle but firm. There is no turning back now.",
+      "choices": [
+        { "label": "drop anchor", "nextNode": "anchor-drop", "hint": "The chain feeds out fast and the sound fills the entire trench." },
+        { "label": "push through", "nextNode": "narrow-pass", "hint": "The walls of the trench narrow ahead but a gap remains open." },
+        { "label": "leap overboard", "nextNode": "lantern-dive", "hint": "The green glow beckons and the sea is warmer than you expected." }
+      ]
+    },
+    "reef-passage": {
+      "passage": "Coral towers rise from the fog like the spires of a drowned cathedral, crusted with barnacles and draped in strands of kelp that sway without any current to move them. A narrow channel runs between the two largest formations, barely wide enough for the ship. Something has passed through here before. Scratch marks line both sides of the gap.",
+      "choices": [
+        { "label": "steer carefully", "nextNode": "calm-shallows", "hint": "The coral scrapes the hull but the ship slides through with inches to spare." },
+        { "label": "trust the current", "nextNode": "tide-pull", "hint": "You release the wheel and the ship lurches sideways into the flow." }
+      ]
+    },
+    "anchor-drop": {
+      "passage": "Chain rattles through the bow as the anchor plunges into the trench. It falls for a long time. Too long. Then the chain snaps taut with a force that rocks the ship sideways, and something below begins to pull. The links grind against the hull as whatever holds the anchor drags it deeper, hand over hand.",
+      "choices": [
+        { "label": "cut the chain", "nextNode": "tide-pull", "hint": "The axe bites through the last link and the weight falls away." },
+        { "label": "haul it up", "nextNode": "creature-surface", "hint": "The winch screams as something far heavier than an anchor rises toward you." }
+      ]
+    },
+    "narrow-pass": {
+      "passage": "Walls of coral and rock rise on both sides, close enough to scrape the hull if the ship drifts even slightly. The wheel fights your grip. Ahead, the channel bends and narrows further. The glow beneath is blinding now, painting the rigging green. A tremor rolls through the keel. Whatever lives below, the ship sails directly over it.",
+      "choices": [
+        { "label": "guide the ship", "nextNode": "calm-shallows", "hint": "Coral walls scrape both sides of the hull as you thread the gap." },
+        { "label": "abandon the wheel", "nextNode": "tide-pull", "hint": "The current catches the stern and the ship spins into the trench wall." }
+      ]
+    },
+    "lantern-dive": {
+      "passage": "You hit the sea and the chill takes your breath. Below you, a ruined city stretches across the ocean floor, spires and arches half-buried in silt, their outlines traced by the same green glow that pulses through every surface. A lantern in your fist pushes back the murk. Something moves between the towers, watching. It does not approach.",
+      "choices": [
+        { "label": "swim deeper", "nextNode": "ending-treasure", "hint": "Your lungs tighten as you kick past the last spire and into open murk." },
+        { "label": "surface now", "nextNode": "creature-surface", "hint": "Bubbles stream past your face as you kick hard toward the hull above." }
+      ]
+    },
+    "creature-surface": {
+      "passage": "A shape breaks the surface thirty feet from the bow, all spine and scale and one enormous eye that catches the lantern and reflects it back in green. It is longer than the ship. Longer than two ships. Tendrils drift from its jaw like kelp in a lazy current, each one tipped with a faint bead of brightness.",
+      "choices": [
+        { "label": "offer the compass", "nextNode": "ending-covenant", "hint": "The brass is warm in your hand as you hold it toward the eye." },
+        { "label": "strike at it", "nextNode": "ending-depths", "hint": "The harpoon leaves your hand before you have time to reconsider." }
+      ]
+    },
+    "calm-shallows": {
+      "passage": "Open sea stretches ahead, flat and silver under a clearing sky. The fog thins behind you, retreating toward the straits as if held by an invisible wall. The glow fades beneath the hull. Ahead, a coastline takes shape through the haze, low hills and a harbor with a single lantern burning on its dock. Something glints on the reef below. Almost safe.",
+      "choices": [
+        { "label": "row for shore", "nextNode": "ending-harbor", "hint": "The oars creak in their locks as the crew pulls with everything left." },
+        { "label": "dive for the glint", "nextNode": "ending-treasure", "hint": "Something bright catches your eye on the shallow reef below the keel." }
+      ]
+    },
+    "tide-pull": {
+      "passage": "A current seizes the hull and drags the ship sideways into the trench. Dead helm. The crew scrambles for ropes but the deck tilts at an angle that sends crates sliding overboard and scatters everything not lashed down. The glow below flares, and for a heartbeat the ocean floor is visible, vast and littered with shipwrecks.",
+      "choices": [
+        { "label": "fight the current", "nextNode": "ending-adrift", "hint": "Every muscle burns but the ship moves an inch at best against the flow." },
+        { "label": "release the wheel", "nextNode": "ending-depths", "hint": "Your fingers open and the ship drops bow-first into the trench below." }
+      ]
+    },
+    "ending-harbor": {
+      "passage": "The Thornbreak slides into the harbor as dawn breaks over the hills. Ropes fly to the dock and hands catch them. The crew stands on deck, filthy and shaking, but alive. Behind the ship, the fog holds its line at the mouth of the straits, a white wall that goes no further. The compass points north again.",
+      "choices": [],
+      "ending": {
+        "title": "Safe Harbor",
+        "flavor": "Dawn has never tasted so sweet.",
+        "action": "tie off the ropes"
+      }
+    },
+    "ending-depths": {
+      "passage": "The hull cracks. A sound like thunder. Seawater rushes in from every side as the Thornbreak folds inward, dragged by something that will not let go. The last thing you see is green, everywhere and blinding, and the vast eye watching from below as the ocean closes over your head. The fog rolls on without you.",
+      "choices": [],
+      "ending": {
+        "title": "Into the Deep",
+        "flavor": "The sea keeps what it claims.",
+        "action": "close your eyes"
+      }
+    },
+    "ending-covenant": {
+      "passage": "The creature dips its head. The compass lifts from your hand, floating down into the green as though it belongs there. In return, something presses against the hull, gentle as a palm, and the ship surges forward on a current that comes from nowhere, faster than any wind could drive it. The crew watches the fog part like a curtain.",
+      "choices": [],
+      "ending": {
+        "title": "Compass for Passage",
+        "flavor": "Some debts are paid without coin.",
+        "action": "let go of the compass"
+      }
+    },
+    "ending-treasure": {
+      "passage": "Your fingers close around a crown of woven coral and emerald, resting on a pedestal at the center of the sunken hall. The glow brightens, warm now instead of eerie, and the ruins seem to hum with something like approval. You kick toward the surface with the crown under your arm. The crew hauls you aboard, speechless.",
+      "choices": [],
+      "ending": {
+        "title": "Coral Crown",
+        "flavor": "Worth more than any cargo you have ever carried.",
+        "action": "claim the crown"
+      }
+    },
+    "ending-adrift": {
+      "passage": "The current releases you somewhere beyond the straits, in open ocean with no shore in sight. The compass is gone. The charts are soaked beyond reading. The crew sits in silence among the wreckage of the deck, drifting under a sky that offers no landmarks. Somewhere below, the glow fades for the last time. You are alone.",
+      "choices": [],
+      "ending": {
+        "title": "Beyond the Fog",
+        "flavor": "The sea does not always kill, but it can forget you.",
+        "action": "drift into nothing"
+      }
+    }
+  }
+}

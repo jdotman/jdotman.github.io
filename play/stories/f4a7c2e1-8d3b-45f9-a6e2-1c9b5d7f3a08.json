@@ -1,0 +1,225 @@
+{
+  "id": "f4a7c2e1-8d3b-45f9-a6e2-1c9b5d7f3a08",
+  "title": "Vanishing Ink",
+  "description": "A canal-district mapmaker has vanished, leaving behind a half-finished chart that moves when you look away. The ink is alive, and it remembers every coast.",
+  "author": "AI",
+  "tags": ["mystery"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-24",
+  "dayOfYear": "06-22",
+  "endingCount": 6,
+  "storyNumber": 81,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Rain drips from the eaves of a narrow shop wedged between two leaning buildings. The sign reads Corlen's Charts. A watchman waits at the door. He tells you the mapmaker has been missing for three days, and inside, a half-finished chart sits on the drafting table with ink so fresh it glistens under the lantern's glow. Something feels wrong.",
+      "choices": [
+        { "label": "search the shelves", "nextNode": "back-shelves", "hint": "Dust coats every surface except a gap where something was recently removed." },
+        { "label": "study the map", "nextNode": "shifting-map", "hint": "The coastline seems different from where you first glanced at it." },
+        { "label": "knock next door", "nextNode": "neighbor-door", "hint": "A curtain twitches in the window before you reach the step." }
+      ]
+    },
+    "back-shelves": {
+      "passage": "Rolls of parchment fill the shelves from floor to ceiling, each sealed with colored wax. Trade routes, mostly. One shelf near the back sits empty except for a locked iron box no larger than a fist, with fresh scratch marks along its clasp. Beneath the lowest shelf, a loose board shifts under your weight. Something scrapes below.",
+      "choices": [
+        { "label": "pry the lockbox", "nextNode": "lockbox", "hint": "The clasp resists for a moment before giving with a sharp snap." },
+        { "label": "lift the board", "nextNode": "crawlspace", "hint": "Damp air rises from below, carrying the smell of canal brine." }
+      ]
+    },
+    "shifting-map": {
+      "passage": "The drafting table holds a large chart pinned at four corners. Coastlines, rivers, and ranges fill the page in fine brushwork. You lean closer. A river delta at the edge shifts, the ink crawling like a living thing, redrawing itself into a channel that points toward the canal district's old foundation tunnels. The map knows you are watching.",
+      "choices": [
+        { "label": "touch the ink", "nextNode": "ink-touch", "hint": "The ink feels warm under your fingertip, almost like touching skin." },
+        { "label": "copy the symbols", "nextNode": "symbol-copy", "hint": "Your hand moves fast, sketching the marks before they rearrange themselves." }
+      ]
+    },
+    "neighbor-door": {
+      "passage": "A hunched woman opens the door a crack. Pipe smoke drifts out. When you mention Corlen, her grip tightens on the frame and her voice drops to something barely above a whisper. She says he kept odd hours near the end, hauling crates to the canal landing well past midnight. Her cat watches from the sill, unblinking.",
+      "choices": [
+        { "label": "ask about Corlen", "nextNode": "neighbor-talk", "hint": "She glances both ways down the alley before answering your question." },
+        { "label": "inspect the landing", "nextNode": "canal-landing", "hint": "Wet boot prints lead from the shop's back door to the canal." }
+      ]
+    },
+    "lockbox": {
+      "passage": "The clasp snaps and the lid springs open. Inside sits a glass vial half-full of ink so deep it seems to swallow the lamplight around it. A folded note beneath reads: The pool remembers every coast. Feed it nothing more. Beside the vial, scratch marks on the box floor trace a crude arrow pointing down.",
+      "choices": [
+        { "label": "take the vial", "nextNode": "hidden-passage", "hint": "The glass pulses with warmth in your hand, almost like a heartbeat." },
+        { "label": "follow the note", "nextNode": "canal-below", "hint": "A pool that remembers coasts can only mean the old foundations." }
+      ]
+    },
+    "crawlspace": {
+      "passage": "Beneath the shelf, a narrow gap opens into a crawlspace thick with dust and cobwebs. Your knees scrape packed earth as you pull yourself forward, past rusted nails and a broken lantern frame, until the ground drops away at a square hole cut clean through the floor. A ladder descends into murk. Nearby, a sealed crate bears Corlen's wax stamp.",
+      "choices": [
+        { "label": "climb the ladder", "nextNode": "hidden-passage", "hint": "The rungs are slick but hold your weight as you descend." },
+        { "label": "open the crate", "nextNode": "canal-landing", "hint": "Corlen's wax seal cracks under your thumb as you lift the lid." }
+      ]
+    },
+    "ink-touch": {
+      "passage": "The ink clings to your finger and spreads past your knuckle before you pull away. Images flood your mind: a cavern beneath the city, a churning pool, Corlen kneeling beside it with both hands submerged to the wrist. His mouth moves but no sound reaches you. The vision breaks. The ink retreats to the page, but a stain remains on your skin.",
+      "choices": [
+        { "label": "descend to the water", "nextNode": "canal-below", "hint": "The stain on your hand tingles as you approach the canal's edge." },
+        { "label": "trace the vision", "nextNode": "hidden-passage", "hint": "The cavern from the vision must connect to tunnels beneath the shop." }
+      ]
+    },
+    "symbol-copy": {
+      "passage": "You sketch the symbols fast onto scrap parchment before they can shift. Familiar shapes. The marks echo the ward-signs carved above temple doors across the district, though no scribe you know uses this alphabet. A canal barge passes outside, and its wake makes the shop floor tremble. More ink bleeds from the chart's edges.",
+      "choices": [
+        { "label": "visit the supplier", "nextNode": "ink-merchant", "hint": "If the ward-signs match, the ink merchant on Dyers Row will know." },
+        { "label": "head to the docks", "nextNode": "canal-landing", "hint": "The barge follows the canal toward the district's old foundation arches." }
+      ]
+    },
+    "neighbor-talk": {
+      "passage": "She lowers her voice. The words come fast: Corlen stopped answering his door a week ago, and the night before he vanished, she heard grinding and chanting from below the shop floor. A supplier on Dyers Row keeps bringing him vials of something she cannot name. Boot prints appear at the canal landing every morning, fresh ones.",
+      "choices": [
+        { "label": "hurry to the docks", "nextNode": "canal-landing", "hint": "Fresh boot prints every morning means someone still uses the landing." },
+        { "label": "find the supplier", "nextNode": "ink-merchant", "hint": "A supplier on Dyers Row who deals in unnamed goods deserves a visit." }
+      ]
+    },
+    "canal-landing": {
+      "passage": "Wooden steps lead to a narrow dock slick with algae. No boat. Two mooring posts jut from the green canal with rope still knotted to one, its end trailing in the current. Crate marks scar the planks, and a set of gouges runs from the center to the edge where boards give way to a rusted drain grate.",
+      "choices": [
+        { "label": "lower yourself down", "nextNode": "canal-below", "hint": "The green canal is warmer than you expect and smells of iron." },
+        { "label": "enter the drain", "nextNode": "old-tunnel", "hint": "The rusted grate groans as you pull it aside and step through." }
+      ]
+    },
+    "hidden-passage": {
+      "passage": "A narrow ladder drops into a brick tunnel beneath the canal district. The air bites. Brine and old mortar coat your tongue as pale fire clings to the right wall, painting the passage in sickly green. From the left, running water echoes out of the deep. Boot prints press into wet silt, heading both directions.",
+      "choices": [
+        { "label": "wade through", "nextNode": "flooded-tunnel", "hint": "The current pushes against your legs as the ceiling drops lower ahead." },
+        { "label": "pursue the glow", "nextNode": "dry-ledge", "hint": "Pale fire on the bricks leads you forward along the raised path." }
+      ]
+    },
+    "canal-below": {
+      "passage": "Green water laps against the slick walls. Waist deep. It reaches you warm and thick with sediment that swirls around your legs, making each step heavier than the last as you push through the canal's flooded underbelly. Ahead, a wide arch of fitted blocks disappears beneath the district's oldest quarter, crusted with barnacles. A side channel branches left.",
+      "choices": [
+        { "label": "swim under the arch", "nextNode": "submerged-arch", "hint": "Barnacles scrape your shoulders as the current pulls you into the gap." },
+        { "label": "crawl to the ledge", "nextNode": "flooded-tunnel", "hint": "The shallower channel narrows fast, forcing you onto hands and knees." }
+      ]
+    },
+    "ink-merchant": {
+      "passage": "The shop across Dyers Row reeks of iron filings and rendered fat. Jars of colored ink line the counter, labeled in a cipher only the owner reads. A tall man with stained fingers watches you from behind a set of brass scales, his expression guarded and still. He says nothing. His hand drifts toward something beneath the counter.",
+      "choices": [
+        { "label": "press for answers", "nextNode": "hidden-passage", "hint": "His eyes flick to the door before settling back on yours." },
+        { "label": "rummage the stock", "nextNode": "canal-below", "hint": "Behind the counter, jars of ink sit unlabeled and faintly warm." }
+      ]
+    },
+    "old-tunnel": {
+      "passage": "Brick walls arch overhead as the drain opens into a passage wide enough to stand. The current tugs at your boots, knee-deep and climbing. Ahead, the tunnel forks where a collapse has split the route, one side dropping into a rush of churning flow while the other angles upward along a crumbling ledge. The air grows thick with rot.",
+      "choices": [
+        { "label": "brave the current", "nextNode": "flooded-tunnel", "hint": "The flow strengthens as the ceiling drops, pulling at your boots." },
+        { "label": "scale the wall", "nextNode": "dry-ledge", "hint": "Handholds carved into the brick lead to a dry shelf above." }
+      ]
+    },
+    "flooded-tunnel": {
+      "passage": "The water rises. Past your knees, then your waist, until your chin brushes the surface and each breath tastes of brine and whatever else lives in the canal's forgotten channels. Ahead, the tunnel opens into a larger space where a faint pulse of color drifts below the surface. Behind you, a rusted ladder leads up through a crack in the wall.",
+      "choices": [
+        { "label": "push deeper", "nextNode": "pool-chamber", "hint": "The glow beneath the surface grows brighter with every step forward." },
+        { "label": "haul up", "nextNode": "mapmaker-cell", "hint": "The ladder looks old but the bolts still hold firm in the wall." }
+      ]
+    },
+    "dry-ledge": {
+      "passage": "A raised path of fitted blocks runs along the tunnel wall, high enough to keep your boots out of the muck. Carvings line the surface, spirals and wave patterns worn smooth by centuries of damp air. Ahead, the ledge narrows to a gap barely wide enough for your shoulders. Beyond it, firelight flickers against a low ceiling. Someone is alive down here.",
+      "choices": [
+        { "label": "drop below", "nextNode": "pool-chamber", "hint": "The fall is short and the landing splashes louder than you like." },
+        { "label": "squeeze through", "nextNode": "mapmaker-cell", "hint": "Rock scrapes your ribs as you wedge yourself into the narrow gap." }
+      ]
+    },
+    "submerged-arch": {
+      "passage": "An archway of green-slicked blocks frames a flooded passage barely tall enough to clear your head. The current pulls. Beneath the surface, shapes drift in the murk, too slow for fish and too large for anything you want to name. Beyond the arch, the ceiling lifts and the passage widens into a vast open space, its far walls lost in dim glow.",
+      "choices": [
+        { "label": "surface ahead", "nextNode": "pool-chamber", "hint": "The ceiling lifts and air fills your lungs in a cold rush." },
+        { "label": "grab the chain", "nextNode": "dry-ledge", "hint": "Rust flakes off under your grip as you haul yourself sideways." }
+      ]
+    },
+    "pool-chamber": {
+      "passage": "The tunnel opens into a vaulted chamber carved from bedrock. The air hums. At the center, a pool of black ink churns without wind or tide, its surface rippling in slow rings that lap against the carved edges of a basin older than the city above. Warmth radiates from the pool, and you feel a low vibration in your teeth.",
+      "choices": [
+        { "label": "speak to the ink", "nextNode": "ink-bargain", "hint": "The vibration in the air shifts to something that almost forms words." },
+        { "label": "circle the edge", "nextNode": "mapmaker-cell", "hint": "Boot prints in the silt lead around the basin toward a far wall." }
+      ]
+    },
+    "ink-bargain": {
+      "passage": "A voice rises from the pool, not spoken aloud but pressed into the bones of your skull like a word stamped in wet clay. It offers a trade. Your name for its knowledge, the memory of every shore and river it has charted across centuries of watching tides reshape the world. All the coasts of the world, yours forever.",
+      "choices": [
+        { "label": "drink from the pool", "nextNode": "ink-consumed", "hint": "The ink tastes like salt and iron and something older than both." },
+        { "label": "accept the pact", "nextNode": "ink-pact", "hint": "Your hand moves toward the surface before you can think twice." },
+        { "label": "refuse the offer", "nextNode": "mapmaker-cell", "hint": "The voice dims but the passage behind you stays open for now." }
+      ]
+    },
+    "mapmaker-cell": {
+      "passage": "Corlen kneels on a slab at the edge of the chamber, wrists bound with cords of dried ink that pulse like veins. His eyes are open but distant. Charts and tools surround him, spread across the floor in careful order, as if he has been working down here by choice. He blinks when he sees you. His lips crack into a dry whisper.",
+      "choices": [
+        { "label": "free the mapmaker", "nextNode": "free-corlen", "hint": "The cords of ink feel brittle and warm as you grip them." },
+        { "label": "demand the truth", "nextNode": "demand-truth", "hint": "His eyes focus on yours for the first time since you arrived." }
+      ]
+    },
+    "free-corlen": {
+      "passage": "You cut the cords and they crumble like ash. Corlen staggers upright, flexing numb fingers. He says the ink will not let him leave unless someone takes his place, but the tunnel behind you still carries a draft from above. He grabs your arm and nods toward the passage. A rolled chart rests on the slab behind him.",
+      "choices": [
+        { "label": "leave together", "nextNode": "escape-ending", "hint": "Night air reaches you from somewhere above, distant but real." },
+        { "label": "keep the chart", "nextNode": "chart-keeper", "hint": "The ink on the rolled page shifts under your fingers, still alive." }
+      ]
+    },
+    "demand-truth": {
+      "passage": "He looks up, his voice raw and thin. He tells you the ink is older than the city, a living record of every coastline since before the first maps. He says he sought it to complete his life's work, the definitive chart of every known shore, but the pool wants more than notes and measurements. It wants a keeper. His hands tremble.",
+      "choices": [
+        { "label": "help him finish", "nextNode": "sacrifice-ending", "hint": "His hands steady as he reaches for the basin one last time." },
+        { "label": "smash the basin", "nextNode": "ashes-ending", "hint": "The rim cracks easily under your heel, thinner than it looks." }
+      ]
+    },
+    "ink-consumed": {
+      "passage": "The ink enters your mouth and fills your lungs with warmth, not drowning but dissolving. The world splits into a thousand coastlines overlapping, rivers flowing in all directions at once, and your own name drifts away like a chart dropped into the tide. Corlen calls from somewhere far above, but you are already part of the record. Every shore, every current. Forever.",
+      "choices": [],
+      "ending": {
+        "title": "Charted and Gone",
+        "flavor": "The ink remembers you now, even if you do not.",
+        "action": "swallow the ink"
+      }
+    },
+    "ink-pact": {
+      "passage": "You press your palm flat against the pool's surface and feel it close around your hand like a second skin. Knowledge pours in: coastlines and currents and the names of harbors that rest beneath the waves, older than any living memory. Corlen watches from the slab with something between pity and relief. The pool goes still. The new keeper begins.",
+      "choices": [],
+      "ending": {
+        "title": "Keeper of Coasts",
+        "flavor": "Every shore in the world lives behind your eyes now.",
+        "action": "press your palm down"
+      }
+    },
+    "escape-ending": {
+      "passage": "Torchlight fades behind you as you and Corlen climb the ladder to the surface. Night air hits your face, and the canal stretches out under a scatter of early stars with the city humming beyond the rooftops. Corlen breathes deep and says he will never draw another map. The ink stain on your hand begins to fade. The city feels new.",
+      "choices": [],
+      "ending": {
+        "title": "Surface Air",
+        "flavor": "Some maps are better left unfinished.",
+        "action": "climb to the surface"
+      }
+    },
+    "chart-keeper": {
+      "passage": "Corlen calls after you as you take the rolled chart from the slab and step back toward the passage. The ink on the page shifts under your fingers, alive with routes no other cartographer will ever see. Corlen's voice fades behind you as you climb toward the night air, the chart pressed tight against your chest. His cries echo, then stop.",
+      "choices": [],
+      "ending": {
+        "title": "Stolen Routes",
+        "flavor": "The chart knows every coast, but you left the mapmaker behind.",
+        "action": "take the chart"
+      }
+    },
+    "sacrifice-ending": {
+      "passage": "Corlen grips the edge of the basin and plunges both arms into the ink. His body goes rigid, and the pool flares with pale fire that lights up every crack in the vaulted ceiling. Charts fly from the floor and press flat against the walls, filling with coastlines that write themselves faster than any hand could draw. His breathing stops. The maps are complete.",
+      "choices": [],
+      "ending": {
+        "title": "Every Known Shore",
+        "flavor": "His life's work rests on every wall, finished at last.",
+        "action": "watch him finish"
+      }
+    },
+    "ashes-ending": {
+      "passage": "The basin cracks under your fist and ink spills across the floor in a tide that loses its glow as it spreads, seeping into every crack and fissure in the old bedrock. Corlen gasps. The cords around his wrists dissolve. Charts curl and blacken against the walls, and the hum in the chamber dies to nothing but wet rock and brine.",
+      "choices": [],
+      "ending": {
+        "title": "Blank Pages",
+        "flavor": "The maps are gone, but the mapmaker walks free.",
+        "action": "shatter the basin"
+      }
+    }
+  }
+}

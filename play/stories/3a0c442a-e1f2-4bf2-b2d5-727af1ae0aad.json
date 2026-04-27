@@ -1,0 +1,237 @@
+{
+  "id": "3a0c442a-e1f2-4bf2-b2d5-727af1ae0aad",
+  "title": "Quiet Hands",
+  "description": "Your family's stolen falcon crest sits somewhere inside Lord Maren's lakeside villa. Fifty feast guests, hired guards, and a locked vault stand between you and the silver wings.",
+  "author": "AI",
+  "tags": ["stealth", "intrigue"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-06-28",
+  "dayOfYear": "06-28",
+  "endingCount": 5,
+  "storyNumber": 87,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Twilight settles over Lord Maren's lakeside villa as music drifts from the open windows. Somewhere inside, behind hired swords and locked doors, sits your family's stolen falcon crest. Three lanterns mark the grounds. The east wall wears a thick coat of ivy, reeds crowd the waterfront to the south, and a delivery cart rattles toward the kitchen.",
+      "choices": [
+        { "label": "climb the ivy", "nextNode": "trellis", "hint": "Rough vines press into your palms as you haul yourself up the wall." },
+        { "label": "wade through reeds", "nextNode": "reed-path", "hint": "Cool lake water rises past your knees with each careful step forward." },
+        { "label": "follow the cart", "nextNode": "kitchen-door", "hint": "The driver does not glance back as you fall into step behind him." }
+      ]
+    },
+    "trellis": {
+      "passage": "Ivy holds your weight as you scale the east face, and at the top a narrow ledge runs beneath a row of arched windows where one pane stands ajar. Curtains stir. Below, a guard crosses the courtyard with a torch, his route unhurried and predictable. The open window leads inside, while the ledge bends toward a balcony where candle glow flickers.",
+      "choices": [
+        { "label": "enter the window", "nextNode": "upper-gallery", "hint": "The curtain brushes your shoulder as you ease yourself through the frame." },
+        { "label": "edge toward the balcony", "nextNode": "balcony", "hint": "Wind tugs at your cloak as you inch along the narrow ledge." }
+      ]
+    },
+    "reed-path": {
+      "passage": "Lake water soaks your boots. Each step pulls at the silty bottom as you push through tall reeds toward the villa's boathouse, half-hidden by willow branches that trail into the shallows. A rowboat knocks against the dock in a slow rhythm. Something scrapes inside the boathouse, then goes quiet. The reeds behind you rustle, though no wind blows.",
+      "choices": [
+        { "label": "open the boathouse", "nextNode": "boathouse", "hint": "Damp wood groans against your hands as the boathouse door swings inward." },
+        { "label": "skirt the shore", "nextNode": "lake-shore", "hint": "Mud sucks at your heels as you circle the building toward the rocks." }
+      ]
+    },
+    "kitchen-door": {
+      "passage": "The delivery cart stops at a side entrance where cooks argue over a crate of salt fish. Steam rolls from the open doorway and the smell of roasted garlic fills the air. No one spares you a glance. Inside, a corridor leads left toward the servants' quarters, and a stairwell descends to the right, heat giving way to a damp chill.",
+      "choices": [
+        { "label": "slip into the corridor", "nextNode": "servants-hall", "hint": "Voices carry around the bend as you move through the narrow hallway." },
+        { "label": "take the stairs", "nextNode": "cellar", "hint": "The temperature drops with each step as you descend into the dimness." }
+      ]
+    },
+    "upper-gallery": {
+      "passage": "Portraits of Maren ancestors line the upper gallery, their painted eyes following your every step across the polished floor. A door at the far end stands slightly open, spilling lamplight across a writing desk. Below, through a carved railing, the feast hall glows amber and warm, fifty guests raising cups in unison. A guard's boots echo somewhere close.",
+      "choices": [
+        { "label": "search the open room", "nextNode": "study", "hint": "The lamp on the desk casts a warm circle across stacked papers." },
+        { "label": "cross to the railing", "nextNode": "feast-balcony", "hint": "From here you have a clear view of the entire hall below." }
+      ]
+    },
+    "balcony": {
+      "passage": "Candlelight spills from a pair of glass doors that open onto the balcony, and through them the upper gallery stretches toward a row of ancestral portraits hung along its far wall. Two paths. The air carries roasted meat and sweet wine from the feast below. Above, a figure moves across the rooftop, barely visible against the evening sky.",
+      "choices": [
+        { "label": "squeeze through the doors", "nextNode": "upper-gallery", "hint": "The glass doors click shut behind you as you step into the gallery." },
+        { "label": "press toward the roof", "nextNode": "rooftop-path", "hint": "Loose tiles shift underfoot as you hoist yourself up onto the roofline." }
+      ]
+    },
+    "boathouse": {
+      "passage": "Fishing nets hang from the rafters in dusty loops, and a trapdoor sits flush with the floorboards near the back wall. The rowboat outside taps its hull against the pilings in a steady knock. A lantern dangles from a hook, still warm, though whoever lit it leaves in a hurry. Mud tracks lead to the trapdoor. Voices carry from a door to the north.",
+      "choices": [
+        { "label": "descend the trapdoor", "nextNode": "cellar", "hint": "Splinters catch your sleeves as you lower yourself through the square opening." },
+        { "label": "head through the door", "nextNode": "servants-hall", "hint": "The smell of bread and broth grows stronger as the passage narrows." }
+      ]
+    },
+    "lake-shore": {
+      "passage": "Rocks jut from the waterline where the villa's foundation meets the lake. An iron grate, half-submerged and choked with moss, covers a drain that leads somewhere beneath the building. The metal bars are old and one bends at a wrong angle, leaving a gap just wide enough to squeeze through. Waves lap at your waist. A torch flickers in a window above.",
+      "choices": [
+        { "label": "crawl through the grate", "nextNode": "cellar", "hint": "Iron scrapes your shoulders as you drag yourself through the narrow gap." },
+        { "label": "paddle back to the dock", "nextNode": "boathouse", "hint": "The current tugs gently as you push through the shallows toward the dock." }
+      ]
+    },
+    "servants-hall": {
+      "passage": "A narrow corridor runs behind the main rooms of the villa, lit by tallow candles in iron brackets that gutter each time a servant passes with trays of roasted fowl. The hall splits. Left leads to the noise of the feast, where laughter and music pour through an archway wide enough to slip through. Right slopes downward, cool air rising from below.",
+      "choices": [
+        { "label": "blend into the feast", "nextNode": "feast-hall", "hint": "The music grows louder and the crowd thickens as you step through the arch." },
+        { "label": "sneak down the slope", "nextNode": "cellar", "hint": "Cool air wraps around your ankles as you descend into the dim below." }
+      ]
+    },
+    "study": {
+      "passage": "A writing desk dominates the room, buried under ledgers and wax-sealed letters. The lamp on it burns low but steady. Bookshelves line two walls, and a third holds mounted trophies: antlers, a boar's skull, and behind them a corridor that leads to what looks like a display room. A locked drawer rattles when you bump the desk. Something metal shifts inside.",
+      "choices": [
+        { "label": "examine the drawer", "nextNode": "desk-search", "hint": "The lock is old and the keyhole wide enough for a thin blade." },
+        { "label": "approach the trophies", "nextNode": "trophy-room", "hint": "Dust motes float in the lamplight as you move toward the far corridor." }
+      ]
+    },
+    "feast-balcony": {
+      "passage": "From the gallery railing you see the feast spread below like a painting. Lord Maren sits at the head of a long table, a silver key hanging from a chain at his belt. Servants weave between tables. At the far end, an archway opens into a room lined with mounted shields and glass cases. A silk curtain parts in the draft.",
+      "choices": [
+        { "label": "drop down to the hall", "nextNode": "feast-hall", "hint": "Your boots hit the flagstones hard but the music covers the landing." },
+        { "label": "peer through the archway", "nextNode": "trophy-room", "hint": "A narrow service stair behind the railing brings you down to the archway." }
+      ]
+    },
+    "rooftop-path": {
+      "passage": "Roof tiles shift beneath your weight as you move across the villa's spine. The lake glints silver far below. A skylight ahead is propped open with a stick, lamplight pouring up from a room full of bookshelves and loose papers. Beyond it, the chimney stack rises beside a small iron hatch, and from beneath it you hear two voices speaking in low tones.",
+      "choices": [
+        { "label": "pry open the skylight", "nextNode": "study", "hint": "The stick clatters aside as you widen the gap and swing your legs through." },
+        { "label": "slide open the hatch", "nextNode": "listening-post", "hint": "Warm air and muffled conversation rise through the gap as the hatch gives." }
+      ]
+    },
+    "cellar": {
+      "passage": "Cool air wraps around you as you descend into the cellar. Barrels crowd the floor. A draft pulls from the east wall, where a gap in the brickwork opens into a passage too regular to be natural. Wine racks line the opposite wall, bottles thick with dust. One rack sits crooked, as if someone moved it recently and forgot to push it back.",
+      "choices": [
+        { "label": "feel along the passage", "nextNode": "hidden-passage", "hint": "Rough brick gives way to smooth carved walls as the passage narrows ahead." },
+        { "label": "check behind the rack", "nextNode": "wine-rack", "hint": "The rack scrapes across the floor, revealing a low archway hidden behind it." }
+      ]
+    },
+    "feast-hall": {
+      "passage": "Music crashes off the vaulted ceiling as fifty guests feast at candlelit tables. Lord Maren sits at the head, a silver key glinting on his belt chain. Servants circle with platters. Against the far wall, a glass case holds something bright on a velvet cushion, flanked by two guards who look bored enough to miss a careful hand. Nobody watches the seat beside Maren.",
+      "choices": [
+        { "label": "sit beside the lord", "nextNode": "lord-table", "hint": "You pull out the empty chair and Maren barely glances your way." },
+        { "label": "inspect the glass case", "nextNode": "display-case", "hint": "The guards shift their weight but neither one moves to block your path." }
+      ]
+    },
+    "desk-search": {
+      "passage": "The lock on the drawer gives way to a thin blade from your belt. Inside lies a bundle of letters and a folded map with a red circle marking a room beneath the trophy hall. The word 'vault' is scratched beside it in hurried ink. A set of numbers runs along the margin. Six digits. Enough for a combination lock.",
+      "choices": [
+        { "label": "try the vault", "nextNode": "vault-door", "hint": "The map guides you through a hidden stair behind the trophy hall." },
+        { "label": "scan the trophy hall", "nextNode": "trophy-room", "hint": "The corridor from the study leads directly toward the mounted displays ahead." }
+      ]
+    },
+    "trophy-room": {
+      "passage": "Mounted heads and antlers line the walls. Glass eyes. A stuffed hawk seems to track your movement across the floor from its perch above the fireplace. A heavy door at the back is bolted with a combination lock, the word 'private' stamped into its iron face. Two guards stand near the entrance, their spears propped against the wall.",
+      "choices": [
+        { "label": "reach for the lock", "nextNode": "vault-door", "hint": "The combination dial is smooth under your fingers as you grip the mechanism." },
+        { "label": "bluff the guards", "nextNode": "guard-room", "hint": "The closer guard turns with a look of mild surprise on his face." }
+      ]
+    },
+    "listening-post": {
+      "passage": "Warm air rises through the iron hatch as you lower yourself into a cramped space between walls. Through a crack in the plaster, you see a servant kneeling before an open vault in Lord Maren's private room, loading silver into a sack. Maren speaks. Prices, debts, threats. The combination hangs on a brass hook beside the doorframe.",
+      "choices": [
+        { "label": "peek at the combination", "nextNode": "vault-door", "hint": "The numbers are clear enough to memorize before the servant shuts the door." },
+        { "label": "trace the corridor back", "nextNode": "trophy-room", "hint": "The cramped passage opens into a hallway lined with mounted heads and antlers." }
+      ]
+    },
+    "hidden-passage": {
+      "passage": "The passage narrows until your shoulders brush both walls, then opens into a wider tunnel lined with brick and timber supports. Torch brackets line the walls but none are lit. Ahead, the tunnel forks. One branch slopes upward toward a faint glow and the smell of old leather. The other curves left, where a heavy iron door stands slightly ajar, its bolt freshly oiled.",
+      "choices": [
+        { "label": "step toward the glow", "nextNode": "trophy-room", "hint": "The smell of leather and dust grows stronger as you climb the slope." },
+        { "label": "test the iron door", "nextNode": "vault-door", "hint": "Hinges groan softly as you push the heavy door open a few inches." }
+      ]
+    },
+    "wine-rack": {
+      "passage": "Behind the crooked rack, a low archway leads into a room lined floor to ceiling with bottles so dusty their labels are unreadable. Cobwebs hang thick. A stair rises at the far end, and you can hear the feast through the planks above, boots stomping in time with a fiddle. A second passage branches left, where brick gives way to carved tunnel walls.",
+      "choices": [
+        { "label": "tiptoe up the stairs", "nextNode": "feast-hall", "hint": "The fiddle swells as you push through a trapdoor into the hall's warmth." },
+        { "label": "push into the tunnel", "nextNode": "hidden-passage", "hint": "The carved walls narrow quickly but the passage stays clear ahead of you." }
+      ]
+    },
+    "lord-table": {
+      "passage": "You take the empty seat beside Lord Maren, close enough to smell the wine on his breath. He barely glances your way, deep in a loud hunting story. The silver key on his belt chain dangles within arm's reach. Plates clatter. Across the table, a merchant eyes you with a look that says she knows you do not belong.",
+      "choices": [
+        { "label": "lean toward the key", "nextNode": "pickpocket", "hint": "Your elbow brushes his sleeve as you shift closer to the glinting chain." },
+        { "label": "drift toward the case", "nextNode": "display-case", "hint": "The merchant watches you stand and cross the hall toward the glass display." }
+      ]
+    },
+    "display-case": {
+      "passage": "The glass case stands against the wall, bolted shut with iron clasps, and inside on faded velvet sits a falcon crest with silver wings spread wide. Yours, or a copy. The glow is too dim to tell true silver from painted copper. A brass plate below reads 'vault' with an arrow pointing through the floor. The real one might be underneath.",
+      "choices": [
+        { "label": "force the case open", "nextNode": "alarm-ending", "hint": "The iron clasp snaps and a bell rings sharp and clear above your head." },
+        { "label": "pick the floor lock", "nextNode": "vault-door", "hint": "A trapdoor hidden under a carpet creaks open quietly at your feet." }
+      ]
+    },
+    "guard-room": {
+      "passage": "The guards turn as one when you step forward, and the taller one narrows his eyes and asks what business brings you to the trophy room at this hour. His hand settles. His partner rests fingers on a sword hilt, casual but ready. Behind them, the locked door to the vault stands unguarded for the moment. Your next breath decides everything.",
+      "choices": [
+        { "label": "lunge past them", "nextNode": "caught-ending", "hint": "Fingers catch your collar before you make it three steps toward the door." },
+        { "label": "mention the vault code", "nextNode": "vault-door", "hint": "The guards hesitate, then the taller one steps aside with a grunt." }
+      ]
+    },
+    "vault-door": {
+      "passage": "The vault door stands thick as a man's fist, bolted with a combination lock that gleams under torchlight, and the slightest wrong number triggers a deadbolt and a bell that rings through the entire villa. Six numbers. Your fingers settle on the brass dial. The mechanism clicks with each turn, smooth and oiled, each digit falling into place. Five correct. One left.",
+      "choices": [
+        { "label": "turn the last digit", "nextNode": "relic-chamber", "hint": "The lock releases with a solid thud and the heavy door swings inward." },
+        { "label": "wrench it hard", "nextNode": "alarm-ending", "hint": "Metal grinds and a bell screams to life somewhere above your head." }
+      ]
+    },
+    "pickpocket": {
+      "passage": "Your fingers brush the chain at Maren's belt, and as he throws his head back with a laugh the key slides free from the clasp without so much as a whisper of metal on cloth. Warm brass. The merchant across the table stares at your closed fist. She starts to rise. You have the key but the next few seconds decide everything.",
+      "choices": [
+        { "label": "vanish into the crowd", "nextNode": "relic-chamber", "hint": "Bodies press close as you weave between tables toward the back corridor." },
+        { "label": "freeze in place", "nextNode": "caught-ending", "hint": "The merchant's voice cuts through the noise as she calls for the guards." }
+      ]
+    },
+    "relic-chamber": {
+      "passage": "The vault opens onto a chamber lined with gold coins, jeweled goblets, and bundled deeds, and on a marble stand at the center your family's falcon crest gleams under a single lantern. Silver wings, unmistakable. You close your hand around it. Above, a clock chimes midnight. Three ways out: the rooftop hatch, the lake tunnel, or the stair back to the feast.",
+      "choices": [
+        { "label": "scale the rooftop", "nextNode": "clean-ending", "hint": "Night air hits your face as you push through the hatch onto the tiles." },
+        { "label": "dive into the tunnel", "nextNode": "swim-ending", "hint": "Lake water rushes around your legs the moment you drop into the passage." },
+        { "label": "confront Lord Maren", "nextNode": "bargain-ending", "hint": "Your boots ring on the marble stairs as you climb back toward the feast." }
+      ]
+    },
+    "caught-ending": {
+      "passage": "Guards close in from both sides, spears lowered, and Lord Maren rises from his chair with a smile that tells you everything. Shackles click around your wrists before you can reach the door. The falcon crest stays on its stand, silver wings gleaming behind locked glass. Maren nods once. A cell door waits. You do not struggle as they lead you into the dim below.",
+      "choices": [],
+      "ending": {
+        "title": "Falcon Behind Glass",
+        "flavor": "Some cages have no bars, only better locks.",
+        "action": "lower your hands"
+      }
+    },
+    "alarm-ending": {
+      "passage": "A bell screams through the villa. Guards pour from every direction, and the vault door slams shut on its own, trapping you in a dead end with no window and no weapon. Torchlight floods the tunnel as boots close in. The falcon crest is steps away but might as well sit on the moon. You press your back to the wall.",
+      "choices": [],
+      "ending": {
+        "title": "Dead End",
+        "flavor": "The bell stops, but the ringing stays.",
+        "action": "wait for the guards"
+      }
+    },
+    "clean-ending": {
+      "passage": "Night air fills your lungs as you pull yourself onto the roof. The falcon crest presses warm against your ribs, tucked safe inside your shirt. Stars wheel above the lake and the villa shrinks as you drop from tile to trellis to solid ground. No alarm. No pursuit. The road home stretches through quiet fields, and for the first time tonight you smile.",
+      "choices": [],
+      "ending": {
+        "title": "Wings Returned",
+        "flavor": "The falcon flies home at last.",
+        "action": "walk into the dawn"
+      }
+    },
+    "swim-ending": {
+      "passage": "Lake water closes over your head as you plunge into the tunnel, and the current pulls you sideways through a grate and out into the open lake where stars ripple on the surface. You gasp. The falcon crest is clutched tight in one hand, but your boots are gone, along with the map, the lock picks, and the last of your coin. Heavy silver. Yours.",
+      "choices": [],
+      "ending": {
+        "title": "Drowned Pockets",
+        "flavor": "Freedom floats, but everything else sinks.",
+        "action": "swim for the shore"
+      }
+    },
+    "bargain-ending": {
+      "passage": "You walk to Lord Maren's table with the falcon crest held high in your open palm, and the entire hall goes quiet as every eye in the room turns toward the silver wings. He laughs. Maren offers a deal: keep the crest, but carry a message to the northern lords on his behalf. You take it. Every debt buys another.",
+      "choices": [],
+      "ending": {
+        "title": "Maren's Errand",
+        "flavor": "The falcon returns, but it carries new weight.",
+        "action": "accept the deal"
+      }
+    }
+  }
+}

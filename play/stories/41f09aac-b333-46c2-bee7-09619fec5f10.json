@@ -1,0 +1,232 @@
+{
+  "id": "41f09aac-b333-46c2-bee7-09619fec5f10",
+  "title": "Hollowfield",
+  "description": "A ranger arrives at a quiet village to find every door open, every meal half-eaten, and not a single soul in sight.",
+  "author": "AI",
+  "tags": ["eerie", "exploration"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-23",
+  "dayOfYear": "06-16",
+  "endingCount": 6,
+  "storyNumber": 75,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Hollowfield sits in a shallow valley between two birch-covered ridges, and smoke should curl from the chimneys at this hour, but none does. The village gate hangs wide. Through it, a cobbled square is visible, an inn to the left, rooftops beyond. A dog's bowl rests beside the road, full and untouched. No bark. No voice. Something is very wrong.",
+      "choices": [
+        { "label": "enter the square", "nextNode": "market-square", "hint": "The gate creaks as you pass through, hinges rusted from disuse." },
+        { "label": "check the inn", "nextNode": "village-inn", "hint": "The smell of fresh bread drifts through the half-open door." },
+        { "label": "circle the village", "nextNode": "perimeter-path", "hint": "Boot prints in the soft earth catch your eye right away." }
+      ]
+    },
+    "market-square": {
+      "passage": "Cobblestones stretch across the square, cracked and weedy. A cart of wilted turnips rests near a dry fountain, flies circling the heap. To the north, a chapel spire rises above the rooftops, and below it a well sits at the center of the square, bucket dangling from frayed rope. The inn's door faces the square from across the road. Nothing moves.",
+      "choices": [
+        { "label": "look down the well", "nextNode": "dry-well", "hint": "A musty draft rises from the opening, carrying the scent of clay." },
+        { "label": "approach the chapel", "nextNode": "chapel", "hint": "Candlelight flickers through the stained glass, though no one tends the flames." },
+        { "label": "try the inn", "nextNode": "village-inn", "hint": "The door stands half-open, warmth spilling out into the empty square." }
+      ]
+    },
+    "village-inn": {
+      "passage": "The inn door stands ajar. Three mugs of ale rest on a table, foam still fresh. A fire crackles in the hearth, recently fed. The room smells of bread and rosemary, but every chair sits empty. A staircase leads to the upper floor. Through a side passage, the kitchen gives off the scent of cooling stew.",
+      "choices": [
+        { "label": "search the kitchen", "nextNode": "inn-kitchen", "hint": "The clatter of a pot lid settling on the counter makes you flinch." },
+        { "label": "ascend the stairs", "nextNode": "inn-upstairs", "hint": "Each step groans under your weight, dust drifting from the banister." }
+      ]
+    },
+    "perimeter-path": {
+      "passage": "A narrow trail rings the village, trampled by boot prints that all point outward. None return. The tracks lead toward the birch forest to the east, where the canopy grows thick and low enough to swallow the trail whole. To the west, the market square is visible through a gap in the hedge. Something rustles in the underbrush ahead, though no wind blows.",
+      "choices": [
+        { "label": "follow the tracks", "nextNode": "forest-edge", "hint": "The prints press deeper as they near the tree line." },
+        { "label": "head to the square", "nextNode": "market-square", "hint": "A gap in the hedge opens onto cracked cobblestones and an empty cart." }
+      ]
+    },
+    "dry-well": {
+      "passage": "The well is bone-dry. Peering over the edge, you see the bucket swinging against the interior wall ten feet down, and scratch marks line the inner rim, deep and desperate, as if something is trying to climb out. A narrow tunnel opens at the bottom into pitch black. The chapel stands just across the square.",
+      "choices": [
+        { "label": "climb down", "nextNode": "well-descent", "hint": "The rope holds your weight, though it creaks against the weathered rim." },
+        { "label": "go to the chapel", "nextNode": "chapel", "hint": "The spire draws your eye as you turn away from the well." }
+      ]
+    },
+    "chapel": {
+      "passage": "Candleflame flickers across the chapel walls, casting long shapes that stretch and bend. No one tends the candles. All twelve burn steady. The altar at the far end is bare except for a circle of salt poured in a careful ring. Beneath the altar, a trapdoor sits half-hidden under a woven rug. The air smells of cedar and something older.",
+      "choices": [
+        { "label": "examine the altar", "nextNode": "altar-room", "hint": "The salt circle crunches under your boots as you step closer." },
+        { "label": "descend the trapdoor", "nextNode": "cellar-stairs", "hint": "Cool air rises from the gap beneath the wooden hatch." }
+      ]
+    },
+    "inn-kitchen": {
+      "passage": "Steam rises from a pot of stew on the iron stove. The broth bubbles. A cutting board holds half-chopped carrots, the knife resting beside them, the cut half-finished. Through the back door, a walled herb garden is visible, neat rows of mint and thyme under the afternoon sun. The square lies just beyond the front room.",
+      "choices": [
+        { "label": "step into the garden", "nextNode": "herb-garden", "hint": "The scent of mint and thyme sharpens as you cross the threshold." },
+        { "label": "cross to the square", "nextNode": "market-square", "hint": "The front door swings open onto the quiet market square." }
+      ]
+    },
+    "inn-upstairs": {
+      "passage": "Creaking boards groan under your weight as you reach the landing. Three rooms line the hallway, doors open. The first holds an unmade bed, boots still paired at the foot. The second is bare. In the third, a leather-bound journal lies open on a writing desk, its ink fresh. A ladder at the end of the hall leads up to a hatch in the ceiling.",
+      "choices": [
+        { "label": "read the journal", "nextNode": "journal-room", "hint": "The ink is fresh, the handwriting hurried and slanting downward." },
+        { "label": "take the ladder", "nextNode": "rooftop", "hint": "The ladder wobbles as you push through the ceiling hatch." }
+      ]
+    },
+    "forest-edge": {
+      "passage": "Birch trees crowd together at the tree line, their bark peeling in pale strips. Boot prints press deep into the mud here, dozens of them, all heading east into the canopy. A cave mouth gapes in the hillside ahead, half-hidden by bramble. To the south, a burned hut sits alone in a clearing, its roof collapsed and blackened.",
+      "choices": [
+        { "label": "explore the cave", "nextNode": "cave-mouth", "hint": "The boot prints converge at the entrance, then vanish inside." },
+        { "label": "inspect the hut", "nextNode": "burned-hut", "hint": "Ash stains your fingers before you even reach the doorframe." }
+      ]
+    },
+    "herb-garden": {
+      "passage": "Mint and thyme grow in tidy rows behind the inn, untouched by neglect. A worn path leads through the garden to a low gate. Beyond it, a dirt trail winds toward the birch forest. In the opposite direction, the chapel's back entrance stands propped open with a broom. Bees hum over the lavender, the only living sound in this place.",
+      "choices": [
+        { "label": "walk the trail", "nextNode": "forest-edge", "hint": "The dirt path narrows as it curves toward the birch tree line." },
+        { "label": "slip into the chapel", "nextNode": "chapel", "hint": "The chapel's back door stands open, a broom propping it wide." }
+      ]
+    },
+    "journal-room": {
+      "passage": "The journal belongs to the village healer. The last entry is dated three days ago. It describes a hum rising from below the chapel at night, growing louder each evening. The healer writes of sleepless neighbors, strange dreams, and a pull toward the forest that none of them can explain. The final line reads: 'Tonight it calls us all.'",
+      "choices": [
+        { "label": "visit the chapel", "nextNode": "chapel", "hint": "The healer's words echo in your mind as you cross the square." },
+        { "label": "trek to the forest", "nextNode": "forest-edge", "hint": "The pull the healer describes tugs at something behind your ribs." }
+      ]
+    },
+    "rooftop": {
+      "passage": "You climb through the hatch onto the inn's thatched roof. The view stretches across the whole valley. Hollowfield looks ordinary from up here, apart from the emptiness. To the east, the birch forest thickens, and a faint green pulse shows beneath the canopy. A vine-covered trellis runs down the back wall. Below, the journal room waits with its secrets.",
+      "choices": [
+        { "label": "drop to the ground", "nextNode": "forest-edge", "hint": "The trellis holds as you lower yourself into the back garden." },
+        { "label": "return inside", "nextNode": "journal-room", "hint": "The hatch creaks as you lower it, returning to the dusty hallway." }
+      ]
+    },
+    "cave-mouth": {
+      "passage": "The cave entrance is wide enough for three people walking abreast. Boot prints carpet the floor, pressed deep into wet clay. The tracks split at a fork ten paces in. One path descends steeply into rumbling black. The other curves right, where a faint green shimmer plays across the walls. The air tastes of earth and copper.",
+      "choices": [
+        { "label": "push deeper", "nextNode": "deep-cave", "hint": "The walls narrow and the boot prints thin to a single file." },
+        { "label": "veer right", "nextNode": "fungal-grotto", "hint": "A faint green shimmer plays across the tunnel walls ahead." }
+      ]
+    },
+    "burned-hut": {
+      "passage": "The hut's walls are charred black, the thatch roof caved in. Ash coats every surface. Inside the ruin, a cast-iron lockbox sits upright and untouched by the fire, its lid warm to the touch. Scratched into the lid is a crude map showing tunnels beneath the chapel. A trail of packed dirt leads north toward the hillside cave.",
+      "choices": [
+        { "label": "trace the path north", "nextNode": "cave-mouth", "hint": "Packed dirt gives way to loose gravel as the hillside steepens." },
+        { "label": "hurry to the chapel", "nextNode": "chapel", "hint": "The map scratched on the lockbox lid burns in your memory." }
+      ]
+    },
+    "well-descent": {
+      "passage": "You lower yourself on the rope, hand over hand, until your boots find the dry floor. The tunnel at the bottom smells of wet clay and old roots. It branches after twenty paces. The left fork slopes down into a cluster of pale, glowing fungi that pulse with a slow breathing rhythm. The right fork angles steeply, cold air rushing up from below.",
+      "choices": [
+        { "label": "choose the right fork", "nextNode": "underground-tunnel", "hint": "Cold air rushes over you as the passage narrows and steepens." },
+        { "label": "squeeze through the left", "nextNode": "fungal-grotto", "hint": "The humming grows louder with every step toward the pale caps." }
+      ]
+    },
+    "altar-room": {
+      "passage": "The altar is carved from a single block of pale wood. Smooth and old. The salt circle around its base is unbroken, precise, poured by a steady hand. Pressing your palm against the altar's side, you feel warmth and a faint vibration, like a heartbeat trapped inside the grain. A loose panel at the back wobbles when you lean against it.",
+      "choices": [
+        { "label": "press the loose panel", "nextNode": "ritual-chamber", "hint": "The panel swings inward, revealing carved steps that spiral down." },
+        { "label": "open the trapdoor", "nextNode": "cellar-stairs", "hint": "The wooden hatch lifts with a groan, revealing cramped stairs below." }
+      ]
+    },
+    "underground-tunnel": {
+      "passage": "The tunnel narrows until your shoulders brush the walls. Roots hang from the ceiling like reaching fingers. After a sharp turn, the passage opens into a junction. Two carved archways face each other. Through the left arch, a vaulted chamber flickers with amber candlelight. Through the right, pale fungi coat the walls, pulsing in a slow rhythm.",
+      "choices": [
+        { "label": "pass through the arch", "nextNode": "ritual-chamber", "hint": "Amber candlelight spills through the archway, casting long shapes on the walls." },
+        { "label": "crawl toward the fungi", "nextNode": "fungal-grotto", "hint": "The humming grows louder as you move toward the pale caps." }
+      ]
+    },
+    "cellar-stairs": {
+      "passage": "Wooden steps creak down into the chapel's cellar. The air hangs heavy. The walls are packed earth braced with old timbers. At the bottom, a cramped room holds shelves of preserves and tallow candles. On the far wall, a set of symbols is scratched into the dirt, glowing with a dim amber pulse. A heavy iron seal covers the floor beside them.",
+      "choices": [
+        { "label": "study the symbols", "nextNode": "binding-symbols", "hint": "The amber marks pulse faster as your fingers trace the nearest line." },
+        { "label": "touch the iron seal", "nextNode": "ending-sealed", "hint": "The metal vibrates under your palm, warm and steadily humming." }
+      ]
+    },
+    "deep-cave": {
+      "passage": "The passage drops steeply, each foothold slick with moisture. The ground levels out in a broad cavern. Stalactites drip overhead. At the far end, dozens of figures stand in the murk, arranged in neat rows like a crowd frozen mid-prayer. They do not move. They do not breathe. Their eyes are open.",
+      "choices": [
+        { "label": "move toward the figures", "nextNode": "frozen-villagers", "hint": "Their open eyes catch what little light reaches this far down." },
+        { "label": "turn back", "nextNode": "ending-lost", "hint": "The passage behind you looks different now, the fork less certain." }
+      ]
+    },
+    "fungal-grotto": {
+      "passage": "Pale fungi cling to every surface, caps wide as dinner plates. The air hums with a low vibration that settles behind your teeth. Soft green light fills the chamber, bright enough to see by but blurring the edges of everything beyond arm's reach. Two paths lead out. One descends toward distant frozen figures. The other rises toward carved steps.",
+      "choices": [
+        { "label": "continue downward", "nextNode": "frozen-villagers", "hint": "The humming fades as you leave the fungi and their glow behind." },
+        { "label": "march up the steps", "nextNode": "ritual-chamber", "hint": "Worn smooth by age, the steps hold firm under each careful stride." }
+      ]
+    },
+    "binding-symbols": {
+      "passage": "The symbols on the cellar wall form a ward circle, scratched deep into packed earth. Each line pulses with amber warmth. You recognize the pattern: a binding seal, designed to hold something beneath the ground. A hidden door sits behind the shelf of preserves, its frame lined with the same pulsing marks. The iron seal on the floor trembles faintly.",
+      "choices": [
+        { "label": "unravel the ward", "nextNode": "ritual-chamber", "hint": "Your fingers buzz as the amber ward yields its hidden path." },
+        { "label": "break the seal", "nextNode": "ending-sealed", "hint": "The iron splits with a sound like a bell cracking in half." }
+      ]
+    },
+    "ritual-chamber": {
+      "passage": "You step into a vaulted chamber carved from raw bedrock. Candles ring the room in a perfect circle, all burning without wax, without wicks. At the center, a pillar of clear crystal hums with the same vibration you feel in your chest, and something is trapped inside, pressing against the surface. A face. Many faces. The villagers of Hollowfield.",
+      "choices": [
+        { "label": "shatter the pillar", "nextNode": "ending-break-circle", "hint": "The crystal screams as thin cracks web slowly across its glassy surface." },
+        { "label": "place your hands on it", "nextNode": "ending-sacrifice", "hint": "Warmth floods through your palms, then something begins pulling back." }
+      ]
+    },
+    "frozen-villagers": {
+      "passage": "They stand in perfect rows, shoulder to shoulder. Men, women, children. Eyes open, lips parted, arms at their sides. Their skin carries a faint blue tint, cold to the touch but not frozen, and a heartbeat pulses through the group in unison, slow and measured, like a tide breathing in and out. They are alive, but somewhere else entirely.",
+      "choices": [
+        { "label": "speak to them", "nextNode": "ending-wake", "hint": "A word forms on your tongue that you do not remember learning." },
+        { "label": "leave and report", "nextNode": "ending-leave", "hint": "Your duty is to observe and inform, not to interfere." }
+      ]
+    },
+    "ending-sealed": {
+      "passage": "The iron seal cracks the moment you touch it. The cellar walls groan inward. Dirt pours from the ceiling, filling the room faster than you can dig. The entrance collapses behind you in a rush of timber and earth. The last thing you see is the amber symbols dimming, one by one, as the weight of the ground settles in.",
+      "choices": [],
+      "ending": {
+        "title": "Buried Below",
+        "flavor": "Some doors are meant to stay sealed.",
+        "action": "touch the seal"
+      }
+    },
+    "ending-lost": {
+      "passage": "The passage twists and forks again and again. Each turn looks the same. The air grows thin, your torch gutters, and the walls press close. You sit down to rest and realize you no longer remember which way leads up. The rock hums around you, patient and old, as if it is content to wait until you stop moving.",
+      "choices": [],
+      "ending": {
+        "title": "Swallowed Whole",
+        "flavor": "The mountain does not need to chase you.",
+        "action": "rest against the wall"
+      }
+    },
+    "ending-break-circle": {
+      "passage": "The crystal shatters when you drive your boot through its base. A rush of warm air floods the chamber. The candles die. In the ringing hush, voices rise from the broken shards, faint at first, then louder, until the villagers pour back into the world, blinking and bewildered. Names. Faces. Alive and whole. Hollowfield breathes again.",
+      "choices": [],
+      "ending": {
+        "title": "Shattered Binding",
+        "flavor": "Freedom rings louder than any spell.",
+        "action": "break the crystal"
+      }
+    },
+    "ending-sacrifice": {
+      "passage": "Both hands press against the crystal as you speak your own name. The pillar accepts the trade. Warmth drains from your fingers, your arms, your chest. The faces inside shift and blur, then vanish. Somewhere above, the villagers stir in their homes, confused but safe. Your reflection appears in the pillar now, eyes open, smiling faintly.",
+      "choices": [],
+      "ending": {
+        "title": "One for Many",
+        "flavor": "The crystal hums your name now, soft and grateful.",
+        "action": "speak your name"
+      }
+    },
+    "ending-wake": {
+      "passage": "A word rises from somewhere deep when your hand finds the nearest figure's palm. Older than language. The blue tint fades. Eyes blink. Mouths open. A child cries. The cavern fills with confusion and relief as the trance breaks. Single file, they follow you into the sun. None of them know why they are here.",
+      "choices": [],
+      "ending": {
+        "title": "Waking Dream",
+        "flavor": "They remember nothing, and that is its own kind of mercy.",
+        "action": "whisper the word"
+      }
+    },
+    "ending-leave": {
+      "passage": "Footsteps carry you away from the frozen figures and up toward the surface. Sun hits your face as you break through the tree line. Hollowfield sits below, quiet as a painting. You mark the cave entrance and start walking toward the nearest garrison. Someone else will need to handle this. The faces stay with you long after the village drops from view.",
+      "choices": [],
+      "ending": {
+        "title": "Ranger's Report",
+        "flavor": "Some burdens are easier to carry than to set down.",
+        "action": "walk away alone"
+      }
+    }
+  }
+}
