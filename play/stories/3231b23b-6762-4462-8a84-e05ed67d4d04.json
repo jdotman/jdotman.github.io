@@ -1,0 +1,166 @@
+{
+  "id": "3231b23b-6762-4462-8a84-e05ed67d4d04",
+  "title": "Wolfthroat Pass",
+  "description": "A mountain monastery is surrounded by mercenary raiders hunting a fugitive scholar. The abbot will not surrender him, and the gates will not hold past dawn.",
+  "author": "AI",
+  "tags": ["siege", "sacrifice"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-29",
+  "dayOfYear": "07-07",
+  "endingCount": 5,
+  "storyNumber": 96,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Snow falls on Wolfthroat Monastery as Abbot Vesper bars the chapel doors behind you, his fingers white where they grip the iron beam he just dropped into place. Two hundred mercenaries circle the only road up. They want the scholar Yon, who translated forbidden texts the southern duke needs buried. Vesper has fifteen monks and three crossbows. Dawn comes in six hours.",
+      "choices": [
+        { "label": "speak with Vesper", "nextNode": "vesper-plan", "hint": "The abbot kneels before the altar, hands shaking from cold or doubt." },
+        { "label": "find Yon", "nextNode": "scholar-cell", "hint": "A monk points down a stone corridor lit by a single guttering lamp." },
+        { "label": "study the walls", "nextNode": "wall-defense", "hint": "Wind howls through arrow slits cut deep into the granite battlements." }
+      ]
+    },
+    "vesper-plan": {
+      "passage": "Vesper has prayed for an hour. He looks like a man who already knows the answer he is fighting against. Three options, he says. Hold the gate and die together. Surrender Yon and live with shame. Or send Yon over the rear cliff into the gorge - a goat path leads to the next valley. Risky, but possible. The monks must decide soon.",
+      "choices": [
+        { "label": "argue for the cliff", "nextNode": "cliff-path", "hint": "Vesper closes his eyes. He has been hoping someone else would say it." },
+        { "label": "propose holding the gate", "nextNode": "gate-defense", "hint": "Two monks straighten as they overhear. Already loading crossbows in silence." }
+      ]
+    },
+    "scholar-cell": {
+      "passage": "Yon sits on a cot, ink-stained fingers wrapped around a steaming cup, the bone-deep tiredness of a man who has known capture is coming pressed into every line of his thin shoulders. He thanks you for coming. The texts he translated proved the duke ordered a massacre fifteen years ago. The duke wants him silent. Yon already wrote a copy. He hid it.",
+      "choices": [
+        { "label": "ask where the copy is", "nextNode": "hidden-text", "hint": "Yon glances toward the chapel without meaning to, then back at you." },
+        { "label": "offer to hide him", "nextNode": "cliff-path", "hint": "Yon shakes his head slowly, but his eyes ask you to insist." }
+      ]
+    },
+    "wall-defense": {
+      "passage": "The walls are thick but old. Mortar crumbles under your hand. Three crossbows lie on the parapet, plus a stockpile of tar pots and oil. The gate is iron-banded oak, but the hinges have rusted in the cold. A single battering ram could splinter the lock by midnight. Below, mercenary fires dot the snow like a constellation pulled to ground.",
+      "choices": [
+        { "label": "rally a defense", "nextNode": "gate-defense", "hint": "Two monks straighten as they overhear. Already loading crossbows in silence." },
+        { "label": "scout another way out", "nextNode": "rear-tunnel", "hint": "An old monk taps the floor twice and points toward the rear of the chapel." }
+      ]
+    },
+    "rear-tunnel": {
+      "passage": "Brother Edran lifts a flagstone behind the altar. Below: a narrow tunnel, hand-carved, smelling of mountain damp. Old smugglers' route, he whispers. Comes out a quarter mile down the cliff face, in a pine thicket too steep for cavalry. Dangerous in winter, but better than the goat path. Yon could crawl through with a guide and reach the next valley before noon.",
+      "choices": [
+        { "label": "trust Edran with him", "nextNode": "monk-guide", "hint": "Edran ties a lantern to his belt and motions Yon toward the dark mouth." },
+        { "label": "lead him yourself", "nextNode": "descent-guide", "hint": "Edran nods and hands you the lantern with a blessing pressed into your palm." }
+      ]
+    },
+    "cliff-path": {
+      "passage": "Behind the chapel, a door opens onto a narrow ledge above a frozen gorge. A goat path winds down through ice and shale - barely a path. With rope and care, Yon could reach the next valley by morning. With a guide, his odds double. Without one, he likely dies. Vesper offers his oldest monk, who knows the path by memory.",
+      "choices": [
+        { "label": "guide Yon yourself", "nextNode": "descent-guide", "hint": "The monk hesitates, then bows in gratitude as Yon shoulders his pack." },
+        { "label": "send the old monk", "nextNode": "monk-guide", "hint": "Brother Edran nods once. He has wanted to walk this path since his youth." }
+      ]
+    },
+    "gate-defense": {
+      "passage": "The parapet fills with two monks beside you. Crossbows ready, tar warming on a brazier. Below, the mercenaries form ranks. A captain in dented plate calls up - surrender Yon or die for him. Vesper steps onto the parapet, robes whipping in the snow-wind, and answers in a voice steady as carved stone. The captain orders the ram forward.",
+      "choices": [
+        { "label": "loose the first bolt", "nextNode": "first-volley", "hint": "Crossbow string sings as the bolt arcs down toward the lead bearer." },
+        { "label": "stall for time", "nextNode": "stall-mercs", "hint": "You shout an offer of parley, anything to slow the ram another hour." }
+      ]
+    },
+    "hidden-text": {
+      "passage": "Yon hid the copy in the chapel altar - inside the hollow base where relics used to rest before the monastery's lean years emptied the reliquary. If he dies, the truth dies with him. Unless someone retrieves it. Vesper knew nothing of this. Yon asks you not to tell him. The duke's reach is long, even into holy ground.",
+      "choices": [
+        { "label": "retrieve the text", "nextNode": "altar-search", "hint": "The chapel is empty for now, lamplight flickering against the carved saints." },
+        { "label": "urge him to flee", "nextNode": "cliff-path", "hint": "Yon stands slowly, ink-stained fingers tightening on his pack strap." }
+      ]
+    },
+    "descent-guide": {
+      "passage": "Rope around your waist, Yon roped behind. The path is worse than it looks - ice glazes every step and shale skitters underfoot. Halfway down, a stone gives way and Yon swings against the cliff. You haul him up, hands raw. By dawn you reach the valley floor. Behind you, smoke rises from the monastery. The siege has ended.",
+      "choices": [
+        { "label": "press on to town", "nextNode": "valley-escape", "hint": "Yon stumbles beside you, alive but shaken, manuscript pages tucked in his coat." },
+        { "label": "stare at the smoke", "nextNode": "guilt-path", "hint": "The plume is thin and dark - chapel timbers, not bodies, you tell yourself." }
+      ]
+    },
+    "monk-guide": {
+      "passage": "Brother Edran ties his rope and nods to Yon, then both vanish over the ledge into snow that swallows them within twenty steps and refuses to give them back. You bar the chapel door behind them. The monastery feels emptier already. Vesper turns toward the front gate. Whatever happens at dawn, the truth walks down a goat path with two old men.",
+      "choices": [
+        { "label": "help defend the gate", "nextNode": "gate-defense", "hint": "Vesper nods once. Two monks load crossbows beside the brazier in silence." },
+        { "label": "search the chapel", "nextNode": "altar-search", "hint": "Something in Yon's voice earlier suggested he left more behind than memory." }
+      ]
+    },
+    "first-volley": {
+      "passage": "Three bolts fly. Two miss. One drops the lead ram-bearer face-first into snow. The mercenaries roar and charge. Tar pots arc over the wall, splashing fire across the path below. Screams. Smoke. The ram comes anyway, lifted by fresh hands. Vesper grips your shoulder. Hold the parapet, he says. Edran needs more time. Below, the gate booms once.",
+      "choices": [
+        { "label": "hold the parapet", "nextNode": "parapet-stand", "hint": "Snow falls on warm bolts as you crank the crossbow string back again." },
+        { "label": "fall back inside", "nextNode": "interior-defense", "hint": "Vesper bars the inner door behind you with a beam thicker than your arm." }
+      ]
+    },
+    "stall-mercs": {
+      "passage": "Your shout carries down for parley terms. The captain laughs but waits. Twenty minutes pass while he discusses the offer with his lieutenants. Snow keeps falling. Behind you, Edran and Yon should be halfway down the gorge by now. Vesper murmurs a blessing. The captain finally calls back: surrender Yon in ten minutes or no quarter. Time bought, time spent.",
+      "choices": [
+        { "label": "fight when the ram comes", "nextNode": "first-volley", "hint": "Crossbows ready, tar warming, monks praying behind crossed fingers and arrows." },
+        { "label": "open the gate yourself", "nextNode": "false-surrender", "hint": "Vesper's eyes go wide as you reach for the iron crossbar at the gate." }
+      ]
+    },
+    "altar-search": {
+      "passage": "The altar base is hollow, the hinge cleverly hidden under a saint's carved foot. Inside: a leather satchel with twenty pages of cramped handwriting. Names of the murdered, dates, witnesses. Enough to topple the duke if it reaches the regional lord. You tuck it inside your coat. The chapel feels colder than before. Outside, the gate booms under the first ram strike.",
+      "choices": [
+        { "label": "join the gate defense", "nextNode": "gate-defense", "hint": "Vesper grabs a crossbow as you climb the parapet stairs three at a time." },
+        { "label": "escape with the satchel", "nextNode": "cliff-path", "hint": "The chapel back door opens onto the same ledge that Yon just descended." }
+      ]
+    },
+    "parapet-stand": {
+      "passage": "An hour. Two. Bolts run thin. A monk falls beside you, arrow through his throat, and Vesper closes his eyes mid-prayer when he sees. The ram booms harder. By the third hour, half the mercenaries are dead in the snow but so are eight of fifteen monks. Smoke rises from the gate. The hinges scream. The gate falls.",
+      "choices": [
+        { "label": "make a final stand", "nextNode": "last-stand-ending", "hint": "Vesper draws a sword he has not held in twenty years and steps forward." },
+        { "label": "retreat through the chapel", "nextNode": "chapel-escape", "hint": "The back ledge is your only chance, and Vesper waves you toward it now." }
+      ]
+    },
+    "interior-defense": {
+      "passage": "The chapel becomes the last redoubt. Pews overturned for cover. Monks praying as they load. The mercenaries break in but the doorway is narrow - one at a time, paying for each step in blood. You fight beside Vesper until your arms are lead. The captain shouts to fall back, regroup, burn the place down with everyone inside. Time is running out the wrong way.",
+      "choices": [
+        { "label": "defend until they retreat", "nextNode": "last-stand-ending", "hint": "Vesper draws a sword he has not held in twenty years and steps forward." },
+        { "label": "slip through the chapel", "nextNode": "chapel-escape", "hint": "The back ledge is your only chance, and Vesper waves you toward it now." }
+      ]
+    },
+    "false-surrender": {
+      "passage": "The crossbar lifts. The captain's eyes narrow. As the gate swings, you step through alone, hands raised, claiming Yon is already dead from a fall. The captain spits but signals his men to search. By the time they realize the lie, Edran and Yon are deep in the gorge. The captain drives his sword through your ribs. The siege ends at dawn.",
+      "choices": [],
+      "ending": {
+        "title": "Bought with Blood",
+        "flavor": "Your last lie buys two lives, and the truth walks down a goat path while snow covers your tracks.",
+        "action": "step through the gate"
+      }
+    },
+    "valley-escape": {
+      "passage": "The next valley holds a herder's village loyal to the regional lord, not the southern duke. Yon delivers his pages in person. Within a week, the lord rides to investigate the massacre records. Within a month, the duke is on trial. Yon never returns to Wolfthroat - the ruins are too painful. He writes from a small village teaching children their letters by lamplight.",
+      "choices": [],
+      "ending": {
+        "title": "Truth Carried Down",
+        "flavor": "A scholar lives, a duke falls, and a frozen path becomes the road that bent history.",
+        "action": "deliver the pages"
+      }
+    },
+    "guilt-path": {
+      "passage": "You stand at the valley floor watching smoke rise where the chapel stood. Yon kneels in the snow beside you, hands trembling. Fifteen monks. Vesper. All of them. He says he cannot accept the trade. You walk him to the village anyway, deliver the pages anyway, and the duke falls anyway. Yon never sleeps through a night again. Neither do you.",
+      "choices": [],
+      "ending": {
+        "title": "Names of the Lost",
+        "flavor": "Justice arrives. So does the weight of every monk who held the gate.",
+        "action": "say their names"
+      }
+    },
+    "last-stand-ending": {
+      "passage": "Vesper's sword is older than anyone living. He uses it well. You fight side by side until the chapel floor runs slick. The mercenaries break, then break again, then finally retreat as their captain falls to a crossbow bolt from the parapet. Dawn finds Wolfthroat half in ruin but standing. Edran returns at noon, alone. Yon reached the next valley. The pages travel on.",
+      "choices": [],
+      "ending": {
+        "title": "Held the Gate",
+        "flavor": "The monastery bleeds. The bell still rings at dawn.",
+        "action": "lower the abbot's sword"
+      }
+    },
+    "chapel-escape": {
+      "passage": "Vesper shoves you through the back door and bars it. His voice rises in psalm as mercenaries pour into the chapel. The ledge ices your boots. You descend faster than wisdom allows, manuscript pages pressed to your chest. By morning the valley opens below. Behind you, the chapel burns. Vesper's voice still echoes in the gorge.",
+      "choices": [],
+      "ending": {
+        "title": "Carried by Psalm",
+        "flavor": "An abbot sang you down a frozen cliff, and the song does not stop when you reach the valley.",
+        "action": "press the pages close"
+      }
+    }
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "id": "26ab0a8f-d38d-406b-8e52-be68343cce36",
+  "title": "Whisper Court",
+  "description": "Tonight the queen signs a treaty that will hand the borderlands to a foreign duchy. You have three hours to steal the unsigned draft before her seal touches it.",
+  "author": "AI",
+  "tags": ["stealth", "intrigue"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-29",
+  "dayOfYear": "07-09",
+  "endingCount": 5,
+  "storyNumber": 98,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Lanterns line the palace gardens. A masked ball runs late in the great hall, but you slipped past the guards an hour ago and now stand in shadow between the rose-trellised arches. The treaty sits in the queen's writing room - east wing, two corridors, three guards. The green sash of a foreign envoy hides your blade. Three hours until midnight.",
+      "choices": [
+        { "label": "blend with the dancers", "nextNode": "ballroom", "hint": "Music drifts through tall doors and laughter rises in waves above it." },
+        { "label": "head to the servants' wing", "nextNode": "servant-wing", "hint": "A side passage smells of bread and beeswax, lit by a single hanging lamp." },
+        { "label": "scale the garden trellis", "nextNode": "garden-climb", "hint": "Roses bloom heavy on the lattice, thorns long enough to bite through cloth." }
+      ]
+    },
+    "ballroom": {
+      "passage": "Velvet, perfume, the click of heels on marble. Masked nobles whirl in patterns you half-remember from court tutors. A masked figure in a crow's-beak mask catches your eye and tilts her head - a recognition you did not expect. She knows you. Behind her, two guards flank the queen on a raised dais. The queen looks tired. The seal hangs at her belt.",
+      "choices": [
+        { "label": "drift toward the crow", "nextNode": "crow-mask", "hint": "Her hand taps a fan against her wrist three times - some kind of signal." },
+        { "label": "circle toward the dais", "nextNode": "dais-watch", "hint": "Each step closer, the guards' eyes track you with practiced disinterest." }
+      ]
+    },
+    "servant-wing": {
+      "passage": "The servants' corridor runs behind the great hall, lit by a single hanging lamp that swings whenever someone passes through the swinging kitchen door at the far end. Cooks shout ahead. A laundry cart sits unguarded near a door marked 'east wing - staff only.' Inside: napkins, a chambermaid's uniform, three unlabeled brass keys. A footman walks past without looking up.",
+      "choices": [
+        { "label": "swap into the uniform", "nextNode": "maid-disguise", "hint": "The fabric still smells of the woman who wore it - lavender and lye soap." },
+        { "label": "wheel the cart inside", "nextNode": "cart-route", "hint": "Wheels squeak as you push it past the kitchen doorway and into the east hall." }
+      ]
+    },
+    "garden-climb": {
+      "passage": "Roses tear at your cloak as you climb. The trellis ends at a second-floor balcony overlooking the queen's private garden. The balcony doors are locked, but a window two paces over hangs ajar - someone aired the room recently. You ease across the lip. The window opens into a music room, dark, harpsichord covered with a sheet. A single oil lamp burns low.",
+      "choices": [
+        { "label": "ease into the music room", "nextNode": "music-room", "hint": "The sheet ripples as if a draft moved beneath it, but no breeze reaches inside." },
+        { "label": "continue along the ledge", "nextNode": "ledge-walk", "hint": "The next window glows golden - the queen's reading parlor by candleflame." }
+      ]
+    },
+    "crow-mask": {
+      "passage": "Up close she smells of bergamot. She murmurs that she is a friend - a name you trust spoke yours an hour ago. Her offer: she faints at the queen's feet at the third bell, and you have four minutes alone in the writing room while every eye in the hall turns to her. Her price comes later. Trust her, or do not. Twenty minutes.",
+      "choices": [
+        { "label": "agree to her plan", "nextNode": "ballroom-wait", "hint": "Her gloved hand brushes yours, slipping a small brass token into your palm." },
+        { "label": "refuse politely", "nextNode": "dais-watch", "hint": "She inclines her head and drifts back into the dancers without missing a beat." }
+      ]
+    },
+    "dais-watch": {
+      "passage": "From a marble pillar's shadow you study the dais. The queen's seal is bronze, hung on a silver chain. Four guards rotate in a slow pattern - two flanking her, two near the wine. A clerk arrives every quarter hour with documents. After signing, he carries them through a side door. The writing room. The treaty must already be inside.",
+      "choices": [
+        { "label": "shadow the next clerk", "nextNode": "clerk-follow", "hint": "He walks slow, head tilted, as if listening for a sound only he expects." },
+        { "label": "rejoin the crow", "nextNode": "crow-mask", "hint": "Her fan taps three times again - patience, the rhythm seems to say." }
+      ]
+    },
+    "maid-disguise": {
+      "passage": "The uniform fits well enough. You knot the apron tight and lift a stack of folded napkins as cover. A footman opens the east-wing door for you without question. The corridor inside is hushed, carpeted, lit by sconces every ten paces. Two doors stand on the right. One labeled 'sitting room.' The other unlabeled - varnished oak, double-locked, the writing room beyond doubt.",
+      "choices": [
+        { "label": "pick the locks", "nextNode": "writing-room", "hint": "Both locks are heavy but old, and your tools fit easily in the apron pocket." },
+        { "label": "try the keys", "nextNode": "key-attempt", "hint": "Three brass keys, two unlabeled doors - you have one chance per lock." }
+      ]
+    },
+    "cart-route": {
+      "passage": "The cart rolls down the east-wing corridor without challenge. A guard nods. Servants belong here. You stop near the unlabeled door and pretend to fold napkins. While the guard looks away, you press your ear to the wood. Voices inside - the queen's clerk and someone else, arguing in low tones about a clause. They will leave soon, given the urgency.",
+      "choices": [
+        { "label": "linger until clear", "nextNode": "writing-room", "hint": "Three minutes pass. The door opens and both men hurry past you, distracted." },
+        { "label": "knock and bluff", "nextNode": "knock-bluff", "hint": "You rap three times, voice steady, claiming a message from the chamberlain." }
+      ]
+    },
+    "music-room": {
+      "passage": "The harpsichord sits silent under its dust sheet. A door connects to the next room - the queen's reading parlor, probably. The knob is warm. As your hand reaches, the sheet beside you ripples. A small girl peeks out, eyes wide. Maybe seven years old, in a nightdress, finger pressed to her lips. The princess. She is not surprised.",
+      "choices": [
+        { "label": "speak gently", "nextNode": "princess-encounter", "hint": "Her grip on the sheet tightens, but she does not call out for the guards." },
+        { "label": "back out the window", "nextNode": "ledge-walk", "hint": "She shrugs and slips the sheet back over her head as you retreat." }
+      ]
+    },
+    "ledge-walk": {
+      "passage": "The ledge is six inches wide. Wind tugs at your cloak. The next window opens into the queen's reading parlor - candles burning, a half-finished cup of tea on a side table, a writing desk piled with documents. The treaty? Possibly. The room is empty. The window is unlatched. From below, gravel crunches as a guard makes his garden round.",
+      "choices": [
+        { "label": "slip into the parlor", "nextNode": "reading-parlor", "hint": "Your boots hit polished wood softer than expected and the candleflames barely flicker." },
+        { "label": "freeze on the ledge", "nextNode": "guard-passes", "hint": "The guard's lantern sweeps the wall below your feet and moves on." }
+      ]
+    },
+    "ballroom-wait": {
+      "passage": "Twenty minutes feels like a year. You linger near the wine table, sip nothing, listen for the third bell. When it rings, the crow swoons toward the dais with theatrical grace, scattering noble shrieks like startled birds. Guards converge. The queen rises. You slip toward the side door used by clerks. Locked. The brass token in your palm presses warm against your skin.",
+      "choices": [
+        { "label": "press the token in", "nextNode": "writing-room", "hint": "The token slides into a hidden slot beside the door and the bolt clicks open." },
+        { "label": "duck into the corridor", "nextNode": "servant-wing", "hint": "The footman door opens just as you pass and you catch yourself mid-stride." }
+      ]
+    },
+    "clerk-follow": {
+      "passage": "Six paces back, you drift in the clerk's wake. He keys the side door with a small iron rod, not a key. A trick lock. As he steps through, you slip a folded napkin between door and jamb. The bolt cannot seat. He does not notice. You wait until his footsteps fade, then ease through.",
+      "choices": [
+        { "label": "advance toward the room", "nextNode": "writing-room", "hint": "Three more steps and a door of varnished oak waits at the corridor's end." },
+        { "label": "tail him further", "nextNode": "knock-bluff", "hint": "He turns into a side passage you have not seen before, papers under his arm." }
+      ]
+    },
+    "writing-room": {
+      "passage": "The writing room is small and warm. Three candles. A desk piled with vellum. The treaty sits at center - twelve pages of cramped scribal hand, the queen's bronze seal beside them on a velvet cushion, awaiting the wax that will not be poured tonight. Marginal notes in pencil read 'this is wrong' over and over. Footsteps approach from the corridor.",
+      "choices": [
+        { "label": "lift the treaty pages", "nextNode": "treaty-grab", "hint": "Twelve sheets of vellum slide together neatly into your inner pocket." },
+        { "label": "tuck behind the curtain", "nextNode": "curtain-hide", "hint": "Heavy velvet swallows you and the candleflames flicker as the door opens." }
+      ]
+    },
+    "key-attempt": {
+      "passage": "Brass key one turns nothing. Key two clicks once but the second lock holds. Key three yields. Your heart hammers. The door swings open silently. Inside: a small room, three candles burning, a leather portfolio on the desk. The queen's seal sits beside it on velvet. Treaty pages spread fanned, awaiting signature.",
+      "choices": [
+        { "label": "step inside fully", "nextNode": "writing-room", "hint": "Warm candle-air rolls past you as you cross the threshold and pull the door closed." },
+        { "label": "snatch and run", "nextNode": "treaty-grab", "hint": "Twelve pages of vellum slide together neatly into your apron pocket." }
+      ]
+    },
+    "knock-bluff": {
+      "passage": "Footsteps approach. The door cracks. The clerk's eyes narrow - he does not recognize you. You hold up a folded napkin with what you hope looks like a wax seal. Urgent from the chamberlain, you say. He hesitates. Then nods you through and leaves to find the chamberlain himself. Behind you, the door clicks shut.",
+      "choices": [
+        { "label": "enter the room", "nextNode": "writing-room", "hint": "Warm candle-air rolls past you as you cross the threshold and pull the door closed." },
+        { "label": "grab and flee fast", "nextNode": "treaty-grab", "hint": "Twelve pages of vellum slide together neatly into your apron pocket." }
+      ]
+    },
+    "princess-encounter": {
+      "passage": "Her name is Eira. She knows about the treaty - heard her mother weeping over it last week. The queen does not want to sign. The chancellor does. Eira has been hiding here hoping to overhear the chancellor admit something. She offers a trade: trust her, and she will lead you through the secret servant passage to the writing room.",
+      "choices": [
+        { "label": "accept her help", "nextNode": "secret-passage", "hint": "She slides a panel beneath the harpsichord aside, revealing a child-sized stair." },
+        { "label": "decline and continue", "nextNode": "ledge-walk", "hint": "Eira looks disappointed but lets the sheet fall back over her head." }
+      ]
+    },
+    "reading-parlor": {
+      "passage": "The desk holds correspondence, ledgers, and at the bottom of the stack the treaty itself - twelve pages of cramped scribal hand and the kingdom's borderlands waiting to be ceded for a marriage alliance. Margin notes in pencil repeat one phrase: 'this is wrong.' Footsteps in the corridor. The handle turns.",
+      "choices": [
+        { "label": "hide behind the curtains", "nextNode": "curtain-hide", "hint": "Heavy velvet swallows you and the candles flicker from your sudden movement." },
+        { "label": "scoop up the treaty", "nextNode": "treaty-grab", "hint": "Twelve pages of vellum slide together neatly under your cloak." }
+      ]
+    },
+    "guard-passes": {
+      "passage": "The lantern moves on. You count thirty seconds and breathe again. The window slides open at your touch. Inside the parlor, a small clock chimes ten - two hours until the signing. The treaty waits on the desk, pages still loose, ink dry. No clerk in sight. You drop quietly to the floor, boots silent on a thick rug.",
+      "choices": [
+        { "label": "take the treaty now", "nextNode": "treaty-grab", "hint": "Twelve pages of vellum slide together neatly under your cloak as you reach for them." },
+        { "label": "search for evidence", "nextNode": "desk-search", "hint": "The desk drawers are unlocked, and the top one holds folded letters." }
+      ]
+    },
+    "secret-passage": {
+      "passage": "Eira leads through dust and cobwebs at child-height. You stoop most of the way. The passage emerges behind a tapestry - the writing room, candles burning, treaty on the desk. Eira whispers that her mother left when the chancellor approached. The seal sits ready. Take the pages. She will pretend nothing happened.",
+      "choices": [
+        { "label": "claim the treaty", "nextNode": "treaty-grab", "hint": "Twelve pages of vellum slide together neatly into your cloak's inner pocket." },
+        { "label": "wait for the chancellor", "nextNode": "curtain-hide", "hint": "Eira nods and slips behind the curtain beside you, breath shallow with thrill." }
+      ]
+    },
+    "curtain-hide": {
+      "passage": "The chancellor enters with a clerk. He demands the seal. The queen, behind him, refuses - quietly, firmly. The chancellor threatens her daughter. The queen still refuses. He grabs the treaty himself and turns toward the door. The seal is in his hand now. You have seconds. Step out and steal the seal, or stay hidden and let the queen find her courage.",
+      "choices": [
+        { "label": "steal the seal", "nextNode": "seal-grab-ending", "hint": "The chancellor turns and your fist closes on the bronze before he can call out." },
+        { "label": "stay hidden", "nextNode": "queen-stand-ending", "hint": "The queen's voice rises behind him, steel returning to her tone for the first time." }
+      ]
+    },
+    "treaty-grab": {
+      "passage": "The treaty is in your hands. Pages press warm against your ribs under the cloak. Now you need to escape - the building, the gardens, the city itself before the chancellor realizes the document is missing. The same routes that brought you in offer different odds going out. Behind you, in the corridor, footsteps approach. A clerk returning, by the gait. Choose now.",
+      "choices": [
+        { "label": "go through the ballroom", "nextNode": "ballroom-exit-ending", "hint": "The crowd offers cover, but a thousand eyes will mark a stranger leaving fast." },
+        { "label": "use the secret passage", "nextNode": "passage-exit-ending", "hint": "Dust still clings to your sleeves from the way Eira showed you in." },
+        { "label": "drop from the window", "nextNode": "garden-exit-ending", "hint": "Roses below will catch your fall - and tear your cloak in the process." }
+      ]
+    },
+    "desk-search": {
+      "passage": "The drawer holds three letters from the chancellor to a foreign envoy - dated last month, sealed with his personal mark. They detail bribes paid to court officials to push the treaty through. Better than the treaty itself: proof of treason. You tuck them inside your cloak beside the unsigned pages. The clock ticks. Footsteps. The handle turns.",
+      "choices": [
+        { "label": "vanish behind the curtains", "nextNode": "curtain-hide", "hint": "Heavy velvet swallows you and the candles flicker from your sudden movement." },
+        { "label": "flee through the window", "nextNode": "garden-exit-ending", "hint": "Roses below will catch your fall - and tear your cloak in the process." }
+      ]
+    },
+    "seal-grab-ending": {
+      "passage": "Bronze in your fist. The chancellor staggers, shocked, and the queen's guards crash in at her shouted command. He cannot use a seal he does not hold. By dawn, the treaty is ashes, the chancellor is chained, and the queen sits on her dais signing nothing of consequence. You leave through a kitchen door, paid in silence.",
+      "choices": [],
+      "ending": {
+        "title": "Bronze in Hand",
+        "flavor": "A treaty dies in the moment its seal changes pockets, and a queen finds her spine again.",
+        "action": "open your fingers"
+      }
+    },
+    "queen-stand-ending": {
+      "passage": "The queen's voice rises. She names bribes, foreign coin, and borderland families who would suffer. The chancellor pales. Her guards arrive at her summons - more loyal than he assumed. The treaty falls from his hand to the floor. You slip out the way you came in, his shouts fading behind tapestries. The queen never knew you were there.",
+      "choices": [],
+      "ending": {
+        "title": "Held Her Ground",
+        "flavor": "Sometimes a queen only needed a witness she did not see to find the courage already in her.",
+        "action": "fade behind the tapestry"
+      }
+    },
+    "ballroom-exit-ending": {
+      "passage": "The crowd parts and reforms. The crow-masked woman finds you at the edge of the dancers and walks you out arm-in-arm like an old friend. By the time the chancellor's clerk discovers the missing pages, you are three streets away in a hired carriage. The crow asks her price next month - a favor, unspecified. You agree. The treaty burns in a hearth at dawn.",
+      "choices": [],
+      "ending": {
+        "title": "Through the Music",
+        "flavor": "Some exits are loud and graceful at once, and the crow always collects.",
+        "action": "lift the borrowed mask"
+      }
+    },
+    "passage-exit-ending": {
+      "passage": "Eira leads you back through dust and cobwebs faster than you came. She emerges in her own chamber and slips into bed as if she never left it. You exit through the kitchen door behind a footman delivering wine. The treaty rests against your ribs. By morning, it reaches a sympathetic noble who will publish its contents. The chancellor's reputation does not survive the week.",
+      "choices": [],
+      "ending": {
+        "title": "Borrowed Childhood",
+        "flavor": "A child-sized passage carries a kingdom's secret out of a palace, and a princess sleeps unbothered.",
+        "action": "kiss the princess goodnight"
+      }
+    },
+    "garden-exit-ending": {
+      "passage": "Down into the rose hedge. Thorns rake your cloak. You roll through, sprint across the gravel walk, and vault the garden wall. A dog barks distant. By dawn, you reach the city gate, treaty wrapped in oilcloth, scratches still bleeding. Your contact takes the pages with trembling hands. The borderlands stay free. So do you, mostly.",
+      "choices": [],
+      "ending": {
+        "title": "Through the Roses",
+        "flavor": "A scarred face is a small price for a treaty that never got signed.",
+        "action": "wipe the blood away"
+      }
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "id": "27c03928-8d56-4842-8301-50aa6ffedc04",
+  "title": "Hollow Strings",
+  "description": "A traveling lutemaker arrives at the harvest fair with a flawless instrument and a grudge. To win the bardic contest, you must out-craft a rival and out-play him on the same stage.",
+  "author": "AI",
+  "tags": ["competition", "crafting"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-29",
+  "dayOfYear": "07-10",
+  "endingCount": 4,
+  "storyNumber": 99,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Brassthorne Fair fills the meadow with banners, smoke, and the clatter of merchants haggling over wool and wax candles in every direction your eye lands. The contest crowns its champion at sundown, prize a year's commission from the regional duke. Your rival Fenric arrived this morning with a flawless lute he carved himself. Your own instrument cracked on the road yesterday. Three hours.",
+      "choices": [
+        { "label": "seek a luthier's stall", "nextNode": "luthier-stall", "hint": "Sawdust and varnish drift from a tent at the fair's far edge." },
+        { "label": "study Fenric's lute", "nextNode": "fenric-watch", "hint": "He polishes the cherrywood with slow, theatrical strokes near the main stage." },
+        { "label": "examine your damage", "nextNode": "broken-lute", "hint": "The crack runs along the soundboard's grain, faint but ruinous to tone." }
+      ]
+    },
+    "luthier-stall": {
+      "passage": "The stall belongs to an old woman named Brida, eyes sharp under a leather visor. She has spruce, walnut, and a single piece of figured maple worth more than your purse. Her offer: borrow her bench for a share of the prize. Glue takes two hours to set. Contest in three. The math works, barely.",
+      "choices": [
+        { "label": "agree to her terms", "nextNode": "workbench", "hint": "Brida slides a leather apron across the bench and points to the hide-glue pot." },
+        { "label": "haggle the share", "nextNode": "haggle-brida", "hint": "Her grin shows three missing teeth and considerable patience for negotiation." }
+      ]
+    },
+    "fenric-watch": {
+      "passage": "Fenric tunes his lute with surgeon's precision while his cherrywood gleams under the lantern light strung above the contest grounds. He sees you watching. The smile is not friendly. He hopes aloud that you will not embarrass yourself with that broken thing tonight. He apprenticed under your old master and was passed over. The grudge is older than this contest.",
+      "choices": [
+        { "label": "ignore his taunt", "nextNode": "luthier-stall", "hint": "You walk away with the cherrywood gleam still burning at the edge of vision." },
+        { "label": "watch him longer", "nextNode": "fenric-secret", "hint": "His patron passes him a small leather pouch and a thumbprint of fresh ink." }
+      ]
+    },
+    "broken-lute": {
+      "passage": "The crack is hairline but real, running from bridge to bottom along the grain like a fault line waiting for the wrong note. Played hard, the lute will buzz - or split open onstage. Repairs need glue, clamps, time. Or replace the soundboard outright with better wood. Or borrow an instrument and bury your pride. All three are costly.",
+      "choices": [
+        { "label": "make for a luthier", "nextNode": "luthier-stall", "hint": "Sawdust and varnish drift from a tent at the fair's far edge." },
+        { "label": "ask around for a loaner", "nextNode": "loaner-search", "hint": "A bard with a battered cittern eyes you with cautious interest as you pass." }
+      ]
+    },
+    "haggle-brida": {
+      "passage": "Brida lets you talk, nodding at the right moments. After five minutes she names her real price: a written endorsement of her shop to the regional duke. Win or lose, she keeps the lute as a display piece if it turns out well. You keep the prize money. The bench is yours either way. Canny, not greedy.",
+      "choices": [
+        { "label": "shake on it", "nextNode": "workbench", "hint": "Brida slides a leather apron across the bench and points to the hide-glue pot." },
+        { "label": "refuse and look elsewhere", "nextNode": "loaner-search", "hint": "Brida shrugs and waves you off without ceremony as you back away." }
+      ]
+    },
+    "fenric-secret": {
+      "passage": "The patron is the duke's chamberlain. The thumbprint is a wax-warm seal pressed to a folded scrap that Fenric pockets without breaking conversation. The chamberlain's attention drifts to other bards. Whatever Fenric received, it was not part of the contest rules. He notices you still watching. His smile flattens. His hands go restless on his lute.",
+      "choices": [
+        { "label": "approach the chamberlain", "nextNode": "chamberlain-talk", "hint": "He turns at your voice with the patience of a man used to flattery." },
+        { "label": "go fetch tools", "nextNode": "luthier-stall", "hint": "Sawdust and varnish drift from a tent at the fair's far edge." }
+      ]
+    },
+    "loaner-search": {
+      "passage": "Three bards. Two refuse. The third, a wiry man named Otra, offers his cittern - decent tone, but stringed differently from your usual lute. Two hours to relearn fingerings. Possible, not easy. Otra wants nothing in trade except a song dedicated to his late wife if you win. He smiles at his own grief. The cittern waits in his case.",
+      "choices": [
+        { "label": "borrow the cittern", "nextNode": "cittern-practice", "hint": "Otra hands the case over without ceremony, calluses brushing yours." },
+        { "label": "decide to repair instead", "nextNode": "luthier-stall", "hint": "Sawdust and varnish drift from a tent at the fair's far edge." }
+      ]
+    },
+    "workbench": {
+      "passage": "Brida's bench is a marvel - hide glue warming, clamps lined by size, a scraper sharper than any you have used. Two paths: patch the crack with a thin spruce strip, or replace the whole soundboard with figured maple if Brida lets you have it. The patch is safe. The maple is risky. The maple sounds glorious if it works.",
+      "choices": [
+        { "label": "patch the crack", "nextNode": "patch-work", "hint": "The reinforcing strip lays in like a healed scar, glue beading along the edges." },
+        { "label": "replace the soundboard", "nextNode": "maple-rebuild", "hint": "Brida considers, then nods. The maple piece is heavier than it looks." }
+      ]
+    },
+    "chamberlain-talk": {
+      "passage": "The chamberlain greets you with practiced warmth. You name Fenric. The warmth thins. You mention a sealed paper. He claims ignorance, then offers a wager: if you win the contest tonight, he will explain. If you lose, you forget what you saw. He smells of cloves and risk. You cannot prove anything yet, but his eyes confirm you saw correctly.",
+      "choices": [
+        { "label": "seal the wager", "nextNode": "luthier-stall", "hint": "Sawdust and varnish drift from a tent at the fair's far edge as you walk." },
+        { "label": "press for the truth", "nextNode": "press-chamberlain", "hint": "His jaw tightens. The crowd around you thickens with curious noble faces." }
+      ]
+    },
+    "cittern-practice": {
+      "passage": "Otra's cittern is older than he is. Wider neck, doubled strings. Fingers stumble at first. By the end of hour one, your favorite ballad has been rebuilt in the new tuning. By hour two, you almost forgive the cittern's quirks. Otra watches from a stump, eyes wet at the rehearsal of a song meant for his wife. Ready.",
+      "choices": [
+        { "label": "head for the stage", "nextNode": "stage-arrival", "hint": "Crowds gather around the platform as torches are lit against the dusk." },
+        { "label": "rest your hands", "nextNode": "pre-stage-rest", "hint": "Otra hands you a cup of cold cider and tells you to breathe slow." }
+      ]
+    },
+    "patch-work": {
+      "passage": "Spruce strip cut, glued, clamped, waiting under steady pressure as the hide-glue cools tight against the soundboard's grain. The lute braces under your hands like a patient breathing easier. Tuning while glue sets - listening for buzz on the lower strings. None. The repair is honest, sturdy enough for tonight. Not glorious. Just good. Brida nods approval.",
+      "choices": [
+        { "label": "rehearse your set", "nextNode": "pre-stage-rest", "hint": "Otra would say to breathe slow if he were here, and that advice stands regardless." },
+        { "label": "march onstage", "nextNode": "stage-arrival", "hint": "Crowds gather around the platform as torches are lit against the dusk." }
+      ]
+    },
+    "maple-rebuild": {
+      "passage": "Removing the cracked soundboard is delicate work that demands patience and a steady hand at every stage of separation from the bracing struts beneath. Brida hovers but does not interrupt. The old wood comes free in twenty minutes. The maple shapes to fit. Glued in, the lute hums to a fingernail tap. Tone like nothing you have played. If the glue sets in time.",
+      "choices": [
+        { "label": "wait for the glue", "nextNode": "glue-wait", "hint": "Brida sets a small hourglass beside the bench and turns it over with care." },
+        { "label": "test it early", "nextNode": "early-test", "hint": "Your thumb pads the strings light, listening for the seam to give." }
+      ]
+    },
+    "press-chamberlain": {
+      "passage": "The chamberlain's eyes harden. He admits, voice low, that Fenric paid him to weight tonight's judging. The duke's commission is already promised. Tonight is theater, not contest. Your fury is precise. He warns you against making a scene - the duke owns the fair, the tents, the road home. You could expose him onstage. Or use the truth differently and quieter.",
+      "choices": [
+        { "label": "denounce him publicly", "nextNode": "stage-confrontation", "hint": "The platform stairs creak under your boots as you mount between performers." },
+        { "label": "save it for after", "nextNode": "luthier-stall", "hint": "You bow your head and walk away, the truth hot under your tongue still." }
+      ]
+    },
+    "pre-stage-rest": {
+      "passage": "Coiled rope and crates surround you behind the platform. A breeze carries laughter from the crowd. Fenric tunes onstage to polite applause - his fingers move beautifully but correct is not transcendent. The repaired lute trembles in your lap. Breathe. Three songs. The first must hook them. The last must hold them.",
+      "choices": [
+        { "label": "mount the stage", "nextNode": "stage-arrival", "hint": "Crowds gather around the platform as torches are lit against the dusk." },
+        { "label": "tune one more time", "nextNode": "new-verse", "hint": "Strings settle under your fingers and a verse comes unbidden, spring-clean." }
+      ]
+    },
+    "glue-wait": {
+      "passage": "Sand falls grain by grain. Pace, sit, pace again. Brida hands you a bowl of stew and forces you to eat. The hourglass empties just as the first bell rings. The lute lifts. Maple gleams. One strum, and the tone is so warm you almost weep. Brida grins. Now run.",
+      "choices": [
+        { "label": "race to the platform", "nextNode": "stage-arrival", "hint": "Crowds gather around the wooden boards as torches are lit against the dusk." },
+        { "label": "calm yourself first", "nextNode": "pre-stage-rest", "hint": "Breath in, breath out, the stew warm in your stomach as the bell tolls again." }
+      ]
+    },
+    "early-test": {
+      "passage": "A light strum. The seam holds. A harder strum. Still holds. A full chord rings - the lute sings, not just plays, the maple resonating with a depth your old soundboard never had. Glue tacky but bonded. Brida shakes her head, half admiration and half horror at your impatience. The contest begins in fifteen minutes.",
+      "choices": [
+        { "label": "stride to the platform", "nextNode": "stage-arrival", "hint": "Crowds gather around the wooden boards as torches are lit against the dusk." },
+        { "label": "compose one new line", "nextNode": "new-verse", "hint": "An idea takes shape - a verse about a maple tree felled in spring, reborn." }
+      ]
+    },
+    "stage-arrival": {
+      "passage": "Lanterns hang from poles around the platform where the duke sits in a curtained box, drinking from a silver cup he has refilled twice in the last hour. Three bards have played. Fenric is introduced. He bows too low to the duke's box. The crowd notices. He plays - technically perfect, emotionally hollow. Polite applause. Your name. Your turn.",
+      "choices": [
+        { "label": "step onto the boards", "nextNode": "perform-set", "hint": "Wood creaks under your boots and a thousand faces turn upward toward you." },
+        { "label": "out Fenric first", "nextNode": "stage-confrontation", "hint": "The duke's curtained box is fifteen paces away, and the truth burns in your chest." }
+      ]
+    },
+    "new-verse": {
+      "passage": "Words come fast - a maple tree felled in spring, reborn as song under a stranger's hands. The lines scribble onto a torn page. Three minutes of rough writing, then you sing them once under breath. They land. The verse will fit your closing song like a lid. The platform waits with the page tucked into your sleeve.",
+      "choices": [
+        { "label": "ascend to the stage", "nextNode": "perform-set", "hint": "Wood creaks under your boots and a thousand faces turn upward toward you." },
+        { "label": "settle your nerves", "nextNode": "pre-stage-rest", "hint": "A quiet corner waits behind the platform, breath the only thing you control." }
+      ]
+    },
+    "stage-confrontation": {
+      "passage": "Up the platform mid-applause. Faces turn. The duke's curtain parts. Words spill out: Fenric, the chamberlain, the bribe, the rigged contest. The crowd murmurs. Fenric goes white. The chamberlain reaches for a guard but the duke raises one hand. The duke is vain, not stupid. He calls Fenric forward. The contest is yours to honor or refuse.",
+      "choices": [
+        { "label": "demand a fair contest", "nextNode": "fair-contest-ending", "hint": "The duke nods slowly and orders the judges replaced from the audience itself." },
+        { "label": "exit the stage", "nextNode": "walkoff-ending", "hint": "Boots hit the ground beyond the platform and the murmur of crowd fades behind you." }
+      ]
+    },
+    "perform-set": {
+      "passage": "Strings under your fingers. Maple sings or spruce strip holds, depending on the choice you made. First song wakes the crowd. Second steadies them. Third lands. Otra weeps openly when his wife's dedication arrives. Fenric watches from the wings, fingers tightening on cherrywood. The duke leans forward. Silence holds three breaths before the cheering breaks.",
+      "choices": [
+        { "label": "bow and accept", "nextNode": "humble-win-ending", "hint": "The duke calls you forward to receive the laurel and the year's commission." },
+        { "label": "name the bribe live", "nextNode": "expose-ending", "hint": "Cheering fades as you raise your hand and the duke's curtain parts a second time." }
+      ]
+    },
+    "humble-win-ending": {
+      "passage": "The laurel rests heavier than expected. The duke commissions you for the year. Brida's shop gets the endorsement she wanted. Otra weeps once more when you press a coin into his hand. Fenric leaves before dawn, lute case slung over his back, expression unreadable. You play through the night by firelight, the maple ringing into the harvest dark, the fair already a memory.",
+      "choices": [],
+      "ending": {
+        "title": "Maple Crowned",
+        "flavor": "A repaired instrument and an honest song outshine a perfect lute and a paid hand.",
+        "action": "lift the laurel"
+      }
+    },
+    "fair-contest-ending": {
+      "passage": "New judges from the audience. Fenric plays again - shaken, less sure. You play after, repaired lute steady in your hands. The audience votes. You win by twenty hands clear. The duke, embarrassed, doubles your commission and dismisses the chamberlain on the spot. Fenric vanishes into the crowd. You shake hands with strangers until your fingers ache. Brida toasts you with cider.",
+      "choices": [],
+      "ending": {
+        "title": "Honest Verdict",
+        "flavor": "When the judges are the people who heard you, the verdict belongs to no patron.",
+        "action": "bow to the crowd"
+      }
+    },
+    "walkoff-ending": {
+      "passage": "Off the platform mid-applause. The duke's eyes follow. The crowd is too stunned to react. Fenric wins by default and seems somehow diminished by it. By morning, half the fair has heard your accusation, and a third have decided you were right. At dawn, Brida presses the finished maple soundboard into your hands.",
+      "choices": [],
+      "ending": {
+        "title": "Refusal at Dawn",
+        "flavor": "Some prizes are worth less than the platform you walk off to refuse them.",
+        "action": "saddle the horse"
+      }
+    },
+    "expose-ending": {
+      "passage": "Mid-set, you name the chamberlain. The crowd erupts. The duke calls a halt. Fenric's perfect lute drops from his hands and cracks against the platform. The chamberlain runs. Guards catch him at the gate. The duke commissions you anyway, more out of spite than music. You leave the fair with a year's pay and a story bards will retell.",
+      "choices": [],
+      "ending": {
+        "title": "Mid-Song Truth",
+        "flavor": "A song interrupted is still a song, and sometimes the verse breaks the bribe.",
+        "action": "set down the lute"
+      }
+    }
+  }
+}

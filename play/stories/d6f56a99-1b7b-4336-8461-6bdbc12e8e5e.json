@@ -1,0 +1,215 @@
+{
+  "id": "d6f56a99-1b7b-4336-8461-6bdbc12e8e5e",
+  "title": "Hollow Mountain",
+  "description": "A rope party of three vanished in the mountain caves last week. You promised the village you would search for them. Your lantern oil will not last past midnight.",
+  "author": "AI",
+  "tags": ["exploration", "survival"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-29",
+  "dayOfYear": "07-11",
+  "endingCount": 5,
+  "storyNumber": 100,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "The cave mouth yawns black against the mountain's flank, opening into a darkness that has swallowed three climbers and not yet given them back. Behind you, the village fades into pine shadow. Brother, sister, guide. Your pack holds rope, chalk, dried meat, and one lantern with six hours of oil. The miners' map shows three branches. Choose well.",
+      "choices": [
+        { "label": "veer left", "nextNode": "left-tunnel", "hint": "Cool air drifts up from the left passage, carrying a faint smell of damp rock." },
+        { "label": "head right", "nextNode": "right-tunnel", "hint": "The right passage glistens with moisture and a rope frays at its mouth." },
+        { "label": "press forward", "nextNode": "main-shaft", "hint": "The center tunnel runs level for fifty paces before the floor pitches downward." }
+      ]
+    },
+    "left-tunnel": {
+      "passage": "The left passage narrows fast. Your shoulders brush walls scraped by recent boots and old pickaxes still echoing in the marks they left a century back. Chalk dots the wall - the climbers passed here. Twenty paces in, the tunnel opens onto a ledge above a wide chamber. Below, lantern glow flickers. Someone alive. The drop is twelve feet.",
+      "choices": [
+        { "label": "lower yourself down", "nextNode": "lit-chamber", "hint": "Your boots strike packed earth softly enough that the lantern below does not waver." },
+        { "label": "call out from above", "nextNode": "shouted-greeting", "hint": "Your voice rolls down into the chamber and three heads turn upward at once." }
+      ]
+    },
+    "right-tunnel": {
+      "passage": "The right passage drips. A frayed climbing rope hangs at its mouth, knot intact but the line cut clean - sabotage, not failure. Inside, the floor slopes down sharply, footing slick with mineral wash that pools where the rock dips. A faint groaning echoes from deeper. Human, not earth. Whoever makes that sound has been alone for days.",
+      "choices": [
+        { "label": "trace the groans", "nextNode": "wounded-survivor", "hint": "The descent steepens and your lantern flickers from quickening breath." },
+        { "label": "study the cut rope", "nextNode": "rope-clue", "hint": "The cut is fresh and angled - blade work, deliberate, near the anchor knot." }
+      ]
+    },
+    "main-shaft": {
+      "passage": "The center tunnel pitches downward at thirty paces in. Loose scree turns each step into a careful negotiation that costs minutes you cannot spare on the way out. The walls open into a wide gallery hung with stalactites, floor scattered with old mining debris. A crack vents warm air from somewhere deeper. Too warm. Either a fissure to the surface, or something else.",
+      "choices": [
+        { "label": "venture deeper", "nextNode": "deep-gallery", "hint": "Your lantern catches glints in the rock - quartz veins, or eyes, hard to tell." },
+        { "label": "investigate the warm crack", "nextNode": "warm-vent", "hint": "Fingertips pressed to the rock come back damp with steam from below." }
+      ]
+    },
+    "lit-chamber": {
+      "passage": "Three figures huddle around a lantern almost out of oil. The brother lies pale on a folded cloak, leg splinted with rope and iron pegs from a climber's kit. The sister clutches a knife, exhausted. The guide sits apart, watching everything. Five days down here. The siblings say their guide pushed the brother off a ledge - the guide says the rope failed.",
+      "choices": [
+        { "label": "tend the wound", "nextNode": "tend-leg", "hint": "Fever heat rises from his shin where the bone has not knit clean." },
+        { "label": "question the guide", "nextNode": "guide-confront", "hint": "The guide does not flinch when you face him - too steady, too rehearsed." }
+      ]
+    },
+    "shouted-greeting": {
+      "passage": "Your voice booms into the chamber. The three figures look up, shock and relief mixing on three faces. The brother, lying flat, raises a thin hand. The sister waves frantically. The guide steps forward, smile wide and welcoming - but his hand drops to a knife at his belt as he calls back hello, friend. Something is wrong here.",
+      "choices": [
+        { "label": "climb down anyway", "nextNode": "lit-chamber", "hint": "Your boots strike packed earth softly as the guide watches you with too much interest." },
+        { "label": "stay above and watch", "nextNode": "balcony-watch", "hint": "From the ledge, you see the sister mouth a single word: liar." }
+      ]
+    },
+    "wounded-survivor": {
+      "passage": "The groaning leads to a side cleft. The brother lies alone, leg twisted, lips cracked. Three days. The others left to find help and never returned. His voice is paper. He says the guide pushed him - saw it in the face just before the fall. The sister was up-rope and did not see. He is feverish but lucid.",
+      "choices": [
+        { "label": "treat his wound", "nextNode": "tend-leg", "hint": "Fever heat rises from his shin where the bone has not knit clean." },
+        { "label": "look for the others", "nextNode": "deep-gallery", "hint": "His good hand points down the cleft toward the deeper passages." }
+      ]
+    },
+    "rope-clue": {
+      "passage": "The rope is severed at the anchor knot, blade angle pointed away from the wall. Deliberate. Whoever cut this stood inside the tunnel and slashed outward. The knot itself is climber-tied, expert work - this rope did not fail. Someone wanted it to look like it did. Faint blood spots dot the floor three paces in. Old. Brown. Not yours to clean.",
+      "choices": [
+        { "label": "trail the blood", "nextNode": "wounded-survivor", "hint": "The drops trail deeper, fading where the floor steepens into a side cleft." },
+        { "label": "go the other way", "nextNode": "deep-gallery", "hint": "The opposite branch climbs into a wider gallery where lanterns might gather." }
+      ]
+    },
+    "deep-gallery": {
+      "passage": "The gallery opens into vaulted darkness. Stalactites drip. A small stream runs across the floor and disappears into a fissure on the far wall where the rock cracks downward into deeper black. Footprints - boot, narrow, recent. A pack lies near the stream, slashed open. Searched, not robbed. Someone wanted something specific.",
+      "choices": [
+        { "label": "track the footprints", "nextNode": "fissure-passage", "hint": "The fissure narrows but seems passable for someone willing to crawl." },
+        { "label": "search the pack", "nextNode": "torn-pack", "hint": "Inside: ration wrappers, a journal, a child's lock of hair tied with green string." }
+      ]
+    },
+    "warm-vent": {
+      "passage": "The crack widens into a steam-warmed crawlspace. Inside, you find a small chamber heated by an underground spring. Steam rises from a black pool. On its rim, a woman lies curled - the sister. Hypothermia broken, but she is unconscious. Her wrists show rope burns. Tied recently, freed somehow. She murmurs a name in her sleep: the guide's.",
+      "choices": [
+        { "label": "wake her gently", "nextNode": "sister-wakes", "hint": "Her eyes open slow, terror surfacing before recognition catches up." },
+        { "label": "let her rest", "nextNode": "deep-gallery", "hint": "Her breath steadies. Water set beside her, you back out of the chamber." }
+      ]
+    },
+    "tend-leg": {
+      "passage": "The splint needs adjusting. The wound is cleaned with boiled water and rebound tight. The brother breathes easier almost at once. The sister weeps quietly. The guide watches from across the lantern, expression carefully neutral. Four hours of oil. Two hours to climb out. Three lives to carry, and none ready to walk fast.",
+      "choices": [
+        { "label": "start the climb out", "nextNode": "climb-decision", "hint": "Brother on a stretcher needs four hands at minimum, and the guide will not lift." },
+        { "label": "confront the guide", "nextNode": "guide-confront", "hint": "He stands as you turn and the lantern shadow rises behind him like a wing." }
+      ]
+    },
+    "guide-confront": {
+      "passage": "The guide listens to your accusation, then sighs. He admits the brother fell, but says the brother slipped on his own. The sister was up-rope and saw nothing clearly. He says the brother is delirious from fever. He could be telling the truth. His knife stays sheathed but his hand never leaves the hilt. The lantern flickers between you all, oil running low.",
+      "choices": [
+        { "label": "watch him closely", "nextNode": "guide-watch", "hint": "His knuckles whiten on the knife hilt the longer the silence holds." },
+        { "label": "demand his weapon", "nextNode": "disarm-guide", "hint": "His eyes narrow but he sets the knife between you, blade pointed at neither." }
+      ]
+    },
+    "balcony-watch": {
+      "passage": "From the ledge above, the chamber unfolds in lantern shadow. The guide coaxes you down with offers of food. The sister glances toward a coil of rope. When his back turns, she points to a side passage you cannot see from this angle. The brother mouths run. Whatever is wrong here, the guide is the wrong part.",
+      "choices": [
+        { "label": "jump down to confront", "nextNode": "guide-confront", "hint": "Your boots strike packed earth and the lantern shadows leap to the wall." },
+        { "label": "find the side passage", "nextNode": "side-passage", "hint": "The ledge connects to a higher tunnel that may circle above the chamber." }
+      ]
+    },
+    "fissure-passage": {
+      "passage": "The fissure tightens. You crawl on your belly for thirty feet, lantern pushed ahead of you. The far end opens into a small grotto with a body laid on a rock shelf - the guide, throat cut, days dead. Old wound. Not a survivor at all. Someone has been wearing his clothes and pretending to be him in the chamber above.",
+      "choices": [
+        { "label": "return to the chamber", "nextNode": "imposter-confront", "hint": "Lantern oil has dropped to maybe two hours and the imposter is still upstairs." },
+        { "label": "rifle the body", "nextNode": "body-search", "hint": "His pockets hold a small notebook tied with a green string you have seen before." }
+      ]
+    },
+    "torn-pack": {
+      "passage": "The journal belongs to the brother. Entries cover the descent, the route, the guide's odd behavior on day three - asking too many questions about a treasure rumor in the village. The lock of hair is the sister's, kept as a keepsake. Slashed open this way, the pack tells a story: someone was looking for a map, or a clue. Not coin. Information.",
+      "choices": [
+        { "label": "follow the fissure", "nextNode": "fissure-passage", "hint": "The footprints lead onward and your lantern oil will not last forever." },
+        { "label": "loop back upward", "nextNode": "lit-chamber", "hint": "The route returns toward the lit chamber where three figures wait by lantern." }
+      ]
+    },
+    "sister-wakes": {
+      "passage": "Her eyes focus slow. The guide is not the guide, she tells you, voice cracked. The real one died on day two. The imposter drugged the siblings and searched the caves for a treasure rumor he heard from a drunk back in the village. He brought her here and left her tied while he hunted.",
+      "choices": [
+        { "label": "lift her out", "nextNode": "carry-out-ending", "hint": "She wraps her arms around your neck and goes limp against your shoulder." },
+        { "label": "hunt the imposter first", "nextNode": "imposter-confront", "hint": "She points where steam rises - he went that way hours ago." }
+      ]
+    },
+    "climb-decision": {
+      "passage": "Four hours of oil. Two hours to surface for one person. The brother cannot walk. The sister can but barely. The guide refuses to help carry. You can leave him behind, take the siblings, and trust that what he claims is true. Or you can bind his wrists and force him to come along where the village can question him. Each choice has its cost.",
+      "choices": [
+        { "label": "rope his wrists", "nextNode": "bound-guide-ending", "hint": "He does not resist, but his eyes track the chamber's far passage with calculation." },
+        { "label": "abandon him here", "nextNode": "leave-guide-ending", "hint": "The siblings nod, exhausted relief mixed with the cold of the choice." }
+      ]
+    },
+    "guide-watch": {
+      "passage": "He cracks. Tells you the brother fell because he pushed him - and that he himself is not the real guide. He killed the guide on day two for a map he believed pointed to a buried hoard. He has nothing. He drops the knife and begs you not to leave him in the dark with people who hate him. Your call.",
+      "choices": [
+        { "label": "tie him for trial", "nextNode": "bound-guide-ending", "hint": "He does not resist when you take the rope and bind his wrists tight." },
+        { "label": "walk away from him", "nextNode": "leave-guide-ending", "hint": "The siblings nod, exhausted relief mixed with the cold of the choice." }
+      ]
+    },
+    "disarm-guide": {
+      "passage": "The knife sits on the stone between you. He breathes slow, wary. The siblings tense. You ask the question again, gentler this time. He cracks. Confesses everything in a whisper - the killing, the impersonation, the failed search for buried coin. He folds inward. The knife stays where it lies. The lantern flame trembles between two more hours of life.",
+      "choices": [
+        { "label": "knot the rope tight", "nextNode": "bound-guide-ending", "hint": "He does not resist when you take the rope and bind his wrists tight." },
+        { "label": "step away forever", "nextNode": "leave-guide-ending", "hint": "The siblings nod, exhausted relief mixed with the cold of the choice." }
+      ]
+    },
+    "side-passage": {
+      "passage": "The ledge connects to a tunnel above the chamber. The imposter paces below, fingers tapping his knife. He does not know you are here. The tunnel ends at a small balcony above the rear of the room. Three options: ambush from above, rejoin from below, or shout to let the siblings know help arrived.",
+      "choices": [
+        { "label": "ambush from above", "nextNode": "ambush-ending", "hint": "Your boots aim for his shoulders and the lantern below scatters shadows." },
+        { "label": "circle back below", "nextNode": "guide-confront", "hint": "The lower tunnel returns through a side passage you can enter quietly." }
+      ]
+    },
+    "imposter-confront": {
+      "passage": "You return to the chamber knowing the truth. The imposter sees your face and knows you know. He goes for the knife. You go for him. The brawl is short, brutal, and decided when the sister cracks his skull with a fist-sized stone she had hidden behind her cloak the entire time. He drops. The siblings finally allow themselves to weep.",
+      "choices": [
+        { "label": "haul them all out", "nextNode": "carry-out-ending", "hint": "Two hours of oil, three injured people, one stretcher. The math works." },
+        { "label": "spare him alive", "nextNode": "bound-guide-ending", "hint": "The siblings nod, exhausted relief mixed with the cold of the choice." }
+      ]
+    },
+    "body-search": {
+      "passage": "The notebook holds a hand-drawn map - a child's birthday gift from brother to sister years ago, marked with a pretend treasure spot in their grandmother's garden. No real hoard. The imposter killed for a fantasy. The green string belongs to the sister. The guide carried her keepsake for safekeeping.",
+      "choices": [
+        { "label": "double back to confront", "nextNode": "imposter-confront", "hint": "Lantern oil drops below two hours and the imposter is still in the chamber." },
+        { "label": "crawl into darkness", "nextNode": "lantern-out-ending", "hint": "The fissure beyond beckons, but oil will not last and the way back is unknown." }
+      ]
+    },
+    "ambush-ending": {
+      "passage": "Down hard. The imposter drops, knife clattering across rock. The siblings stare, then move - sister to brother, your hands binding wrists before he wakes. The brother rides up on a stretcher of two cloaks and a pole. Oil nearly gone, daylight ahead. The imposter walks bound between you, alive, and the village will hear his name.",
+      "choices": [],
+      "ending": {
+        "title": "Down From Above",
+        "flavor": "An ambush from a rock balcony saves three lives, and the cave keeps no more secrets.",
+        "action": "lift the lantern"
+      }
+    },
+    "carry-out-ending": {
+      "passage": "Two hours of oil for two hours of climb. The brother on a stretcher, the sister leaning on your arm, the imposter unconscious. The surface arrives as the lantern dies. Villagers swarm the cave mouth with torches and warm cloaks. The siblings live. The imposter wakes in irons. By dawn, the mountain is quiet again.",
+      "choices": [],
+      "ending": {
+        "title": "Promise Kept",
+        "flavor": "You promised the village you would search, and the mountain returned what it had taken.",
+        "action": "blow out the lantern"
+      }
+    },
+    "bound-guide-ending": {
+      "passage": "The imposter walks bound between siblings and stranger. The climb out is slow, arduous, oil-counting work. The lantern dies twenty paces from daylight, and you finish the climb by feel. The villagers meet you with shouts and torches. The siblings collapse into family arms. The imposter goes to the village cellar to await the regional magistrate. Justice will be slow, but it will come.",
+      "choices": [],
+      "ending": {
+        "title": "Bound for Trial",
+        "flavor": "You brought him out alive because some things should not be settled in the dark.",
+        "action": "tighten the knot"
+      }
+    },
+    "leave-guide-ending": {
+      "passage": "He shouts as the climb begins. He shouts longer than expected. The siblings do not speak on the way up. Two hours of oil, two hours of climb. The lantern burns out as daylight breaks. The imposter stays below with his lies. Miners find him dead the next morning. Whether by his own hand or the cave's, the report does not say.",
+      "choices": [],
+      "ending": {
+        "title": "Mountain's Verdict",
+        "flavor": "The cave kept what was left when the lantern went out for good.",
+        "action": "let the rope drop"
+      }
+    },
+    "lantern-out-ending": {
+      "passage": "The lantern dies in the gallery. Darkness presses. You sit, breathe, and count blessings. Twelve hours of slow blind crawl follow - fingers reading walls, ears tracking the stream. Dawn finds you at the warm-vent crack, scratched and alone. The siblings are still inside. Villagers go back in the next day. The mountain has decided.",
+      "choices": [],
+      "ending": {
+        "title": "Blind Climb Out",
+        "flavor": "Some searches end where they began, with a stranger crawling alone into morning light.",
+        "action": "feel for the wall"
+      }
+    }
+  }
+}

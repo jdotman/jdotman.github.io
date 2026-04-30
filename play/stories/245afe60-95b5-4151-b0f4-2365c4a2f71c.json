@@ -1,0 +1,187 @@
+{
+  "id": "245afe60-95b5-4151-b0f4-2365c4a2f71c",
+  "title": "Lantern Festival",
+  "description": "A rivertown's yearly lantern launch is hours away, but the festival organizer has vanished and the floating stage is sinking. Someone has to hold it all together.",
+  "author": "AI",
+  "tags": ["slice-of-life"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-29",
+  "dayOfYear": "07-02",
+  "endingCount": 5,
+  "storyNumber": 91,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Willowmere smells of fresh bread and lamp oil. Colored banners stretch between rooftops, and the river glitters below the stone bridge where you stand. Tonight is the Lantern Festival - the one night a year when every family sends a paper lantern downstream to honor the dead. But the floating stage lists badly to one side, and the festival organizer is nowhere to be found.",
+      "choices": [
+        { "label": "check the stage", "nextNode": "floating-stage", "hint": "Planks groan beneath your weight as you step onto the tilting platform." },
+        { "label": "ask the baker", "nextNode": "baker-gossip", "hint": "Flour dusts his apron and worry lines crease his forehead." },
+        { "label": "enter the organizer's tent", "nextNode": "organizer-tent", "hint": "The tent flap hangs open, swaying in the breeze off the river." }
+      ]
+    },
+    "floating-stage": {
+      "passage": "Lashed timber, anchored to the bridge pilings - the stage is a wide raft that groans with every ripple. One corner dips where a rope has frayed almost through. Tools lie scattered across the planks - a hammer, nails, a saw with a cracked handle. Upstream, a girl in green watches from the bank, arms folded, deciding whether to help or watch you sink.",
+      "choices": [
+        { "label": "mend the rope", "nextNode": "rope-fix", "hint": "The frayed hemp bites into your palms as you haul the corner upward." },
+        { "label": "wave the girl over", "nextNode": "meet-fen", "hint": "She hesitates, then hops down the bank with surprising ease." }
+      ]
+    },
+    "baker-gossip": {
+      "passage": "Old Garritt leans across his counter, voice low. Maren left before dawn with a lantern box under her arm. Did not come back. He says she looked troubled - not sick, not angry, just heavy. Like someone carrying a decision they had not made yet. He points upstream toward the mill. Her brother's mill. Closed since spring.",
+      "choices": [
+        { "label": "head to the mill", "nextNode": "old-mill", "hint": "The path along the river narrows where the willows grow thick." },
+        { "label": "inspect her tent", "nextNode": "organizer-tent", "hint": "The tent flap hangs open, swaying in the breeze off the river." }
+      ]
+    },
+    "organizer-tent": {
+      "passage": "Lantern supplies fill the tent - stacks of oiled paper, wire frames, candle stubs in jars. A ledger sits open on the worktable. Tonight's schedule is half-written, the ink still damp on the last line: 'If I am not back by noon, give the speech to Fen.' A wilted sprig of rosemary lies beside the pen. Remembrance herb.",
+      "choices": [
+        { "label": "locate Fen", "nextNode": "meet-fen", "hint": "The name is familiar - you have seen her near the stage most mornings." },
+        { "label": "read the full ledger", "nextNode": "ledger-clues", "hint": "Earlier pages hold more than schedules, written in a cramped, tired hand." }
+      ]
+    },
+    "rope-fix": {
+      "passage": "Splicing river-wet hemp is slow work. Your fingers ache by the time the corner lifts level with the rest of the raft. It holds. A cheer rises from the bank - children and two old fishermen who wandered over to watch. One tosses you a coil of spare rope. The stage needs more bracing before tonight, but it will float.",
+      "choices": [
+        { "label": "brace the stage fully", "nextNode": "stage-solid", "hint": "Each knot pulls tighter than the last as the raft steadies beneath you." },
+        { "label": "hunt for Maren", "nextNode": "old-mill", "hint": "The organizer still has not appeared and the sun climbs higher." }
+      ]
+    },
+    "meet-fen": {
+      "passage": "Fen is sixteen, sharp-eyed, and unimpressed. She tells you Maren is her aunt, and that the festival has run without problems for nine years because Maren never lets anyone help. This year something changed. Maren's brother Callum drowned in the mill race last autumn, and this is the first lantern night since. Fen holds up a half-built lantern. The frame is crooked.",
+      "choices": [
+        { "label": "fix the lantern", "nextNode": "build-lantern", "hint": "The wire bends easily once you find the right angle to hold it." },
+        { "label": "seek out Maren", "nextNode": "old-mill", "hint": "Fen points upstream without looking, as if she already knows where her aunt went." }
+      ]
+    },
+    "ledger-clues": {
+      "passage": "Earlier entries list supply costs, volunteer names, song choices. Two weeks ago the handwriting shifts - tighter, more hurried. Notes in the margin read: 'Callum's lantern - launch it or keep it?' and 'Cannot do the speech this year.' The last page holds a pressed wildflower, flattened between the words 'I miss you' and a smeared thumbprint.",
+      "choices": [
+        { "label": "show Fen the ledger", "nextNode": "fen-reads-ledger", "hint": "Fen's hands go still when she sees the pressed flower between the pages." },
+        { "label": "walk to the mill", "nextNode": "old-mill", "hint": "The path along the river narrows where the willows grow thick and low." }
+      ]
+    },
+    "stage-solid": {
+      "passage": "Three hours of knotting, hammering, and hauling. The stage sits level now, sturdy enough for a choir and a crowd. Garritt brings you bread and cold cider without being asked. Afternoon light stretches across the river. Lanterns need hanging, the choir needs a song list, and someone still has to give the opening speech. The festival is six hours away. No sign of Maren.",
+      "choices": [
+        { "label": "organize the volunteers", "nextNode": "rally-town", "hint": "Faces turn toward you, curious and hopeful, as you climb the bridge steps." },
+        { "label": "look for Maren", "nextNode": "old-mill", "hint": "The mill chimney is visible upstream, cold and smokeless against the sky." }
+      ]
+    },
+    "build-lantern": {
+      "passage": "Wire, paper, paste. Fen works fast but rough - she tears two sheets before you show her how to fold the seams. Together you build a lantern shaped like a river fish, its tail curled to catch the wind. She holds it up to the sunlight. It glows amber. For a moment she grins, then catches herself. Callum taught her that fold, she says quietly.",
+      "choices": [
+        { "label": "mention Callum", "nextNode": "callum-story", "hint": "Fen sets the lantern down gently, as if his name alone could crack it." },
+        { "label": "start on more lanterns", "nextNode": "rally-town", "hint": "The worktable fills with wire frames as neighbors drift over to help." }
+      ]
+    },
+    "old-mill": {
+      "passage": "The mill sits silent, its wheel jammed with silt and dead branches. Through the open door you see Maren on an overturned barrel, a lantern box on her lap. Unopened. She does not look surprised. Her eyes are red but dry, voice steady. She cannot go back tonight, she says. Not to that stage. Not where Callum gave the speech last year.",
+      "choices": [
+        { "label": "sit beside her", "nextNode": "sit-with-maren", "hint": "The barrel beside hers creaks as you lower yourself onto it." },
+        { "label": "urge her to return", "nextNode": "push-maren", "hint": "The words feel heavy before they even leave your mouth." }
+      ]
+    },
+    "fen-reads-ledger": {
+      "passage": "Fen reads the margin notes without speaking. Her jaw tightens. She closes the ledger and sets it on the table with both hands, careful, the way you handle something that could still hurt someone. Then she looks at you. She says Maren carried this festival alone for nine years and nobody once asked how she was doing. The pressed flower smells faintly of the riverbank.",
+      "choices": [
+        { "label": "track down Maren", "nextNode": "old-mill", "hint": "Fen stays behind to sort lantern supplies while you walk upstream." },
+        { "label": "prepare without her", "nextNode": "rally-town", "hint": "Fen rolls up her sleeves and reaches for the volunteer list." }
+      ]
+    },
+    "callum-story": {
+      "passage": "Callum was twenty-three. Built the stage every year since he was fifteen, knew every family's lantern by memory - whose grandmother's was which just by the fold pattern. The mill race caught him in a flash flood last autumn. Fast water, bad luck. Fen's voice stays flat, like she has told this enough times that the edges have worn smooth.",
+      "choices": [
+        { "label": "search for Maren", "nextNode": "old-mill", "hint": "Fen nods toward the upstream path without needing to be asked." },
+        { "label": "gather the volunteers", "nextNode": "rally-town", "hint": "The afternoon burns shorter and the lanterns will not hang themselves." }
+      ]
+    },
+    "rally-town": {
+      "passage": "Word spreads fast. By mid-afternoon, a dozen hands are hanging lanterns along the bridge rails and stringing garlands between the lampposts. The butcher's wife tunes a fiddle on the stage. Garritt sets up a cider stand. Fen directs traffic with a confidence that surprises even her. Everything is coming together - except the opening speech and the woman who should give it.",
+      "choices": [
+        { "label": "pen the speech yourself", "nextNode": "write-speech", "hint": "A blank page and a borrowed quill sit waiting on the stage lectern." },
+        { "label": "try the mill", "nextNode": "old-mill", "hint": "The mill chimney is visible upstream, cold and smokeless against the sky." }
+      ]
+    },
+    "sit-with-maren": {
+      "passage": "Neither of you speaks. The river moves past the stuck wheel, patient and constant. Maren opens the lantern box. Inside is a lantern unlike the others - heavier paper, hand-painted with a scene of the mill and a figure waving from the wheel platform. Callum's lantern. She built it for him. She does not know if she can let it go.",
+      "choices": [
+        { "label": "launch it together", "nextNode": "together-launch", "hint": "Your hand rests beside hers on the edge of the box, not quite touching." },
+        { "label": "tell her it can wait", "nextNode": "permission-to-grieve", "hint": "Relief and guilt cross her face at the same time, tangled like wet rope." }
+      ]
+    },
+    "push-maren": {
+      "passage": "Maren listens, jaw set. She knows the town needs the festival, knows Callum would want it to continue. Knowing does not make standing on that stage any easier. She grips the lantern box until her knuckles pale. Nine years she held this together alone. One night she asks for space and feels like she is failing everyone. The river gurgles past.",
+      "choices": [
+        { "label": "volunteer for the speech", "nextNode": "write-speech", "hint": "Maren exhales slowly, like setting down something that has crushed her for months." },
+        { "label": "settle in beside her", "nextNode": "sit-with-maren", "hint": "The barrel beside hers creaks as you lower yourself onto it." }
+      ]
+    },
+    "write-speech": {
+      "passage": "Ink and borrowed paper. The words come slowly at first, then faster. Not a grand speech - just honest. About lanterns and rivers. About how letting go does not mean forgetting. About the people who built this festival year after year and the ones who are not here to see it. Fen reads it over your shoulder. She does not change a word.",
+      "choices": [
+        { "label": "deliver it at dusk", "nextNode": "speech-ending", "hint": "The crowd gathers as the first stars appear above the river." },
+        { "label": "carry it to Maren", "nextNode": "maren-reads-speech", "hint": "The walk upstream feels shorter this time, the pages warm in your hand." }
+      ]
+    },
+    "together-launch": {
+      "passage": "Maren nods. Just barely. She tucks the lantern box under her arm and stands. The walk back to town is quiet, the river beside you the whole way. When you reach the bridge, Fen is waiting. She takes one look at her aunt and wraps both arms around her. Maren does not cry, but she holds on. The lantern box presses between them, still sealed.",
+      "choices": [
+        { "label": "ready the stage", "nextNode": "festival-begins", "hint": "The floating stage hums with footsteps as the choir takes their places." },
+        { "label": "step back quietly", "nextNode": "quiet-prep", "hint": "Garritt catches your eye and nods toward the cider stand, understanding." }
+      ]
+    },
+    "permission-to-grieve": {
+      "passage": "Maren stares at you. Nobody has said that to her - not once in six months. Not Garritt, not Fen, not the mayor. Everyone told her to be strong, to keep going, to honor his memory by carrying on. She sets the lantern box on the barrel between you and presses both palms against her eyes. The river keeps moving.",
+      "choices": [
+        { "label": "wait with her", "nextNode": "maren-returns", "hint": "Minutes pass. When she lowers her hands, something has shifted behind her eyes." },
+        { "label": "take over tonight", "nextNode": "write-speech", "hint": "She whispers a thank you so quiet the river almost swallows it." }
+      ]
+    },
+    "maren-reads-speech": {
+      "passage": "Maren reads the speech in the fading light of the mill doorway, her lips moving silently with each word as if tasting whether they are true. She folds the paper once and tucks it into her coat. Then the lantern box. She will give the speech herself, she says. Not because she has to. Because Callum would have hated someone else doing it badly.",
+      "choices": [],
+      "ending": {
+        "title": "Her Own Words",
+        "flavor": "She walks back to town carrying the lantern and the speech, and for the first time in months, her steps are steady.",
+        "action": "walk beside her"
+      }
+    },
+    "maren-returns": {
+      "passage": "When Maren stands, she is not healed. Grief does not work that way. But she picks up the lantern box and holds it like something precious instead of unbearable. She asks if Fen finished the fish lantern. You nod. Almost a smile. The walk back takes twenty minutes, and she talks the whole way - about Callum, about the festival, about the river.",
+      "choices": [],
+      "ending": {
+        "title": "Carried Downstream",
+        "flavor": "Callum's lantern joins a hundred others on the current, and Maren watches until it rounds the bend.",
+        "action": "light the candle"
+      }
+    },
+    "festival-begins": {
+      "passage": "Dusk arrives like a held breath releasing. Lanterns glow along the bridge rails. The choir sings an old river hymn, voices lifting across the water. Maren stands at the lectern, Callum's lantern in her hands. No speech. She holds it high, lights it, and sets it on the current. The crowd follows, one by one, until the river burns with drifting flame.",
+      "choices": [],
+      "ending": {
+        "title": "A Hundred Lights",
+        "flavor": "No words were needed. The river carried them all.",
+        "action": "release your lantern"
+      }
+    },
+    "quiet-prep": {
+      "passage": "Garritt pours you cider while Maren and Fen sit on the bridge steps, heads close. Around you the town assembles itself for the evening - garlands straightened, candles lit, children chasing each other with paper streamers. Nobody rushes Maren. When she finally climbs the stage steps an hour later, Fen is beside her. The crowd does not cheer. They just wait. That is enough.",
+      "choices": [],
+      "ending": {
+        "title": "Small Kindnesses",
+        "flavor": "Sometimes the bravest thing a town can do is simply wait.",
+        "action": "raise your cup"
+      }
+    },
+    "speech-ending": {
+      "passage": "The crowd fills the bridge and both banks. Torchlight reflects off the river in wavering lines, and your voice carries further than expected over the hushed water. When you finish, Maren stands at the back of the crowd, lantern box open. She lifts Callum's lantern, lights it, and sets it on the current. It joins the others, drifting south, growing smaller, glowing.",
+      "choices": [],
+      "ending": {
+        "title": "Borrowed Voice",
+        "flavor": "You spoke for a stranger and a town heard its own heart.",
+        "action": "step back from the lectern"
+      }
+    }
+  }
+}

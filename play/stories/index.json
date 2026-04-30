@@ -1195,7 +1195,7 @@
   },
   {
     "id": "4a7c2e9f-8b31-4d56-9e0a-6f2c8d1b5e37",
-    "title": "Holdfast",
+    "title": "Ashwater Bridge",
     "description": "A warlord's army surrounds the last bridge fortress on the Ashwater, and you arrive just as the road closes behind you.",
     "author": "AI",
     "tags": [
@@ -1224,7 +1224,7 @@
   },
   {
     "id": "3a0c442a-e1f2-4bf2-b2d5-727af1ae0aad",
-    "title": "Quiet Hands",
+    "title": "Falcon Crest",
     "description": "Your family's stolen falcon crest sits somewhere inside Lord Maren's lakeside villa. Fifty feast guests, hired guards, and a locked vault stand between you and the silver wings.",
     "author": "AI",
     "tags": [
@@ -1251,5 +1251,182 @@
     "dayOfYear": "06-29",
     "endingCount": 5,
     "storyNumber": 88
+  },
+  {
+    "id": "96088cc2-b68a-45b7-ba4b-1d02602de691",
+    "title": "Gravewater",
+    "description": "Your waterskin is almost empty and the desert offers no mercy. Somewhere beneath the red canyon lies a buried city with a well that never runs dry.",
+    "author": "AI",
+    "tags": [
+      "treasure-hunt",
+      "survival"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-29",
+    "dayOfYear": "06-30",
+    "endingCount": 5,
+    "storyNumber": 89
+  },
+  {
+    "id": "2b71663a-389e-470f-b803-a1d2b4222838",
+    "title": "Ember Accords",
+    "description": "Two warring clans meet at a neutral temple to sign a truce, but someone has poisoned the wine and both sides blame you.",
+    "author": "AI",
+    "tags": [
+      "diplomacy",
+      "negotiation"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-29",
+    "dayOfYear": "07-01",
+    "endingCount": 6,
+    "storyNumber": 90
+  },
+  {
+    "id": "245afe60-95b5-4151-b0f4-2365c4a2f71c",
+    "title": "Lantern Festival",
+    "description": "A rivertown's yearly lantern launch is hours away, but the festival organizer has vanished and the floating stage is sinking. Someone has to hold it all together.",
+    "author": "AI",
+    "tags": [
+      "slice-of-life"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-29",
+    "dayOfYear": "07-02",
+    "endingCount": 5,
+    "storyNumber": 91
+  },
+  {
+    "id": "0efb2851-e748-4905-a9fc-87d590ca77d0",
+    "title": "Molten Prism",
+    "description": "A dying glassblower offers to teach you her final technique - a lens that reveals hidden truths. But the sand she needs comes from a quarry that someone very powerful wants kept sealed.",
+    "author": "AI",
+    "tags": [
+      "crafting"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-29",
+    "dayOfYear": "07-03",
+    "endingCount": 5,
+    "storyNumber": 92
+  },
+  {
+    "id": "e2da51dc-45f9-4045-acaf-0db1ce20e9e6",
+    "title": "Warden's Ledger",
+    "description": "A lighthouse keeper is found dead at the top of his tower with every door locked from inside. The coastal village hires you to find the truth before the next tide.",
+    "author": "AI",
+    "tags": [
+      "mystery"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-29",
+    "dayOfYear": "07-04",
+    "endingCount": 5,
+    "storyNumber": 93
+  },
+  {
+    "id": "6a5faf79-a829-483a-a6be-49ccbc547142",
+    "title": "Foxglove Gambit",
+    "description": "A traveling con artist recruits you for one last score: swap a countess's cursed ruby for a fake before the gem drives her mad. The catch - the countess knows you are coming.",
+    "author": "AI",
+    "tags": [
+      "trickery",
+      "escape"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-29",
+    "dayOfYear": "07-05",
+    "endingCount": 5,
+    "storyNumber": 94
+  },
+  {
+    "id": "4c483f0e-d24f-4042-9527-c1d917c192aa",
+    "title": "Salt-Bone Wreck",
+    "description": "A merchant captain hires you to dive a sunken galleon for its lost manifest, but the wreck holds more than gold and the tide is turning fast.",
+    "author": "AI",
+    "tags": [
+      "voyage",
+      "treasure-hunt"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-29",
+    "dayOfYear": "07-06",
+    "endingCount": 6,
+    "storyNumber": 95
+  },
+  {
+    "id": "3231b23b-6762-4462-8a84-e05ed67d4d04",
+    "title": "Wolfthroat Pass",
+    "description": "A mountain monastery is surrounded by mercenary raiders hunting a fugitive scholar. The abbot will not surrender him, and the gates will not hold past dawn.",
+    "author": "AI",
+    "tags": [
+      "siege",
+      "sacrifice"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-29",
+    "dayOfYear": "07-07",
+    "endingCount": 5,
+    "storyNumber": 96
+  },
+  {
+    "id": "9da2ad68-86e3-4207-bf6e-1fa0e18821dd",
+    "title": "Stargazer's Folly",
+    "description": "An astronomer's tower has gone silent for three nights. The observatory's apprentice begs you to climb its spiraling stairs and find what has stopped the master from coming down.",
+    "author": "AI",
+    "tags": [
+      "eerie",
+      "mystery"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-29",
+    "dayOfYear": "07-08",
+    "endingCount": 6,
+    "storyNumber": 97
+  },
+  {
+    "id": "26ab0a8f-d38d-406b-8e52-be68343cce36",
+    "title": "Whisper Court",
+    "description": "Tonight the queen signs a treaty that will hand the borderlands to a foreign duchy. You have three hours to steal the unsigned draft before her seal touches it.",
+    "author": "AI",
+    "tags": [
+      "stealth",
+      "intrigue"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-29",
+    "dayOfYear": "07-09",
+    "endingCount": 5,
+    "storyNumber": 98
+  },
+  {
+    "id": "27c03928-8d56-4842-8301-50aa6ffedc04",
+    "title": "Hollow Strings",
+    "description": "A traveling lutemaker arrives at the harvest fair with a flawless instrument and a grudge. To win the bardic contest, you must out-craft a rival and out-play him on the same stage.",
+    "author": "AI",
+    "tags": [
+      "competition",
+      "crafting"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-29",
+    "dayOfYear": "07-10",
+    "endingCount": 4,
+    "storyNumber": 99
+  },
+  {
+    "id": "d6f56a99-1b7b-4336-8461-6bdbc12e8e5e",
+    "title": "Hollow Mountain",
+    "description": "A rope party of three vanished in the mountain caves last week. You promised the village you would search for them. Your lantern oil will not last past midnight.",
+    "author": "AI",
+    "tags": [
+      "exploration",
+      "survival"
+    ],
+    "estimatedMinutes": 12,
+    "dateGenerated": "2026-04-29",
+    "dayOfYear": "07-11",
+    "endingCount": 5,
+    "storyNumber": 100
   }
 ]

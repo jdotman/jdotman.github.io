@@ -1,0 +1,215 @@
+{
+  "id": "6a5faf79-a829-483a-a6be-49ccbc547142",
+  "title": "Foxglove Gambit",
+  "description": "A traveling con artist recruits you for one last score: swap a countess's cursed ruby for a fake before the gem drives her mad. The catch - the countess knows you are coming.",
+  "author": "AI",
+  "tags": ["trickery", "escape"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-29",
+  "dayOfYear": "07-05",
+  "endingCount": 5,
+  "storyNumber": 94,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Rain hammers the tavern roof as Lira slides into the booth across from you, drenched, grinning, holding a velvet pouch that glows faintly red through the fabric. A fake ruby. Flawless. She needs help swapping it for the real one in Countess Vashet's manor tonight. The real gem is cursed, driving Vashet mad. Lira claims kindness. Her grin says otherwise.",
+      "choices": [
+        { "label": "hear the plan", "nextNode": "lira-plan", "hint": "Lira pulls a charcoal sketch of the manor from inside her soaked coat." },
+        { "label": "refuse outright", "nextNode": "refuse-lira", "hint": "Her grin falters for exactly one heartbeat before she leans even closer." },
+        { "label": "examine the fake ruby", "nextNode": "fake-ruby", "hint": "The velvet pouch is warm in your hand, pulsing faintly against your palm." }
+      ]
+    },
+    "lira-plan": {
+      "passage": "Three levels. Ruby sits in a glass case on the second floor, behind a lock she cannot pick and a hound she cannot bribe. Vashet hosts a card game tonight - eight guests, plenty of noise. Lira plays cards while you handle the swap. Simple. Except Vashet hired a spycatcher last week. She knows someone is coming.",
+      "choices": [
+        { "label": "inquire about the spycatcher", "nextNode": "spycatcher-info", "hint": "Lira rolls her eyes but describes him with grudging, careful respect." },
+        { "label": "scout the manor first", "nextNode": "manor-exterior", "hint": "Rain or not, you want to see the grounds before committing to anything." }
+      ]
+    },
+    "refuse-lira": {
+      "passage": "Lira does not argue. She pulls the charcoal sketch anyway and sets it between the ale mugs - the manor, the ruby, the countess losing her grip night by night. Vashet's servants have started leaving. Her daughter wrote to the regional lord begging for help. The curse is real, Lira says, and nobody else has a fake good enough. She finishes her drink. Waits.",
+      "choices": [
+        { "label": "agree to help", "nextNode": "lira-plan", "hint": "Lira's grin returns, sharper this time, as if she always knew you would." },
+        { "label": "demand a larger cut", "nextNode": "negotiate-cut", "hint": "Her eyebrow rises but she does not say no, which tells you plenty." }
+      ]
+    },
+    "fake-ruby": {
+      "passage": "Through the velvet, the stone pulses with borrowed warmth - an echo of something fiercer. Lira paid an alchemist three months' wages for this copy. Perfect color, perfect weight, even mimics the curse-glow for a few hours before fading. The swap has to stick long enough for Vashet to believe the curse broke on its own. After that, nobody will look twice.",
+      "choices": [
+        { "label": "review the full plan", "nextNode": "lira-plan", "hint": "Lira pulls a charcoal sketch of the manor from inside her soaked coat." },
+        { "label": "question the curse", "nextNode": "curse-details", "hint": "The warmth from the pouch fades when you set it on the table." }
+      ]
+    },
+    "spycatcher-info": {
+      "passage": "His name is Drest. Former soldier, current problem. He patrols the manor with a mastiff and checks every guest's hands for lockpicks at the door. Lira will spill wine on his coat during the card game, forcing him to change. That gives you a window. Ten minutes, maybe less. Drest is the suspicious type, and that is putting it gently.",
+      "choices": [
+        { "label": "survey the manor", "nextNode": "manor-exterior", "hint": "Rain or not, you want to see the grounds before the game begins." },
+        { "label": "prepare a disguise", "nextNode": "disguise-prep", "hint": "Lira produces a servant's uniform from her travel bag with theatrical flair." }
+      ]
+    },
+    "negotiate-cut": {
+      "passage": "Sixty-forty, you say. Lira counters fifty-fifty and a meal afterward. You settle on fifty-five your way, plus she handles the running if things go wrong. She shakes on it with a hand still wet from rain. Done. Now she spreads the charcoal sketch flat and starts talking entry points, timing, and the exact shade of red the fake glows under candleflame.",
+      "choices": [
+        { "label": "study the sketch", "nextNode": "lira-plan", "hint": "Charcoal lines show every window, door, and guard post she could find." },
+        { "label": "press about risks", "nextNode": "spycatcher-info", "hint": "Lira's jaw tightens when you push for what could go wrong tonight." }
+      ]
+    },
+    "curse-details": {
+      "passage": "The ruby belonged to a warlord two centuries dead. Whoever holds it hears whispers - battle commands, old grudges, the voice of a man who refused to stop fighting. Vashet bought it at auction, thinking the curse was a trick to inflate the price. Three months later she barely sleeps, snapping at servants, muttering orders to soldiers who are not there. Louder every night.",
+      "choices": [
+        { "label": "accept the job", "nextNode": "lira-plan", "hint": "Lira's grin returns, sharper this time, as if she always knew you would." },
+        { "label": "negotiate your cut", "nextNode": "negotiate-cut", "hint": "Kindness is one thing, but Lira always has a buyer waiting somewhere." }
+      ]
+    },
+    "manor-exterior": {
+      "passage": "The manor sits behind a low wall on the hill above town. Ivy covers the east wing, and a servants' entrance faces the garden. Guards walk the front gate in pairs, but the garden side has only a single watchman making slow rounds. A trellis climbs to a second-floor balcony - sturdy enough to hold your weight if the ivy does not give.",
+      "choices": [
+        { "label": "climb the trellis", "nextNode": "balcony-entry", "hint": "Wet ivy slips under your fingers as you test the first wooden rung." },
+        { "label": "take the servants' door", "nextNode": "servant-entry", "hint": "The garden gate creaks open and the kitchen warmth washes over your face." }
+      ]
+    },
+    "disguise-prep": {
+      "passage": "The uniform fits poorly - tight in the shoulders, long in the sleeves. Lira adjusts it with pins and a knife, muttering about your posture. She hands you a serving tray and a wine bottle. Walk like you belong. Servants are invisible if they move with purpose. The card game starts in an hour. Lira enters through the front. You take the kitchen.",
+      "choices": [
+        { "label": "enter the kitchen", "nextNode": "servant-entry", "hint": "The garden gate creaks open and the kitchen warmth washes over your face." },
+        { "label": "check the grounds first", "nextNode": "manor-exterior", "hint": "One last look before you commit to the uniform and the tray." }
+      ]
+    },
+    "balcony-entry": {
+      "passage": "The trellis groans but holds. Rain makes every rung slick, and your knuckles ache by the time you pull yourself over the rail. Through the glass doors: a sitting room, dim and empty. A corridor beyond leads toward the main staircase. Below, laughter rises from the card game. Lira is doing her part. The ruby is one floor up, two rooms east.",
+      "choices": [
+        { "label": "move toward the ruby", "nextNode": "display-room", "hint": "The corridor carpet muffles your steps as you pass closed doors on both sides." },
+        { "label": "watch for Drest", "nextNode": "drest-encounter", "hint": "A heavy footstep echoes from the stairwell, followed by the click of claws." }
+      ]
+    },
+    "servant-entry": {
+      "passage": "The kitchen is chaos - three cooks, a scullery boy, and a mountain of plates. Nobody looks twice at another pair of hands carrying wine. You pass through the service corridor into the main hall where candleflame flickers off polished wood. Through the parlor doorway, Lira deals cards with her laughter pitched exactly right. Upstairs. The ruby waits.",
+      "choices": [
+        { "label": "slip upstairs", "nextNode": "display-room", "hint": "The staircase curves out of sight and the noise of the card game fades." },
+        { "label": "linger for gossip", "nextNode": "servant-gossip", "hint": "The scullery boy is chatty, and his eyes keep darting toward the upper floors." }
+      ]
+    },
+    "servant-gossip": {
+      "passage": "The scullery boy, Tam, has worked here two months - long enough to know the ruby case has three locks, not one, and that Drest keeps the third key on a chain around his neck. The other two hang in the countess's study. Tam also mentions a passage behind the library fireplace that leads to the wine cellar. Old smuggling route, he says.",
+      "choices": [
+        { "label": "locate the study", "nextNode": "study-keys", "hint": "Tam points upstairs, second door on the left, never locked during parties." },
+        { "label": "explore the passage", "nextNode": "secret-passage", "hint": "The library is three rooms east, and the fireplace has a loose stone." }
+      ]
+    },
+    "display-room": {
+      "passage": "A velvet rope circles the glass case. Inside, the ruby sits on silk, burning with a deep red glow that pulses like a heartbeat. Three locks seal the case - brass, iron, copper. The room smells of roses and something metallic underneath. A portrait of Vashet hangs on the far wall, her painted eyes tracking you. The floorboard near the window creaks.",
+      "choices": [
+        { "label": "pick the locks", "nextNode": "lock-attempt", "hint": "Your tools are in your sleeve, but three locks means three chances to fail." },
+        { "label": "hunt for the keys", "nextNode": "study-keys", "hint": "Tam said two keys are in the study, the third on Drest's neck." }
+      ]
+    },
+    "drest-encounter": {
+      "passage": "Drest rounds the corner with his mastiff before you can duck. Broad shoulders, scarred jaw, eyes that miss nothing. The dog sniffs the air and growls low. Drest holds up a hand - curious, not aggressive yet. He wants to know what you are doing on the second floor. His other hand rests on a cudgel. The balcony door is still ajar behind you.",
+      "choices": [
+        { "label": "bluff a reason", "nextNode": "bluff-drest", "hint": "You straighten your coat and meet his gaze with borrowed confidence." },
+        { "label": "bolt for the balcony", "nextNode": "balcony-escape", "hint": "Three steps, one leap, and the trellis is right there if the ivy holds." }
+      ]
+    },
+    "study-keys": {
+      "passage": "Vashet's study smells of old paper and lavender. Two keys hang from a hook behind the desk - brass and copper, each tagged. The iron key is missing. Drest's. You pocket the two and scan the desk: letters from her daughter, a plea to a healer, and a journal entry that reads 'the voice told me to burn the garden.' Accelerating.",
+      "choices": [
+        { "label": "head to the display room", "nextNode": "lock-attempt", "hint": "Two keys out of three - brass and copper sit heavy in your pocket." },
+        { "label": "track down Drest's key", "nextNode": "drest-encounter", "hint": "The iron key hangs on a chain around his neck, Tam said." }
+      ]
+    },
+    "secret-passage": {
+      "passage": "The loose stone pivots with a click. Behind the fireplace, a passage slopes downward through dust and cobwebs, forking twice. The right branch ends at a panel that opens behind a tapestry in the display room - you can hear the ruby humming through the wall, a vibration in your teeth. No guards. No dog. Just dust and the faint red pulse ahead.",
+      "choices": [
+        { "label": "open the panel", "nextNode": "display-room", "hint": "The tapestry shifts as the panel swings inward on silent hinges." },
+        { "label": "note the escape route", "nextNode": "lock-attempt", "hint": "If things go wrong, this passage leads straight to the cellar and out." }
+      ]
+    },
+    "lock-attempt": {
+      "passage": "Brass clicks open. Copper yields with a grind. The iron lock resists - you work the tumblers with sweat beading, listening for footsteps. A click. The case lifts. The ruby throbs in your palm, warm and angry, whispering something too faint to parse. You set the fake in its place. The glow matches perfectly. A door slams downstairs - Lira's signal. Time is up.",
+      "choices": [
+        { "label": "leave through the passage", "nextNode": "cellar-escape", "hint": "The tapestry hides the panel, and the passage leads down to the cellar." },
+        { "label": "walk out the front", "nextNode": "front-door-exit", "hint": "Confidence is the best disguise, and the staircase is right there." }
+      ]
+    },
+    "bluff-drest": {
+      "passage": "Lost guest, looking for the water closet. You say it with the right mix of embarrassment and wine-breath. Drest studies you for three long seconds. The mastiff stops growling. He points down the hall - ground floor, left of the pantry. Do not wander again. His eyes follow you to the staircase. The moment he rounds the corner, you double back.",
+      "choices": [
+        { "label": "rush to the display room", "nextNode": "display-room", "hint": "The corridor carpet muffles your steps as you pass closed doors on each side." },
+        { "label": "duck into the passage", "nextNode": "secret-passage", "hint": "The library is two doors down, and Drest just walked the other way." }
+      ]
+    },
+    "balcony-escape": {
+      "passage": "You vault the rail and grab the trellis. Ivy tears under your weight but the wood holds. Halfway down, the mastiff barks from above - Drest leans over the rail shouting for the garden guard. You drop the last six feet into a hedge, roll, and sprint for the wall. The fake ruby bounces in your pocket. The real one is still upstairs.",
+      "choices": [
+        { "label": "regroup with Lira", "nextNode": "lira-backup", "hint": "The tavern is four streets south and Lira will want to know everything." },
+        { "label": "circle back alone", "nextNode": "secret-passage", "hint": "The garden side is clear now that Drest pulled the guard inside." }
+      ]
+    },
+    "cellar-escape": {
+      "passage": "Cobwebs and barrel staves. The passage spits you out behind a rack of dusty wine bottles. A root-cellar door opens onto the garden. The ruby burns in your pocket, its whispers sharpening into fragments: march, hold, strike. You push through into cool night air. Rain washes the whispers thin. Almost free. The tavern lantern glows four streets south.",
+      "choices": [
+        { "label": "meet Lira at the tavern", "nextNode": "clean-getaway", "hint": "The tavern lantern glows through the rain like a promise kept." },
+        { "label": "destroy the ruby now", "nextNode": "destroy-ruby", "hint": "A stone wall and a cursed gem - one sharp strike could end this." }
+      ]
+    },
+    "front-door-exit": {
+      "passage": "Down the staircase, through the main hall, past the parlor where Lira catches your eye and taps her nose - clean exit. Drest stands by the front door, arms crossed, watching every guest. His mastiff sniffs the air as you pass. The dog's ears flatten. Drest's hand rises. One step from the threshold, he says: wait. Empty your pockets.",
+      "choices": [
+        { "label": "show empty pockets", "nextNode": "misdirection", "hint": "The ruby is in your sleeve, not your pocket - an old grifter's trick." },
+        { "label": "push past him", "nextNode": "rough-exit", "hint": "The door is right there and the rain beyond it promises cover." }
+      ]
+    },
+    "lira-backup": {
+      "passage": "Lira finds you at the tavern, still dripping. She is calm - too calm. She expected trouble and has a backup: the hidden passage from the library, scouted last month. She draws the route on a napkin, marks the panel behind the tapestry, and slides you better lockpicks. Go again, she says. Drest thinks you fled. He will not expect a second attempt.",
+      "choices": [
+        { "label": "try the passage", "nextNode": "secret-passage", "hint": "The library fireplace is accessible from the garden, and the manor is distracted." },
+        { "label": "abandon the job", "nextNode": "walk-away-ending", "hint": "Lira's face hardens, but she does not reach for your arm." }
+      ]
+    },
+    "clean-getaway": {
+      "passage": "Lira arrives twenty minutes later, cards still fanned in her hand. She sees the ruby and her grin splits wide. She wraps it in lead-lined cloth - blocks the whispers, she says. By morning the fake will have settled into its glow, and Vashet will believe the curse broke on its own. The real ruby goes north, to a collector who keeps cursed things locked.",
+      "choices": [],
+      "ending": {
+        "title": "Foxglove Shuffle",
+        "flavor": "The countess sleeps through the night for the first time in months, and the ruby travels north in lead-lined cloth.",
+        "action": "pocket your share"
+      }
+    },
+    "destroy-ruby": {
+      "passage": "The stone cracks on the third strike. Red fragments scatter across wet cobblestones, and the whispers stop like a cut throat. Silence. Real silence, not the hollow kind. Lira finds you staring at the shards, furious - three months' wages for the fake, and the real gem was worth ten times that. But the curse is gone. Nobody hears those whispers again.",
+      "choices": [],
+      "ending": {
+        "title": "Shattered Command",
+        "flavor": "The warlord's voice dies on wet cobblestones, two centuries too late.",
+        "action": "crush the last shard"
+      }
+    },
+    "misdirection": {
+      "passage": "Empty pockets, palms up. Drest pats your coat and finds nothing. The ruby sits in your sleeve, pressed flat against your forearm by a leather strap Lira made for exactly this moment. The mastiff whines once. Drest frowns but waves you through. Rain hits your face and you walk - never run - down the hill toward the tavern and the rest of your life.",
+      "choices": [],
+      "ending": {
+        "title": "Sleight Unseen",
+        "flavor": "The best tricks are the ones nobody knows happened.",
+        "action": "roll down your sleeve"
+      }
+    },
+    "rough-exit": {
+      "passage": "Shoulder down, you shove past Drest and burst into the rain. The mastiff barks. Boots pound behind you. Three turns, a fence, a drainage ditch - the pursuit fades into the hiss of rain on rooftops. When you reach the tavern, Lira is already there, bags packed, horses saddled outside. She planned for this too. Every outcome, covered.",
+      "choices": [],
+      "ending": {
+        "title": "Loud Exit",
+        "flavor": "Not every heist ends with a whisper - some end with a sprint and a saddled horse.",
+        "action": "mount the horse"
+      }
+    },
+    "walk-away-ending": {
+      "passage": "Lira watches you leave the tavern without another word. The rain is cold and the road is long, but the ruby stays in the manor and the curse stays with Vashet. A month later, word reaches you: her daughter hired a hedge-wizard who extracted the curse by moonlight. The countess recovered. Lira was last seen heading north, chasing the next score.",
+      "choices": [],
+      "ending": {
+        "title": "Not Every Hand",
+        "flavor": "Walking away is its own kind of gamble, and sometimes the house wins without you.",
+        "action": "turn up your collar"
+      }
+    }
+  }
+}

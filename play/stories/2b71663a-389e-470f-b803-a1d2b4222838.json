@@ -1,0 +1,231 @@
+{
+  "id": "2b71663a-389e-470f-b803-a1d2b4222838",
+  "title": "Ember Accords",
+  "description": "Two warring clans meet at a neutral temple to sign a truce, but someone has poisoned the wine and both sides blame you.",
+  "author": "AI",
+  "tags": ["diplomacy", "negotiation"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-29",
+  "dayOfYear": "07-01",
+  "endingCount": 6,
+  "storyNumber": 90,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Torchlight spills across the marble floor of Ashenveil Temple. Two delegations glare at each other across a long oak table - the Valdross in crimson, the Durnfolk in gray. You stand between them, the appointed mediator. A clay pitcher of ceremonial wine sits untouched. The high priestess nods. It is time to begin.",
+      "choices": [
+        { "label": "address the Valdross first", "nextNode": "valdross-greeting", "hint": "Their leader's jaw tightens as you turn toward their side." },
+        { "label": "pour the wine", "nextNode": "wine-pour", "hint": "The clay pitcher feels heavier than it should in your grip." },
+        { "label": "inspect the treaty scroll", "nextNode": "treaty-scroll", "hint": "The ink is still wet on several clauses near the bottom." }
+      ]
+    },
+    "valdross-greeting": {
+      "passage": "Commander Hael rises, scarred hands flat on the table, and speaks through gritted teeth about three burned villages and a stolen herd. Her voice cracks. The Durnfolk ambassador shifts in his seat, fingers drumming the armrest like a man counting the seconds until he can leave. A young scribe behind Hael catches your eye and shakes her head - a warning, or a plea.",
+      "choices": [
+        { "label": "acknowledge her losses", "nextNode": "acknowledge-losses", "hint": "Hael's shoulders drop a fraction when you speak her village names." },
+        { "label": "turn to the Durnfolk", "nextNode": "durnfolk-response", "hint": "The ambassador straightens in his chair as your attention shifts his way." }
+      ]
+    },
+    "wine-pour": {
+      "passage": "Red wine fills the first cup. Something is wrong. A bitter smell rises - faint, like crushed almonds beneath the grape, and nobody else seems to notice. The Durnfolk ambassador reaches for his cup with eager fingers while Hael watches with narrowed eyes, arms crossed. The priestess folds her hands, waiting for the toast.",
+      "choices": [
+        { "label": "stop the toast", "nextNode": "stop-toast", "hint": "Your hand closes over the ambassador's wrist before he drinks." },
+        { "label": "smell the wine closely", "nextNode": "smell-wine", "hint": "You lift the cup to your nose and the bitterness sharpens." }
+      ]
+    },
+    "treaty-scroll": {
+      "passage": "Thick vellum unrolls beneath your fingers. Most clauses are standard - land boundaries, reparations, hostage exchanges. Then you stop. A final clause, added in different ink, grants mining rights under Valdross land to an unnamed third party. Neither delegation seems aware of it. The priestess watches you read, her expression fixed like carved marble.",
+      "choices": [
+        { "label": "challenge the priestess", "nextNode": "confront-priestess", "hint": "Her calm fractures for just a moment when you point to the hidden clause." },
+        { "label": "show Hael the clause", "nextNode": "show-hael", "hint": "Hael snatches the scroll from your hands and her face goes white." }
+      ]
+    },
+    "acknowledge-losses": {
+      "passage": "Thornwell. Greyfen. Millhearth. Each name lands heavy in the hall. Hael sits down slowly. For the first time tonight, the room is still. The Durnfolk ambassador clears his throat and offers a nod, grudging but real. Progress, however fragile. Then a servant stumbles through the door, face pale, whispering that something is wrong with the wine stores.",
+      "choices": [
+        { "label": "trail the servant", "nextNode": "wine-cellar", "hint": "The servant's hands tremble as she leads you toward the cellar stairs." },
+        { "label": "press for the accord", "nextNode": "rush-accord", "hint": "Both sides lean forward as you push toward the signing." }
+      ]
+    },
+    "durnfolk-response": {
+      "passage": "Ambassador Torvald stands, his gray cloak pooling on the chair, and speaks measured words about Durnfolk farms burned in retaliation and children sent across the river in winter. His tone stays level. His knuckles do not - they are bone-white around his goblet. Behind him, a hooded figure you had not noticed leans against the pillar, watching everything.",
+      "choices": [
+        { "label": "question the hooded figure", "nextNode": "hooded-figure", "hint": "The figure does not move as you approach, but their breathing quickens." },
+        { "label": "suggest a compromise", "nextNode": "compromise", "hint": "Both delegations fall quiet as you begin to outline your terms." }
+      ]
+    },
+    "stop-toast": {
+      "passage": "Gasps fill the temple hall. The ambassador yanks his hand back. Hael slams the table. Both sides erupt in accusations - you have insulted the ceremony, broken sacred protocol. The priestess raises one hand and the shouting fades to murmurs. She asks for your reason. Every eye fixes on you. The bitter scent still rises from the cups.",
+      "choices": [
+        { "label": "claim the wine is poisoned", "nextNode": "reveal-poison", "hint": "The word 'poison' lands like a dropped blade on the marble floor." },
+        { "label": "blame a feeling", "nextNode": "intuition-path", "hint": "You choose your words carefully, hiding what you actually smelled." }
+      ]
+    },
+    "smell-wine": {
+      "passage": "Nightbloom extract. A slow poison that mimics heart failure hours after ingestion, and you recognize it from your years studying herbalism in the southern academies. Someone wants both delegations dead before dawn, the blame falling on natural causes. The priestess refills her own cup without hesitation, which means she either does not know or does not care.",
+      "choices": [
+        { "label": "warn both delegations", "nextNode": "reveal-poison", "hint": "You set the cup down hard enough to slosh wine across the table." },
+        { "label": "accuse the priestess", "nextNode": "confront-priestess", "hint": "Her calm fractures for just a moment when you lock eyes with her." }
+      ]
+    },
+    "confront-priestess": {
+      "passage": "The priestess meets your stare without blinking, then smiles - thin, tired, resigned. She admits the third-party clause belongs to the Silver Syndicate, merchants who fund this very temple and who want the iron beneath Valdross hills. No choice, she says. Torchlight gutters as a draft sweeps the hall, and you hear boots in the corridor outside.",
+      "choices": [
+        { "label": "summon both clans", "nextNode": "rally-clans", "hint": "Hael and Torvald exchange a glance you have never seen between enemies." },
+        { "label": "shield the priestess", "nextNode": "protect-priestess", "hint": "Fear replaces composure in her eyes when the boots grow louder." }
+      ]
+    },
+    "show-hael": {
+      "passage": "Hael reads the hidden clause twice, her scarred hands crumpling the edge of the vellum until it tears. She does not shout. Instead she turns to Torvald and slides the scroll across the table. He reads it and goes rigid. For the first time tonight, both leaders share the same enemy. The priestess steps backward toward the altar.",
+      "choices": [
+        { "label": "block her retreat", "nextNode": "confront-priestess", "hint": "Your boots echo on the marble as you step between her and the altar." },
+        { "label": "let her go", "nextNode": "priestess-flees", "hint": "She vanishes behind the altar curtain before anyone else reacts." }
+      ]
+    },
+    "wine-cellar": {
+      "passage": "Damp steps spiral into the cellar beneath the temple where three wine barrels sit in a row, one already tapped. A glass vial lies shattered on the flagstones, its residue faintly purple. Recent work. Someone poisoned the ceremonial wine within the last hour. Wet boot prints lead toward a narrow passage heading east, toward the river gate.",
+      "choices": [
+        { "label": "trace the boot prints", "nextNode": "river-gate", "hint": "The passage narrows ahead and the air grows thick with river damp." },
+        { "label": "gather the vial shards", "nextNode": "reveal-poison", "hint": "You wrap the broken glass in your sleeve, careful not to cut yourself." }
+      ]
+    },
+    "rush-accord": {
+      "passage": "Both sides sign under your urging. Wax seals press into the vellum. The priestess lifts the wine pitcher and fills every cup. A toast rises - voices joined for the first time in a generation. You drink. The wine tastes of grape and something faintly bitter. By morning, half the delegation lies fevered. The accord holds, but you never wake.",
+      "choices": [],
+      "ending": {
+        "title": "Sealed in Silence",
+        "flavor": "Peace lives, though the peacemaker does not.",
+        "action": "raise the cup"
+      }
+    },
+    "hooded-figure": {
+      "passage": "The figure lowers her hood. Young, pale, with ink-stained fingers and a Silver Syndicate brooch pinned inside her collar. She whispers that she was sent to ensure the accord fails - both clans ruined, the Syndicate swooping in to buy the land cheap. But she has doubts. Her hand rests on a pouch at her belt. Something inside it sloshes.",
+      "choices": [
+        { "label": "demand the pouch", "nextNode": "take-pouch", "hint": "She hesitates for a long breath, then holds it out with shaking fingers." },
+        { "label": "grant her amnesty", "nextNode": "amnesty-path", "hint": "Relief floods her face, though her grip on the pouch only tightens." }
+      ]
+    },
+    "compromise": {
+      "passage": "Shared pasture along the river. Alternating market days. A joint patrol for the mountain pass. Each point draws argument, then grudging acceptance. Hael and Torvald study each other like old wolves deciding whether to fight or share the kill. The priestess pours wine as the final clause settles. You notice her hands are steady - too steady for someone witnessing history.",
+      "choices": [
+        { "label": "watch the priestess closely", "nextNode": "smell-wine", "hint": "Something about the way she handles the pitcher unsettles you." },
+        { "label": "seal the accord now", "nextNode": "rush-accord", "hint": "The quill scratches across vellum as both leaders lean in to sign." }
+      ]
+    },
+    "reveal-poison": {
+      "passage": "Chaos erupts. The Valdross draw blades. The Durnfolk overturn the table. You shout above the clamor - the poison targets everyone, both clans equally. Someone outside this room wants war to resume. Hael pauses, sword half-drawn. Torvald grabs her arm, not to fight, but to listen. The priestess stands frozen near the altar, trembling.",
+      "choices": [
+        { "label": "unite both clans", "nextNode": "rally-clans", "hint": "Hael and Torvald exchange a glance you have never seen between enemies." },
+        { "label": "seize the priestess", "nextNode": "confront-priestess", "hint": "She does not resist when you close your hand around her wrist." }
+      ]
+    },
+    "intuition-path": {
+      "passage": "Caution, nothing more - that is what you tell them. Hael scoffs but sets her cup aside. Torvald does the same, reluctantly. The priestess offers to bring fresh wine from the private stores. While she is gone, Hael leans close and murmurs that three of her scouts vanished near this temple last month. Trust is thinner than the candle wax dripping beside you.",
+      "choices": [
+        { "label": "search the back rooms", "nextNode": "wine-cellar", "hint": "The delegations argue over reparation sums while you slip away." },
+        { "label": "broker a deal", "nextNode": "compromise", "hint": "Both sides fall quiet as you redirect the conversation toward terms." }
+      ]
+    },
+    "rally-clans": {
+      "passage": "Hael sheathes her blade first. Torvald follows. For one breath, two blood enemies stand shoulder to shoulder, facing the temple doors. Boots echo in the corridor - Syndicate enforcers sent to clean up if the poison failed. You count at least six silhouettes. The priestess whispers there is a passage behind the altar, but it only leads one direction.",
+      "choices": [
+        { "label": "fight together", "nextNode": "stand-and-fight", "hint": "Steel rings as Valdross and Durnfolk draw weapons side by side." },
+        { "label": "flee through the passage", "nextNode": "escape-passage", "hint": "The altar grinds sideways, revealing a narrow stairway spiraling down." }
+      ]
+    },
+    "protect-priestess": {
+      "passage": "The temple doors burst open. Six Syndicate enforcers flood in wearing merchant garb, blades drawn. Hael meets the first with her sword before anyone can speak. Torvald flips the oak table onto its side for cover. The priestess clutches your arm from behind the barricade and whispers the location of a sealed document proving everything - beneath the altar stone.",
+      "choices": [
+        { "label": "dig beneath the altar", "nextNode": "altar-evidence", "hint": "Your nails scrape flagstone as you pry the loose slab free." },
+        { "label": "help hold the doors", "nextNode": "stand-and-fight", "hint": "An enforcer's blade sparks against the doorframe as you charge forward." }
+      ]
+    },
+    "priestess-flees": {
+      "passage": "The curtain settles behind her. You hear a lock turn, then nothing. Hael curses. Torvald folds the scroll carefully and tucks it inside his cloak. Both leaders look at you - the mediator who uncovered a conspiracy but let the conspirator walk free. The candles burn lower. Outside, horse hooves clatter away from the temple stables.",
+      "choices": [
+        { "label": "draft a new accord", "nextNode": "new-accord", "hint": "Fresh vellum and a shared quill - fragile tools for fragile peace." },
+        { "label": "pursue the priestess", "nextNode": "river-gate", "hint": "You sprint through the altar room and out the stable door into the night." }
+      ]
+    },
+    "river-gate": {
+      "passage": "Moonlight reflects off the river in broken silver lines. A small boat bobs at the gate, half-loaded with crates stamped with the Syndicate seal. The hooded poisoner crouches at the bow, untying the mooring rope. One shout would alert the temple guards upstream. One leap would put you in the boat. The current pulls south toward the trade city.",
+      "choices": [
+        { "label": "leap into the boat", "nextNode": "boat-capture", "hint": "Your boots hit the hull and the boat rocks wildly beneath you." },
+        { "label": "shout for the guards", "nextNode": "guards-ending", "hint": "Your voice carries across the water like a thrown stone." }
+      ]
+    },
+    "take-pouch": {
+      "passage": "Inside the pouch: a vial of nightbloom extract, enough to kill a dozen. She confirms the wine is already dosed. You have minutes before the toast. The Syndicate agent watches you with wide, uncertain eyes. She says there is a second agent - someone inside the priestess's inner circle - who will trigger a backup plan if the poison fails.",
+      "choices": [
+        { "label": "rush to stop the toast", "nextNode": "stop-toast", "hint": "You push through the crowd, vial clutched tight as proof." },
+        { "label": "find the second agent", "nextNode": "confront-priestess", "hint": "The priestess adjusts her ring as you approach - a nervous habit, or a signal." }
+      ]
+    },
+    "amnesty-path": {
+      "passage": "She nods, pulls the vial from the pouch, and presses it into your palm. Nightbloom extract. She whispers the wine is already dosed. Hael listens from across the table, jaw tight. Torvald overhears and rises. For one brittle moment, all grudges dissolve in the face of a shared threat. The agent glances toward the corridor, uneasy.",
+      "choices": [
+        { "label": "call both clans together", "nextNode": "rally-clans", "hint": "Hael and Torvald exchange a glance you have never seen between enemies." },
+        { "label": "expose the priestess", "nextNode": "confront-priestess", "hint": "The agent points at the priestess with a trembling, ink-stained finger." }
+      ]
+    },
+    "stand-and-fight": {
+      "passage": "Valdross and Durnfolk fight as one. Hael's blade sweeps low while Torvald shields her flank. You grab a chair leg and crack it across an enforcer's knee. The skirmish is brutal and brief. When the last Syndicate agent falls, both clans stand panting in the ruined hall. Hael extends her hand to Torvald. He clasps it without a word.",
+      "choices": [],
+      "ending": {
+        "title": "Forged in Conflict",
+        "flavor": "Some truces are written in ink; this one is written in bruises.",
+        "action": "clasp their hands together"
+      }
+    },
+    "escape-passage": {
+      "passage": "Single file down the spiral - Hael first, then Torvald, the priestess trailing behind. The passage reeks of river mud and old roots. Shouts fade above. After a hundred paces, moonlight appears ahead. Cool air washes over your face as the tunnel opens onto a wooded bank. The temple flickers on the hill behind you. Both leaders are alive, the accord still unsigned.",
+      "choices": [
+        { "label": "write terms by firelight", "nextNode": "new-accord", "hint": "Hael gathers kindling while Torvald tears a blank page from his journal." },
+        { "label": "part ways for now", "nextNode": "parting-ending", "hint": "Torvald offers a nod. Hael says nothing, but she does not reach for her blade." }
+      ]
+    },
+    "altar-evidence": {
+      "passage": "Beneath the slab you find a sealed leather case. Inside: letters between the priestess and the Silver Syndicate, payment ledgers, and a map of iron deposits under Valdross territory. Enough proof to dismantle the conspiracy entirely. Hael reads the letters aloud. Torvald listens. When she finishes, both leaders turn to you and ask what happens next.",
+      "choices": [],
+      "ending": {
+        "title": "Weight of Proof",
+        "flavor": "Truth is the heaviest weapon, and tonight you carry it for two nations.",
+        "action": "hold up the letters"
+      }
+    },
+    "new-accord": {
+      "passage": "Fresh ink on torn vellum. No grand table, no priestess, no ceremony. Just two tired leaders and a mediator who refused to let the night end in blood. Hael signs first, then Torvald. No wine. No toast. Hael tears a strip from her crimson sash and ties it to Torvald's gray cloak pin. He lets it stay.",
+      "choices": [],
+      "ending": {
+        "title": "Rough Accord",
+        "flavor": "Peace does not need marble halls - just two signatures and a reason to stop fighting.",
+        "action": "witness the signing"
+      }
+    },
+    "boat-capture": {
+      "passage": "The poisoner swings an oar at your head. You duck, grab the gunwale, and haul yourself aboard. The boat tips, crates slide, and the Syndicate seal cracks open to reveal stacks of forged trade permits. The poisoner lunges but slips on wet planks. You pin her arms as the current carries you both downstream, away from the temple and into uncertain jurisdiction.",
+      "choices": [],
+      "ending": {
+        "title": "Adrift with Evidence",
+        "flavor": "The river decides where justice lands tonight.",
+        "action": "hold the ropes tight"
+      }
+    },
+    "guards-ending": {
+      "passage": "Temple guards rush the gate within moments. The poisoner abandons the boat and dives into the current, vanishing beneath the surface. Guards seize the crates and find Syndicate documents inside. Back in the hall, Hael and Torvald sit in wary stillness. The evidence is enough to expose the conspiracy, though the poisoner escapes into the night river.",
+      "choices": [
+        { "label": "pen fresh terms", "nextNode": "new-accord", "hint": "Fresh vellum and a shared quill - fragile tools for fragile peace." },
+        { "label": "present the documents", "nextNode": "altar-evidence", "hint": "Both leaders lean forward as you spread the Syndicate papers across the table." }
+      ]
+    },
+    "parting-ending": {
+      "passage": "No accord tonight. But no blood either. Hael walks north along the riverbank, her soldiers trailing behind. Torvald heads south, pausing once to look over his shoulder. The temple smolders on the hill above. You stand alone between two roads, carrying the only truth both sides believe. Tomorrow you will send word. Tonight, survival is enough.",
+      "choices": [],
+      "ending": {
+        "title": "Fragile Ceasefire",
+        "flavor": "Not every peace begins with a signature - some begin with simply walking away alive.",
+        "action": "watch them leave"
+      }
+    }
+  }
+}

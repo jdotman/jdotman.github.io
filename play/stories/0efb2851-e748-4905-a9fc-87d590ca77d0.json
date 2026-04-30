@@ -1,0 +1,222 @@
+{
+  "id": "0efb2851-e748-4905-a9fc-87d590ca77d0",
+  "title": "Molten Prism",
+  "description": "A dying glassblower offers to teach you her final technique - a lens that reveals hidden truths. But the sand she needs comes from a quarry that someone very powerful wants kept sealed.",
+  "author": "AI",
+  "tags": ["crafting"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-29",
+  "dayOfYear": "07-03",
+  "endingCount": 5,
+  "storyNumber": 92,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Heat rolls off the furnace in waves thick enough to taste. Istra's workshop sits at the edge of the glassblower's quarter, its windows stained orange from decades of kiln glow. She stands hunched over a blowpipe, breath steady despite the tremor in her hands. A half-formed globe of molten glass hangs at the tip, pulsing. She does not look up when you enter.",
+      "choices": [
+        { "label": "announce yourself", "nextNode": "greet-istra", "hint": "Your voice cuts through the roar of the furnace like a cracked bell." },
+        { "label": "watch her work", "nextNode": "observe-craft", "hint": "The glass turns slowly, catching fireglow in its liquid belly." },
+        { "label": "examine the workshop", "nextNode": "workshop-tour", "hint": "Shelves of finished pieces line the walls, each one stranger than the last." }
+      ]
+    },
+    "greet-istra": {
+      "passage": "Istra sets the blowpipe in its cradle without finishing the piece. Wasted glass - that tells you something. She is old, thin, with burns scarring both forearms from wrist to elbow. Her eyes are sharp despite everything else failing. She says she has one technique left to teach before her lungs give out. A lens. Not for seeing far, but for seeing true.",
+      "choices": [
+        { "label": "inquire about the lens", "nextNode": "lens-explanation", "hint": "Istra pulls a cloth-wrapped bundle from beneath the workbench and sets it between you." },
+        { "label": "question her health", "nextNode": "istra-cough", "hint": "A rattling breath escapes her before she can hide it behind her sleeve." }
+      ]
+    },
+    "observe-craft": {
+      "passage": "The globe stretches, narrows, blooms. Istra's hands move from memory, rotating the pipe with a rhythm that borders on music. Then she pauses. Coughs. The glass sags and she curses, pulling it from the heat too late. The shape collapses into a lump. She stares at it the way a rider watches a lame horse - knowing what it means, refusing to say it aloud.",
+      "choices": [
+        { "label": "steady the pipe", "nextNode": "first-lesson", "hint": "The iron is heavier than it looks, and the heat presses against your face." },
+        { "label": "let her rest", "nextNode": "istra-cough", "hint": "She leans against the workbench, chest heaving, pride holding her upright." }
+      ]
+    },
+    "workshop-tour": {
+      "passage": "Vases like frozen waterfalls. Bowls with colors trapped inside their walls - sunset amber, deep sea green, a violet so rich it hums. One shelf holds failures: cracked spheres, warped discs, and a single lens mounted in a copper frame. Through it, the furnace flame looks different. Shapes move inside the fire that should not be there. Faces. Letters. Istra clears her throat behind you.",
+      "choices": [
+        { "label": "touch the lens", "nextNode": "lens-explanation", "hint": "The copper frame is warm, and the glass inside it shivers at your fingertip." },
+        { "label": "turn to face her", "nextNode": "greet-istra", "hint": "Her expression shifts between pride and grief, settling on neither for long." }
+      ]
+    },
+    "lens-explanation": {
+      "passage": "Istra unwraps the cloth. Inside is a disc of glass so clear it looks like a hole cut in the air. A truth-lens, she calls it - ground from silversand found only in the sealed quarry north of town. Forged documents glow red through it. Disguised faces shimmer. She needs more sand to teach you, and the quarry is sealed by order of the magistrate.",
+      "choices": [
+        { "label": "go to the quarry", "nextNode": "quarry-gate", "hint": "The north road is empty, which feels wrong for a trade route at midday." },
+        { "label": "confront the magistrate", "nextNode": "magistrate-office", "hint": "The town hall sits three streets over, its iron doors always guarded." }
+      ]
+    },
+    "istra-cough": {
+      "passage": "The cough racks her whole frame. She waves you off, but the cloth she presses to her mouth comes away spotted. Kiln-lung. Every glassblower gets it eventually, and she has months, maybe less. That is why the lens matters - if the technique dies with her, nobody will ever craft another. She taught two apprentices before you. Both quit when the magistrate sealed the quarry.",
+      "choices": [
+        { "label": "pledge yourself", "nextNode": "first-lesson", "hint": "Istra's eyes brighten for the first time since you walked through her door." },
+        { "label": "probe the quarry closure", "nextNode": "quarry-secret", "hint": "Her jaw tightens and she glances toward the workshop door before answering." }
+      ]
+    },
+    "first-lesson": {
+      "passage": "Gather, blow, shape. Istra talks you through each step with a patience that costs her breath. The glass fights you - too hot, too heavy, too alive. Your first attempt looks like a melted coin. Better than hers was, she says. The second holds its shape long enough to cool into something almost round. She taps it with a fingernail. Not bad.",
+      "choices": [
+        { "label": "trek to the quarry", "nextNode": "quarry-gate", "hint": "Istra draws a rough map on scrap paper and presses it into your palm." },
+        { "label": "hunt for sand elsewhere", "nextNode": "black-market", "hint": "A merchant in the lower quarter might know where to find silversand." }
+      ]
+    },
+    "quarry-secret": {
+      "passage": "Istra lowers her voice. The magistrate sealed the quarry three years ago, claiming unstable ground. Lies. She used a truth-lens on his decree and the ink burned crimson. Silversand reveals forgery, and the magistrate's land titles are forged - half the estates in the upper quarter belong to families he cheated. If anyone crafts a new lens, his entire fortune unravels.",
+      "choices": [
+        { "label": "sneak to the quarry", "nextNode": "quarry-gate", "hint": "The north road is empty, which feels wrong for a trade route at midday." },
+        { "label": "gather evidence first", "nextNode": "magistrate-office", "hint": "Istra pulls a rolled parchment from her shelf - one of his forged deeds." }
+      ]
+    },
+    "quarry-gate": {
+      "passage": "Iron bars across a cave mouth, padlocked with a chain as thick as your wrist. Two guards sit on barrels playing dice, swords propped against the rock. Beyond the gate, pale sand glitters in filtered brightness - silversand heaped in drifts along the quarry floor. Enough to make a hundred lenses. A narrow drainage channel runs beneath the gate, barely wide enough for a person.",
+      "choices": [
+        { "label": "talk to the guards", "nextNode": "guard-talk", "hint": "One guard squints at you while the other pockets his dice, suddenly alert." },
+        { "label": "crawl through the channel", "nextNode": "drainage-entry", "hint": "Grit scrapes your elbows as you lower yourself into the narrow gap." }
+      ]
+    },
+    "magistrate-office": {
+      "passage": "Polished oak and velvet curtains. Magistrate Dorin sits behind a desk stacked with land registries, his smile practiced and his rings heavy. He guesses Istra sent you. Wrong. He offers a seat and spiced wine, tone friendly, but his hand rests near a bell that would summon guards. The cup steams between you, an offering or a trap.",
+      "choices": [
+        { "label": "sip the wine", "nextNode": "magistrate-deal", "hint": "The cup is warm and the spice smells of clove and something sharper underneath." },
+        { "label": "refuse and press him", "nextNode": "magistrate-threat", "hint": "His smile fades by degrees, like a candle burning down to the wick." }
+      ]
+    },
+    "black-market": {
+      "passage": "The lower quarter smells of tallow and wet stone. A dealer named Sorgo runs a stall behind the tannery, selling things that fell off carts. He has silversand - a pouch, barely enough for one lens. Price: forty silver, or a favor. The favor involves delivering a sealed letter to the magistrate's wife. Nothing dangerous, he says. Just information she deserves.",
+      "choices": [
+        { "label": "pay the silver", "nextNode": "buy-sand", "hint": "Your coin purse feels lighter, but the sand glows faintly in the pouch." },
+        { "label": "deliver the letter", "nextNode": "letter-delivery", "hint": "The wax seal bears no crest - just a thumbprint pressed into red." }
+      ]
+    },
+    "guard-talk": {
+      "passage": "The taller guard knows Istra - bought a vase from her years ago. Good work, he says. He is sorry about the quarry, but orders are orders. The shorter guard stays quiet, watching the road. The tall one leans close and whispers: night shift is one guard, and he sleeps after midnight. That is all the help he can give. His eyes say the rest.",
+      "choices": [
+        { "label": "come back at midnight", "nextNode": "night-quarry", "hint": "The walk back to town feels longer with the weight of waiting ahead." },
+        { "label": "try the drainage channel", "nextNode": "drainage-entry", "hint": "Grit scrapes your elbows as you circle back toward the narrow gap." }
+      ]
+    },
+    "drainage-entry": {
+      "passage": "Mud and gravel press against your chest as you wriggle through. The channel narrows once, then opens onto the quarry floor. Pale sand stretches in every direction, glittering like frost under shafts from ceiling cracks. You fill your satchel fast, the grains almost weightless. A sound echoes from the gate - boot steps, keys jangling. Someone is coming.",
+      "choices": [
+        { "label": "hide behind the drifts", "nextNode": "quarry-hide", "hint": "The pale drifts are tall enough to crouch behind if you stay low." },
+        { "label": "escape through the channel", "nextNode": "narrow-escape", "hint": "The channel feels tighter going back, or maybe your satchel is too full." }
+      ]
+    },
+    "magistrate-deal": {
+      "passage": "Dorin sips his own wine first - a show of trust, or a performance. He knows about truth-lenses. He offers a deal: stop the apprenticeship, and he funds Istra's care for her remaining months. Comfortable rooms, a healer, medicine. All she has to do is stop teaching. His voice is gentle. The offer is real. The cost is everything she built.",
+      "choices": [
+        { "label": "reject the deal", "nextNode": "magistrate-threat", "hint": "His rings click against the desk as his fingers curl into a fist." },
+        { "label": "pretend to agree", "nextNode": "false-agreement", "hint": "You nod slowly, watching his shoulders relax as he believes you." }
+      ]
+    },
+    "magistrate-threat": {
+      "passage": "Friendliness drains from Dorin's face. He stands, and the desk between you feels less like furniture and more like a barricade. Istra's workshop lease expires next month, he says. He owns the building. One word and she is on the street with her furnace cold. Tomorrow. Reconsider. The door opens behind you - a guard, waiting to escort you out.",
+      "choices": [
+        { "label": "leave quietly", "nextNode": "quarry-gate", "hint": "The guard's hand rests on your shoulder, firm but not yet rough." },
+        { "label": "mention the forged deeds", "nextNode": "bluff-dorin", "hint": "His left eye twitches when you say the word 'forgery' aloud." }
+      ]
+    },
+    "buy-sand": {
+      "passage": "The silversand catches every scrap of glow that touches it, almost weightless in the pouch. Sorgo counts the coins twice, bites one, and nods. Enough for a single lens, maybe two if Istra is precise. He warns you not to mention his name in the upper quarter. Bad for business. Worse for breathing, he adds, and does not smile.",
+      "choices": [
+        { "label": "bring it to Istra", "nextNode": "sand-ending", "hint": "Istra is waiting by the furnace, blowpipe already in the cradle." },
+        { "label": "investigate the magistrate", "nextNode": "magistrate-office", "hint": "Sorgo mutters that Dorin has been buying silence for years now." }
+      ]
+    },
+    "letter-delivery": {
+      "passage": "The magistrate's wife reads the letter standing among her rose trellises, face still as carved oak. She folds it once, tucks it into her sleeve, and hands you a pouch of silversand without a word. Hidden in her greenhouse. Make the lens, she says. Let people see what he has done. Her eyes are dry and furious.",
+      "choices": [
+        { "label": "rush to Istra", "nextNode": "final-craft", "hint": "The sand shifts in the pouch with each step, whispering against the leather." },
+        { "label": "trust the wife's plan", "nextNode": "letter-ending", "hint": "She turns back toward the town hall, letter tucked tight, jaw set." }
+      ]
+    },
+    "night-quarry": {
+      "passage": "Stars and silence. The lone guard snores against the gate, chin on chest. The padlock is old but the chain has slack - enough to squeeze through if you twist sideways. Inside, silversand glows faintly under moonbeams filtering through the quarry ceiling. Beautiful and eerie, like walking on crushed starlight. You fill your satchel and slip back through before the guard stirs.",
+      "choices": [
+        { "label": "race to the workshop", "nextNode": "final-craft", "hint": "Your satchel bumps against your hip as you jog through empty streets." },
+        { "label": "grab only what you need", "nextNode": "quiet-ending", "hint": "A handful of sand, no more - enough for one careful attempt." }
+      ]
+    },
+    "quarry-hide": {
+      "passage": "A guard walks the quarry floor with a lantern, boots crunching on silversand. The glow sweeps past twice - close enough to see the stitching on his gloves. He kneels near the drainage channel and examines the mud. Your tracks. He straightens, hand on sword hilt. Then a shout from outside - shift change. He turns back toward the gate.",
+      "choices": [
+        { "label": "slip out now", "nextNode": "narrow-escape", "hint": "The channel beckons, still muddy from your first crawl through." },
+        { "label": "wait longer", "nextNode": "patient-escape", "hint": "Stillness settles like dust and the quarry empties of everything but sand." }
+      ]
+    },
+    "narrow-escape": {
+      "passage": "The satchel catches on a rock halfway through the channel. You wrench it free, leaving a strap behind, and tumble out the far side covered in pale grit. No alarm. No pursuit. The quarry gate stays shut behind you and the road home stretches quiet under a clouded sky. Silversand dusts your clothes. Enough for several lenses if none of it spills.",
+      "choices": [
+        { "label": "carry the sand to Istra", "nextNode": "final-craft", "hint": "The workshop furnace glows amber through the stained windows ahead." },
+        { "label": "lay low until dawn", "nextNode": "quiet-ending", "hint": "Caution wins - you stash the satchel and wait for safer hours." }
+      ]
+    },
+    "patient-escape": {
+      "passage": "An hour passes. Two. The quarry empties completely as the night shift settles at the gate with a flask and a card game. You crawl through the drainage channel with a full satchel, moving slow, keeping quiet. The mud is colder now. Outside, the road is deserted. Frogs sing in the ditch. Nobody follows. The silversand is yours, earned in patience and mud.",
+      "choices": [
+        { "label": "make for the workshop", "nextNode": "final-craft", "hint": "Istra's furnace casts a warm glow visible from three streets away." },
+        { "label": "stash the sand safely", "nextNode": "quiet-ending", "hint": "A loose stone near the bridge makes a perfect hiding spot until morning." }
+      ]
+    },
+    "false-agreement": {
+      "passage": "Dorin shakes your hand. Firm grip, cold rings. He pours a second cup and toasts to reasonable people. While he talks about Istra's comfort, you memorize the desk - registries, ink color, the seal press beside the candle. Enough for Istra to know which documents to examine with her remaining lens. He walks you to the door, satisfied. He should not be.",
+      "choices": [
+        { "label": "warn Istra", "nextNode": "final-craft", "hint": "The workshop door is unlocked and the furnace is already roaring." },
+        { "label": "raid his records tonight", "nextNode": "night-quarry", "hint": "The town hall has guards at every entrance, but alleys have none." }
+      ]
+    },
+    "bluff-dorin": {
+      "passage": "The color drains from his face. He sits down hard. His mouth opens, closes, opens again. Not a threat - a negotiation now, and his power rests on paper that burns under the right lens. He offers the quarry: help yourself, never speak of the deeds. The tremor in his voice is real. So is the calculation behind his eyes.",
+      "choices": [
+        { "label": "take the quarry access", "nextNode": "final-craft", "hint": "He slides a signed order across the desk with fingers that will not stop shaking." },
+        { "label": "demand full restitution", "nextNode": "justice-ending", "hint": "His jaw drops when you push the offer back across the polished oak." }
+      ]
+    },
+    "final-craft": {
+      "passage": "Istra works through the night. Melt, gather, blow steady, shape with tools no wider than a fingernail. You hold the pipe while she scores the surface with a diamond stylus. The lens takes form - a disc no larger than your palm, clear as spring water. Dawn strikes it and the workshop walls shimmer with hidden script left by every glassblower before her. Perfect.",
+      "choices": [],
+      "ending": {
+        "title": "Clear as Truth",
+        "flavor": "The lens catches first dawn, and every hidden thing in the room stands revealed.",
+        "action": "hold the lens high"
+      }
+    },
+    "justice-ending": {
+      "passage": "Dorin crumbles. Within a week the forged deeds reach the regional court and families reclaim stolen land. The quarry opens. Istra fills her workshop with silversand and begins teaching anyone willing to learn - not just lens-craft, but every technique she knows. Her cough worsens, but her hands stay steady. A craft only dies when the last person stops caring, she says.",
+      "choices": [],
+      "ending": {
+        "title": "Shattered Forgery",
+        "flavor": "Every false deed burns crimson under the lens, and the truth beneath is older than any magistrate.",
+        "action": "present the evidence"
+      }
+    },
+    "letter-ending": {
+      "passage": "The magistrate's wife brings the forged deeds to the town council herself, silversand lens in hand. Dorin is stripped of his title before the week ends. Istra watches from her workshop window as the quarry gates swing open for the first time in three years. She turns back to the furnace, coughing, and picks up her blowpipe. Still time for one more lesson.",
+      "choices": [],
+      "ending": {
+        "title": "Opened Gates",
+        "flavor": "The quarry gleams in open air, and Istra's furnace burns brighter than it has in years.",
+        "action": "stoke the furnace"
+      }
+    },
+    "sand-ending": {
+      "passage": "One lens. That is all the sand allows. Istra mounts it in a copper frame and hangs it in her workshop window where anyone walking past can peer through. Within days, the whole quarter knows. Merchants check contracts. Farmers verify boundary stakes. The magistrate's agents buy every curtain in the market to block the view, but truth is harder to cover than glass.",
+      "choices": [],
+      "ending": {
+        "title": "Window of Proof",
+        "flavor": "One lens in one window changes a whole quarter, one glance at a time.",
+        "action": "hang the lens"
+      }
+    },
+    "quiet-ending": {
+      "passage": "Istra teaches you everything in four sleepless nights. Gather, blow, score, mount. By the fifth morning your hands know the work the way hers do - by feel, by heat, by the sound the glass makes when it is ready. She sits in her chair by the furnace, wrapped in a blanket, watching you finish the last lens alone. She nods once. Enough.",
+      "choices": [],
+      "ending": {
+        "title": "Passed Flame",
+        "flavor": "The furnace will not go cold. Not while someone remembers how to breathe life into sand.",
+        "action": "seal the final lens"
+      }
+    }
+  }
+}

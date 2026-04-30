@@ -1,0 +1,184 @@
+{
+  "id": "4c483f0e-d24f-4042-9527-c1d917c192aa",
+  "title": "Salt-Bone Wreck",
+  "description": "A merchant captain hires you to dive a sunken galleon for its lost manifest, but the wreck holds more than gold and the tide is turning fast.",
+  "author": "AI",
+  "tags": ["voyage", "treasure-hunt"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-29",
+  "dayOfYear": "07-06",
+  "endingCount": 6,
+  "storyNumber": 95,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Captain Mero waits on the rocky shore, holding a coiled rope and a brass diving bell that has clearly seen too many seasons of saltwater service. His galleon sank here three weeks ago, lost to a freak squall. Manifest locked in the cabin chest. Without it, his trading house collapses. He needs you to dive. Forty minutes of tide. Gulls scream above.",
+      "choices": [
+        { "label": "ask about the wreck", "nextNode": "wreck-history", "hint": "Mero's eyes drift toward the foam where his ship went down." },
+        { "label": "inspect the diving bell", "nextNode": "bell-check", "hint": "The brass is dented and the seal looks repaired with fresh pitch." },
+        { "label": "demand a higher fee", "nextNode": "haggle-mero", "hint": "His jaw tightens but his hand drifts toward his coin purse already." }
+      ]
+    },
+    "wreck-history": {
+      "passage": "The galleon ran a route between southern spice ports and the capital, carrying silk, peppercorns, and a sealed crate Mero refuses to name. Clear sky. Wrong season. The squall came anyway and half the crew drowned, while survivors swam ashore raving about voices in the deep. Salt madness, Mero says. He does not believe himself.",
+      "choices": [
+        { "label": "press about the crate", "nextNode": "crate-secret", "hint": "Mero's hand tightens on the rope and his answer takes a beat too long." },
+        { "label": "review the diving bell", "nextNode": "bell-check", "hint": "The brass is dented and the seal looks repaired with fresh pitch." }
+      ]
+    },
+    "bell-check": {
+      "passage": "The bell is old. Patches dot its skin where Mero's smith hammered new copper over weak spots. The air hose, however, looks new - tarred canvas wrapped tight. He has spare lamps, a knife, and a slate. Forty-minute air supply. Pull twice on the line for trouble. Three pulls means surface now.",
+      "choices": [
+        { "label": "start the dive", "nextNode": "descent", "hint": "Cold seawater laps your boots as Mero seals the bell rim around your shoulders." },
+        { "label": "negotiate first", "nextNode": "haggle-mero", "hint": "His jaw tightens but his hand drifts toward his coin purse already." }
+      ]
+    },
+    "haggle-mero": {
+      "passage": "Mero curses softly. He doubles the fee but warns this is a one-day window - storm coming tomorrow with no second chance afterward. Bonus on top: anything in the cabin chest beyond the manifest is yours. Coin, jewels, the strange crate. Whatever he is hiding, he wants the manifest more than anything else. That tells you plenty.",
+      "choices": [
+        { "label": "accept and dive", "nextNode": "descent", "hint": "Mero seals the bell rim around your shoulders with practiced fingers." },
+        { "label": "probe the crate again", "nextNode": "crate-secret", "hint": "Mero's expression shutters when you raise the same topic a second time." }
+      ]
+    },
+    "crate-secret": {
+      "passage": "Mero exhales. The crate held a relic - a coral idol bought from a southern temple, meant for a private buyer in the capital who paid in gold he should never have accepted. Sacred to the sea folk. He suspects the squall was no accident. The voices called the idol home. Find it, leave it. The manifest matters more.",
+      "choices": [
+        { "label": "begin the descent", "nextNode": "descent", "hint": "Cold seawater laps your boots as Mero seals the bell around your shoulders quickly." },
+        { "label": "push for higher pay", "nextNode": "haggle-mero", "hint": "Mero curses but reaches for his coin purse anyway, the secret loosening his grip." }
+      ]
+    },
+    "descent": {
+      "passage": "Brightness fades green, then blue, then a deep slate the color of bruises. The bell creaks under pressure. Through the small viewport, fish dart away from the lamp glow. Twenty fathoms down, the wreck rises out of the murk - the galleon's broken back, masts snapped, hull split open like a cracked nut. A hum thickens. Almost a song.",
+      "choices": [
+        { "label": "enter the cabin", "nextNode": "captain-cabin", "hint": "The shattered stern offers a clear path into the captain's quarters." },
+        { "label": "search the hold", "nextNode": "cargo-hold", "hint": "Spilled crates and rope scatter across the broken cargo deck." },
+        { "label": "swim around the wreck", "nextNode": "wreck-circle", "hint": "Something pale moves along the keel - too smooth to be coral or fish." }
+      ]
+    },
+    "wreck-circle": {
+      "passage": "You guide the bell along the broken hull. Pale shapes drift in and out of the lamp's reach - long, sleek, watching. Not aggressive. Curious. One brushes the bell with a fluke as wide as your arm and the brass rings like a struck chime. The shapes vanish into murk. A path opens between two snapped masts, leading toward the cargo hold.",
+      "choices": [
+        { "label": "slip into the hold", "nextNode": "cargo-hold", "hint": "Spilled crates drift through the broken deck like underwater debris." },
+        { "label": "make for the cabin", "nextNode": "captain-cabin", "hint": "The shattered stern offers a clear path to the captain's quarters." }
+      ]
+    },
+    "captain-cabin": {
+      "passage": "The cabin door hangs by one hinge. Inside, a bloated chair drifts in the current, and the chest sits bolted to the floor. The lock is rusted but yields to your pry bar. Inside: the manifest, sealed in oilskin. Beneath it, a sodden journal with Mero's handwriting. The last entry, dated the day of the squall, reads 'they want it back.'",
+      "choices": [
+        { "label": "take only the manifest", "nextNode": "ascent-clean", "hint": "The oilskin packet is light, and the bell's air supply is half gone." },
+        { "label": "read the journal", "nextNode": "journal-pages", "hint": "Ink has bled in places, but most of the entries are still legible." }
+      ]
+    },
+    "cargo-hold": {
+      "passage": "Crates float in eerie suspension, peppercorns drifting from a split sack like brown snow that will never settle. Most cargo is ruined. But one crate stands upright, undisturbed, banded in iron and stamped with an unfamiliar sigil. The hum thickens around it. A school of silver fish circles in slow procession. None of them touch it.",
+      "choices": [
+        { "label": "open the strange crate", "nextNode": "idol-crate", "hint": "The iron bands part with a hollow groan when you wedge the pry bar in." },
+        { "label": "head for the cabin", "nextNode": "captain-cabin", "hint": "The shattered stern offers a clear path to the captain's quarters." }
+      ]
+    },
+    "journal-pages": {
+      "passage": "Mero writes of warnings he ignored. A southern priestess told him the idol would call its sea kin home, and he laughed and paid her in copper before walking away from the temple steps. The night before the squall, dolphins surrounded the ship - hundreds, silent, pacing the hull. He closes the entry: 'I should have given it back.'",
+      "choices": [
+        { "label": "find the idol", "nextNode": "idol-crate", "hint": "The crate Mero described should be in the cargo hold below this deck." },
+        { "label": "pocket the manifest", "nextNode": "ascent-clean", "hint": "Air gauge falls steady - half remaining, maybe less if you linger here." }
+      ]
+    },
+    "idol-crate": {
+      "passage": "Inside the crate: an idol of pale coral, carved into a figure half-woman, half-tide. Its eyes are inlaid with black pearl. The hum vibrates in your teeth as you lift it. Brightness bends strangely around the coral, as if the sea itself wants to embrace it. Two pulls on the line - you have a choice now.",
+      "choices": [
+        { "label": "carry the idol up", "nextNode": "ascent-burdened", "hint": "The bell tilts under the weight, but the air hose holds steady above you." },
+        { "label": "leave it for the sea", "nextNode": "release-idol", "hint": "Your hands open and the idol drifts down into the waiting murk below." },
+        { "label": "smash the coral", "nextNode": "smash-idol", "hint": "Your pry bar lifts and the hum sharpens to a furious crystal pitch." }
+      ]
+    },
+    "ascent-clean": {
+      "passage": "The bell rises through layers of green glow. Halfway up, a shape passes the viewport - vast, slow, scaled. You hold your breath. It does not stop. Mero's rope draws you steadily upward. You break the surface to a sky already darkening with the next storm. The manifest is dry inside its oilskin.",
+      "choices": [
+        { "label": "give him the manifest", "nextNode": "manifest-ending", "hint": "Mero unwraps the oilskin with hands that will not stop trembling." },
+        { "label": "force answers first", "nextNode": "shore-confrontation", "hint": "Mero pales when you mention the journal entry word for word." }
+      ]
+    },
+    "ascent-burdened": {
+      "passage": "The bell drags. The hum becomes a chorus, and shapes circle in the dimness - long, sleek, eyes like polished jet. They do not attack. They escort. The rope hauls slow under the extra weight. By the time you break the surface, your air gauge reads empty. Mero stares at the idol in your hands like it might bite him.",
+      "choices": [
+        { "label": "hand him the idol", "nextNode": "idol-greed-ending", "hint": "Mero takes it carefully, jaw tight, calculating the price already." },
+        { "label": "throw it back to sea", "nextNode": "return-ending", "hint": "Mero shouts a protest as your arm draws back over the waves." }
+      ]
+    },
+    "release-idol": {
+      "passage": "The coral catches a glint on the way down, then vanishes into deeper blue. The hum softens. The fish disperse. You retrieve the manifest from the cabin and signal three pulls on the line. As the bell rises, you feel watched - not threatened, not hunted. Witnessed. The deep has noted what you did and is willing to let you go.",
+      "choices": [
+        { "label": "surface with the manifest", "nextNode": "release-ending", "hint": "Mero waits at the rope, white-knuckled, as the bell breaks daylight." },
+        { "label": "linger to see them", "nextNode": "deep-witness", "hint": "Air gauge dips toward red, but the singing has not stopped yet." }
+      ]
+    },
+    "smash-idol": {
+      "passage": "The pry bar arcs and the coral splits with a crack that echoes through the hull. The hum becomes a shriek. Shapes converge fast now, no longer escorting. The bell rocks. Three pulls on the line - urgent. Mero hauls fast. As you rise, the wreck blurs below, the shapes circling and falling away with each fathom. Air. Breath. Surface.",
+      "choices": [
+        { "label": "tell Mero everything", "nextNode": "shore-confrontation", "hint": "Mero pales when you mention the journal entry word for word." },
+        { "label": "say nothing and leave", "nextNode": "manifest-ending", "hint": "Mero shouts after you but the sea has had enough of his secrets." }
+      ]
+    },
+    "deep-witness": {
+      "passage": "The shapes rise through the murk - half a dozen, then a dozen. Long-finned, eyes like dark stars. They circle the bell in patient procession, neither attacking nor fleeing. One presses a wide palm against the viewport. Webbed fingers. A face like memory. Then they descend with the idol, singing a chord you will hear in dreams forever.",
+      "choices": [
+        { "label": "ascend to daylight", "nextNode": "release-ending", "hint": "Mero hauls you up and you can barely speak when the air hits your face." },
+        { "label": "stay past the red", "nextNode": "deep-blessing-ending", "hint": "The chorus surrounds you and your gauge falls past the red line silently." }
+      ]
+    },
+    "shore-confrontation": {
+      "passage": "Mero collapses against a tide-pool boulder when you finish. He confesses everything - the smuggling, the priestess, the ignored warnings. The local village has lost six men to the sea this month. He hires a coracle and rows out the next morning to apologize at the wreck site. The villagers say his boat returned empty, hours later, drifting calm.",
+      "choices": [],
+      "ending": {
+        "title": "Captain's Atonement",
+        "flavor": "Some debts can only be repaid in person, and the sea always knows when a man is sincere.",
+        "action": "watch the empty boat"
+      }
+    },
+    "manifest-ending": {
+      "passage": "Mero reads the manifest twice. His shoulders sag with relief. The trading house lives. He pays you double the agreed fee and promises a berth on his next voyage south, weather permitting. The storm rolls in as you walk inland. Behind you, the sea churns where the wreck lies. Whatever was down there stays down there. You did not ask why.",
+      "choices": [],
+      "ending": {
+        "title": "Manifest in Hand",
+        "flavor": "The trading house survives, the captain pays his debts, and the deep keeps its secrets.",
+        "action": "pocket your purse"
+      }
+    },
+    "idol-greed-ending": {
+      "passage": "Mero seals the idol in a lead chest and pays you triple. The collector in the capital will pay him ten times more. As you walk inland, the wind shifts. Distant thunder rolls across calm water - wrong, deliberate. By morning, news reaches the village: Mero's wagon was found overturned on the cliff road. No body. Only wet footprints leading back to sea.",
+      "choices": [],
+      "ending": {
+        "title": "What the Sea Wants",
+        "flavor": "Some debts are paid in coin. Others are collected by tide.",
+        "action": "count your share"
+      }
+    },
+    "return-ending": {
+      "passage": "The idol arcs through the rain and hits the waves. It does not splash - it slides into the depths like a hand finding a glove. The hum stops. Mero drops to his knees, half curse, half prayer. The storm clouds thin. His trading house will fail without the cargo, but his crew will sleep tonight. Mero understands. Eventually.",
+      "choices": [],
+      "ending": {
+        "title": "Tide's Refusal",
+        "flavor": "Some things were never meant to leave the deep, and tonight you understood that better than the captain.",
+        "action": "watch it sink"
+      }
+    },
+    "release-ending": {
+      "passage": "Mero takes the manifest with shaking hands, then asks about the crate. You shake your head. Gone. He nods slowly, like a man whose burden just lifted. He pays you the full fee and a quiet bonus he calls 'silence money.' Three months later, his trading house thrives. Sailors say his ships always find good wind.",
+      "choices": [],
+      "ending": {
+        "title": "Quiet Bargain",
+        "flavor": "You traded a fortune for fair winds, and the sea remembers.",
+        "action": "shake his hand"
+      }
+    },
+    "deep-blessing-ending": {
+      "passage": "The gauge hits red. Cold breath fills the bell - not drowning, not quite. The shapes lift you free and carry you upward in their slow procession. You break the surface gasping but alive, washed onto a sandbar miles from Mero. A coral pendant rests in your hand. Sailors say you will never lose your way at sea again.",
+      "choices": [],
+      "ending": {
+        "title": "Deep's Gift",
+        "flavor": "The sea returned you, marked but unharmed, and the gulls now answer when you whistle.",
+        "action": "clutch the pendant"
+      }
+    }
+  }
+}

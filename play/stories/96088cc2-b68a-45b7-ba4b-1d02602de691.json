@@ -1,0 +1,194 @@
+{
+  "id": "96088cc2-b68a-45b7-ba4b-1d02602de691",
+  "title": "Gravewater",
+  "description": "Your waterskin is almost empty and the desert offers no mercy. Somewhere beneath the red canyon lies a buried city with a well that never runs dry.",
+  "author": "AI",
+  "tags": ["treasure-hunt", "survival"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-29",
+  "dayOfYear": "06-30",
+  "endingCount": 5,
+  "storyNumber": 89,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "A dust-choked canyon opens before you, its walls carved with symbols older than any kingdom you know. Your waterskin is nearly empty, and the sun beats hard against exposed rock. Somewhere below these red cliffs lies Gravewater, a buried city said to hold a well that never runs dry. Three paths branch from the ledge.",
+      "choices": [
+        { "label": "descend the cliff", "nextNode": "canyon-descent", "hint": "Worn handholds in the rock guide your fingers as you lower yourself over the edge." },
+        { "label": "follow the riverbed", "nextNode": "dry-riverbed", "hint": "Smooth stones shift and click beneath your boots as you step down into the channel." },
+        { "label": "climb to the ridge", "nextNode": "ridge-overlook", "hint": "Your fingers find a crack in the warm rock and you haul yourself upward." }
+      ]
+    },
+    "canyon-descent": {
+      "passage": "Handholds worn smooth by centuries guide you down the cliff face. Halfway, the rock reveals an opening punched into the sandstone like a wound. You stop. Below, the canyon floor shimmers with heat, littered with fragments of worked granite and the bones of old pillars. The cave mouth breathes cool air against your neck.",
+      "choices": [
+        { "label": "enter the cave", "nextNode": "cave-mouth", "hint": "The temperature drops as you cross the threshold into the cliff." },
+        { "label": "continue to the floor", "nextNode": "canyon-floor", "hint": "Dust rises from each step as you pick your way down the last stretch." }
+      ]
+    },
+    "dry-riverbed": {
+      "passage": "Smooth stones line a channel that has not seen rain in a hundred years. Boot prints press into the silt ahead of you, fresh enough to worry about. The riverbed curves south between high walls, and scratched markings on a flat boulder point toward a side passage half-buried in sand. Flies circle something out of sight.",
+      "choices": [
+        { "label": "track the boot prints", "nextNode": "carved-stones", "hint": "The prints grow deeper, as if whoever made them started to run." },
+        { "label": "take the side passage", "nextNode": "side-passage", "hint": "Sand spills around your ankles as you squeeze through the narrow gap." }
+      ]
+    },
+    "ridge-overlook": {
+      "passage": "The climb is brutal under full sun. Your arms burn and your throat aches by the time you pull yourself onto the ridge. The view repays the effort. Below, the canyon splits into a maze of red corridors and collapsed rooftops. Gravewater is real. A thin column of smoke rises from the eastern fork, barely visible against the haze.",
+      "choices": [
+        { "label": "head toward the smoke", "nextNode": "stranger-camp", "hint": "You pick a path down the eastern slope, keeping the smoke in sight." },
+        { "label": "scout a route down", "nextNode": "canyon-floor", "hint": "You trace a line through the rubble with your eyes before committing to the descent." }
+      ]
+    },
+    "cave-mouth": {
+      "passage": "Cool air washes over you as you step inside. The cave widens into a chamber lit by cracks in the ceiling, thin beams cutting through dust that swirl when you breathe. A shallow pool sits against the far wall. Still as glass. Beside it, clay jars line a carved shelf, their seals cracked and old. Something is scratched into the rock above them.",
+      "choices": [
+        { "label": "inspect the pool", "nextNode": "underground-pool", "hint": "The surface ripples at your approach, though there is no wind down here." },
+        { "label": "read the scratching", "nextNode": "wall-carvings", "hint": "You lean close, tracing the grooves with your fingertip in the dim glow." }
+      ]
+    },
+    "canyon-floor": {
+      "passage": "Heat presses against your skin like a palm. The canyon floor stretches wide, littered with fragments of worked brick and broken lintels from something grand reduced to rubble long ago. A broad archway stands intact to the west, half-swallowed by sand. East, a narrow bridge spans a deep crack. Wind moans below.",
+      "choices": [
+        { "label": "pass through the archway", "nextNode": "sun-altar", "hint": "Sand whispers against your boots as you duck beneath the crumbling lintel." },
+        { "label": "cross the bridge", "nextNode": "sand-bridge", "hint": "The first step sends a fine crack running along the span beneath your foot." }
+      ]
+    },
+    "carved-stones": {
+      "passage": "The boot prints end at a cleared trench where someone has been digging. Broken tablets lie arranged in rows, their faces wiped clean, and the inscriptions describe a vault beneath the city sealed by a key marked with the sun. Fresh work. Whoever did this left in a hurry. A dropped shovel leans against the trench wall, still warm from the grip.",
+      "choices": [
+        { "label": "study the tablets", "nextNode": "buried-cache", "hint": "One tablet shows a drawing of stairs spiraling beneath a cracked floor." },
+        { "label": "explore the trench", "nextNode": "side-passage", "hint": "The trench narrows into a sloping passage that angles down into bedrock." }
+      ]
+    },
+    "side-passage": {
+      "passage": "The passage angles sharply beneath the canyon wall, braced with old timber that groans under the weight of the earth above. Scratched arrows on the beams point deeper. It smells of copper. Ahead, the tunnel forks: one branch widens into a chamber stacked with rubble, the other drops into a stairwell carved from living rock.",
+      "choices": [
+        { "label": "check the chamber", "nextNode": "buried-cache", "hint": "Loose rubble shifts under your boots as you step into the wider space." },
+        { "label": "drop into the stairwell", "nextNode": "hidden-stairs", "hint": "Each step takes you deeper, and the air grows cooler around you." }
+      ]
+    },
+    "underground-pool": {
+      "passage": "The pool's surface breaks as you crouch beside it. Not from your movement. Something shifts in the murk below, slow and deliberate. The liquid smells of copper and herbs, sweet enough to tempt your parched throat. Along the rim, faded paint marks a warning symbol you half-recognize from a traveler's guide. Your hands shake as you reach forward.",
+      "choices": [
+        { "label": "drink from the pool", "nextNode": "ending-drowned", "hint": "You cup your hands and bring the liquid to your cracked lips." },
+        { "label": "back away slowly", "nextNode": "hidden-stairs", "hint": "Something in the murk tracks your retreat with lazy, patient turns." }
+      ]
+    },
+    "wall-carvings": {
+      "passage": "The scratches are not random. They form a map, crude but clear, showing a corridor that leads from this cave to a sealed door deeper in the cliff. Someone carved this recently, within the last season, and added a note at the bottom: bring the sun disc or do not come. A second line beneath it reads only beware the keeper.",
+      "choices": [
+        { "label": "trace the map's path", "nextNode": "vault-door", "hint": "The corridor bends twice and opens exactly where the map says it will." },
+        { "label": "search for the disc", "nextNode": "hidden-stairs", "hint": "If the door needs a key, you had better find one before going further." }
+      ]
+    },
+    "sun-altar": {
+      "passage": "Beyond the archway lies a courtyard open to the sky, and at its center stands an altar carved from a single block of pale granite shaped like a rising sun. A red gemstone sits in a hollow at the top. It pulses. You can feel its warmth from three paces away, faint but steady. Dried blood stains the base. A corridor leads north.",
+      "choices": [
+        { "label": "leave the gem alone", "nextNode": "vault-door", "hint": "You circle the altar with care and slip into the corridor beyond." },
+        { "label": "pry out the gem", "nextNode": "ending-cursed", "hint": "Your fingers close around the gem and heat floods up your wrist." }
+      ]
+    },
+    "sand-bridge": {
+      "passage": "The bridge is barely wider than your shoulders, carved from the canyon wall itself. Sand has collected in the cracks, making each step a gamble. Far below, the gap drops into black. Halfway across, you spot a doorway cut into the cliff on the far side, framed with painted symbols. Something scrapes along the underside of the bridge, rhythmic and close.",
+      "choices": [
+        { "label": "push to the doorway", "nextNode": "vault-door", "hint": "You quicken your pace, eyes fixed on the painted frame ahead." },
+        { "label": "look over the edge", "nextNode": "collapsed-hall", "hint": "You kneel and lean your head over the side, gripping the rough rim." }
+      ]
+    },
+    "buried-cache": {
+      "passage": "Your hands close around something hard beneath the rubble. Brushing away grit reveals a bronze amulet shaped like a sun, its center set with cracked amber. Warmth pulses from the metal as you lift it free. Nearby, a crack in the floor opens onto a stairway that spirals down, its carved steps worn to smooth curves by countless forgotten feet.",
+      "choices": [
+        { "label": "pocket the amulet", "nextNode": "hidden-stairs", "hint": "The bronze is warm against your palm as you tuck it away." },
+        { "label": "return to the altar", "nextNode": "sun-altar", "hint": "You remember the sun markings on the archway above and double back." }
+      ]
+    },
+    "hidden-stairs": {
+      "passage": "The stairs spiral through layered rock, each stratum a different shade of red and gold. The air cools with every step. At the bottom, a painted corridor stretches ahead, its walls covered with robed figures carrying bowls toward a sealed door. Roots thread through cracks in the ceiling, impossibly green this far below the surface. The paint is still bright.",
+      "choices": [
+        { "label": "approach the sealed door", "nextNode": "vault-door", "hint": "Painted figures on the walls seem to walk beside you as you move." },
+        { "label": "examine the roots", "nextNode": "collapsed-hall", "hint": "The roots are thick and alive, pulsing faintly like veins in the rock." }
+      ]
+    },
+    "stranger-camp": {
+      "passage": "Smoke curls from a fire pit wedged between fallen pillars. A woman sits cross-legged beside it, sharpening a blade on a flat slab. She looks up. No surprise in her face. A map lies spread beside her knee, marked with the same sun symbol you have seen carved into the canyon walls. She says she knows a faster way down.",
+      "choices": [
+        { "label": "go with her", "nextNode": "canyon-floor", "hint": "She folds the map and leads you down a narrow switchback without a word." },
+        { "label": "refuse and move on", "nextNode": "sand-bridge", "hint": "Her eyes follow you as you back away from the warmth of the fire." }
+      ]
+    },
+    "vault-door": {
+      "passage": "A massive slab blocks the corridor, fitted with a round depression at its center the exact size of a bronze sun disc. Carved text around the frame repeats a single phrase: only the patient hand opens what force cannot. The slab hums. Scratch marks around the edges show where others have tried and failed, and a broken blade lies at the threshold.",
+      "choices": [
+        { "label": "place the disc", "nextNode": "guardian-chamber", "hint": "The bronze clicks into the slot and the slab begins to grind inward." },
+        { "label": "force the slab open", "nextNode": "collapsed-hall", "hint": "You throw your shoulder against the slab and something cracks overhead." }
+      ]
+    },
+    "collapsed-hall": {
+      "passage": "Rubble crashes down around you. Dust fills the air so thick you cannot see your own hands. When it clears, you are standing in a tilted corridor, half of it buried under fallen rock. A gap near the ceiling lets a thin beam of daylight through. Ahead, through the settling dust, you spot an archway that still holds, barely. Cracks web its frame.",
+      "choices": [
+        { "label": "squeeze through the arch", "nextNode": "guardian-chamber", "hint": "Rock scrapes your back as you pull yourself through the narrow gap." },
+        { "label": "wait for the dust", "nextNode": "ending-trapped", "hint": "You press yourself against the wall and try to breathe through your sleeve." }
+      ]
+    },
+    "guardian-chamber": {
+      "passage": "A vast chamber opens before you, its domed ceiling painted with a night sky in faded blue and silver. In the center stands a figure carved from sandstone, twice your height, arms crossed over a basin. Its eyes are hollow. As you step closer, sand pours from the seams of its joints. The figure's head turns to face you with a grinding sound.",
+      "choices": [
+        { "label": "bow and speak", "nextNode": "gravewater-spring", "hint": "You lower your head and the grinding slows to a low, listening rumble." },
+        { "label": "rush past it", "nextNode": "ending-trapped", "hint": "You break into a sprint and the figure's arm sweeps down like a gate." }
+      ]
+    },
+    "gravewater-spring": {
+      "passage": "Behind the guardian, a stairway descends into a chamber floored with pale tile. At its heart sits a spring, clear and still, fed by a crack in the bedrock that pulses with faint warmth. The air here tastes clean for the first time in days. Shelves along the walls hold empty vessels and a single crown of tarnished copper. The spring hums softly.",
+      "choices": [
+        { "label": "kneel and claim the crown", "nextNode": "ending-crown", "hint": "You cup the clear liquid in both hands and bring it to your lips." },
+        { "label": "seal the chamber", "nextNode": "ending-dawn", "hint": "You step back and pull the heavy door toward you with both arms." }
+      ]
+    },
+    "ending-drowned": {
+      "passage": "The liquid is sweet at first, then bitter, then nothing at all. Your limbs go heavy. The pool's surface closes over your reflection as you slump forward. Something coils around your wrist beneath the murk, patient and slow. The cave ceiling blurs above you. The last thing you feel is warmth, spreading through every vein like a second pulse that is not your own.",
+      "choices": [],
+      "ending": {
+        "title": "Beneath Still Waters",
+        "flavor": "The pool keeps what it catches, and it has been waiting a very long time.",
+        "action": "slip beneath the surface"
+      }
+    },
+    "ending-cursed": {
+      "passage": "The gem comes free with a snap. Heat roars up your arm and into your chest. The courtyard tilts. Your skin glows red in the fading daylight, veins bright as embers. You drop the gem but the heat does not leave. The altar's carvings shift and rearrange, spelling a name that you realize, too late, is now yours. The sun sets. You do not move.",
+      "choices": [],
+      "ending": {
+        "title": "Bound to the Altar",
+        "flavor": "Some treasures are not meant to be held, only guarded.",
+        "action": "close your burning fist"
+      }
+    },
+    "ending-trapped": {
+      "passage": "Rock groans and shifts. The ceiling sags, then drops. You throw yourself sideways but the rubble pins your legs. Dust settles in a thick blanket. Through a crack in the debris, you glimpse a sliver of blue sky, impossibly far away. Your waterskin is empty. The canyon is quiet. No one knows you are here, and the buried city keeps its secrets well.",
+      "choices": [],
+      "ending": {
+        "title": "Buried With the Rest",
+        "flavor": "Gravewater claims another seeker, as it always has.",
+        "action": "reach for the sky"
+      }
+    },
+    "ending-crown": {
+      "passage": "Clean. Sharp. The spring tastes like biting into fresh snow, and strength floods your limbs before you finish swallowing. You lift the copper crown from the shelf and set it on your brow. The guardian above goes still, its purpose fulfilled. The well is yours to protect now, and the city will rise or sleep as you decide. Daylight finds you standing tall.",
+      "choices": [],
+      "ending": {
+        "title": "Keeper of the Well",
+        "flavor": "The desert bows to those who choose to stay.",
+        "action": "place the crown"
+      }
+    },
+    "ending-dawn": {
+      "passage": "You pull the heavy door shut and the locking mechanism clicks with a sound like a bone settling into its joint. Done. Behind you, the guardian settles back into stillness. The spring will remain hidden, safe from those who would drain it dry. You climb back through the ruins as the stars come out. Your waterskin is still empty, but the road ahead is downhill.",
+      "choices": [],
+      "ending": {
+        "title": "Walk Into the Dawn",
+        "flavor": "Not every treasure needs a new owner.",
+        "action": "turn your back and walk"
+      }
+    }
+  }
+}

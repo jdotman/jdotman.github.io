@@ -1,0 +1,208 @@
+{
+  "id": "e2da51dc-45f9-4045-acaf-0db1ce20e9e6",
+  "title": "Warden's Ledger",
+  "description": "A lighthouse keeper is found dead at the top of his tower with every door locked from inside. The coastal village hires you to find the truth before the next tide.",
+  "author": "AI",
+  "tags": ["mystery"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-29",
+  "dayOfYear": "07-04",
+  "endingCount": 5,
+  "storyNumber": 93,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "Salt wind batters the cliff path as you climb toward Greyhaven Light. The tower rises from bare rock, its lamp still burning despite the warden lying dead at the top. Below, the fishing village huddles against the harbor wall. Mayor Selke walks beside you, breathing hard. Warden Aldric was found this morning, she says. Every door bolted from within. No struggle.",
+      "choices": [
+        { "label": "enter the tower", "nextNode": "tower-ground", "hint": "The iron door groans on its hinges, heavy with rust and sea spray." },
+        { "label": "question the mayor", "nextNode": "mayor-talk", "hint": "Selke pauses on the path, wind pulling at her collar and her composure." },
+        { "label": "circle the exterior", "nextNode": "tower-outside", "hint": "Barnacles climb the stonework and something has scratched the mortar near the base." }
+      ]
+    },
+    "tower-ground": {
+      "passage": "A workbench, coils of rope, a potbellied stove gone cold. Aldric's oilskin coat hangs by the door, pockets bulging. The narrow spiral stair climbs upward, each step worn smooth by decades of boots. The bolt on the inner door is heavy iron, thrown shut. No way to fasten it from outside. A smell drifts down from above - tallow, and something sharper.",
+      "choices": [
+        { "label": "rifle through the coat", "nextNode": "coat-clues", "hint": "Paper crinkles inside the left pocket as your fingers close around it." },
+        { "label": "ascend the stairs", "nextNode": "lamp-room", "hint": "Each step echoes in the shaft, and the tallow smell thickens as you rise." }
+      ]
+    },
+    "mayor-talk": {
+      "passage": "Selke chooses her words the way someone picks through rubble - carefully, watching for sharp edges underneath the obvious pieces. Aldric kept the lamp for fourteen years. Reliable. Quiet. No enemies she knows of. Last week he came demanding to see the harbor records and she refused - council property. He left angry. She regrets that now. Her hands stay deep in her pockets.",
+      "choices": [
+        { "label": "press about the records", "nextNode": "harbor-records", "hint": "Selke's jaw tightens when you mention the harbor ledger a second time." },
+        { "label": "head inside the tower", "nextNode": "tower-ground", "hint": "The iron door groans on its hinges, heavy with rust and sea spray." }
+      ]
+    },
+    "tower-outside": {
+      "passage": "The tower sits on a shelf of granite twenty paces from the cliff edge. No trees, no cover. Barnacles crust the lower stones up to the high-tide mark. Above that, deep scratches score the mortar between blocks - not from weather. Something climbed here. The marks stop at a ventilation slit on the second level, barely wide enough for a cat.",
+      "choices": [
+        { "label": "study the scratches", "nextNode": "climbing-marks", "hint": "The grooves are fresh, still showing pale stone beneath the weathered surface." },
+        { "label": "go inside", "nextNode": "tower-ground", "hint": "The iron door is still ajar where the mayor left it for you." }
+      ]
+    },
+    "coat-clues": {
+      "passage": "Two items. First: a crumpled letter bearing the harbormaster's seal, demanding Aldric stop signaling ships on foggy nights. Stop signaling - the entire purpose of a lighthouse. Second: a hand-drawn chart of the coastline with three Xs marking rocks just below the waterline, labeled 'wreck points.' Aldric was tracking ships that should have been warned away but were not.",
+      "choices": [
+        { "label": "climb the stairs", "nextNode": "lamp-room", "hint": "Each step echoes in the shaft, and the tallow smell thickens overhead." },
+        { "label": "visit the harbormaster", "nextNode": "harbormaster", "hint": "The harbor office sits at the end of the pier, shutters drawn tight." }
+      ]
+    },
+    "lamp-room": {
+      "passage": "Aldric lies on his back beside the great lamp. Eyes open. No wound, no bruise, his face peaceful in a way that makes it worse. A cup of tea sits half-finished on the sill, and his logbook is open to the last entry. The lamp burns steady overhead. A faint residue coats the inside of the teacup - not leaves. Something powdery and pale.",
+      "choices": [
+        { "label": "examine the teacup", "nextNode": "poison-clue", "hint": "The residue clings to your fingertip, chalky and faintly bitter to smell." },
+        { "label": "check the logbook", "nextNode": "logbook-entry", "hint": "Aldric's handwriting grows unsteady on the final page, letters tilting sideways." }
+      ]
+    },
+    "climbing-marks": {
+      "passage": "Deliberate scratches - someone used climbing spikes. The pattern shows an ascent ending at the vent slit. You peer through the gap: it opens into the storeroom on the second floor. Small enough that only a child or a very thin adult could squeeze through. Inside, crates of lamp oil sit undisturbed, but one has been shifted recently. Drag marks on the floorboards.",
+      "choices": [
+        { "label": "crawl through the slit", "nextNode": "storeroom", "hint": "Stone scrapes your ribs as you wriggle through the narrow opening." },
+        { "label": "try the front door", "nextNode": "tower-ground", "hint": "The iron door is still ajar where the mayor left it for you." }
+      ]
+    },
+    "harbor-records": {
+      "passage": "Selke resists, then relents. The harbor ledger shows cargo manifests for every ship docking at Greyhaven, and three entries from the past month list vessels that never arrived - cargo recorded, fees paid, yet no hull in the harbor on those dates. Ghost shipments. Someone collects fees for ships that sink before they dock. The ink matches the harbormaster's hand.",
+      "choices": [
+        { "label": "seek the harbormaster", "nextNode": "harbormaster", "hint": "The harbor office sits at the end of the pier, shutters drawn tight." },
+        { "label": "inspect the wreck sites", "nextNode": "wreck-site", "hint": "Low tide reveals the rocks Aldric marked, just visible above the chop." }
+      ]
+    },
+    "poison-clue": {
+      "passage": "Hemlock root, ground fine - a common plant along these cliffs, lethal in small doses and leaving no marks on the body. Aldric was poisoned. Whoever did this knew he drank tea every evening and had access to his cup. The teapot on the stove downstairs is clean, recently scrubbed. Someone washed it after dosing the last cup, then bolted the door. From inside.",
+      "choices": [
+        { "label": "explore the storeroom", "nextNode": "storeroom", "hint": "The second-floor door creaks as you push it open, revealing stacked crates." },
+        { "label": "review the logbook", "nextNode": "logbook-entry", "hint": "Aldric's handwriting grows unsteady on the final page, letters tilting sideways." }
+      ]
+    },
+    "logbook-entry": {
+      "passage": "The last entry is dated yesterday. Aldric writes that he dimmed the lamp on three nights last month under orders from Harbormaster Cray. Each time, a ship struck the rocks. Each time, Cray's men salvaged the cargo before dawn. Aldric says he is done obeying. He plans to report everything to the governor tomorrow. The final line: 'Cray knows I am writing this.'",
+      "choices": [
+        { "label": "confront Cray", "nextNode": "harbormaster", "hint": "The harbor office sits at the end of the pier, shutters drawn tight." },
+        { "label": "secure the logbook", "nextNode": "take-logbook", "hint": "The leather binding is warm from the lamp as you close the cover." }
+      ]
+    },
+    "storeroom": {
+      "passage": "Crates of whale oil and replacement wicks. One near the vent slit has been pried open and resealed with fresh nails. Inside, beneath a layer of wicks, sits a coil of thin rope and a harness small enough for a child. Someone climbed in through the slit, poisoned the tea, then left the same way. The bolted doors never opened.",
+      "choices": [
+        { "label": "trace the rope's maker", "nextNode": "rope-clue", "hint": "A guild stamp is burned into the leather of the harness buckle." },
+        { "label": "show Selke the harness", "nextNode": "selke-evidence", "hint": "The harness coils neatly under your arm as you descend the spiral stairs." }
+      ]
+    },
+    "harbormaster": {
+      "passage": "Cray is broad, sun-darkened, with a merchant's smile. His office smells of brine and ink. At Aldric's name, his face arranges itself into grief - practiced, not felt. Unstable, he says. Paranoid. He pours himself a drink and does not offer you one. His boots are clean, but the cuffs of his trousers carry dried mud from the cliff path.",
+      "choices": [
+        { "label": "mention the wreck profits", "nextNode": "cray-confronted", "hint": "His pouring hand stops mid-tilt when you name the three sunken ships." },
+        { "label": "eye his boots", "nextNode": "boot-evidence", "hint": "Dried mud flakes onto the floorboards as he shifts his weight." }
+      ]
+    },
+    "wreck-site": {
+      "passage": "Low tide bares the teeth of the reef. Splintered timber from a recent wreck tangles in the rocks, still bearing hull markings. Cargo crates bob in the shallows, some already opened and stripped. A rowboat is beached nearby with fresh gouges in its keel. Someone has been harvesting these wrecks within hours. Boot prints in the wet sand lead toward the harbor.",
+      "choices": [
+        { "label": "follow the prints", "nextNode": "harbormaster", "hint": "The tracks curve around the headland toward the harbor office pier." },
+        { "label": "salvage a manifest", "nextNode": "wreck-evidence", "hint": "A cargo list is pinned beneath a beam, ink blurred but still legible." }
+      ]
+    },
+    "take-logbook": {
+      "passage": "The logbook fits inside your coat. Names, dates, cargo values, the exact nights the lamp was dimmed. Enough to hang Cray if it reaches the right hands. As you descend, a figure appears in the tower doorway below. Thin, hooded, blocking the exit. A knife glints in one hand. Cray's apprentice - the boy who climbs like a spider.",
+      "choices": [
+        { "label": "talk the boy down", "nextNode": "boy-confronted", "hint": "His grip on the knife wavers and his eyes dart toward the cliff path." },
+        { "label": "retreat upstairs", "nextNode": "tower-standoff", "hint": "The spiral stair narrows above you, and the lamp room has no second exit." }
+      ]
+    },
+    "rope-clue": {
+      "passage": "The guild stamp reads 'Cray and Sons - Maritime Supply.' His rope, his harness, sized for someone small. Cray has an apprentice - a boy of twelve, thin as wire, known around the docks for scaling masts barehanded. The pieces lock together. Cray sent the boy up the tower wall, through the slit, to poison Aldric's tea.",
+      "choices": [
+        { "label": "challenge Cray directly", "nextNode": "cray-confronted", "hint": "The harbor office door bangs open before Cray can reach for his desk drawer." },
+        { "label": "find the boy first", "nextNode": "boy-confronted", "hint": "The apprentice sits on the pier end, legs dangling, staring at the tower." }
+      ]
+    },
+    "selke-evidence": {
+      "passage": "Selke examines the harness in silence. Her face drains when she reads the guild stamp - Cray's mark. She knew he was ambitious. Not capable of murder. She asks what you want: arrest him now, or wait for the governor's patrol boat due tomorrow. Acting now risks a fight at the harbor. Waiting risks Cray fleeing overnight.",
+      "choices": [
+        { "label": "arrest him now", "nextNode": "cray-confronted", "hint": "Selke gathers two fishermen with boat hooks and walks toward the pier." },
+        { "label": "wait for the governor", "nextNode": "governor-ending", "hint": "The patrol boat is twelve hours away, and the harbor has only one road out." }
+      ]
+    },
+    "cray-confronted": {
+      "passage": "Cray's smile dies when he sees the evidence laid across his own desk - logbook, harness, cargo manifests stacked end to end like a verdict written in objects instead of words. He looks at the door, then the window. Trapped. His hand drifts toward the desk drawer. Outside, Selke calls for dock hands to block the gangway.",
+      "choices": [
+        { "label": "block the drawer", "nextNode": "arrest-ending", "hint": "Your hand slams the drawer shut before his fingers reach inside." },
+        { "label": "let him run", "nextNode": "chase-ending", "hint": "He bolts for the back window and you let him go, evidence in hand." }
+      ]
+    },
+    "boot-evidence": {
+      "passage": "Cliff mud. Hemlock grows on those cliffs, nowhere else near the village, and Cray was on the tower path recently - last night, given how fresh the mud is. He catches you staring and tucks his boots under the desk. Too late. The connection is plain: cliff mud, hemlock, a dead warden who threatened to expose everything. His merchant smile cracks.",
+      "choices": [
+        { "label": "name him the killer", "nextNode": "cray-confronted", "hint": "His pouring hand stops mid-tilt when you lay out every connection." },
+        { "label": "leave and gather allies", "nextNode": "selke-evidence", "hint": "The mayor needs to hear this before you press any further." }
+      ]
+    },
+    "wreck-evidence": {
+      "passage": "The manifest lists silk and spice bound for the capital - valuable cargo, insured twice. The insurance payout goes to the shipping company, but a margin note in different ink lists a second payment to 'C.' at Greyhaven Harbor. Cray collected from both ends: salvaged goods and insurance fraud. Aldric discovered the pattern and paid for knowing too much.",
+      "choices": [
+        { "label": "take this to Selke", "nextNode": "selke-evidence", "hint": "Salt water has blurred the ink, but the numbers are still clear enough." },
+        { "label": "face Cray with proof", "nextNode": "cray-confronted", "hint": "The manifest crinkles in your fist as you stride toward the harbor office." }
+      ]
+    },
+    "boy-confronted": {
+      "passage": "The apprentice is barely thirteen. His name is Wren, and his hands shake when you mention the climbing harness. He did not know what was in the vial Cray gave him - thought it was medicine for Aldric's cough. He poured it into the teapot, climbed back down, went home. He has not slept since. Tears cut tracks through the grime on his face.",
+      "choices": [
+        { "label": "promise to protect him", "nextNode": "boy-witness-ending", "hint": "Wren wipes his nose on his sleeve and nods once, still trembling." },
+        { "label": "escort him to Selke", "nextNode": "selke-evidence", "hint": "The boy walks beside you like someone heading to his own sentencing." }
+      ]
+    },
+    "tower-standoff": {
+      "passage": "Nowhere to hide. The great lamp burns overhead, mirrors throwing your shadow across every wall. The boy follows up the stairs, knife forward, but his steps are slow. Reluctant. Below, the sea crashes against the cliff. Through the window, the village pier stretches into the harbor, lanterns swaying. If someone looked up, they would see two figures in the glow.",
+      "choices": [
+        { "label": "signal the village", "nextNode": "signal-ending", "hint": "The lamp mirrors pivot on their mounts - one turn would flash the harbor." },
+        { "label": "reason with the boy", "nextNode": "boy-confronted", "hint": "His knife arm drops an inch when you say his name aloud." }
+      ]
+    },
+    "arrest-ending": {
+      "passage": "The drawer holds a loaded flintlock. Cray never reaches it. Selke's fishermen pin his arms while you pull the weapon free. By nightfall he sits in the village cellar awaiting the governor's boat. Aldric's logbook and manifests are sealed in the mayor's strongbox. The tower lamp burns on through the night, tended by the village smith until a new warden arrives.",
+      "choices": [],
+      "ending": {
+        "title": "Justice Docked",
+        "flavor": "The lamp keeps burning. The warden is remembered. The harbor breathes again.",
+        "action": "lock the cellar door"
+      }
+    },
+    "chase-ending": {
+      "passage": "Cray crashes through the back window and sprints for the dock. A fishing boat rocks at its mooring, sails half-rigged. He cuts the rope and catches the wind before anyone can stop him. Gone. But the evidence stays - logbook, manifests, harness, the boy's testimony. Enough to close the harbor scheme forever. Selke watches the sail shrink against the horizon. Good, she says.",
+      "choices": [],
+      "ending": {
+        "title": "Open Water",
+        "flavor": "The criminal escapes, but the crime does not - and Greyhaven's ships sail safely again.",
+        "action": "watch the sail vanish"
+      }
+    },
+    "governor-ending": {
+      "passage": "Dawn brings the governor's patrol boat, white sails crisp against a gray sky. Soldiers find everything in Cray's office - double ledgers, salvage receipts, a vial of hemlock tucked behind his ink well. No resistance. He sits in his chair, staring at the harbor he bled dry, as shackles close around his wrists. Aldric's logbook enters the official record.",
+      "choices": [],
+      "ending": {
+        "title": "By the Book",
+        "flavor": "The law arrives on the morning tide, and the warden's final entry becomes his lasting testimony.",
+        "action": "hand over the logbook"
+      }
+    },
+    "boy-witness-ending": {
+      "passage": "Wren testifies before the governor's magistrate with Selke standing behind him. His voice is thin but steady - the climb, the vial, the teapot. When he finishes, the courtroom is quiet. Cray is led away without a word. Wren walks out into the afternoon looking ten years older and ten pounds lighter. The tower lamp burns above, steady as a vow.",
+      "choices": [],
+      "ending": {
+        "title": "Young Witness",
+        "flavor": "The boy carries the heaviest truth, and the village carries him.",
+        "action": "walk him outside"
+      }
+    },
+    "signal-ending": {
+      "passage": "You grab the lamp mirror and pivot it hard. The beam sweeps the harbor - once, twice, three times. Emergency. Within minutes, lanterns bob up the cliff path: fishermen, the smith, Selke herself. The boy drops his knife before they reach the door, sitting on the top step with his face in his hands while the village fills the tower below. Truth pours out.",
+      "choices": [],
+      "ending": {
+        "title": "Three Flashes",
+        "flavor": "A lighthouse speaks in signals, and tonight the message is clear: help arrived.",
+        "action": "turn the mirror"
+      }
+    }
+  }
+}

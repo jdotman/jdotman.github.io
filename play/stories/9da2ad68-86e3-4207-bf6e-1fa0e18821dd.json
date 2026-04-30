@@ -1,0 +1,190 @@
+{
+  "id": "9da2ad68-86e3-4207-bf6e-1fa0e18821dd",
+  "title": "Stargazer's Folly",
+  "description": "An astronomer's tower has gone silent for three nights. The observatory's apprentice begs you to climb its spiraling stairs and find what has stopped the master from coming down.",
+  "author": "AI",
+  "tags": ["eerie", "mystery"],
+  "estimatedMinutes": 12,
+  "dateGenerated": "2026-04-29",
+  "dayOfYear": "07-08",
+  "endingCount": 6,
+  "storyNumber": 97,
+  "startNode": "intro",
+  "nodes": {
+    "intro": {
+      "passage": "The tower leans against a bruised sky. Master Veld has not come down in three nights, says his apprentice Mara. Food trays sit untouched. She lowers her voice. Shutters slam when no wind blows. Last night, green glow lit the upper windows from inside. The stairwell is locked. Mara hands you a brass key.",
+      "choices": [
+        { "label": "unlock the door", "nextNode": "ground-floor", "hint": "The brass key turns hard, as if the lock has not been used in years." },
+        { "label": "question Mara", "nextNode": "apprentice-talk", "hint": "Mara fidgets with the hem of her sleeve, dark crescents under her eyes." },
+        { "label": "circle the tower", "nextNode": "tower-base", "hint": "Wind hisses through cracks in the foundation stones at the tower base." }
+      ]
+    },
+    "apprentice-talk": {
+      "passage": "Mara has been Veld's apprentice for two years. He was studying a comet that returns once a century, due three nights ago. He ordered her to stay below. She heard him laugh once around midnight - not his usual laugh. Sharper. Then silence. She found a feather the next morning. Black, long as her forearm.",
+      "choices": [
+        { "label": "open the tower", "nextNode": "ground-floor", "hint": "The brass key turns hard, as if the lock has not been used in years." },
+        { "label": "ask about the feather", "nextNode": "feather-clue", "hint": "Mara pulls a wrapped cloth from her satchel without a word." }
+      ]
+    },
+    "tower-base": {
+      "passage": "The tower's foundation runs deeper than expected. Drainage grates ring the base, and one has been bent outward. Whatever fit through it was small but determined. Bird feathers tangle in the iron - black, oily, wet despite the dry weather. A chalked symbol marks the wall above the bent grate. Not Veld's hand. Older. Letters in a language that hurts to focus on.",
+      "choices": [
+        { "label": "decipher the symbol", "nextNode": "ward-glyph", "hint": "The chalk lines crawl when you stop looking directly at them." },
+        { "label": "approach the door", "nextNode": "ground-floor", "hint": "The brass key turns chill against your palm as you mount the steps." }
+      ]
+    },
+    "feather-clue": {
+      "passage": "The feather is black with a faint green sheen at the edges, like oil on water. No bird Mara recognizes leaves feathers this long. She found three more at the stairs the next day, always damp even when no rain had fallen for weeks. She kept them all. Burning them feels wrong, but throwing them away feels worse.",
+      "choices": [
+        { "label": "enter the tower", "nextNode": "ground-floor", "hint": "The brass key turns hard, as if the lock has not been used in years." },
+        { "label": "examine the foundation", "nextNode": "tower-base", "hint": "Wind hisses through cracks in the foundation stones at the tower base." }
+      ]
+    },
+    "ground-floor": {
+      "passage": "Chill air rushes out when the door opens. Salt, maybe. The ground floor holds shelves of star charts, a cot, and a writing desk piled with notes in Veld's tight script. The spiral stair climbs into shadow. A trail of small wet prints leads up the steps. They do not match a man's boot - they match a child's foot.",
+      "choices": [
+        { "label": "study the desk", "nextNode": "writing-desk", "hint": "Top page reads 'the comet is not a comet' in handwriting that grows progressively shakier." },
+        { "label": "track the prints upward", "nextNode": "second-floor", "hint": "The prints leave faint salt residue at the edge of each impression on the stone." }
+      ]
+    },
+    "ward-glyph": {
+      "passage": "The symbol is a banishing glyph - old, southern, used to keep things bound. But it is reversed, drawn backward, which means it does the opposite. Whoever marked the wall was inviting something in, not keeping it out. The chalk is fresh enough to smudge under your finger. Veld did not draw this. The angle is wrong, like someone smaller and standing on a stool.",
+      "choices": [
+        { "label": "scrub the glyph", "nextNode": "wipe-symbol", "hint": "Chalk smears under your sleeve, but the lines glow faintly even after wiping." },
+        { "label": "leave and head inside", "nextNode": "ground-floor", "hint": "The brass key burns slightly cold against your palm as you climb the steps." }
+      ]
+    },
+    "writing-desk": {
+      "passage": "Veld's notes track the comet's approach for thirty pages. Then a shift. The last ten pages obsess over a 'second eye' - something behind the comet, watching back. He writes: 'the apprentice cannot know. she would unmake it.' The final page has a single line in different ink, fresher: 'I think I was wrong about which one was watching.' The handwriting is no longer Veld's.",
+      "choices": [
+        { "label": "go up the stairs", "nextNode": "second-floor", "hint": "Salt prints lead up, fainter as they rise but never quite vanishing." },
+        { "label": "search the cot", "nextNode": "cot-discovery", "hint": "The blanket is too neatly folded for a man who supposedly slept here." }
+      ]
+    },
+    "wipe-symbol": {
+      "passage": "The chalk vanishes under your sleeve, but the wall behind it shows a faint scorch where the glyph burned itself in. You feel the air change - tighter, like a held breath releasing. Whatever the inverted glyph was holding open just closed. Above, in the tower, something thuds against a wooden floor. Once. Then nothing. Mara, behind you, whispers a prayer she does not finish.",
+      "choices": [
+        { "label": "hurry into the tower", "nextNode": "ground-floor", "hint": "The brass key turns easily now, the lock yielding without resistance at all." },
+        { "label": "watch Mara react", "nextNode": "feather-clue", "hint": "Mara's prayer ends mid-word and her eyes go wide as the wall warms." }
+      ]
+    },
+    "second-floor": {
+      "passage": "The second floor holds a small library and an iron stove, gone cold. The salt prints continue across the floor and stop at the window. The latch is open. Outside, an iron-railed balcony circles the tower. The prints reappear on the balcony, leading not down but up - climbing the outer wall toward the observation room above. Like something that prefers stone to stairs.",
+      "choices": [
+        { "label": "follow up the wall", "nextNode": "balcony-climb", "hint": "Iron rungs climb the outer stones, slick with the same salt residue." },
+        { "label": "take the inner stairs", "nextNode": "third-floor", "hint": "The spiral stair narrows above, dust thick on the upper steps until recently." }
+      ]
+    },
+    "cot-discovery": {
+      "passage": "Under the blanket: a leather satchel containing a child's clothes, a cracked porcelain doll, and a journal in Mara's handwriting. The journal is older than her two years here. She knew this tower as a child. She knew Veld. The last entry, dated yesterday: 'tonight he finally sees it. tonight i bring it through. mother forgive me.' Mara is not who she said she was.",
+      "choices": [
+        { "label": "confront Mara", "nextNode": "mara-truth", "hint": "She stands in the doorway behind you, the brass key glinting in her palm." },
+        { "label": "ascend toward the prints", "nextNode": "second-floor", "hint": "Salt prints lead up, fainter as they rise but never quite vanishing now." }
+      ]
+    },
+    "balcony-climb": {
+      "passage": "The iron rungs are slick. Halfway up, a black feather catches in a crack, still damp. Above, a hatch leads into the observation room. The hatch lifts and green glow spills out. Inside: Veld at his telescope, motionless, eyes open, lips moving silently. Something perches on his shoulder, smaller than a child, watching.",
+      "choices": [
+        { "label": "address the creature", "nextNode": "creature-talk", "hint": "Its head tilts and Veld's lips move with whatever it would say back." },
+        { "label": "drag Veld out", "nextNode": "rescue-attempt", "hint": "His skin is chill, but his pulse beats steady against your fingertips." },
+        { "label": "climb to the roof", "nextNode": "tower-roof", "hint": "Iron rungs continue past the hatch toward whatever opens above." }
+      ]
+    },
+    "third-floor": {
+      "passage": "The third floor is a study, walls papered with star charts and astrological diagrams. Veld's chair is empty. The telescope room is one floor up. As you reach the next stair, you hear Veld's voice from above - calm, reasoning, addressing someone. Then a second voice answers, too high and too soft, in a language that puts ice in your teeth even at this distance.",
+      "choices": [
+        { "label": "charge the telescope room", "nextNode": "creature-talk", "hint": "Green glow spills down the stairwell as you climb the last few steps." },
+        { "label": "listen at the door", "nextNode": "overheard-bargain", "hint": "Veld is bargaining, voice steady, offering something in trade for something else." }
+      ]
+    },
+    "mara-truth": {
+      "passage": "Mara does not run. She lifts her chin and tells the truth. Her mother was Veld's first apprentice, sent away the night a comet brought a 'second eye' through thirty years ago. The eye took her mother's voice. Mara grew up mute until last year, when she learned the inverted glyph from her grandmother. She came to bargain her voice back.",
+      "choices": [
+        { "label": "stop her ritual", "nextNode": "stop-ritual-ending", "hint": "Mara raises the brass key like a charm and the air thickens around her hand." },
+        { "label": "let her finish", "nextNode": "voice-trade-ending", "hint": "Her eyes fill with tears that are also light, also a kind of color." }
+      ]
+    },
+    "creature-talk": {
+      "passage": "The creature is not a child. It only resembles one. Wet feathers, four-jointed limbs, eyes black as wet ink. It speaks through Veld - calm, polite, scholarly. Veld traded sight for sight. He sees the second eye now, the thing behind the comet. The thing the eye serves. In trade, the creature borrows his throat to learn the local words. The deal expires at dawn.",
+      "choices": [
+        { "label": "negotiate Veld's release", "nextNode": "negotiate-creature", "hint": "Its head tilts, considering, while Veld's lips remain perfectly still beneath." },
+        { "label": "destroy the telescope", "nextNode": "smash-telescope-ending", "hint": "Brass and glass shatter inward as the creature lets out a sound like cracking ice." }
+      ]
+    },
+    "rescue-attempt": {
+      "passage": "You grab Veld's wrists. The creature on his shoulder hisses but does not stop you. Veld's eyes track yours - aware, trapped, pleading. You drag him toward the hatch. The creature watches calmly. As you reach the balcony, Veld's voice returns, weak but his own. He thanks you. Then he tells you to look up at the comet anyway. Just once. He is sorry.",
+      "choices": [
+        { "label": "refuse to look", "nextNode": "refuse-look-ending", "hint": "You keep your eyes on the railing as you carry him down the iron rungs." },
+        { "label": "glance at the sky", "nextNode": "second-eye-ending", "hint": "The comet hangs above with something darker just behind, watching you back." }
+      ]
+    },
+    "overheard-bargain": {
+      "passage": "Veld offers his sight in exchange for the creature's word that it will leave at dawn. The creature counters: not sight, voice. Veld hesitates. Forty years of writing about the stars. His voice taught Mara, reads aloud, sings on midwinter nights. The creature waits. Through the door, Veld whispers agreement. The bargain seals.",
+      "choices": [
+        { "label": "burst in to stop it", "nextNode": "creature-talk", "hint": "The door swings hard and green glow floods the stair behind you." },
+        { "label": "wait until it leaves", "nextNode": "voice-trade-ending", "hint": "Footfalls fade up the stairs, then nothing, then the soft sound of weeping." }
+      ]
+    },
+    "negotiate-creature": {
+      "passage": "Your own sight, in trade. Just for a year. Long enough for Veld to teach Mara what she needs. The creature considers, then agrees. It steps from Veld's shoulder onto yours. The world dims at the edges. Veld collapses, alive, voice returning in ragged gasps. The creature whispers in your ear all night, teaching you things you will spend a lifetime forgetting.",
+      "choices": [],
+      "ending": {
+        "title": "Borrowed Sight",
+        "flavor": "A year of dimness in exchange for a master's voice - the trade no one teaches in apprenticeship.",
+        "action": "close your eyes"
+      }
+    },
+    "stop-ritual-ending": {
+      "passage": "The key flies from Mara's hand. She wails, broken in a way you did not expect, but the air loosens. Above, Veld's voice returns for the first time in three nights - hoarse, confused, calling for his apprentice. The creature is gone. So is Mara's chance. She kneels in the dust, weeping in silence she has known forever.",
+      "choices": [],
+      "ending": {
+        "title": "Silence Held",
+        "flavor": "Some doors must stay closed even when grief is the one knocking.",
+        "action": "lower the broken key"
+      }
+    },
+    "voice-trade-ending": {
+      "passage": "Mara whispers the inverted glyph aloud. Her voice strengthens with each syllable - then a second voice rises through her, older and warmer. Her mother's. Tears stream down Mara's face. The creature departs through the upper window, taking Veld's silence with it. Veld descends mute, smiling. He hears her mother again. Nothing to say, and that seems enough.",
+      "choices": [],
+      "ending": {
+        "title": "Two Voices",
+        "flavor": "A daughter speaks at last, in two voices joined - and the master listens for the rest of his days.",
+        "action": "step aside for them"
+      }
+    },
+    "smash-telescope-ending": {
+      "passage": "The telescope shatters. The creature shrieks and pours out of Veld in a rush of wet feathers and salt. The glow snuffs. Veld collapses, gasping, fully himself. Above the tower, the comet wheels past - ordinary now, just a dirty snowball of ice. The second eye is gone. Banished, or merely turned away. Veld weeps over the broken brass.",
+      "choices": [],
+      "ending": {
+        "title": "Shattered Lens",
+        "flavor": "Forty years of careful watching ends in glass dust, but the watcher came home.",
+        "action": "kneel beside him"
+      }
+    },
+    "refuse-look-ending": {
+      "passage": "Veld comes down without you ever looking up. Iron rungs scrape under your hands. By the time your boots hit ground, Veld breathes easy and the glow has faded from the upper windows. Mara meets you at the door, weeping, clutching the brass key. Whatever bargain she made, she remade it without you. The tower stays empty for a year.",
+      "choices": [],
+      "ending": {
+        "title": "Eyes Forward",
+        "flavor": "Some things you save by refusing to see them, and that refusal is its own kind of strength.",
+        "action": "keep climbing down"
+      }
+    },
+    "second-eye-ending": {
+      "passage": "The comet is a smudge. Behind it, something vast turns its attention to you - patient, curious, not unkind. The world tilts. When your eyes refocus, you are still on the balcony, Veld in your arms, but a weight rides with you now. The descent is slow. Veld recovers. Mara recovers. You read constellations differently forever.",
+      "choices": [],
+      "ending": {
+        "title": "The Second Eye",
+        "flavor": "You looked, and something looked back, and now your sky has one more star than other people see.",
+        "action": "keep climbing down"
+      }
+    },
+    "tower-roof": {
+      "passage": "Above the observation room, an iron ladder climbs to the roof. The night sky opens overhead, comet hanging low like chalk-smudge. Wind tugs at your coat. The roof is older than the rest of the tower, paved with star-carved tiles that hum faintly underfoot. A pile of black feathers lies at the center, fresh and damp.",
+      "choices": [
+        { "label": "smash the tiles", "nextNode": "smash-telescope-ending", "hint": "The carved patterns crack under your boot heel and the hum cuts off sharply." },
+        { "label": "descend back inside", "nextNode": "creature-talk", "hint": "The hatch closes behind you with a hush like falling snow on stone." }
+      ]
+    }
+  }
+}
