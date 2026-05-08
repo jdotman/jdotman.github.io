@@ -81,8 +81,8 @@
                     const wpm = typeof meta.wpm === 'number' ? Math.round(meta.wpm) : null;
                     const level = typeof meta.level === 'number' ? meta.level : null;
                     const acc = typeof meta.accuracy === 'number' ? Math.round(meta.accuracy * 100) : null;
-                    const dateStr = r.create_time ? (() => {
-                        const d = new Date(r.create_time);
+                    const dateStr = r.update_time ? (() => {
+                        const d = new Date(r.update_time);
                         return isNaN(d.getTime()) ? '' : d.toLocaleString('en-US', {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
                     })() : '';
                     const rankClass = rank === 1 ? 'gold' : rank === 2 ? 'silver' : rank === 3 ? 'bronze' : '';
