@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreLifetime",
-  "fetched_at": "2026-05-08T18:30:02Z",
+  "fetched_at": "2026-05-09T20:30:01Z",
   "records": [
     {
       "rank": 1,
@@ -23,6 +23,17 @@
       "metadata": "{\"wpm\": 112.48571428571428, \"level\": 26, \"accuracy\": 0.9798873692679002, \"elapsedMs\": 308476.10000002384, \"startedAtMs\": 1778264303448.9}",
       "create_time": "2026-05-07T01:21:54Z",
       "update_time": "2026-05-08T18:23:33Z"
+    },
+    {
+      "rank": 3,
+      "username": "altonevancheng",
+      "owner_id": "94e94e0f-6aa0-4f56-8ab6-a0ccd7e41af1",
+      "score": 31821,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 40.985915492957744, \"level\": 16, \"accuracy\": 0.9467174119885823, \"elapsedMs\": 339960.20000000007, \"startedAtMs\": 1778357822837.8}",
+      "create_time": "2026-05-09T20:22:44Z",
+      "update_time": "2026-05-09T20:22:44Z"
     }
   ]
 }

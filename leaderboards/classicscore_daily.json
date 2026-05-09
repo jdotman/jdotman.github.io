@@ -1,5 +1,17 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-05-09T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-05-09T20:30:01Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "altonevancheng",
+      "owner_id": "94e94e0f-6aa0-4f56-8ab6-a0ccd7e41af1",
+      "score": 31821,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 40.985915492957744, \"level\": 16, \"accuracy\": 0.9467174119885823, \"elapsedMs\": 339960.20000000007, \"startedAtMs\": 1778357822837.8}",
+      "create_time": "2026-05-09T20:22:44Z",
+      "update_time": "2026-05-09T20:22:44Z"
+    }
+  ]
 }
