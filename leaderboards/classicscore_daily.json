@@ -1,17 +1,5 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-05-08T18:30:01Z",
-  "records": [
-    {
-      "rank": 1,
-      "username": "J.Man",
-      "owner_id": "7b87943f-e3d8-4a86-addd-96a5de68299e",
-      "score": 117323,
-      "subscore": null,
-      "num_score": 2,
-      "metadata": "{\"wpm\": 112.48571428571428, \"level\": 26, \"accuracy\": 0.9798873692679002, \"elapsedMs\": 308476.10000002384, \"startedAtMs\": 1778264303448.9}",
-      "create_time": "2026-05-08T15:55:25Z",
-      "update_time": "2026-05-08T18:23:33Z"
-    }
-  ]
+  "fetched_at": "2026-05-09T08:00:01Z",
+  "records": []
 }
