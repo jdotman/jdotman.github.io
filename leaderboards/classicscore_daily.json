@@ -1,5 +1,17 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-05-10T08:00:06Z",
-  "records": []
+  "fetched_at": "2026-05-10T19:40:01Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "Sholee",
+      "owner_id": "bc5c9d93-2359-42a5-bb81-618d97693d8c",
+      "score": 31463,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 70.75, \"level\": 15, \"accuracy\": 0.9544419134396356, \"elapsedMs\": 146751.90000000002, \"startedAtMs\": 1778441572408.1}",
+      "create_time": "2026-05-10T19:35:18Z",
+      "update_time": "2026-05-10T19:35:18Z"
+    }
+  ]
 }
