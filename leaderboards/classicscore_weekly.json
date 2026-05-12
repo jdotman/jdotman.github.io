@@ -1,5 +1,17 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-05-11T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-05-12T02:30:01Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "J.Man",
+      "owner_id": "7b87943f-e3d8-4a86-addd-96a5de68299e",
+      "score": 13309,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 121.5, \"level\": 7, \"accuracy\": 0.9680365296803652, \"elapsedMs\": 27198.899999999987, \"startedAtMs\": 1778552694310.1}",
+      "create_time": "2026-05-12T02:25:23Z",
+      "update_time": "2026-05-12T02:25:23Z"
+    }
+  ]
 }
