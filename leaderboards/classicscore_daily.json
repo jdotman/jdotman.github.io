@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-05-14T22:00:01Z",
+  "fetched_at": "2026-05-14T23:17:55Z",
   "records": [
     {
       "rank": 1,
@@ -23,6 +23,17 @@
       "metadata": "{\"wpm\": 69.43589743589743, \"level\": 23, \"accuracy\": 0.9667738478027867, \"elapsedMs\": 338090.19999999995, \"startedAtMs\": 1778795081188.8}",
       "create_time": "2026-05-14T21:50:21Z",
       "update_time": "2026-05-14T21:50:21Z"
+    },
+    {
+      "rank": 3,
+      "username": "manedwolfcaboose",
+      "owner_id": "2b2c6a5a-0253-4c6e-86e6-4e23686a4631",
+      "score": 30081,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 42.527027027027025, \"level\": 18, \"accuracy\": 0.9311145510835913, \"elapsedMs\": 356489.2000000239, \"startedAtMs\": 1778800034199.8}",
+      "create_time": "2026-05-14T23:13:12Z",
+      "update_time": "2026-05-14T23:13:12Z"
     }
   ]
 }

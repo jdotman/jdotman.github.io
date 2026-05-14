@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-05-14T22:00:01Z",
+  "fetched_at": "2026-05-14T23:17:56Z",
   "records": [
     {
       "rank": 1,
@@ -26,6 +26,17 @@
     },
     {
       "rank": 3,
+      "username": "manedwolfcaboose",
+      "owner_id": "2b2c6a5a-0253-4c6e-86e6-4e23686a4631",
+      "score": 30081,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 42.527027027027025, \"level\": 18, \"accuracy\": 0.9311145510835913, \"elapsedMs\": 356489.2000000239, \"startedAtMs\": 1778800034199.8}",
+      "create_time": "2026-05-14T23:13:12Z",
+      "update_time": "2026-05-14T23:13:12Z"
+    },
+    {
+      "rank": 4,
       "username": "J.Man",
       "owner_id": "7b87943f-e3d8-4a86-addd-96a5de68299e",
       "score": 13309,

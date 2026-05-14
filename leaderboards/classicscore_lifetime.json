@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreLifetime",
-  "fetched_at": "2026-05-14T20:30:01Z",
+  "fetched_at": "2026-05-14T23:17:56Z",
   "records": [
     {
       "rank": 1,
@@ -45,6 +45,17 @@
       "metadata": "{\"wpm\": 39.54736842105263, \"level\": 19, \"accuracy\": 0.9590562109646079, \"elapsedMs\": 428441.1000000003, \"startedAtMs\": 1778386803401.9}",
       "create_time": "2026-05-09T20:22:44Z",
       "update_time": "2026-05-10T04:27:13Z"
+    },
+    {
+      "rank": 5,
+      "username": "manedwolfcaboose",
+      "owner_id": "2b2c6a5a-0253-4c6e-86e6-4e23686a4631",
+      "score": 30081,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 42.527027027027025, \"level\": 18, \"accuracy\": 0.9311145510835913, \"elapsedMs\": 356489.2000000239, \"startedAtMs\": 1778800034199.8}",
+      "create_time": "2026-05-14T23:13:12Z",
+      "update_time": "2026-05-14T23:13:12Z"
     }
   ]
 }
