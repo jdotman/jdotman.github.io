@@ -1,5 +1,17 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-05-14T15:00:01Z",
-  "records": []
+  "fetched_at": "2026-05-14T20:30:01Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "zetsueixz",
+      "owner_id": "c7dddd20-b56c-4197-b4fc-ad617d3536b3",
+      "score": 103895,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 72.28440366972477, \"level\": 27, \"accuracy\": 0.9715403770900035, \"elapsedMs\": 465972.1, \"startedAtMs\": 1778789745071.9}",
+      "create_time": "2026-05-14T20:23:32Z",
+      "update_time": "2026-05-14T20:23:32Z"
+    }
+  ]
 }
