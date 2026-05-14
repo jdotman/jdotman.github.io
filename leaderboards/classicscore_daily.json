@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-05-14T20:30:01Z",
+  "fetched_at": "2026-05-14T22:00:01Z",
   "records": [
     {
       "rank": 1,
@@ -12,6 +12,17 @@
       "metadata": "{\"wpm\": 72.28440366972477, \"level\": 27, \"accuracy\": 0.9715403770900035, \"elapsedMs\": 465972.1, \"startedAtMs\": 1778789745071.9}",
       "create_time": "2026-05-14T20:23:32Z",
       "update_time": "2026-05-14T20:23:32Z"
+    },
+    {
+      "rank": 2,
+      "username": "Sholee",
+      "owner_id": "bc5c9d93-2359-42a5-bb81-618d97693d8c",
+      "score": 85897,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 69.43589743589743, \"level\": 23, \"accuracy\": 0.9667738478027867, \"elapsedMs\": 338090.19999999995, \"startedAtMs\": 1778795081188.8}",
+      "create_time": "2026-05-14T21:50:21Z",
+      "update_time": "2026-05-14T21:50:21Z"
     }
   ]
 }
