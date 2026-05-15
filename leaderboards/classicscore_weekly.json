@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-05-15T00:50:02Z",
+  "fetched_at": "2026-05-15T02:10:01Z",
   "records": [
     {
       "rank": 1,
@@ -56,6 +56,17 @@
       "metadata": "{\"wpm\": 121.5, \"level\": 7, \"accuracy\": 0.9680365296803652, \"elapsedMs\": 27198.899999999987, \"startedAtMs\": 1778552694310.1}",
       "create_time": "2026-05-12T02:25:23Z",
       "update_time": "2026-05-12T02:25:23Z"
+    },
+    {
+      "rank": 6,
+      "username": "ababluelemmon",
+      "owner_id": "59e5dacb-8265-429a-912a-112f4dfc1be6",
+      "score": 5895,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 34.63636363636363, \"level\": 7, \"accuracy\": 0.926829268292683, \"elapsedMs\": 89754.29999999925, \"startedAtMs\": 1778810817563.7}",
+      "create_time": "2026-05-15T02:08:27Z",
+      "update_time": "2026-05-15T02:08:27Z"
     }
   ]
 }
