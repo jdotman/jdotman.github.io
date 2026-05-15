@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreLifetime",
-  "fetched_at": "2026-05-15T02:10:01Z",
+  "fetched_at": "2026-05-15T13:30:02Z",
   "records": [
     {
       "rank": 1,
@@ -15,6 +15,17 @@
     },
     {
       "rank": 2,
+      "username": "HeyBaylee",
+      "owner_id": "6b0190c2-2d1d-4f5e-b726-1e3de7a28f3a",
+      "score": 152263,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 65.9551282051282, \"level\": 33, \"accuracy\": 0.9716206123973115, \"elapsedMs\": 690243.8999999997, \"startedAtMs\": 1778850583229.1}",
+      "create_time": "2026-05-15T13:21:16Z",
+      "update_time": "2026-05-15T13:21:16Z"
+    },
+    {
+      "rank": 3,
       "username": "J.Man",
       "owner_id": "7b87943f-e3d8-4a86-addd-96a5de68299e",
       "score": 117323,
@@ -25,7 +36,7 @@
       "update_time": "2026-05-08T18:23:33Z"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "username": "zetsueixz",
       "owner_id": "c7dddd20-b56c-4197-b4fc-ad617d3536b3",
       "score": 103895,
@@ -36,7 +47,7 @@
       "update_time": "2026-05-14T20:23:32Z"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "username": "altonevancheng",
       "owner_id": "94e94e0f-6aa0-4f56-8ab6-a0ccd7e41af1",
       "score": 45380,
@@ -47,7 +58,7 @@
       "update_time": "2026-05-10T04:27:13Z"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "username": "manedwolfcaboose",
       "owner_id": "2b2c6a5a-0253-4c6e-86e6-4e23686a4631",
       "score": 30081,
@@ -58,7 +69,7 @@
       "update_time": "2026-05-14T23:13:12Z"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "username": "undtechted",
       "owner_id": "7cbb5528-8b1e-4c96-9b0a-8b5c1d96b32b",
       "score": 29402,
@@ -69,7 +80,7 @@
       "update_time": "2026-05-15T00:42:14Z"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "username": "ababluelemmon",
       "owner_id": "59e5dacb-8265-429a-912a-112f4dfc1be6",
       "score": 5895,
