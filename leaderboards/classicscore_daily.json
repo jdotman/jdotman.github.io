@@ -1,9 +1,20 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-05-14T23:17:55Z",
+  "fetched_at": "2026-05-15T00:10:01Z",
   "records": [
     {
       "rank": 1,
+      "username": "Sholee",
+      "owner_id": "bc5c9d93-2359-42a5-bb81-618d97693d8c",
+      "score": 167678,
+      "subscore": null,
+      "num_score": 2,
+      "metadata": "{\"wpm\": 67.41610738255034, \"level\": 32, \"accuracy\": 0.963884430176565, \"elapsedMs\": 650679.2000000002, \"startedAtMs\": 1778802935214.8}",
+      "create_time": "2026-05-14T21:50:21Z",
+      "update_time": "2026-05-15T00:06:29Z"
+    },
+    {
+      "rank": 2,
       "username": "zetsueixz",
       "owner_id": "c7dddd20-b56c-4197-b4fc-ad617d3536b3",
       "score": 103895,
@@ -12,17 +23,6 @@
       "metadata": "{\"wpm\": 72.28440366972477, \"level\": 27, \"accuracy\": 0.9715403770900035, \"elapsedMs\": 465972.1, \"startedAtMs\": 1778789745071.9}",
       "create_time": "2026-05-14T20:23:32Z",
       "update_time": "2026-05-14T20:23:32Z"
-    },
-    {
-      "rank": 2,
-      "username": "Sholee",
-      "owner_id": "bc5c9d93-2359-42a5-bb81-618d97693d8c",
-      "score": 85897,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 69.43589743589743, \"level\": 23, \"accuracy\": 0.9667738478027867, \"elapsedMs\": 338090.19999999995, \"startedAtMs\": 1778795081188.8}",
-      "create_time": "2026-05-14T21:50:21Z",
-      "update_time": "2026-05-14T21:50:21Z"
     },
     {
       "rank": 3,
