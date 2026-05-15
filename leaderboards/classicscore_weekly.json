@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-05-15T00:10:01Z",
+  "fetched_at": "2026-05-15T00:50:02Z",
   "records": [
     {
       "rank": 1,
@@ -37,6 +37,17 @@
     },
     {
       "rank": 4,
+      "username": "undtechted",
+      "owner_id": "7cbb5528-8b1e-4c96-9b0a-8b5c1d96b32b",
+      "score": 29402,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 35.95192307692308, \"level\": 20, \"accuracy\": 0.9375, \"elapsedMs\": 472983.2, \"startedAtMs\": 1778805256589.8}",
+      "create_time": "2026-05-15T00:42:14Z",
+      "update_time": "2026-05-15T00:42:14Z"
+    },
+    {
+      "rank": 5,
       "username": "J.Man",
       "owner_id": "7b87943f-e3d8-4a86-addd-96a5de68299e",
       "score": 13309,

@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-05-15T00:10:01Z",
+  "fetched_at": "2026-05-15T00:50:02Z",
   "records": [
     {
       "rank": 1,
@@ -34,6 +34,17 @@
       "metadata": "{\"wpm\": 42.527027027027025, \"level\": 18, \"accuracy\": 0.9311145510835913, \"elapsedMs\": 356489.2000000239, \"startedAtMs\": 1778800034199.8}",
       "create_time": "2026-05-14T23:13:12Z",
       "update_time": "2026-05-14T23:13:12Z"
+    },
+    {
+      "rank": 4,
+      "username": "undtechted",
+      "owner_id": "7cbb5528-8b1e-4c96-9b0a-8b5c1d96b32b",
+      "score": 29402,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 35.95192307692308, \"level\": 20, \"accuracy\": 0.9375, \"elapsedMs\": 472983.2, \"startedAtMs\": 1778805256589.8}",
+      "create_time": "2026-05-15T00:42:14Z",
+      "update_time": "2026-05-15T00:42:14Z"
     }
   ]
 }
