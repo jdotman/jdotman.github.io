@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-05-16T03:20:01Z",
+  "fetched_at": "2026-05-16T06:00:01Z",
   "records": [
     {
       "rank": 1,
@@ -78,6 +78,17 @@
       "metadata": "{\"wpm\": 121.5, \"level\": 7, \"accuracy\": 0.9680365296803652, \"elapsedMs\": 27198.899999999987, \"startedAtMs\": 1778552694310.1}",
       "create_time": "2026-05-12T02:25:23Z",
       "update_time": "2026-05-12T02:25:23Z"
+    },
+    {
+      "rank": 8,
+      "username": "RedComet999",
+      "owner_id": "abc07bd8-e454-4347-9270-5aec325e64d6",
+      "score": 12318,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 29.53846153846154, \"level\": 11, \"accuracy\": 0.7678321678321678, \"elapsedMs\": 241815.6, \"startedAtMs\": 1778910827744.4}",
+      "create_time": "2026-05-16T05:57:54Z",
+      "update_time": "2026-05-16T05:57:54Z"
     }
   ]
 }
