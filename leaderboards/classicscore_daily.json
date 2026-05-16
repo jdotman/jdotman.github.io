@@ -1,50 +1,5 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-05-16T06:00:01Z",
-  "records": [
-    {
-      "rank": 1,
-      "username": "Sholee",
-      "owner_id": "bc5c9d93-2359-42a5-bb81-618d97693d8c",
-      "score": 158518,
-      "subscore": null,
-      "num_score": 2,
-      "metadata": "{\"wpm\": 66.91472868217055, \"level\": 30, \"accuracy\": 0.9753125, \"elapsedMs\": 562818.2999999999, \"startedAtMs\": 1778874112038.7}",
-      "create_time": "2026-05-15T19:37:26Z",
-      "update_time": "2026-05-15T19:51:14Z"
-    },
-    {
-      "rank": 2,
-      "username": "HeyBaylee",
-      "owner_id": "6b0190c2-2d1d-4f5e-b726-1e3de7a28f3a",
-      "score": 152263,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 65.9551282051282, \"level\": 33, \"accuracy\": 0.9716206123973115, \"elapsedMs\": 690243.8999999997, \"startedAtMs\": 1778850583229.1}",
-      "create_time": "2026-05-15T13:21:16Z",
-      "update_time": "2026-05-15T13:21:16Z"
-    },
-    {
-      "rank": 3,
-      "username": "ababluelemmon",
-      "owner_id": "59e5dacb-8265-429a-912a-112f4dfc1be6",
-      "score": 18454,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 32.27272727272727, \"level\": 14, \"accuracy\": 0.9050410316529894, \"elapsedMs\": 294485.1000000001, \"startedAtMs\": 1778901048504.9}",
-      "create_time": "2026-05-16T03:15:42Z",
-      "update_time": "2026-05-16T03:15:42Z"
-    },
-    {
-      "rank": 4,
-      "username": "RedComet999",
-      "owner_id": "abc07bd8-e454-4347-9270-5aec325e64d6",
-      "score": 12318,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 29.53846153846154, \"level\": 11, \"accuracy\": 0.7678321678321678, \"elapsedMs\": 241815.6, \"startedAtMs\": 1778910827744.4}",
-      "create_time": "2026-05-16T05:57:54Z",
-      "update_time": "2026-05-16T05:57:54Z"
-    }
-  ]
+  "fetched_at": "2026-05-16T08:00:01Z",
+  "records": []
 }
