@@ -1,39 +1,5 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-05-17T04:20:01Z",
-  "records": [
-    {
-      "rank": 1,
-      "username": "HeyBaylee",
-      "owner_id": "6b0190c2-2d1d-4f5e-b726-1e3de7a28f3a",
-      "score": 95671,
-      "subscore": null,
-      "num_score": 2,
-      "metadata": "{\"wpm\": 74.79646017699115, \"level\": 29, \"accuracy\": 0.9613801836024058, \"elapsedMs\": 488387.4, \"startedAtMs\": 1778990958580.6}",
-      "create_time": "2026-05-17T01:50:42Z",
-      "update_time": "2026-05-17T04:17:30Z"
-    },
-    {
-      "rank": 2,
-      "username": "Sholee",
-      "owner_id": "bc5c9d93-2359-42a5-bb81-618d97693d8c",
-      "score": 45222,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 60.121212121212125, \"level\": 13, \"accuracy\": 0.9906103286384976, \"elapsedMs\": 133141.20000000004, \"startedAtMs\": 1778981121309.8}",
-      "create_time": "2026-05-17T01:27:34Z",
-      "update_time": "2026-05-17T01:27:34Z"
-    },
-    {
-      "rank": 3,
-      "username": "J.Man",
-      "owner_id": "7b87943f-e3d8-4a86-addd-96a5de68299e",
-      "score": 5232,
-      "subscore": null,
-      "num_score": 3,
-      "metadata": "{\"wpm\": 106, \"level\": 5, \"accuracy\": 0.9622641509433962, \"elapsedMs\": 48759.799999999996, \"startedAtMs\": 1778980026381.2}",
-      "create_time": "2026-05-17T00:40:44Z",
-      "update_time": "2026-05-17T01:07:56Z"
-    }
-  ]
+  "fetched_at": "2026-05-17T08:00:02Z",
+  "records": []
 }
