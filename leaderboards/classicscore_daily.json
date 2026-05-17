@@ -1,9 +1,20 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-05-17T02:00:01Z",
+  "fetched_at": "2026-05-17T04:20:01Z",
   "records": [
     {
       "rank": 1,
+      "username": "HeyBaylee",
+      "owner_id": "6b0190c2-2d1d-4f5e-b726-1e3de7a28f3a",
+      "score": 95671,
+      "subscore": null,
+      "num_score": 2,
+      "metadata": "{\"wpm\": 74.79646017699115, \"level\": 29, \"accuracy\": 0.9613801836024058, \"elapsedMs\": 488387.4, \"startedAtMs\": 1778990958580.6}",
+      "create_time": "2026-05-17T01:50:42Z",
+      "update_time": "2026-05-17T04:17:30Z"
+    },
+    {
+      "rank": 2,
       "username": "Sholee",
       "owner_id": "bc5c9d93-2359-42a5-bb81-618d97693d8c",
       "score": 45222,
@@ -12,17 +23,6 @@
       "metadata": "{\"wpm\": 60.121212121212125, \"level\": 13, \"accuracy\": 0.9906103286384976, \"elapsedMs\": 133141.20000000004, \"startedAtMs\": 1778981121309.8}",
       "create_time": "2026-05-17T01:27:34Z",
       "update_time": "2026-05-17T01:27:34Z"
-    },
-    {
-      "rank": 2,
-      "username": "HeyBaylee",
-      "owner_id": "6b0190c2-2d1d-4f5e-b726-1e3de7a28f3a",
-      "score": 32383,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 73, \"level\": 14, \"accuracy\": 0.9797843665768194, \"elapsedMs\": 155313.69999999704, \"startedAtMs\": 1778982483712.3}",
-      "create_time": "2026-05-17T01:50:42Z",
-      "update_time": "2026-05-17T01:50:42Z"
     },
     {
       "rank": 3,
