@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-05-18T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-05-18T15:10:01Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "Nu-Pham",
+      "owner_id": "a410be73-99a9-49df-800d-f577cd886879",
+      "score": 94866,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 54.6621323529412, \"level\": 27, \"accuracy\": 0.9600713012477718, \"elapsedMs\": 645095, \"startedAtMs\": 1779115778773}",
+      "create_time": "2026-05-18T15:00:25Z",
+      "update_time": "2026-05-18T15:00:25Z",
+      "steam_id": "76561198000324460",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/a635c00e52456db0644ca0973a5060611b5f8924_medium.jpg"
+    }
+  ]
 }
