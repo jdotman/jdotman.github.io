@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-05-16T06:00:01Z",
+  "fetched_at": "2026-05-18T00:45:42Z",
   "records": [
     {
       "rank": 1,
@@ -11,7 +11,9 @@
       "num_score": 2,
       "metadata": "{\"wpm\": 67.41610738255034, \"level\": 32, \"accuracy\": 0.963884430176565, \"elapsedMs\": 650679.2000000002, \"startedAtMs\": 1778802935214.8}",
       "create_time": "2026-05-14T21:50:21Z",
-      "update_time": "2026-05-15T00:06:29Z"
+      "update_time": "2026-05-15T00:06:29Z",
+      "steam_id": "76561198039817211",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/9b732621e0f4605c0b05bcdf740ebf36cfca6b6e_medium.jpg"
     },
     {
       "rank": 2,
@@ -22,7 +24,9 @@
       "num_score": 1,
       "metadata": "{\"wpm\": 65.9551282051282, \"level\": 33, \"accuracy\": 0.9716206123973115, \"elapsedMs\": 690243.8999999997, \"startedAtMs\": 1778850583229.1}",
       "create_time": "2026-05-15T13:21:16Z",
-      "update_time": "2026-05-15T13:21:16Z"
+      "update_time": "2026-05-15T13:21:16Z",
+      "steam_id": "76561199121820839",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/cff11a8a03adfec7d1a981aab5dc8731993b389d_medium.jpg"
     },
     {
       "rank": 3,
@@ -33,7 +37,9 @@
       "num_score": 1,
       "metadata": "{\"wpm\": 72.28440366972477, \"level\": 27, \"accuracy\": 0.9715403770900035, \"elapsedMs\": 465972.1, \"startedAtMs\": 1778789745071.9}",
       "create_time": "2026-05-14T20:23:32Z",
-      "update_time": "2026-05-14T20:23:32Z"
+      "update_time": "2026-05-14T20:23:32Z",
+      "steam_id": "76561197967525300",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
     },
     {
       "rank": 4,
@@ -44,7 +50,9 @@
       "num_score": 1,
       "metadata": "{\"wpm\": 42.527027027027025, \"level\": 18, \"accuracy\": 0.9311145510835913, \"elapsedMs\": 356489.2000000239, \"startedAtMs\": 1778800034199.8}",
       "create_time": "2026-05-14T23:13:12Z",
-      "update_time": "2026-05-14T23:13:12Z"
+      "update_time": "2026-05-14T23:13:12Z",
+      "steam_id": "76561199633027428",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/85ee384bec86399cc79728cbde046516fa704b23_medium.jpg"
     },
     {
       "rank": 5,
@@ -55,7 +63,9 @@
       "num_score": 1,
       "metadata": "{\"wpm\": 35.95192307692308, \"level\": 20, \"accuracy\": 0.9375, \"elapsedMs\": 472983.2, \"startedAtMs\": 1778805256589.8}",
       "create_time": "2026-05-15T00:42:14Z",
-      "update_time": "2026-05-15T00:42:14Z"
+      "update_time": "2026-05-15T00:42:14Z",
+      "steam_id": "76561199106879476",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/8dfe278c7493b6984540e57ecd57b791df13841e_medium.jpg"
     },
     {
       "rank": 6,
@@ -66,7 +76,9 @@
       "num_score": 2,
       "metadata": "{\"wpm\": 32.27272727272727, \"level\": 14, \"accuracy\": 0.9050410316529894, \"elapsedMs\": 294485.1000000001, \"startedAtMs\": 1778901048504.9}",
       "create_time": "2026-05-15T02:08:27Z",
-      "update_time": "2026-05-16T03:15:42Z"
+      "update_time": "2026-05-16T03:15:42Z",
+      "steam_id": "76561198140570024",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/78c664d09ecb0e704c73cadceffc0eb913161a2e_medium.jpg"
     },
     {
       "rank": 7,
@@ -77,7 +89,9 @@
       "num_score": 1,
       "metadata": "{\"wpm\": 121.5, \"level\": 7, \"accuracy\": 0.9680365296803652, \"elapsedMs\": 27198.899999999987, \"startedAtMs\": 1778552694310.1}",
       "create_time": "2026-05-12T02:25:23Z",
-      "update_time": "2026-05-12T02:25:23Z"
+      "update_time": "2026-05-12T02:25:23Z",
+      "steam_id": "76561197976856083",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/0ec566e853a68fd7605cd18cb5d30ce332960596_medium.jpg"
     },
     {
       "rank": 8,
@@ -88,7 +102,9 @@
       "num_score": 1,
       "metadata": "{\"wpm\": 29.53846153846154, \"level\": 11, \"accuracy\": 0.7678321678321678, \"elapsedMs\": 241815.6, \"startedAtMs\": 1778910827744.4}",
       "create_time": "2026-05-16T05:57:54Z",
-      "update_time": "2026-05-16T05:57:54Z"
+      "update_time": "2026-05-16T05:57:54Z",
+      "steam_id": "76561198133450761",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/86ed442435254b33aef85ab5daea5749463c0604_medium.jpg"
     }
   ]
 }
