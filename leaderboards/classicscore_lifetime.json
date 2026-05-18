@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreLifetime",
-  "fetched_at": "2026-05-18T15:10:13Z",
+  "fetched_at": "2026-05-18T20:40:08Z",
   "records": [
     {
       "rank": 1,
@@ -56,6 +56,19 @@
     },
     {
       "rank": 5,
+      "username": "Boopi",
+      "owner_id": "8cc35535-65a5-480c-aa9c-60b9c75a50aa",
+      "score": 98457,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 74.36232394366198, \"level\": 33, \"accuracy\": 0.9416249702168216, \"elapsedMs\": 639380.4000000001, \"startedAtMs\": 1779135572627.6}",
+      "create_time": "2026-05-18T20:30:14Z",
+      "update_time": "2026-05-18T20:30:14Z",
+      "steam_id": "76561198069787084",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/9bf00dd74cbd3e539a11e2de1783f621c6d6583c_medium.jpg"
+    },
+    {
+      "rank": 6,
       "username": "Nu-Pham",
       "owner_id": "a410be73-99a9-49df-800d-f577cd886879",
       "score": 94866,
@@ -68,7 +81,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/a635c00e52456db0644ca0973a5060611b5f8924_medium.jpg"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "username": "altonevancheng",
       "owner_id": "94e94e0f-6aa0-4f56-8ab6-a0ccd7e41af1",
       "score": 45380,
@@ -81,7 +94,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "username": "manedwolfcaboose",
       "owner_id": "2b2c6a5a-0253-4c6e-86e6-4e23686a4631",
       "score": 30081,
@@ -94,7 +107,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/85ee384bec86399cc79728cbde046516fa704b23_medium.jpg"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "username": "undtechted",
       "owner_id": "7cbb5528-8b1e-4c96-9b0a-8b5c1d96b32b",
       "score": 29402,
@@ -107,7 +120,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/8dfe278c7493b6984540e57ecd57b791df13841e_medium.jpg"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "username": "ababluelemmon",
       "owner_id": "59e5dacb-8265-429a-912a-112f4dfc1be6",
       "score": 18454,
@@ -118,19 +131,6 @@
       "update_time": "2026-05-16T03:15:42Z",
       "steam_id": "76561198140570024",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/78c664d09ecb0e704c73cadceffc0eb913161a2e_medium.jpg"
-    },
-    {
-      "rank": 10,
-      "username": "RedComet999",
-      "owner_id": "abc07bd8-e454-4347-9270-5aec325e64d6",
-      "score": 12318,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 29.53846153846154, \"level\": 11, \"accuracy\": 0.7678321678321678, \"elapsedMs\": 241815.6, \"startedAtMs\": 1778910827744.4}",
-      "create_time": "2026-05-16T05:57:54Z",
-      "update_time": "2026-05-16T05:57:54Z",
-      "steam_id": "76561198133450761",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/86ed442435254b33aef85ab5daea5749463c0604_medium.jpg"
     }
   ]
 }

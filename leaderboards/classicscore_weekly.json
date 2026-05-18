@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-05-18T16:20:02Z",
+  "fetched_at": "2026-05-18T20:40:02Z",
   "records": [
     {
       "rank": 1,
+      "username": "Boopi",
+      "owner_id": "8cc35535-65a5-480c-aa9c-60b9c75a50aa",
+      "score": 98457,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 74.36232394366198, \"level\": 33, \"accuracy\": 0.9416249702168216, \"elapsedMs\": 639380.4000000001, \"startedAtMs\": 1779135572627.6}",
+      "create_time": "2026-05-18T20:30:14Z",
+      "update_time": "2026-05-18T20:30:14Z",
+      "steam_id": "76561198069787084",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/9bf00dd74cbd3e539a11e2de1783f621c6d6583c_medium.jpg"
+    },
+    {
+      "rank": 2,
       "username": "Nu-Pham",
       "owner_id": "a410be73-99a9-49df-800d-f577cd886879",
       "score": 94866,
@@ -16,7 +29,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/a635c00e52456db0644ca0973a5060611b5f8924_medium.jpg"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "username": "J.Man",
       "owner_id": "7b87943f-e3d8-4a86-addd-96a5de68299e",
       "score": 9477,
