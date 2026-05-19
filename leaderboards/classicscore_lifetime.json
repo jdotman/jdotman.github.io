@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreLifetime",
-  "fetched_at": "2026-05-19T03:10:04Z",
+  "fetched_at": "2026-05-19T05:40:03Z",
   "records": [
     {
       "rank": 1,
@@ -43,6 +43,19 @@
     },
     {
       "rank": 4,
+      "username": "FroggimusPrime",
+      "owner_id": "706f7bbe-72be-4055-b905-1dbe2d344d41",
+      "score": 117847,
+      "subscore": null,
+      "num_score": 2,
+      "metadata": "{\"wpm\": 61.703599999999966, \"level\": 30, \"accuracy\": 0.9719328703703703, \"elapsedMs\": 678503.4000000957, \"startedAtMs\": 1779168435831.6}",
+      "create_time": "2026-05-19T00:16:15Z",
+      "update_time": "2026-05-19T05:38:35Z",
+      "steam_id": "76561197997899775",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/165fa5c759b7e7972ad0631c6b90f2111d6c59c0_medium.jpg"
+    },
+    {
+      "rank": 5,
       "username": "J.Man",
       "owner_id": "7b87943f-e3d8-4a86-addd-96a5de68299e",
       "score": 117323,
@@ -55,7 +68,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/0ec566e853a68fd7605cd18cb5d30ce332960596_medium.jpg"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "username": "zetsueixz",
       "owner_id": "c7dddd20-b56c-4197-b4fc-ad617d3536b3",
       "score": 103895,
@@ -66,19 +79,6 @@
       "update_time": "2026-05-14T20:23:32Z",
       "steam_id": "76561197967525300",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
-    },
-    {
-      "rank": 6,
-      "username": "FroggimusPrime",
-      "owner_id": "706f7bbe-72be-4055-b905-1dbe2d344d41",
-      "score": 102373,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 52.15088888888889, \"level\": 27, \"accuracy\": 0.9738181818181818, \"elapsedMs\": 642602.3999999997, \"startedAtMs\": 1779149130503.6}",
-      "create_time": "2026-05-19T00:16:15Z",
-      "update_time": "2026-05-19T00:16:15Z",
-      "steam_id": "76561197997899775",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/165fa5c759b7e7972ad0631c6b90f2111d6c59c0_medium.jpg"
     },
     {
       "rank": 7,

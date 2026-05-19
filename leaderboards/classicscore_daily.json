@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-05-19T03:10:03Z",
+  "fetched_at": "2026-05-19T05:40:02Z",
   "records": [
     {
       "rank": 1,
@@ -19,12 +19,12 @@
       "rank": 2,
       "username": "FroggimusPrime",
       "owner_id": "706f7bbe-72be-4055-b905-1dbe2d344d41",
-      "score": 102373,
+      "score": 117847,
       "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 52.15088888888889, \"level\": 27, \"accuracy\": 0.9738181818181818, \"elapsedMs\": 642602.3999999997, \"startedAtMs\": 1779149130503.6}",
+      "num_score": 2,
+      "metadata": "{\"wpm\": 61.703599999999966, \"level\": 30, \"accuracy\": 0.9719328703703703, \"elapsedMs\": 678503.4000000957, \"startedAtMs\": 1779168435831.6}",
       "create_time": "2026-05-19T00:16:15Z",
-      "update_time": "2026-05-19T00:16:15Z",
+      "update_time": "2026-05-19T05:38:35Z",
       "steam_id": "76561197997899775",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/165fa5c759b7e7972ad0631c6b90f2111d6c59c0_medium.jpg"
     },
