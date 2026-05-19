@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreLifetime",
-  "fetched_at": "2026-05-19T05:40:03Z",
+  "fetched_at": "2026-05-19T11:30:04Z",
   "records": [
     {
       "rank": 1,
@@ -121,16 +121,16 @@
     },
     {
       "rank": 10,
-      "username": "altonevancheng",
-      "owner_id": "94e94e0f-6aa0-4f56-8ab6-a0ccd7e41af1",
-      "score": 45380,
+      "username": "StriveFPS",
+      "owner_id": "ad7f5d9e-9428-4dd1-a9ba-7933324f688f",
+      "score": 51821,
       "subscore": null,
-      "num_score": 2,
-      "metadata": "{\"wpm\": 39.54736842105263, \"level\": 19, \"accuracy\": 0.9590562109646079, \"elapsedMs\": 428441.1000000003, \"startedAtMs\": 1778386803401.9}",
-      "create_time": "2026-05-09T20:22:44Z",
-      "update_time": "2026-05-10T04:27:13Z",
-      "steam_id": "76561199522703048",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
+      "num_score": 1,
+      "metadata": "{\"wpm\": 40.70610389610388, \"level\": 26, \"accuracy\": 0.9411532385466035, \"elapsedMs\": 711225.2000000001, \"startedAtMs\": 1779189376235.8}",
+      "create_time": "2026-05-19T11:28:06Z",
+      "update_time": "2026-05-19T11:28:06Z",
+      "steam_id": "76561198216417331",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/87f2a0eec26c94c1d37d65e54d9ddfa2fa232359_medium.jpg"
     }
   ]
 }
