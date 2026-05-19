@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-05-19T00:20:07Z",
+  "fetched_at": "2026-05-19T02:30:07Z",
   "records": [
     {
       "rank": 1,
+      "username": "Killua",
+      "owner_id": "f86cb583-cc69-4e68-9590-ae42c76a63bb",
+      "score": 196199,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 84.82610687022898, \"level\": 34, \"accuracy\": 0.9726656990807934, \"elapsedMs\": 575556.3000000003, \"startedAtMs\": 1779156703092.7}",
+      "create_time": "2026-05-19T02:21:20Z",
+      "update_time": "2026-05-19T02:21:20Z",
+      "steam_id": "76561197974741810",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/e88f732d1dab38b606f32e05434a52e3ec787974_medium.jpg"
+    },
+    {
+      "rank": 2,
       "username": "FroggimusPrime",
       "owner_id": "706f7bbe-72be-4055-b905-1dbe2d344d41",
       "score": 102373,
@@ -16,7 +29,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/165fa5c759b7e7972ad0631c6b90f2111d6c59c0_medium.jpg"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "username": "Boopi",
       "owner_id": "8cc35535-65a5-480c-aa9c-60b9c75a50aa",
       "score": 98457,
@@ -29,7 +42,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/9bf00dd74cbd3e539a11e2de1783f621c6d6583c_medium.jpg"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "username": "Nu-Pham",
       "owner_id": "a410be73-99a9-49df-800d-f577cd886879",
       "score": 94866,
@@ -42,7 +55,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/a635c00e52456db0644ca0973a5060611b5f8924_medium.jpg"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "username": "J.Man",
       "owner_id": "7b87943f-e3d8-4a86-addd-96a5de68299e",
       "score": 9477,
