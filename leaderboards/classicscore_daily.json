@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-05-20T16:40:02Z",
+  "fetched_at": "2026-05-20T19:50:02Z",
   "records": [
     {
       "rank": 1,
+      "username": "Dakka",
+      "owner_id": "079fad18-371c-4dec-81c8-1c4e27b51b54",
+      "score": 34863,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 54.58172413793101, \"level\": 11, \"accuracy\": 0.9920318725099602, \"elapsedMs\": 121805.99999999999, \"startedAtMs\": 1779305959972}",
+      "create_time": "2026-05-20T19:41:24Z",
+      "update_time": "2026-05-20T19:41:24Z",
+      "steam_id": "76561198011844679",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/f0b658d7c9eb789733e55fcff7c245a00dbb177a_medium.jpg"
+    },
+    {
+      "rank": 2,
       "username": "null",
       "owner_id": "e297924c-c916-4d61-bf2e-65cc4dab70c6",
       "score": 19309,
