@@ -1,17 +1,17 @@
 {
   "leaderboard_id": "ClassicScoreLifetime",
-  "fetched_at": "2026-05-19T11:30:04Z",
+  "fetched_at": "2026-05-21T00:20:05Z",
   "records": [
     {
       "rank": 1,
       "username": "Sholee",
       "owner_id": "bc5c9d93-2359-42a5-bb81-618d97693d8c",
-      "score": 204499,
+      "score": 239276,
       "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 64.985, \"level\": 37, \"accuracy\": 0.9635652531906134, \"elapsedMs\": 937755.3999999997, \"startedAtMs\": 1778204647457.6}",
+      "num_score": 2,
+      "metadata": "{\"wpm\": 62.956583850931686, \"level\": 34, \"accuracy\": 0.9719413549039434, \"elapsedMs\": 732945.1, \"startedAtMs\": 1779321618938.9}",
       "create_time": "2026-05-08T01:59:46Z",
-      "update_time": "2026-05-08T01:59:46Z",
+      "update_time": "2026-05-21T00:12:33Z",
       "steam_id": "76561198039817211",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/9b732621e0f4605c0b05bcdf740ebf36cfca6b6e_medium.jpg"
     },

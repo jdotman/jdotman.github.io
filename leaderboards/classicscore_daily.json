@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-05-20T23:30:02Z",
+  "fetched_at": "2026-05-21T00:20:02Z",
   "records": [
     {
       "rank": 1,
+      "username": "Sholee",
+      "owner_id": "bc5c9d93-2359-42a5-bb81-618d97693d8c",
+      "score": 239276,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 62.956583850931686, \"level\": 34, \"accuracy\": 0.9719413549039434, \"elapsedMs\": 732945.1, \"startedAtMs\": 1779321618938.9}",
+      "create_time": "2026-05-21T00:12:33Z",
+      "update_time": "2026-05-21T00:12:33Z",
+      "steam_id": "76561198039817211",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/9b732621e0f4605c0b05bcdf740ebf36cfca6b6e_medium.jpg"
+    },
+    {
+      "rank": 2,
       "username": "Dakka",
       "owner_id": "079fad18-371c-4dec-81c8-1c4e27b51b54",
       "score": 34863,
@@ -16,7 +29,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/f0b658d7c9eb789733e55fcff7c245a00dbb177a_medium.jpg"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "username": "null",
       "owner_id": "e297924c-c916-4d61-bf2e-65cc4dab70c6",
       "score": 19309,
@@ -29,7 +42,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/fa5b3199a42e14601a72d795005d528826cadf0c_medium.jpg"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "username": "manedwolfcaboose",
       "owner_id": "2b2c6a5a-0253-4c6e-86e6-4e23686a4631",
       "score": 1363,

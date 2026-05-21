@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-05-20T23:30:08Z",
+  "fetched_at": "2026-05-21T00:20:04Z",
   "records": [
     {
       "rank": 1,
+      "username": "Sholee",
+      "owner_id": "bc5c9d93-2359-42a5-bb81-618d97693d8c",
+      "score": 239276,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 62.956583850931686, \"level\": 34, \"accuracy\": 0.9719413549039434, \"elapsedMs\": 732945.1, \"startedAtMs\": 1779321618938.9}",
+      "create_time": "2026-05-21T00:12:33Z",
+      "update_time": "2026-05-21T00:12:33Z",
+      "steam_id": "76561198039817211",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/9b732621e0f4605c0b05bcdf740ebf36cfca6b6e_medium.jpg"
+    },
+    {
+      "rank": 2,
       "username": "Killua",
       "owner_id": "f86cb583-cc69-4e68-9590-ae42c76a63bb",
       "score": 196199,
@@ -16,7 +29,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/e88f732d1dab38b606f32e05434a52e3ec787974_medium.jpg"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "username": "FroggimusPrime",
       "owner_id": "706f7bbe-72be-4055-b905-1dbe2d344d41",
       "score": 117847,
@@ -29,7 +42,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/165fa5c759b7e7972ad0631c6b90f2111d6c59c0_medium.jpg"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "username": "Boopi",
       "owner_id": "8cc35535-65a5-480c-aa9c-60b9c75a50aa",
       "score": 98457,
@@ -42,7 +55,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/9bf00dd74cbd3e539a11e2de1783f621c6d6583c_medium.jpg"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "username": "Nu-Pham",
       "owner_id": "a410be73-99a9-49df-800d-f577cd886879",
       "score": 94866,
@@ -55,7 +68,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/a635c00e52456db0644ca0973a5060611b5f8924_medium.jpg"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "username": "Cloudy",
       "owner_id": "016e0a90-31ac-4a0a-81f8-b80139312dca",
       "score": 86316,
@@ -68,7 +81,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/d119ee8ae3a053840ffe91d94c68a5bd916d45ab_medium.jpg"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "username": "StriveFPS",
       "owner_id": "ad7f5d9e-9428-4dd1-a9ba-7933324f688f",
       "score": 51821,
@@ -81,7 +94,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/87f2a0eec26c94c1d37d65e54d9ddfa2fa232359_medium.jpg"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "username": "Dakka",
       "owner_id": "079fad18-371c-4dec-81c8-1c4e27b51b54",
       "score": 34863,
@@ -94,7 +107,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/f0b658d7c9eb789733e55fcff7c245a00dbb177a_medium.jpg"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "username": "null",
       "owner_id": "e297924c-c916-4d61-bf2e-65cc4dab70c6",
       "score": 19309,
@@ -107,7 +120,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/fa5b3199a42e14601a72d795005d528826cadf0c_medium.jpg"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "username": "J.Man",
       "owner_id": "7b87943f-e3d8-4a86-addd-96a5de68299e",
       "score": 9477,
@@ -118,19 +131,6 @@
       "update_time": "2026-05-18T16:14:42Z",
       "steam_id": "76561197976856083",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/0ec566e853a68fd7605cd18cb5d30ce332960596_medium.jpg"
-    },
-    {
-      "rank": 10,
-      "username": "manedwolfcaboose",
-      "owner_id": "2b2c6a5a-0253-4c6e-86e6-4e23686a4631",
-      "score": 1363,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 66.4075, \"level\": 4, \"accuracy\": 0.9436619718309859, \"elapsedMs\": 14008.899999999907, \"startedAtMs\": 1779319508660.1}",
-      "create_time": "2026-05-20T23:25:23Z",
-      "update_time": "2026-05-20T23:25:23Z",
-      "steam_id": "76561199633027428",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/85ee384bec86399cc79728cbde046516fa704b23_medium.jpg"
     }
   ]
 }
