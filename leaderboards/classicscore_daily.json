@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-05-22T00:40:01Z",
+  "fetched_at": "2026-05-22T01:20:07Z",
   "records": [
     {
       "rank": 1,
@@ -14,6 +14,19 @@
       "update_time": "2026-05-22T00:35:06Z",
       "steam_id": "76561197976856083",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/0ec566e853a68fd7605cd18cb5d30ce332960596_medium.jpg"
+    },
+    {
+      "rank": 2,
+      "username": "manedwolfcaboose",
+      "owner_id": "2b2c6a5a-0253-4c6e-86e6-4e23686a4631",
+      "score": 15405,
+      "subscore": null,
+      "num_score": 2,
+      "metadata": "{\"wpm\": 44.59952380952382, \"level\": 9, \"accuracy\": 0.969187675070028, \"elapsedMs\": 90931.80000000002, \"startedAtMs\": 1779412537856.2}",
+      "create_time": "2026-05-22T01:15:09Z",
+      "update_time": "2026-05-22T01:17:09Z",
+      "steam_id": "76561199633027428",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/85ee384bec86399cc79728cbde046516fa704b23_medium.jpg"
     }
   ]
 }
