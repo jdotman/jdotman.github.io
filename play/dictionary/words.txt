@@ -603,7 +603,6 @@ itch
 item
 jail
 jump
-june
 keen
 kept
 king
@@ -2187,7 +2186,6 @@ ambient
 amplify
 analyst
 anatomy
-angeles
 animate
 anxious
 anybody
@@ -3444,7 +3442,6 @@ within
 based
 security
 county
-american
 computer
 following
 access
@@ -3548,18 +3545,11 @@ according
 opportunities
 actually
 starting
-english
 united
 teen
 official
-america
 blog
 comment
-january
-december
-october
-november
-september
 categories
 advanced
 status

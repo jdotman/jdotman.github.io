@@ -1,32 +1,28 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-05-22T14:20:02Z",
+  "fetched_at": "2026-05-08T02:18:35Z",
   "records": [
     {
       "rank": 1,
-      "username": "null",
-      "owner_id": "e297924c-c916-4d61-bf2e-65cc4dab70c6",
-      "score": 14341,
+      "username": "Sholee",
+      "owner_id": "bc5c9d93-2359-42a5-bb81-618d97693d8c",
+      "score": 204499,
       "subscore": null,
       "num_score": 1,
-      "metadata": "{\"wpm\": 27.470923076923075, \"level\": 13, \"accuracy\": 0.9205298013245033, \"elapsedMs\": 298315.4, \"startedAtMs\": 1779447060891.6}",
-      "create_time": "2026-05-22T10:56:01Z",
-      "update_time": "2026-05-22T10:56:01Z",
-      "steam_id": "76561197971081989",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/fa5b3199a42e14601a72d795005d528826cadf0c_medium.jpg"
+      "metadata": "{\"wpm\": 64.985, \"level\": 37, \"accuracy\": 0.9635652531906134, \"elapsedMs\": 937755.3999999997, \"startedAtMs\": 1778204647457.6}",
+      "create_time": "2026-05-08T01:59:46Z",
+      "update_time": "2026-05-08T01:59:46Z"
     },
     {
       "rank": 2,
       "username": "J.Man",
-      "owner_id": "734152d5-43ea-4762-ac7c-6f91bcd7d9ab",
-      "score": 11802,
+      "owner_id": "7b87943f-e3d8-4a86-addd-96a5de68299e",
+      "score": 2293,
       "subscore": null,
       "num_score": 1,
-      "metadata": "{\"wpm\": 33.857826086956514, \"level\": 6, \"accuracy\": 0.994475138121547, \"elapsedMs\": 98835.30000000028, \"startedAtMs\": 1779459321139.7}",
-      "create_time": "2026-05-22T14:17:01Z",
-      "update_time": "2026-05-22T14:17:01Z",
-      "steam_id": "76561197976856083",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/0ec566e853a68fd7605cd18cb5d30ce332960596_medium.jpg"
+      "metadata": "{\"wpm\": 95.33333333333333, \"level\": 4, \"accuracy\": 0.9545454545454546, \"elapsedMs\": 13241, \"startedAtMs\": 1778169505590}",
+      "create_time": "2026-05-07T15:58:39Z",
+      "update_time": "2026-05-07T15:58:39Z"
     }
   ]
 }

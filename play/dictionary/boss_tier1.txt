@@ -4,14 +4,14 @@ A shadow falls upon the kingdom as the old beast stirs at last.
 The warlock casts a bolt of shadow fire at your rusted shield.
 Your silver blade gleams in the torchlight as the beast charges.
 The orc chieftain swings his mighty axe at your exposed flank.
-The stone troll lumbers forward and the cracked floor gives way.
+Stone cracks and gives way as the heavy troll lumbers forward.
 Cold wind howls through the dark tomb as the lich stirs in rage.
 The dread wolf bares its fangs and lunges from the dark shadows.
 The black knight raises his cursed blade and charges across the hall.
 A swarm of bats pours from the deep cavern toward your pale face.
 The bandit king grins and hurls a flurry of sharp daggers at you.
 Your shield catches the strike and the impact rattles your bones.
-The frost giant swings a heavy ice club toward your armored chest.
+Frost and fury fill the air as the giant swings his ice club.
 A pack of wolves circles the bleeding knight in the starlit glade.
 The coiled serpent hisses loudly and lunges with venomed fangs.
 The shadow witch casts a creeping darkness upon your weary eyes.
@@ -24,36 +24,77 @@ The hooded seer raises a gnarled staff and speaks forbidden words.
 The cave ogre swings a tree trunk at your head with terrible force.
 Your boots slip on the wet stones as a river of blood runs past.
 The winged horror banks and dives at you with rust tipped talons.
-The giant spider crawls from the hole and rears on long spindly legs.
+Long spindly legs unfold from the hole as the giant spider rises.
 The demon steward bows and hurls burning coins at your startled face.
 A wave of bone dust sweeps the hall as the tomb lord rises slowly.
-The cursed mirror shows your face but the reflection grins at you.
+Cursed glass holds your reflection but the face inside grins back.
 The dark priestess lifts a chalice of thick steaming black blood.
 Your banner catches fire as the rune bearer hurls his torch at you.
 The hungry ghoul scrabbles from the grave dirt with yellow fingers.
 A cold mist rises from the marsh and takes the shape of a reaper.
-The stone sentinel grinds to life and swings its great axe at you.
+Stone grinds to life as the old sentinel lifts its great axe.
 The fen hag cackles and tosses poisoned needles at your weary eyes.
 A great black boar charges out of the brush with ancient bone tusks.
 The thief lord draws twin knives and circles the lantern slowly.
 Your old helm rings with the blow as the brute swings down again.
 The banshee shrieks and the ice on the frozen river shatters loudly.
 A horned imp scampers up the pillar and spits small flames at you.
-The bronze golem steps forward with steam hissing from its joints.
+Steam hisses from bronze joints as the golem steps toward you.
 Your shield splinters as the frost wolf slams into it hard.
 The pale necromancer raises his staff and the tomb doors slam open.
 A raven settles on the skull pile and watches you with red eyes.
 The marsh drake rises from the mire with teeth like hunting knives.
 Your ankle turns on a stone as the creature drags closer to you.
-The spectral queen drifts across the hall and her crown glows bright.
+Spectral light fills the dark hall as the dead queen drifts near.
 The tribal warrior howls and charges with a spear tipped in pitch.
 A rotting corpse lurches from the niche and reaches for your weapon.
 The scaled drake spreads its wings and hot steam fills the air.
 Your torch goes out in the sudden wind as the hidden beast closes in.
 The grave robber drops his lantern and draws a curved blade of steel.
 A giant rat lord squeaks in fury and charges across the damp stones.
-The headsman hefts a great iron axe and stalks toward your neck.
+The warden hefts a great iron mace and stalks toward your shield.
 Your gauntlet splits as the golem slams a fist into your guard.
 The cultist hurls a vial of oil that bursts in green flame.
 An armored beetle scuttles from the wall and snaps sharp claws.
 The skeleton warlord lifts a crown of bone and sets it upon his skull.
+Dim lanterns flicker along the crumbling walls of the lower keep.
+Thick moss covers the stone steps leading down into the dark pit.
+Foul water drips from the ceiling and pools on the broken floor.
+Rusted chains hang from the ceiling of the cold stone dungeon.
+Pale mushrooms grow in clusters along the damp cavern walls.
+Distant drums echo deep within the frozen mountain fortress.
+Cracked skulls sit in rows along the alcoves of the bone hall.
+Flickering torches cast long shadows across the blood stained floor.
+Old banners hang in tatters from the rafters of the ruined chapel.
+Still water fills the flooded crypt and reflects a pale green glow.
+Broken columns line the path to the dark throne at the far end.
+Dried blood marks the stone where the last warrior made his stand.
+Frost covers the iron bars of the cell at the end of the corridor.
+Torn maps and shattered glass litter the desk of the fallen lord.
+Pale light spills through a crack in the sealed chamber door.
+Barred windows cast thin lines of moonlight across the cold cell.
+Charred remains of a campfire sit in the center of the dark cave.
+Heavy silence hangs over the marsh as the fog rolls in thick.
+Shattered potions leak across the stone shelf of the dark pantry.
+Loose stones crunch underfoot in the long abandoned mining shaft.
+Water seeps through cracks in the wall and pools on the cold floor.
+Bone dust coats every surface in the sealed inner crypt below.
+Black mold creeps along the ceiling of the flooded passage ahead.
+Rats scatter into the dark as torchlight sweeps the long corridor.
+Grave dirt spills from a broken tomb and trails across the floor.
+Deep claw marks scar the walls of the narrow winding passage.
+Smoke curls from the embers of a fire pit near the cave mouth.
+Rotten beams sag overhead in the corridor near the flooded cellar.
+Dark water fills the lower tunnels and hides the floor from sight.
+Fallen stones block most of the doorway to the inner sanctum.
+Burnt offerings sit on a crude stone altar stained dark with blood.
+Iron hooks dangle from the rafters of the old abandoned foundry.
+Copper stains run down the walls where ancient pipes have burst.
+Dust motes drift through shafts of light from the cracked ceiling.
+Cold air rushes up from the stairwell cut deep into the bedrock.
+Wet footprints trail across the flagstones and vanish at the wall.
+Broken glass crunches underfoot near the shattered potion shelves.
+Stale wind moans through the crack beneath the sealed iron door.
+Dried moss and old bone fragments litter the floor of the den.
+Soot stains the ceiling above the cold forge in the lower hall.
+Damp earth shows through gaps in the crumbling corridor walls.

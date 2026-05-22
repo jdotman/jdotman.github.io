@@ -1,6 +1,6 @@
 The wicked sorcerer sends a bolt of dark fire hurtling straight at your chest.
 You draw your blade and step through the old iron gate into the gloom beyond.
-The ground cracks open and a massive stone golem rises from the rubble below.
+Cracks split the ground as a massive stone golem rises from the rubble below.
 A cold wind howls down the corridor carrying the stench of death on its breath.
 The dragon queen unfurls her massive wings and draws a deep roaring breath of flame.
 Your boots crunch on broken glass as the cultist raises his gleaming curved dagger.
@@ -10,11 +10,11 @@ Bones crackle underfoot as the lich steps down from his black obsidian throne.
 The mire witch lifts her cauldron and pours hissing green venom across the floor.
 A pair of giant bats swoop down from the rafters screeching toward your helm.
 The warlock points a bony finger and the candles on the old iron sconces snuff out.
-The frost lord raises his jagged scepter and ice spreads across the flagstones.
+Ice spreads across the flagstones as the frost lord raises his jagged scepter.
 A tide of skeletal rats pours from the cracks in the crumbling wooden doorway.
 The red minotaur paws the sand and lowers its horns with a deep rumbling growl.
 Your shield clangs against his club and the blow rattles every bone in your arm.
-The cursed armor begins to clatter as if unseen hands are dragging it toward you.
+Rusted plate armor clatters to life and drags itself across the floor toward you.
 A thin serpent glides from the shadows with eyes glowing like hot amber coals.
 The battle priest spreads his arms and chants a hymn older than the mountain walls.
 Your blade strikes his helm and sparks fly but the mask does not crack or bend.
@@ -38,7 +38,7 @@ The hill ogre lifts a boulder above his head and hurls it toward your hiding spo
 A pale ghost drifts through the wall and points a slender finger at your beating heart.
 The ice maiden steps from the frozen pool and trails a gown of glittering frost.
 Your foot slips on moss as the swamp hag casts a hex of black smoke at your face.
-The bone drake snaps its jaws and sends shards of rotten yellow teeth across the floor.
+Rotten teeth scatter across the stone floor as the bone drake snaps its jaws at you.
 A bandit scout whistles from the rooftop and three more figures drop into the alley.
 The dark duchess lifts her fan and the candles in the ballroom gutter and go dark.
 Your lungs heave as the giant centipede skitters across the ceiling above your head.
@@ -56,3 +56,45 @@ The dragon priest draws a glyph in the air and red lightning crackles between fi
 Your sword rings against his scaled hide and the blade leaves barely a white scratch.
 The marsh king raises his staff of bone and the water around your boots turns to ice.
 The shadow puppeteer tugs a thread and the statues along the walls begin to march.
+Stone walls close in tight as the corridor narrows toward the sealed iron gate ahead.
+Thin frost covers the flagstones and your breath hangs white in the bitter cold air.
+Rusted weapons hang from the old barracks wall and the bunks have rotted to splinters.
+Deep shadows pool beneath the vaulted ceiling where the torches cannot reach at all.
+Moss covered stairs descend into the dark and the sound of dripping water grows louder.
+Broken cages line both sides of the corridor and the iron bars are bent outward.
+Collapsed stone fills half the chamber and dust still hangs in the stale air above.
+Faint scratching echoes from behind the sealed wall and then falls silent once again.
+Dark water flows beneath the iron grate and carries pale shapes downstream in the gloom.
+Burnt timbers lean against the far wall where the old wooden staircase once stood.
+Empty sconces line the hall and the walls still bear the soot of torches long gone out.
+Mold covers the leather bindings of old books stacked on the crumbling stone shelf.
+Stale air pours from the crack in the wall and carries a stench of rot and old iron.
+Wet stone gleams in the torchlight and the floor slopes downward toward the flooded vault.
+Spider silk bridges the gap between two pillars and catches the light like silver thread.
+Chalk marks on the wall trace a crude map of tunnels scratched by desperate fingers.
+Roots push through the ceiling and hang like grasping fingers reaching for the damp floor.
+Dust clouds rise from the floor with every step and hang in the still air for long moments.
+Fallen banners cover the floor and faded crests of dead houses stare up at the ceiling.
+Bones are scattered across the flagstones and something has gnawed each one down to nothing.
+Old blood has dried in streaks along the corridor walls from a fight that ended long ago.
+Scratched tally marks fill every inch of the cell wall and the count runs into thousands.
+Torch sconces cast weak orange light across the vaulted ceiling of the deep entrance hall.
+Iron chains dangle from an overhead beam and the hooks at their ends still hold dark stains.
+Broken furniture lies in a heap near the door as if someone built a barricade in haste.
+Cold wind blows through a gap in the outer wall and scatters dry leaves across the floor.
+Faded murals on the walls depict a battle fought beneath a sky of burning falling stars.
+Deep grooves in the stone floor lead from the main hall toward the sealed door at the end.
+Piles of ash sit where wooden furniture once stood before the fire swept through the hall.
+Rusted armor stands in a row against the wall and each suit bears the mark of a lost lord.
+Damp cloth banners hang from the rafters and drip onto the stone below in a slow rhythm.
+Worn stone benches line the walls of the antechamber and claw marks scar every surface.
+Empty weapon racks stretch along the training yard and only one rusted blade still remains.
+Pale lichen covers the ceiling in patches and gives the stone a faint cool greenish glow.
+Cracked tiles cover the floor of the old bath and the pool has filled with dark rainwater.
+Soot covers the walls of the chimney shaft and handholds are carved into the inner stone.
+Jagged cracks run through the ceiling and small stones shift each time the wind howls.
+Old rope bridges hang in tatters over the pit and only one still reaches the other side.
+Dried flowers lie on a stone slab in the crypt and someone placed them there not long ago.
+Loose gravel slides beneath your boots as the path winds down into the lower dark tunnels.
+Faint light glows from deep in the passage ahead and casts long shadows on the damp walls.
+Worn steps lead down through an arch of carved bone into the deeper chambers far below.
