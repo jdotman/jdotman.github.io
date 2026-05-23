@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-05-23T18:40:02Z",
+  "fetched_at": "2026-05-23T18:50:02Z",
   "records": [
     {
       "rank": 1,
@@ -19,12 +19,12 @@
       "rank": 2,
       "username": "mkbuwf",
       "owner_id": "fcfaf76c-0db0-411e-b130-30305a198553",
-      "score": 9400,
+      "score": 9994,
       "subscore": null,
-      "num_score": 2,
-      "metadata": "{\"wpm\": 19.970689655172418, \"level\": 10, \"accuracy\": 0.9002123142250531, \"elapsedMs\": 265534.4999999999, \"startedAtMs\": 1779561112087.5}",
+      "num_score": 3,
+      "metadata": "{\"wpm\": 19.806500000000003, \"level\": 8, \"accuracy\": 0.9361022364217252, \"elapsedMs\": 174623.29999999958, \"startedAtMs\": 1779561473645.7}",
       "create_time": "2026-05-23T18:30:21Z",
-      "update_time": "2026-05-23T18:36:18Z",
+      "update_time": "2026-05-23T18:40:48Z",
       "steam_id": "76561198703409304",
       "avatar_medium": null
     }
