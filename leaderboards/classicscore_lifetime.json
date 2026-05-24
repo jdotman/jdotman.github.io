@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreLifetime",
-  "fetched_at": "2026-05-24T21:40:13Z",
+  "fetched_at": "2026-05-24T22:10:08Z",
   "records": [
     {
       "rank": 1,
@@ -30,6 +30,19 @@
     },
     {
       "rank": 3,
+      "username": "takuya",
+      "owner_id": "23a806fc-65c3-425c-8637-2e3dc45466a2",
+      "score": 155719,
+      "subscore": null,
+      "num_score": 2,
+      "metadata": "{\"wpm\": 89.60937499999999, \"level\": 36, \"accuracy\": 0.9485263594852636, \"elapsedMs\": 621638.3999999999, \"startedAtMs\": 1779659537513.6}",
+      "create_time": "2026-05-24T21:38:07Z",
+      "update_time": "2026-05-24T22:02:39Z",
+      "steam_id": "76561197993345111",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/0277bf0f88c3cd7bd22aecb0c6816fd3f62f33f5_medium.jpg"
+    },
+    {
+      "rank": 4,
       "username": "HeyBaylee",
       "owner_id": "6b0190c2-2d1d-4f5e-b726-1e3de7a28f3a",
       "score": 152263,
@@ -40,19 +53,6 @@
       "update_time": "2026-05-15T13:21:16Z",
       "steam_id": "76561199121820839",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/cff11a8a03adfec7d1a981aab5dc8731993b389d_medium.jpg"
-    },
-    {
-      "rank": 4,
-      "username": "takuya",
-      "owner_id": "23a806fc-65c3-425c-8637-2e3dc45466a2",
-      "score": 135689,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 88.2591428571428, \"level\": 36, \"accuracy\": 0.9382239382239382, \"elapsedMs\": 626319.2000000002, \"startedAtMs\": 1779658061602.8}",
-      "create_time": "2026-05-24T21:38:07Z",
-      "update_time": "2026-05-24T21:38:07Z",
-      "steam_id": "76561197993345111",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/0277bf0f88c3cd7bd22aecb0c6816fd3f62f33f5_medium.jpg"
     },
     {
       "rank": 5,
