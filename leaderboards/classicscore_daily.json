@@ -1,17 +1,17 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-05-24T22:10:01Z",
+  "fetched_at": "2026-05-24T22:50:02Z",
   "records": [
     {
       "rank": 1,
       "username": "takuya",
       "owner_id": "23a806fc-65c3-425c-8637-2e3dc45466a2",
-      "score": 155719,
+      "score": 220454,
       "subscore": null,
-      "num_score": 2,
-      "metadata": "{\"wpm\": 89.60937499999999, \"level\": 36, \"accuracy\": 0.9485263594852636, \"elapsedMs\": 621638.3999999999, \"startedAtMs\": 1779659537513.6}",
+      "num_score": 3,
+      "metadata": "{\"wpm\": 82.63597826086959, \"level\": 41, \"accuracy\": 0.9589787234042553, \"elapsedMs\": 829235.8000000007, \"startedAtMs\": 1779662136877.2}",
       "create_time": "2026-05-24T21:38:07Z",
-      "update_time": "2026-05-24T22:02:39Z",
+      "update_time": "2026-05-24T22:49:26Z",
       "steam_id": "76561197993345111",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/0277bf0f88c3cd7bd22aecb0c6816fd3f62f33f5_medium.jpg"
     }

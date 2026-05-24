@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-05-24T22:10:07Z",
+  "fetched_at": "2026-05-24T22:50:09Z",
   "records": [
     {
       "rank": 1,
@@ -17,6 +17,19 @@
     },
     {
       "rank": 2,
+      "username": "takuya",
+      "owner_id": "23a806fc-65c3-425c-8637-2e3dc45466a2",
+      "score": 220454,
+      "subscore": null,
+      "num_score": 3,
+      "metadata": "{\"wpm\": 82.63597826086959, \"level\": 41, \"accuracy\": 0.9589787234042553, \"elapsedMs\": 829235.8000000007, \"startedAtMs\": 1779662136877.2}",
+      "create_time": "2026-05-24T21:38:07Z",
+      "update_time": "2026-05-24T22:49:26Z",
+      "steam_id": "76561197993345111",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/0277bf0f88c3cd7bd22aecb0c6816fd3f62f33f5_medium.jpg"
+    },
+    {
+      "rank": 3,
       "username": "Killua",
       "owner_id": "f86cb583-cc69-4e68-9590-ae42c76a63bb",
       "score": 196199,
@@ -27,19 +40,6 @@
       "update_time": "2026-05-19T02:21:20Z",
       "steam_id": "76561197974741810",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/e88f732d1dab38b606f32e05434a52e3ec787974_medium.jpg"
-    },
-    {
-      "rank": 3,
-      "username": "takuya",
-      "owner_id": "23a806fc-65c3-425c-8637-2e3dc45466a2",
-      "score": 155719,
-      "subscore": null,
-      "num_score": 2,
-      "metadata": "{\"wpm\": 89.60937499999999, \"level\": 36, \"accuracy\": 0.9485263594852636, \"elapsedMs\": 621638.3999999999, \"startedAtMs\": 1779659537513.6}",
-      "create_time": "2026-05-24T21:38:07Z",
-      "update_time": "2026-05-24T22:02:39Z",
-      "steam_id": "76561197993345111",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/0277bf0f88c3cd7bd22aecb0c6816fd3f62f33f5_medium.jpg"
     },
     {
       "rank": 4,
