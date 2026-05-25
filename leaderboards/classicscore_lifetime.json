@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreLifetime",
-  "fetched_at": "2026-05-24T22:50:09Z",
+  "fetched_at": "2026-05-25T07:20:04Z",
   "records": [
     {
       "rank": 1,
@@ -82,6 +82,19 @@
     },
     {
       "rank": 7,
+      "username": "Caspid",
+      "owner_id": "36cf184c-3487-4e7a-962d-da2e10ac376f",
+      "score": 100864,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 85.16405660377362, \"level\": 29, \"accuracy\": 0.935908691834943, \"elapsedMs\": 481496.49999999994, \"startedAtMs\": 1779692927264.5}",
+      "create_time": "2026-05-25T07:16:52Z",
+      "update_time": "2026-05-25T07:16:52Z",
+      "steam_id": "76561197993244425",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/65816e3296353f6191e5bd7f11d801916c9d0de6_medium.jpg"
+    },
+    {
+      "rank": 8,
       "username": "Boopi",
       "owner_id": "8cc35535-65a5-480c-aa9c-60b9c75a50aa",
       "score": 98457,
@@ -94,7 +107,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/9bf00dd74cbd3e539a11e2de1783f621c6d6583c_medium.jpg"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "username": "Nu-Pham",
       "owner_id": "a410be73-99a9-49df-800d-f577cd886879",
       "score": 94866,
@@ -107,7 +120,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/a635c00e52456db0644ca0973a5060611b5f8924_medium.jpg"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "username": "Cloudy",
       "owner_id": "016e0a90-31ac-4a0a-81f8-b80139312dca",
       "score": 86316,
@@ -118,19 +131,6 @@
       "update_time": "2026-05-19T03:04:31Z",
       "steam_id": "76561198420552392",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/d119ee8ae3a053840ffe91d94c68a5bd916d45ab_medium.jpg"
-    },
-    {
-      "rank": 10,
-      "username": "StriveFPS",
-      "owner_id": "ad7f5d9e-9428-4dd1-a9ba-7933324f688f",
-      "score": 51821,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 40.70610389610388, \"level\": 26, \"accuracy\": 0.9411532385466035, \"elapsedMs\": 711225.2000000001, \"startedAtMs\": 1779189376235.8}",
-      "create_time": "2026-05-19T11:28:06Z",
-      "update_time": "2026-05-19T11:28:06Z",
-      "steam_id": "76561198216417331",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/87f2a0eec26c94c1d37d65e54d9ddfa2fa232359_medium.jpg"
     }
   ]
 }
