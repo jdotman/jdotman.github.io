@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-05-25T09:00:01Z",
+  "fetched_at": "2026-05-25T09:10:02Z",
   "records": [
     {
       "rank": 1,
+      "username": "Umbra",
+      "owner_id": "b871a599-d51e-4b97-9aa7-d6f57e0ea042",
+      "score": 71411,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 61.763083333333284, \"level\": 27, \"accuracy\": 0.9530976548827441, \"elapsedMs\": 565495.900000003, \"startedAtMs\": 1779699466335.1}",
+      "create_time": "2026-05-25T09:07:14Z",
+      "update_time": "2026-05-25T09:07:14Z",
+      "steam_id": "76561198989286049",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/f3629e432f0476fa2ddca3f204dbb57277538b7e_medium.jpg"
+    },
+    {
+      "rank": 2,
       "username": "Draven",
       "owner_id": "d52092b3-667c-486c-9ffc-be9d1e45a558",
       "score": 48950,
