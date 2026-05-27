@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreLifetime",
-  "fetched_at": "2026-05-25T07:20:04Z",
+  "fetched_at": "2026-05-27T01:50:10Z",
   "records": [
     {
       "rank": 1,
@@ -121,16 +121,16 @@
     },
     {
       "rank": 10,
-      "username": "Cloudy",
-      "owner_id": "016e0a90-31ac-4a0a-81f8-b80139312dca",
-      "score": 86316,
+      "username": "LadyoftheDevils",
+      "owner_id": "1ec157ec-c6f1-497f-be8f-a8359ba49363",
+      "score": 86344,
       "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 59.32141791044774, \"level\": 28, \"accuracy\": 0.9625827814569536, \"elapsedMs\": 600820.0000000002, \"startedAtMs\": 1779159268754}",
-      "create_time": "2026-05-19T03:04:31Z",
-      "update_time": "2026-05-19T03:04:31Z",
-      "steam_id": "76561198420552392",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/d119ee8ae3a053840ffe91d94c68a5bd916d45ab_medium.jpg"
+      "num_score": 4,
+      "metadata": "{\"wpm\": 45.41552631578946, \"level\": 27, \"accuracy\": 0.9779850746268657, \"elapsedMs\": 701167.0000000951, \"startedAtMs\": 1779845781062}",
+      "create_time": "2026-05-26T11:06:56Z",
+      "update_time": "2026-05-27T01:48:02Z",
+      "steam_id": "76561198122956820",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/ff14a9e3e09f10dee5aa8f996c5f28001251cbb2_medium.jpg"
     }
   ]
 }
