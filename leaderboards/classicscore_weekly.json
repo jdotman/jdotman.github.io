@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-05-29T00:30:02Z",
+  "fetched_at": "2026-05-29T02:30:03Z",
   "records": [
     {
       "rank": 1,
@@ -43,6 +43,19 @@
     },
     {
       "rank": 4,
+      "username": "Sholee",
+      "owner_id": "bc5c9d93-2359-42a5-bb81-618d97693d8c",
+      "score": 42936,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 55.11847826086957, \"level\": 16, \"accuracy\": 0.9613375130616509, \"elapsedMs\": 193506.39999961856, \"startedAtMs\": 1780021285000.6}",
+      "create_time": "2026-05-29T02:24:40Z",
+      "update_time": "2026-05-29T02:24:40Z",
+      "steam_id": "76561198039817211",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/9b732621e0f4605c0b05bcdf740ebf36cfca6b6e_medium.jpg"
+    },
+    {
+      "rank": 5,
       "username": "J.Man",
       "owner_id": "734152d5-43ea-4762-ac7c-6f91bcd7d9ab",
       "score": 26314,
@@ -55,7 +68,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/0ec566e853a68fd7605cd18cb5d30ce332960596_medium.jpg"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "username": "mkbuwf",
       "owner_id": "fcfaf76c-0db0-411e-b130-30305a198553",
       "score": 18167,
