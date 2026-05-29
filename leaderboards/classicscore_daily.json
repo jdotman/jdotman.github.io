@@ -1,17 +1,17 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-05-29T12:30:01Z",
+  "fetched_at": "2026-05-29T16:00:04Z",
   "records": [
     {
       "rank": 1,
       "username": "J.Man",
       "owner_id": "734152d5-43ea-4762-ac7c-6f91bcd7d9ab",
-      "score": 11248,
+      "score": 29096,
       "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 88.43000000000002, \"level\": 6, \"accuracy\": 0.975609756097561, \"elapsedMs\": 20944.400000000052, \"startedAtMs\": 1780057237169.6}",
+      "num_score": 2,
+      "metadata": "{\"wpm\": 90.24333333333334, \"level\": 9, \"accuracy\": 0.991304347826087, \"elapsedMs\": 48959.09999999983, \"startedAtMs\": 1780069835990.9}",
       "create_time": "2026-05-29T12:20:58Z",
-      "update_time": "2026-05-29T12:20:58Z",
+      "update_time": "2026-05-29T15:51:25Z",
       "steam_id": "76561197976856083",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/0ec566e853a68fd7605cd18cb5d30ce332960596_medium.jpg"
     }
