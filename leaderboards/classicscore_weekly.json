@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-05-29T19:10:08Z",
+  "fetched_at": "2026-05-29T19:30:02Z",
   "records": [
     {
       "rank": 1,
@@ -69,6 +69,19 @@
     },
     {
       "rank": 6,
+      "username": "DepravedSoul",
+      "owner_id": "286e7f1e-d9c4-44b3-9584-45c05bc8712b",
+      "score": 23073,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 38.56542168674697, \"level\": 16, \"accuracy\": 0.8915022761760243, \"elapsedMs\": 368077.30000000005, \"startedAtMs\": 1780082448505.7}",
+      "create_time": "2026-05-29T19:26:56Z",
+      "update_time": "2026-05-29T19:26:56Z",
+      "steam_id": "76561198003182632",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/2cc316dd29124749527fc095f452c71218cf3a76_medium.jpg"
+    },
+    {
+      "rank": 7,
       "username": "mkbuwf",
       "owner_id": "fcfaf76c-0db0-411e-b130-30305a198553",
       "score": 18167,
