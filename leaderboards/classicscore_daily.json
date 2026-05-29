@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-05-28T16:50:27Z",
+  "fetched_at": "2026-05-29T00:30:02Z",
   "records": [
     {
       "rank": 1,
+      "username": "LadyoftheDevils",
+      "owner_id": "1ec157ec-c6f1-497f-be8f-a8359ba49363",
+      "score": 97653,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 49.85658227848099, \"level\": 28, \"accuracy\": 0.9704598858677409, \"elapsedMs\": 712106.7999999999, \"startedAtMs\": 1780013480720.2}",
+      "create_time": "2026-05-29T00:23:12Z",
+      "update_time": "2026-05-29T00:23:12Z",
+      "steam_id": "76561198122956820",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/ff14a9e3e09f10dee5aa8f996c5f28001251cbb2_medium.jpg"
+    },
+    {
+      "rank": 2,
       "username": "J.Man",
       "owner_id": "734152d5-43ea-4762-ac7c-6f91bcd7d9ab",
       "score": 26314,
