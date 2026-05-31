@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-05-30T23:00:07Z",
+  "fetched_at": "2026-05-31T02:40:03Z",
   "records": [
     {
       "rank": 1,
@@ -105,6 +105,19 @@
       "update_time": "2026-05-30T10:36:32Z",
       "steam_id": "76561199139828708",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
+    },
+    {
+      "rank": 9,
+      "username": "StriveFPS",
+      "owner_id": "ad7f5d9e-9428-4dd1-a9ba-7933324f688f",
+      "score": 6378,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 47.85833333333334, \"level\": 6, \"accuracy\": 0.9387755102040817, \"elapsedMs\": 49507.30000000075, \"startedAtMs\": 1780194587779.7}",
+      "create_time": "2026-05-31T02:30:26Z",
+      "update_time": "2026-05-31T02:30:26Z",
+      "steam_id": "76561198216417331",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/87f2a0eec26c94c1d37d65e54d9ddfa2fa232359_medium.jpg"
     }
   ]
 }
