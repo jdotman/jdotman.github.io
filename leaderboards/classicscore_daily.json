@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-06-04T01:30:02Z",
+  "fetched_at": "2026-06-04T01:40:01Z",
   "records": [
     {
       "rank": 1,
@@ -13,7 +13,7 @@
       "create_time": "2026-06-04T01:21:24Z",
       "update_time": "2026-06-04T01:21:24Z",
       "steam_id": "76561198216417331",
-      "avatar_medium": "https://avatars.akamai.steamstatic.com/87f2a0eec26c94c1d37d65e54d9ddfa2fa232359_medium.jpg"
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/87f2a0eec26c94c1d37d65e54d9ddfa2fa232359_medium.jpg"
     }
   ]
 }
