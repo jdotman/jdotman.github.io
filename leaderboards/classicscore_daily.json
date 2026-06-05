@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-06-04T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-06-05T04:20:01Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "CheckpointVibes",
+      "owner_id": "3659dcb6-c646-4c06-b04d-3632a0933e31",
+      "score": 41288,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 43.42115789473685, \"level\": 19, \"accuracy\": 0.9564118761844599, \"elapsedMs\": 441703.30000000016, \"startedAtMs\": 1780632508136.7}",
+      "create_time": "2026-06-05T04:15:52Z",
+      "update_time": "2026-06-05T04:15:52Z",
+      "steam_id": "76561198275840591",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/e80fe7a4a794c1c1e7af10706d9b664933f2de42_medium.jpg"
+    }
+  ]
 }
