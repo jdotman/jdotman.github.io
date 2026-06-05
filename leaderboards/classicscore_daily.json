@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-06-05T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-06-05T13:40:01Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "JerseyJoeWalcott",
+      "owner_id": "5871b3a9-81cf-4b8b-81c8-e7c01b1f222e",
+      "score": 48736,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 52.00276315789474, \"level\": 18, \"accuracy\": 0.9580559254327563, \"elapsedMs\": 407949.10000000003, \"startedAtMs\": 1780666110325.9}",
+      "create_time": "2026-06-05T13:35:26Z",
+      "update_time": "2026-06-05T13:35:26Z",
+      "steam_id": "76561198130221407",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
+    }
+  ]
 }

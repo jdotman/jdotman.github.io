@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-06-05T04:20:02Z",
+  "fetched_at": "2026-06-05T13:40:02Z",
   "records": [
     {
       "rank": 1,
@@ -30,6 +30,19 @@
     },
     {
       "rank": 3,
+      "username": "JerseyJoeWalcott",
+      "owner_id": "5871b3a9-81cf-4b8b-81c8-e7c01b1f222e",
+      "score": 48736,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 52.00276315789474, \"level\": 18, \"accuracy\": 0.9580559254327563, \"elapsedMs\": 407949.10000000003, \"startedAtMs\": 1780666110325.9}",
+      "create_time": "2026-06-05T13:35:26Z",
+      "update_time": "2026-06-05T13:35:26Z",
+      "steam_id": "76561198130221407",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
+    },
+    {
+      "rank": 4,
       "username": "CheckpointVibes",
       "owner_id": "3659dcb6-c646-4c06-b04d-3632a0933e31",
       "score": 41288,
@@ -42,7 +55,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/e80fe7a4a794c1c1e7af10706d9b664933f2de42_medium.jpg"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "username": "J.Man",
       "owner_id": "734152d5-43ea-4762-ac7c-6f91bcd7d9ab",
       "score": 14693,
