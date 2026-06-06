@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-06-06T15:30:03Z",
+  "fetched_at": "2026-06-06T15:50:02Z",
   "records": [
     {
       "rank": 1,
@@ -65,7 +65,7 @@
       "create_time": "2026-06-05T04:15:52Z",
       "update_time": "2026-06-05T04:15:52Z",
       "steam_id": "76561198275840591",
-      "avatar_medium": "https://avatars.akamai.steamstatic.com/f4f2fc58620a769dfcc51defda89ed5cb8fa7d75_medium.jpg"
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/f4f2fc58620a769dfcc51defda89ed5cb8fa7d75_medium.jpg"
     },
     {
       "rank": 6,
