@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-06-06T15:30:02Z",
+  "fetched_at": "2026-06-06T16:00:02Z",
   "records": [
     {
       "rank": 1,
@@ -14,6 +14,19 @@
       "update_time": "2026-06-06T15:26:45Z",
       "steam_id": "76561198216417331",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/87f2a0eec26c94c1d37d65e54d9ddfa2fa232359_medium.jpg"
+    },
+    {
+      "rank": 2,
+      "username": "zerograymatter221",
+      "owner_id": "fa48dc6e-cdb9-4138-8d80-99cef7e687b1",
+      "score": 15097,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 34.38462962962962, \"level\": 12, \"accuracy\": 0.9324522760646109, \"elapsedMs\": 247312.09999999995, \"startedAtMs\": 1780761095812.9}",
+      "create_time": "2026-06-06T15:55:44Z",
+      "update_time": "2026-06-06T15:55:44Z",
+      "steam_id": "76561198231314008",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/8f6916be3dcc60a0c3e9391276bce389a138b83a_medium.jpg"
     }
   ]
 }
