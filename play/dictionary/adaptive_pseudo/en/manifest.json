@@ -1,0 +1,2399 @@
+{
+  "source": "Generated from a local English phonetic model using a temporary script; no generator source is included in typingquest.",
+  "filters": [
+    "lowercase a-z only",
+    "3-10 characters",
+    "contains the focused letter",
+    "uses only the unlocked letters for that file",
+    "excludes entries from the project real-word dictionary",
+    "excludes entries from the generated-word deny list"
+  ],
+  "contentNote": "These pools were generated with blocked-word filtering and no known blocked terms were intentionally retained. This is deny-list filtered generated text, not a semantic guarantee that every possible reader will find every string acceptable.",
+  "minUnlock": 6,
+  "targetPerPool": 800,
+  "minLength": 3,
+  "maxLength": 10,
+  "letterOrder": [
+    "e",
+    "n",
+    "i",
+    "a",
+    "r",
+    "l",
+    "t",
+    "o",
+    "s",
+    "u",
+    "d",
+    "y",
+    "c",
+    "g",
+    "h",
+    "p",
+    "m",
+    "k",
+    "b",
+    "w",
+    "f",
+    "z",
+    "v",
+    "x",
+    "q",
+    "j"
+  ],
+  "files": [
+    {
+      "unlockCount": 6,
+      "focus": "e",
+      "file": "06_e.txt",
+      "count": 671,
+      "attempts": 360000
+    },
+    {
+      "unlockCount": 6,
+      "focus": "n",
+      "file": "06_n.txt",
+      "count": 565,
+      "attempts": 360000
+    },
+    {
+      "unlockCount": 6,
+      "focus": "i",
+      "file": "06_i.txt",
+      "count": 406,
+      "attempts": 360000
+    },
+    {
+      "unlockCount": 6,
+      "focus": "a",
+      "file": "06_a.txt",
+      "count": 800,
+      "attempts": 185304
+    },
+    {
+      "unlockCount": 6,
+      "focus": "r",
+      "file": "06_r.txt",
+      "count": 800,
+      "attempts": 169265
+    },
+    {
+      "unlockCount": 6,
+      "focus": "l",
+      "file": "06_l.txt",
+      "count": 526,
+      "attempts": 360000
+    },
+    {
+      "unlockCount": 7,
+      "focus": "e",
+      "file": "07_e.txt",
+      "count": 800,
+      "attempts": 26645
+    },
+    {
+      "unlockCount": 7,
+      "focus": "n",
+      "file": "07_n.txt",
+      "count": 800,
+      "attempts": 28585
+    },
+    {
+      "unlockCount": 7,
+      "focus": "i",
+      "file": "07_i.txt",
+      "count": 800,
+      "attempts": 38235
+    },
+    {
+      "unlockCount": 7,
+      "focus": "a",
+      "file": "07_a.txt",
+      "count": 800,
+      "attempts": 14913
+    },
+    {
+      "unlockCount": 7,
+      "focus": "r",
+      "file": "07_r.txt",
+      "count": 800,
+      "attempts": 12694
+    },
+    {
+      "unlockCount": 7,
+      "focus": "l",
+      "file": "07_l.txt",
+      "count": 800,
+      "attempts": 50801
+    },
+    {
+      "unlockCount": 7,
+      "focus": "t",
+      "file": "07_t.txt",
+      "count": 800,
+      "attempts": 16371
+    },
+    {
+      "unlockCount": 8,
+      "focus": "e",
+      "file": "08_e.txt",
+      "count": 800,
+      "attempts": 23805
+    },
+    {
+      "unlockCount": 8,
+      "focus": "n",
+      "file": "08_n.txt",
+      "count": 800,
+      "attempts": 26930
+    },
+    {
+      "unlockCount": 8,
+      "focus": "i",
+      "file": "08_i.txt",
+      "count": 800,
+      "attempts": 27085
+    },
+    {
+      "unlockCount": 8,
+      "focus": "a",
+      "file": "08_a.txt",
+      "count": 800,
+      "attempts": 12099
+    },
+    {
+      "unlockCount": 8,
+      "focus": "r",
+      "file": "08_r.txt",
+      "count": 800,
+      "attempts": 9406
+    },
+    {
+      "unlockCount": 8,
+      "focus": "l",
+      "file": "08_l.txt",
+      "count": 800,
+      "attempts": 31544
+    },
+    {
+      "unlockCount": 8,
+      "focus": "t",
+      "file": "08_t.txt",
+      "count": 800,
+      "attempts": 12356
+    },
+    {
+      "unlockCount": 8,
+      "focus": "o",
+      "file": "08_o.txt",
+      "count": 800,
+      "attempts": 64349
+    },
+    {
+      "unlockCount": 9,
+      "focus": "e",
+      "file": "09_e.txt",
+      "count": 800,
+      "attempts": 11950
+    },
+    {
+      "unlockCount": 9,
+      "focus": "n",
+      "file": "09_n.txt",
+      "count": 800,
+      "attempts": 10599
+    },
+    {
+      "unlockCount": 9,
+      "focus": "i",
+      "file": "09_i.txt",
+      "count": 800,
+      "attempts": 8106
+    },
+    {
+      "unlockCount": 9,
+      "focus": "a",
+      "file": "09_a.txt",
+      "count": 800,
+      "attempts": 6034
+    },
+    {
+      "unlockCount": 9,
+      "focus": "r",
+      "file": "09_r.txt",
+      "count": 800,
+      "attempts": 5166
+    },
+    {
+      "unlockCount": 9,
+      "focus": "l",
+      "file": "09_l.txt",
+      "count": 800,
+      "attempts": 11295
+    },
+    {
+      "unlockCount": 9,
+      "focus": "t",
+      "file": "09_t.txt",
+      "count": 800,
+      "attempts": 8486
+    },
+    {
+      "unlockCount": 9,
+      "focus": "o",
+      "file": "09_o.txt",
+      "count": 800,
+      "attempts": 18856
+    },
+    {
+      "unlockCount": 9,
+      "focus": "s",
+      "file": "09_s.txt",
+      "count": 800,
+      "attempts": 8296
+    },
+    {
+      "unlockCount": 10,
+      "focus": "e",
+      "file": "10_e.txt",
+      "count": 800,
+      "attempts": 10434
+    },
+    {
+      "unlockCount": 10,
+      "focus": "n",
+      "file": "10_n.txt",
+      "count": 800,
+      "attempts": 6355
+    },
+    {
+      "unlockCount": 10,
+      "focus": "i",
+      "file": "10_i.txt",
+      "count": 800,
+      "attempts": 6529
+    },
+    {
+      "unlockCount": 10,
+      "focus": "a",
+      "file": "10_a.txt",
+      "count": 800,
+      "attempts": 5018
+    },
+    {
+      "unlockCount": 10,
+      "focus": "r",
+      "file": "10_r.txt",
+      "count": 800,
+      "attempts": 4332
+    },
+    {
+      "unlockCount": 10,
+      "focus": "l",
+      "file": "10_l.txt",
+      "count": 800,
+      "attempts": 8803
+    },
+    {
+      "unlockCount": 10,
+      "focus": "t",
+      "file": "10_t.txt",
+      "count": 800,
+      "attempts": 5331
+    },
+    {
+      "unlockCount": 10,
+      "focus": "o",
+      "file": "10_o.txt",
+      "count": 800,
+      "attempts": 12108
+    },
+    {
+      "unlockCount": 10,
+      "focus": "s",
+      "file": "10_s.txt",
+      "count": 800,
+      "attempts": 7525
+    },
+    {
+      "unlockCount": 10,
+      "focus": "u",
+      "file": "10_u.txt",
+      "count": 800,
+      "attempts": 7111
+    },
+    {
+      "unlockCount": 11,
+      "focus": "e",
+      "file": "11_e.txt",
+      "count": 800,
+      "attempts": 9770
+    },
+    {
+      "unlockCount": 11,
+      "focus": "n",
+      "file": "11_n.txt",
+      "count": 800,
+      "attempts": 6882
+    },
+    {
+      "unlockCount": 11,
+      "focus": "i",
+      "file": "11_i.txt",
+      "count": 800,
+      "attempts": 5580
+    },
+    {
+      "unlockCount": 11,
+      "focus": "a",
+      "file": "11_a.txt",
+      "count": 800,
+      "attempts": 4369
+    },
+    {
+      "unlockCount": 11,
+      "focus": "r",
+      "file": "11_r.txt",
+      "count": 800,
+      "attempts": 3919
+    },
+    {
+      "unlockCount": 11,
+      "focus": "l",
+      "file": "11_l.txt",
+      "count": 800,
+      "attempts": 9106
+    },
+    {
+      "unlockCount": 11,
+      "focus": "t",
+      "file": "11_t.txt",
+      "count": 800,
+      "attempts": 4484
+    },
+    {
+      "unlockCount": 11,
+      "focus": "o",
+      "file": "11_o.txt",
+      "count": 800,
+      "attempts": 12783
+    },
+    {
+      "unlockCount": 11,
+      "focus": "s",
+      "file": "11_s.txt",
+      "count": 800,
+      "attempts": 6826
+    },
+    {
+      "unlockCount": 11,
+      "focus": "u",
+      "file": "11_u.txt",
+      "count": 800,
+      "attempts": 5487
+    },
+    {
+      "unlockCount": 11,
+      "focus": "d",
+      "file": "11_d.txt",
+      "count": 800,
+      "attempts": 10161
+    },
+    {
+      "unlockCount": 12,
+      "focus": "e",
+      "file": "12_e.txt",
+      "count": 800,
+      "attempts": 9976
+    },
+    {
+      "unlockCount": 12,
+      "focus": "n",
+      "file": "12_n.txt",
+      "count": 800,
+      "attempts": 6339
+    },
+    {
+      "unlockCount": 12,
+      "focus": "i",
+      "file": "12_i.txt",
+      "count": 800,
+      "attempts": 4821
+    },
+    {
+      "unlockCount": 12,
+      "focus": "a",
+      "file": "12_a.txt",
+      "count": 800,
+      "attempts": 4161
+    },
+    {
+      "unlockCount": 12,
+      "focus": "r",
+      "file": "12_r.txt",
+      "count": 800,
+      "attempts": 4020
+    },
+    {
+      "unlockCount": 12,
+      "focus": "l",
+      "file": "12_l.txt",
+      "count": 800,
+      "attempts": 8682
+    },
+    {
+      "unlockCount": 12,
+      "focus": "t",
+      "file": "12_t.txt",
+      "count": 800,
+      "attempts": 4680
+    },
+    {
+      "unlockCount": 12,
+      "focus": "o",
+      "file": "12_o.txt",
+      "count": 800,
+      "attempts": 11937
+    },
+    {
+      "unlockCount": 12,
+      "focus": "s",
+      "file": "12_s.txt",
+      "count": 800,
+      "attempts": 6499
+    },
+    {
+      "unlockCount": 12,
+      "focus": "u",
+      "file": "12_u.txt",
+      "count": 800,
+      "attempts": 5513
+    },
+    {
+      "unlockCount": 12,
+      "focus": "d",
+      "file": "12_d.txt",
+      "count": 800,
+      "attempts": 9877
+    },
+    {
+      "unlockCount": 12,
+      "focus": "y",
+      "file": "12_y.txt",
+      "count": 800,
+      "attempts": 249805
+    },
+    {
+      "unlockCount": 13,
+      "focus": "e",
+      "file": "13_e.txt",
+      "count": 800,
+      "attempts": 6117
+    },
+    {
+      "unlockCount": 13,
+      "focus": "n",
+      "file": "13_n.txt",
+      "count": 800,
+      "attempts": 4197
+    },
+    {
+      "unlockCount": 13,
+      "focus": "i",
+      "file": "13_i.txt",
+      "count": 800,
+      "attempts": 3456
+    },
+    {
+      "unlockCount": 13,
+      "focus": "a",
+      "file": "13_a.txt",
+      "count": 800,
+      "attempts": 3667
+    },
+    {
+      "unlockCount": 13,
+      "focus": "r",
+      "file": "13_r.txt",
+      "count": 800,
+      "attempts": 2816
+    },
+    {
+      "unlockCount": 13,
+      "focus": "l",
+      "file": "13_l.txt",
+      "count": 800,
+      "attempts": 5917
+    },
+    {
+      "unlockCount": 13,
+      "focus": "t",
+      "file": "13_t.txt",
+      "count": 800,
+      "attempts": 4135
+    },
+    {
+      "unlockCount": 13,
+      "focus": "o",
+      "file": "13_o.txt",
+      "count": 800,
+      "attempts": 8052
+    },
+    {
+      "unlockCount": 13,
+      "focus": "s",
+      "file": "13_s.txt",
+      "count": 800,
+      "attempts": 5660
+    },
+    {
+      "unlockCount": 13,
+      "focus": "u",
+      "file": "13_u.txt",
+      "count": 800,
+      "attempts": 3520
+    },
+    {
+      "unlockCount": 13,
+      "focus": "d",
+      "file": "13_d.txt",
+      "count": 800,
+      "attempts": 9408
+    },
+    {
+      "unlockCount": 13,
+      "focus": "y",
+      "file": "13_y.txt",
+      "count": 800,
+      "attempts": 132578
+    },
+    {
+      "unlockCount": 13,
+      "focus": "c",
+      "file": "13_c.txt",
+      "count": 800,
+      "attempts": 3127
+    },
+    {
+      "unlockCount": 14,
+      "focus": "e",
+      "file": "14_e.txt",
+      "count": 800,
+      "attempts": 5982
+    },
+    {
+      "unlockCount": 14,
+      "focus": "n",
+      "file": "14_n.txt",
+      "count": 800,
+      "attempts": 4628
+    },
+    {
+      "unlockCount": 14,
+      "focus": "i",
+      "file": "14_i.txt",
+      "count": 800,
+      "attempts": 3936
+    },
+    {
+      "unlockCount": 14,
+      "focus": "a",
+      "file": "14_a.txt",
+      "count": 800,
+      "attempts": 3013
+    },
+    {
+      "unlockCount": 14,
+      "focus": "r",
+      "file": "14_r.txt",
+      "count": 800,
+      "attempts": 2739
+    },
+    {
+      "unlockCount": 14,
+      "focus": "l",
+      "file": "14_l.txt",
+      "count": 800,
+      "attempts": 5830
+    },
+    {
+      "unlockCount": 14,
+      "focus": "t",
+      "file": "14_t.txt",
+      "count": 800,
+      "attempts": 4995
+    },
+    {
+      "unlockCount": 14,
+      "focus": "o",
+      "file": "14_o.txt",
+      "count": 800,
+      "attempts": 7810
+    },
+    {
+      "unlockCount": 14,
+      "focus": "s",
+      "file": "14_s.txt",
+      "count": 800,
+      "attempts": 5735
+    },
+    {
+      "unlockCount": 14,
+      "focus": "u",
+      "file": "14_u.txt",
+      "count": 800,
+      "attempts": 3964
+    },
+    {
+      "unlockCount": 14,
+      "focus": "d",
+      "file": "14_d.txt",
+      "count": 800,
+      "attempts": 12265
+    },
+    {
+      "unlockCount": 14,
+      "focus": "y",
+      "file": "14_y.txt",
+      "count": 800,
+      "attempts": 112780
+    },
+    {
+      "unlockCount": 14,
+      "focus": "c",
+      "file": "14_c.txt",
+      "count": 800,
+      "attempts": 3363
+    },
+    {
+      "unlockCount": 14,
+      "focus": "g",
+      "file": "14_g.txt",
+      "count": 800,
+      "attempts": 5731
+    },
+    {
+      "unlockCount": 15,
+      "focus": "e",
+      "file": "15_e.txt",
+      "count": 800,
+      "attempts": 5819
+    },
+    {
+      "unlockCount": 15,
+      "focus": "n",
+      "file": "15_n.txt",
+      "count": 800,
+      "attempts": 4358
+    },
+    {
+      "unlockCount": 15,
+      "focus": "i",
+      "file": "15_i.txt",
+      "count": 800,
+      "attempts": 3913
+    },
+    {
+      "unlockCount": 15,
+      "focus": "a",
+      "file": "15_a.txt",
+      "count": 800,
+      "attempts": 3001
+    },
+    {
+      "unlockCount": 15,
+      "focus": "r",
+      "file": "15_r.txt",
+      "count": 800,
+      "attempts": 2423
+    },
+    {
+      "unlockCount": 15,
+      "focus": "l",
+      "file": "15_l.txt",
+      "count": 800,
+      "attempts": 5396
+    },
+    {
+      "unlockCount": 15,
+      "focus": "t",
+      "file": "15_t.txt",
+      "count": 800,
+      "attempts": 4688
+    },
+    {
+      "unlockCount": 15,
+      "focus": "o",
+      "file": "15_o.txt",
+      "count": 800,
+      "attempts": 6501
+    },
+    {
+      "unlockCount": 15,
+      "focus": "s",
+      "file": "15_s.txt",
+      "count": 800,
+      "attempts": 5319
+    },
+    {
+      "unlockCount": 15,
+      "focus": "u",
+      "file": "15_u.txt",
+      "count": 800,
+      "attempts": 3527
+    },
+    {
+      "unlockCount": 15,
+      "focus": "d",
+      "file": "15_d.txt",
+      "count": 800,
+      "attempts": 12541
+    },
+    {
+      "unlockCount": 15,
+      "focus": "y",
+      "file": "15_y.txt",
+      "count": 800,
+      "attempts": 87226
+    },
+    {
+      "unlockCount": 15,
+      "focus": "c",
+      "file": "15_c.txt",
+      "count": 800,
+      "attempts": 3239
+    },
+    {
+      "unlockCount": 15,
+      "focus": "g",
+      "file": "15_g.txt",
+      "count": 800,
+      "attempts": 6614
+    },
+    {
+      "unlockCount": 15,
+      "focus": "h",
+      "file": "15_h.txt",
+      "count": 800,
+      "attempts": 12031
+    },
+    {
+      "unlockCount": 16,
+      "focus": "e",
+      "file": "16_e.txt",
+      "count": 800,
+      "attempts": 4087
+    },
+    {
+      "unlockCount": 16,
+      "focus": "n",
+      "file": "16_n.txt",
+      "count": 800,
+      "attempts": 4286
+    },
+    {
+      "unlockCount": 16,
+      "focus": "i",
+      "file": "16_i.txt",
+      "count": 800,
+      "attempts": 3721
+    },
+    {
+      "unlockCount": 16,
+      "focus": "a",
+      "file": "16_a.txt",
+      "count": 800,
+      "attempts": 2819
+    },
+    {
+      "unlockCount": 16,
+      "focus": "r",
+      "file": "16_r.txt",
+      "count": 800,
+      "attempts": 2145
+    },
+    {
+      "unlockCount": 16,
+      "focus": "l",
+      "file": "16_l.txt",
+      "count": 800,
+      "attempts": 4815
+    },
+    {
+      "unlockCount": 16,
+      "focus": "t",
+      "file": "16_t.txt",
+      "count": 800,
+      "attempts": 4318
+    },
+    {
+      "unlockCount": 16,
+      "focus": "o",
+      "file": "16_o.txt",
+      "count": 800,
+      "attempts": 4153
+    },
+    {
+      "unlockCount": 16,
+      "focus": "s",
+      "file": "16_s.txt",
+      "count": 800,
+      "attempts": 3835
+    },
+    {
+      "unlockCount": 16,
+      "focus": "u",
+      "file": "16_u.txt",
+      "count": 800,
+      "attempts": 3298
+    },
+    {
+      "unlockCount": 16,
+      "focus": "d",
+      "file": "16_d.txt",
+      "count": 800,
+      "attempts": 11032
+    },
+    {
+      "unlockCount": 16,
+      "focus": "y",
+      "file": "16_y.txt",
+      "count": 800,
+      "attempts": 46075
+    },
+    {
+      "unlockCount": 16,
+      "focus": "c",
+      "file": "16_c.txt",
+      "count": 800,
+      "attempts": 2917
+    },
+    {
+      "unlockCount": 16,
+      "focus": "g",
+      "file": "16_g.txt",
+      "count": 800,
+      "attempts": 6315
+    },
+    {
+      "unlockCount": 16,
+      "focus": "h",
+      "file": "16_h.txt",
+      "count": 800,
+      "attempts": 8660
+    },
+    {
+      "unlockCount": 16,
+      "focus": "p",
+      "file": "16_p.txt",
+      "count": 800,
+      "attempts": 3013
+    },
+    {
+      "unlockCount": 17,
+      "focus": "e",
+      "file": "17_e.txt",
+      "count": 800,
+      "attempts": 3736
+    },
+    {
+      "unlockCount": 17,
+      "focus": "n",
+      "file": "17_n.txt",
+      "count": 800,
+      "attempts": 3852
+    },
+    {
+      "unlockCount": 17,
+      "focus": "i",
+      "file": "17_i.txt",
+      "count": 800,
+      "attempts": 3039
+    },
+    {
+      "unlockCount": 17,
+      "focus": "a",
+      "file": "17_a.txt",
+      "count": 800,
+      "attempts": 2613
+    },
+    {
+      "unlockCount": 17,
+      "focus": "r",
+      "file": "17_r.txt",
+      "count": 800,
+      "attempts": 2051
+    },
+    {
+      "unlockCount": 17,
+      "focus": "l",
+      "file": "17_l.txt",
+      "count": 800,
+      "attempts": 4517
+    },
+    {
+      "unlockCount": 17,
+      "focus": "t",
+      "file": "17_t.txt",
+      "count": 800,
+      "attempts": 4128
+    },
+    {
+      "unlockCount": 17,
+      "focus": "o",
+      "file": "17_o.txt",
+      "count": 800,
+      "attempts": 3770
+    },
+    {
+      "unlockCount": 17,
+      "focus": "s",
+      "file": "17_s.txt",
+      "count": 800,
+      "attempts": 3916
+    },
+    {
+      "unlockCount": 17,
+      "focus": "u",
+      "file": "17_u.txt",
+      "count": 800,
+      "attempts": 3183
+    },
+    {
+      "unlockCount": 17,
+      "focus": "d",
+      "file": "17_d.txt",
+      "count": 800,
+      "attempts": 9591
+    },
+    {
+      "unlockCount": 17,
+      "focus": "y",
+      "file": "17_y.txt",
+      "count": 800,
+      "attempts": 30907
+    },
+    {
+      "unlockCount": 17,
+      "focus": "c",
+      "file": "17_c.txt",
+      "count": 800,
+      "attempts": 2574
+    },
+    {
+      "unlockCount": 17,
+      "focus": "g",
+      "file": "17_g.txt",
+      "count": 800,
+      "attempts": 5761
+    },
+    {
+      "unlockCount": 17,
+      "focus": "h",
+      "file": "17_h.txt",
+      "count": 800,
+      "attempts": 7764
+    },
+    {
+      "unlockCount": 17,
+      "focus": "p",
+      "file": "17_p.txt",
+      "count": 800,
+      "attempts": 2980
+    },
+    {
+      "unlockCount": 17,
+      "focus": "m",
+      "file": "17_m.txt",
+      "count": 800,
+      "attempts": 3457
+    },
+    {
+      "unlockCount": 18,
+      "focus": "e",
+      "file": "18_e.txt",
+      "count": 800,
+      "attempts": 3745
+    },
+    {
+      "unlockCount": 18,
+      "focus": "n",
+      "file": "18_n.txt",
+      "count": 800,
+      "attempts": 3814
+    },
+    {
+      "unlockCount": 18,
+      "focus": "i",
+      "file": "18_i.txt",
+      "count": 800,
+      "attempts": 2927
+    },
+    {
+      "unlockCount": 18,
+      "focus": "a",
+      "file": "18_a.txt",
+      "count": 800,
+      "attempts": 2561
+    },
+    {
+      "unlockCount": 18,
+      "focus": "r",
+      "file": "18_r.txt",
+      "count": 800,
+      "attempts": 1900
+    },
+    {
+      "unlockCount": 18,
+      "focus": "l",
+      "file": "18_l.txt",
+      "count": 800,
+      "attempts": 4200
+    },
+    {
+      "unlockCount": 18,
+      "focus": "t",
+      "file": "18_t.txt",
+      "count": 800,
+      "attempts": 3883
+    },
+    {
+      "unlockCount": 18,
+      "focus": "o",
+      "file": "18_o.txt",
+      "count": 800,
+      "attempts": 3670
+    },
+    {
+      "unlockCount": 18,
+      "focus": "s",
+      "file": "18_s.txt",
+      "count": 800,
+      "attempts": 3532
+    },
+    {
+      "unlockCount": 18,
+      "focus": "u",
+      "file": "18_u.txt",
+      "count": 800,
+      "attempts": 3012
+    },
+    {
+      "unlockCount": 18,
+      "focus": "d",
+      "file": "18_d.txt",
+      "count": 800,
+      "attempts": 9075
+    },
+    {
+      "unlockCount": 18,
+      "focus": "y",
+      "file": "18_y.txt",
+      "count": 800,
+      "attempts": 26654
+    },
+    {
+      "unlockCount": 18,
+      "focus": "c",
+      "file": "18_c.txt",
+      "count": 800,
+      "attempts": 2818
+    },
+    {
+      "unlockCount": 18,
+      "focus": "g",
+      "file": "18_g.txt",
+      "count": 800,
+      "attempts": 6039
+    },
+    {
+      "unlockCount": 18,
+      "focus": "h",
+      "file": "18_h.txt",
+      "count": 800,
+      "attempts": 6897
+    },
+    {
+      "unlockCount": 18,
+      "focus": "p",
+      "file": "18_p.txt",
+      "count": 800,
+      "attempts": 2877
+    },
+    {
+      "unlockCount": 18,
+      "focus": "m",
+      "file": "18_m.txt",
+      "count": 800,
+      "attempts": 3147
+    },
+    {
+      "unlockCount": 18,
+      "focus": "k",
+      "file": "18_k.txt",
+      "count": 800,
+      "attempts": 91095
+    },
+    {
+      "unlockCount": 19,
+      "focus": "e",
+      "file": "19_e.txt",
+      "count": 800,
+      "attempts": 3620
+    },
+    {
+      "unlockCount": 19,
+      "focus": "n",
+      "file": "19_n.txt",
+      "count": 800,
+      "attempts": 3751
+    },
+    {
+      "unlockCount": 19,
+      "focus": "i",
+      "file": "19_i.txt",
+      "count": 800,
+      "attempts": 2885
+    },
+    {
+      "unlockCount": 19,
+      "focus": "a",
+      "file": "19_a.txt",
+      "count": 800,
+      "attempts": 2543
+    },
+    {
+      "unlockCount": 19,
+      "focus": "r",
+      "file": "19_r.txt",
+      "count": 800,
+      "attempts": 1988
+    },
+    {
+      "unlockCount": 19,
+      "focus": "l",
+      "file": "19_l.txt",
+      "count": 800,
+      "attempts": 3633
+    },
+    {
+      "unlockCount": 19,
+      "focus": "t",
+      "file": "19_t.txt",
+      "count": 800,
+      "attempts": 3658
+    },
+    {
+      "unlockCount": 19,
+      "focus": "o",
+      "file": "19_o.txt",
+      "count": 800,
+      "attempts": 3520
+    },
+    {
+      "unlockCount": 19,
+      "focus": "s",
+      "file": "19_s.txt",
+      "count": 800,
+      "attempts": 3328
+    },
+    {
+      "unlockCount": 19,
+      "focus": "u",
+      "file": "19_u.txt",
+      "count": 800,
+      "attempts": 2953
+    },
+    {
+      "unlockCount": 19,
+      "focus": "d",
+      "file": "19_d.txt",
+      "count": 800,
+      "attempts": 9647
+    },
+    {
+      "unlockCount": 19,
+      "focus": "y",
+      "file": "19_y.txt",
+      "count": 800,
+      "attempts": 27292
+    },
+    {
+      "unlockCount": 19,
+      "focus": "c",
+      "file": "19_c.txt",
+      "count": 800,
+      "attempts": 2956
+    },
+    {
+      "unlockCount": 19,
+      "focus": "g",
+      "file": "19_g.txt",
+      "count": 800,
+      "attempts": 5868
+    },
+    {
+      "unlockCount": 19,
+      "focus": "h",
+      "file": "19_h.txt",
+      "count": 800,
+      "attempts": 6676
+    },
+    {
+      "unlockCount": 19,
+      "focus": "p",
+      "file": "19_p.txt",
+      "count": 800,
+      "attempts": 3032
+    },
+    {
+      "unlockCount": 19,
+      "focus": "m",
+      "file": "19_m.txt",
+      "count": 800,
+      "attempts": 3104
+    },
+    {
+      "unlockCount": 19,
+      "focus": "k",
+      "file": "19_k.txt",
+      "count": 800,
+      "attempts": 78532
+    },
+    {
+      "unlockCount": 19,
+      "focus": "b",
+      "file": "19_b.txt",
+      "count": 800,
+      "attempts": 4952
+    },
+    {
+      "unlockCount": 20,
+      "focus": "e",
+      "file": "20_e.txt",
+      "count": 800,
+      "attempts": 3347
+    },
+    {
+      "unlockCount": 20,
+      "focus": "n",
+      "file": "20_n.txt",
+      "count": 800,
+      "attempts": 3917
+    },
+    {
+      "unlockCount": 20,
+      "focus": "i",
+      "file": "20_i.txt",
+      "count": 800,
+      "attempts": 2976
+    },
+    {
+      "unlockCount": 20,
+      "focus": "a",
+      "file": "20_a.txt",
+      "count": 800,
+      "attempts": 2449
+    },
+    {
+      "unlockCount": 20,
+      "focus": "r",
+      "file": "20_r.txt",
+      "count": 800,
+      "attempts": 1874
+    },
+    {
+      "unlockCount": 20,
+      "focus": "l",
+      "file": "20_l.txt",
+      "count": 800,
+      "attempts": 3517
+    },
+    {
+      "unlockCount": 20,
+      "focus": "t",
+      "file": "20_t.txt",
+      "count": 800,
+      "attempts": 3642
+    },
+    {
+      "unlockCount": 20,
+      "focus": "o",
+      "file": "20_o.txt",
+      "count": 800,
+      "attempts": 3360
+    },
+    {
+      "unlockCount": 20,
+      "focus": "s",
+      "file": "20_s.txt",
+      "count": 800,
+      "attempts": 3375
+    },
+    {
+      "unlockCount": 20,
+      "focus": "u",
+      "file": "20_u.txt",
+      "count": 800,
+      "attempts": 2885
+    },
+    {
+      "unlockCount": 20,
+      "focus": "d",
+      "file": "20_d.txt",
+      "count": 800,
+      "attempts": 8734
+    },
+    {
+      "unlockCount": 20,
+      "focus": "y",
+      "file": "20_y.txt",
+      "count": 800,
+      "attempts": 25866
+    },
+    {
+      "unlockCount": 20,
+      "focus": "c",
+      "file": "20_c.txt",
+      "count": 800,
+      "attempts": 2862
+    },
+    {
+      "unlockCount": 20,
+      "focus": "g",
+      "file": "20_g.txt",
+      "count": 800,
+      "attempts": 5854
+    },
+    {
+      "unlockCount": 20,
+      "focus": "h",
+      "file": "20_h.txt",
+      "count": 800,
+      "attempts": 6447
+    },
+    {
+      "unlockCount": 20,
+      "focus": "p",
+      "file": "20_p.txt",
+      "count": 800,
+      "attempts": 2740
+    },
+    {
+      "unlockCount": 20,
+      "focus": "m",
+      "file": "20_m.txt",
+      "count": 800,
+      "attempts": 3105
+    },
+    {
+      "unlockCount": 20,
+      "focus": "k",
+      "file": "20_k.txt",
+      "count": 800,
+      "attempts": 79638
+    },
+    {
+      "unlockCount": 20,
+      "focus": "b",
+      "file": "20_b.txt",
+      "count": 800,
+      "attempts": 4571
+    },
+    {
+      "unlockCount": 20,
+      "focus": "w",
+      "file": "20_w.txt",
+      "count": 800,
+      "attempts": 8552
+    },
+    {
+      "unlockCount": 21,
+      "focus": "e",
+      "file": "21_e.txt",
+      "count": 800,
+      "attempts": 3300
+    },
+    {
+      "unlockCount": 21,
+      "focus": "n",
+      "file": "21_n.txt",
+      "count": 800,
+      "attempts": 3719
+    },
+    {
+      "unlockCount": 21,
+      "focus": "i",
+      "file": "21_i.txt",
+      "count": 800,
+      "attempts": 2490
+    },
+    {
+      "unlockCount": 21,
+      "focus": "a",
+      "file": "21_a.txt",
+      "count": 800,
+      "attempts": 2284
+    },
+    {
+      "unlockCount": 21,
+      "focus": "r",
+      "file": "21_r.txt",
+      "count": 800,
+      "attempts": 1781
+    },
+    {
+      "unlockCount": 21,
+      "focus": "l",
+      "file": "21_l.txt",
+      "count": 800,
+      "attempts": 3673
+    },
+    {
+      "unlockCount": 21,
+      "focus": "t",
+      "file": "21_t.txt",
+      "count": 800,
+      "attempts": 3342
+    },
+    {
+      "unlockCount": 21,
+      "focus": "o",
+      "file": "21_o.txt",
+      "count": 800,
+      "attempts": 3576
+    },
+    {
+      "unlockCount": 21,
+      "focus": "s",
+      "file": "21_s.txt",
+      "count": 800,
+      "attempts": 3326
+    },
+    {
+      "unlockCount": 21,
+      "focus": "u",
+      "file": "21_u.txt",
+      "count": 800,
+      "attempts": 2658
+    },
+    {
+      "unlockCount": 21,
+      "focus": "d",
+      "file": "21_d.txt",
+      "count": 800,
+      "attempts": 8367
+    },
+    {
+      "unlockCount": 21,
+      "focus": "y",
+      "file": "21_y.txt",
+      "count": 800,
+      "attempts": 26227
+    },
+    {
+      "unlockCount": 21,
+      "focus": "c",
+      "file": "21_c.txt",
+      "count": 800,
+      "attempts": 2758
+    },
+    {
+      "unlockCount": 21,
+      "focus": "g",
+      "file": "21_g.txt",
+      "count": 800,
+      "attempts": 5714
+    },
+    {
+      "unlockCount": 21,
+      "focus": "h",
+      "file": "21_h.txt",
+      "count": 800,
+      "attempts": 6299
+    },
+    {
+      "unlockCount": 21,
+      "focus": "p",
+      "file": "21_p.txt",
+      "count": 800,
+      "attempts": 2745
+    },
+    {
+      "unlockCount": 21,
+      "focus": "m",
+      "file": "21_m.txt",
+      "count": 800,
+      "attempts": 2928
+    },
+    {
+      "unlockCount": 21,
+      "focus": "k",
+      "file": "21_k.txt",
+      "count": 800,
+      "attempts": 73366
+    },
+    {
+      "unlockCount": 21,
+      "focus": "b",
+      "file": "21_b.txt",
+      "count": 800,
+      "attempts": 4242
+    },
+    {
+      "unlockCount": 21,
+      "focus": "w",
+      "file": "21_w.txt",
+      "count": 800,
+      "attempts": 8338
+    },
+    {
+      "unlockCount": 21,
+      "focus": "f",
+      "file": "21_f.txt",
+      "count": 800,
+      "attempts": 5024
+    },
+    {
+      "unlockCount": 22,
+      "focus": "e",
+      "file": "22_e.txt",
+      "count": 800,
+      "attempts": 3300
+    },
+    {
+      "unlockCount": 22,
+      "focus": "n",
+      "file": "22_n.txt",
+      "count": 800,
+      "attempts": 3695
+    },
+    {
+      "unlockCount": 22,
+      "focus": "i",
+      "file": "22_i.txt",
+      "count": 800,
+      "attempts": 2489
+    },
+    {
+      "unlockCount": 22,
+      "focus": "a",
+      "file": "22_a.txt",
+      "count": 800,
+      "attempts": 2274
+    },
+    {
+      "unlockCount": 22,
+      "focus": "r",
+      "file": "22_r.txt",
+      "count": 800,
+      "attempts": 1844
+    },
+    {
+      "unlockCount": 22,
+      "focus": "l",
+      "file": "22_l.txt",
+      "count": 800,
+      "attempts": 3870
+    },
+    {
+      "unlockCount": 22,
+      "focus": "t",
+      "file": "22_t.txt",
+      "count": 800,
+      "attempts": 3583
+    },
+    {
+      "unlockCount": 22,
+      "focus": "o",
+      "file": "22_o.txt",
+      "count": 800,
+      "attempts": 3448
+    },
+    {
+      "unlockCount": 22,
+      "focus": "s",
+      "file": "22_s.txt",
+      "count": 800,
+      "attempts": 3370
+    },
+    {
+      "unlockCount": 22,
+      "focus": "u",
+      "file": "22_u.txt",
+      "count": 800,
+      "attempts": 2842
+    },
+    {
+      "unlockCount": 22,
+      "focus": "d",
+      "file": "22_d.txt",
+      "count": 800,
+      "attempts": 8299
+    },
+    {
+      "unlockCount": 22,
+      "focus": "y",
+      "file": "22_y.txt",
+      "count": 800,
+      "attempts": 26164
+    },
+    {
+      "unlockCount": 22,
+      "focus": "c",
+      "file": "22_c.txt",
+      "count": 800,
+      "attempts": 2815
+    },
+    {
+      "unlockCount": 22,
+      "focus": "g",
+      "file": "22_g.txt",
+      "count": 800,
+      "attempts": 5499
+    },
+    {
+      "unlockCount": 22,
+      "focus": "h",
+      "file": "22_h.txt",
+      "count": 800,
+      "attempts": 6119
+    },
+    {
+      "unlockCount": 22,
+      "focus": "p",
+      "file": "22_p.txt",
+      "count": 800,
+      "attempts": 2707
+    },
+    {
+      "unlockCount": 22,
+      "focus": "m",
+      "file": "22_m.txt",
+      "count": 800,
+      "attempts": 2879
+    },
+    {
+      "unlockCount": 22,
+      "focus": "k",
+      "file": "22_k.txt",
+      "count": 800,
+      "attempts": 64829
+    },
+    {
+      "unlockCount": 22,
+      "focus": "b",
+      "file": "22_b.txt",
+      "count": 800,
+      "attempts": 4406
+    },
+    {
+      "unlockCount": 22,
+      "focus": "w",
+      "file": "22_w.txt",
+      "count": 800,
+      "attempts": 9419
+    },
+    {
+      "unlockCount": 22,
+      "focus": "f",
+      "file": "22_f.txt",
+      "count": 800,
+      "attempts": 5377
+    },
+    {
+      "unlockCount": 22,
+      "focus": "z",
+      "file": "22_z.txt",
+      "count": 800,
+      "attempts": 13481
+    },
+    {
+      "unlockCount": 23,
+      "focus": "e",
+      "file": "23_e.txt",
+      "count": 800,
+      "attempts": 3362
+    },
+    {
+      "unlockCount": 23,
+      "focus": "n",
+      "file": "23_n.txt",
+      "count": 800,
+      "attempts": 3385
+    },
+    {
+      "unlockCount": 23,
+      "focus": "i",
+      "file": "23_i.txt",
+      "count": 800,
+      "attempts": 2443
+    },
+    {
+      "unlockCount": 23,
+      "focus": "a",
+      "file": "23_a.txt",
+      "count": 800,
+      "attempts": 2296
+    },
+    {
+      "unlockCount": 23,
+      "focus": "r",
+      "file": "23_r.txt",
+      "count": 800,
+      "attempts": 1793
+    },
+    {
+      "unlockCount": 23,
+      "focus": "l",
+      "file": "23_l.txt",
+      "count": 800,
+      "attempts": 3228
+    },
+    {
+      "unlockCount": 23,
+      "focus": "t",
+      "file": "23_t.txt",
+      "count": 800,
+      "attempts": 3353
+    },
+    {
+      "unlockCount": 23,
+      "focus": "o",
+      "file": "23_o.txt",
+      "count": 800,
+      "attempts": 3323
+    },
+    {
+      "unlockCount": 23,
+      "focus": "s",
+      "file": "23_s.txt",
+      "count": 800,
+      "attempts": 3466
+    },
+    {
+      "unlockCount": 23,
+      "focus": "u",
+      "file": "23_u.txt",
+      "count": 800,
+      "attempts": 2603
+    },
+    {
+      "unlockCount": 23,
+      "focus": "d",
+      "file": "23_d.txt",
+      "count": 800,
+      "attempts": 7828
+    },
+    {
+      "unlockCount": 23,
+      "focus": "y",
+      "file": "23_y.txt",
+      "count": 800,
+      "attempts": 23673
+    },
+    {
+      "unlockCount": 23,
+      "focus": "c",
+      "file": "23_c.txt",
+      "count": 800,
+      "attempts": 2865
+    },
+    {
+      "unlockCount": 23,
+      "focus": "g",
+      "file": "23_g.txt",
+      "count": 800,
+      "attempts": 5669
+    },
+    {
+      "unlockCount": 23,
+      "focus": "h",
+      "file": "23_h.txt",
+      "count": 800,
+      "attempts": 6208
+    },
+    {
+      "unlockCount": 23,
+      "focus": "p",
+      "file": "23_p.txt",
+      "count": 800,
+      "attempts": 2858
+    },
+    {
+      "unlockCount": 23,
+      "focus": "m",
+      "file": "23_m.txt",
+      "count": 800,
+      "attempts": 2559
+    },
+    {
+      "unlockCount": 23,
+      "focus": "k",
+      "file": "23_k.txt",
+      "count": 800,
+      "attempts": 68883
+    },
+    {
+      "unlockCount": 23,
+      "focus": "b",
+      "file": "23_b.txt",
+      "count": 800,
+      "attempts": 3995
+    },
+    {
+      "unlockCount": 23,
+      "focus": "w",
+      "file": "23_w.txt",
+      "count": 800,
+      "attempts": 8764
+    },
+    {
+      "unlockCount": 23,
+      "focus": "f",
+      "file": "23_f.txt",
+      "count": 800,
+      "attempts": 4743
+    },
+    {
+      "unlockCount": 23,
+      "focus": "z",
+      "file": "23_z.txt",
+      "count": 800,
+      "attempts": 12503
+    },
+    {
+      "unlockCount": 23,
+      "focus": "v",
+      "file": "23_v.txt",
+      "count": 800,
+      "attempts": 5022
+    },
+    {
+      "unlockCount": 24,
+      "focus": "e",
+      "file": "24_e.txt",
+      "count": 800,
+      "attempts": 3135
+    },
+    {
+      "unlockCount": 24,
+      "focus": "n",
+      "file": "24_n.txt",
+      "count": 800,
+      "attempts": 3746
+    },
+    {
+      "unlockCount": 24,
+      "focus": "i",
+      "file": "24_i.txt",
+      "count": 800,
+      "attempts": 2255
+    },
+    {
+      "unlockCount": 24,
+      "focus": "a",
+      "file": "24_a.txt",
+      "count": 800,
+      "attempts": 2161
+    },
+    {
+      "unlockCount": 24,
+      "focus": "r",
+      "file": "24_r.txt",
+      "count": 800,
+      "attempts": 1961
+    },
+    {
+      "unlockCount": 24,
+      "focus": "l",
+      "file": "24_l.txt",
+      "count": 800,
+      "attempts": 3395
+    },
+    {
+      "unlockCount": 24,
+      "focus": "t",
+      "file": "24_t.txt",
+      "count": 800,
+      "attempts": 3181
+    },
+    {
+      "unlockCount": 24,
+      "focus": "o",
+      "file": "24_o.txt",
+      "count": 800,
+      "attempts": 3301
+    },
+    {
+      "unlockCount": 24,
+      "focus": "s",
+      "file": "24_s.txt",
+      "count": 800,
+      "attempts": 3321
+    },
+    {
+      "unlockCount": 24,
+      "focus": "u",
+      "file": "24_u.txt",
+      "count": 800,
+      "attempts": 2650
+    },
+    {
+      "unlockCount": 24,
+      "focus": "d",
+      "file": "24_d.txt",
+      "count": 800,
+      "attempts": 7911
+    },
+    {
+      "unlockCount": 24,
+      "focus": "y",
+      "file": "24_y.txt",
+      "count": 800,
+      "attempts": 20402
+    },
+    {
+      "unlockCount": 24,
+      "focus": "c",
+      "file": "24_c.txt",
+      "count": 800,
+      "attempts": 2932
+    },
+    {
+      "unlockCount": 24,
+      "focus": "g",
+      "file": "24_g.txt",
+      "count": 800,
+      "attempts": 5397
+    },
+    {
+      "unlockCount": 24,
+      "focus": "h",
+      "file": "24_h.txt",
+      "count": 800,
+      "attempts": 6057
+    },
+    {
+      "unlockCount": 24,
+      "focus": "p",
+      "file": "24_p.txt",
+      "count": 800,
+      "attempts": 2479
+    },
+    {
+      "unlockCount": 24,
+      "focus": "m",
+      "file": "24_m.txt",
+      "count": 800,
+      "attempts": 2837
+    },
+    {
+      "unlockCount": 24,
+      "focus": "k",
+      "file": "24_k.txt",
+      "count": 800,
+      "attempts": 64287
+    },
+    {
+      "unlockCount": 24,
+      "focus": "b",
+      "file": "24_b.txt",
+      "count": 800,
+      "attempts": 3787
+    },
+    {
+      "unlockCount": 24,
+      "focus": "w",
+      "file": "24_w.txt",
+      "count": 800,
+      "attempts": 8254
+    },
+    {
+      "unlockCount": 24,
+      "focus": "f",
+      "file": "24_f.txt",
+      "count": 800,
+      "attempts": 5035
+    },
+    {
+      "unlockCount": 24,
+      "focus": "z",
+      "file": "24_z.txt",
+      "count": 800,
+      "attempts": 13280
+    },
+    {
+      "unlockCount": 24,
+      "focus": "v",
+      "file": "24_v.txt",
+      "count": 800,
+      "attempts": 4922
+    },
+    {
+      "unlockCount": 24,
+      "focus": "x",
+      "file": "24_x.txt",
+      "count": 800,
+      "attempts": 8275
+    },
+    {
+      "unlockCount": 25,
+      "focus": "e",
+      "file": "25_e.txt",
+      "count": 800,
+      "attempts": 3060
+    },
+    {
+      "unlockCount": 25,
+      "focus": "n",
+      "file": "25_n.txt",
+      "count": 800,
+      "attempts": 3625
+    },
+    {
+      "unlockCount": 25,
+      "focus": "i",
+      "file": "25_i.txt",
+      "count": 800,
+      "attempts": 2318
+    },
+    {
+      "unlockCount": 25,
+      "focus": "a",
+      "file": "25_a.txt",
+      "count": 800,
+      "attempts": 2159
+    },
+    {
+      "unlockCount": 25,
+      "focus": "r",
+      "file": "25_r.txt",
+      "count": 800,
+      "attempts": 1787
+    },
+    {
+      "unlockCount": 25,
+      "focus": "l",
+      "file": "25_l.txt",
+      "count": 800,
+      "attempts": 3204
+    },
+    {
+      "unlockCount": 25,
+      "focus": "t",
+      "file": "25_t.txt",
+      "count": 800,
+      "attempts": 3417
+    },
+    {
+      "unlockCount": 25,
+      "focus": "o",
+      "file": "25_o.txt",
+      "count": 800,
+      "attempts": 3136
+    },
+    {
+      "unlockCount": 25,
+      "focus": "s",
+      "file": "25_s.txt",
+      "count": 800,
+      "attempts": 3094
+    },
+    {
+      "unlockCount": 25,
+      "focus": "u",
+      "file": "25_u.txt",
+      "count": 800,
+      "attempts": 2346
+    },
+    {
+      "unlockCount": 25,
+      "focus": "d",
+      "file": "25_d.txt",
+      "count": 800,
+      "attempts": 8216
+    },
+    {
+      "unlockCount": 25,
+      "focus": "y",
+      "file": "25_y.txt",
+      "count": 800,
+      "attempts": 18660
+    },
+    {
+      "unlockCount": 25,
+      "focus": "c",
+      "file": "25_c.txt",
+      "count": 800,
+      "attempts": 2611
+    },
+    {
+      "unlockCount": 25,
+      "focus": "g",
+      "file": "25_g.txt",
+      "count": 800,
+      "attempts": 5231
+    },
+    {
+      "unlockCount": 25,
+      "focus": "h",
+      "file": "25_h.txt",
+      "count": 800,
+      "attempts": 5866
+    },
+    {
+      "unlockCount": 25,
+      "focus": "p",
+      "file": "25_p.txt",
+      "count": 800,
+      "attempts": 2636
+    },
+    {
+      "unlockCount": 25,
+      "focus": "m",
+      "file": "25_m.txt",
+      "count": 800,
+      "attempts": 2930
+    },
+    {
+      "unlockCount": 25,
+      "focus": "k",
+      "file": "25_k.txt",
+      "count": 800,
+      "attempts": 61168
+    },
+    {
+      "unlockCount": 25,
+      "focus": "b",
+      "file": "25_b.txt",
+      "count": 800,
+      "attempts": 3736
+    },
+    {
+      "unlockCount": 25,
+      "focus": "w",
+      "file": "25_w.txt",
+      "count": 800,
+      "attempts": 7665
+    },
+    {
+      "unlockCount": 25,
+      "focus": "f",
+      "file": "25_f.txt",
+      "count": 800,
+      "attempts": 5442
+    },
+    {
+      "unlockCount": 25,
+      "focus": "z",
+      "file": "25_z.txt",
+      "count": 800,
+      "attempts": 12589
+    },
+    {
+      "unlockCount": 25,
+      "focus": "v",
+      "file": "25_v.txt",
+      "count": 800,
+      "attempts": 5278
+    },
+    {
+      "unlockCount": 25,
+      "focus": "x",
+      "file": "25_x.txt",
+      "count": 800,
+      "attempts": 7517
+    },
+    {
+      "unlockCount": 25,
+      "focus": "q",
+      "file": "25_q.txt",
+      "count": 800,
+      "attempts": 2412
+    },
+    {
+      "unlockCount": 26,
+      "focus": "e",
+      "file": "26_e.txt",
+      "count": 800,
+      "attempts": 3008
+    },
+    {
+      "unlockCount": 26,
+      "focus": "n",
+      "file": "26_n.txt",
+      "count": 800,
+      "attempts": 3305
+    },
+    {
+      "unlockCount": 26,
+      "focus": "i",
+      "file": "26_i.txt",
+      "count": 800,
+      "attempts": 2234
+    },
+    {
+      "unlockCount": 26,
+      "focus": "a",
+      "file": "26_a.txt",
+      "count": 800,
+      "attempts": 2043
+    },
+    {
+      "unlockCount": 26,
+      "focus": "r",
+      "file": "26_r.txt",
+      "count": 800,
+      "attempts": 1866
+    },
+    {
+      "unlockCount": 26,
+      "focus": "l",
+      "file": "26_l.txt",
+      "count": 800,
+      "attempts": 3405
+    },
+    {
+      "unlockCount": 26,
+      "focus": "t",
+      "file": "26_t.txt",
+      "count": 800,
+      "attempts": 3161
+    },
+    {
+      "unlockCount": 26,
+      "focus": "o",
+      "file": "26_o.txt",
+      "count": 800,
+      "attempts": 3152
+    },
+    {
+      "unlockCount": 26,
+      "focus": "s",
+      "file": "26_s.txt",
+      "count": 800,
+      "attempts": 3132
+    },
+    {
+      "unlockCount": 26,
+      "focus": "u",
+      "file": "26_u.txt",
+      "count": 800,
+      "attempts": 2346
+    },
+    {
+      "unlockCount": 26,
+      "focus": "d",
+      "file": "26_d.txt",
+      "count": 800,
+      "attempts": 7949
+    },
+    {
+      "unlockCount": 26,
+      "focus": "y",
+      "file": "26_y.txt",
+      "count": 800,
+      "attempts": 19267
+    },
+    {
+      "unlockCount": 26,
+      "focus": "c",
+      "file": "26_c.txt",
+      "count": 800,
+      "attempts": 2562
+    },
+    {
+      "unlockCount": 26,
+      "focus": "g",
+      "file": "26_g.txt",
+      "count": 800,
+      "attempts": 4655
+    },
+    {
+      "unlockCount": 26,
+      "focus": "h",
+      "file": "26_h.txt",
+      "count": 800,
+      "attempts": 5639
+    },
+    {
+      "unlockCount": 26,
+      "focus": "p",
+      "file": "26_p.txt",
+      "count": 800,
+      "attempts": 2697
+    },
+    {
+      "unlockCount": 26,
+      "focus": "m",
+      "file": "26_m.txt",
+      "count": 800,
+      "attempts": 2645
+    },
+    {
+      "unlockCount": 26,
+      "focus": "k",
+      "file": "26_k.txt",
+      "count": 800,
+      "attempts": 58654
+    },
+    {
+      "unlockCount": 26,
+      "focus": "b",
+      "file": "26_b.txt",
+      "count": 800,
+      "attempts": 3640
+    },
+    {
+      "unlockCount": 26,
+      "focus": "w",
+      "file": "26_w.txt",
+      "count": 800,
+      "attempts": 8750
+    },
+    {
+      "unlockCount": 26,
+      "focus": "f",
+      "file": "26_f.txt",
+      "count": 800,
+      "attempts": 4810
+    },
+    {
+      "unlockCount": 26,
+      "focus": "z",
+      "file": "26_z.txt",
+      "count": 800,
+      "attempts": 12982
+    },
+    {
+      "unlockCount": 26,
+      "focus": "v",
+      "file": "26_v.txt",
+      "count": 800,
+      "attempts": 4996
+    },
+    {
+      "unlockCount": 26,
+      "focus": "x",
+      "file": "26_x.txt",
+      "count": 800,
+      "attempts": 8290
+    },
+    {
+      "unlockCount": 26,
+      "focus": "q",
+      "file": "26_q.txt",
+      "count": 800,
+      "attempts": 2405
+    },
+    {
+      "unlockCount": 26,
+      "focus": "j",
+      "file": "26_j.txt",
+      "count": 800,
+      "attempts": 13020
+    }
+  ],
+  "totalWords": 267768
+}
