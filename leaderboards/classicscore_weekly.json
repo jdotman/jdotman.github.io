@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-06-08T16:50:45Z",
-  "records": []
+  "fetched_at": "2026-06-09T03:20:02Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "Cloudy",
+      "owner_id": "016e0a90-31ac-4a0a-81f8-b80139312dca",
+      "score": 79188,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 62.166030534351165, \"level\": 29, \"accuracy\": 0.9636835278858625, \"elapsedMs\": 577761.4, \"startedAtMs\": 1780974192590.6}",
+      "create_time": "2026-06-09T03:12:51Z",
+      "update_time": "2026-06-09T03:12:51Z",
+      "steam_id": "76561198420552392",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/d119ee8ae3a053840ffe91d94c68a5bd916d45ab_medium.jpg"
+    }
+  ]
 }
