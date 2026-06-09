@@ -1,28 +1,32 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-05-08T02:18:35Z",
+  "fetched_at": "2026-06-09T15:35:14Z",
   "records": [
     {
       "rank": 1,
-      "username": "Sholee",
-      "owner_id": "bc5c9d93-2359-42a5-bb81-618d97693d8c",
-      "score": 204499,
+      "username": "Cloudy",
+      "owner_id": "016e0a90-31ac-4a0a-81f8-b80139312dca",
+      "score": 79188,
       "subscore": null,
       "num_score": 1,
-      "metadata": "{\"wpm\": 64.985, \"level\": 37, \"accuracy\": 0.9635652531906134, \"elapsedMs\": 937755.3999999997, \"startedAtMs\": 1778204647457.6}",
-      "create_time": "2026-05-08T01:59:46Z",
-      "update_time": "2026-05-08T01:59:46Z"
+      "metadata": "{\"wpm\": 62.166030534351165, \"level\": 29, \"accuracy\": 0.9636835278858625, \"elapsedMs\": 577761.4, \"startedAtMs\": 1780974192590.6}",
+      "create_time": "2026-06-09T03:12:51Z",
+      "update_time": "2026-06-09T03:12:51Z",
+      "steam_id": "76561198420552392",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/d119ee8ae3a053840ffe91d94c68a5bd916d45ab_medium.jpg"
     },
     {
       "rank": 2,
-      "username": "J.Man",
-      "owner_id": "7b87943f-e3d8-4a86-addd-96a5de68299e",
-      "score": 2293,
+      "username": "CheckpointVibes",
+      "owner_id": "3659dcb6-c646-4c06-b04d-3632a0933e31",
+      "score": 77209,
       "subscore": null,
-      "num_score": 2,
-      "metadata": "{\"wpm\": 95.33333333333333, \"level\": 4, \"accuracy\": 0.9545454545454546, \"elapsedMs\": 13241, \"startedAtMs\": 1778169505590}",
-      "create_time": "2026-05-07T01:21:54Z",
-      "update_time": "2026-05-07T15:58:39Z"
+      "num_score": 1,
+      "metadata": "{\"wpm\": 46.04040322580646, \"level\": 24, \"accuracy\": 0.9634361233480176, \"elapsedMs\": 569133.5000000001, \"startedAtMs\": 1781005180006.5}",
+      "create_time": "2026-06-09T11:49:11Z",
+      "update_time": "2026-06-09T11:49:11Z",
+      "steam_id": "76561198275840591",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/f4f2fc58620a769dfcc51defda89ed5cb8fa7d75_medium.jpg"
     }
   ]
 }
