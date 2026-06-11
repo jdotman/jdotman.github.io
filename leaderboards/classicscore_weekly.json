@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-06-10T23:40:03Z",
+  "fetched_at": "2026-06-11T03:10:02Z",
   "records": [
     {
       "rank": 1,
@@ -30,6 +30,19 @@
     },
     {
       "rank": 3,
+      "username": "LadyoftheDevils",
+      "owner_id": "1ec157ec-c6f1-497f-be8f-a8359ba49363",
+      "score": 77050,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 50.55121794871796, \"level\": 28, \"accuracy\": 0.9629268292682926, \"elapsedMs\": 710545.0000000002, \"startedAtMs\": 1781146283455}",
+      "create_time": "2026-06-11T03:03:13Z",
+      "update_time": "2026-06-11T03:03:13Z",
+      "steam_id": "76561198122956820",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/ff14a9e3e09f10dee5aa8f996c5f28001251cbb2_medium.jpg"
+    },
+    {
+      "rank": 4,
       "username": "Bastampede",
       "owner_id": "85db391f-e8c8-4f9e-bee5-e4ec00e60316",
       "score": 52756,
