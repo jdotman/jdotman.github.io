@@ -1,97 +1,28 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-06-12T19:00:12Z",
+  "fetched_at": "2026-05-08T02:18:35Z",
   "records": [
     {
       "rank": 1,
-      "username": "StriveFPS",
-      "owner_id": "ad7f5d9e-9428-4dd1-a9ba-7933324f688f",
-      "score": 93682,
+      "username": "Sholee",
+      "owner_id": "bc5c9d93-2359-42a5-bb81-618d97693d8c",
+      "score": 204499,
       "subscore": null,
-      "num_score": 2,
-      "metadata": "{\"wpm\": 46.853883495145645, \"level\": 30, \"accuracy\": 0.9613539445628998, \"elapsedMs\": 955695.3000000003, \"startedAtMs\": 1781230352984.7}",
-      "create_time": "2026-06-12T01:57:57Z",
-      "update_time": "2026-06-12T02:28:05Z",
-      "steam_id": "76561198216417331",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/87f2a0eec26c94c1d37d65e54d9ddfa2fa232359_medium.jpg"
+      "num_score": 1,
+      "metadata": "{\"wpm\": 64.985, \"level\": 37, \"accuracy\": 0.9635652531906134, \"elapsedMs\": 937755.3999999997, \"startedAtMs\": 1778204647457.6}",
+      "create_time": "2026-05-08T01:59:46Z",
+      "update_time": "2026-05-08T01:59:46Z"
     },
     {
       "rank": 2,
-      "username": "Cloudy",
-      "owner_id": "016e0a90-31ac-4a0a-81f8-b80139312dca",
-      "score": 79188,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 62.166030534351165, \"level\": 29, \"accuracy\": 0.9636835278858625, \"elapsedMs\": 577761.4, \"startedAtMs\": 1780974192590.6}",
-      "create_time": "2026-06-09T03:12:51Z",
-      "update_time": "2026-06-09T03:12:51Z",
-      "steam_id": "76561198420552392",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/d119ee8ae3a053840ffe91d94c68a5bd916d45ab_medium.jpg"
-    },
-    {
-      "rank": 3,
-      "username": "CheckpointVibes",
-      "owner_id": "3659dcb6-c646-4c06-b04d-3632a0933e31",
-      "score": 77209,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 46.04040322580646, \"level\": 24, \"accuracy\": 0.9634361233480176, \"elapsedMs\": 569133.5000000001, \"startedAtMs\": 1781005180006.5}",
-      "create_time": "2026-06-09T11:49:11Z",
-      "update_time": "2026-06-09T11:49:11Z",
-      "steam_id": "76561198275840591",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/f4f2fc58620a769dfcc51defda89ed5cb8fa7d75_medium.jpg"
-    },
-    {
-      "rank": 4,
-      "username": "LadyoftheDevils",
-      "owner_id": "1ec157ec-c6f1-497f-be8f-a8359ba49363",
-      "score": 77050,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 50.55121794871796, \"level\": 28, \"accuracy\": 0.9629268292682926, \"elapsedMs\": 710545.0000000002, \"startedAtMs\": 1781146283455}",
-      "create_time": "2026-06-11T03:03:13Z",
-      "update_time": "2026-06-11T03:03:13Z",
-      "steam_id": "76561198122956820",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/ff14a9e3e09f10dee5aa8f996c5f28001251cbb2_medium.jpg"
-    },
-    {
-      "rank": 5,
       "username": "J.Man",
-      "owner_id": "734152d5-43ea-4762-ac7c-6f91bcd7d9ab",
-      "score": 57736,
+      "owner_id": "7b87943f-e3d8-4a86-addd-96a5de68299e",
+      "score": 2293,
       "subscore": null,
-      "num_score": 3,
-      "metadata": "{\"wpm\": 105.0782857142857, \"level\": 17, \"accuracy\": 0.9698841698841699, \"elapsedMs\": 166682.50000003574, \"startedAtMs\": 1781290631039.5}",
-      "create_time": "2026-06-11T16:35:51Z",
-      "update_time": "2026-06-12T19:00:00Z",
-      "steam_id": "76561197976856083",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/0ec566e853a68fd7605cd18cb5d30ce332960596_medium.jpg"
-    },
-    {
-      "rank": 6,
-      "username": "Bastampede",
-      "owner_id": "85db391f-e8c8-4f9e-bee5-e4ec00e60316",
-      "score": 52756,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 55.62070796460176, \"level\": 24, \"accuracy\": 0.9320113314447592, \"elapsedMs\": 513466.4, \"startedAtMs\": 1781134267775.6}",
-      "create_time": "2026-06-10T23:39:48Z",
-      "update_time": "2026-06-10T23:39:48Z",
-      "steam_id": "76561198354270160",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/f331e3e668e2366f43d768cd0ee179a0ba06d10a_medium.jpg"
-    },
-    {
-      "rank": 7,
-      "username": "destroyer18773",
-      "owner_id": "a6a12aca-897f-4cb8-a1a0-0bfa035e03bc",
-      "score": 8057,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 22.6203448275862, \"level\": 10, \"accuracy\": 0.8846846846846846, \"elapsedMs\": 266669.0000000715, \"startedAtMs\": 1781152814539}",
-      "create_time": "2026-06-11T04:42:53Z",
-      "update_time": "2026-06-11T04:42:53Z",
-      "steam_id": "76561199139828708",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
+      "num_score": 2,
+      "metadata": "{\"wpm\": 95.33333333333333, \"level\": 4, \"accuracy\": 0.9545454545454546, \"elapsedMs\": 13241, \"startedAtMs\": 1778169505590}",
+      "create_time": "2026-05-07T01:21:54Z",
+      "update_time": "2026-05-07T15:58:39Z"
     }
   ]
 }
