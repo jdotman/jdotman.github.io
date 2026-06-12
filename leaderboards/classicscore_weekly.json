@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-06-12T02:00:13Z",
+  "fetched_at": "2026-06-12T02:30:08Z",
   "records": [
     {
       "rank": 1,
+      "username": "StriveFPS",
+      "owner_id": "ad7f5d9e-9428-4dd1-a9ba-7933324f688f",
+      "score": 93682,
+      "subscore": null,
+      "num_score": 2,
+      "metadata": "{\"wpm\": 46.853883495145645, \"level\": 30, \"accuracy\": 0.9613539445628998, \"elapsedMs\": 955695.3000000003, \"startedAtMs\": 1781230352984.7}",
+      "create_time": "2026-06-12T01:57:57Z",
+      "update_time": "2026-06-12T02:28:05Z",
+      "steam_id": "76561198216417331",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/87f2a0eec26c94c1d37d65e54d9ddfa2fa232359_medium.jpg"
+    },
+    {
+      "rank": 2,
       "username": "Cloudy",
       "owner_id": "016e0a90-31ac-4a0a-81f8-b80139312dca",
       "score": 79188,
@@ -16,7 +29,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/d119ee8ae3a053840ffe91d94c68a5bd916d45ab_medium.jpg"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "username": "CheckpointVibes",
       "owner_id": "3659dcb6-c646-4c06-b04d-3632a0933e31",
       "score": 77209,
@@ -29,7 +42,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/f4f2fc58620a769dfcc51defda89ed5cb8fa7d75_medium.jpg"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "username": "LadyoftheDevils",
       "owner_id": "1ec157ec-c6f1-497f-be8f-a8359ba49363",
       "score": 77050,
@@ -40,19 +53,6 @@
       "update_time": "2026-06-11T03:03:13Z",
       "steam_id": "76561198122956820",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/ff14a9e3e09f10dee5aa8f996c5f28001251cbb2_medium.jpg"
-    },
-    {
-      "rank": 4,
-      "username": "StriveFPS",
-      "owner_id": "ad7f5d9e-9428-4dd1-a9ba-7933324f688f",
-      "score": 53891,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 48.41524475524477, \"level\": 25, \"accuracy\": 0.9403377110694184, \"elapsedMs\": 651266.5999999997, \"startedAtMs\": 1781228850172.4}",
-      "create_time": "2026-06-12T01:57:57Z",
-      "update_time": "2026-06-12T01:57:57Z",
-      "steam_id": "76561198216417331",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/87f2a0eec26c94c1d37d65e54d9ddfa2fa232359_medium.jpg"
     },
     {
       "rank": 5,
