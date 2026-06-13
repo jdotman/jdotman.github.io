@@ -1,19 +1,5 @@
 {
   "leaderboard_id": "ClassicExpertScoreDaily",
-  "fetched_at": "2026-06-12T19:03:00Z",
-  "records": [
-    {
-      "rank": 1,
-      "username": "Umbra",
-      "owner_id": "b871a599-d51e-4b97-9aa7-d6f57e0ea042",
-      "score": 84233,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 71.24716666666669, \"level\": 18, \"accuracy\": 0.9568020631850419, \"elapsedMs\": 259939.20000000007, \"startedAtMs\": 1781260622529.8}",
-      "create_time": "2026-06-12T10:41:25Z",
-      "update_time": "2026-06-12T10:41:25Z",
-      "steam_id": "76561198989286049",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/f3629e432f0476fa2ddca3f204dbb57277538b7e_medium.jpg"
-    }
-  ]
+  "fetched_at": "2026-06-13T08:00:01Z",
+  "records": []
 }
