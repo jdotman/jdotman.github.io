@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-06-12T19:10:08Z",
+  "fetched_at": "2026-06-13T21:30:07Z",
   "records": [
     {
       "rank": 1,
@@ -17,6 +17,19 @@
     },
     {
       "rank": 2,
+      "username": "LadyoftheDevils",
+      "owner_id": "1ec157ec-c6f1-497f-be8f-a8359ba49363",
+      "score": 90527,
+      "subscore": null,
+      "num_score": 2,
+      "metadata": "{\"wpm\": 52.13298611111113, \"level\": 26, \"accuracy\": 0.9706183805944654, \"elapsedMs\": 667311.4999999999, \"startedAtMs\": 1781385092806.5}",
+      "create_time": "2026-06-11T03:03:13Z",
+      "update_time": "2026-06-13T21:22:39Z",
+      "steam_id": "76561198122956820",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/ff14a9e3e09f10dee5aa8f996c5f28001251cbb2_medium.jpg"
+    },
+    {
+      "rank": 3,
       "username": "Cloudy",
       "owner_id": "016e0a90-31ac-4a0a-81f8-b80139312dca",
       "score": 79188,
@@ -29,7 +42,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/d119ee8ae3a053840ffe91d94c68a5bd916d45ab_medium.jpg"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "username": "CheckpointVibes",
       "owner_id": "3659dcb6-c646-4c06-b04d-3632a0933e31",
       "score": 77209,
@@ -40,19 +53,6 @@
       "update_time": "2026-06-09T11:49:11Z",
       "steam_id": "76561198275840591",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/f4f2fc58620a769dfcc51defda89ed5cb8fa7d75_medium.jpg"
-    },
-    {
-      "rank": 4,
-      "username": "LadyoftheDevils",
-      "owner_id": "1ec157ec-c6f1-497f-be8f-a8359ba49363",
-      "score": 77050,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 50.55121794871796, \"level\": 28, \"accuracy\": 0.9629268292682926, \"elapsedMs\": 710545.0000000002, \"startedAtMs\": 1781146283455}",
-      "create_time": "2026-06-11T03:03:13Z",
-      "update_time": "2026-06-11T03:03:13Z",
-      "steam_id": "76561198122956820",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/ff14a9e3e09f10dee5aa8f996c5f28001251cbb2_medium.jpg"
     },
     {
       "rank": 5,
