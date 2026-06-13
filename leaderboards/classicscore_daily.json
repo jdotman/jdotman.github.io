@@ -1,17 +1,17 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-06-13T21:30:01Z",
+  "fetched_at": "2026-06-13T21:50:01Z",
   "records": [
     {
       "rank": 1,
       "username": "LadyoftheDevils",
       "owner_id": "1ec157ec-c6f1-497f-be8f-a8359ba49363",
-      "score": 90527,
+      "score": 103691,
       "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 52.13298611111113, \"level\": 26, \"accuracy\": 0.9706183805944654, \"elapsedMs\": 667311.4999999999, \"startedAtMs\": 1781385092806.5}",
+      "num_score": 2,
+      "metadata": "{\"wpm\": 50.85264550264552, \"level\": 31, \"accuracy\": 0.9666755531858171, \"elapsedMs\": 871756.2000000012, \"startedAtMs\": 1781386147706.8}",
       "create_time": "2026-06-13T21:22:39Z",
-      "update_time": "2026-06-13T21:22:39Z",
+      "update_time": "2026-06-13T21:43:37Z",
       "steam_id": "76561198122956820",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/ff14a9e3e09f10dee5aa8f996c5f28001251cbb2_medium.jpg"
     },
