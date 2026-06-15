@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-06-15T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-06-15T15:50:02Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "zerograymatter221",
+      "owner_id": "fa48dc6e-cdb9-4138-8d80-99cef7e687b1",
+      "score": 1546,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 31.269999999999992, \"level\": 4, \"accuracy\": 0.8861788617886179, \"elapsedMs\": 41379.5, \"startedAtMs\": 1781538159422.5}",
+      "create_time": "2026-06-15T15:43:22Z",
+      "update_time": "2026-06-15T15:43:22Z",
+      "steam_id": "76561198231314008",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/8f6916be3dcc60a0c3e9391276bce389a138b83a_medium.jpg"
+    }
+  ]
 }
