@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicExpertScoreDaily",
-  "fetched_at": "2026-06-17T08:00:06Z",
-  "records": []
+  "fetched_at": "2026-06-20T16:33:01Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "allo",
+      "owner_id": "5531f43a-ff3a-46b8-b5eb-854603de4e94",
+      "score": 204544,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 74.04933333333334, \"level\": 22, \"accuracy\": 0.9785772029102667, \"elapsedMs\": 408222.70000014297, \"startedAtMs\": 1781972610071.3}",
+      "create_time": "2026-06-20T16:30:21Z",
+      "update_time": "2026-06-20T16:30:21Z",
+      "steam_id": "76561198028309019",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/a98562f84af9f58b48c4d5b69f0992900510e7e3_medium.jpg"
+    }
+  ]
 }
