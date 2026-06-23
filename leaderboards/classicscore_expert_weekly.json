@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicExpertScoreWeekly",
-  "fetched_at": "2026-06-22T08:00:02Z",
-  "records": []
+  "fetched_at": "2026-06-23T22:33:01Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "Bastampede",
+      "owner_id": "85db391f-e8c8-4f9e-bee5-e4ec00e60316",
+      "score": 60760,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 54.66725490196078, \"level\": 14, \"accuracy\": 0.9481915933528837, \"elapsedMs\": 218232.90000000008, \"startedAtMs\": 1782253687984.1}",
+      "create_time": "2026-06-23T22:31:51Z",
+      "update_time": "2026-06-23T22:31:51Z",
+      "steam_id": "76561198354270160",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/f331e3e668e2366f43d768cd0ee179a0ba06d10a_medium.jpg"
+    }
+  ]
 }
