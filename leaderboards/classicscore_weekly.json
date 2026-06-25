@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-06-22T08:00:02Z",
-  "records": []
+  "fetched_at": "2026-06-25T02:40:02Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "StriveFPS",
+      "owner_id": "ad7f5d9e-9428-4dd1-a9ba-7933324f688f",
+      "score": 99451,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 49.88599999999999, \"level\": 28, \"accuracy\": 0.9607544873745056, \"elapsedMs\": 796461.5000000002, \"startedAtMs\": 1782354314276.5}",
+      "create_time": "2026-06-25T02:37:54Z",
+      "update_time": "2026-06-25T02:37:54Z",
+      "steam_id": "76561198216417331",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/87f2a0eec26c94c1d37d65e54d9ddfa2fa232359_medium.jpg"
+    }
+  ]
 }
