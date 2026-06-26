@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicExpertScoreWeekly",
-  "fetched_at": "2026-06-25T18:44:02Z",
+  "fetched_at": "2026-06-26T23:55:02Z",
   "records": [
     {
       "rank": 1,
+      "username": "allo",
+      "owner_id": "5531f43a-ff3a-46b8-b5eb-854603de4e94",
+      "score": 192768,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 87.38735632183909, \"level\": 23, \"accuracy\": 0.977119279819955, \"elapsedMs\": 380326.19999994047, \"startedAtMs\": 1782517659720.8}",
+      "create_time": "2026-06-26T23:54:01Z",
+      "update_time": "2026-06-26T23:54:01Z",
+      "steam_id": "76561198028309019",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/a98562f84af9f58b48c4d5b69f0992900510e7e3_medium.jpg"
+    },
+    {
+      "rank": 2,
       "username": "kC",
       "owner_id": "fea50cbd-effd-43e0-95a0-10300e1f5722",
       "score": 127952,
@@ -16,7 +29,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/59305ce329204cff4d0370a0ce4f1bd025758cec_medium.jpg"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "username": "Bastampede",
       "owner_id": "85db391f-e8c8-4f9e-bee5-e4ec00e60316",
       "score": 60760,
