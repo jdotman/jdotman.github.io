@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicExpertScoreDaily",
-  "fetched_at": "2026-06-26T23:55:01Z",
+  "fetched_at": "2026-06-27T01:22:02Z",
   "records": [
     {
       "rank": 1,
@@ -14,6 +14,19 @@
       "update_time": "2026-06-26T23:54:01Z",
       "steam_id": "76561198028309019",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/a98562f84af9f58b48c4d5b69f0992900510e7e3_medium.jpg"
+    },
+    {
+      "rank": 2,
+      "username": "Sholee",
+      "owner_id": "bc5c9d93-2359-42a5-bb81-618d97693d8c",
+      "score": 141158,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 68.92454545454548, \"level\": 21, \"accuracy\": 0.9589468987059349, \"elapsedMs\": 384376.3, \"startedAtMs\": 1782522290306.7}",
+      "create_time": "2026-06-27T01:11:17Z",
+      "update_time": "2026-06-27T01:11:17Z",
+      "steam_id": "76561198039817211",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/9b732621e0f4605c0b05bcdf740ebf36cfca6b6e_medium.jpg"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicExpertScoreWeekly",
-  "fetched_at": "2026-06-26T23:55:02Z",
+  "fetched_at": "2026-06-27T01:22:02Z",
   "records": [
     {
       "rank": 1,
@@ -17,6 +17,19 @@
     },
     {
       "rank": 2,
+      "username": "Sholee",
+      "owner_id": "bc5c9d93-2359-42a5-bb81-618d97693d8c",
+      "score": 141158,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 68.92454545454548, \"level\": 21, \"accuracy\": 0.9589468987059349, \"elapsedMs\": 384376.3, \"startedAtMs\": 1782522290306.7}",
+      "create_time": "2026-06-27T01:11:17Z",
+      "update_time": "2026-06-27T01:11:17Z",
+      "steam_id": "76561198039817211",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/9b732621e0f4605c0b05bcdf740ebf36cfca6b6e_medium.jpg"
+    },
+    {
+      "rank": 3,
       "username": "kC",
       "owner_id": "fea50cbd-effd-43e0-95a0-10300e1f5722",
       "score": 127952,
@@ -29,7 +42,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/59305ce329204cff4d0370a0ce4f1bd025758cec_medium.jpg"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "username": "Bastampede",
       "owner_id": "85db391f-e8c8-4f9e-bee5-e4ec00e60316",
       "score": 60760,
