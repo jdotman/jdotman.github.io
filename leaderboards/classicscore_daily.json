@@ -1,19 +1,5 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-06-28T03:10:01Z",
-  "records": [
-    {
-      "rank": 1,
-      "username": "SsjAssassin-96",
-      "owner_id": "19f8fa5d-b3a8-412a-8ec4-01ac3bf99e9f",
-      "score": 7896,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 15.817903225806452, \"level\": 9, \"accuracy\": 0.937984496124031, \"elapsedMs\": 304872.00000000006, \"startedAtMs\": 1782615542730}",
-      "create_time": "2026-06-28T03:04:11Z",
-      "update_time": "2026-06-28T03:04:11Z",
-      "steam_id": "76561199012467705",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/f41ede20d96fcc9713709bd2bde664e70f457c16_medium.jpg"
-    }
-  ]
+  "fetched_at": "2026-06-28T08:00:01Z",
+  "records": []
 }
