@@ -1,32 +1,5 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-06-29T06:20:01Z",
-  "records": [
-    {
-      "rank": 1,
-      "username": "SsjAssassin-96",
-      "owner_id": "19f8fa5d-b3a8-412a-8ec4-01ac3bf99e9f",
-      "score": 5596,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 15.762291666666668, \"level\": 7, \"accuracy\": 0.8855218855218855, \"elapsedMs\": 237887.6000000002, \"startedAtMs\": 1782656500602.4}",
-      "create_time": "2026-06-28T14:25:40Z",
-      "update_time": "2026-06-28T14:25:40Z",
-      "steam_id": "76561199012467705",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/f41ede20d96fcc9713709bd2bde664e70f457c16_medium.jpg"
-    },
-    {
-      "rank": 2,
-      "username": "mkbuwf",
-      "owner_id": "fcfaf76c-0db0-411e-b130-30305a198553",
-      "score": 1898,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 15.466, \"level\": 3, \"accuracy\": 1, \"elapsedMs\": 31481.8, \"startedAtMs\": 1782713515321.2}",
-      "create_time": "2026-06-29T06:12:34Z",
-      "update_time": "2026-06-29T06:12:34Z",
-      "steam_id": "76561198703409304",
-      "avatar_medium": null
-    }
-  ]
+  "fetched_at": "2026-06-29T08:10:01Z",
+  "records": []
 }
