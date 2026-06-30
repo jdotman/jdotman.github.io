@@ -12,6 +12,7 @@ adder
 address
 adverse
 after
+afterward
 age
 aged
 ages
@@ -56,6 +57,7 @@ bagged
 bags
 bar
 bare
+barred
 bars
 base
 based
@@ -110,11 +112,13 @@ brewed
 brews
 cab
 cabaret
+cabbage
 cabs
 cage
 caged
 cages
 car
+carafe
 card
 cards
 care
@@ -128,6 +132,7 @@ carve
 carved
 case
 cases
+cassava
 cast
 caste
 caster
@@ -201,6 +206,8 @@ decade
 decades
 decrease
 decreased
+decree
+decreed
 deed
 deeds
 deer
@@ -231,6 +238,7 @@ dew
 drab
 draft
 drafted
+draftee
 drafter
 drafters
 drafts
@@ -332,6 +340,7 @@ freezers
 freezes
 fretted
 gaffe
+garage
 gas
 gate
 gated
@@ -377,6 +386,7 @@ graze
 grazed
 grazer
 grazers
+grease
 greased
 great
 greater
@@ -439,6 +449,8 @@ restarts
 rested
 retrace
 retraced
+retreat
+retreated
 rev
 reward
 rewarded
@@ -469,10 +481,12 @@ screw
 screwed
 screws
 sea
+seabed
 sear
 seat
 seated
 seats
+seaward
 secret
 secrets
 sect
@@ -524,7 +538,10 @@ steer
 steered
 stew
 steward
+stewardess
+stewardesses
 stewards
+stewed
 straw
 street
 streets
@@ -536,6 +553,8 @@ swear
 swears
 sweat
 sweated
+sweater
+sweaters
 sweats
 sweet
 swerve

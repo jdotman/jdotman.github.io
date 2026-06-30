@@ -2009,7 +2009,6 @@ culture
 current
 dealing
 declare
-defence
 defined
 deliver
 demand
