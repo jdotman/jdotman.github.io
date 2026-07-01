@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicExpertScoreDaily",
-  "fetched_at": "2026-07-01T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-07-01T21:33:01Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "nikola tensor",
+      "owner_id": "4ff18b8e-be64-4039-b71a-cf2ca1a0e8e3",
+      "score": 123612,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 72.54516483516483, \"level\": 22, \"accuracy\": 0.9564522572912505, \"elapsedMs\": 402513.89999999997, \"startedAtMs\": 1782940843377.1}",
+      "create_time": "2026-07-01T21:27:24Z",
+      "update_time": "2026-07-01T21:27:24Z",
+      "steam_id": "76561199102199089",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/b2a3bb9e20a87f3ae7b0b31cfc5af79f640e61a1_medium.jpg"
+    }
+  ]
 }
