@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-06-30T17:07:10Z",
+  "fetched_at": "2026-07-01T02:10:02Z",
   "records": [
     {
       "rank": 1,
+      "username": "StriveFPS",
+      "owner_id": "ad7f5d9e-9428-4dd1-a9ba-7933324f688f",
+      "score": 70573,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 49.36177215189873, \"level\": 27, \"accuracy\": 0.9580078125, \"elapsedMs\": 727018.1999999997, \"startedAtMs\": 1782870919613.8}",
+      "create_time": "2026-07-01T02:07:23Z",
+      "update_time": "2026-07-01T02:07:23Z",
+      "steam_id": "76561198216417331",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/87f2a0eec26c94c1d37d65e54d9ddfa2fa232359_medium.jpg"
+    },
+    {
+      "rank": 2,
       "username": "J.Man",
       "owner_id": "734152d5-43ea-4762-ac7c-6f91bcd7d9ab",
       "score": 11238,
