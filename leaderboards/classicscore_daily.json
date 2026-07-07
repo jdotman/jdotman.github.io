@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-07-07T06:50:02Z",
+  "fetched_at": "2026-07-07T07:00:12Z",
   "records": [
     {
       "rank": 1,
@@ -17,6 +17,19 @@
     },
     {
       "rank": 2,
+      "username": "mkbuwf",
+      "owner_id": "fcfaf76c-0db0-411e-b130-30305a198553",
+      "score": 13070,
+      "subscore": null,
+      "num_score": 3,
+      "metadata": "{\"wpm\": 16.645, \"level\": 6, \"accuracy\": 0.9854368932038835, \"elapsedMs\": 140958.60000000015, \"startedAtMs\": 1783406938393.4}",
+      "create_time": "2026-07-07T06:43:31Z",
+      "update_time": "2026-07-07T06:51:20Z",
+      "steam_id": "76561198703409304",
+      "avatar_medium": null
+    },
+    {
+      "rank": 3,
       "username": "Indiana James",
       "owner_id": "bb6d77c8-6909-45d4-b133-319c3453b086",
       "score": 12676,
@@ -27,19 +40,6 @@
       "update_time": "2026-07-07T04:30:20Z",
       "steam_id": "76561198274928972",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/d4241e875ba13aa446768318b85634b3e8bf0b1f_medium.jpg"
-    },
-    {
-      "rank": 3,
-      "username": "mkbuwf",
-      "owner_id": "fcfaf76c-0db0-411e-b130-30305a198553",
-      "score": 7719,
-      "subscore": null,
-      "num_score": 2,
-      "metadata": "{\"wpm\": 15.782727272727277, \"level\": 7, \"accuracy\": 0.9441340782122905, \"elapsedMs\": 174040.19999999995, \"startedAtMs\": 1783406695670.8}",
-      "create_time": "2026-07-07T06:43:31Z",
-      "update_time": "2026-07-07T06:47:50Z",
-      "steam_id": "76561198703409304",
-      "avatar_medium": null
     },
     {
       "rank": 4,
