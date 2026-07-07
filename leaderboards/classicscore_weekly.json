@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-07-06T21:50:02Z",
+  "fetched_at": "2026-07-07T01:20:02Z",
   "records": [
     {
       "rank": 1,
@@ -30,6 +30,19 @@
     },
     {
       "rank": 3,
+      "username": "destroyer18773",
+      "owner_id": "a6a12aca-897f-4cb8-a1a0-0bfa035e03bc",
+      "score": 5081,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 32.109500000000004, \"level\": 6, \"accuracy\": 0.8444444444444444, \"elapsedMs\": 90483.7, \"startedAtMs\": 1783387057616.3}",
+      "create_time": "2026-07-07T01:17:01Z",
+      "update_time": "2026-07-07T01:17:01Z",
+      "steam_id": "76561199139828708",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
+    },
+    {
+      "rank": 4,
       "username": "beyblaster",
       "owner_id": "4a4e0aef-fd57-4c36-8adb-381cfb328b0c",
       "score": 2672,
