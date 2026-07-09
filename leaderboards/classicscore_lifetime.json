@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreLifetime",
-  "fetched_at": "2026-07-09T23:10:03Z",
+  "fetched_at": "2026-07-09T23:20:09Z",
   "records": [
     {
       "rank": 1,
@@ -52,7 +52,7 @@
       "create_time": "2026-06-03T06:54:47Z",
       "update_time": "2026-06-03T06:54:47Z",
       "steam_id": "76561198141880181",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/c4b75bdd0d7f9e56d992e64037cab5ed4245bb2b_medium.jpg"
+      "avatar_medium": null
     },
     {
       "rank": 5,
@@ -65,7 +65,7 @@
       "create_time": "2026-05-15T13:21:16Z",
       "update_time": "2026-05-15T13:21:16Z",
       "steam_id": "76561199121820839",
-      "avatar_medium": null
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/cff11a8a03adfec7d1a981aab5dc8731993b389d_medium.jpg"
     },
     {
       "rank": 6,
@@ -78,7 +78,7 @@
       "create_time": "2026-05-31T07:10:10Z",
       "update_time": "2026-05-31T07:10:10Z",
       "steam_id": "76561198064806577",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/c01873488a4908993aef80bf5e8871df10027f71_medium.jpg"
+      "avatar_medium": null
     },
     {
       "rank": 7,
@@ -91,7 +91,7 @@
       "create_time": "2026-05-19T11:28:06Z",
       "update_time": "2026-06-14T22:28:25Z",
       "steam_id": "76561198216417331",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/87f2a0eec26c94c1d37d65e54d9ddfa2fa232359_medium.jpg"
+      "avatar_medium": null
     },
     {
       "rank": 8,
@@ -117,7 +117,7 @@
       "create_time": "2026-05-14T20:23:32Z",
       "update_time": "2026-05-14T20:23:32Z",
       "steam_id": "76561197967525300",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
+      "avatar_medium": null
     },
     {
       "rank": 10,
@@ -130,7 +130,7 @@
       "create_time": "2026-05-26T11:06:56Z",
       "update_time": "2026-06-13T21:43:37Z",
       "steam_id": "76561198122956820",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/ff14a9e3e09f10dee5aa8f996c5f28001251cbb2_medium.jpg"
+      "avatar_medium": null
     }
   ]
 }
