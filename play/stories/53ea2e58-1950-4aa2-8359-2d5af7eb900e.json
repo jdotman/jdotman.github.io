@@ -487,5 +487,7 @@
         "action": "take Tam's hand and run"
       }
     }
-  }
+  },
+  "endingCount": 10,
+  "storyNumber": 24
 }

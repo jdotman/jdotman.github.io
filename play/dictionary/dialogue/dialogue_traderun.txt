@@ -1,51 +1,51 @@
 # Dialogue boss — traderun — 5-7 words
-Load the cart back up.
+Load the last crate and mount up.
 We should reach the post today.
-The caravan must stay on the road.
-The next post is close.
-The wagon tracks get deep here.
+Stay together, do not fall behind.
+The next post is close now.
+These ruts will shake the axle loose.
 Check the map before we leave camp.
-Slow down on this section.
-Keep the horses at a trot.
-The wagon wheel sank into the mud.
-That road is very muddy.
-The toll bridge adds extra time.
-Spread the weight evenly across all wagons.
-Water the horses right here.
+Slow down, that ditch is deep.
+Keep the horses at a steady trot.
+A spoke cracked on the back wheel.
+This stretch turns to mud fast.
+The toll keeper wants coin up front.
+Spread the weight evenly across the wagons.
+Water the horses before we push on.
 There is a trading post ahead.
-We'll arrive at the trading post tomorrow!
-Keep the cargo tied down.
-Fill the water barrels before leaving.
+We'll reach the trading post by noon!
+Lash that crate down tighter.
+Fill the barrels before we leave.
 The next rest stop is very far.
-The town is right ahead!
-The caravan stops here for tonight.
+There, the town gates at last!
+We camp here for the night.
 Keep the fastest wagon at the front.
-The road bends left here.
-Guard the cargo through the night.
-One broken wheel stops the whole caravan.
-Rest the horses for now.
-The road east is much faster.
-The mountain pass gets icy in winter.
-We're making good time today.
-It's three days to the next town.
+The trail forks left up ahead.
+Someone needs to watch the cargo tonight.
+One broken wheel stops the whole line.
+Let the horses rest a moment.
+The eastern route saves us a day.
+That pass turns to ice in winter.
+We're making good time, all things considered.
+Three more days to the next town.
 Should we count the goods before payment?
-Tie down that loose crate.
-Load up, we're leaving at dawn.
-I've never seen a smoother trade route.
-Did the gate open yet?
-Scouts report a clear road ahead.
-The innkeeper always saves rooms for traders.
-Count the goods before unloading.
-The next town has a big market.
-Bandits were spotted on the eastern road.
-That bridge looks quite weak.
-Unload the heavy crates here first.
-Put the heavier crates on the bottom.
-Dust on the road ahead.
-We've been on this road before.
-Once we cross the river, we rest.
-Keep moving, we're almost there.
-That shortcut saved us two whole days.
-The river crossing adds half a day.
-The axle needs some grease.
-The trading post closes at sundown.
+That crate keeps sliding, tie it down.
+Move out, we leave at dawn.
+I've never run a smoother trade route.
+Has the gate opened yet?
+Scouts say the road ahead is clear.
+The innkeeper always saves us a room.
+Count everything twice before we unload.
+The next town holds a big market.
+Riders were spotted on the eastern road.
+That old bridge looks ready to give.
+Get the heaviest crates down first.
+Stack the light crates on top.
+That dust cloud worries me a little.
+We have forded this river before.
+Cross the river, then we rest.
+Keep pace, we are almost there.
+That shortcut saved us two full days.
+Fording the river costs half a day.
+Grease that axle before it seizes.
+The trading post shuts at sundown.

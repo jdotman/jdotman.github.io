@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Story Reader</title>
+<style>
+  :root {
+    --bg: #1c1a17;
+    --bg-panel: #24211d;
+    --bg-raised: #2c2822;
+    --border: #423b32;
+    --text: #e8e0d0;
+    --text-dim: #a89c88;
+    --accent: #d9a441;
+    --accent-dim: #8a6a2f;
+    --ending: #7fb787;
+    --ending-bg: #22301f;
+    --danger: #c56a5a;
+    --font-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    --font-read: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  }
+  body.light {
+    --bg: #f6f2e9;
+    --bg-panel: #fffdf8;
+    --bg-raised: #ffffff;
+    --border: #ddd3bd;
+    --text: #2a2520;
+    --text-dim: #6b6155;
+    --accent: #9a6d1e;
+    --accent-dim: #c99a44;
+    --ending: #2f6b3a;
+    --ending-bg: #e4f0e2;
+    --danger: #a13f30;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    font-family: var(--font-ui);
+    background: var(--bg);
+    color: var(--text);
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  /* ── Sidebar ─────────────────────────────────────────── */
+  #sidebar {
+    width: 300px;
+    min-width: 220px;
+    background: var(--bg-panel);
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  #sidebar-toggle {
+    display: none;
+    background: var(--bg-raised);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 5px 11px;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 1.4;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+  #sidebar-backdrop {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 15;
+  }
+  #sidebar-header {
+    padding: 10px 12px 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  #sidebar-header h1 {
+    font-size: 14px;
+    margin: 0 0 8px;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+  #search {
+    width: 100%;
+    padding: 7px 8px;
+    background: var(--bg-raised);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    color: var(--text);
+    font-size: 13px;
+  }
+  #search:focus { outline: 1px solid var(--accent); }
+  #story-count {
+    font-size: 11px;
+    color: var(--text-dim);
+    margin-top: 6px;
+  }
+  #story-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 4px 0;
+  }
+  .story-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-left: 3px solid transparent;
+    font-size: 13px;
+    line-height: 1.35;
+  }
+  .story-item:hover { background: var(--bg-raised); }
+  .story-item.active {
+    background: var(--bg-raised);
+    border-left-color: var(--accent);
+  }
+  .story-item .num {
+    color: var(--text-dim);
+    font-variant-numeric: tabular-nums;
+    margin-right: 6px;
+  }
+  .story-thumb-button {
+    display: block;
+    width: 48px;
+    height: 48px;
+    flex: 0 0 48px;
+    padding: 0;
+    background: var(--bg-raised);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    cursor: zoom-in;
+    overflow: hidden;
+  }
+  .story-thumb-button:hover,
+  .story-thumb-button:focus {
+    border-color: var(--accent);
+    outline: none;
+  }
+  .story-thumb {
+    width: 48px;
+    height: 48px;
+    display: block;
+    object-fit: cover;
+  }
+  .story-copy {
+    min-width: 0;
+  }
+  .story-item .title {
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .story-item .tags {
+    color: var(--text-dim);
+    font-size: 11px;
+    margin-top: 2px;
+  }
+
+  /* ── Main ────────────────────────────────────────────── */
+  #main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+  #topbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 16px;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-panel);
+    flex-shrink: 0;
+  }
+  #topbar .story-title {
+    font-size: 15px;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  #topbar .story-meta {
+    font-size: 11px;
+    color: var(--text-dim);
+    white-space: nowrap;
+  }
+  #topbar .spacer { flex: 1; }
+  button.ctrl {
+    background: var(--bg-raised);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  button.ctrl:hover { border-color: var(--accent-dim); }
+  button.ctrl.active {
+    background: var(--accent-dim);
+    color: #fff;
+    border-color: var(--accent-dim);
+  }
+  button.ctrl:disabled { opacity: 0.4; cursor: default; }
+
+  #content {
+    flex: 1;
+    overflow: auto;
+  }
+  #placeholder {
+    padding: 40px;
+    color: var(--text-dim);
+    font-size: 14px;
+  }
+
+  /* ── Play mode ───────────────────────────────────────── */
+  #play-view {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 28px 28px 80px;
+  }
+  #breadcrumb {
+    font-size: 12px;
+    color: var(--text-dim);
+    margin-bottom: 18px;
+    line-height: 1.8;
+  }
+  #breadcrumb span.crumb {
+    cursor: pointer;
+    border-bottom: 1px dotted var(--text-dim);
+  }
+  #breadcrumb span.crumb:hover { color: var(--accent); }
+  #breadcrumb span.sep { margin: 0 5px; opacity: 0.5; }
+
+  .passage {
+    font-family: var(--font-read);
+    font-size: 19px;
+    line-height: 1.65;
+    white-space: pre-wrap;
+    margin-bottom: 26px;
+  }
+  .node-id-tag {
+    font-family: monospace;
+    font-size: 10px;
+    color: var(--text-dim);
+    opacity: 0.6;
+    margin-bottom: 10px;
+  }
+
+  .choice-btn {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    width: 100%;
+    text-align: left;
+    background: var(--bg-panel);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 12px 14px;
+    border-radius: 7px;
+    font-size: 14.5px;
+    cursor: pointer;
+    margin-bottom: 8px;
+    font-family: var(--font-ui);
+  }
+  .choice-btn:hover {
+    border-color: var(--accent);
+    background: var(--bg-raised);
+  }
+  .choice-btn .key {
+    flex-shrink: 0;
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    min-width: 14px;
+  }
+  .choice-btn .label { flex: 1; }
+  .choice-btn .hint {
+    display: block;
+    font-family: var(--font-read);
+    font-style: italic;
+    color: var(--text-dim);
+    font-size: 13px;
+    margin-top: 3px;
+  }
+
+  .ending-box {
+    background: var(--ending-bg);
+    border: 1px solid var(--ending);
+    border-radius: 8px;
+    padding: 16px 18px;
+    margin-top: 10px;
+  }
+  .ending-box .ending-title {
+    color: var(--ending);
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  .ending-box .ending-flavor {
+    font-family: var(--font-read);
+    font-size: 15.5px;
+    line-height: 1.55;
+  }
+  .ending-box .ending-action {
+    margin-top: 10px;
+    font-size: 12px;
+    color: var(--text-dim);
+    font-family: monospace;
+  }
+
+  #play-footer {
+    margin-top: 20px;
+    display: flex;
+    gap: 8px;
+  }
+
+  .keyhint {
+    font-size: 11px;
+    color: var(--text-dim);
+    margin-top: 30px;
+    padding-top: 14px;
+    border-top: 1px solid var(--border);
+  }
+  .keyhint kbd {
+    background: var(--bg-raised);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-family: monospace;
+  }
+
+  /* ── Full text mode ──────────────────────────────────── */
+  #full-view {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 24px 28px 100px;
+  }
+  .fnode {
+    border-left: 3px solid var(--border);
+    padding: 4px 0 4px 16px;
+    margin-bottom: 22px;
+    scroll-margin-top: 16px;
+  }
+  .fnode.is-ending { border-left-color: var(--ending); }
+  .fnode .fnode-head {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    font-family: monospace;
+    font-size: 11px;
+    color: var(--text-dim);
+    margin-bottom: 6px;
+  }
+  .fnode .fnode-id { color: var(--accent); }
+  .fnode .fpassage {
+    font-family: var(--font-read);
+    font-size: 16.5px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    margin-bottom: 10px;
+  }
+  .fnode .fchoices {
+    font-size: 13px;
+    color: var(--text-dim);
+  }
+  .fnode .fchoice {
+    margin: 3px 0;
+    padding-left: 4px;
+  }
+  .fnode .fchoice .arrow { color: var(--accent); margin-right: 4px; }
+  .fnode .fchoice a {
+    color: var(--text);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--text-dim);
+    cursor: pointer;
+  }
+  .fnode .fchoice a:hover { color: var(--accent); }
+  .fnode .fchoice .fhint {
+    font-style: italic;
+    display: block;
+    margin-left: 20px;
+    font-family: var(--font-read);
+  }
+  .fnode .fending {
+    background: var(--ending-bg);
+    border: 1px solid var(--ending);
+    border-radius: 6px;
+    padding: 10px 12px;
+    margin-top: 6px;
+  }
+  .fnode .fending .ftitle { color: var(--ending); font-weight: 700; font-size: 13.5px; }
+  .fnode .fending .fflavor {
+    font-family: var(--font-read);
+    font-size: 14.5px;
+    margin-top: 4px;
+    line-height: 1.5;
+  }
+  .fnode .fending .faction {
+    font-size: 11px;
+    color: var(--text-dim);
+    font-family: monospace;
+    margin-top: 6px;
+  }
+  #full-toc {
+    font-size: 12px;
+    line-height: 1.8;
+    color: var(--text-dim);
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--border);
+  }
+  #full-toc b { color: var(--text); }
+  .orphan-warning {
+    background: rgba(197,106,90,0.12);
+    border: 1px solid var(--danger);
+    color: var(--danger);
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-size: 12.5px;
+    margin-bottom: 18px;
+  }
+
+  /* ── Map view ────────────────────────────────────────── */
+  #map-view { padding: 20px 24px 60px; }
+  #map-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+    font-size: 11.5px;
+    color: var(--text-dim);
+    margin-bottom: 18px;
+  }
+  #map-legend .swatch {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border-radius: 3px;
+    margin-right: 5px;
+    vertical-align: -1px;
+    border: 1.5px solid var(--border);
+    background: var(--bg-panel);
+  }
+  #map-canvas { position: relative; }
+  #map-canvas svg { position: absolute; top: 0; left: 0; pointer-events: none; overflow: visible; }
+  .mnode {
+    position: absolute;
+    min-height: 62px;
+    background: var(--bg-panel);
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    padding: 6px 8px;
+    cursor: pointer;
+    font-size: 11.5px;
+    line-height: 1.35;
+  }
+  .mnode:hover { border-color: var(--accent); background: var(--bg-raised); }
+  .mnode.is-ending { border-color: var(--ending); }
+  .mnode.is-broken { border-color: var(--danger); border-style: dashed; }
+  .mnode.is-current { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
+  .mnode .mid {
+    font-family: monospace;
+    font-size: 9.5px;
+    color: var(--accent);
+    margin-bottom: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .mnode.is-ending .mid { color: var(--ending); }
+  .mnode .msnippet {
+    font-family: var(--font-read);
+    color: var(--text);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .mnode .mflag {
+    font-size: 9px;
+    color: var(--danger);
+    margin-top: 3px;
+  }
+  mark.hl {
+    background: var(--accent);
+    color: #1c1a17;
+    border-radius: 2px;
+  }
+
+  /* ── Cover modal ─────────────────────────────────────── */
+  #image-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    align-items: center;
+    justify-content: center;
+    padding: 28px;
+    background: rgba(0, 0, 0, 0.78);
+  }
+  #image-modal.open { display: flex; }
+  #image-modal-panel {
+    max-width: min(92vw, 1100px);
+    max-height: 92vh;
+    margin: 0;
+  }
+  #image-modal-img {
+    display: block;
+    max-width: 100%;
+    max-height: calc(92vh - 44px);
+    object-fit: contain;
+    border: 1px solid var(--border);
+    background: #000;
+  }
+  #image-modal-title {
+    padding-top: 10px;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+  }
+  #image-modal-close {
+    position: fixed;
+    top: 14px;
+    right: 14px;
+    width: 34px;
+    height: 34px;
+    background: var(--bg-panel);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    color: var(--text);
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+  }
+  #image-modal-close:hover,
+  #image-modal-close:focus {
+    border-color: var(--accent);
+    outline: none;
+  }
+
+  /* ── Mobile ──────────────────────────────────────────── */
+  @media (max-width: 768px) {
+    #sidebar-toggle { display: inline-flex; align-items: center; justify-content: center; }
+    #sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 82vw;
+      max-width: 320px;
+      z-index: 20;
+      transform: translateX(-100%);
+      transition: transform 0.22s ease;
+      box-shadow: 2px 0 18px rgba(0,0,0,0.4);
+      overscroll-behavior: contain;
+    }
+    #sidebar.open { transform: translateX(0); }
+    #sidebar-backdrop.open { display: block; }
+
+    #topbar { flex-wrap: wrap; padding: 8px 10px; gap: 6px; row-gap: 8px; }
+    #topbar .story-title { font-size: 14px; max-width: 50vw; }
+    #topbar .story-meta { display: none; }
+    #topbar .spacer { flex-basis: 100%; height: 0; }
+    button.ctrl { padding: 6px 9px; font-size: 12px; }
+
+    #play-view { padding: 18px 16px 60px; }
+    #full-view { padding: 16px 16px 80px; }
+    #map-view { padding: 16px 14px 50px; }
+    .passage { font-size: 17px; }
+    .fpassage { font-size: 15.5px; }
+    .choice-btn { font-size: 14px; padding: 11px 12px; }
+    #map-canvas, #content { -webkit-overflow-scrolling: touch; }
+  }
+  @media (hover: none) and (pointer: coarse) {
+    .keyhint { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<div id="sidebar">
+  <div id="sidebar-header">
+    <h1>Stories</h1>
+    <input id="search" type="text" placeholder="Filter by title or tag…" autocomplete="off">
+    <div id="story-count"></div>
+  </div>
+  <div id="story-list"></div>
+</div>
+<div id="sidebar-backdrop"></div>
+
+<div id="main">
+  <div id="topbar">
+    <button id="sidebar-toggle" title="Toggle story list">&#9776;</button>
+    <span class="story-title" id="topbar-title">Select a story</span>
+    <span class="story-meta" id="topbar-meta"></span>
+    <div class="spacer"></div>
+    <button class="ctrl" id="btn-prev" title="Previous story">&larr; prev</button>
+    <button class="ctrl" id="btn-next" title="Next story">next &rarr;</button>
+    <button class="ctrl" id="mode-play">Play</button>
+    <button class="ctrl" id="mode-full">Full text</button>
+    <button class="ctrl" id="mode-map">Map</button>
+    <button class="ctrl" id="theme-toggle">☀︎/☾</button>
+  </div>
+  <div id="content">
+    <div id="placeholder">Pick a story from the left. <kbd>P</kbd> play, <kbd>F</kbd> full text, <kbd>M</kbd> node map. In Play mode: digits choose a path, <kbd>Backspace</kbd> steps back, <kbd>R</kbd> restarts.</div>
+  </div>
+</div>
+
+<div id="image-modal" aria-hidden="true" role="dialog" aria-label="Story cover preview">
+  <button id="image-modal-close" title="Close">&times;</button>
+  <figure id="image-modal-panel">
+    <img id="image-modal-img" alt="">
+    <figcaption id="image-modal-title"></figcaption>
+  </figure>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var state = {
+    index: [],       // [{id,title,...}]
+    filtered: [],
+    currentMeta: null,
+    story: null,      // loaded full story json
+    mode: 'play',     // 'play' | 'full' | 'map'
+    path: [],         // history of node ids visited in play mode
+    cache: {},        // id -> story json
+    nodeCounts: {}     // id -> total node count (filled in lazily for the sidebar)
+  };
+
+  var el = {
+    search: document.getElementById('search'),
+    storyList: document.getElementById('story-list'),
+    storyCount: document.getElementById('story-count'),
+    sidebar: document.getElementById('sidebar'),
+    sidebarToggle: document.getElementById('sidebar-toggle'),
+    sidebarBackdrop: document.getElementById('sidebar-backdrop'),
+    content: document.getElementById('content'),
+    topbarTitle: document.getElementById('topbar-title'),
+    topbarMeta: document.getElementById('topbar-meta'),
+    modePlay: document.getElementById('mode-play'),
+    modeFull: document.getElementById('mode-full'),
+    modeMap: document.getElementById('mode-map'),
+    btnPrev: document.getElementById('btn-prev'),
+    btnNext: document.getElementById('btn-next'),
+    themeToggle: document.getElementById('theme-toggle'),
+    imageModal: document.getElementById('image-modal'),
+    imageModalClose: document.getElementById('image-modal-close'),
+    imageModalImg: document.getElementById('image-modal-img'),
+    imageModalTitle: document.getElementById('image-modal-title')
+  };
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  function storyThumbSrc(id) {
+    return 'sprites/stories/' + encodeURIComponent(id) + '.png';
+  }
+
+  function storyFullSrc(id) {
+    return 'sprites/stories-full/' + encodeURIComponent(id) + '.png';
+  }
+
+  // ── Load index ──────────────────────────────────────────
+  fetch('stories/index.json')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      state.index = data.filter(function (s) { return s.id !== 'test-story'; }).sort(function (a, b) {
+        var an = a.storyNumber == null ? 9999 : a.storyNumber;
+        var bn = b.storyNumber == null ? 9999 : b.storyNumber;
+        return an - bn;
+      });
+      state.filtered = state.index;
+      renderList();
+      restoreFromHash();
+      prefetchNodeCounts();
+    })
+    .catch(function (err) {
+      el.storyList.innerHTML = '<div style="padding:12px;color:var(--danger);font-size:12px;">Failed to load stories/index.json: ' + escapeHtml(err.message) + '</div>';
+    });
+
+  // Node counts aren't in index.json, so fetch every story in the background
+  // (cheap, ~19KB each) to fill them into the sidebar without blocking the
+  // initial list render. Also warms state.cache so opening a story is instant.
+  var listRerenderPending = false;
+  function scheduleListRerender() {
+    if (listRerenderPending) return;
+    listRerenderPending = true;
+    setTimeout(function () { listRerenderPending = false; renderList(); }, 80);
+  }
+  function prefetchNodeCounts() {
+    state.index.forEach(function (s) {
+      fetch('stories/' + encodeURIComponent(s.id) + '.json')
+        .then(function (r) { return r.json(); })
+        .then(function (data) {
+          state.cache[s.id] = data;
+          state.nodeCounts[s.id] = Object.keys(data.nodes).length;
+          scheduleListRerender();
+        })
+        .catch(function () { /* leave node count blank for this story */ });
+    });
+  }
+
+  function renderList() {
+    el.storyCount.textContent = state.filtered.length + ' / ' + state.index.length + ' stories';
+    el.storyList.innerHTML = state.filtered.map(function (s) {
+      var active = state.currentMeta && state.currentMeta.id === s.id;
+      var nodeCount = state.nodeCounts[s.id];
+      return '<div class="story-item' + (active ? ' active' : '') + '" data-id="' + escapeHtml(s.id) + '">' +
+        '<button class="story-thumb-button" type="button" title="Open large cover" data-id="' + escapeHtml(s.id) + '">' +
+          '<img class="story-thumb" src="' + escapeHtml(storyThumbSrc(s.id)) + '" alt="" loading="lazy">' +
+        '</button>' +
+        '<div class="story-copy">' +
+          '<span class="num">#' + (s.storyNumber != null ? s.storyNumber : '-') + '</span>' +
+          '<span class="title">' + escapeHtml(s.title) + '</span>' +
+          '<div class="tags">' + (s.tags || []).join(', ') +
+            (s.endingCount ? ' · ' + s.endingCount + ' endings' : '') +
+            (nodeCount != null ? ' · ' + nodeCount + ' nodes' : '') +
+          '</div>' +
+        '</div>' +
+        '</div>';
+    }).join('');
+  }
+
+  el.storyList.addEventListener('click', function (e) {
+    var thumb = e.target.closest('.story-thumb-button');
+    if (thumb) {
+      e.stopPropagation();
+      openImageModal(thumb.getAttribute('data-id'));
+      return;
+    }
+    var item = e.target.closest('.story-item');
+    if (!item) return;
+    loadStory(item.getAttribute('data-id'));
+    closeSidebar();
+  });
+
+  function openImageModal(id) {
+    var meta = state.index.find(function (s) { return s.id === id; });
+    var title = meta ? meta.title : 'Story cover';
+    el.imageModalImg.src = storyFullSrc(id);
+    el.imageModalImg.alt = title + ' cover';
+    el.imageModalTitle.textContent = title;
+    el.imageModal.classList.add('open');
+    el.imageModal.setAttribute('aria-hidden', 'false');
+    el.imageModalClose.focus();
+  }
+
+  function closeImageModal() {
+    el.imageModal.classList.remove('open');
+    el.imageModal.setAttribute('aria-hidden', 'true');
+    el.imageModalImg.removeAttribute('src');
+    el.imageModalImg.alt = '';
+    el.imageModalTitle.textContent = '';
+  }
+
+  el.imageModal.addEventListener('click', function (e) {
+    if (e.target === el.imageModal || e.target === el.imageModalClose) closeImageModal();
+  });
+
+  // ── Mobile sidebar drawer ────────────────────────────────
+  function openSidebar() {
+    el.sidebar.classList.add('open');
+    el.sidebarBackdrop.classList.add('open');
+  }
+  function closeSidebar() {
+    if (window.matchMedia('(max-width: 768px)').matches) {
+      el.sidebar.classList.remove('open');
+      el.sidebarBackdrop.classList.remove('open');
+    }
+  }
+  function toggleSidebar() {
+    if (el.sidebar.classList.contains('open')) closeSidebar();
+    else openSidebar();
+  }
+  el.sidebarToggle.addEventListener('click', toggleSidebar);
+  el.sidebarBackdrop.addEventListener('click', closeSidebar);
+
+  el.search.addEventListener('input', function () {
+    var q = el.search.value.trim().toLowerCase();
+    state.filtered = !q ? state.index : state.index.filter(function (s) {
+      return s.title.toLowerCase().indexOf(q) !== -1 ||
+        (s.tags || []).some(function (t) { return t.toLowerCase().indexOf(q) !== -1; }) ||
+        (s.description || '').toLowerCase().indexOf(q) !== -1;
+    });
+    renderList();
+  });
+
+  // ── Story loading ───────────────────────────────────────
+  function loadStory(id) {
+    var meta = state.index.find(function (s) { return s.id === id; });
+    if (!meta) return;
+    state.currentMeta = meta;
+    location.hash = id + (state.mode === 'full' ? '/full' : '');
+    renderList();
+
+    if (state.cache[id]) {
+      onStoryLoaded(state.cache[id]);
+      return;
+    }
+    el.content.innerHTML = '<div id="placeholder">Loading…</div>';
+    fetch('stories/' + encodeURIComponent(id) + '.json')
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        state.cache[id] = data;
+        onStoryLoaded(data);
+      })
+      .catch(function (err) {
+        el.content.innerHTML = '<div id="placeholder" style="color:var(--danger)">Failed to load story: ' + escapeHtml(err.message) + '</div>';
+      });
+  }
+
+  function onStoryLoaded(data) {
+    state.story = data;
+    state.path = [data.startNode];
+    el.topbarTitle.textContent = data.title;
+    el.topbarMeta.textContent = (data.author ? data.author + ' · ' : '') +
+      (data.estimatedMinutes ? data.estimatedMinutes + ' min · ' : '') +
+      Object.keys(data.nodes).length + ' nodes';
+    render();
+  }
+
+  function render() {
+    if (!state.story) return;
+    updateModeButtons();
+    if (state.mode === 'play') renderPlay();
+    else if (state.mode === 'full') renderFull();
+    else renderMap();
+  }
+
+  function updateModeButtons() {
+    el.modePlay.classList.toggle('active', state.mode === 'play');
+    el.modeFull.classList.toggle('active', state.mode === 'full');
+    el.modeMap.classList.toggle('active', state.mode === 'map');
+  }
+
+  el.modePlay.addEventListener('click', function () { setMode('play'); });
+  el.modeFull.addEventListener('click', function () { setMode('full'); });
+  el.modeMap.addEventListener('click', function () { setMode('map'); });
+  function setMode(m) {
+    state.mode = m;
+    if (state.currentMeta) {
+      location.hash = state.currentMeta.id + (m === 'full' ? '/full' : m === 'map' ? '/map' : '');
+    }
+    render();
+  }
+
+  el.btnPrev.addEventListener('click', function () { stepStory(-1); });
+  el.btnNext.addEventListener('click', function () { stepStory(1); });
+  function stepStory(dir) {
+    if (!state.currentMeta) return;
+    var i = state.index.indexOf(state.currentMeta);
+    var next = state.index[i + dir];
+    if (next) loadStory(next.id);
+  }
+
+  el.themeToggle.addEventListener('click', function () {
+    document.body.classList.toggle('light');
+    try { localStorage.setItem('reader-theme', document.body.classList.contains('light') ? 'light' : 'dark'); } catch (e) {}
+  });
+  try {
+    if (localStorage.getItem('reader-theme') === 'light') document.body.classList.add('light');
+  } catch (e) {}
+
+  // ── Play mode ───────────────────────────────────────────
+  function renderPlay() {
+    var story = state.story;
+    var nodeId = state.path[state.path.length - 1];
+    var node = story.nodes[nodeId];
+    if (!node) {
+      el.content.innerHTML = '<div id="placeholder" style="color:var(--danger)">Broken link: node "' + escapeHtml(nodeId) + '" does not exist.</div>';
+      return;
+    }
+
+    var crumbHtml = state.path.map(function (id, i) {
+      var isLast = i === state.path.length - 1;
+      var label = i === 0 ? (id === story.startNode ? 'start' : id) : (story.nodes[state.path[i - 1]].choices.find(function(c){return c.nextNode === id;}) || {}).label || id;
+      return (i > 0 ? '<span class="sep">&rsaquo;</span>' : '') +
+        '<span class="crumb"' + (isLast ? '' : ' data-idx="' + i + '"') + (isLast ? ' style="color:var(--text);border:none;cursor:default;"' : '') + '>' + escapeHtml(label) + '</span>';
+    }).join('');
+
+    var bodyHtml = '<div class="node-id-tag">' + escapeHtml(nodeId) + '</div>' +
+      '<div class="passage">' + escapeHtml(node.passage) + '</div>';
+
+    if (node.ending) {
+      bodyHtml += '<div class="ending-box">' +
+        '<div class="ending-title">Ending: ' + escapeHtml(node.ending.title) + '</div>' +
+        '<div class="ending-flavor">' + escapeHtml(node.ending.flavor) + '</div>' +
+        (node.ending.action ? '<div class="ending-action">&gt; ' + escapeHtml(node.ending.action) + '</div>' : '') +
+        '</div>' +
+        '<div id="play-footer"><button class="ctrl" id="btn-restart">&#8635; Restart from beginning</button></div>';
+    } else if (!node.choices || node.choices.length === 0) {
+      bodyHtml += '<div class="orphan-warning">Dead end — no choices and no ending on this node.</div>' +
+        '<div id="play-footer"><button class="ctrl" id="btn-restart">&#8635; Restart from beginning</button></div>';
+    } else {
+      bodyHtml += node.choices.map(function (c, i) {
+        return '<button class="choice-btn" data-next="' + escapeHtml(c.nextNode) + '">' +
+          '<span class="key">' + (i + 1) + '</span>' +
+          '<span class="label">' + escapeHtml(c.label) + (c.hint ? '<span class="hint">' + escapeHtml(c.hint) + '</span>' : '') + '</span>' +
+          '</button>';
+      }).join('');
+    }
+
+    var keyhint = '<div class="keyhint">' +
+      '<kbd>1</kbd>-<kbd>9</kbd> choose &nbsp; <kbd>Backspace</kbd> back &nbsp; <kbd>R</kbd> restart &nbsp; <kbd>M</kbd> node map &nbsp; <kbd>F</kbd> full text' +
+      '</div>';
+
+    el.content.innerHTML = '<div id="play-view">' +
+      '<div id="breadcrumb">' + crumbHtml + '</div>' +
+      bodyHtml +
+      keyhint +
+      '</div>';
+
+    el.content.querySelectorAll('.choice-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        state.path.push(btn.getAttribute('data-next'));
+        renderPlay();
+      });
+    });
+    var restartBtn = document.getElementById('btn-restart');
+    if (restartBtn) restartBtn.addEventListener('click', restartPlay);
+    el.content.querySelectorAll('.crumb[data-idx]').forEach(function (c) {
+      c.addEventListener('click', function () {
+        var idx = parseInt(c.getAttribute('data-idx'), 10);
+        state.path = state.path.slice(0, idx + 1);
+        renderPlay();
+      });
+    });
+    el.content.scrollTop = 0;
+  }
+
+  function restartPlay() {
+    state.path = [state.story.startNode];
+    renderPlay();
+  }
+
+  // ── Full text mode ──────────────────────────────────────
+  function renderFull() {
+    var story = state.story;
+    var seen = {};
+    var order = [];
+
+    (function dfs(id) {
+      if (seen[id]) return;
+      seen[id] = true;
+      order.push(id);
+      var node = story.nodes[id];
+      if (!node || !node.choices) return;
+      node.choices.forEach(function (c) { dfs(c.nextNode); });
+    })(story.startNode);
+
+    var orphanIds = Object.keys(story.nodes).filter(function (id) { return !seen[id]; });
+
+    var html = '<div id="full-view">';
+
+    var endingCount = order.filter(function(id){ return story.nodes[id].ending; }).length;
+    html += '<div id="full-toc"><b>' + escapeHtml(story.title) + '</b> — ' + order.length + ' reachable nodes, ' + endingCount + ' endings' +
+      (orphanIds.length ? ', <span style="color:var(--danger)">' + orphanIds.length + ' unreferenced</span>' : '') + '<br>' +
+      escapeHtml(story.description || '') + '</div>';
+
+    if (orphanIds.length) {
+      html += '<div class="orphan-warning">' + orphanIds.length + ' node(s) exist in the file but are never reached from "' + escapeHtml(story.startNode) + '": ' +
+        orphanIds.map(escapeHtml).join(', ') + '</div>';
+    }
+
+    var fullOrder = order.concat(orphanIds);
+
+    fullOrder.forEach(function (id) {
+      var node = story.nodes[id];
+      var isEnding = !!node.ending;
+      html += '<div class="fnode' + (isEnding ? ' is-ending' : '') + '" id="node-' + escapeHtml(id) + '">';
+      html += '<div class="fnode-head"><span class="fnode-id">' + escapeHtml(id) + '</span>' + (isEnding ? '<span>· ENDING</span>' : '') + '</div>';
+      html += '<div class="fpassage">' + escapeHtml(node.passage) + '</div>';
+
+      if (isEnding) {
+        html += '<div class="fending">' +
+          '<div class="ftitle">' + escapeHtml(node.ending.title) + '</div>' +
+          '<div class="fflavor">' + escapeHtml(node.ending.flavor) + '</div>' +
+          (node.ending.action ? '<div class="faction">&gt; ' + escapeHtml(node.ending.action) + '</div>' : '') +
+          '</div>';
+      } else if (!node.choices || node.choices.length === 0) {
+        html += '<div class="fchoices" style="color:var(--danger)">Dead end — no choices, no ending.</div>';
+      } else {
+        html += '<div class="fchoices">' + node.choices.map(function (c) {
+          var exists = !!story.nodes[c.nextNode];
+          return '<div class="fchoice"><span class="arrow">&rarr;</span>' +
+            (exists ? '<a data-goto="' + escapeHtml(c.nextNode) + '">' + escapeHtml(c.label) + '</a>' : '<span style="color:var(--danger)">' + escapeHtml(c.label) + ' (broken: "' + escapeHtml(c.nextNode) + '" not found)</span>') +
+            ' <span style="opacity:0.55">[' + escapeHtml(c.nextNode) + ']</span>' +
+            (c.hint ? '<span class="fhint">' + escapeHtml(c.hint) + '</span>' : '') +
+            '</div>';
+        }).join('') + '</div>';
+      }
+      html += '</div>';
+    });
+
+    html += '</div>';
+    el.content.innerHTML = html;
+
+    el.content.querySelectorAll('a[data-goto]').forEach(function (a) {
+      a.addEventListener('click', function () {
+        var target = document.getElementById('node-' + a.getAttribute('data-goto'));
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+    el.content.scrollTop = 0;
+  }
+
+  // ── Node map ─────────────────────────────────────────────
+  // Layers every node by shortest distance (BFS) from the start node, one
+  // column per depth, so the graph reads roughly left-to-right in story
+  // order. Nodes unreachable from startNode (a generation bug, normally
+  // none) get their own columns further right so they're still visible
+  // and clickable rather than silently dropped.
+  function computeMapLayout(story) {
+    var nodes = story.nodes;
+    var depth = {};
+    var parent = {};
+    var order = [];
+
+    function bfsFrom(rootId, baseDepth) {
+      if (rootId in depth) return;
+      var queue = [rootId];
+      depth[rootId] = baseDepth;
+      parent[rootId] = null;
+      var qi = 0;
+      while (qi < queue.length) {
+        var id = queue[qi++];
+        order.push(id);
+        var node = nodes[id];
+        if (node && node.choices) {
+          node.choices.forEach(function (c) {
+            if (nodes[c.nextNode] && !(c.nextNode in depth)) {
+              depth[c.nextNode] = depth[id] + 1;
+              parent[c.nextNode] = id;
+              queue.push(c.nextNode);
+            }
+          });
+        }
+      }
+    }
+
+    bfsFrom(story.startNode, 0);
+    var reachableMax = 0;
+    order.forEach(function (id) { if (depth[id] > reachableMax) reachableMax = depth[id]; });
+    var orphanBase = reachableMax + 2;
+    Object.keys(nodes).forEach(function (id) {
+      if (!(id in depth)) bfsFrom(id, orphanBase);
+    });
+
+    var rowCounters = {};
+    var pos = {};
+    order.forEach(function (id) {
+      var d = depth[id];
+      if (!(d in rowCounters)) rowCounters[d] = 0;
+      pos[id] = { depth: d, row: rowCounters[d]++ };
+    });
+
+    return { parent: parent, pos: pos };
+  }
+
+  function reconstructPath(layout, targetId) {
+    var chain = [];
+    var cur = targetId;
+    while (cur != null) {
+      chain.unshift(cur);
+      cur = layout.parent[cur];
+    }
+    return chain;
+  }
+
+  function renderMap() {
+    var story = state.story;
+    var layout = computeMapLayout(story);
+    var BOX_W = 156, BOX_H = 64, COL_W = 208, ROW_H = 88;
+
+    var maxDepth = 0, maxRow = 0;
+    Object.keys(layout.pos).forEach(function (id) {
+      var p = layout.pos[id];
+      if (p.depth > maxDepth) maxDepth = p.depth;
+      if (p.row > maxRow) maxRow = p.row;
+    });
+
+    var currentId = state.path[state.path.length - 1];
+    var lineColor = getComputedStyle(document.body).getPropertyValue('--accent-dim').trim() || '#8a6a2f';
+
+    var canvasW = (maxDepth + 1) * COL_W + BOX_W + 20;
+    var canvasH = (maxRow + 1) * ROW_H + BOX_H + 20;
+
+    var lines = [];
+    var boxes = [];
+
+    Object.keys(story.nodes).forEach(function (id) {
+      var node = story.nodes[id];
+      var p = layout.pos[id];
+      if (!p) return;
+      var sx = p.depth * COL_W + BOX_W / 2;
+      var sy = p.row * ROW_H + BOX_H / 2;
+
+      if (node.choices) {
+        node.choices.forEach(function (c) {
+          var tp = layout.pos[c.nextNode];
+          if (!tp) return;
+          var tx = tp.depth * COL_W + BOX_W / 2;
+          var ty = tp.row * ROW_H + BOX_H / 2;
+          lines.push('<line x1="' + sx + '" y1="' + sy + '" x2="' + tx + '" y2="' + ty +
+            '" stroke="' + lineColor + '" stroke-width="1.5" stroke-opacity="0.7" marker-end="url(#arrowhead)" />');
+        });
+      }
+
+      var isEnding = !!node.ending;
+      var hasBrokenLink = node.choices && node.choices.some(function (c) { return !story.nodes[c.nextNode]; });
+      var isDeadEnd = !isEnding && (!node.choices || node.choices.length === 0);
+      var isCurrent = id === currentId;
+      var snippet = node.passage || '';
+
+      boxes.push('<div class="mnode' +
+        (isEnding ? ' is-ending' : '') +
+        (hasBrokenLink || isDeadEnd ? ' is-broken' : '') +
+        (isCurrent ? ' is-current' : '') +
+        '" data-node="' + escapeHtml(id) + '" style="left:' + (p.depth * COL_W) + 'px; top:' + (p.row * ROW_H) + 'px; width:' + BOX_W + 'px;">' +
+        '<div class="mid">' + escapeHtml(id) + (isEnding ? ' · END' : '') + (isCurrent ? ' · HERE' : '') + '</div>' +
+        '<div class="msnippet">' + escapeHtml(snippet) + '</div>' +
+        (hasBrokenLink ? '<div class="mflag">&#9888; broken link</div>' : '') +
+        (isDeadEnd ? '<div class="mflag">&#9888; dead end</div>' : '') +
+        '</div>');
+    });
+
+    var svg = '<svg width="' + canvasW + '" height="' + canvasH + '">' +
+      '<defs><marker id="arrowhead" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">' +
+      '<path d="M0,0 L8,4 L0,8 z" fill="' + lineColor + '" /></marker></defs>' +
+      lines.join('') + '</svg>';
+
+    el.content.innerHTML = '<div id="map-view">' +
+      '<div id="map-legend">' +
+        '<span><span class="swatch" style="border-color:var(--border)"></span>passage</span>' +
+        '<span><span class="swatch" style="border-color:var(--ending)"></span>ending</span>' +
+        '<span><span class="swatch" style="border-color:var(--danger);border-style:dashed"></span>dead end / broken link</span>' +
+        '<span><span class="swatch" style="border-color:var(--accent);box-shadow:0 0 0 2px var(--accent)"></span>current position</span>' +
+        '<span>click any node to jump there in Play mode</span>' +
+      '</div>' +
+      '<div id="map-canvas" style="width:' + canvasW + 'px; height:' + canvasH + 'px;">' +
+        svg + boxes.join('') +
+      '</div>' +
+    '</div>';
+
+    el.content.querySelectorAll('.mnode').forEach(function (box) {
+      box.addEventListener('click', function () {
+        state.path = reconstructPath(layout, box.getAttribute('data-node'));
+        setMode('play');
+      });
+    });
+    el.content.scrollTop = 0;
+    el.content.scrollLeft = 0;
+  }
+
+  // ── Hash routing ────────────────────────────────────────
+  function restoreFromHash() {
+    var hash = location.hash.replace(/^#/, '');
+    if (!hash) return;
+    var parts = hash.split('/');
+    var id = decodeURIComponent(parts[0]);
+    if (parts[1] === 'full') state.mode = 'full';
+    else if (parts[1] === 'map') state.mode = 'map';
+    if (state.index.some(function (s) { return s.id === id; })) {
+      loadStory(id);
+    }
+  }
+  window.addEventListener('hashchange', function () {
+    if (!state.story) restoreFromHash();
+  });
+
+  // ── Keyboard shortcuts ──────────────────────────────────
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && el.imageModal.classList.contains('open')) {
+      closeImageModal();
+      return;
+    }
+    if (e.target === el.search) return;
+    if (!state.story) return;
+
+    var k = e.key.toLowerCase();
+    if (k === 'p') { setMode('play'); return; }
+    if (k === 'f') { setMode('full'); return; }
+    if (k === 'm') { setMode('map'); return; }
+
+    if (state.mode !== 'play') return;
+    var nodeId = state.path[state.path.length - 1];
+    var node = state.story.nodes[nodeId];
+
+    if (e.key === 'Backspace') {
+      e.preventDefault();
+      if (state.path.length > 1) { state.path.pop(); renderPlay(); }
+      return;
+    }
+    if (k === 'r') { restartPlay(); return; }
+    if (/^[1-9]$/.test(e.key) && node && node.choices && node.choices.length) {
+      var idx = parseInt(e.key, 10) - 1;
+      if (node.choices[idx]) {
+        state.path.push(node.choices[idx].nextNode);
+        renderPlay();
+      }
+    }
+  });
+})();
+</script>
+</body>
+</html>

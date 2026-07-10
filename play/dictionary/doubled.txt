@@ -360,9 +360,11 @@ ruffle
 runner
 saddle
 school
+seeing
 seller
 settle
 simmer
+skiing
 sorrow
 speech
 street
@@ -374,6 +376,7 @@ valley
 waffle
 willow
 winner
+wooing
 yellow
 acclaim
 account
@@ -418,12 +421,15 @@ falling
 feeling
 fission
 fitness
+fleeing
 freedom
+freeing
 gallery
 gallons
 getting
 hallway
 happens
+hitting
 illegal
 illness
 install
@@ -460,6 +466,8 @@ scatter
 session
 setting
 shallow
+shoeing
+sitting
 skilled
 slipper
 spotted
@@ -487,12 +495,14 @@ accepted
 actually
 addition
 admitted
+agreeing
 approval
 assemble
 assessed
 attached
 baseball
 business
+canoeing
 clipping
 colossal
 darkness
@@ -509,6 +519,7 @@ possible
 possibly
 shopping
 slipping
+stopping
 supplies
 sweeping
 swimming
@@ -531,6 +542,7 @@ committed
 committee
 community
 currently
+decreeing
 different
 difficult
 effective
@@ -539,6 +551,7 @@ excellent
 following
 innocence
 necessary
+occurring
 pollution
 staggered
 succeeded
