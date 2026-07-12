@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-07-10T00:50:03Z",
+  "fetched_at": "2026-07-12T22:50:03Z",
   "records": [
     {
       "rank": 1,
+      "username": "Seraphace",
+      "owner_id": "8bae1ecd-7366-4069-b1c1-405ee44ba3bf",
+      "score": 96150,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 56.6608620689655, \"level\": 26, \"accuracy\": 0.9717918156535558, \"elapsedMs\": 508196.1999999044, \"startedAtMs\": 1783895552603.8}",
+      "create_time": "2026-07-12T22:41:04Z",
+      "update_time": "2026-07-12T22:41:04Z",
+      "steam_id": "76561197966346607",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/d327086266d5fe45820d05b6f58e62efc9efb60a_medium.jpg"
+    },
+    {
+      "rank": 2,
       "username": "StriveFPS",
       "owner_id": "ad7f5d9e-9428-4dd1-a9ba-7933324f688f",
       "score": 59239,
@@ -16,7 +29,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/87f2a0eec26c94c1d37d65e54d9ddfa2fa232359_medium.jpg"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "username": "mkbuwf",
       "owner_id": "fcfaf76c-0db0-411e-b130-30305a198553",
       "score": 13070,
@@ -29,7 +42,7 @@
       "avatar_medium": null
     },
     {
-      "rank": 3,
+      "rank": 4,
       "username": "Indiana James",
       "owner_id": "bb6d77c8-6909-45d4-b133-319c3453b086",
       "score": 12676,
@@ -42,7 +55,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/d4241e875ba13aa446768318b85634b3e8bf0b1f_medium.jpg"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "username": "shaddowwright",
       "owner_id": "a05f0dde-f9cd-4f67-bfd7-5573b9b575d4",
       "score": 8139,
@@ -55,7 +68,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/4765a87621b8f8a8e5fd4896571f8d3175af33fe_medium.jpg"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "username": "UniPandaChick",
       "owner_id": "381da6c9-1941-46eb-892b-39e674a0db3c",
       "score": 5341,
@@ -68,7 +81,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/df3e0c5fc101a78ff469cf013ca131a38f252b7f_medium.jpg"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "username": "destroyer18773",
       "owner_id": "a6a12aca-897f-4cb8-a1a0-0bfa035e03bc",
       "score": 5081,
@@ -81,7 +94,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "username": "微醺馒头",
       "owner_id": "573e8af8-f610-48d1-8842-cd1204c5431c",
       "score": 4203,
@@ -94,7 +107,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "username": "J.Man",
       "owner_id": "734152d5-43ea-4762-ac7c-6f91bcd7d9ab",
       "score": 3058,
@@ -107,7 +120,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/0ec566e853a68fd7605cd18cb5d30ce332960596_medium.jpg"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "username": "beyblaster",
       "owner_id": "4a4e0aef-fd57-4c36-8adb-381cfb328b0c",
       "score": 2672,
