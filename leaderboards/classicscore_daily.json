@@ -1,19 +1,5 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-07-12T22:50:01Z",
-  "records": [
-    {
-      "rank": 1,
-      "username": "Seraphace",
-      "owner_id": "8bae1ecd-7366-4069-b1c1-405ee44ba3bf",
-      "score": 96150,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 56.6608620689655, \"level\": 26, \"accuracy\": 0.9717918156535558, \"elapsedMs\": 508196.1999999044, \"startedAtMs\": 1783895552603.8}",
-      "create_time": "2026-07-12T22:41:04Z",
-      "update_time": "2026-07-12T22:41:04Z",
-      "steam_id": "76561197966346607",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/d327086266d5fe45820d05b6f58e62efc9efb60a_medium.jpg"
-    }
-  ]
+  "fetched_at": "2026-07-13T08:00:01Z",
+  "records": []
 }
