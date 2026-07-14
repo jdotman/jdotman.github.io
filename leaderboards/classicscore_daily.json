@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-07-13T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-07-14T00:00:01Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "Pithany",
+      "owner_id": "227b6f28-eac8-40b6-a335-026286dfcfcc",
+      "score": 39811,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 34.78176470588237, \"level\": 19, \"accuracy\": 0.9355495251017639, \"elapsedMs\": 487364.80000000016, \"startedAtMs\": 1783986469212.2}",
+      "create_time": "2026-07-13T23:55:59Z",
+      "update_time": "2026-07-13T23:55:59Z",
+      "steam_id": "76561199028610363",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/59305ce329204cff4d0370a0ce4f1bd025758cec_medium.jpg"
+    }
+  ]
 }
