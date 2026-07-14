@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreLifetime",
-  "fetched_at": "2026-07-14T17:10:33Z",
+  "fetched_at": "2026-07-14T23:00:24Z",
   "records": [
     {
       "rank": 1,
@@ -108,6 +108,19 @@
     },
     {
       "rank": 9,
+      "username": "Soulurks",
+      "owner_id": "43b25a41-1def-41af-9751-aefa41da017b",
+      "score": 109079,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 56.91857142857142, \"level\": 27, \"accuracy\": 0.9654635967641568, \"elapsedMs\": 671391.1, \"startedAtMs\": 1784069219351.9}",
+      "create_time": "2026-07-14T22:58:13Z",
+      "update_time": "2026-07-14T22:58:13Z",
+      "steam_id": "76561198121572241",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/59305ce329204cff4d0370a0ce4f1bd025758cec_medium.jpg"
+    },
+    {
+      "rank": 10,
       "username": "zetsueixz",
       "owner_id": "c7dddd20-b56c-4197-b4fc-ad617d3536b3",
       "score": 103895,
@@ -118,19 +131,6 @@
       "update_time": "2026-05-14T20:23:32Z",
       "steam_id": "76561197967525300",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
-    },
-    {
-      "rank": 10,
-      "username": "LadyoftheDevils",
-      "owner_id": "1ec157ec-c6f1-497f-be8f-a8359ba49363",
-      "score": 103691,
-      "subscore": null,
-      "num_score": 7,
-      "metadata": "{\"wpm\": 50.85264550264552, \"level\": 31, \"accuracy\": 0.9666755531858171, \"elapsedMs\": 871756.2000000012, \"startedAtMs\": 1781386147706.8}",
-      "create_time": "2026-05-26T11:06:56Z",
-      "update_time": "2026-06-13T21:43:37Z",
-      "steam_id": "76561198122956820",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/ff14a9e3e09f10dee5aa8f996c5f28001251cbb2_medium.jpg"
     }
   ]
 }
