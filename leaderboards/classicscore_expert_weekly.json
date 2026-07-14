@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicExpertScoreWeekly",
-  "fetched_at": "2026-07-06T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-07-14T20:55:02Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "Dale and Dale",
+      "owner_id": "2bcfa686-6207-455e-95d1-4c02cbc335cb",
+      "score": 98272,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 58.811647058823525, \"level\": 18, \"accuracy\": 0.9582893347412883, \"elapsedMs\": 380316.79999999993, \"startedAtMs\": 1784062075345.2}",
+      "create_time": "2026-07-14T20:54:19Z",
+      "update_time": "2026-07-14T20:54:19Z",
+      "steam_id": "76561198048237724",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/3f4e52691b11ea1f1e05bde7fc5c68dc92071602_medium.jpg"
+    }
+  ]
 }
