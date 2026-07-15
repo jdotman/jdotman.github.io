@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-07-15T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-07-15T10:50:01Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "Jackalhit",
+      "owner_id": "b2dd2d39-94eb-437c-9d0a-ab39599b7803",
+      "score": 52913,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 48.86646153846155, \"level\": 24, \"accuracy\": 0.9392286716010908, \"elapsedMs\": 592523.2999999998, \"startedAtMs\": 1784111744980.7}",
+      "create_time": "2026-07-15T10:45:38Z",
+      "update_time": "2026-07-15T10:45:38Z",
+      "steam_id": "76561197962350711",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/3060a68a61e328f87b65a52571e53c28dee44631_medium.jpg"
+    }
+  ]
 }
