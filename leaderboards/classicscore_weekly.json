@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-07-14T23:00:13Z",
+  "fetched_at": "2026-07-15T00:20:02Z",
   "records": [
     {
       "rank": 1,
@@ -82,6 +82,19 @@
     },
     {
       "rank": 7,
+      "username": "J.Man",
+      "owner_id": "734152d5-43ea-4762-ac7c-6f91bcd7d9ab",
+      "score": 2053,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 111.19, \"level\": 3, \"accuracy\": 1, \"elapsedMs\": 4072.7999999999884, \"startedAtMs\": 1784074758475.2}",
+      "create_time": "2026-07-15T00:19:23Z",
+      "update_time": "2026-07-15T00:19:23Z",
+      "steam_id": "76561197976856083",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/0ec566e853a68fd7605cd18cb5d30ce332960596_medium.jpg"
+    },
+    {
+      "rank": 8,
       "username": "They_Took_The_Little_Ones",
       "owner_id": "9cca0636-9669-4343-8287-102dd484a432",
       "score": 1802,
