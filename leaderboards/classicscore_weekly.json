@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-07-16T04:10:03Z",
+  "fetched_at": "2026-07-16T19:20:03Z",
   "records": [
     {
       "rank": 1,
@@ -69,6 +69,19 @@
     },
     {
       "rank": 6,
+      "username": "Nicetin",
+      "owner_id": "94e2d722-4625-42bb-a26a-7c02259941b7",
+      "score": 66982,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 75.18891891891892, \"level\": 21, \"accuracy\": 0.963673057517659, \"elapsedMs\": 316732.19999999995, \"startedAtMs\": 1784229049151.8}",
+      "create_time": "2026-07-16T19:16:08Z",
+      "update_time": "2026-07-16T19:16:08Z",
+      "steam_id": "76561198063396686",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/6d74ac2da795305043bdd63a381cef0d3129230d_medium.jpg"
+    },
+    {
+      "rank": 7,
       "username": "Jackalhit",
       "owner_id": "b2dd2d39-94eb-437c-9d0a-ab39599b7803",
       "score": 52913,
@@ -81,7 +94,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/3060a68a61e328f87b65a52571e53c28dee44631_medium.jpg"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "username": "CuervoVsk",
       "owner_id": "e177cb2b-de91-42eb-b9be-8225a84834af",
       "score": 22865,
@@ -94,7 +107,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/da268e656d0d4697f756215e34fd4ce7586abae7_medium.jpg"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "username": "Corciii",
       "owner_id": "41952943-34ce-4eb8-b34a-90f1223ad1d1",
       "score": 22074,
@@ -107,7 +120,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/94910f47fc0fa83fc70e018595d922d74866a576_medium.jpg"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "username": "FeralV",
       "owner_id": "a05f0dde-f9cd-4f67-bfd7-5573b9b575d4",
       "score": 5216,
@@ -118,19 +131,6 @@
       "update_time": "2026-07-14T05:18:46Z",
       "steam_id": "76561198042054856",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/4765a87621b8f8a8e5fd4896571f8d3175af33fe_medium.jpg"
-    },
-    {
-      "rank": 10,
-      "username": "J.Man",
-      "owner_id": "734152d5-43ea-4762-ac7c-6f91bcd7d9ab",
-      "score": 2053,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 111.19, \"level\": 3, \"accuracy\": 1, \"elapsedMs\": 4072.7999999999884, \"startedAtMs\": 1784074758475.2}",
-      "create_time": "2026-07-15T00:19:23Z",
-      "update_time": "2026-07-15T00:19:23Z",
-      "steam_id": "76561197976856083",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/0ec566e853a68fd7605cd18cb5d30ce332960596_medium.jpg"
     }
   ]
 }

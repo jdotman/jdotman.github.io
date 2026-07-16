@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-07-16T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-07-16T19:20:01Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "Nicetin",
+      "owner_id": "94e2d722-4625-42bb-a26a-7c02259941b7",
+      "score": 66982,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 75.18891891891892, \"level\": 21, \"accuracy\": 0.963673057517659, \"elapsedMs\": 316732.19999999995, \"startedAtMs\": 1784229049151.8}",
+      "create_time": "2026-07-16T19:16:08Z",
+      "update_time": "2026-07-16T19:16:08Z",
+      "steam_id": "76561198063396686",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/6d74ac2da795305043bdd63a381cef0d3129230d_medium.jpg"
+    }
+  ]
 }
