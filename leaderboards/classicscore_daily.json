@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-07-16T19:20:01Z",
+  "fetched_at": "2026-07-16T23:00:06Z",
   "records": [
     {
       "rank": 1,
@@ -14,6 +14,19 @@
       "update_time": "2026-07-16T19:16:08Z",
       "steam_id": "76561198063396686",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/6d74ac2da795305043bdd63a381cef0d3129230d_medium.jpg"
+    },
+    {
+      "rank": 2,
+      "username": "Resilience",
+      "owner_id": "cf2747ca-b6fd-428d-bf15-e46ebb1355d1",
+      "score": 32014,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 34.864999999999995, \"level\": 17, \"accuracy\": 0.9366197183098591, \"elapsedMs\": 460359.4999999999, \"startedAtMs\": 1784241974178.5}",
+      "create_time": "2026-07-16T22:53:57Z",
+      "update_time": "2026-07-16T22:53:57Z",
+      "steam_id": "76561198150250057",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/a608dc30363fa8d22df4135e0afc770fd5aa567d_medium.jpg"
     }
   ]
 }

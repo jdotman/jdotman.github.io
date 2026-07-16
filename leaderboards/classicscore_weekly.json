@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-07-16T19:20:03Z",
+  "fetched_at": "2026-07-16T23:00:18Z",
   "records": [
     {
       "rank": 1,
@@ -95,6 +95,19 @@
     },
     {
       "rank": 8,
+      "username": "Resilience",
+      "owner_id": "cf2747ca-b6fd-428d-bf15-e46ebb1355d1",
+      "score": 32014,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 34.864999999999995, \"level\": 17, \"accuracy\": 0.9366197183098591, \"elapsedMs\": 460359.4999999999, \"startedAtMs\": 1784241974178.5}",
+      "create_time": "2026-07-16T22:53:57Z",
+      "update_time": "2026-07-16T22:53:57Z",
+      "steam_id": "76561198150250057",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/a608dc30363fa8d22df4135e0afc770fd5aa567d_medium.jpg"
+    },
+    {
+      "rank": 9,
       "username": "CuervoVsk",
       "owner_id": "e177cb2b-de91-42eb-b9be-8225a84834af",
       "score": 22865,
@@ -107,7 +120,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/da268e656d0d4697f756215e34fd4ce7586abae7_medium.jpg"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "username": "Corciii",
       "owner_id": "41952943-34ce-4eb8-b34a-90f1223ad1d1",
       "score": 22074,
@@ -118,19 +131,6 @@
       "update_time": "2026-07-16T01:38:32Z",
       "steam_id": "76561199191847446",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/94910f47fc0fa83fc70e018595d922d74866a576_medium.jpg"
-    },
-    {
-      "rank": 10,
-      "username": "FeralV",
-      "owner_id": "a05f0dde-f9cd-4f67-bfd7-5573b9b575d4",
-      "score": 5216,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 14.271276595744688, \"level\": 7, \"accuracy\": 0.8798586572438163, \"elapsedMs\": 212614.10000002384, \"startedAtMs\": 1784006113823.9}",
-      "create_time": "2026-07-14T05:18:46Z",
-      "update_time": "2026-07-14T05:18:46Z",
-      "steam_id": "76561198042054856",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/4765a87621b8f8a8e5fd4896571f8d3175af33fe_medium.jpg"
     }
   ]
 }
