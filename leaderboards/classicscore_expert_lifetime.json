@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicExpertScoreLifetime",
-  "fetched_at": "2026-07-15T08:11:08Z",
+  "fetched_at": "2026-07-16T00:11:09Z",
   "records": [
     {
       "rank": 1,
@@ -17,6 +17,19 @@
     },
     {
       "rank": 2,
+      "username": "TheSpankMan",
+      "owner_id": "d0c6e761-d1e0-4d4f-aada-2f8d6e1fffcd",
+      "score": 180880,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 72.5078947368421, \"level\": 22, \"accuracy\": 0.9692487349163098, \"elapsedMs\": 418037.80000000005, \"startedAtMs\": 1784159878544.2}",
+      "create_time": "2026-07-16T00:04:59Z",
+      "update_time": "2026-07-16T00:04:59Z",
+      "steam_id": "76561198002404903",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/bd8c862b780bf8a4c57c3cda55419dc54d85775e_medium.jpg"
+    },
+    {
+      "rank": 3,
       "username": "nikola tensor",
       "owner_id": "4ff18b8e-be64-4039-b71a-cf2ca1a0e8e3",
       "score": 144584,
@@ -29,7 +42,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/b2a3bb9e20a87f3ae7b0b31cfc5af79f640e61a1_medium.jpg"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "username": "Sholee",
       "owner_id": "bc5c9d93-2359-42a5-bb81-618d97693d8c",
       "score": 141158,
@@ -42,7 +55,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/9b732621e0f4605c0b05bcdf740ebf36cfca6b6e_medium.jpg"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "username": "kC",
       "owner_id": "fea50cbd-effd-43e0-95a0-10300e1f5722",
       "score": 127952,
@@ -55,7 +68,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/59305ce329204cff4d0370a0ce4f1bd025758cec_medium.jpg"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "username": "Dale and Dale",
       "owner_id": "2bcfa686-6207-455e-95d1-4c02cbc335cb",
       "score": 98272,
@@ -68,7 +81,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/3f4e52691b11ea1f1e05bde7fc5c68dc92071602_medium.jpg"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "username": "Umbra",
       "owner_id": "b871a599-d51e-4b97-9aa7-d6f57e0ea042",
       "score": 84233,
@@ -81,7 +94,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/f3629e432f0476fa2ddca3f204dbb57277538b7e_medium.jpg"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "username": "StriveFPS",
       "owner_id": "ad7f5d9e-9428-4dd1-a9ba-7933324f688f",
       "score": 81408,
@@ -94,7 +107,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/87f2a0eec26c94c1d37d65e54d9ddfa2fa232359_medium.jpg"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "username": "Bastampede",
       "owner_id": "85db391f-e8c8-4f9e-bee5-e4ec00e60316",
       "score": 60760,
@@ -107,7 +120,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/f331e3e668e2366f43d768cd0ee179a0ba06d10a_medium.jpg"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "username": "J.Man",
       "owner_id": "734152d5-43ea-4762-ac7c-6f91bcd7d9ab",
       "score": 15304,

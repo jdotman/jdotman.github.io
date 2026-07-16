@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicExpertScoreDaily",
-  "fetched_at": "2026-07-15T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-07-16T00:11:02Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "TheSpankMan",
+      "owner_id": "d0c6e761-d1e0-4d4f-aada-2f8d6e1fffcd",
+      "score": 180880,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 72.5078947368421, \"level\": 22, \"accuracy\": 0.9692487349163098, \"elapsedMs\": 418037.80000000005, \"startedAtMs\": 1784159878544.2}",
+      "create_time": "2026-07-16T00:04:59Z",
+      "update_time": "2026-07-16T00:04:59Z",
+      "steam_id": "76561198002404903",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/bd8c862b780bf8a4c57c3cda55419dc54d85775e_medium.jpg"
+    }
+  ]
 }
