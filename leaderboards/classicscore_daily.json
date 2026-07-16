@@ -1,45 +1,5 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-07-16T04:10:02Z",
-  "records": [
-    {
-      "rank": 1,
-      "username": "Pithany",
-      "owner_id": "227b6f28-eac8-40b6-a335-026286dfcfcc",
-      "score": 96318,
-      "subscore": null,
-      "num_score": 2,
-      "metadata": "{\"wpm\": 41.8807558139535, \"level\": 26, \"accuracy\": 0.9626891939457938, \"elapsedMs\": 798955.7000000002, \"startedAtMs\": 1784169969278.3}",
-      "create_time": "2026-07-15T22:27:06Z",
-      "update_time": "2026-07-16T02:59:30Z",
-      "steam_id": "76561199028610363",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/59305ce329204cff4d0370a0ce4f1bd025758cec_medium.jpg"
-    },
-    {
-      "rank": 2,
-      "username": "Jackalhit",
-      "owner_id": "b2dd2d39-94eb-437c-9d0a-ab39599b7803",
-      "score": 52913,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 48.86646153846155, \"level\": 24, \"accuracy\": 0.9392286716010908, \"elapsedMs\": 592523.2999999998, \"startedAtMs\": 1784111744980.7}",
-      "create_time": "2026-07-15T10:45:38Z",
-      "update_time": "2026-07-15T10:45:38Z",
-      "steam_id": "76561197962350711",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/3060a68a61e328f87b65a52571e53c28dee44631_medium.jpg"
-    },
-    {
-      "rank": 3,
-      "username": "Corciii",
-      "owner_id": "41952943-34ce-4eb8-b34a-90f1223ad1d1",
-      "score": 22074,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 28.59765432098767, \"level\": 13, \"accuracy\": 0.9393592677345538, \"elapsedMs\": 370092.6000000002, \"startedAtMs\": 1784165539913.4}",
-      "create_time": "2026-07-16T01:38:32Z",
-      "update_time": "2026-07-16T01:38:32Z",
-      "steam_id": "76561199191847446",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/94910f47fc0fa83fc70e018595d922d74866a576_medium.jpg"
-    }
-  ]
+  "fetched_at": "2026-07-16T08:00:01Z",
+  "records": []
 }
