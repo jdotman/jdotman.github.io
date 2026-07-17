@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-07-17T08:00:02Z",
-  "records": []
+  "fetched_at": "2026-07-17T08:10:01Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "The_Doctors14",
+      "owner_id": "ca3e7957-4c21-424c-ac49-481ace5d65b8",
+      "score": 61528,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 53.63067307692303, \"level\": 22, \"accuracy\": 0.9543795620437956, \"elapsedMs\": 469864.2000000016, \"startedAtMs\": 1784275081980.8}",
+      "create_time": "2026-07-17T08:05:52Z",
+      "update_time": "2026-07-17T08:05:52Z",
+      "steam_id": "76561198114074779",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/c04e5bdab9a9c7284d1624277cf6cf2f20dee31f_medium.jpg"
+    }
+  ]
 }
