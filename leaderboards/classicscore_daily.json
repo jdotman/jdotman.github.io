@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-07-17T03:30:06Z",
+  "fetched_at": "2026-07-17T03:50:03Z",
   "records": [
     {
       "rank": 1,
+      "username": "orrewlearnin",
+      "owner_id": "36b228e4-b47b-4aa4-b3a0-e7f3e42cfdb5",
+      "score": 77181,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 62.41064285714284, \"level\": 30, \"accuracy\": 0.9522693997071743, \"elapsedMs\": 641078.4999999999, \"startedAtMs\": 1784259361657.5}",
+      "create_time": "2026-07-17T03:46:44Z",
+      "update_time": "2026-07-17T03:46:44Z",
+      "steam_id": "76561199008636599",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/a7428d0d18e4949c537d29f49e5ac5fc04f32e50_medium.jpg"
+    },
+    {
+      "rank": 2,
       "username": "Nicetin",
       "owner_id": "94e2d722-4625-42bb-a26a-7c02259941b7",
       "score": 66982,
@@ -16,7 +29,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/6d74ac2da795305043bdd63a381cef0d3129230d_medium.jpg"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "username": "Pithany",
       "owner_id": "227b6f28-eac8-40b6-a335-026286dfcfcc",
       "score": 60719,
@@ -29,7 +42,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/59305ce329204cff4d0370a0ce4f1bd025758cec_medium.jpg"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "username": "Resilience",
       "owner_id": "cf2747ca-b6fd-428d-bf15-e46ebb1355d1",
       "score": 32014,
