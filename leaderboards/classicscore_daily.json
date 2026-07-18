@@ -1,17 +1,17 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-07-18T18:50:01Z",
+  "fetched_at": "2026-07-18T19:20:02Z",
   "records": [
     {
       "rank": 1,
       "username": "Pithany",
       "owner_id": "227b6f28-eac8-40b6-a335-026286dfcfcc",
-      "score": 43418,
+      "score": 60675,
       "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 42.08540540540541, \"level\": 20, \"accuracy\": 0.9304531085353003, \"elapsedMs\": 510040.8999999976, \"startedAtMs\": 1784399806631.1}",
+      "num_score": 2,
+      "metadata": "{\"wpm\": 41.2294701986755, \"level\": 24, \"accuracy\": 0.941790445604175, \"elapsedMs\": 692646.9999999963, \"startedAtMs\": 1784401637145}",
       "create_time": "2026-07-18T18:45:17Z",
-      "update_time": "2026-07-18T18:45:17Z",
+      "update_time": "2026-07-18T19:18:50Z",
       "steam_id": "76561199028610363",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/59305ce329204cff4d0370a0ce4f1bd025758cec_medium.jpg"
     },
