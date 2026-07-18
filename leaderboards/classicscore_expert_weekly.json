@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicExpertScoreWeekly",
-  "fetched_at": "2026-07-16T00:11:02Z",
+  "fetched_at": "2026-07-18T02:00:07Z",
   "records": [
     {
       "rank": 1,
@@ -27,6 +27,19 @@
       "update_time": "2026-07-14T20:54:19Z",
       "steam_id": "76561198048237724",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/3f4e52691b11ea1f1e05bde7fc5c68dc92071602_medium.jpg"
+    },
+    {
+      "rank": 3,
+      "username": "Pithany",
+      "owner_id": "227b6f28-eac8-40b6-a335-026286dfcfcc",
+      "score": 68890,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 40.04, \"level\": 13, \"accuracy\": 0.9247311827956989, \"elapsedMs\": 263019, \"startedAtMs\": 1784339452698}",
+      "create_time": "2026-07-18T01:55:15Z",
+      "update_time": "2026-07-18T01:55:15Z",
+      "steam_id": "76561199028610363",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/59305ce329204cff4d0370a0ce4f1bd025758cec_medium.jpg"
     }
   ]
 }

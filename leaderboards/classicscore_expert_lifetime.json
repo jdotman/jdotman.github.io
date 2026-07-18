@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicExpertScoreLifetime",
-  "fetched_at": "2026-07-17T12:11:07Z",
+  "fetched_at": "2026-07-18T02:00:18Z",
   "records": [
     {
       "rank": 1,
@@ -108,6 +108,19 @@
     },
     {
       "rank": 9,
+      "username": "Pithany",
+      "owner_id": "227b6f28-eac8-40b6-a335-026286dfcfcc",
+      "score": 68890,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 40.04, \"level\": 13, \"accuracy\": 0.9247311827956989, \"elapsedMs\": 263019, \"startedAtMs\": 1784339452698}",
+      "create_time": "2026-07-18T01:55:15Z",
+      "update_time": "2026-07-18T01:55:15Z",
+      "steam_id": "76561199028610363",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/59305ce329204cff4d0370a0ce4f1bd025758cec_medium.jpg"
+    },
+    {
+      "rank": 10,
       "username": "Bastampede",
       "owner_id": "85db391f-e8c8-4f9e-bee5-e4ec00e60316",
       "score": 60760,
@@ -118,19 +131,6 @@
       "update_time": "2026-06-23T22:31:51Z",
       "steam_id": "76561198354270160",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/f331e3e668e2366f43d768cd0ee179a0ba06d10a_medium.jpg"
-    },
-    {
-      "rank": 10,
-      "username": "J.Man",
-      "owner_id": "734152d5-43ea-4762-ac7c-6f91bcd7d9ab",
-      "score": 15304,
-      "subscore": null,
-      "num_score": 4,
-      "metadata": "{\"wpm\": 118.54750000000001, \"level\": 5, \"accuracy\": 0.963302752293578, \"elapsedMs\": 28488.199999999997, \"startedAtMs\": 1780920919828.8}",
-      "create_time": "2026-06-08T01:49:02Z",
-      "update_time": "2026-06-08T12:15:50Z",
-      "steam_id": "76561197976856083",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/0ec566e853a68fd7605cd18cb5d30ce332960596_medium.jpg"
     }
   ]
 }
