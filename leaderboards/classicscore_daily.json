@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-07-18T21:00:07Z",
+  "fetched_at": "2026-07-18T22:00:07Z",
   "records": [
     {
       "rank": 1,
+      "username": "StriveFPS",
+      "owner_id": "ad7f5d9e-9428-4dd1-a9ba-7933324f688f",
+      "score": 82347,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 55.83916666666665, \"level\": 30, \"accuracy\": 0.9520100502512563, \"elapsedMs\": 826538.1999999993, \"startedAtMs\": 1784410958035.8}",
+      "create_time": "2026-07-18T21:56:07Z",
+      "update_time": "2026-07-18T21:56:07Z",
+      "steam_id": "76561198216417331",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/87f2a0eec26c94c1d37d65e54d9ddfa2fa232359_medium.jpg"
+    },
+    {
+      "rank": 2,
       "username": "Pithany",
       "owner_id": "227b6f28-eac8-40b6-a335-026286dfcfcc",
       "score": 60675,
@@ -16,7 +29,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/59305ce329204cff4d0370a0ce4f1bd025758cec_medium.jpg"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "username": "Brootal",
       "owner_id": "e561d583-5dfd-40fe-b5aa-704fc2ab6f61",
       "score": 43256,
@@ -29,7 +42,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/f9e7e02b28bf8f1f18c07a5e95cb714b795195fd_medium.jpg"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "username": "Echo",
       "owner_id": "57135705-6794-44e0-9228-09490da091bc",
       "score": 33355,
@@ -42,7 +55,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/752eb38c3b0bc6f74708ec2c3d44d00bda41edde_medium.jpg"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "username": "M4DR1D",
       "owner_id": "7a2ea7ba-7fe2-4ebd-a808-e264f99e5e93",
       "score": 19324,
