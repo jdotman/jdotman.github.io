@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicExpertScoreWeekly",
-  "fetched_at": "2026-07-18T23:22:02Z",
+  "fetched_at": "2026-07-18T23:44:02Z",
   "records": [
     {
       "rank": 1,
+      "username": "TEChulus",
+      "owner_id": "476fe7f7-5551-41c4-af94-972b98e51d15",
+      "score": 262048,
+      "subscore": null,
+      "num_score": 2,
+      "metadata": "{\"wpm\": 85.88064, \"level\": 29, \"accuracy\": 0.9770573566084788, \"elapsedMs\": 558081.7, \"startedAtMs\": 1784417596105.3}",
+      "create_time": "2026-07-18T23:21:28Z",
+      "update_time": "2026-07-18T23:42:34Z",
+      "steam_id": "76561197961789793",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/a41301d4b9e1d39dda8f88f1c057b74f846482c7_medium.jpg"
+    },
+    {
+      "rank": 2,
       "username": "TheSpankMan",
       "owner_id": "d0c6e761-d1e0-4d4f-aada-2f8d6e1fffcd",
       "score": 180880,
@@ -14,19 +27,6 @@
       "update_time": "2026-07-16T00:04:59Z",
       "steam_id": "76561198002404903",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/bd8c862b780bf8a4c57c3cda55419dc54d85775e_medium.jpg"
-    },
-    {
-      "rank": 2,
-      "username": "TEChulus",
-      "owner_id": "476fe7f7-5551-41c4-af94-972b98e51d15",
-      "score": 120549,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 76.87381818181817, \"level\": 16, \"accuracy\": 0.9606512890094979, \"elapsedMs\": 230187.40000000002, \"startedAtMs\": 1784416655995.6}",
-      "create_time": "2026-07-18T23:21:28Z",
-      "update_time": "2026-07-18T23:21:28Z",
-      "steam_id": "76561197961789793",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/a41301d4b9e1d39dda8f88f1c057b74f846482c7_medium.jpg"
     },
     {
       "rank": 3,
