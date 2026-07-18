@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-07-18T09:40:09Z",
+  "fetched_at": "2026-07-18T21:00:24Z",
   "records": [
     {
       "rank": 1,
@@ -121,16 +121,16 @@
     },
     {
       "rank": 10,
-      "username": "Echo",
-      "owner_id": "57135705-6794-44e0-9228-09490da091bc",
-      "score": 33355,
+      "username": "Brootal",
+      "owner_id": "e561d583-5dfd-40fe-b5aa-704fc2ab6f61",
+      "score": 43256,
       "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 41.26052083333334, \"level\": 19, \"accuracy\": 0.9189024390243903, \"elapsedMs\": 438419.1999999999, \"startedAtMs\": 1784366889531.8}",
-      "create_time": "2026-07-18T09:35:31Z",
-      "update_time": "2026-07-18T09:35:31Z",
-      "steam_id": "76561198045304588",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/752eb38c3b0bc6f74708ec2c3d44d00bda41edde_medium.jpg"
+      "num_score": 2,
+      "metadata": "{\"wpm\": 55.92063829787234, \"level\": 21, \"accuracy\": 0.9146919431279621, \"elapsedMs\": 414809.3999999998, \"startedAtMs\": 1784407978979.6}",
+      "create_time": "2026-07-18T20:50:17Z",
+      "update_time": "2026-07-18T20:59:53Z",
+      "steam_id": "76561198045322068",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/f9e7e02b28bf8f1f18c07a5e95cb714b795195fd_medium.jpg"
     }
   ]
 }
