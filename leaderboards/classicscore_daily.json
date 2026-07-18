@@ -1,32 +1,5 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-07-18T01:50:02Z",
-  "records": [
-    {
-      "rank": 1,
-      "username": "Pithany",
-      "owner_id": "227b6f28-eac8-40b6-a335-026286dfcfcc",
-      "score": 67999,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 40.618289473684214, \"level\": 24, \"accuracy\": 0.9479628882613957, \"elapsedMs\": 706828, \"startedAtMs\": 1784338630601}",
-      "create_time": "2026-07-18T01:48:57Z",
-      "update_time": "2026-07-18T01:48:57Z",
-      "steam_id": "76561199028610363",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/59305ce329204cff4d0370a0ce4f1bd025758cec_medium.jpg"
-    },
-    {
-      "rank": 2,
-      "username": "The_Doctors14",
-      "owner_id": "ca3e7957-4c21-424c-ac49-481ace5d65b8",
-      "score": 61528,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 53.63067307692303, \"level\": 22, \"accuracy\": 0.9543795620437956, \"elapsedMs\": 469864.2000000016, \"startedAtMs\": 1784275081980.8}",
-      "create_time": "2026-07-17T08:05:52Z",
-      "update_time": "2026-07-17T08:05:52Z",
-      "steam_id": "76561198114074779",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/c04e5bdab9a9c7284d1624277cf6cf2f20dee31f_medium.jpg"
-    }
-  ]
+  "fetched_at": "2026-07-18T08:00:01Z",
+  "records": []
 }

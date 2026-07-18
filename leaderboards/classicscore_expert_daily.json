@@ -1,19 +1,5 @@
 {
   "leaderboard_id": "ClassicExpertScoreDaily",
-  "fetched_at": "2026-07-18T02:00:01Z",
-  "records": [
-    {
-      "rank": 1,
-      "username": "Pithany",
-      "owner_id": "227b6f28-eac8-40b6-a335-026286dfcfcc",
-      "score": 68890,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 40.04, \"level\": 13, \"accuracy\": 0.9247311827956989, \"elapsedMs\": 263019, \"startedAtMs\": 1784339452698}",
-      "create_time": "2026-07-18T01:55:15Z",
-      "update_time": "2026-07-18T01:55:15Z",
-      "steam_id": "76561199028610363",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/59305ce329204cff4d0370a0ce4f1bd025758cec_medium.jpg"
-    }
-  ]
+  "fetched_at": "2026-07-18T08:00:01Z",
+  "records": []
 }
