@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicExpertScoreDaily",
-  "fetched_at": "2026-07-19T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-07-19T21:55:01Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "Brootal",
+      "owner_id": "e561d583-5dfd-40fe-b5aa-704fc2ab6f61",
+      "score": 48066,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 68.67435897435897, \"level\": 13, \"accuracy\": 0.957688338493292, \"elapsedMs\": 166851.10000000056, \"startedAtMs\": 1784497291653.9}",
+      "create_time": "2026-07-19T21:44:18Z",
+      "update_time": "2026-07-19T21:44:18Z",
+      "steam_id": "76561198045322068",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/f9e7e02b28bf8f1f18c07a5e95cb714b795195fd_medium.jpg"
+    }
+  ]
 }
