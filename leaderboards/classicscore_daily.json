@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-07-19T13:50:02Z",
+  "fetched_at": "2026-07-19T19:30:01Z",
   "records": [
     {
       "rank": 1,
+      "username": "Life And Death",
+      "owner_id": "1697fa42-b736-4af3-92a5-d41cadee7363",
+      "score": 51939,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 40.69437499999999, \"level\": 19, \"accuracy\": 0.9700520833333334, \"elapsedMs\": 444927.4, \"startedAtMs\": 1784488770027.6}",
+      "create_time": "2026-07-19T19:26:57Z",
+      "update_time": "2026-07-19T19:26:57Z",
+      "steam_id": "76561198098271878",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/d5de16e4ed70abdd6c81315368e2cf2dbe2e3d66_medium.jpg"
+    },
+    {
+      "rank": 2,
       "username": "Echo",
       "owner_id": "57135705-6794-44e0-9228-09490da091bc",
       "score": 16365,
@@ -16,7 +29,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/752eb38c3b0bc6f74708ec2c3d44d00bda41edde_medium.jpg"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "username": "mkbuwf",
       "owner_id": "fcfaf76c-0db0-411e-b130-30305a198553",
       "score": 1426,
