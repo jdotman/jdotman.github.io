@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-07-19T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-07-19T08:40:01Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "Echo",
+      "owner_id": "57135705-6794-44e0-9228-09490da091bc",
+      "score": 16365,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 46.61390243902439, \"level\": 12, \"accuracy\": 0.9227642276422764, \"elapsedMs\": 181887.40000000005, \"startedAtMs\": 1784449693313.6}",
+      "create_time": "2026-07-19T08:31:20Z",
+      "update_time": "2026-07-19T08:31:20Z",
+      "steam_id": "76561198045304588",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/752eb38c3b0bc6f74708ec2c3d44d00bda41edde_medium.jpg"
+    }
+  ]
 }
