@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-07-19T04:10:02Z",
+  "fetched_at": "2026-07-19T04:20:02Z",
   "records": [
     {
       "rank": 1,
+      "username": "Pithany",
+      "owner_id": "227b6f28-eac8-40b6-a335-026286dfcfcc",
+      "score": 92931,
+      "subscore": null,
+      "num_score": 4,
+      "metadata": "{\"wpm\": 48.30135802469139, \"level\": 26, \"accuracy\": 0.9498846027035938, \"elapsedMs\": 747617.8, \"startedAtMs\": 1784434028850.2}",
+      "create_time": "2026-07-18T18:45:17Z",
+      "update_time": "2026-07-19T04:19:37Z",
+      "steam_id": "76561199028610363",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/59305ce329204cff4d0370a0ce4f1bd025758cec_medium.jpg"
+    },
+    {
+      "rank": 2,
       "username": "StriveFPS",
       "owner_id": "ad7f5d9e-9428-4dd1-a9ba-7933324f688f",
       "score": 82347,
@@ -14,19 +27,6 @@
       "update_time": "2026-07-18T21:56:07Z",
       "steam_id": "76561198216417331",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/87f2a0eec26c94c1d37d65e54d9ddfa2fa232359_medium.jpg"
-    },
-    {
-      "rank": 2,
-      "username": "Pithany",
-      "owner_id": "227b6f28-eac8-40b6-a335-026286dfcfcc",
-      "score": 71519,
-      "subscore": null,
-      "num_score": 3,
-      "metadata": "{\"wpm\": 44.95496062992126, \"level\": 23, \"accuracy\": 0.9400437636761488, \"elapsedMs\": 585824.1000000001, \"startedAtMs\": 1784433184314.9}",
-      "create_time": "2026-07-18T18:45:17Z",
-      "update_time": "2026-07-19T04:02:52Z",
-      "steam_id": "76561199028610363",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/59305ce329204cff4d0370a0ce4f1bd025758cec_medium.jpg"
     },
     {
       "rank": 3,
