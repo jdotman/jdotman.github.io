@@ -1,19 +1,5 @@
 {
   "leaderboard_id": "ClassicExpertScoreDaily",
-  "fetched_at": "2026-07-19T01:11:01Z",
-  "records": [
-    {
-      "rank": 1,
-      "username": "TEChulus",
-      "owner_id": "476fe7f7-5551-41c4-af94-972b98e51d15",
-      "score": 262048,
-      "subscore": null,
-      "num_score": 2,
-      "metadata": "{\"wpm\": 85.88064, \"level\": 29, \"accuracy\": 0.9770573566084788, \"elapsedMs\": 558081.7, \"startedAtMs\": 1784417596105.3}",
-      "create_time": "2026-07-18T23:21:28Z",
-      "update_time": "2026-07-18T23:42:34Z",
-      "steam_id": "76561197961789793",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/37cf1dc1f48ac849fb89a0b11182816609a9e6eb_medium.jpg"
-    }
-  ]
+  "fetched_at": "2026-07-19T08:00:01Z",
+  "records": []
 }
