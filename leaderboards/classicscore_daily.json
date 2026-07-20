@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-07-20T05:00:07Z",
+  "fetched_at": "2026-07-20T05:10:02Z",
   "records": [
     {
       "rank": 1,
@@ -17,6 +17,19 @@
     },
     {
       "rank": 2,
+      "username": "Pithany",
+      "owner_id": "227b6f28-eac8-40b6-a335-026286dfcfcc",
+      "score": 63310,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 44.58362318840579, \"level\": 23, \"accuracy\": 0.9563559322033899, \"elapsedMs\": 642592.8, \"startedAtMs\": 1784523042298.2}",
+      "create_time": "2026-07-20T05:01:25Z",
+      "update_time": "2026-07-20T05:01:25Z",
+      "steam_id": "76561199028610363",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/59305ce329204cff4d0370a0ce4f1bd025758cec_medium.jpg"
+    },
+    {
+      "rank": 3,
       "username": "Life And Death",
       "owner_id": "1697fa42-b736-4af3-92a5-d41cadee7363",
       "score": 51939,
@@ -29,7 +42,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/d5de16e4ed70abdd6c81315368e2cf2dbe2e3d66_medium.jpg"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "username": "Echo",
       "owner_id": "57135705-6794-44e0-9228-09490da091bc",
       "score": 16365,
@@ -42,7 +55,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/752eb38c3b0bc6f74708ec2c3d44d00bda41edde_medium.jpg"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "username": "mkbuwf",
       "owner_id": "fcfaf76c-0db0-411e-b130-30305a198553",
       "score": 1426,
