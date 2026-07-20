@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreLifetime",
-  "fetched_at": "2026-07-17T12:10:09Z",
+  "fetched_at": "2026-07-20T05:00:30Z",
   "records": [
     {
       "rank": 1,
@@ -108,6 +108,19 @@
     },
     {
       "rank": 9,
+      "username": "Dale and Dale",
+      "owner_id": "2bcfa686-6207-455e-95d1-4c02cbc335cb",
+      "score": 113738,
+      "subscore": null,
+      "num_score": 2,
+      "metadata": "{\"wpm\": 58.82068702290072, \"level\": 26, \"accuracy\": 0.9523494374586366, \"elapsedMs\": 591567.6000000002, \"startedAtMs\": 1784522667500.4}",
+      "create_time": "2026-07-14T21:14:40Z",
+      "update_time": "2026-07-20T04:54:21Z",
+      "steam_id": "76561198048237724",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/3f4e52691b11ea1f1e05bde7fc5c68dc92071602_medium.jpg"
+    },
+    {
+      "rank": 10,
       "username": "Soulurks",
       "owner_id": "43b25a41-1def-41af-9751-aefa41da017b",
       "score": 109079,
@@ -118,19 +131,6 @@
       "update_time": "2026-07-14T22:58:13Z",
       "steam_id": "76561198121572241",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/59305ce329204cff4d0370a0ce4f1bd025758cec_medium.jpg"
-    },
-    {
-      "rank": 10,
-      "username": "zetsueixz",
-      "owner_id": "c7dddd20-b56c-4197-b4fc-ad617d3536b3",
-      "score": 103895,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 72.28440366972477, \"level\": 27, \"accuracy\": 0.9715403770900035, \"elapsedMs\": 465972.1, \"startedAtMs\": 1778789745071.9}",
-      "create_time": "2026-05-14T20:23:32Z",
-      "update_time": "2026-05-14T20:23:32Z",
-      "steam_id": "76561197967525300",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
     }
   ]
 }
