@@ -1,17 +1,17 @@
 {
   "leaderboard_id": "ClassicExpertScoreWeekly",
-  "fetched_at": "2026-07-20T15:11:01Z",
+  "fetched_at": "2026-07-20T15:44:02Z",
   "records": [
     {
       "rank": 1,
       "username": "sstrrr",
       "owner_id": "de6ba62b-a434-4a66-a9f9-ad8dd05b56f2",
-      "score": 9082,
+      "score": 10968,
       "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 25.274242424242427, \"level\": 7, \"accuracy\": 0.8825301204819277, \"elapsedMs\": 145529.69999999998, \"startedAtMs\": 1784559507435.3}",
+      "num_score": 2,
+      "metadata": "{\"wpm\": 24.863749999999992, \"level\": 6, \"accuracy\": 0.8408408408408409, \"elapsedMs\": 141983.7, \"startedAtMs\": 1784561494112.3}",
       "create_time": "2026-07-20T15:00:57Z",
-      "update_time": "2026-07-20T15:00:57Z",
+      "update_time": "2026-07-20T15:34:00Z",
       "steam_id": "76561198781118510",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/7f18826cde601ab69f29cb088793af9cbd1ccc14_medium.jpg"
     }
