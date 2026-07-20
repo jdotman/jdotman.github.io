@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-07-19T19:30:01Z",
+  "fetched_at": "2026-07-20T05:00:07Z",
   "records": [
     {
       "rank": 1,
+      "username": "Dale and Dale",
+      "owner_id": "2bcfa686-6207-455e-95d1-4c02cbc335cb",
+      "score": 113738,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 58.82068702290072, \"level\": 26, \"accuracy\": 0.9523494374586366, \"elapsedMs\": 591567.6000000002, \"startedAtMs\": 1784522667500.4}",
+      "create_time": "2026-07-20T04:54:21Z",
+      "update_time": "2026-07-20T04:54:21Z",
+      "steam_id": "76561198048237724",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/3f4e52691b11ea1f1e05bde7fc5c68dc92071602_medium.jpg"
+    },
+    {
+      "rank": 2,
       "username": "Life And Death",
       "owner_id": "1697fa42-b736-4af3-92a5-d41cadee7363",
       "score": 51939,
@@ -16,7 +29,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/d5de16e4ed70abdd6c81315368e2cf2dbe2e3d66_medium.jpg"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "username": "Echo",
       "owner_id": "57135705-6794-44e0-9228-09490da091bc",
       "score": 16365,
@@ -29,7 +42,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/752eb38c3b0bc6f74708ec2c3d44d00bda41edde_medium.jpg"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "username": "mkbuwf",
       "owner_id": "fcfaf76c-0db0-411e-b130-30305a198553",
       "score": 1426,
