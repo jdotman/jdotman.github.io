@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-07-21T00:40:02Z",
+  "fetched_at": "2026-07-21T16:30:02Z",
   "records": [
     {
       "rank": 1,
@@ -19,12 +19,12 @@
       "rank": 2,
       "username": "sstrrr",
       "owner_id": "de6ba62b-a434-4a66-a9f9-ad8dd05b56f2",
-      "score": 6640,
+      "score": 12363,
       "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 18.31305084745763, \"level\": 8, \"accuracy\": 0.8235294117647058, \"elapsedMs\": 291294.29999999993, \"startedAtMs\": 1784548387365.7}",
+      "num_score": 2,
+      "metadata": "{\"wpm\": 27.49851351351352, \"level\": 13, \"accuracy\": 0.8587830080367393, \"elapsedMs\": 330635.89999999997, \"startedAtMs\": 1784650756391.1}",
       "create_time": "2026-07-20T11:58:02Z",
-      "update_time": "2026-07-20T11:58:02Z",
+      "update_time": "2026-07-21T16:24:53Z",
       "steam_id": "76561198781118510",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/7f18826cde601ab69f29cb088793af9cbd1ccc14_medium.jpg"
     }
