@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicExpertScoreWeekly",
-  "fetched_at": "2026-07-21T00:22:02Z",
+  "fetched_at": "2026-07-22T00:44:02Z",
   "records": [
     {
       "rank": 1,
+      "username": "Pithany",
+      "owner_id": "227b6f28-eac8-40b6-a335-026286dfcfcc",
+      "score": 47910,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 46.33906249999999, \"level\": 14, \"accuracy\": 0.927007299270073, \"elapsedMs\": 279015.3000000012, \"startedAtMs\": 1784680330437.7}",
+      "create_time": "2026-07-22T00:36:50Z",
+      "update_time": "2026-07-22T00:36:50Z",
+      "steam_id": "76561199028610363",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/59305ce329204cff4d0370a0ce4f1bd025758cec_medium.jpg"
+    },
+    {
+      "rank": 2,
       "username": "Echo",
       "owner_id": "57135705-6794-44e0-9228-09490da091bc",
       "score": 27466,
@@ -16,7 +29,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/752eb38c3b0bc6f74708ec2c3d44d00bda41edde_medium.jpg"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "username": "sstrrr",
       "owner_id": "de6ba62b-a434-4a66-a9f9-ad8dd05b56f2",
       "score": 10968,
