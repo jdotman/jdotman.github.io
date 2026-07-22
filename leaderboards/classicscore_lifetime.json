@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreLifetime",
-  "fetched_at": "2026-07-21T18:30:04Z",
+  "fetched_at": "2026-07-22T14:00:38Z",
   "records": [
     {
       "rank": 1,
@@ -65,7 +65,7 @@
       "create_time": "2026-05-15T13:21:16Z",
       "update_time": "2026-05-15T13:21:16Z",
       "steam_id": "76561199121820839",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/cff11a8a03adfec7d1a981aab5dc8731993b389d_medium.jpg"
+      "avatar_medium": null
     },
     {
       "rank": 6,
@@ -117,7 +117,7 @@
       "create_time": "2026-07-14T21:14:40Z",
       "update_time": "2026-07-20T04:54:21Z",
       "steam_id": "76561198048237724",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/3f4e52691b11ea1f1e05bde7fc5c68dc92071602_medium.jpg"
+      "avatar_medium": null
     },
     {
       "rank": 10,
