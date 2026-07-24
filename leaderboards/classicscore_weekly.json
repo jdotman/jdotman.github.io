@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-07-23T04:10:02Z",
+  "fetched_at": "2026-07-24T17:50:02Z",
   "records": [
     {
       "rank": 1,
@@ -17,6 +17,19 @@
     },
     {
       "rank": 2,
+      "username": "M4DR1D",
+      "owner_id": "7a2ea7ba-7fe2-4ebd-a808-e264f99e5e93",
+      "score": 14682,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 30.270652173913046, \"level\": 10, \"accuracy\": 0.8066037735849056, \"elapsedMs\": 248023.1, \"startedAtMs\": 1784914756144.9}",
+      "create_time": "2026-07-24T17:43:26Z",
+      "update_time": "2026-07-24T17:43:26Z",
+      "steam_id": "76561199013924293",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
+    },
+    {
+      "rank": 3,
       "username": "sstrrr",
       "owner_id": "de6ba62b-a434-4a66-a9f9-ad8dd05b56f2",
       "score": 12363,
@@ -29,7 +42,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/7f18826cde601ab69f29cb088793af9cbd1ccc14_medium.jpg"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "username": "Echo",
       "owner_id": "57135705-6794-44e0-9228-09490da091bc",
       "score": 4225,
