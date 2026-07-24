@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreLifetime",
-  "fetched_at": "2026-07-24T11:00:28Z",
+  "fetched_at": "2026-07-24T11:10:03Z",
   "records": [
     {
       "rank": 1,
@@ -39,7 +39,7 @@
       "create_time": "2026-05-19T02:21:20Z",
       "update_time": "2026-05-19T02:21:20Z",
       "steam_id": "76561197974741810",
-      "avatar_medium": null
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/e88f732d1dab38b606f32e05434a52e3ec787974_medium.jpg"
     },
     {
       "rank": 4,
