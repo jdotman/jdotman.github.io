@@ -203,12 +203,12 @@
       ]
     },
     "drain-escape": {
-      "passage": "You drop through the drain and land hard in ankle-deep water. Pain shoots through your left leg but nothing breaks. A tunnel stretches in both directions lit by pale moss on the walls. To the left you hear flowing water. To the right the tunnel slopes upward toward a faint circle of grey light.",
+      "passage": "You drop through the drain and land hard in ankle-deep water. Pain shoots through your left leg but nothing breaks. A tunnel stretches in both directions lit by pale moss on the walls. To the left you hear flowing water. To the right the tunnel slopes upward toward a faint circle of gray light.",
       "choices": [
         {
           "label": "go toward the light",
           "nextNode": "tunnel-exit",
-          "hint": "The grey circle grows brighter as you limp forward through the muck."
+          "hint": "The gray circle grows brighter as you limp forward through the muck."
         },
         {
           "label": "follow the water",
