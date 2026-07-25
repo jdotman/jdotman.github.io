@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-07-25T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-07-25T12:50:02Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "Holy Shxtsnacks",
+      "owner_id": "1af76efb-25d2-4538-8798-ea1d8940a63e",
+      "score": 41197,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 43.12141414141416, \"level\": 19, \"accuracy\": 0.9551597051597052, \"elapsedMs\": 444247.8, \"startedAtMs\": 1784983191384.2}",
+      "create_time": "2026-07-25T12:47:17Z",
+      "update_time": "2026-07-25T12:47:17Z",
+      "steam_id": "76561198303555897",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/3c9f6bea6137f29dc09ea23a67b5d85f95f7e5ab_medium.jpg"
+    }
+  ]
 }
