@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-07-26T18:20:08Z",
+  "fetched_at": "2026-07-26T19:20:07Z",
   "records": [
     {
       "rank": 1,
@@ -69,6 +69,19 @@
     },
     {
       "rank": 6,
+      "username": "zgtjose",
+      "owner_id": "d40c7de2-0d4f-403a-bd02-a59dc572ac0d",
+      "score": 9186,
+      "subscore": null,
+      "num_score": 2,
+      "metadata": "{\"wpm\": 22.814428571428586, \"level\": 10, \"accuracy\": 0.8785310734463276, \"elapsedMs\": 321409.69999999995, \"startedAtMs\": 1785093204859.3}",
+      "create_time": "2026-07-26T19:12:14Z",
+      "update_time": "2026-07-26T19:18:46Z",
+      "steam_id": "76561198681993719",
+      "avatar_medium": null
+    },
+    {
+      "rank": 7,
       "username": "Echo",
       "owner_id": "57135705-6794-44e0-9228-09490da091bc",
       "score": 4225,

@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-07-26T18:20:02Z",
+  "fetched_at": "2026-07-26T19:20:02Z",
   "records": [
     {
       "rank": 1,
@@ -14,6 +14,19 @@
       "update_time": "2026-07-26T18:14:43Z",
       "steam_id": "76561198035355955",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/62290681848b99e427f0a1ab984cfbe7f88ecf91_medium.jpg"
+    },
+    {
+      "rank": 2,
+      "username": "zgtjose",
+      "owner_id": "d40c7de2-0d4f-403a-bd02-a59dc572ac0d",
+      "score": 9186,
+      "subscore": null,
+      "num_score": 2,
+      "metadata": "{\"wpm\": 22.814428571428586, \"level\": 10, \"accuracy\": 0.8785310734463276, \"elapsedMs\": 321409.69999999995, \"startedAtMs\": 1785093204859.3}",
+      "create_time": "2026-07-26T19:12:14Z",
+      "update_time": "2026-07-26T19:18:46Z",
+      "steam_id": "76561198681993719",
+      "avatar_medium": null
     }
   ]
 }
