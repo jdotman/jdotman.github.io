@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-07-25T20:30:07Z",
+  "fetched_at": "2026-07-26T18:20:08Z",
   "records": [
     {
       "rank": 1,
+      "username": "symphony",
+      "owner_id": "8a84ff15-1e0f-4d11-8242-eab553edc862",
+      "score": 130326,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 81.14673076923076, \"level\": 33, \"accuracy\": 0.9584346672562458, \"elapsedMs\": 699412.6000000299, \"startedAtMs\": 1785088983957.4}",
+      "create_time": "2026-07-26T18:14:43Z",
+      "update_time": "2026-07-26T18:14:43Z",
+      "steam_id": "76561198035355955",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/62290681848b99e427f0a1ab984cfbe7f88ecf91_medium.jpg"
+    },
+    {
+      "rank": 2,
       "username": "Pithany",
       "owner_id": "227b6f28-eac8-40b6-a335-026286dfcfcc",
       "score": 106981,
@@ -16,7 +29,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/59305ce329204cff4d0370a0ce4f1bd025758cec_medium.jpg"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "username": "Holy Shxtsnacks",
       "owner_id": "1af76efb-25d2-4538-8798-ea1d8940a63e",
       "score": 41197,
@@ -29,7 +42,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/3c9f6bea6137f29dc09ea23a67b5d85f95f7e5ab_medium.jpg"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "username": "M4DR1D",
       "owner_id": "7a2ea7ba-7fe2-4ebd-a808-e264f99e5e93",
       "score": 21218,
@@ -42,7 +55,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "username": "sstrrr",
       "owner_id": "de6ba62b-a434-4a66-a9f9-ad8dd05b56f2",
       "score": 12363,
@@ -55,7 +68,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/7f18826cde601ab69f29cb088793af9cbd1ccc14_medium.jpg"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "username": "Echo",
       "owner_id": "57135705-6794-44e0-9228-09490da091bc",
       "score": 4225,
