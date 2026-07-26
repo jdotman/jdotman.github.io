@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicExpertScoreDaily",
-  "fetched_at": "2026-07-22T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-07-26T07:33:01Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "crazydan05",
+      "owner_id": "831011e4-ec0c-4f16-af9a-c52d50addd4d",
+      "score": 223066,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 69.82086538461537, \"level\": 23, \"accuracy\": 0.9731321310268679, \"elapsedMs\": 460867.3000000001, \"startedAtMs\": 1785050389092.7}",
+      "create_time": "2026-07-26T07:27:32Z",
+      "update_time": "2026-07-26T07:27:32Z",
+      "steam_id": "76561198064806577",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/c01873488a4908993aef80bf5e8871df10027f71_medium.jpg"
+    }
+  ]
 }
