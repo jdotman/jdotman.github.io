@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicExpertScoreDaily",
-  "fetched_at": "2026-07-27T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-07-27T17:00:01Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "downndorky101",
+      "owner_id": "6c72619c-5a13-4562-b666-3b8e02b1d888",
+      "score": 45566,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 45.538730158730175, \"level\": 14, \"accuracy\": 0.9233480176211454, \"elapsedMs\": 291458.3000000003, \"startedAtMs\": 1785171154813.7}",
+      "create_time": "2026-07-27T16:57:25Z",
+      "update_time": "2026-07-27T16:57:25Z",
+      "steam_id": "76561199048665344",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
+    }
+  ]
 }
