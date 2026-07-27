@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicExpertScoreLifetime",
-  "fetched_at": "2026-07-26T18:00:28Z",
+  "fetched_at": "2026-07-27T03:33:09Z",
   "records": [
     {
       "rank": 1,
@@ -95,6 +95,19 @@
     },
     {
       "rank": 8,
+      "username": "HunnyBadger",
+      "owner_id": "89df2d1b-48cf-4c2a-87b8-4cbfd94a7e43",
+      "score": 137296,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 46.18953488372093, \"level\": 17, \"accuracy\": 0.9828947368421053, \"elapsedMs\": 381592.30000000005, \"startedAtMs\": 1785122380441.7}",
+      "create_time": "2026-07-27T03:26:05Z",
+      "update_time": "2026-07-27T03:26:05Z",
+      "steam_id": "76561198974079194",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/87933e9c13d0a122f4f35c95afe47b400b661f72_medium.jpg"
+    },
+    {
+      "rank": 9,
       "username": "kC",
       "owner_id": "fea50cbd-effd-43e0-95a0-10300e1f5722",
       "score": 127952,
@@ -107,7 +120,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/59305ce329204cff4d0370a0ce4f1bd025758cec_medium.jpg"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "username": "Dale and Dale",
       "owner_id": "2bcfa686-6207-455e-95d1-4c02cbc335cb",
       "score": 98272,
@@ -118,19 +131,6 @@
       "update_time": "2026-07-14T20:54:19Z",
       "steam_id": "76561198048237724",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/3f4e52691b11ea1f1e05bde7fc5c68dc92071602_medium.jpg"
-    },
-    {
-      "rank": 10,
-      "username": "Umbra",
-      "owner_id": "b871a599-d51e-4b97-9aa7-d6f57e0ea042",
-      "score": 84233,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 71.24716666666669, \"level\": 18, \"accuracy\": 0.9568020631850419, \"elapsedMs\": 259939.20000000007, \"startedAtMs\": 1781260622529.8}",
-      "create_time": "2026-06-12T10:41:25Z",
-      "update_time": "2026-06-12T10:41:25Z",
-      "steam_id": "76561198989286049",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/f3629e432f0476fa2ddca3f204dbb57277538b7e_medium.jpg"
     }
   ]
 }

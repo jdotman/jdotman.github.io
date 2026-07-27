@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicExpertScoreWeekly",
-  "fetched_at": "2026-07-26T18:11:08Z",
+  "fetched_at": "2026-07-27T03:33:07Z",
   "records": [
     {
       "rank": 1,
@@ -30,6 +30,19 @@
     },
     {
       "rank": 3,
+      "username": "HunnyBadger",
+      "owner_id": "89df2d1b-48cf-4c2a-87b8-4cbfd94a7e43",
+      "score": 137296,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 46.18953488372093, \"level\": 17, \"accuracy\": 0.9828947368421053, \"elapsedMs\": 381592.30000000005, \"startedAtMs\": 1785122380441.7}",
+      "create_time": "2026-07-27T03:26:05Z",
+      "update_time": "2026-07-27T03:26:05Z",
+      "steam_id": "76561198974079194",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/87933e9c13d0a122f4f35c95afe47b400b661f72_medium.jpg"
+    },
+    {
+      "rank": 4,
       "username": "Pithany",
       "owner_id": "227b6f28-eac8-40b6-a335-026286dfcfcc",
       "score": 75073,
@@ -42,7 +55,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/59305ce329204cff4d0370a0ce4f1bd025758cec_medium.jpg"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "username": "Echo",
       "owner_id": "57135705-6794-44e0-9228-09490da091bc",
       "score": 27466,
@@ -55,7 +68,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/752eb38c3b0bc6f74708ec2c3d44d00bda41edde_medium.jpg"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "username": "sstrrr",
       "owner_id": "de6ba62b-a434-4a66-a9f9-ad8dd05b56f2",
       "score": 10968,
