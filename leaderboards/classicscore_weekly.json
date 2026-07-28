@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-07-28T02:10:07Z",
+  "fetched_at": "2026-07-28T02:30:01Z",
   "records": [
     {
       "rank": 1,
+      "username": "J.Man",
+      "owner_id": "734152d5-43ea-4762-ac7c-6f91bcd7d9ab",
+      "score": 76797,
+      "subscore": null,
+      "num_score": 3,
+      "metadata": "{\"wpm\": 95.56666666666666, \"level\": 19, \"accuracy\": 0.9745354439091535, \"elapsedMs\": 178044.99999999703, \"startedAtMs\": 1785205458787}",
+      "create_time": "2026-07-28T01:20:43Z",
+      "update_time": "2026-07-28T02:27:16Z",
+      "steam_id": "76561197976856083",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/0ec566e853a68fd7605cd18cb5d30ce332960596_medium.jpg"
+    },
+    {
+      "rank": 2,
       "username": "downndorky101",
       "owner_id": "6c72619c-5a13-4562-b666-3b8e02b1d888",
       "score": 55301,
@@ -14,19 +27,6 @@
       "update_time": "2026-07-27T16:45:11Z",
       "steam_id": "76561199048665344",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
-    },
-    {
-      "rank": 2,
-      "username": "J.Man",
-      "owner_id": "734152d5-43ea-4762-ac7c-6f91bcd7d9ab",
-      "score": 43185,
-      "subscore": null,
-      "num_score": 2,
-      "metadata": "{\"wpm\": 116.87559999999998, \"level\": 12, \"accuracy\": 0.9680729760547321, \"elapsedMs\": 93014.5, \"startedAtMs\": 1785204384080.5}",
-      "create_time": "2026-07-28T01:20:43Z",
-      "update_time": "2026-07-28T02:07:58Z",
-      "steam_id": "76561197976856083",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/0ec566e853a68fd7605cd18cb5d30ce332960596_medium.jpg"
     }
   ]
 }
