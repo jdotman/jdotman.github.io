@@ -1,22 +1,35 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-07-29T04:00:07Z",
+  "fetched_at": "2026-07-29T04:10:02Z",
   "records": [
     {
       "rank": 1,
-      "username": "tukewel",
-      "owner_id": "2afe9e1b-3c92-4714-b6a3-d4300e912671",
-      "score": 44315,
+      "username": "LadyoftheDevils",
+      "owner_id": "1ec157ec-c6f1-497f-be8f-a8359ba49363",
+      "score": 72194,
       "subscore": null,
       "num_score": 1,
-      "metadata": "{\"wpm\": 45.507525773195844, \"level\": 20, \"accuracy\": 0.9546809779367919, \"elapsedMs\": 432348.59999999974, \"startedAtMs\": 1785297052418.4}",
+      "metadata": "{\"wpm\": 46.64248120300753, \"level\": 24, \"accuracy\": 0.9559239789729074, \"elapsedMs\": 608965.6000000001, \"startedAtMs\": 1785297458829.4}",
+      "create_time": "2026-07-29T04:07:50Z",
+      "update_time": "2026-07-29T04:07:50Z",
+      "steam_id": "76561198122956820",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/ff14a9e3e09f10dee5aa8f996c5f28001251cbb2_medium.jpg"
+    },
+    {
+      "rank": 2,
+      "username": "tukewel",
+      "owner_id": "2afe9e1b-3c92-4714-b6a3-d4300e912671",
+      "score": 68748,
+      "subscore": null,
+      "num_score": 2,
+      "metadata": "{\"wpm\": 47.528712121212116, \"level\": 23, \"accuracy\": 0.9568228105906313, \"elapsedMs\": 596146.6000000001, \"startedAtMs\": 1785297566915.4}",
       "create_time": "2026-07-29T03:58:07Z",
-      "update_time": "2026-07-29T03:58:07Z",
+      "update_time": "2026-07-29T04:09:23Z",
       "steam_id": "76561198272402059",
       "avatar_medium": null
     },
     {
-      "rank": 2,
+      "rank": 3,
       "username": "J.Man",
       "owner_id": "734152d5-43ea-4762-ac7c-6f91bcd7d9ab",
       "score": 37513,
