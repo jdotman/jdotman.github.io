@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-07-28T12:30:01Z",
+  "fetched_at": "2026-07-29T04:00:07Z",
   "records": [
     {
       "rank": 1,
+      "username": "tukewel",
+      "owner_id": "2afe9e1b-3c92-4714-b6a3-d4300e912671",
+      "score": 44315,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 45.507525773195844, \"level\": 20, \"accuracy\": 0.9546809779367919, \"elapsedMs\": 432348.59999999974, \"startedAtMs\": 1785297052418.4}",
+      "create_time": "2026-07-29T03:58:07Z",
+      "update_time": "2026-07-29T03:58:07Z",
+      "steam_id": "76561198272402059",
+      "avatar_medium": null
+    },
+    {
+      "rank": 2,
       "username": "J.Man",
       "owner_id": "734152d5-43ea-4762-ac7c-6f91bcd7d9ab",
       "score": 37513,

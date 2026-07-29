@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-07-28T03:20:02Z",
+  "fetched_at": "2026-07-29T04:00:12Z",
   "records": [
     {
       "rank": 1,
@@ -40,6 +40,19 @@
       "update_time": "2026-07-27T16:45:11Z",
       "steam_id": "76561199048665344",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
+    },
+    {
+      "rank": 4,
+      "username": "tukewel",
+      "owner_id": "2afe9e1b-3c92-4714-b6a3-d4300e912671",
+      "score": 44315,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 45.507525773195844, \"level\": 20, \"accuracy\": 0.9546809779367919, \"elapsedMs\": 432348.59999999974, \"startedAtMs\": 1785297052418.4}",
+      "create_time": "2026-07-29T03:58:07Z",
+      "update_time": "2026-07-29T03:58:07Z",
+      "steam_id": "76561198272402059",
+      "avatar_medium": null
     }
   ]
 }
