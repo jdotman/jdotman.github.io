@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreLifetime",
-  "fetched_at": "2026-07-29T02:10:09Z",
+  "fetched_at": "2026-07-30T00:20:13Z",
   "records": [
     {
       "rank": 1,
@@ -108,6 +108,19 @@
     },
     {
       "rank": 9,
+      "username": "J.Man",
+      "owner_id": "734152d5-43ea-4762-ac7c-6f91bcd7d9ab",
+      "score": 118313,
+      "subscore": null,
+      "num_score": 6,
+      "metadata": "{\"wpm\": 107.73066666666665, \"level\": 19, \"accuracy\": 0.9895493141737427, \"elapsedMs\": 176161.09999999698, \"startedAtMs\": 1785370163880.9}",
+      "create_time": "2026-05-22T00:35:06Z",
+      "update_time": "2026-07-30T00:12:22Z",
+      "steam_id": "76561197976856083",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/0ec566e853a68fd7605cd18cb5d30ce332960596_medium.jpg"
+    },
+    {
+      "rank": 10,
       "username": "FroggimusPrime",
       "owner_id": "706f7bbe-72be-4055-b905-1dbe2d344d41",
       "score": 117847,
@@ -118,19 +131,6 @@
       "update_time": "2026-05-19T05:38:35Z",
       "steam_id": "76561197997899775",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/165fa5c759b7e7972ad0631c6b90f2111d6c59c0_medium.jpg"
-    },
-    {
-      "rank": 10,
-      "username": "Dale and Dale",
-      "owner_id": "2bcfa686-6207-455e-95d1-4c02cbc335cb",
-      "score": 113738,
-      "subscore": null,
-      "num_score": 2,
-      "metadata": "{\"wpm\": 58.82068702290072, \"level\": 26, \"accuracy\": 0.9523494374586366, \"elapsedMs\": 591567.6000000002, \"startedAtMs\": 1784522667500.4}",
-      "create_time": "2026-07-14T21:14:40Z",
-      "update_time": "2026-07-20T04:54:21Z",
-      "steam_id": "76561198048237724",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/3f4e52691b11ea1f1e05bde7fc5c68dc92071602_medium.jpg"
     }
   ]
 }
