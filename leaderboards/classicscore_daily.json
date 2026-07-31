@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-07-31T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-07-31T10:30:01Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "wmanthe",
+      "owner_id": "a989f680-3d8c-406c-9702-e667aca983bb",
+      "score": 42494,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 37.97202127659576, \"level\": 17, \"accuracy\": 0.9319971367215462, \"elapsedMs\": 427159.10000000015, \"startedAtMs\": 1785493031672.9}",
+      "create_time": "2026-07-31T10:24:22Z",
+      "update_time": "2026-07-31T10:24:22Z",
+      "steam_id": "76561198045692345",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/e80fe7a4a794c1c1e7af10706d9b664933f2de42_medium.jpg"
+    }
+  ]
 }
