@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-08-03T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-08-04T04:20:01Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "tukewel",
+      "owner_id": "2afe9e1b-3c92-4714-b6a3-d4300e912671",
+      "score": 59802,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 48.486324786324765, \"level\": 22, \"accuracy\": 0.953445915107257, \"elapsedMs\": 527680.6, \"startedAtMs\": 1785816233330.4}",
+      "create_time": "2026-08-04T04:12:44Z",
+      "update_time": "2026-08-04T04:12:44Z",
+      "steam_id": "76561198272402059",
+      "avatar_medium": null
+    }
+  ]
 }
