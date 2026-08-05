@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-08-05T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-08-05T22:10:01Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "bobmarlayna",
+      "owner_id": "53b93cae-af9d-40a6-be04-9721d79fe5bd",
+      "score": 85874,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 47.29484472049692, \"level\": 27, \"accuracy\": 0.9464285714285714, \"elapsedMs\": 731048.2999999998, \"startedAtMs\": 1785966840220.7}",
+      "create_time": "2026-08-05T22:06:14Z",
+      "update_time": "2026-08-05T22:06:14Z",
+      "steam_id": "76561198763745787",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/db2fbce4cee04009987c1f1b4ede7546f485cac9_medium.jpg"
+    }
+  ]
 }
