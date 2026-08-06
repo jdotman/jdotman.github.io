@@ -26,12 +26,6 @@ alreason
 alreat
 alt
 ana
-analine
-analiter
-anall
-analler
-anallo
-analso
 anate
 anatell
 anater
@@ -567,8 +561,6 @@ seates
 seation
 seats
 slan
-slanaline
-slanall
 slanate
 slanatie
 slanatio

@@ -205,7 +205,6 @@ intle
 introot
 ints
 lan
-lanal
 lanate
 lanation
 lanations

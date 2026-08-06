@@ -1,7 +1,5 @@
 alan
 alana
-alanal
-alanall
 alane
 alanel
 alanen
@@ -43,7 +41,6 @@ alla
 allail
 allain
 allan
-allanal
 allane
 allannel
 allar
@@ -217,7 +214,6 @@ illa
 illain
 illair
 illan
-illanal
 illane
 illannel
 illanner
@@ -287,13 +283,6 @@ lainine
 lair
 lan
 lana
-lanal
-lanaler
-lanaline
-lanall
-lanalle
-lanallel
-lanallen
 lanel
 lanelie
 lanen

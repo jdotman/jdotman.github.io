@@ -15,7 +15,6 @@ achile
 achill
 achin
 aching
-achink
 achip
 ahead
 aheadam
@@ -181,7 +180,6 @@ chilter
 chin
 chind
 ching
-chinking
 chinx
 cho
 chock
@@ -216,7 +214,6 @@ eched
 echen
 echend
 echich
-echink
 echles
 echlesh
 echless
@@ -550,7 +547,6 @@ schill
 schin
 schind
 sching
-schink
 schiny
 scho
 schock

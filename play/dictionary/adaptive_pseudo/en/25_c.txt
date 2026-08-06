@@ -74,7 +74,6 @@ archile
 archin
 archind
 arching
-archink
 auce
 auced
 aucet
@@ -258,7 +257,6 @@ etchile
 etchiled
 etchin
 etching
-etchink
 excave
 excell
 excepter

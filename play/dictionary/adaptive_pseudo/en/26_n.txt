@@ -421,7 +421,6 @@ luntal
 luntilt
 lunty
 manage
-manal
 mand
 mans
 manyway

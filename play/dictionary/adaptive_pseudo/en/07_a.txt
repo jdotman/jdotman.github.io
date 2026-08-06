@@ -1,7 +1,5 @@
 alan
 alana
-alanal
-alanall
 alanate
 alanatie
 alanatin
@@ -52,15 +50,6 @@ alreat
 alreate
 alt
 ana
-anale
-analie
-analine
-analit
-analite
-analittin
-anall
-analler
-anallert
 anate
 anatel
 anatell
@@ -309,7 +298,6 @@ laint
 lainter
 lair
 lan
-lanal
 lanate
 lanater
 lanatine

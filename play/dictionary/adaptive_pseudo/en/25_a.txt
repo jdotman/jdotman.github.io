@@ -324,7 +324,6 @@ giant
 giantio
 giants
 glan
-glanal
 glance
 gland
 glans

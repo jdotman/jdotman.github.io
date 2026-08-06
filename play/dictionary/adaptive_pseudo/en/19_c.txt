@@ -78,7 +78,6 @@ archeck
 arched
 archeel
 arching
-archink
 archmen
 arcome
 auce
@@ -204,7 +203,6 @@ echangle
 eched
 echile
 echin
-echink
 echnic
 echo
 echoice
@@ -494,7 +492,6 @@ oncream
 oncret
 ouch
 ouched
-ouchink
 paced
 paces
 pacial

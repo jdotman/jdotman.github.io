@@ -1,8 +1,4 @@
 ana
-analie
-analinter
-analit
-anall
 anate
 anatel
 anatell
@@ -239,9 +235,6 @@ intront
 introot
 lan
 lana
-lanal
-lanaline
-lanall
 lanate
 lanatell
 lanater

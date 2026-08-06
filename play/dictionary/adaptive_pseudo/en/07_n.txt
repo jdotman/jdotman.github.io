@@ -1,7 +1,4 @@
 ana
-analine
-analitter
-anall
 anate
 anatel
 anatell
@@ -272,8 +269,6 @@ intrient
 intrin
 lan
 lana
-lanal
-lanall
 lanate
 lanater
 lanatie

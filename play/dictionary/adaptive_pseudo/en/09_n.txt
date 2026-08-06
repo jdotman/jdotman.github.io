@@ -1,5 +1,4 @@
 ana
-anall
 anate
 anatell
 anatine
@@ -193,10 +192,6 @@ introllo
 ints
 lan
 lana
-lanal
-lanaline
-lanalit
-lanall
 lanate
 lanatin
 lanatine

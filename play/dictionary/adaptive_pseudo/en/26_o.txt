@@ -534,7 +534,6 @@ poke
 polist
 pologize
 polore
-poo
 poors
 popped
 popping

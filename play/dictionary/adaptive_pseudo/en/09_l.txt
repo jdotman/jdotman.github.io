@@ -138,9 +138,6 @@ illione
 illo
 ills
 islan
-islanal
-islanaline
-islanall
 islanate
 islanatin
 islanation
@@ -586,8 +583,6 @@ silline
 sillines
 sills
 slan
-slanal
-slanals
 slanatist
 slane
 slanel

@@ -1,6 +1,5 @@
 alan
 alana
-alanal
 alanate
 alanation
 alanato
@@ -24,12 +23,6 @@ alitter
 aller
 alreat
 ana
-analine
-anall
-anallea
-anallen
-analler
-analloose
 anate
 anatene
 anater
@@ -541,7 +534,6 @@ seats
 seature
 seaturn
 slan
-slanal
 slanation
 slanatue
 slane

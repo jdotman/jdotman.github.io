@@ -17,7 +17,6 @@ achill
 achin
 achined
 aching
-achink
 ahead
 aheade
 aheading
@@ -241,7 +240,6 @@ echile
 echill
 echind
 eching
-echink
 echles
 echless
 echlet
@@ -555,7 +553,6 @@ schew
 schief
 schile
 sching
-schink
 scho
 schock
 schockin

@@ -253,8 +253,6 @@ instran
 instree
 instren
 islan
-islanal
-islanall
 islanate
 islanation
 islane

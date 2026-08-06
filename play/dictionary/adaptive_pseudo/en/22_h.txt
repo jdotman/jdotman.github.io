@@ -20,7 +20,6 @@ achim
 achin
 aching
 achings
-achink
 achip
 ahead
 aheadach
@@ -574,8 +573,6 @@ schield
 schile
 schind
 sching
-schink
-schinkind
 scho
 schock
 schocked

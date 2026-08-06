@@ -514,7 +514,6 @@ polistart
 polisted
 polity
 pons
-poo
 poole
 pools
 poonly

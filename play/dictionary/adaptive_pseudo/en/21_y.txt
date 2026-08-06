@@ -428,8 +428,6 @@ psychine
 psyching
 psychinis
 psychinish
-psychink
-psychinket
 psychip
 psychips
 psycho
@@ -785,7 +783,6 @@ wry
 wryly
 yawn
 yeah
-yearchink
 yearchway
 yeard
 yearin

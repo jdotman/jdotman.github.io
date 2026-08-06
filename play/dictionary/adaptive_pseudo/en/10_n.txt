@@ -173,7 +173,6 @@ intinue
 intle
 ints
 lan
-lanall
 lanate
 lanater
 lanatinue

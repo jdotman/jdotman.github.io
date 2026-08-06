@@ -210,7 +210,6 @@ intly
 ints
 inty
 lan
-lanall
 lanation
 lanaturn
 laned

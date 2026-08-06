@@ -6,7 +6,6 @@ aladdinnot
 alade
 alads
 alan
-alanal
 aland
 alane
 alaned
@@ -34,8 +33,6 @@ alreat
 alreate
 als
 ana
-analist
-anall
 anate
 anated
 anatend
@@ -570,7 +567,6 @@ seature
 seatured
 seaturn
 slan
-slanal
 sland
 slander
 slane
