@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-08-08T08:00:06Z",
-  "records": []
+  "fetched_at": "2026-08-09T08:50:01Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "kang bagus",
+      "owner_id": "16c6ccde-c987-4efe-9d1f-3efa785a1a04",
+      "score": 120990,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 71.54920000000001, \"level\": 29, \"accuracy\": 0.9675803124078987, \"elapsedMs\": 548017.9000000001, \"startedAtMs\": 1786264428173.1}",
+      "create_time": "2026-08-09T08:43:00Z",
+      "update_time": "2026-08-09T08:43:00Z",
+      "steam_id": "76561198017502252",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/41c52e8f4a88f83b595a72311155e4cd02935a71_medium.jpg"
+    }
+  ]
 }
