@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicExpertScoreLifetime",
-  "fetched_at": "2026-08-09T06:22:03Z",
+  "fetched_at": "2026-08-10T07:55:08Z",
   "records": [
     {
       "rank": 1,
@@ -17,6 +17,19 @@
     },
     {
       "rank": 2,
+      "username": "kang bagus",
+      "owner_id": "16c6ccde-c987-4efe-9d1f-3efa785a1a04",
+      "score": 238436,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 75.50351351351351, \"level\": 21, \"accuracy\": 0.9824649298597194, \"elapsedMs\": 314033.8999999992, \"startedAtMs\": 1786347976106.1}",
+      "create_time": "2026-08-10T07:51:30Z",
+      "update_time": "2026-08-10T07:51:30Z",
+      "steam_id": "76561198017502252",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/41c52e8f4a88f83b595a72311155e4cd02935a71_medium.jpg"
+    },
+    {
+      "rank": 3,
       "username": "crazydan05",
       "owner_id": "831011e4-ec0c-4f16-af9a-c52d50addd4d",
       "score": 223066,
@@ -29,7 +42,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/c01873488a4908993aef80bf5e8871df10027f71_medium.jpg"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "username": "allo",
       "owner_id": "5531f43a-ff3a-46b8-b5eb-854603de4e94",
       "score": 213795,
@@ -42,7 +55,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/a98562f84af9f58b48c4d5b69f0992900510e7e3_medium.jpg"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "username": "symphony",
       "owner_id": "8a84ff15-1e0f-4d11-8242-eab553edc862",
       "score": 195852,
@@ -55,7 +68,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/62290681848b99e427f0a1ab984cfbe7f88ecf91_medium.jpg"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "username": "TheSpankMan",
       "owner_id": "d0c6e761-d1e0-4d4f-aada-2f8d6e1fffcd",
       "score": 180880,
@@ -68,7 +81,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/bd8c862b780bf8a4c57c3cda55419dc54d85775e_medium.jpg"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "username": "nikola tensor",
       "owner_id": "4ff18b8e-be64-4039-b71a-cf2ca1a0e8e3",
       "score": 144584,
@@ -81,7 +94,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/b2a3bb9e20a87f3ae7b0b31cfc5af79f640e61a1_medium.jpg"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "username": "Sholee",
       "owner_id": "bc5c9d93-2359-42a5-bb81-618d97693d8c",
       "score": 141158,
@@ -94,7 +107,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/9b732621e0f4605c0b05bcdf740ebf36cfca6b6e_medium.jpg"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "username": "HunnyBadger",
       "owner_id": "89df2d1b-48cf-4c2a-87b8-4cbfd94a7e43",
       "score": 137296,
@@ -107,7 +120,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/8b84adbdb97b0f57819150d36cc300715d8ba5c5_medium.jpg"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "username": "kC",
       "owner_id": "fea50cbd-effd-43e0-95a0-10300e1f5722",
       "score": 127952,
@@ -118,19 +131,6 @@
       "update_time": "2026-06-25T18:39:07Z",
       "steam_id": "76561197965817175",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/59305ce329204cff4d0370a0ce4f1bd025758cec_medium.jpg"
-    },
-    {
-      "rank": 10,
-      "username": "Dale and Dale",
-      "owner_id": "2bcfa686-6207-455e-95d1-4c02cbc335cb",
-      "score": 98272,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 58.811647058823525, \"level\": 18, \"accuracy\": 0.9582893347412883, \"elapsedMs\": 380316.79999999993, \"startedAtMs\": 1784062075345.2}",
-      "create_time": "2026-07-14T20:54:19Z",
-      "update_time": "2026-07-14T20:54:19Z",
-      "steam_id": "76561198048237724",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/3f4e52691b11ea1f1e05bde7fc5c68dc92071602_medium.jpg"
     }
   ]
 }
