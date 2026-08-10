@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicScoreLifetime",
-  "fetched_at": "2026-08-10T02:10:08Z",
+  "fetched_at": "2026-08-10T11:00:18Z",
   "records": [
     {
       "rank": 1,
+      "username": "kang bagus",
+      "owner_id": "16c6ccde-c987-4efe-9d1f-3efa785a1a04",
+      "score": 275304,
+      "subscore": null,
+      "num_score": 2,
+      "metadata": "{\"wpm\": 77.80580645161288, \"level\": 34, \"accuracy\": 0.985040797824116, \"elapsedMs\": 688934.5000000007, \"startedAtMs\": 1786358387966.5}",
+      "create_time": "2026-08-07T16:27:03Z",
+      "update_time": "2026-08-10T10:51:18Z",
+      "steam_id": "76561198017502252",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/41c52e8f4a88f83b595a72311155e4cd02935a71_medium.jpg"
+    },
+    {
+      "rank": 2,
       "username": "Sholee",
       "owner_id": "bc5c9d93-2359-42a5-bb81-618d97693d8c",
       "score": 239276,
@@ -16,7 +29,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/9b732621e0f4605c0b05bcdf740ebf36cfca6b6e_medium.jpg"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "username": "takuya",
       "owner_id": "23a806fc-65c3-425c-8637-2e3dc45466a2",
       "score": 220454,
@@ -29,7 +42,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/0277bf0f88c3cd7bd22aecb0c6816fd3f62f33f5_medium.jpg"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "username": "Killua",
       "owner_id": "f86cb583-cc69-4e68-9590-ae42c76a63bb",
       "score": 196199,
@@ -42,7 +55,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/e88f732d1dab38b606f32e05434a52e3ec787974_medium.jpg"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "username": "Evosayne",
       "owner_id": "765a74fd-de45-438e-9eab-2ee86a071cb3",
       "score": 155137,
@@ -55,7 +68,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/c4b75bdd0d7f9e56d992e64037cab5ed4245bb2b_medium.jpg"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "username": "HeyBaylee",
       "owner_id": "6b0190c2-2d1d-4f5e-b726-1e3de7a28f3a",
       "score": 152263,
@@ -66,19 +79,6 @@
       "update_time": "2026-05-15T13:21:16Z",
       "steam_id": "76561199121820839",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/cff11a8a03adfec7d1a981aab5dc8731993b389d_medium.jpg"
-    },
-    {
-      "rank": 6,
-      "username": "kang bagus",
-      "owner_id": "16c6ccde-c987-4efe-9d1f-3efa785a1a04",
-      "score": 141170,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 77.02291338582675, \"level\": 29, \"accuracy\": 0.9657190635451505, \"elapsedMs\": 558002.0000001909, \"startedAtMs\": 1786119463110}",
-      "create_time": "2026-08-07T16:27:03Z",
-      "update_time": "2026-08-07T16:27:03Z",
-      "steam_id": "76561198017502252",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/41c52e8f4a88f83b595a72311155e4cd02935a71_medium.jpg"
     },
     {
       "rank": 7,
