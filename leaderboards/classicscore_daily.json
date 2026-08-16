@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-08-16T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-08-16T21:30:02Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "Sass",
+      "owner_id": "0c40fc63-e0cf-4097-b510-b204cc8015af",
+      "score": 5247,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 33.47, \"level\": 6, \"accuracy\": 0.9057377049180327, \"elapsedMs\": 95942.3, \"startedAtMs\": 1786915667740.7}",
+      "create_time": "2026-08-16T21:29:25Z",
+      "update_time": "2026-08-16T21:29:25Z",
+      "steam_id": "76561197961907567",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/d2fa569fe2a62851837a7d829ab76c814c007221_medium.jpg"
+    }
+  ]
 }
