@@ -1,19 +1,5 @@
 {
   "leaderboard_id": "ClassicExpertScoreWeekly",
-  "fetched_at": "2026-08-16T15:11:01Z",
-  "records": [
-    {
-      "rank": 1,
-      "username": "kang bagus",
-      "owner_id": "16c6ccde-c987-4efe-9d1f-3efa785a1a04",
-      "score": 352484,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 75.32633333333332, \"level\": 22, \"accuracy\": 0.9910093992644053, \"elapsedMs\": 396034.69999971386, \"startedAtMs\": 1786357752598.3}",
-      "create_time": "2026-08-10T10:35:52Z",
-      "update_time": "2026-08-10T10:35:52Z",
-      "steam_id": "76561198017502252",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/41c52e8f4a88f83b595a72311155e4cd02935a71_medium.jpg"
-    }
-  ]
+  "fetched_at": "2026-08-17T08:00:01Z",
+  "records": []
 }
