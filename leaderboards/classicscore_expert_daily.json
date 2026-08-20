@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicExpertScoreDaily",
-  "fetched_at": "2026-08-20T19:55:02Z",
+  "fetched_at": "2026-08-20T23:11:02Z",
   "records": [
     {
       "rank": 1,
+      "username": "killathedon99",
+      "owner_id": "ade9075d-5694-4aed-b03b-85bf995d28f0",
+      "score": 18404,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 46.40758620689657, \"level\": 9, \"accuracy\": 0.9329140461215933, \"elapsedMs\": 119367.10000000033, \"startedAtMs\": 1787266843057.9}",
+      "create_time": "2026-08-20T23:02:41Z",
+      "update_time": "2026-08-20T23:02:41Z",
+      "steam_id": "76561198130423221",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/35eb160491883774111c26ca0baea019d8990f91_medium.jpg"
+    },
+    {
+      "rank": 2,
       "username": "kang bagus",
       "owner_id": "16c6ccde-c987-4efe-9d1f-3efa785a1a04",
       "score": 17482,

@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicExpertScoreWeekly",
-  "fetched_at": "2026-08-17T15:22:01Z",
+  "fetched_at": "2026-08-20T23:11:02Z",
   "records": [
     {
       "rank": 1,
@@ -14,6 +14,19 @@
       "update_time": "2026-08-17T15:13:19Z",
       "steam_id": "76561198017502252",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/41c52e8f4a88f83b595a72311155e4cd02935a71_medium.jpg"
+    },
+    {
+      "rank": 2,
+      "username": "killathedon99",
+      "owner_id": "ade9075d-5694-4aed-b03b-85bf995d28f0",
+      "score": 18404,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 46.40758620689657, \"level\": 9, \"accuracy\": 0.9329140461215933, \"elapsedMs\": 119367.10000000033, \"startedAtMs\": 1787266843057.9}",
+      "create_time": "2026-08-20T23:02:41Z",
+      "update_time": "2026-08-20T23:02:41Z",
+      "steam_id": "76561198130423221",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/35eb160491883774111c26ca0baea019d8990f91_medium.jpg"
     }
   ]
 }
