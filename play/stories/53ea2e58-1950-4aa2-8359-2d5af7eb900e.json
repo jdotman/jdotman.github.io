@@ -41,19 +41,19 @@
           "hint": "The grip fits your hand and the edge is sharp enough where it counts."
         },
         {
-          "label": "take the staff",
+          "label": "grip the staff",
           "nextNode": "arena-first",
           "hint": "The iron rings give it reach and weight - a defensive fighter's tool."
         },
         {
-          "label": "take the net",
+          "label": "sling the net",
           "nextNode": "arena-first-net",
           "hint": "The lead weights clink softly as you coil the net over your arm."
         }
       ]
     },
     "bell-summon": {
-      "passage": "You ring the bell and a thin woman in a red robe appears on the other side of the bars. She calls herself Maren and says she handles bets for the pit master. She offers you a deal: throw your second fight and she will leave a door unlocked after the third. Her eyes are sharp and she does not blink.",
+      "passage": "The bell's ring brings a thin woman in a red robe to the other side of the bars. She calls herself Maren and says she handles bets for the pit master. She offers you a deal: throw your second fight and she will leave a door unlocked after the third. Her eyes are sharp and she does not blink.",
       "choices": [
         {
           "label": "accept the deal",
@@ -158,7 +158,7 @@
       ]
     },
     "between-rounds": {
-      "passage": "You sit on the stone bench and drink from a clay jug left by the guard. The water is warm but welcome. Through the bars you see other fighters being led past - a huge man with scarred arms and a boy barely old enough to hold a blade. The boy catches your eye and mouths the word help.",
+      "passage": "A clay jug left by the guard sits within reach as you rest on the stone bench. The water is warm but welcome. Through the bars you see other fighters being led past - a huge man with scarred arms and a boy barely old enough to hold a blade. The boy catches your eye and mouths the word help.",
       "choices": [
         {
           "label": "call the boy over",
@@ -173,7 +173,7 @@
       ]
     },
     "corridor-explore": {
-      "passage": "You slip down the corridor past empty cells and storage rooms. At the end you find a heavy door marked with the pit master's seal. It is locked but the lock is old and loose. Beyond it you hear the clink of coins and low voices. A torch bracket on the wall holds a bent iron rod that might work as a pick.",
+      "passage": "Empty cells and storage rooms line the corridor as you slip past them. At the end you find a heavy door marked with the pit master's seal. It is locked but the lock is old and loose. Beyond it you hear the clink of coins and low voices. A torch bracket on the wall holds a bent iron rod that might work as a pick.",
       "choices": [
         {
           "label": "pick the lock",
@@ -413,7 +413,7 @@
       }
     },
     "champion-aggressive": {
-      "passage": "You dart in fast and land two quick strikes on Korran's arm. He barely flinches. His counter swing clips your shoulder and sends you rolling through the sand. You recover but your left arm is numb. Korran advances slowly. The crowd holds its breath. One more mistake and this is over.",
+      "passage": "Two quick strikes land hard on Korran's arm, but he barely flinches under the black armor. His counter swing clips your shoulder and sends you rolling through the sand. You recover but your left arm is numb. Korran advances slowly. The crowd holds its breath. One more mistake and this is over.",
       "choices": [
         {
           "label": "go for his legs",
@@ -443,7 +443,7 @@
       ]
     },
     "champion-victory": {
-      "passage": "Your blade catches Korran behind the knee and the big man crashes to the sand. His sword falls from his hand and the crowd erupts. The pit master stands white-faced in his box. You plant your weapon in the ground and raise your fist. Three bouts. Three wins. The gate swings open and daylight floods the tunnel beyond.",
+      "passage": "Your blade catches Korran behind the knee and the big man crashes to the sand. His sword falls from his hand and the crowd erupts. The pit master stands white-faced in his box. You plant your weapon in the ground and raise your fist. Three bouts fought, and the last one is yours. The gate swings open and daylight floods the tunnel beyond.",
       "choices": [],
       "ending": {
         "title": "Champion of Ashenmoor",
