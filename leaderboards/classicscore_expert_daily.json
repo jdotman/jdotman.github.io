@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicExpertScoreDaily",
-  "fetched_at": "2026-08-21T08:00:02Z",
-  "records": []
+  "fetched_at": "2026-08-23T00:00:02Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "jaysonciburn",
+      "owner_id": "9791af6a-ea12-4b51-89f7-a021e26187b0",
+      "score": 37176,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 54.67909090909089, \"level\": 12, \"accuracy\": 0.9292682926829269, \"elapsedMs\": 185786.9000000006, \"startedAtMs\": 1787443001691.1}",
+      "create_time": "2026-08-22T23:59:46Z",
+      "update_time": "2026-08-22T23:59:46Z",
+      "steam_id": "76561199735116647",
+      "avatar_medium": null
+    }
+  ]
 }
