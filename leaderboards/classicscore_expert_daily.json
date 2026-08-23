@@ -1,9 +1,22 @@
 {
   "leaderboard_id": "ClassicExpertScoreDaily",
-  "fetched_at": "2026-08-23T00:00:02Z",
+  "fetched_at": "2026-08-23T05:33:01Z",
   "records": [
     {
       "rank": 1,
+      "username": "DamGoodCoffee",
+      "owner_id": "779979de-87c8-45e0-a9cb-f82cdd6f757e",
+      "score": 77669,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 48.99395061728398, \"level\": 16, \"accuracy\": 0.9404283801874164, \"elapsedMs\": 361265.2999999996, \"startedAtMs\": 1787462422144.7}",
+      "create_time": "2026-08-23T05:26:27Z",
+      "update_time": "2026-08-23T05:26:27Z",
+      "steam_id": "76561198362418991",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/2b7e27c22bd94056bfa77a98695131c05c13d605_medium.jpg"
+    },
+    {
+      "rank": 2,
       "username": "jaysonciburn",
       "owner_id": "9791af6a-ea12-4b51-89f7-a021e26187b0",
       "score": 37176,
