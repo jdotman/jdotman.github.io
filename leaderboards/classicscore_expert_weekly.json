@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicExpertScoreWeekly",
-  "fetched_at": "2026-08-23T19:11:12Z",
+  "fetched_at": "2026-08-23T19:22:01Z",
   "records": [
     {
       "rank": 1,
@@ -26,7 +26,7 @@
       "create_time": "2026-08-23T05:26:27Z",
       "update_time": "2026-08-23T05:26:27Z",
       "steam_id": "76561198362418991",
-      "avatar_medium": null
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/2b7e27c22bd94056bfa77a98695131c05c13d605_medium.jpg"
     },
     {
       "rank": 3,
