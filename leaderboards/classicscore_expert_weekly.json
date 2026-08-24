@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicExpertScoreWeekly",
-  "fetched_at": "2026-08-24T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-08-24T13:44:02Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "Daemondy",
+      "owner_id": "50005a91-29b6-441b-a04b-1d629fa28c6c",
+      "score": 88985,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 84.88255319148936, \"level\": 16, \"accuracy\": 0.9436823104693141, \"elapsedMs\": 195495.00000000047, \"startedAtMs\": 1787578558604}",
+      "create_time": "2026-08-24T13:39:41Z",
+      "update_time": "2026-08-24T13:39:41Z",
+      "steam_id": "76561198056000409",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/1df3535a6f4c9bcf76d310fff46700d18b98412c_medium.jpg"
+    }
+  ]
 }
