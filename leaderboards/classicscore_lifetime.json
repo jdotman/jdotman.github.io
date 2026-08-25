@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreLifetime",
-  "fetched_at": "2026-08-25T08:10:12Z",
+  "fetched_at": "2026-08-25T22:50:57Z",
   "records": [
     {
       "rank": 1,
@@ -26,7 +26,7 @@
       "create_time": "2026-05-08T01:59:46Z",
       "update_time": "2026-05-21T00:12:33Z",
       "steam_id": "76561198039817211",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/9b732621e0f4605c0b05bcdf740ebf36cfca6b6e_medium.jpg"
+      "avatar_medium": null
     },
     {
       "rank": 3,
@@ -52,7 +52,7 @@
       "create_time": "2026-05-19T02:21:20Z",
       "update_time": "2026-05-19T02:21:20Z",
       "steam_id": "76561197974741810",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/e88f732d1dab38b606f32e05434a52e3ec787974_medium.jpg"
+      "avatar_medium": null
     },
     {
       "rank": 5,
@@ -104,7 +104,7 @@
       "create_time": "2026-07-26T18:14:43Z",
       "update_time": "2026-07-26T18:14:43Z",
       "steam_id": "76561198035355955",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/62290681848b99e427f0a1ab984cfbe7f88ecf91_medium.jpg"
+      "avatar_medium": null
     },
     {
       "rank": 9,
@@ -130,7 +130,7 @@
       "create_time": "2026-05-22T00:35:06Z",
       "update_time": "2026-07-30T00:12:22Z",
       "steam_id": "76561197976856083",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/0ec566e853a68fd7605cd18cb5d30ce332960596_medium.jpg"
+      "avatar_medium": null
     }
   ]
 }
