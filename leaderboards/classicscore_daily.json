@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicScoreDaily",
-  "fetched_at": "2026-08-25T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-08-27T13:30:07Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "Epic",
+      "owner_id": "86f2a14f-c2cd-4081-af47-fdfb1cb6bf47",
+      "score": 1034,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 17.810624999999998, \"level\": 4, \"accuracy\": 0.7983193277310925, \"elapsedMs\": 69485.90000000002, \"startedAtMs\": 1787836809632.1}",
+      "create_time": "2026-08-27T13:21:19Z",
+      "update_time": "2026-08-27T13:21:19Z",
+      "steam_id": "76561198046825227",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/b64297f5e23d4d4e0cb19518b494825823cafbbf_medium.jpg"
+    }
+  ]
 }
