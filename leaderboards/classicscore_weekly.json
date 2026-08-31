@@ -1,32 +1,5 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-08-29T15:00:07Z",
-  "records": [
-    {
-      "rank": 1,
-      "username": "kang bagus",
-      "owner_id": "16c6ccde-c987-4efe-9d1f-3efa785a1a04",
-      "score": 207361,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 73.6916, \"level\": 34, \"accuracy\": 0.9750529536361496, \"elapsedMs\": 675131.6000000001, \"startedAtMs\": 1787604431036.4}",
-      "create_time": "2026-08-24T20:58:26Z",
-      "update_time": "2026-08-24T20:58:26Z",
-      "steam_id": "76561198017502252",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/41c52e8f4a88f83b595a72311155e4cd02935a71_medium.jpg"
-    },
-    {
-      "rank": 2,
-      "username": "Epic",
-      "owner_id": "86f2a14f-c2cd-4081-af47-fdfb1cb6bf47",
-      "score": 5337,
-      "subscore": null,
-      "num_score": 2,
-      "metadata": "{\"wpm\": 21.33139534883721, \"level\": 8, \"accuracy\": 0.8325358851674641, \"elapsedMs\": 202251.10000000003, \"startedAtMs\": 1788014977183.9}",
-      "create_time": "2026-08-27T13:21:19Z",
-      "update_time": "2026-08-29T14:53:04Z",
-      "steam_id": "76561198046825227",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/b64297f5e23d4d4e0cb19518b494825823cafbbf_medium.jpg"
-    }
-  ]
+  "fetched_at": "2026-08-31T08:00:02Z",
+  "records": []
 }
