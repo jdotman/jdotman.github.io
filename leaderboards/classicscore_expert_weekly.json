@@ -1,17 +1,17 @@
 {
   "leaderboard_id": "ClassicExpertScoreWeekly",
-  "fetched_at": "2026-09-04T00:33:02Z",
+  "fetched_at": "2026-09-04T00:44:02Z",
   "records": [
     {
       "rank": 1,
       "username": "mole_b_",
       "owner_id": "1b9cb9c5-8359-41ee-8db9-ee43cd4de418",
-      "score": 98430,
+      "score": 159626,
       "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 60.04586956521739, \"level\": 13, \"accuracy\": 0.9786585365853658, \"elapsedMs\": 193489.99999990646, \"startedAtMs\": 1788481781971}",
+      "num_score": 2,
+      "metadata": "{\"wpm\": 62.17317073170734, \"level\": 20, \"accuracy\": 0.9823376623376623, \"elapsedMs\": 365603.3999999998, \"startedAtMs\": 1788482178726.6}",
       "create_time": "2026-09-04T00:32:57Z",
-      "update_time": "2026-09-04T00:32:57Z",
+      "update_time": "2026-09-04T00:42:24Z",
       "steam_id": "76561198099710473",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
     }

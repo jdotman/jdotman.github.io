@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicExpertScoreLifetime",
-  "fetched_at": "2026-09-02T00:22:07Z",
+  "fetched_at": "2026-09-04T00:44:09Z",
   "records": [
     {
       "rank": 1,
@@ -82,6 +82,19 @@
     },
     {
       "rank": 7,
+      "username": "mole_b_",
+      "owner_id": "1b9cb9c5-8359-41ee-8db9-ee43cd4de418",
+      "score": 159626,
+      "subscore": null,
+      "num_score": 2,
+      "metadata": "{\"wpm\": 62.17317073170734, \"level\": 20, \"accuracy\": 0.9823376623376623, \"elapsedMs\": 365603.3999999998, \"startedAtMs\": 1788482178726.6}",
+      "create_time": "2026-09-04T00:32:57Z",
+      "update_time": "2026-09-04T00:42:24Z",
+      "steam_id": "76561198099710473",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
+    },
+    {
+      "rank": 8,
       "username": "nikola tensor",
       "owner_id": "4ff18b8e-be64-4039-b71a-cf2ca1a0e8e3",
       "score": 144584,
@@ -94,7 +107,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/b2a3bb9e20a87f3ae7b0b31cfc5af79f640e61a1_medium.jpg"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "username": "Sholee",
       "owner_id": "bc5c9d93-2359-42a5-bb81-618d97693d8c",
       "score": 141158,
@@ -107,7 +120,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/9b732621e0f4605c0b05bcdf740ebf36cfca6b6e_medium.jpg"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "username": "HunnyBadger",
       "owner_id": "89df2d1b-48cf-4c2a-87b8-4cbfd94a7e43",
       "score": 137296,
@@ -118,19 +131,6 @@
       "update_time": "2026-07-27T03:26:05Z",
       "steam_id": "76561198974079194",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/8b84adbdb97b0f57819150d36cc300715d8ba5c5_medium.jpg"
-    },
-    {
-      "rank": 10,
-      "username": "kC",
-      "owner_id": "fea50cbd-effd-43e0-95a0-10300e1f5722",
-      "score": 127952,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 76.37301886792454, \"level\": 17, \"accuracy\": 0.9789115646258504, \"elapsedMs\": 225715.60000000003, \"startedAtMs\": 1782412516759.4}",
-      "create_time": "2026-06-25T18:39:07Z",
-      "update_time": "2026-06-25T18:39:07Z",
-      "steam_id": "76561197965817175",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/59305ce329204cff4d0370a0ce4f1bd025758cec_medium.jpg"
     }
   ]
 }
