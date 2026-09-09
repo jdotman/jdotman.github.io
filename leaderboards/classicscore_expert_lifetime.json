@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicExpertScoreLifetime",
-  "fetched_at": "2026-09-04T00:44:09Z",
+  "fetched_at": "2026-09-09T01:11:12Z",
   "records": [
     {
       "rank": 1,
@@ -69,6 +69,19 @@
     },
     {
       "rank": 6,
+      "username": "mole_b_",
+      "owner_id": "1b9cb9c5-8359-41ee-8db9-ee43cd4de418",
+      "score": 184781,
+      "subscore": null,
+      "num_score": 3,
+      "metadata": "{\"wpm\": 65.81088235294119, \"level\": 18, \"accuracy\": 0.9836363636363636, \"elapsedMs\": 300155.59999999986, \"startedAtMs\": 1788915878542.4}",
+      "create_time": "2026-09-04T00:32:57Z",
+      "update_time": "2026-09-09T01:09:41Z",
+      "steam_id": "76561198099710473",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
+    },
+    {
+      "rank": 7,
       "username": "TheSpankMan",
       "owner_id": "d0c6e761-d1e0-4d4f-aada-2f8d6e1fffcd",
       "score": 180880,
@@ -79,19 +92,6 @@
       "update_time": "2026-07-16T00:04:59Z",
       "steam_id": "76561198002404903",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/bd8c862b780bf8a4c57c3cda55419dc54d85775e_medium.jpg"
-    },
-    {
-      "rank": 7,
-      "username": "mole_b_",
-      "owner_id": "1b9cb9c5-8359-41ee-8db9-ee43cd4de418",
-      "score": 159626,
-      "subscore": null,
-      "num_score": 2,
-      "metadata": "{\"wpm\": 62.17317073170734, \"level\": 20, \"accuracy\": 0.9823376623376623, \"elapsedMs\": 365603.3999999998, \"startedAtMs\": 1788482178726.6}",
-      "create_time": "2026-09-04T00:32:57Z",
-      "update_time": "2026-09-04T00:42:24Z",
-      "steam_id": "76561198099710473",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
     },
     {
       "rank": 8,
