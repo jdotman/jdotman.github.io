@@ -386,7 +386,7 @@
       }
     },
     "revolt-arena": {
-      "passage": "You lead the fighters through the gate and into the arena. The crowd scrambles. Guards rush forward but twelve angry fighters are more than they can handle. The pit master tries to flee his box but Tam trips him with a rope. The city watch arrives and finds the ledgers, the drugs, and the pit master on the sand.",
+      "passage": "You push past the gate and into the arena. The crowd scrambles and guards rush in from every side, but the chaos spreads faster than they can contain it. The pit master tries to flee his box and stumbles over a loose plank, going down hard. The city watch arrives and finds the ledgers, the drugs, and the pit master on the sand.",
       "choices": [],
       "ending": {
         "title": "The Pit Falls",
@@ -408,7 +408,7 @@
       "choices": [],
       "ending": {
         "title": "The Ledger's Truth",
-        "flavor": "The pen brought down what no sword in the arena could.",
+        "flavor": "The city watch reads the ledger's proof, and the pit master is arrested before he reaches the gate.",
         "action": "hand the roster to the watch"
       }
     },
@@ -447,7 +447,7 @@
       "choices": [],
       "ending": {
         "title": "Champion of Ashenmoor",
-        "flavor": "The sand remembers every fighter but only the best walk free.",
+        "flavor": "You beat Korran, the pit master's undefeated champion, and the gate finally opens for you.",
         "action": "walk through the gate"
       }
     },
@@ -456,7 +456,7 @@
       "choices": [],
       "ending": {
         "title": "The Wiser Choice",
-        "flavor": "Pride stays in the sand but your bones walk out whole.",
+        "flavor": "You yielded before Korran finished the swing, and you walk out of the arena bruised but alive.",
         "action": "limp through the gate"
       }
     },
@@ -474,7 +474,7 @@
       "choices": [],
       "ending": {
         "title": "The Weight of Leaving",
-        "flavor": "Freedom without honor is just a longer road to nowhere.",
+        "flavor": "You are free, but Tam's voice stays with you, and by nightfall you are staring back toward the town.",
         "action": "stare back at the town"
       }
     },

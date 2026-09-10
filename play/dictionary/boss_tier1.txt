@@ -13,7 +13,7 @@ The bandit king grins and hurls a flurry of sharp daggers at you.
 Your shield catches the strike and the impact rattles your bones.
 Frost and fury fill the air as the giant swings his ice club.
 A pack of wolves circles the bleeding knight in the starlit glade.
-The coiled serpent hisses loudly and lunges with venomed fangs.
+The coiled serpent hisses loudly and lunges with venomous fangs.
 The shadow witch casts a creeping darkness upon your weary eyes.
 The minotaur lowers its horns and charges across the bloody arena.
 Your torch fails as the cold breath of the wraith closes around you.
@@ -64,7 +64,7 @@ Rusted chains hang from the ceiling of the cold stone dungeon.
 Pale mushrooms grow in clusters along the damp cavern walls.
 Distant drums echo deep within the frozen mountain fortress.
 Cracked skulls sit in rows along the alcoves of the bone hall.
-Flickering torches cast long shadows across the blood stained floor.
+Flickering torches cast long shadows across the bloodstained floor.
 Old banners hang in tatters from the rafters of the ruined chapel.
 Still water fills the flooded crypt and reflects a pale green glow.
 Broken columns line the path to the dark throne at the far end.
