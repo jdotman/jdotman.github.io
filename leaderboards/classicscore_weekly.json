@@ -1,32 +1,5 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-09-21T04:50:01Z",
-  "records": [
-    {
-      "rank": 1,
-      "username": "LadyoftheDevils",
-      "owner_id": "1ec157ec-c6f1-497f-be8f-a8359ba49363",
-      "score": 105980,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 49.97978723404254, \"level\": 25, \"accuracy\": 0.9803625377643505, \"elapsedMs\": 631786.7999999998, \"startedAtMs\": 1789587293800.2}",
-      "create_time": "2026-09-16T19:45:27Z",
-      "update_time": "2026-09-16T19:45:27Z",
-      "steam_id": "76561198122956820",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/ff14a9e3e09f10dee5aa8f996c5f28001251cbb2_medium.jpg"
-    },
-    {
-      "rank": 2,
-      "username": "StriveFPS",
-      "owner_id": "ad7f5d9e-9428-4dd1-a9ba-7933324f688f",
-      "score": 81788,
-      "subscore": null,
-      "num_score": 1,
-      "metadata": "{\"wpm\": 53.68487804878052, \"level\": 29, \"accuracy\": 0.9577343300747556, \"elapsedMs\": 758679.0000000009, \"startedAtMs\": 1789607532031}",
-      "create_time": "2026-09-17T01:24:40Z",
-      "update_time": "2026-09-17T01:24:40Z",
-      "steam_id": "76561198216417331",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/87f2a0eec26c94c1d37d65e54d9ddfa2fa232359_medium.jpg"
-    }
-  ]
+  "fetched_at": "2026-09-21T08:00:02Z",
+  "records": []
 }
