@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicScoreLifetime",
-  "fetched_at": "2026-09-21T13:30:04Z",
+  "fetched_at": "2026-09-21T17:40:03Z",
   "records": [
     {
       "rank": 1,
@@ -95,6 +95,19 @@
     },
     {
       "rank": 8,
+      "username": "LadyoftheDevils",
+      "owner_id": "1ec157ec-c6f1-497f-be8f-a8359ba49363",
+      "score": 131740,
+      "subscore": null,
+      "num_score": 9,
+      "metadata": "{\"wpm\": 46.73339506172836, \"level\": 25, \"accuracy\": 0.9824438202247191, \"elapsedMs\": 733769.6000000001, \"startedAtMs\": 1790011642495.4}",
+      "create_time": "2026-05-26T11:06:56Z",
+      "update_time": "2026-09-21T17:39:35Z",
+      "steam_id": "76561198122956820",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/ff14a9e3e09f10dee5aa8f996c5f28001251cbb2_medium.jpg"
+    },
+    {
+      "rank": 9,
       "username": "symphony",
       "owner_id": "8a84ff15-1e0f-4d11-8242-eab553edc862",
       "score": 130326,
@@ -107,7 +120,7 @@
       "avatar_medium": "https://avatars.fastly.steamstatic.com/62290681848b99e427f0a1ab984cfbe7f88ecf91_medium.jpg"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "username": "StriveFPS",
       "owner_id": "ad7f5d9e-9428-4dd1-a9ba-7933324f688f",
       "score": 129060,
@@ -118,19 +131,6 @@
       "update_time": "2026-06-14T22:28:25Z",
       "steam_id": "76561198216417331",
       "avatar_medium": "https://avatars.fastly.steamstatic.com/87f2a0eec26c94c1d37d65e54d9ddfa2fa232359_medium.jpg"
-    },
-    {
-      "rank": 10,
-      "username": "J.Man",
-      "owner_id": "734152d5-43ea-4762-ac7c-6f91bcd7d9ab",
-      "score": 118313,
-      "subscore": null,
-      "num_score": 6,
-      "metadata": "{\"wpm\": 107.73066666666665, \"level\": 19, \"accuracy\": 0.9895493141737427, \"elapsedMs\": 176161.09999999698, \"startedAtMs\": 1785370163880.9}",
-      "create_time": "2026-05-22T00:35:06Z",
-      "update_time": "2026-07-30T00:12:22Z",
-      "steam_id": "76561197976856083",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/0ec566e853a68fd7605cd18cb5d30ce332960596_medium.jpg"
     }
   ]
 }
