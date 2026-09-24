@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicExpertScoreLifetime",
-  "fetched_at": "2026-09-24T08:00:23Z",
+  "fetched_at": "2026-09-24T08:11:06Z",
   "records": [
     {
       "rank": 1,
@@ -130,7 +130,7 @@
       "create_time": "2026-07-27T03:26:05Z",
       "update_time": "2026-07-27T03:26:05Z",
       "steam_id": "76561198974079194",
-      "avatar_medium": null
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/8b84adbdb97b0f57819150d36cc300715d8ba5c5_medium.jpg"
     }
   ]
 }
