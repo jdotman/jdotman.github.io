@@ -1,5 +1,19 @@
 {
   "leaderboard_id": "ClassicScoreWeekly",
-  "fetched_at": "2026-10-05T08:00:01Z",
-  "records": []
+  "fetched_at": "2026-10-10T01:00:07Z",
+  "records": [
+    {
+      "rank": 1,
+      "username": "justbethehero",
+      "owner_id": "c121c3a0-ed5a-4b48-a9d8-87cf1ce6165f",
+      "score": 8862,
+      "subscore": null,
+      "num_score": 1,
+      "metadata": "{\"wpm\": 23.68620689655172, \"level\": 10, \"accuracy\": 0.8769716088328076, \"elapsedMs\": 272005.20000000007, \"startedAtMs\": 1791593252617.8}",
+      "create_time": "2026-10-10T00:52:07Z",
+      "update_time": "2026-10-10T00:52:07Z",
+      "steam_id": "76561198209382620",
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/0f0435b891e4b5077e4c12a56c5c0e56ce86d0f2_medium.jpg"
+    }
+  ]
 }
