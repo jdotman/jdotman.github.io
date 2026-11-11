@@ -1,6 +1,6 @@
 {
   "leaderboard_id": "ClassicExpertScoreLifetime",
-  "fetched_at": "2026-11-11T02:55:23Z",
+  "fetched_at": "2026-11-11T03:00:28Z",
   "records": [
     {
       "rank": 1,
@@ -52,7 +52,7 @@
       "create_time": "2026-06-20T16:30:21Z",
       "update_time": "2026-06-27T03:09:25Z",
       "steam_id": "76561198028309019",
-      "avatar_medium": "https://avatars.fastly.steamstatic.com/a98562f84af9f58b48c4d5b69f0992900510e7e3_medium.jpg"
+      "avatar_medium": null
     },
     {
       "rank": 5,
@@ -78,7 +78,7 @@
       "create_time": "2026-09-04T00:32:57Z",
       "update_time": "2026-09-09T01:09:41Z",
       "steam_id": "76561198099710473",
-      "avatar_medium": null
+      "avatar_medium": "https://avatars.fastly.steamstatic.com/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg"
     },
     {
       "rank": 7,
